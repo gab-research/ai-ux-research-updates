@@ -24,17 +24,18 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm'
 
       - name: Install dependencies
         run: npm install
 
       - name: Fetch new content and update updates.json
+        env:
+          CURRENT_DATE: '2026-02-25'
         run: npm run update
 
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add updates.json analyses.json
+          git add updates.json analyses.json themes.json
           git diff --staged --quiet || (git commit -m "chore: auto-update content from feeds" && git push)
