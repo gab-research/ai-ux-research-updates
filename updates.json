@@ -1,0 +1,61 @@
+{
+  "title": "AI for UX Research",
+  "subtitle": "Daily updates on AI applications improving UX research efficiency",
+  "updates": [
+    {
+      "date": "2025-02-25",
+      "title": "Synthetic users for rapid concept testing",
+      "summary": "Teams are using LLM-powered synthetic users to run quick concept tests before recruiting real participants, cutting early-stage iteration time by up to 60%.",
+      "content": "Product and research teams are increasingly turning to LLM-powered synthetic users to run fast concept tests before investing in live recruitment. Instead of waiting for screener responses and scheduling sessions, researchers prompt AI personas with the same demographics and goals as their target users, then run through flows, value propositions, and copy. Early adopters report cutting early-stage iteration time by up to 60%, while still running traditional user testing on the shortlisted concepts. The key is to treat synthetic feedback as a filter, not a replacement—use it to kill weak ideas quickly and double down on the ones that survive, then validate with real users.",
+      "category": "Concept testing",
+      "source": {
+        "name": "Nielsen Norman Group - Accelerating Research with AI",
+        "url": "https://www.nngroup.com/articles/research-with-ai/"
+      }
+    },
+    {
+      "date": "2025-02-24",
+      "title": "AI summarization of interview transcripts",
+      "summary": "Tools like Marvin and Dovetail now offer one-click summarization and theme extraction from user interview transcripts, turning hours of analysis into structured insights in minutes.",
+      "content": "Tools like Marvin, Dovetail, and others now offer one-click summarization and theme extraction from user interview transcripts. Researchers upload recordings or transcripts, and the tool returns structured summaries, recurring themes, and sometimes suggested quotes—turning hours of manual analysis into a first draft in minutes. Teams use these outputs as a starting point: they still review and refine, but the heavy lifting of pattern-finding is accelerated. Best practice is to keep the human in the loop for nuance and to avoid over-relying on AI for sensitive or ambiguous themes. When used well, this workflow lets researchers run more interviews without drowning in analysis.",
+      "category": "Interviews",
+      "source": {
+        "name": "Dovetail - AI content analysis generator",
+        "url": "https://dovetail.com/ai-content-analysis-generator/"
+      }
+    },
+    {
+      "date": "2025-02-23",
+      "title": "Automated usability issue detection",
+      "summary": "AI is being used to scan prototypes and flows to flag potential usability issues (e.g. unclear CTAs, missing feedback) before user testing, reducing redundant findings.",
+      "content": "AI is being used to scan prototypes and flows to flag potential usability issues before user testing. Systems analyze screens for unclear CTAs, missing feedback, inconsistent patterns, and accessibility red flags, then produce a report that researchers can use to fix obvious problems ahead of sessions. That way, user testing focuses on deeper questions instead of catching the same low-hanging fruit every time. Teams report fewer redundant findings and more time in sessions spent on behavior and reasoning. The caveat: automated checks don't replace real users—they help clean the slate so that when you do test, you learn something new.",
+      "category": "Usability",
+      "source": {
+        "name": "User Interviews - The 2024 AI in UX Research Report",
+        "url": "https://www.userinterviews.com/ai-in-ux-research-report"
+      }
+    },
+    {
+      "date": "2025-02-22",
+      "title": "Survey design and question optimization",
+      "summary": "Researchers are using AI to suggest clearer survey questions, reduce bias, and adapt follow-ups based on previous answers—improving response quality and completion rates.",
+      "content": "Researchers are using AI to improve survey design and question quality. Tools suggest clearer wording, flag leading or double-barreled questions, and recommend shorter, more focused items. Some platforms also support adaptive follow-ups: the next question can depend on the previous answer, so respondents see only relevant branches. The result is better response quality and higher completion rates, with less manual tuning. Teams still need to review suggestions and align questions to their research goals, but AI is speeding up the draft-and-refine loop and reducing common survey pitfalls.",
+      "category": "Surveys",
+      "source": {
+        "name": "Typeform - Smarter surveys: A modern guide to AI-powered surveys",
+        "url": "https://typeform.com/blog/ai-powered-surveys-guide"
+      }
+    },
+    {
+      "date": "2025-02-21",
+      "title": "Session replay + AI for behavior patterns",
+      "summary": "Combining session replay with AI analysis helps identify recurring drop-off patterns and confusion points at scale without manually watching hundreds of sessions.",
+      "content": "Combining session replay with AI analysis is helping teams spot behavior patterns at scale. Instead of manually watching hundreds of sessions, researchers use tools that aggregate replays and apply AI to detect recurring drop-offs, rage clicks, long hesitations, and navigation loops. The output is a digest of likely problem areas with example sessions to drill into. That makes it possible to prioritize which flows to study in depth and which to fix with design changes. The approach works best when paired with qualitative research—replay + AI surfaces the 'where,' and interviews or surveys explain the 'why.'",
+      "category": "Behavioral data",
+      "source": {
+        "name": "Hotjar - Introducing Hotjar AI (Contentsquare Sense)",
+        "url": "https://hotjar.com/blog/introducing-hotjar-ai"
+      }
+    }
+  ]
+}
