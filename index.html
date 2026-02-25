@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI for UX Research — Daily Updates</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="/" class="logo">AI in UX Research</a>
+      <p class="tagline">Daily updates on AI applications improving UX research efficiency</p>
+    </div>
+  </header>
+
+  <main>
+    <div class="layout-with-sidebar">
+      <div class="layout-main">
+        <section class="updates" aria-label="Daily updates">
+          <div class="container">
+            <h2 class="section-title">Latest updates</h2>
+            <div id="updates-feed" class="updates-feed">
+              <!-- Updates are loaded here by script.js -->
+              <p class="loading" id="loading">Loading updates…</p>
+            </div>
+          </div>
+        </section>
+      </div>
+      <aside class="sidebar" id="sidebar" aria-label="History by month" hidden>
+        <h3 class="sidebar-title">History by month</h3>
+        <nav class="sidebar-nav" id="sidebar-nav">
+          <!-- Filled by script.js -->
+        </nav>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>AI for UX Research — Curated for researchers and product teams.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

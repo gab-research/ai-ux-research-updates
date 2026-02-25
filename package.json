@@ -1,0 +1,13 @@
+{
+  "name": "ai-ux-research-updates",
+  "version": "1.0.0",
+  "description": "Auto-updating site for AI in UX research",
+  "private": true,
+  "scripts": {
+    "update": "node scripts/update-from-feeds.js",
+    "test-update": "node scripts/update-from-feeds.js"
+  },
+  "dependencies": {
+    "rss-parser": "^3.13.0"
+  }
+}

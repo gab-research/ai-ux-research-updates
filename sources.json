@@ -1,0 +1,45 @@
+{
+  "feeds": [
+    {
+      "name": "Nielsen Norman Group",
+      "url": "https://www.nngroup.com/feed/rss/"
+    },
+    {
+      "name": "Dovetail Blog",
+      "url": "https://dovetail.com/blog/feed/"
+    },
+    {
+      "name": "UX Collective (Medium)",
+      "url": "https://uxdesign.cc/feed"
+    },
+    {
+      "name": "Hotjar Blog",
+      "url": "https://hotjar.com/blog/feed/"
+    },
+    {
+      "name": "Typeform Blog",
+      "url": "https://typeform.com/blog/feed/"
+    },
+    {
+      "name": "Maze Blog",
+      "url": "https://maze.co/blog/feed/"
+    }
+  ],
+  "keywords": [
+    "AI",
+    "artificial intelligence",
+    "UX research",
+    "user research",
+    "usability",
+    "research",
+    "insights",
+    "synthesis",
+    "interviews",
+    "surveys",
+    "testing",
+    "feedback",
+    "customer intelligence"
+  ],
+  "maxUpdates": 365,
+  "daysBack": 30
+}
