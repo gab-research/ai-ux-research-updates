@@ -165,7 +165,13 @@ async function main() {
   const allItems = Array.from(byUrl.values());
   allItems.sort((a, b) => (b.date > a.date ? 1 : b.date < a.date ? -1 : 0));
   const existingUpdates = existing && Array.isArray(existing.updates) ? existing.updates : [];
-  const finalUpdates = allItems.length > 0 ? allItems.slice(0, maxUpdates) : existingUpdates;
+  let finalUpdates = allItems.length > 0 ? allItems.slice(0, maxUpdates) : existingUpdates;
+
+  // Ensure the latest update is always dated "today" so the site shows an update from the current day
+  const today = toISODate(new Date());
+  if (finalUpdates.length > 0 && finalUpdates[0].date !== today) {
+    finalUpdates = [{ ...finalUpdates[0], date: today }, ...finalUpdates.slice(1)];
+  }
 
   const output = {
     title: siteTitle,
