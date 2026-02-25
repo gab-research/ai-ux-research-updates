@@ -3,7 +3,10 @@
   const loadingEl = document.getElementById('loading');
 
   function formatDate(isoDate) {
-    const d = new Date(isoDate);
+    // Parse as local calendar date so "2025-02-25" shows as Feb 25 everywhere (avoid UTC midnight → previous day in some timezones)
+    const parts = (isoDate || '').slice(0, 10).split('-').map(Number);
+    if (parts.length !== 3 || parts.some(isNaN)) return isoDate || '';
+    const d = new Date(parts[0], parts[1] - 1, parts[2]);
     return d.toLocaleDateString('en-US', {
       year: 'numeric',
       month: 'long',
