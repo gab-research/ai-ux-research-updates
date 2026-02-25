@@ -23,6 +23,82 @@
     {
       "name": "Maze Blog",
       "url": "https://maze.co/blog/feed/"
+    },
+    {
+      "name": "Baymard Institute",
+      "url": "https://feeds.baymard.com/baymard"
+    },
+    {
+      "name": "Smashing Magazine",
+      "url": "https://www.smashingmagazine.com/feed/"
+    },
+    {
+      "name": "UXPin Blog",
+      "url": "https://blog.uxpin.com/feed"
+    },
+    {
+      "name": "UX Tweak Blog",
+      "url": "https://blog.uxtweak.com/feed/"
+    },
+    {
+      "name": "Nina News (Nina Talks)",
+      "url": "https://ninatalks.substack.com/feed"
+    },
+    {
+      "name": "UX Collective Brasil",
+      "url": "https://brasil.uxdesign.cc/feed"
+    },
+    {
+      "name": "Prototypr",
+      "url": "https://blog.prototypr.io/feed"
+    },
+    {
+      "name": "Balsamiq Blog",
+      "url": "https://balsamiq.com/blog/feed"
+    },
+    {
+      "name": "Don Norman (JND.org)",
+      "url": "https://jnd.org/feed"
+    },
+    {
+      "name": "Peter Merholz",
+      "url": "https://www.petermerholz.com/rss/"
+    },
+    {
+      "name": "Steve Portigal",
+      "url": "https://portigal.com/feed/"
+    },
+    {
+      "name": "Make Things That Matter",
+      "url": "https://makethingsthatmatter.substack.com/feed"
+    },
+    {
+      "name": "Julie Zhuo (The Looking Glass)",
+      "url": "https://lg.substack.com/feed"
+    },
+    {
+      "name": "Teresa Torres (Product Talk)",
+      "url": "https://www.producttalk.org/feed/"
+    },
+    {
+      "name": "Cassie Kozyrkov (Decision Intelligence)",
+      "url": "https://decision.substack.com/feed"
+    },
+    {
+      "name": "Ethan Mollick (One Useful Thing)",
+      "url": "https://oneusefulthing.substack.com/feed"
+    },
+    {
+      "name": "Dr. Fei-Fei Li",
+      "url": "https://drfeifei.substack.com/feed"
+    },
+    {
+      "name": "Nikki Anderson (User Research Strategist)",
+      "url": "https://userresearchacademy.substack.com/feed"
+    },
+    {
+      "name": "Jared Spool (Medium)",
+      "url": "https://jmspool.medium.com/feed"
     }
   ],
   "keywords": [
@@ -38,7 +114,20 @@
     "surveys",
     "testing",
     "feedback",
-    "customer intelligence"
+    "customer intelligence",
+    "IA",
+    "inteligência artificial",
+    "pesquisa com IA",
+    "IA na pesquisa",
+    "pesquisa de usuários",
+    "análise com IA",
+    "síntese com IA",
+    "LLM",
+    "modelos de linguagem",
+    "ferramentas de IA",
+    "automação",
+    "transcrição",
+    "resumo automático"
   ],
   "maxUpdates": 365,
   "daysBack": 30
