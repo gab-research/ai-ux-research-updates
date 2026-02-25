@@ -147,7 +147,7 @@
     sidebarEl.hidden = false;
   }
 
-  fetch('updates.json?t=' + Date.now())
+  fetch('updates.json?t=' + Date.now(), { cache: 'no-store' })
     .then(function (res) {
       if (!res.ok) throw new Error('Could not load updates.');
       return res.json();
