@@ -1,17 +1,17 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-02-26T18:26:21.787Z",
+  "lastUpdated": "2026-02-26T18:36:56.199Z",
   "updates": [
     {
       "date": "2026-02-06",
-      "title": "Best 10 Looppanel Alternatives in 2026 for Qualitative Research",
-      "summary": "Teams turn to Looppanel mostly for interview analysis and AI-assisted qualitative work, but it’s no longer the only option. As UX research matures, many teams need tools that go beyond ... The post Best 10 Looppanel Alternatives in 2026 for Qualitative Research appeared first...",
-      "content": "Teams turn to Looppanel mostly for interview analysis and AI-assisted qualitative work, but it’s no longer the only option. As UX research matures, many teams need tools that go beyond ... The post Best 10 Looppanel Alternatives in 2026 for Qualitative Research appeared first on Articles on everything UX: Research, Testing & Design.",
+      "title": "Your Design System Needs an Enforcer",
+      "summary": "Although design systems promise consistency, most still fail without someone actively enforcing the rules and making teams follow them.",
+      "content": "Although design systems promise consistency, most still fail without someone actively enforcing the rules and making teams follow them.",
       "category": "Other AI in research",
       "source": {
-        "name": "UX Tweak Blog",
-        "url": "https://blog.uxtweak.com/looppanel-alternatives/"
+        "name": "Nielsen Norman Group",
+        "url": "https://www.nngroup.com/articles/design-system-enforcer/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication"
       },
       "analysis": ""
     },
@@ -593,6 +593,18 @@
     },
     {
       "date": "2026-02-06",
+      "title": "Best 10 Looppanel Alternatives in 2026 for Qualitative Research",
+      "summary": "Teams turn to Looppanel mostly for interview analysis and AI-assisted qualitative work, but it’s no longer the only option. As UX research matures, many teams need tools that go beyond ... The post Best 10 Looppanel Alternatives in 2026 for Qualitative Research appeared first...",
+      "content": "Teams turn to Looppanel mostly for interview analysis and AI-assisted qualitative work, but it’s no longer the only option. As UX research matures, many teams need tools that go beyond ... The post Best 10 Looppanel Alternatives in 2026 for Qualitative Research appeared first on Articles on everything UX: Research, Testing & Design.",
+      "category": "Other AI in research",
+      "source": {
+        "name": "UX Tweak Blog",
+        "url": "https://blog.uxtweak.com/looppanel-alternatives/"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-02-06",
       "title": "How AI Literacy Shapes GenAI Use",
       "summary": "Using generative AI often doesn’t mean using it well. AI literacy requires both prompt fluency and the ability to assess outputs.",
       "content": "Using generative AI often doesn’t mean using it well. AI literacy requires both prompt fluency and the ability to assess outputs.",
@@ -600,18 +612,6 @@
       "source": {
         "name": "Nielsen Norman Group",
         "url": "https://www.nngroup.com/articles/ai-literacy/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication"
-      },
-      "analysis": ""
-    },
-    {
-      "date": "2026-02-06",
-      "title": "Your Design System Needs an Enforcer",
-      "summary": "Although design systems promise consistency, most still fail without someone actively enforcing the rules and making teams follow them.",
-      "content": "Although design systems promise consistency, most still fail without someone actively enforcing the rules and making teams follow them.",
-      "category": "Other AI in research",
-      "source": {
-        "name": "Nielsen Norman Group",
-        "url": "https://www.nngroup.com/articles/design-system-enforcer/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication"
       },
       "analysis": ""
     },
