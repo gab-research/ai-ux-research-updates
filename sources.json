@@ -2,7 +2,7 @@
   "feeds": [
     {
       "name": "Anthropic Research",
-      "url": "https://www.anthropic.com/research/feed",
+      "url": "https://openrss.org/https://www.anthropic.com/research",
       "website": "https://www.anthropic.com/research"
     },
     {
@@ -21,19 +21,19 @@
       "website": "https://uxdesign.cc"
     },
     {
-      "name": "Hotjar Blog",
-      "url": "https://hotjar.com/blog/feed/",
-      "website": "https://www.hotjar.com"
+      "name": "Contentsquare Blog (incl. Hotjar)",
+      "url": "https://contentsquare.com/blog/feed/",
+      "website": "https://contentsquare.com/blog"
     },
     {
       "name": "Typeform Blog",
-      "url": "https://typeform.com/blog/feed/",
+      "url": "https://www.typeform.com/blog/feed",
       "website": "https://www.typeform.com"
     },
     {
       "name": "Maze Blog",
-      "url": "https://maze.co/blog/feed/",
-      "website": "https://maze.co"
+      "url": "https://maze.co/blog/feed",
+      "website": "https://maze.co/blog"
     },
     {
       "name": "Baymard Institute",

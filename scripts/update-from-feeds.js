@@ -7,6 +7,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const https = require('https');
 const Parser = require('rss-parser');
 
 const ROOT = path.resolve(__dirname, '..');
@@ -15,9 +16,10 @@ const UPDATES_PATH = path.join(ROOT, 'updates.json');
 const ANALYSES_PATH = path.join(ROOT, 'analyses.json');
 const THEMES_PATH = path.join(ROOT, 'themes.json');
 
+const USER_AGENT = 'Mozilla/5.0 (compatible; AI-UX-Research-Updates/1.0; +https://github.com/gab-research/ai-ux-research-updates)';
 const parser = new Parser({
   timeout: 15000,
-  headers: { 'User-Agent': 'AI-UX-Research-Updates-Bot/1.0' }
+  headers: { 'User-Agent': USER_AGENT }
 });
 
 function loadJSON(filePath) {
@@ -76,11 +78,45 @@ function inferCategory(title, description) {
   return 'Other AI in research';
 }
 
+/** Fetch raw URL with same User-Agent (for XML sanitization fallback). */
+function fetchRaw(url) {
+  return new Promise((resolve, reject) => {
+    const req = https.get(url, { headers: { 'User-Agent': USER_AGENT } }, (res) => {
+      if (res.statusCode !== 200) {
+        reject(new Error(`Status code ${res.statusCode}`));
+        return;
+      }
+      const chunks = [];
+      res.on('data', (c) => chunks.push(c));
+      res.on('end', () => resolve(Buffer.concat(chunks).toString('utf8')));
+    });
+    req.on('error', reject);
+    req.setTimeout(15000, () => { req.destroy(); reject(new Error('timeout')); });
+  });
+}
+
+/** Fix common XML issues: unescaped & that break parsers (e.g. in Dovetail feed). */
+function sanitizeXmlForRss(xml) {
+  return xml.replace(/&(?!amp;|lt;|gt;|quot;|apos;|#\d+;|#x[\da-fA-F]+;|[a-zA-Z]+\d*;)/g, '&amp;');
+}
+
 async function fetchFeed(feedConfig) {
   try {
     const feed = await parser.parseURL(feedConfig.url);
     return { feed, name: feedConfig.name };
   } catch (err) {
+    const isParseError = /entity|parse|XML|invalid character/i.test(err.message);
+    if (isParseError) {
+      try {
+        const raw = await fetchRaw(feedConfig.url);
+        const sanitized = sanitizeXmlForRss(raw);
+        const feed = await parser.parseString(sanitized);
+        return { feed, name: feedConfig.name };
+      } catch (fallbackErr) {
+        console.warn(`Skipping feed ${feedConfig.name}: ${err.message}`);
+        return null;
+      }
+    }
     console.warn(`Skipping feed ${feedConfig.name}: ${err.message}`);
     return null;
   }
