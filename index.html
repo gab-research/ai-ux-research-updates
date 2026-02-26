@@ -12,15 +12,29 @@
 </head>
 <body>
   <header class="site-header">
-    <div class="container">
-      <a href="/" class="logo">AI in UX Research</a>
-      <p class="tagline">Daily updates on AI applications improving UX research efficiency</p>
+    <div class="container container--header">
+      <div class="header-brand">
+        <a href="index.html" class="logo">AI in UX Research</a>
+        <p class="tagline">Daily updates on AI applications improving UX research efficiency</p>
+      </div>
+      <nav class="header-nav" aria-label="Main">
+        <a href="index.html" class="header-nav__link header-nav__link--active">Homepage</a>
+        <a href="sources.html" class="header-nav__link">Sources</a>
+      </nav>
     </div>
   </header>
 
   <main>
     <div class="layout-with-sidebar">
       <div class="layout-main">
+        <section class="themes-section" aria-label="Top themes this month" id="themes-section" hidden>
+          <div class="container">
+            <h2 class="section-title" id="themes-title">Top 5 themes this month</h2>
+            <p class="themes-updated" id="themes-updated" aria-hidden="true"></p>
+            <p class="themes-date" id="themes-date" aria-hidden="true"></p>
+            <div class="themes-list" id="themes-list"></div>
+          </div>
+        </section>
         <section class="updates" aria-label="Daily updates">
           <div class="container">
             <h2 class="section-title">Latest updates</h2>

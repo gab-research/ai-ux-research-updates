@@ -1,0 +1,12 @@
+{
+  "month": "2026-02",
+  "updated": "2026-02-25",
+  "themes": [
+    { "name": "Synthetic users", "count": 0 },
+    { "name": "AI summarization", "count": 0 },
+    { "name": "Automated usability checks", "count": 0 },
+    { "name": "Survey optimization", "count": 0 },
+    { "name": "Session replay + AI", "count": 0 }
+  ],
+  "note": "Based on how often each theme appears in posts from our RSS sources this month. Social media (e.g. LinkedIn) is not included—no public API."
+}

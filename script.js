@@ -117,6 +117,50 @@
     feedEl.innerHTML = '<p class="error-message">' + escapeHtml(message) + '</p>';
   }
 
+  function getCurrentMonthKey() {
+    const d = new Date();
+    const y = d.getFullYear();
+    const m = String(d.getMonth() + 1).padStart(2, '0');
+    return y + '-' + m;
+  }
+
+  function renderThemesList(listEl, sorted, monthKey, formatMonthLabel) {
+    if (!listEl) return;
+    if (!sorted.length) {
+      listEl.innerHTML = '';
+      listEl.removeAttribute('role');
+      return;
+    }
+    listEl.setAttribute('role', 'list');
+    listEl.innerHTML = sorted.map(function (item, i) {
+      return '<div class="theme-item" role="listitem">' +
+        '<span class="theme-rank">' + (i + 1) + '</span>' +
+        '<span class="theme-name">' + escapeHtml(item.name) + '</span>' +
+        '<span class="theme-count">' + item.count + (item.count === 1 ? ' post' : ' posts') + '</span>' +
+        '</div>';
+    }).join('');
+  }
+
+  function showThemesSection(monthKey, sorted, updatedDate) {
+    const sectionEl = document.getElementById('themes-section');
+    const titleEl = document.getElementById('themes-title');
+    const updatedEl = document.getElementById('themes-updated');
+    const dateEl = document.getElementById('themes-date');
+    const listEl = document.getElementById('themes-list');
+    if (!sectionEl || !titleEl || !listEl) return;
+    titleEl.textContent = 'Top 5 themes in AI in UX Research — ' + formatMonthLabel(monthKey);
+    if (updatedEl) {
+      updatedEl.textContent = 'Based on how often each theme appears in the sources this month.';
+      updatedEl.style.display = '';
+    }
+    if (dateEl) {
+      dateEl.textContent = updatedDate ? formatDate(updatedDate) : '';
+      dateEl.style.display = updatedDate ? '' : 'none';
+    }
+    renderThemesList(listEl, sorted, monthKey, formatMonthLabel);
+    sectionEl.hidden = false;
+  }
+
   function buildSidebar(updates) {
     const sidebarEl = document.getElementById('sidebar');
     const navEl = document.getElementById('sidebar-nav');
@@ -150,24 +194,37 @@
     sidebarEl.hidden = false;
   }
 
-  fetch('updates.json?t=' + Date.now(), { cache: 'no-store' })
-    .then(function (res) {
-      if (!res.ok) throw new Error('Could not load updates.');
-      return res.json();
-    })
-    .then(function (data) {
-      if (loadingEl) loadingEl.remove();
-      const updates = data.updates || [];
-      if (updates.length === 0) {
-        feedEl.innerHTML = '<p class="loading">No updates yet. Add entries to updates.json to see them here.</p>';
-        return;
+  var ts = '?t=' + Date.now();
+  Promise.all([
+    fetch('updates.json' + ts, { cache: 'no-store' }).then(function (r) { return r.ok ? r.json() : Promise.reject(new Error('Could not load updates.')); }),
+    fetch('themes.json' + ts, { cache: 'no-store' }).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; })
+  ]).then(function (results) {
+    var data = results[0];
+    var themesData = results[1];
+    if (loadingEl) loadingEl.remove();
+    var updates = data.updates || [];
+    if (updates.length === 0) {
+      feedEl.innerHTML = '<p class="loading">No updates yet. Add entries to updates.json to see them here.</p>';
+      return;
+    }
+    // Theme counts come only from themes.json (RSS sources this month). Never from the website's updates.
+    if (themesData && themesData.themes && themesData.themes.length > 0) {
+      showThemesSection(themesData.month || getCurrentMonthKey(), themesData.themes, themesData.updated || null);
+    } else {
+      showThemesSection(getCurrentMonthKey(), [], null);
+      var updatedEl = document.getElementById('themes-updated');
+      var dateEl = document.getElementById('themes-date');
+      if (updatedEl) {
+        updatedEl.textContent = 'Theme counts are updated daily from all RSS sources. Data will appear after the next run.';
+        updatedEl.style.display = '';
       }
-      updates.forEach(function (update) {
-        feedEl.appendChild(renderUpdate(update));
-      });
-      buildSidebar(updates);
-    })
-    .catch(function () {
-      showError('Updates could not be loaded. Make sure updates.json exists and is valid.');
+      if (dateEl) dateEl.style.display = 'none';
+    }
+    updates.forEach(function (update) {
+      feedEl.appendChild(renderUpdate(update));
     });
+    buildSidebar(updates);
+  }).catch(function () {
+    showError('Updates could not be loaded. Make sure updates.json exists and is valid.');
+  });
 })();

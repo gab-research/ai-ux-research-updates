@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <title>Sources — AI for UX Research</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="sources-page">
+  <header class="site-header">
+    <div class="container container--header">
+      <div class="header-brand">
+        <a href="index.html" class="logo">AI in UX Research</a>
+        <p class="tagline">Daily updates on AI applications improving UX research efficiency</p>
+      </div>
+      <nav class="header-nav" aria-label="Main">
+        <a href="index.html" class="header-nav__link">Homepage</a>
+        <a href="sources.html" class="header-nav__link header-nav__link--active">Sources</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container sources-main">
+      <div class="sources-intro">
+        <h2>Sources</h2>
+        <p>Updates are curated daily from the following RSS feeds and newsletters. Content is filtered for AI applications in UX research.</p>
+      </div>
+      <div id="sources-container">
+        <p class="loading" id="loading">Loading sources…</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>AI for UX Research — Curated for researchers and product teams.</p>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      function escapeHtml(text) {
+        if (text == null) return '';
+        var div = document.createElement('div');
+        div.textContent = text;
+        return div.innerHTML;
+      }
+      function domainFromUrl(url) {
+        try {
+          return new URL(url).hostname.replace(/^www\./, '');
+        } catch (e) {
+          return '';
+        }
+      }
+      function faviconUrl(domain, size) {
+        if (!domain) return '';
+        return 'https://www.google.com/s2/favicons?domain=' + encodeURIComponent(domain) + '&sz=' + (size || 64);
+      }
+
+      var container = document.getElementById('sources-container');
+      var loading = document.getElementById('loading');
+
+      fetch('sources.json?t=' + Date.now(), { cache: 'no-store' })
+        .then(function (res) { return res.ok ? res.json() : Promise.reject(new Error('Could not load sources.')); })
+        .then(function (data) {
+          if (loading) loading.remove();
+          var feeds = data.feeds || [];
+          if (feeds.length === 0) {
+            container.innerHTML = '<p class="loading">No sources configured.</p>';
+            return;
+          }
+          var html = '<ul class="sources-grid">';
+          feeds.forEach(function (feed) {
+            var name = feed.name || 'Unnamed source';
+            var website = feed.website || feed.url || '#';
+            var domain = domainFromUrl(website);
+            var imgSrc = feed.logo ? feed.logo : faviconUrl(domain, 128);
+            html += '<li><a href="' + escapeHtml(website) + '" class="source-card" target="_blank" rel="noopener noreferrer">';
+            html += '<img src="' + escapeHtml(imgSrc) + '" alt="" class="source-card__logo" width="48" height="48" loading="lazy"' + (feed.logo ? ' onerror="this.src=\'' + escapeHtml(faviconUrl(domain, 128)) + '\'"' : '') + '>';
+            html += '<p class="source-card__name">' + escapeHtml(name) + '</p>';
+            html += '</a></li>';
+          });
+          html += '</ul>';
+          container.innerHTML = html;
+        })
+        .catch(function () {
+          if (loading) loading.remove();
+          container.innerHTML = '<p class="error-message">Sources could not be loaded. Make sure sources.json exists.</p>';
+        });
+    })();
+  </script>
+</body>
+</html>

@@ -2,103 +2,131 @@
   "feeds": [
     {
       "name": "Nielsen Norman Group",
-      "url": "https://www.nngroup.com/feed/rss/"
+      "url": "https://www.nngroup.com/feed/rss/",
+      "website": "https://www.nngroup.com"
     },
     {
       "name": "Dovetail Blog",
-      "url": "https://dovetail.com/blog/feed/"
+      "url": "https://dovetail.com/blog/feed/",
+      "website": "https://dovetail.com"
     },
     {
       "name": "UX Collective (Medium)",
-      "url": "https://uxdesign.cc/feed"
+      "url": "https://uxdesign.cc/feed",
+      "website": "https://uxdesign.cc"
     },
     {
       "name": "Hotjar Blog",
-      "url": "https://hotjar.com/blog/feed/"
+      "url": "https://hotjar.com/blog/feed/",
+      "website": "https://www.hotjar.com"
     },
     {
       "name": "Typeform Blog",
-      "url": "https://typeform.com/blog/feed/"
+      "url": "https://typeform.com/blog/feed/",
+      "website": "https://www.typeform.com"
     },
     {
       "name": "Maze Blog",
-      "url": "https://maze.co/blog/feed/"
+      "url": "https://maze.co/blog/feed/",
+      "website": "https://maze.co"
     },
     {
       "name": "Baymard Institute",
-      "url": "https://feeds.baymard.com/baymard"
+      "url": "https://feeds.baymard.com/baymard",
+      "website": "https://baymard.com"
     },
     {
       "name": "Smashing Magazine",
-      "url": "https://www.smashingmagazine.com/feed/"
+      "url": "https://www.smashingmagazine.com/feed/",
+      "website": "https://www.smashingmagazine.com"
     },
     {
       "name": "UXPin Blog",
-      "url": "https://blog.uxpin.com/feed"
+      "url": "https://blog.uxpin.com/feed",
+      "website": "https://www.uxpin.com"
     },
     {
       "name": "UX Tweak Blog",
-      "url": "https://blog.uxtweak.com/feed/"
+      "url": "https://blog.uxtweak.com/feed/",
+      "website": "https://uxtweak.com"
     },
     {
       "name": "Nina News (Nina Talks)",
-      "url": "https://ninatalks.substack.com/feed"
+      "url": "https://ninatalks.substack.com/feed",
+      "website": "https://ninatalks.com.br",
+      "logo": "images/logos/nina-talks.svg"
     },
     {
       "name": "UX Collective Brasil",
-      "url": "https://brasil.uxdesign.cc/feed"
+      "url": "https://brasil.uxdesign.cc/feed",
+      "website": "https://brasil.uxdesign.cc"
     },
     {
       "name": "Prototypr",
-      "url": "https://blog.prototypr.io/feed"
+      "url": "https://blog.prototypr.io/feed",
+      "website": "https://prototypr.io"
     },
     {
       "name": "Balsamiq Blog",
-      "url": "https://balsamiq.com/blog/feed"
+      "url": "https://balsamiq.com/blog/feed",
+      "website": "https://balsamiq.com"
     },
     {
       "name": "Don Norman (JND.org)",
-      "url": "https://jnd.org/feed"
+      "url": "https://jnd.org/feed",
+      "website": "https://jnd.org"
     },
     {
       "name": "Peter Merholz",
-      "url": "https://www.petermerholz.com/rss/"
+      "url": "https://www.petermerholz.com/rss/",
+      "website": "https://www.petermerholz.com"
     },
     {
       "name": "Steve Portigal",
-      "url": "https://portigal.com/feed/"
+      "url": "https://portigal.com/feed/",
+      "website": "https://portigal.com"
     },
     {
       "name": "Make Things That Matter",
-      "url": "https://makethingsthatmatter.substack.com/feed"
+      "url": "https://makethingsthatmatter.substack.com/feed",
+      "website": "https://makethingsthatmatter.substack.com"
     },
     {
       "name": "Julie Zhuo (The Looking Glass)",
-      "url": "https://lg.substack.com/feed"
+      "url": "https://lg.substack.com/feed",
+      "website": "https://www.juliezhuo.com"
     },
     {
       "name": "Teresa Torres (Product Talk)",
-      "url": "https://www.producttalk.org/feed/"
+      "url": "https://www.producttalk.org/feed/",
+      "website": "https://www.producttalk.org"
     },
     {
       "name": "Cassie Kozyrkov (Decision Intelligence)",
-      "url": "https://decision.substack.com/feed"
+      "url": "https://decision.substack.com/feed",
+      "website": "https://decision.substack.com"
     },
     {
       "name": "Ethan Mollick (One Useful Thing)",
-      "url": "https://oneusefulthing.substack.com/feed"
+      "url": "https://oneusefulthing.substack.com/feed",
+      "website": "https://www.oneusefulthing.org",
+      "logo": "images/logos/one-useful-thing.svg"
     },
     {
       "name": "Dr. Fei-Fei Li",
-      "url": "https://drfeifei.substack.com/feed"
+      "url": "https://drfeifei.substack.com/feed",
+      "website": "https://drfeifei.substack.com"
     },
     {
       "name": "Nikki Anderson (User Research Strategist)",
-      "url": "https://userresearchacademy.substack.com/feed"
+      "url": "https://userresearchacademy.substack.com/feed",
+      "website": "https://www.nikkiandersonux.com",
+      "logo": "images/logos/nikki-anderson.svg"
     },
     {
       "name": "Jared Spool (Medium)",
-      "url": "https://jmspool.medium.com/feed"
+      "url": "https://jmspool.medium.com/feed",
+      "website": "https://centercentre.com"
     }
   ],
   "keywords": [

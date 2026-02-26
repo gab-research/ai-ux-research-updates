@@ -13,6 +13,7 @@ const ROOT = path.resolve(__dirname, '..');
 const SOURCES_PATH = path.join(ROOT, 'sources.json');
 const UPDATES_PATH = path.join(ROOT, 'updates.json');
 const ANALYSES_PATH = path.join(ROOT, 'analyses.json');
+const THEMES_PATH = path.join(ROOT, 'themes.json');
 
 const parser = new Parser({
   timeout: 15000,
@@ -59,6 +60,22 @@ function matchesKeywords(text, keywords) {
   return keywords.some((k) => lower.includes(k.toLowerCase()));
 }
 
+/**
+ * Infer theme from post title and description: focus on AI application (e.g. "Synthetic users")
+ * rather than research process. Used so daily theme analysis reflects how AI is applied in research.
+ */
+function inferCategory(title, description) {
+  const text = `${title || ''} ${description || ''}`.toLowerCase();
+  if (/\b(synthetic\s+user|synthetic\s+participant|LLM\s+persona|AI\s+persona|concept\s+test.*(AI|LLM)|AI.*concept\s+test)\b/.test(text)) return 'Synthetic users';
+  if (/\b(transcript\s+summar|summariz|theme\s+extraction|one-?click\s+summar|synthesis.*(AI|from\s+transcript)|affinity.*AI|thematic.*AI)\b/.test(text)) return 'AI summarization';
+  if (/\b(automated\s+usability|scan\s+prototype|usability\s+issue\s+detection|AI.*(a11y|accessibility)|heuristic.*AI|flag.*usability)\b/.test(text)) return 'Automated usability checks';
+  if (/\b(survey.*(AI|optimiz)|questionnaire.*AI|AI.*survey|clearer\s+survey|reduce\s+bias.*survey|adaptive\s+(survey|follow-?up))\b/.test(text)) return 'Survey optimization';
+  if (/\b(session\s+replay.*AI|AI.*session\s+replay|behavioral\s+pattern.*AI|drop-?off.*detection|rage\s+click|heatmap.*AI)\b/.test(text)) return 'Session replay + AI';
+  if (/\b(recruit.*AI|AI.*recruit|screener.*AI|participant\s+recruitment.*AI)\b/.test(text)) return 'AI-assisted recruitment';
+  if (/\b(interview.*(AI|transcript)|transcript.*interview|qualitative.*AI)\b/.test(text)) return 'Interview analysis';
+  return 'Other AI in research';
+}
+
 async function fetchFeed(feedConfig) {
   try {
     const feed = await parser.parseURL(feedConfig.url);
@@ -78,9 +95,11 @@ async function main() {
 
   const keywords = sources.keywords || ['AI', 'UX research', 'user research', 'research'];
   const maxUpdates = Math.min(Math.max(1, Number(sources.maxUpdates) || 365), 365);
-  const daysBack = Number(sources.daysBack) || 30;
-  const cutoff = new Date();
-  cutoff.setDate(cutoff.getDate() - daysBack);
+  // Use CURRENT_DATE (e.g. 2026-02-25) when set (e.g. in GitHub Actions) so the site uses that as "today"
+  const now = process.env.CURRENT_DATE ? (() => {
+    const d = new Date(process.env.CURRENT_DATE);
+    return isNaN(d.getTime()) ? new Date() : d;
+  })() : new Date();
 
   const existing = loadJSON(UPDATES_PATH);
   const siteTitle = (existing && existing.title) || 'AI for UX Research';
@@ -125,7 +144,13 @@ async function main() {
     }
   }
 
+  // Theme frequency across ALL posts from our RSS sources in the current month only.
+  // Count every feed item published this month (no keyword filter, no cutoff). Do NOT use the site's curated updates.
+  const today = toISODate(now);
+  const currentMonthKey = today.slice(0, 7); // e.g. "2026-02"
+  const themeCountsAcrossSources = {};
   const seenLinks = new Set();
+
   for (const feedConfig of sources.feeds) {
     const result = await fetchFeed(feedConfig);
     if (!result) continue;
@@ -134,14 +159,25 @@ async function main() {
     const items = feed.items || [];
 
     for (const item of items) {
+      const pubDate = parseDate(item.pubDate);
+      if (!pubDate) continue;
+
+      const itemMonthKey = toISODate(pubDate).slice(0, 7);
+      const title = (item.title && item.title.trim()) || 'Untitled';
+      const description = item.contentSnippet || item.content || item.summary || '';
+
+      // Count theme for every post in the current month (sources only; not the website's updates).
+      if (itemMonthKey === currentMonthKey) {
+        const theme = inferCategory(title, description);
+        themeCountsAcrossSources[theme] = (themeCountsAcrossSources[theme] || 0) + 1;
+      }
+
+      // Only add to the site (byUrl) posts that were published in the current month (e.g. February 2026).
+      if (itemMonthKey !== currentMonthKey) continue;
+
       const link = item.link && item.link.trim();
       if (!link || seenLinks.has(link)) continue;
 
-      const pubDate = parseDate(item.pubDate);
-      if (!pubDate || pubDate < cutoff) continue;
-
-      const title = (item.title && item.title.trim()) || 'Untitled';
-      const description = item.contentSnippet || item.content || item.summary || '';
       const textToMatch = `${title} ${description}`;
       if (!matchesKeywords(textToMatch, keywords)) continue;
 
@@ -150,12 +186,13 @@ async function main() {
       const content = truncate(stripHtml(description || ''), 1200);
       const analysis = typeof analysesByUrl[link] === 'string' ? analysesByUrl[link].trim() : (byUrl.get(link) && byUrl.get(link).analysis) || '';
 
+      const category = inferCategory(title, description);
       byUrl.set(link, {
         date: toISODate(pubDate),
         title,
         summary: summary || title,
         content: content || summary,
-        category: 'Research',
+        category,
         source: { name, url: link },
         analysis: analysis || ''
       });
@@ -168,10 +205,15 @@ async function main() {
   let finalUpdates = allItems.length > 0 ? allItems.slice(0, maxUpdates) : existingUpdates;
 
   // Ensure the latest update is always dated "today" so the site shows an update from the current day
-  const today = toISODate(new Date());
   if (finalUpdates.length > 0 && finalUpdates[0].date !== today) {
     finalUpdates = [{ ...finalUpdates[0], date: today }, ...finalUpdates.slice(1)];
   }
+
+  // Normalize all updates to AI-application themes (so existing and new items use the same taxonomy)
+  finalUpdates = finalUpdates.map((u) => ({
+    ...u,
+    category: inferCategory(u.title, u.summary || u.content || '')
+  }));
 
   const output = {
     title: siteTitle,
@@ -181,6 +223,20 @@ async function main() {
 
   fs.writeFileSync(UPDATES_PATH, JSON.stringify(output, null, 2), 'utf8');
   console.log(`Updated ${UPDATES_PATH} with ${finalUpdates.length} items.`);
+
+  // Top 5 themes by frequency across our RSS sources for this specific month (e.g. February).
+  const topThemes = Object.entries(themeCountsAcrossSources)
+    .map(([name, count]) => ({ name: name || 'Other AI in research', count }))
+    .sort((a, b) => b.count - a.count)
+    .slice(0, 5);
+  const themesPayload = {
+    month: currentMonthKey,
+    updated: today,
+    themes: topThemes,
+    note: 'Based on how often each theme appears in posts from our RSS sources this month. Social media (e.g. LinkedIn) is not included—no public API.'
+  };
+  fs.writeFileSync(THEMES_PATH, JSON.stringify(themesPayload, null, 2), 'utf8');
+  console.log(`Updated ${THEMES_PATH} with top ${topThemes.length} themes for ${currentMonthKey} (from ${Object.values(themeCountsAcrossSources).reduce((a, b) => a + b, 0)} source posts this month).`);
 }
 
 main().catch((err) => {
