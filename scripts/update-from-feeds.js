@@ -270,8 +270,9 @@ async function main() {
       const summary = truncate(stripHtml(description || title), 280);
       const content = truncate(stripHtml(description || ''), 1200);
       const analysis = typeof analysesByUrl[link] === 'string' ? analysesByUrl[link].trim() : (byUrl.get(link) && byUrl.get(link).analysis) || '';
-
-      const category = inferCategory(title, description);
+      // Preserve existing category so manual re-categorization and past posts are not overwritten each run.
+      const existingEntry = byUrl.get(link);
+      const category = existingEntry && existingEntry.category ? existingEntry.category : inferCategory(title, description);
       byUrl.set(link, {
         date: toISODate(pubDate),
         title,
