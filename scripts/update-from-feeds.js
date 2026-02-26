@@ -65,23 +65,48 @@ function matchesKeywords(text, keywords) {
 }
 
 /**
- * Infer theme from post title and description: focus on AI application (e.g. "Synthetic users")
- * rather than research process. Order matters: first match wins. Broader patterns help spread counts across more themes.
+ * Infer theme from post title and description. Order matters: first match wins.
+ * Patterns are intentionally broad so most UX/AI posts land in a specific theme.
  */
 function inferCategory(title, description) {
   const text = `${title || ''} ${description || ''}`.toLowerCase();
-  if (/\b(synthetic\s+users?|synthetic\s+participant|LLM\s+persona|AI\s+persona|concept\s+test.*(AI|LLM)|AI.*concept\s+test)\b/.test(text)) return 'Synthetic users';
-  if (/\b(transcript\s+summar|summariz|theme\s+extraction|one-?click\s+summar|synthesis.*(AI|from\s+transcript)|affinity.*AI|thematic.*AI|insight\s+extraction|pattern\s+recognition.*(AI|research))\b/.test(text)) return 'AI summarization';
-  if (/\b(automated\s+usability|scan\s+prototype|usability\s+issue\s+detection|AI.*(a11y|accessibility)|heuristic.*AI|flag.*usability)\b/.test(text)) return 'Automated usability checks';
-  if (/\b(survey.*(AI|optimiz)|questionnaire.*AI|AI.*survey|clearer\s+survey|reduce\s+bias.*survey|adaptive\s+(survey|follow-?up))\b/.test(text)) return 'Survey optimization';
-  if (/\b(session\s+replay.*AI|AI.*session\s+replay|behavioral\s+pattern.*AI|drop-?off.*detection|rage\s+click|heatmap.*AI)\b/.test(text)) return 'Session replay + AI';
-  if (/\b(recruit.*AI|AI.*recruit|screener.*AI|participant\s+recruitment.*AI)\b/.test(text)) return 'AI-assisted recruitment';
-  if (/\b(interview.*(AI|transcript)|transcript.*interview|qualitative.*AI|coding.*(AI|qualitative)|qualitative.*coding)\b/.test(text)) return 'Interview analysis';
-  if (/\b(chatbot|conversational\s+AI|AI\s+assistant|virtual\s+assistant|chat\s+bot).*(research|user|feedback)\b/.test(text) || /\b(research|user|feedback).*(chatbot|conversational\s+AI|AI\s+assistant)\b/.test(text)) return 'Conversational AI in research';
-  if (/\b(sentiment|NPS|feedback\s+analysis|voice\s+of\s+customer).*(AI|automated|machine\s+learning)\b/.test(text) || /\b(AI|ML).*(sentiment|NPS|feedback\s+analysis)\b/.test(text)) return 'Sentiment & feedback analysis';
-  if (/\b(design\s+tools|Figma|prototype).*(AI|assist)\b/.test(text) || /\bAI.*(design|prototyp|wireframe)\b/.test(text) || /\b(prototype|design).*(AI|Claude|GPT)\b/.test(text) || /\b(AI|Claude|GPT).*(prototype|design\s+system)\b/.test(text)) return 'AI for design';
-  if (/\b(automation|automate).*(research|insight|discovery)\b/.test(text) || /\b(research|insight).*(automation|automate|pipeline)\b/.test(text)) return 'Research automation';
-  if (/\b(user\s+test|usability\s+test|A\/B\s+test).*(AI|automated)\b/.test(text) || /\bAI.*(user\s+testing|usability\s+testing)\b/.test(text)) return 'AI in user testing';
+
+  // Synthetic users — synthetic participants, AI personas
+  if (/synthetic\s+users?|synthetic\s+participant|llm\s+persona|ai\s+persona|synthetic\s+user\s+panel/.test(text)) return 'Synthetic users';
+
+  // AI summarization — transcript summaries, theme extraction, affinity mapping, opportunity trees
+  if (/summariz|summar.*transcript|theme\s+extraction|one-?click\s+summar|synthesis.*(ai|transcript)|affinity.*ai|thematic.*ai|insight\s+extraction|pattern\s+recognition.*(ai|research)|opportunity\s+solution\s+tree/.test(text)) return 'AI summarization';
+
+  // Automated usability checks — must be before "AI for design" and "AI in user testing" to catch "usability issue detection"
+  if (/automated\s+usability|usability\s+issue\s+detection|ai.*(a11y|accessibility)|heuristic.*ai|flag.*usability|ux\s+analysis.*parameter|instant\s+ux\s+analysis|scan\s+prototype/.test(text)) return 'Automated usability checks';
+
+  // AI in user testing — must be before "AI for design" to catch UXtweak/Useberry tool comparisons
+  if (/usability\s+test|user\s+test|ux\s+test|\buxtweak\b|\buseberry\b|ux\s+benchmark|unmoderated\s+test/.test(text)) return 'AI in user testing';
+
+  // Interview analysis — interviews, qualitative research, known qual tools (Looppanel, Condens, Dovetail)
+  if (/\binterview|qualitative\s+(research|insight|coding)|\blooppanel\b|\bcondens\b|\bdovetail\b|stakeholder.*(report|ready)|insights?\s+editor|ai[- ]moderated/.test(text)) return 'Interview analysis';
+
+  // AI for design — UXPin, prototyping with AI/Claude/GPT, AI design tools, Figma alternatives
+  if (/\buxpin\b|prototype.*(claude|gpt|ai|merge)|ai.*(design\s+tool|prototyp|wireframe)|design\s+tool.*(ai|alternative)|figma.*(ai|alternative)|ai[- ]native\s+design|ai\s+prototype|code[- ]backed\s+design|react\s+component.*(ai|design)/.test(text)) return 'AI for design';
+
+  // Survey optimization — survey AI, question optimization, message testing tools
+  if (/survey.*(ai|optimiz|design|question)|questionnaire.*ai|ai.*survey|clearer\s+survey|reduce\s+bias.*survey|adaptive\s+(survey|follow-?up)|\bwynter\b|message\s+testing/.test(text)) return 'Survey optimization';
+
+  // Session replay + AI
+  if (/session\s+replay|behavioral\s+pattern.*ai|drop-?off.*detection|rage\s+click|heatmap.*ai/.test(text)) return 'Session replay + AI';
+
+  // Conversational AI in research — chatbots, AI sales reps, voice+AI workflows
+  if (/chatbot|conversational\s+ai|virtual\s+assistant|chat\s+bot|ai\s+sales\s+rep|voice.*ai.*workflow/.test(text)) return 'Conversational AI in research';
+
+  // Sentiment & feedback analysis
+  if (/sentiment.*(ai|automat|ml)|nps.*(ai|automat)|feedback\s+analysis|voice\s+of\s+customer|ai.*(sentiment|nps|feedback\s+analysis)/.test(text)) return 'Sentiment & feedback analysis';
+
+  // Research automation — AI across research, AI tools for UX, agentic AI, AI literacy
+  if (/ai.*research\s+process|research.*automat|ai\s+tools?.*(research|ux|lesson)|ai\s+across.*research|research\s+recommend|ai.*user\s+research|ai\s+literacy|agentic\s+ai/.test(text)) return 'Research automation';
+
+  // AI-assisted recruitment
+  if (/recruit.*ai|ai.*recruit|screener.*ai|participant\s+recruitment/.test(text)) return 'AI-assisted recruitment';
+
   return 'Other AI in research';
 }
 
