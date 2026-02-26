@@ -17,7 +17,8 @@ const ANALYSES_PATH = path.join(ROOT, 'analyses.json');
 const THEMES_PATH = path.join(ROOT, 'themes.json');
 
 const USER_AGENT = 'Mozilla/5.0 (compatible; AI-UX-Research-Updates/1.0; +https://github.com/gab-research/ai-ux-research-updates)';
-const FEED_TIMEOUT_MS = 10000;
+const FEED_TIMEOUT_MS = 12000;   // per-feed request timeout
+const FEED_JOB_TIMEOUT_MS = 25000; // max time per feed (fetch + fallback), then skip so no feed can hang the run
 const parser = new Parser({
   timeout: FEED_TIMEOUT_MS,
   headers: { 'User-Agent': USER_AGENT }
@@ -123,6 +124,21 @@ async function fetchFeed(feedConfig) {
   }
 }
 
+/** Call fetchFeed but never wait longer than FEED_JOB_TIMEOUT_MS; skip feed on timeout so one slow feed can't hang the run. */
+function fetchFeedWithTimeout(feedConfig) {
+  return Promise.race([
+    fetchFeed(feedConfig),
+    new Promise((_, reject) =>
+      setTimeout(() => reject(new Error('timeout')), FEED_JOB_TIMEOUT_MS)
+    )
+  ]).catch((err) => {
+    if (err.message === 'timeout') {
+      console.warn(`Skipping feed ${feedConfig.name}: exceeded ${FEED_JOB_TIMEOUT_MS / 1000}s`);
+    }
+    return null;
+  });
+}
+
 async function main() {
   const sources = loadJSON(SOURCES_PATH);
   if (!sources || !sources.feeds || !Array.isArray(sources.feeds)) {
@@ -188,8 +204,8 @@ async function main() {
   const themeCountsAcrossSources = {};
   const seenLinks = new Set();
 
-  // Fetch all feeds in parallel to reduce total run time (was sequential, now ~1 slow batch instead of sum of all).
-  const feedResults = await Promise.all(sources.feeds.map((fc) => fetchFeed(fc)));
+  // Fetch all feeds in parallel; each feed is capped at FEED_JOB_TIMEOUT_MS so none can hang the run for hours.
+  const feedResults = await Promise.all(sources.feeds.map((fc) => fetchFeedWithTimeout(fc)));
 
   for (const result of feedResults) {
     if (!result) continue;
