@@ -17,8 +17,8 @@ const ANALYSES_PATH = path.join(ROOT, 'analyses.json');
 const THEMES_PATH = path.join(ROOT, 'themes.json');
 
 const USER_AGENT = 'Mozilla/5.0 (compatible; AI-UX-Research-Updates/1.0; +https://github.com/gab-research/ai-ux-research-updates)';
-const FEED_TIMEOUT_MS = 12000;   // per-feed request timeout
-const FEED_JOB_TIMEOUT_MS = 25000; // max time per feed (fetch + fallback), then skip so no feed can hang the run
+const FEED_TIMEOUT_MS = 10000;   // per-feed request timeout
+const FEED_JOB_TIMEOUT_MS = 18000; // max time per feed (fetch + fallback), then skip so no feed can hang the run
 const parser = new Parser({
   timeout: FEED_TIMEOUT_MS,
   headers: { 'User-Agent': USER_AGENT }
@@ -294,7 +294,9 @@ async function main() {
   console.log(`Updated ${THEMES_PATH} with top ${topThemes.length} themes for ${currentMonthKey} (from ${Object.values(themeCountsAcrossSources).reduce((a, b) => a + b, 0)} source posts this month).`);
 }
 
-main().catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
+main()
+  .then(() => process.exit(0))
+  .catch((err) => {
+    console.error(err);
+    process.exit(1);
+  });
