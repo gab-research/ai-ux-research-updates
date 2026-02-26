@@ -7,45 +7,612 @@
       "title": "Synthetic users for rapid concept testing",
       "summary": "Teams are using LLM-powered synthetic users to run quick concept tests before recruiting real participants, cutting early-stage iteration time by up to 60%.",
       "content": "Product and research teams are increasingly turning to LLM-powered synthetic users to run fast concept tests before investing in live recruitment. Instead of waiting for screener responses and scheduling sessions, researchers prompt AI personas with the same demographics and goals as their target users, then run through flows, value propositions, and copy. Early adopters report cutting early-stage iteration time by up to 60%, while still running traditional user testing on the shortlisted concepts. The key is to treat synthetic feedback as a filter, not a replacement—use it to kill weak ideas quickly and double down on the ones that survive, then validate with real users.",
-      "analysis": "Where it fits in the research roadmap: Use synthetic users in the early concept and discovery phase, before you write a screener or book a single participant. Ideal for testing value propositions, feature naming, and flow logic for new products (e.g. new loan types, insurance, PIX features) or for prioritising which concepts deserve real user time.\n\nHow to run it: Define 2–4 personas that mirror your real segments (e.g. first-time loan applicant, frequent PIX user, older or less digitally confident user). For each persona, prompt the synthetic user with the same scenario you’d give in a moderated test (e.g. 'You’re considering a personal loan to pay for a course'). Run through your flows and copy; capture where the synthetic user hesitates, misunderstands, or drops. Treat this as a filter: concepts that get consistent confusion or drop-off get deprioritised or revised before they ever reach real users.\n\nOperational note: Synthetic output is not evidence. Document it as 'pre-test screening' or 'concept triage' in your research repository, and do not quote it in shareouts as user insight. Reserve real recruitment and moderated sessions for the shortlist that survives—your validity stays in the human sessions, while synthetic users reduce waste and focus recruitment on the right concepts.",
-      "category": "Synthetic users",
-      "source": { "name": "Nielsen Norman Group - Accelerating Research with AI", "url": "https://www.nngroup.com/articles/research-with-ai/" }
+      "category": "Other AI in research",
+      "source": {
+        "name": "Nielsen Norman Group - Accelerating Research with AI",
+        "url": "https://www.nngroup.com/articles/research-with-ai/"
+      },
+      "analysis": "Where it fits in the research roadmap: Use synthetic users in the early concept and discovery phase, before you write a screener or book a single participant. Ideal for testing value propositions, feature naming, and flow logic for new products (e.g. new loan types, insurance, PIX features) or for prioritising which concepts deserve real user time.\n\nHow to run it: Define 2–4 personas that mirror your real segments (e.g. first-time loan applicant, frequent PIX user, older or less digitally confident user). For each persona, prompt the synthetic user with the same scenario you’d give in a moderated test (e.g. 'You’re considering a personal loan to pay for a course'). Run through your flows and copy; capture where the synthetic user hesitates, misunderstands, or drops. Treat this as a filter: concepts that get consistent confusion or drop-off get deprioritised or revised before they ever reach real users.\n\nOperational note: Synthetic output is not evidence. Document it as 'pre-test screening' or 'concept triage' in your research repository, and do not quote it in shareouts as user insight. Reserve real recruitment and moderated sessions for the shortlist that survives—your validity stays in the human sessions, while synthetic users reduce waste and focus recruitment on the right concepts."
+    },
+    {
+      "date": "2026-02-25",
+      "title": "The design failures of consumer IoT",
+      "summary": "And how connectivity can create dependency instead of empowerment Continue reading on UX Collective »",
+      "content": "And how connectivity can create dependency instead of empowerment Continue reading on UX Collective »",
+      "category": "Other AI in research",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/the-design-failures-of-consumer-iot-9286228c47ed?source=rss----138adf9c44c---4"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-02-25",
+      "title": "AI writes the code and humans still write the rules",
+      "summary": "AI writes the code and humans still write the rules",
+      "content": "AI writes the code and humans still write the rules",
+      "category": "Other AI in research",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/ai-writes-the-code-and-humans-still-write-the-rules-a2058ca0734c?source=rss----138adf9c44c---4"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-02-25",
+      "title": "New Health and Beauty UX Research: 3 High-Level Takeaways from 3,000+ Hours of Testing",
+      "summary": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) Key Takeaways Health and Beauty users need to replicate the “in-store experience” as much as p...",
+      "content": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) Key Takeaways Health and Beauty users need to replicate the “in-store experience” as much as possible using website features Failure to provide key visuals or other features can quickly lead to abandonment in favor of competing Health and Beauty sites Key Stats 3,000+ hours of new Health and Beauty research 1,200+ medium-to-severe usability issues were observed during Health and Beauty testing 490+ Health and Beauty guidelines included in our Health and Beauty research study At Baymard our research team has spent 3,000+ hours on new large-scale qualitative usability testing and research focusing on Health and Beauty website features, layouts, content, and designs. This study tested 18 U.S. sites, though several are owned by international companies. These sites span three categories — Direct Brand, Specialty Beauty Retailers, and Mass Retailers — and include a cross-section of price points from discount to high-end: Direct Brand Sites: Avène USA, Bobbi Brown Cosmetics, e.l.f. Cosmetics, Estée Lauder,...",
+      "category": "Other AI in research",
+      "source": {
+        "name": "Baymard Institute",
+        "url": "https://feeds.baymard.com/link/9825/17283402/health-and-beauty-ux-research"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-02-25",
+      "title": "How to prototype using Claude Haiku 4.5 + shadcn/ui  –  Use UXPin Merge!",
+      "summary": "Create production-ready React prototypes from text using Claude Haiku 4.5 and shadcn/ui inside UXPin Merge—design, test, and export clean JSX. The post How to prototype using Claude Haiku 4.5 + shadcn/ui – Use UXPin Merge! appeared first on Studio by UXPin.",
+      "content": "Create production-ready React prototypes from text using Claude Haiku 4.5 and shadcn/ui inside UXPin Merge—design, test, and export clean JSX. The post How to prototype using Claude Haiku 4.5 + shadcn/ui – Use UXPin Merge! appeared first on Studio by UXPin.",
+      "category": "Other AI in research",
+      "source": {
+        "name": "UXPin Blog",
+        "url": "https://www.uxpin.com/studio/blog/prototype-claude-haiku-4-5-shadcn-ui-uxpin-merge/"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-02-25",
+      "title": "Useberry vs. UXtweak: A Detailed Tool Comparison",
+      "summary": "UXtweak UXtweak is an all-in-one UX research platform designed for usability testing, information architecture research, surveys, and prototype validation. It’s particularly strong for teams who want to combine user feedback, ... The post Useberry vs. UXtweak: A Detailed Tool...",
+      "content": "UXtweak UXtweak is an all-in-one UX research platform designed for usability testing, information architecture research, surveys, and prototype validation. It’s particularly strong for teams who want to combine user feedback, ... The post Useberry vs. UXtweak: A Detailed Tool Comparison appeared first on Articles on everything UX: Research, Testing & Design.",
+      "category": "Other AI in research",
+      "source": {
+        "name": "UX Tweak Blog",
+        "url": "https://blog.uxtweak.com/useberry-vs-uxtweak/"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-02-25",
+      "title": "Um modelo adaptável para trilha de carreira em Design de Produto e Experiência do Usuário",
+      "summary": "Um modelo adaptável para trilha de carreira em Design de Produto e Experiência do Usuário",
+      "content": "Um modelo adaptável para trilha de carreira em Design de Produto e Experiência do Usuário",
+      "category": "Other AI in research",
+      "source": {
+        "name": "UX Collective Brasil",
+        "url": "https://brasil.uxdesign.cc/um-modelo-adaptavel-para-trilha-de-carreira-em-design-de-produto-e-experiencia-do-usuario-58d446ce4f0?source=rss----6f71781500a4---4"
+      },
+      "analysis": ""
     },
     {
       "date": "2026-02-24",
       "title": "AI summarization of interview transcripts",
       "summary": "Tools like Marvin and Dovetail now offer one-click summarization and theme extraction from user interview transcripts, turning hours of analysis into structured insights in minutes.",
       "content": "Tools like Marvin, Dovetail, and others now offer one-click summarization and theme extraction from user interview transcripts. Researchers upload recordings or transcripts, and the tool returns structured summaries, recurring themes, and sometimes suggested quotes—turning hours of manual analysis into a first draft in minutes. Teams use these outputs as a starting point: they still review and refine, but the heavy lifting of pattern-finding is accelerated. Best practice is to keep the human in the loop for nuance and to avoid over-relying on AI for sensitive or ambiguous themes. When used well, this workflow lets researchers run more interviews without drowning in analysis.",
-      "analysis": "Role in the research process: Use AI summarisation as the first pass after discovery or usability interviews. It should produce a draft structure (themes, sub-themes, candidate quotes) that you then refine—not replace—with your own judgment. That keeps synthesis faster without outsourcing interpretation on regulated or sensitive topics.\n\nPractical workflow: After each round of interviews (e.g. 5–8 sessions per study), upload transcripts to your chosen tool. Use the AI output to build an initial affinity map or theme list; then re-read critical moments and adjust. Tag themes so they can be reused across squads (e.g. 'onboarding friction', 'trust in PIX', 'loan comprehension'). For Nubank, reserve full human synthesis for anything touching debt, fraud, identity, or regulatory risk—AI can still suggest themes, but a researcher should own the final framing and recommendations.\n\nQuality guardrail: Keep a short checklist: 'Did the AI miss nuance or context? Did it over-generalise?' If a theme is going into a shareout or roadmap decision, trace it back to at least one real quote and one researcher note. That way AI accelerates structure and recall; researchers keep accountability for meaning and action.",
       "category": "AI summarization",
-      "source": { "name": "Dovetail - AI content analysis generator", "url": "https://dovetail.com/ai-content-analysis-generator/" }
+      "source": {
+        "name": "Dovetail - AI content analysis generator",
+        "url": "https://dovetail.com/ai-content-analysis-generator/"
+      },
+      "analysis": "Role in the research process: Use AI summarisation as the first pass after discovery or usability interviews. It should produce a draft structure (themes, sub-themes, candidate quotes) that you then refine—not replace—with your own judgment. That keeps synthesis faster without outsourcing interpretation on regulated or sensitive topics.\n\nPractical workflow: After each round of interviews (e.g. 5–8 sessions per study), upload transcripts to your chosen tool. Use the AI output to build an initial affinity map or theme list; then re-read critical moments and adjust. Tag themes so they can be reused across squads (e.g. 'onboarding friction', 'trust in PIX', 'loan comprehension'). For Nubank, reserve full human synthesis for anything touching debt, fraud, identity, or regulatory risk—AI can still suggest themes, but a researcher should own the final framing and recommendations.\n\nQuality guardrail: Keep a short checklist: 'Did the AI miss nuance or context? Did it over-generalise?' If a theme is going into a shareout or roadmap decision, trace it back to at least one real quote and one researcher note. That way AI accelerates structure and recall; researchers keep accountability for meaning and action."
+    },
+    {
+      "date": "2026-02-24",
+      "title": "Being an AI-native designer isn’t what you think it is",
+      "summary": "What 28 design leaders have said AI-native design really is Continue reading on UX Collective »",
+      "content": "What 28 design leaders have said AI-native design really is Continue reading on UX Collective »",
+      "category": "Other AI in research",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/being-an-ai-native-designer-isnt-what-you-think-it-is-dae1d03e68f5?source=rss----138adf9c44c---4"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-02-24",
+      "title": "How to prototype using Claude Haiku 4.5 + MUI  –  Use UXPin Merge!",
+      "summary": "Build production-ready React prototypes by combining AI layouts with MUI components in UXPin Merge for faster, code-aligned handoff. The post How to prototype using Claude Haiku 4.5 + MUI – Use UXPin Merge! appeared first on Studio by UXPin.",
+      "content": "Build production-ready React prototypes by combining AI layouts with MUI components in UXPin Merge for faster, code-aligned handoff. The post How to prototype using Claude Haiku 4.5 + MUI – Use UXPin Merge! appeared first on Studio by UXPin.",
+      "category": "Other AI in research",
+      "source": {
+        "name": "UXPin Blog",
+        "url": "https://www.uxpin.com/studio/blog/prototype-claude-haiku-4-5-mui-uxpin-merge/"
+      },
+      "analysis": ""
     },
     {
       "date": "2026-02-23",
       "title": "Automated usability issue detection",
       "summary": "AI is being used to scan prototypes and flows to flag potential usability issues (e.g. unclear CTAs, missing feedback) before user testing, reducing redundant findings.",
       "content": "AI is being used to scan prototypes and flows to flag potential usability issues before user testing. Systems analyze screens for unclear CTAs, missing feedback, inconsistent patterns, and accessibility red flags, then produce a report that researchers can use to fix obvious problems ahead of sessions. That way, user testing focuses on deeper questions instead of catching the same low-hanging fruit every time. Teams report fewer redundant findings and more time in sessions spent on behavior and reasoning. The caveat: automated checks don't replace real users—they help clean the slate so that when you do test, you learn something new.",
-      "analysis": "When to use it: Run automated checks on new or updated flows before you schedule usability sessions—especially for high-traffic or high-stakes journeys (e.g. loan application, card activation, PIX, first-time onboarding, support flows). The goal is to fix obvious usability and accessibility issues in sprint, so that when real users come in, you’re testing comprehension, trust, and edge cases instead of repeating 'the CTA was unclear' in every report.\n\nHow to integrate with Nubank’s process: Align the tool’s taxonomy with your design system and a11y standards so the report speaks the same language as design and eng. Share the report with the squad (research, design, product) and assign ownership for fixes before the next round of recruitment. After each usability study, log which issues were caught by the AI vs. found in-session—over time that helps you tune what to run automated vs. what to reserve for human testing.\n\nBoundary: Treat the output as a pre-flight checklist, not a substitute for user testing. Real users still reveal misinterpretation, emotional friction, and context you can’t automate. Use the report to raise the floor; keep moderated sessions to understand why people behave the way they do.",
       "category": "Automated usability checks",
-      "source": { "name": "User Interviews - The 2024 AI in UX Research Report", "url": "https://www.userinterviews.com/ai-in-ux-research-report" }
+      "source": {
+        "name": "User Interviews - The 2024 AI in UX Research Report",
+        "url": "https://www.userinterviews.com/ai-in-ux-research-report"
+      },
+      "analysis": "When to use it: Run automated checks on new or updated flows before you schedule usability sessions—especially for high-traffic or high-stakes journeys (e.g. loan application, card activation, PIX, first-time onboarding, support flows). The goal is to fix obvious usability and accessibility issues in sprint, so that when real users come in, you’re testing comprehension, trust, and edge cases instead of repeating 'the CTA was unclear' in every report.\n\nHow to integrate with Nubank’s process: Align the tool’s taxonomy with your design system and a11y standards so the report speaks the same language as design and eng. Share the report with the squad (research, design, product) and assign ownership for fixes before the next round of recruitment. After each usability study, log which issues were caught by the AI vs. found in-session—over time that helps you tune what to run automated vs. what to reserve for human testing.\n\nBoundary: Treat the output as a pre-flight checklist, not a substitute for user testing. Real users still reveal misinterpretation, emotional friction, and context you can’t automate. Use the report to raise the floor; keep moderated sessions to understand why people behave the way they do."
+    },
+    {
+      "date": "2026-02-23",
+      "title": "Hidden cost of AI prototypes, leadership myths, how designers use AI",
+      "summary": "Hidden cost of AI prototypes, leadership myths, how designers use AI",
+      "content": "Hidden cost of AI prototypes, leadership myths, how designers use AI",
+      "category": "Other AI in research",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/hidden-cost-of-ai-prototypes-leadership-myths-how-designers-use-ai-568b86eb87f2?source=rss----138adf9c44c---4"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-02-23",
+      "title": "A Designer’s Guide To Eco-Friendly Interfaces",
+      "summary": "Every high-resolution hero image, autoplay video, and complex JavaScript animation carries a cost. Sustainable UX challenges the era of “unlimited pixels” and reframes performance as responsibility. In 2026, truly sophisticated design is defined not by how much it adds, but by...",
+      "content": "Every high-resolution hero image, autoplay video, and complex JavaScript animation carries a cost. Sustainable UX challenges the era of “unlimited pixels” and reframes performance as responsibility. In 2026, truly sophisticated design is defined not by how much it adds, but by how thoughtfully it reduces its footprint.",
+      "category": "Other AI in research",
+      "source": {
+        "name": "Smashing Magazine",
+        "url": "https://smashingmagazine.com/2026/02/designer-guide-eco-friendly-interfaces/"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-02-23",
+      "title": "How to prototype using Claude Sonnet 4.5 + Custom Design Systems  –  Use UXPin Merge!",
+      "summary": "Turn design systems into production-ready prototypes with AI-generated layouts, synced components, and exportable React code. The post How to prototype using Claude Sonnet 4.5 + Custom Design Systems – Use UXPin Merge! appeared first on Studio by UXPin.",
+      "content": "Turn design systems into production-ready prototypes with AI-generated layouts, synced components, and exportable React code. The post How to prototype using Claude Sonnet 4.5 + Custom Design Systems – Use UXPin Merge! appeared first on Studio by UXPin.",
+      "category": "Other AI in research",
+      "source": {
+        "name": "UXPin Blog",
+        "url": "https://www.uxpin.com/studio/blog/prototype-claude-sonnet-4-5-custom-design-systems-uxpin-merge/"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-02-23",
+      "title": "Continue a nadar: Design na era da IA",
+      "summary": "Continue a nadar: Design na era da IA",
+      "content": "Continue a nadar: Design na era da IA",
+      "category": "Other AI in research",
+      "source": {
+        "name": "UX Collective Brasil",
+        "url": "https://brasil.uxdesign.cc/continue-a-nadar-design-na-era-da-ia-50a7cbb98688?source=rss----6f71781500a4---4"
+      },
+      "analysis": ""
     },
     {
       "date": "2026-02-22",
       "title": "Survey design and question optimization",
       "summary": "Researchers are using AI to suggest clearer survey questions, reduce bias, and adapt follow-ups based on previous answers—improving response quality and completion rates.",
       "content": "Researchers are using AI to improve survey design and question quality. Tools suggest clearer wording, flag leading or double-barreled questions, and recommend shorter, more focused items. Some platforms also support adaptive follow-ups: the next question can depend on the previous answer, so respondents see only relevant branches. The result is better response quality and higher completion rates, with less manual tuning. Teams still need to review suggestions and align questions to their research goals, but AI is speeding up the draft-and-refine loop and reducing common survey pitfalls.",
-      "analysis": "Where it adds value: Use AI to improve clarity, reduce bias, and shorten surveys for segment and tracking work (e.g. NPS, satisfaction, feature demand, financial habits). It’s especially useful when the topic is sensitive or complex—credit, insurance, fees—where poor wording can skew answers or confuse respondents. Use adaptive logic so follow-ups match the segment (e.g. different paths for investors vs. first-time savers), which keeps surveys relevant and completion rates higher.\n\nOwnership and guardrails: Researchers own the research question and the final questionnaire. Use AI for structure, readability, and branching suggestions; then review every item for leading language, double-barrels, and regulatory risk. Any survey that touches terms, pricing, or legal obligations should still go through compliance and legal where required—AI does not replace that sign-off.\n\nOperational tip: Align with whoever owns the survey platform (e.g. Research Ops or product) so that AI-improved questions live in shared templates and stay consistent across squads. Document which questions were AI-suggested vs. human-written so you can review performance and bias over time.",
       "category": "Survey optimization",
-      "source": { "name": "Typeform - Smarter surveys: A modern guide to AI-powered surveys", "url": "https://typeform.com/blog/ai-powered-surveys-guide" }
+      "source": {
+        "name": "Typeform - Smarter surveys: A modern guide to AI-powered surveys",
+        "url": "https://typeform.com/blog/ai-powered-surveys-guide"
+      },
+      "analysis": "Where it adds value: Use AI to improve clarity, reduce bias, and shorten surveys for segment and tracking work (e.g. NPS, satisfaction, feature demand, financial habits). It’s especially useful when the topic is sensitive or complex—credit, insurance, fees—where poor wording can skew answers or confuse respondents. Use adaptive logic so follow-ups match the segment (e.g. different paths for investors vs. first-time savers), which keeps surveys relevant and completion rates higher.\n\nOwnership and guardrails: Researchers own the research question and the final questionnaire. Use AI for structure, readability, and branching suggestions; then review every item for leading language, double-barrels, and regulatory risk. Any survey that touches terms, pricing, or legal obligations should still go through compliance and legal where required—AI does not replace that sign-off.\n\nOperational tip: Align with whoever owns the survey platform (e.g. Research Ops or product) so that AI-improved questions live in shared templates and stay consistent across squads. Document which questions were AI-suggested vs. human-written so you can review performance and bias over time."
+    },
+    {
+      "date": "2026-02-22",
+      "title": "Wynter Alternatives & Competitors for Market Research in 2026",
+      "summary": "Wynter is known for fast, targeted B2B message testing, helping teams validate positioning and value propositions with niche professional audiences. Many teams start exploring alternatives when they need broader UX ... The post Wynter Alternatives & Competitors for Market Rese...",
+      "content": "Wynter is known for fast, targeted B2B message testing, helping teams validate positioning and value propositions with niche professional audiences. Many teams start exploring alternatives when they need broader UX ... The post Wynter Alternatives & Competitors for Market Research in 2026 appeared first on Articles on everything UX: Research, Testing & Design.",
+      "category": "Other AI in research",
+      "source": {
+        "name": "UX Tweak Blog",
+        "url": "https://blog.uxtweak.com/wynter-alternatives-and-competitors/"
+      },
+      "analysis": ""
     },
     {
       "date": "2026-02-21",
       "title": "Session replay + AI for behavior patterns",
       "summary": "Combining session replay with AI analysis helps identify recurring drop-off patterns and confusion points at scale without manually watching hundreds of sessions.",
       "content": "Combining session replay with AI analysis is helping teams spot behavior patterns at scale. Instead of manually watching hundreds of sessions, researchers use tools that aggregate replays and apply AI to detect recurring drop-offs, rage clicks, long hesitations, and navigation loops. The output is a digest of likely problem areas with example sessions to drill into. That makes it possible to prioritize which flows to study in depth and which to fix with design changes. The approach works best when paired with qualitative research—replay + AI surfaces the 'where,' and interviews or surveys explain the 'why.'",
-      "analysis": "Role of research: Session replay + AI gives you the 'where'—which steps, screens, or segments show the most drop-off, hesitation, or confusion. Research’s job is to turn that into the 'why' and actionable recommendations. Use the AI digest to decide where to invest in deeper methods (e.g. moderated usability, interviews, or diary studies) and where design can iterate from behavioural signals alone.\n\nWhere to use it at Nubank: Run it on critical flows—onboarding, conversion funnels, key product flows (e.g. loan application, PIX, card activation), and support or error-recovery paths. Use the output to prioritise: which problem areas need a dedicated study vs. which can be handed to design with a short brief. That keeps research capacity focused on the most ambiguous or high-impact questions.\n\nEthics and compliance: Use only where Nubank’s replay and data policies allow; respect consent and minimisation. Do not rely on AI summaries alone for decisions that affect users in regulated or high-risk contexts—always pair with human review and, where needed, qualitative validation. Document how replay + AI informed your research backlog so the link between behavioural data and research questions stays clear.",
-      "category": "Session replay + AI",
-      "source": { "name": "Hotjar - Introducing Hotjar AI (Contentsquare Sense)", "url": "https://hotjar.com/blog/introducing-hotjar-ai" }
+      "category": "Other AI in research",
+      "source": {
+        "name": "Hotjar - Introducing Hotjar AI (Contentsquare Sense)",
+        "url": "https://hotjar.com/blog/introducing-hotjar-ai"
+      },
+      "analysis": "Role of research: Session replay + AI gives you the 'where'—which steps, screens, or segments show the most drop-off, hesitation, or confusion. Research’s job is to turn that into the 'why' and actionable recommendations. Use the AI digest to decide where to invest in deeper methods (e.g. moderated usability, interviews, or diary studies) and where design can iterate from behavioural signals alone.\n\nWhere to use it at Nubank: Run it on critical flows—onboarding, conversion funnels, key product flows (e.g. loan application, PIX, card activation), and support or error-recovery paths. Use the output to prioritise: which problem areas need a dedicated study vs. which can be handed to design with a short brief. That keeps research capacity focused on the most ambiguous or high-impact questions.\n\nEthics and compliance: Use only where Nubank’s replay and data policies allow; respect consent and minimisation. Do not rely on AI summaries alone for decisions that affect users in regulated or high-risk contexts—always pair with human review and, where needed, qualitative validation. Document how replay + AI informed your research backlog so the link between behavioural data and research questions stays clear."
+    },
+    {
+      "date": "2026-02-20",
+      "title": "Tracking Adoption of Research Recommendations: The Recommendation-Adoption Score",
+      "summary": "Use the RAS (Recommendation-Adoption Score) to track how much research value reaches your user.",
+      "content": "Use the RAS (Recommendation-Adoption Score) to track how much research value reaches your user.",
+      "category": "Other AI in research",
+      "source": {
+        "name": "Nielsen Norman Group",
+        "url": "https://www.nngroup.com/articles/recommendation-adoption-score/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-02-20",
+      "title": "Mais conversa: o handoff que aprendi na prática",
+      "summary": "Mais conversa: o handoff que aprendi na prática",
+      "content": "Mais conversa: o handoff que aprendi na prática",
+      "category": "Other AI in research",
+      "source": {
+        "name": "UX Collective Brasil",
+        "url": "https://brasil.uxdesign.cc/mais-conversa-o-handoff-que-aprendi-na-pr%C3%A1tica-202f91e58d98?source=rss----6f71781500a4---4"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-02-19",
+      "title": "How to prototype using Claude Sonnet 4.5 + MUI  –  Use UXPin Merge!",
+      "summary": "AI-driven layouts combined with production-ready code components let teams build interactive prototypes that match production and accelerate delivery. The post How to prototype using Claude Sonnet 4.5 + MUI – Use UXPin Merge! appeared first on Studio by UXPin.",
+      "content": "AI-driven layouts combined with production-ready code components let teams build interactive prototypes that match production and accelerate delivery. The post How to prototype using Claude Sonnet 4.5 + MUI – Use UXPin Merge! appeared first on Studio by UXPin.",
+      "category": "Other AI in research",
+      "source": {
+        "name": "UXPin Blog",
+        "url": "https://www.uxpin.com/studio/blog/prototype-claude-sonnet-4-5-mui-uxpin-merge/"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-02-19",
+      "title": "From Raw Interviews to Stakeholder-Ready Reports with Insights Editor",
+      "summary": "Hey UXtweakers, We’re excited to announce a new feature for our moderated studies (Live Interviews and Study Interviews) to help you turn raw study data into stakeholder-ready reports without the ... The post From Raw Interviews to Stakeholder-Ready Reports with Insights Edito...",
+      "content": "Hey UXtweakers, We’re excited to announce a new feature for our moderated studies (Live Interviews and Study Interviews) to help you turn raw study data into stakeholder-ready reports without the ... The post From Raw Interviews to Stakeholder-Ready Reports with Insights Editor appeared first on Articles on everything UX: Research, Testing & Design.",
+      "category": "Other AI in research",
+      "source": {
+        "name": "UX Tweak Blog",
+        "url": "https://blog.uxtweak.com/insights-editor-feature-in-uxtweak/"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-02-19",
+      "title": "Building AI Sales Reps: How ShowMe Orchestrates Voice, Video, and Multi-Agent Workflows to Close Deals",
+      "summary": "Listen to this episode on: Spotify | Apple Podcasts What happens when you treat an AI agent not as a chatbot, but as a full teammate on your sales team – one that can jump on video calls, demo your product, make phone calls, and follow up over days? In this",
+      "content": "Listen to this episode on: Spotify | Apple Podcasts What happens when you treat an AI agent not as a chatbot, but as a full teammate on your sales team – one that can jump on video calls, demo your product, make phone calls, and follow up over days? In this",
+      "category": "Other AI in research",
+      "source": {
+        "name": "Teresa Torres (Product Talk)",
+        "url": "https://www.producttalk.org/building-ai-sales-reps-showme/"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-02-18",
+      "title": "UX Conference May Announced (May 11 - May 22)",
+      "summary": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Training focused on long-lasting skills for UX professionals. May 11 - May 22, 2026.",
+      "content": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Training focused on long-lasting skills for UX professionals. May 11 - May 22, 2026.",
+      "category": "Other AI in research",
+      "source": {
+        "name": "Nielsen Norman Group",
+        "url": "https://www.nngroup.com/training/may/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-02-18",
+      "title": "How to prototype using Claude Opus 4.5 + Custom Design Systems  –  Use UXPin Merge!",
+      "summary": "Create production-aligned prototypes with UXPin Merge and Claude Opus 4.5—sync custom React design systems, generate AI components, and export ready JSX. The post How to prototype using Claude Opus 4.5 + Custom Design Systems – Use UXPin Merge! appeared first on Studio by UXPin.",
+      "content": "Create production-aligned prototypes with UXPin Merge and Claude Opus 4.5—sync custom React design systems, generate AI components, and export ready JSX. The post How to prototype using Claude Opus 4.5 + Custom Design Systems – Use UXPin Merge! appeared first on Studio by UXPin.",
+      "category": "Other AI in research",
+      "source": {
+        "name": "UXPin Blog",
+        "url": "https://www.uxpin.com/studio/blog/prototype-claude-opus-4-5-custom-design-systems-uxpin-merge/"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-02-18",
+      "title": "From Customer Interviews to an Opportunity Solution Tree—In Minutes",
+      "summary": "Most product teams know they should be interviewing customers. And more teams than ever are actually doing it. That's the good news. The bad news? Many teams are struggling with what comes next. I've written before about the challenge of interview synthesis—going from a",
+      "content": "Most product teams know they should be interviewing customers. And more teams than ever are actually doing it. That's the good news. The bad news? Many teams are struggling with what comes next. I've written before about the challenge of interview synthesis—going from a",
+      "category": "Other AI in research",
+      "source": {
+        "name": "Teresa Torres (Product Talk)",
+        "url": "https://www.producttalk.org/ai-opportunity-solution-trees/"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-02-17",
+      "title": "Toys, Crafts & Hobbies UX Benchmark: 5,500+ Performance Scores and 4,500+ Best Practice Examples",
+      "summary": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) At Baymard, we’ve just released a new UX benchmark with 11 “Toys, Crafts & Hobbies” UX case st...",
+      "content": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) At Baymard, we’ve just released a new UX benchmark with 11 “Toys, Crafts & Hobbies” UX case studies. This follows from our large-scale user testing and adds to our existing ecommerce UX benchmark. In this article, we give you a snapshot of the overall UX performance. 11 Toys, Crafts & Hobbies UX Case Studies and the Overall Performance Get Premium access to review your own site or have it audited by Baymard researchers. These are the 11 in-depth Toys, Crafts & Hobbies UX case studies. The 11 toys, crafts, and hobby sites have been manually assessed across 500+ research-based UX parameters relevant to Toys, Crafts & Hobbies, resulting in 5,500+ weighted UX performance scores and 4,500+ best practice examples from these sites. Each of the 5,500+ UX performance scores from the 11 Toys, Crafts & Hobbies case studies is summarized in the interactive scatterplot below — showing you how they perform collectively and individually: {{ scatterplot-graph: size=big + habitat=public + base-sites=collection:toys-...",
+      "category": "Other AI in research",
+      "source": {
+        "name": "Baymard Institute",
+        "url": "https://feeds.baymard.com/link/9825/17277775/toys-crafts-and-hobbies-ux-benchmark-2026"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-02-17",
+      "title": "How to prototype using Claude Opus 4.5 + Bootstrap  –  Use UXPin Merge!",
+      "summary": "Generate production-ready React Bootstrap components with AI and import them into your design system to build interactive prototypes and speed design-to-code. The post How to prototype using Claude Opus 4.5 + Bootstrap – Use UXPin Merge! appeared first on Studio by UXPin.",
+      "content": "Generate production-ready React Bootstrap components with AI and import them into your design system to build interactive prototypes and speed design-to-code. The post How to prototype using Claude Opus 4.5 + Bootstrap – Use UXPin Merge! appeared first on Studio by UXPin.",
+      "category": "Other AI in research",
+      "source": {
+        "name": "UXPin Blog",
+        "url": "https://www.uxpin.com/studio/blog/prototype-claude-opus-4-5-bootstrap-uxpin-merge/"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-02-17",
+      "title": "Criando componentes acessíveis no Design System",
+      "summary": "Criando componentes acessíveis no Design System",
+      "content": "Criando componentes acessíveis no Design System",
+      "category": "Other AI in research",
+      "source": {
+        "name": "UX Collective Brasil",
+        "url": "https://brasil.uxdesign.cc/criando-componentes-acessiveis-no-design-system-6e2a1b995147?source=rss----6f71781500a4---4"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-02-17",
+      "title": "Support System for Product Leaders - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "summary": "Listen to this episode on: Spotify | Apple Podcasts Product leaders are overwhelmed — and it’s not just you. Between shrinking headcount, constant AI disruption, economic uncertainty, and nonstop context switching, many product leaders are trying to do more with less while sti...",
+      "content": "Listen to this episode on: Spotify | Apple Podcasts Product leaders are overwhelmed — and it’s not just you. Between shrinking headcount, constant AI disruption, economic uncertainty, and nonstop context switching, many product leaders are trying to do more with less while still protecting their teams. In this episode",
+      "category": "Other AI in research",
+      "source": {
+        "name": "Teresa Torres (Product Talk)",
+        "url": "https://www.producttalk.org/support-system-for-product-leaders-all-things-product-podcast-with-teresa-torres-petra-wille/"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-02-16",
+      "title": "How to prototype using Claude Opus 4.5 + Ant Design  –  Use UXPin Merge!",
+      "summary": "Create production-ready prototypes using AI-generated layouts, Ant Design components, and UXPin Merge to align design with production code and speed development. The post How to prototype using Claude Opus 4.5 + Ant Design – Use UXPin Merge! appeared first on Studio by UXPin.",
+      "content": "Create production-ready prototypes using AI-generated layouts, Ant Design components, and UXPin Merge to align design with production code and speed development. The post How to prototype using Claude Opus 4.5 + Ant Design – Use UXPin Merge! appeared first on Studio by UXPin.",
+      "category": "Other AI in research",
+      "source": {
+        "name": "UXPin Blog",
+        "url": "https://www.uxpin.com/studio/blog/prototype-claude-opus-4-5-ant-design-uxpin-merge/"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-02-16",
+      "title": "Sobre especializar ou generalizar, bagunça como solução, e bias-aware AI systems",
+      "summary": "Sobre especializar ou generalizar, bagunça como solução, e bias-aware AI systems",
+      "content": "Sobre especializar ou generalizar, bagunça como solução, e bias-aware AI systems",
+      "category": "Other AI in research",
+      "source": {
+        "name": "UX Collective Brasil",
+        "url": "https://brasil.uxdesign.cc/sobre-especializar-ou-generalizar-bagunca-como-solucao-e-bias-aware-ai-systems-3d4b41589466?source=rss----6f71781500a4---4"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-02-13",
+      "title": "UX Research with Minors: Consent vs. Assent",
+      "summary": "When conducting UX research with minors, you must obtain consent from a parent or legal guardian and assent from the minor participant.",
+      "content": "When conducting UX research with minors, you must obtain consent from a parent or legal guardian and assent from the minor participant.",
+      "category": "Other AI in research",
+      "source": {
+        "name": "Nielsen Norman Group",
+        "url": "https://www.nngroup.com/articles/research-minors-consent/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-02-13",
+      "title": "What UX Consulting Clients Expect in the Age of AI",
+      "summary": "Clients still seek strong judgment and critical thinking, research rigor, and respect for real-world and user constraints from UX consultants.",
+      "content": "Clients still seek strong judgment and critical thinking, research rigor, and respect for real-world and user constraints from UX consultants.",
+      "category": "Other AI in research",
+      "source": {
+        "name": "Nielsen Norman Group",
+        "url": "https://www.nngroup.com/articles/ux-consulting-ai/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-02-12",
+      "title": "10 Best Condens Alternatives in 2026 for Qualitative Insights",
+      "summary": "Condens is a well-known qualitative research repository built to help teams tag, cluster, and structure insights from interviews and usability studies. For many UX teams, it provides a clean way ... The post 10 Best Condens Alternatives in 2026 for Qualitative Insights appeare...",
+      "content": "Condens is a well-known qualitative research repository built to help teams tag, cluster, and structure insights from interviews and usability studies. For many UX teams, it provides a clean way ... The post 10 Best Condens Alternatives in 2026 for Qualitative Insights appeared first on Articles on everything UX: Research, Testing & Design.",
+      "category": "Other AI in research",
+      "source": {
+        "name": "UX Tweak Blog",
+        "url": "https://blog.uxtweak.com/best-condens-alternatives-and-competitors/"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-02-11",
+      "title": "Designing For Agentic AI: Practical UX Patterns For Control, Consent, And Accountability",
+      "summary": "Autonomy is an output of a technical system. Trustworthiness is an output of a design process. Here are concrete design patterns, operational frameworks, and organizational practices for building agentic systems that are not only powerful but also transparent, controllable, an...",
+      "content": "Autonomy is an output of a technical system. Trustworthiness is an output of a design process. Here are concrete design patterns, operational frameworks, and organizational practices for building agentic systems that are not only powerful but also transparent, controllable, and trustworthy.",
+      "category": "Other AI in research",
+      "source": {
+        "name": "Smashing Magazine",
+        "url": "https://smashingmagazine.com/2026/02/designing-agentic-ai-practical-ux-patterns/"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-02-11",
+      "title": "We built an AI design tool that works with your actual React components",
+      "summary": "Most AI design tools have a fundamental problem: they generate pixels, not components. You describe a UI, AI draws rectangles that look like buttons and cards and inputs. It’s impressive in demos. Then your engineers rebuild everything from scratch because none of it is connec...",
+      "content": "Most AI design tools have a fundamental problem: they generate pixels, not components. You describe a UI, AI draws rectangles that look like buttons and cards and inputs. It’s impressive in demos. Then your engineers rebuild everything from scratch because none of it is connected to your actual component library. We built something different. Forge The post We built an AI design tool that works with your actual React components appeared first on Studio by UXPin.",
+      "category": "Other AI in research",
+      "source": {
+        "name": "UXPin Blog",
+        "url": "https://www.uxpin.com/studio/blog/forge-ai-design-tool-react-components/"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-02-11",
+      "title": "How to prototype using GPT-4.1 + Ant Design  –  Use UXPin Merge!",
+      "summary": "Generate production-ready React prototypes with AI that creates code-backed components, real interactions, and seamless design-to-development handoffs. The post How to prototype using GPT-4.1 + Ant Design – Use UXPin Merge! appeared first on Studio by UXPin.",
+      "content": "Generate production-ready React prototypes with AI that creates code-backed components, real interactions, and seamless design-to-development handoffs. The post How to prototype using GPT-4.1 + Ant Design – Use UXPin Merge! appeared first on Studio by UXPin.",
+      "category": "Other AI in research",
+      "source": {
+        "name": "UXPin Blog",
+        "url": "https://www.uxpin.com/studio/blog/prototype-gpt-4-1-ant-design-uxpin-merge/"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-02-11",
+      "title": "UXtweak & WIAA join forces to strengthen the global IA community",
+      "summary": "We are partnering with the World Information Architecture Association (WIAA)! WIAA is a global nonprofit dedicated to advancing the discipline of information architecture – the foundation of every great user ... The post UXtweak & WIAA join forces to strengthen the global IA c...",
+      "content": "We are partnering with the World Information Architecture Association (WIAA)! WIAA is a global nonprofit dedicated to advancing the discipline of information architecture – the foundation of every great user ... The post UXtweak & WIAA join forces to strengthen the global IA community appeared first on Articles on everything UX: Research, Testing & Design.",
+      "category": "Other AI in research",
+      "source": {
+        "name": "UX Tweak Blog",
+        "url": "https://blog.uxtweak.com/uxtweak-wiaa/"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-02-11",
+      "title": "Context Engineering: 5 Familiar Strategies from Real Product Teams",
+      "summary": "Audio Version ($) I've been getting a lot of questions about why I'm diving so deep into Claude Code. So I want to take a step back and provide some context. Last March, when I started building my first AI product—the Product Talk Interview Coach",
+      "content": "Audio Version ($) I've been getting a lot of questions about why I'm diving so deep into Claude Code. So I want to take a step back and provide some context. Last March, when I started building my first AI product—the Product Talk Interview Coach",
+      "category": "Other AI in research",
+      "source": {
+        "name": "Teresa Torres (Product Talk)",
+        "url": "https://www.producttalk.org/context-engineering/"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-02-10",
+      "title": "Figma Alternative: Why UXPin is the Better Choice for Teams at Scale",
+      "summary": "Code-backed design using production components that reduces engineering time, adds AI-driven layouts, and provides enterprise security for large teams. The post Figma Alternative: Why UXPin is the Better Choice for Teams at Scale appeared first on Studio by UXPin.",
+      "content": "Code-backed design using production components that reduces engineering time, adds AI-driven layouts, and provides enterprise security for large teams. The post Figma Alternative: Why UXPin is the Better Choice for Teams at Scale appeared first on Studio by UXPin.",
+      "category": "Other AI in research",
+      "source": {
+        "name": "UXPin Blog",
+        "url": "https://www.uxpin.com/studio/blog/figma-alternative-uxpin-better-choice-for-teams-at-scale/"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-02-10",
+      "title": "Claude Code - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "summary": "Listen to this episode on: Spotify | Apple Podcasts Petra finally carved out time to try Claude Code—and immediately ran into the “this tool thinks everything is a code repo” reality. In this episode, Petra and Teresa unpack what it’s like to move from Claude-in-the-browser",
+      "content": "Listen to this episode on: Spotify | Apple Podcasts Petra finally carved out time to try Claude Code—and immediately ran into the “this tool thinks everything is a code repo” reality. In this episode, Petra and Teresa unpack what it’s like to move from Claude-in-the-browser",
+      "category": "Other AI in research",
+      "source": {
+        "name": "Teresa Torres (Product Talk)",
+        "url": "https://www.producttalk.org/claude-code-all-things-product-podcast-with-teresa-torres-petra-wille/"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-02-09",
+      "title": "Best 26 Upcoming UX Conferences (design, research and more)",
+      "summary": "UX conferences and events by months in 2026 The table below gives you an overview of the UX conferences happening in 2026. If you want to jump straight to a ... The post Best 26 Upcoming UX Conferences (design, research and more) appeared first on Articles on everything UX: Re...",
+      "content": "UX conferences and events by months in 2026 The table below gives you an overview of the UX conferences happening in 2026. If you want to jump straight to a ... The post Best 26 Upcoming UX Conferences (design, research and more) appeared first on Articles on everything UX: Research, Testing & Design.",
+      "category": "Other AI in research",
+      "source": {
+        "name": "UX Tweak Blog",
+        "url": "https://blog.uxtweak.com/top-ux-conferences/"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-02-06",
+      "title": "How AI Literacy Shapes GenAI Use",
+      "summary": "Using generative AI often doesn’t mean using it well. AI literacy requires both prompt fluency and the ability to assess outputs.",
+      "content": "Using generative AI often doesn’t mean using it well. AI literacy requires both prompt fluency and the ability to assess outputs.",
+      "category": "Other AI in research",
+      "source": {
+        "name": "Nielsen Norman Group",
+        "url": "https://www.nngroup.com/articles/ai-literacy/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-02-06",
+      "title": "Your Design System Needs an Enforcer",
+      "summary": "Although design systems promise consistency, most still fail without someone actively enforcing the rules and making teams follow them.",
+      "content": "Although design systems promise consistency, most still fail without someone actively enforcing the rules and making teams follow them.",
+      "category": "Other AI in research",
+      "source": {
+        "name": "Nielsen Norman Group",
+        "url": "https://www.nngroup.com/articles/design-system-enforcer/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-02-06",
+      "title": "Best 10 Looppanel Alternatives in 2026 for Qualitative Research",
+      "summary": "Teams turn to Looppanel mostly for interview analysis and AI-assisted qualitative work, but it’s no longer the only option. As UX research matures, many teams need tools that go beyond ... The post Best 10 Looppanel Alternatives in 2026 for Qualitative Research appeared first...",
+      "content": "Teams turn to Looppanel mostly for interview analysis and AI-assisted qualitative work, but it’s no longer the only option. As UX research matures, many teams need tools that go beyond ... The post Best 10 Looppanel Alternatives in 2026 for Qualitative Research appeared first on Articles on everything UX: Research, Testing & Design.",
+      "category": "Other AI in research",
+      "source": {
+        "name": "UX Tweak Blog",
+        "url": "https://blog.uxtweak.com/looppanel-alternatives/"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-02-05",
+      "title": "2026 Progress: Instant UX Analysis of Your Site Now Across 209 UX Parameters (Still 95% Accuracy Rate)",
+      "summary": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) The pressure on UX- and product teams to deliver results faster has never been higher, but the...",
+      "content": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) The pressure on UX- and product teams to deliver results faster has never been higher, but the requirement for those results to be rooted in actual user research remains non-negotiable. At Baymard, we developed UX-Ray to allow UX designers and UX researchers to move rapidly but not recklessly, by providing an instant UX analysis that returns evidence-backed and fully traceable UX insights with a 95% accuracy rate. Over the last 4 months, we’ve achieved a 5x increase in the depth of instant UX analysis you can perform on your UX designs. UX Analysis Now Across 209 UX Parameters As of February 1st, 2026, UX-Ray can now conduct an instant UX analysis of your ecommerce site across 209 distinct UX parameters/heuristics. This is up from 39 UX parameters in October 2025. This expansion lets you move from new design frames to a comprehensive, research-backed UX audit in minutes rather than weeks. See It in Action (Video) Still with a Documented 95% Accuracy Rate Speed is irrelevant if the UX insights do not...",
+      "category": "Other AI in research",
+      "source": {
+        "name": "Baymard Institute",
+        "url": "https://feeds.baymard.com/link/9825/17270368/ux-ray-progress-2026"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-02-05",
+      "title": "CSS <code>@scope</code>: An Alternative To Naming Conventions And Heavy Abstractions",
+      "summary": "Prescriptive class name conventions are no longer enough to keep CSS maintainable in a world of increasingly complex interfaces. Can the new `@scope` rule finally give developers the confidence to write CSS that can keep up with modern front ends?",
+      "content": "Prescriptive class name conventions are no longer enough to keep CSS maintainable in a world of increasingly complex interfaces. Can the new `@scope` rule finally give developers the confidence to write CSS that can keep up with modern front ends?",
+      "category": "Other AI in research",
+      "source": {
+        "name": "Smashing Magazine",
+        "url": "https://smashingmagazine.com/2026/02/css-scope-alternative-naming-conventions/"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-02-04",
+      "title": "Context Rot: Why AI Gets Worse the Longer You Chat (And How to Fix It)",
+      "summary": "Audio Version ($) Have you ever noticed that AI gets worse the longer you talk to it? I first noticed this when I was trying to fix bugs on Replit. I'd spin in an endless cycle of asking the agent to fix something and it would report back that",
+      "content": "Audio Version ($) Have you ever noticed that AI gets worse the longer you talk to it? I first noticed this when I was trying to fix bugs on Replit. I'd spin in an endless cycle of asking the agent to fix something and it would report back that",
+      "category": "Other AI in research",
+      "source": {
+        "name": "Teresa Torres (Product Talk)",
+        "url": "https://www.producttalk.org/context-rot/"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-02-03",
+      "title": "Combobox vs. Multiselect vs. Listbox: How To Choose The Right One",
+      "summary": "Combobox vs. Multi-Select vs. Listbox vs. Dual Listbox? How they are different, what purpose they serve, and how to choose the right one. Brought to you by Design Patterns For AI Interfaces, **friendly video courses on UX** and design patterns by Vitaly.",
+      "content": "Combobox vs. Multi-Select vs. Listbox vs. Dual Listbox? How they are different, what purpose they serve, and how to choose the right one. Brought to you by Design Patterns For AI Interfaces, **friendly video courses on UX** and design patterns by Vitaly.",
+      "category": "Other AI in research",
+      "source": {
+        "name": "Smashing Magazine",
+        "url": "https://smashingmagazine.com/2026/02/combobox-vs-multiselect-vs-listbox/"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-02-03",
+      "title": "Groupthink When Hiring - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "summary": "Listen to this episode on: Spotify | Apple Podcasts Is hiring broken—or just badly designed? In this episode of All Things Product, Petra Wille and Teresa Torres unpack what’s really going wrong in modern hiring processes. From AI-fueled application overload to endless intervi...",
+      "content": "Listen to this episode on: Spotify | Apple Podcasts Is hiring broken—or just badly designed? In this episode of All Things Product, Petra Wille and Teresa Torres unpack what’s really going wrong in modern hiring processes. From AI-fueled application overload to endless interview loops and “casual&",
+      "category": "Other AI in research",
+      "source": {
+        "name": "Teresa Torres (Product Talk)",
+        "url": "https://www.producttalk.org/episode-preview-all-things-product-podcast-with-teresa-torres-petra-wille-5/"
+      },
+      "analysis": ""
     }
   ]
 }
