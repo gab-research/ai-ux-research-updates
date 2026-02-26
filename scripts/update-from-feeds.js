@@ -298,12 +298,7 @@ async function main() {
     finalUpdates = [featured, ...rest];
   }
 
-  // Normalize all updates to AI-application themes (so existing and new items use the same taxonomy)
-  finalUpdates = finalUpdates.map((u) => ({
-    ...u,
-    category: inferCategory(u.title, u.summary || u.content || '')
-  }));
-
+  // Keep existing categories for past posts; only new items (from feed) already have inferCategory set when added to byUrl.
   const output = {
     title: siteTitle,
     subtitle: siteSubtitle,
