@@ -17,8 +17,9 @@ const ANALYSES_PATH = path.join(ROOT, 'analyses.json');
 const THEMES_PATH = path.join(ROOT, 'themes.json');
 
 const USER_AGENT = 'Mozilla/5.0 (compatible; AI-UX-Research-Updates/1.0; +https://github.com/gab-research/ai-ux-research-updates)';
+const FEED_TIMEOUT_MS = 10000;
 const parser = new Parser({
-  timeout: 15000,
+  timeout: FEED_TIMEOUT_MS,
   headers: { 'User-Agent': USER_AGENT }
 });
 
@@ -91,7 +92,7 @@ function fetchRaw(url) {
       res.on('end', () => resolve(Buffer.concat(chunks).toString('utf8')));
     });
     req.on('error', reject);
-    req.setTimeout(15000, () => { req.destroy(); reject(new Error('timeout')); });
+    req.setTimeout(FEED_TIMEOUT_MS, () => { req.destroy(); reject(new Error('timeout')); });
   });
 }
 
@@ -187,8 +188,10 @@ async function main() {
   const themeCountsAcrossSources = {};
   const seenLinks = new Set();
 
-  for (const feedConfig of sources.feeds) {
-    const result = await fetchFeed(feedConfig);
+  // Fetch all feeds in parallel to reduce total run time (was sequential, now ~1 slow batch instead of sum of all).
+  const feedResults = await Promise.all(sources.feeds.map((fc) => fetchFeed(fc)));
+
+  for (const result of feedResults) {
     if (!result) continue;
 
     const { feed, name } = result;
