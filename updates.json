@@ -1,17 +1,17 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-02-26T18:21:10.157Z",
+  "lastUpdated": "2026-02-26T18:23:19.823Z",
   "updates": [
     {
-      "date": "2026-02-06",
-      "title": "Best 10 Looppanel Alternatives in 2026 for Qualitative Research",
-      "summary": "Teams turn to Looppanel mostly for interview analysis and AI-assisted qualitative work, but it’s no longer the only option. As UX research matures, many teams need tools that go beyond ... The post Best 10 Looppanel Alternatives in 2026 for Qualitative Research appeared first...",
-      "content": "Teams turn to Looppanel mostly for interview analysis and AI-assisted qualitative work, but it’s no longer the only option. As UX research matures, many teams need tools that go beyond ... The post Best 10 Looppanel Alternatives in 2026 for Qualitative Research appeared first on Articles on everything UX: Research, Testing & Design.",
+      "date": "2026-02-13",
+      "title": "What UX Consulting Clients Expect in the Age of AI",
+      "summary": "Clients still seek strong judgment and critical thinking, research rigor, and respect for real-world and user constraints from UX consultants.",
+      "content": "Clients still seek strong judgment and critical thinking, research rigor, and respect for real-world and user constraints from UX consultants.",
       "category": "Other AI in research",
       "source": {
-        "name": "UX Tweak Blog",
-        "url": "https://blog.uxtweak.com/looppanel-alternatives/"
+        "name": "Nielsen Norman Group",
+        "url": "https://www.nngroup.com/articles/ux-consulting-ai/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication"
       },
       "analysis": ""
     },
@@ -20,24 +20,12 @@
       "title": "Synthetic users for rapid concept testing",
       "summary": "Teams are using LLM-powered synthetic users to run quick concept tests before recruiting real participants, cutting early-stage iteration time by up to 60%.",
       "content": "Product and research teams are increasingly turning to LLM-powered synthetic users to run fast concept tests before investing in live recruitment. Instead of waiting for screener responses and scheduling sessions, researchers prompt AI personas with the same demographics and goals as their target users, then run through flows, value propositions, and copy. Early adopters report cutting early-stage iteration time by up to 60%, while still running traditional user testing on the shortlisted concepts. The key is to treat synthetic feedback as a filter, not a replacement—use it to kill weak ideas quickly and double down on the ones that survive, then validate with real users.",
-      "category": "Other AI in research",
+      "category": "Synthetic users",
       "source": {
         "name": "Nielsen Norman Group - Accelerating Research with AI",
         "url": "https://www.nngroup.com/articles/research-with-ai/"
       },
       "analysis": "Where it fits in the research roadmap: Use synthetic users in the early concept and discovery phase, before you write a screener or book a single participant. Ideal for testing value propositions, feature naming, and flow logic for new products (e.g. new loan types, insurance, PIX features) or for prioritising which concepts deserve real user time.\n\nHow to run it: Define 2–4 personas that mirror your real segments (e.g. first-time loan applicant, frequent PIX user, older or less digitally confident user). For each persona, prompt the synthetic user with the same scenario you’d give in a moderated test (e.g. 'You’re considering a personal loan to pay for a course'). Run through your flows and copy; capture where the synthetic user hesitates, misunderstands, or drops. Treat this as a filter: concepts that get consistent confusion or drop-off get deprioritised or revised before they ever reach real users.\n\nOperational note: Synthetic output is not evidence. Document it as 'pre-test screening' or 'concept triage' in your research repository, and do not quote it in shareouts as user insight. Reserve real recruitment and moderated sessions for the shortlist that survives—your validity stays in the human sessions, while synthetic users reduce waste and focus recruitment on the right concepts."
-    },
-    {
-      "date": "2026-02-26",
-      "title": "How to prototype using Claude Haiku 4.5 + Ant Design  –  Use UXPin Merge!",
-      "summary": "Design production-ready, code-backed prototypes faster by combining AI-generated layouts, production components, and a Merge workflow to align design and development. The post How to prototype using Claude Haiku 4.5 + Ant Design – Use UXPin Merge! appeared first on Studio by U...",
-      "content": "Design production-ready, code-backed prototypes faster by combining AI-generated layouts, production components, and a Merge workflow to align design and development. The post How to prototype using Claude Haiku 4.5 + Ant Design – Use UXPin Merge! appeared first on Studio by UXPin.",
-      "category": "Other AI in research",
-      "source": {
-        "name": "UXPin Blog",
-        "url": "https://www.uxpin.com/studio/blog/prototype-claude-haiku-4-5-ant-design-uxpin-merge/"
-      },
-      "analysis": ""
     },
     {
       "date": "2026-02-25",
@@ -448,18 +436,6 @@
       "analysis": ""
     },
     {
-      "date": "2026-02-13",
-      "title": "What UX Consulting Clients Expect in the Age of AI",
-      "summary": "Clients still seek strong judgment and critical thinking, research rigor, and respect for real-world and user constraints from UX consultants.",
-      "content": "Clients still seek strong judgment and critical thinking, research rigor, and respect for real-world and user constraints from UX consultants.",
-      "category": "Other AI in research",
-      "source": {
-        "name": "Nielsen Norman Group",
-        "url": "https://www.nngroup.com/articles/ux-consulting-ai/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication"
-      },
-      "analysis": ""
-    },
-    {
       "date": "2026-02-12",
       "title": "10 Best Condens Alternatives in 2026 for Qualitative Insights",
       "summary": "Condens is a well-known qualitative research repository built to help teams tag, cluster, and structure insights from interviews and usability studies. For many UX teams, it provides a clean way ... The post 10 Best Condens Alternatives in 2026 for Qualitative Insights appeare...",
@@ -612,6 +588,18 @@
       "source": {
         "name": "Nielsen Norman Group",
         "url": "https://www.nngroup.com/articles/design-system-enforcer/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-02-06",
+      "title": "Best 10 Looppanel Alternatives in 2026 for Qualitative Research",
+      "summary": "Teams turn to Looppanel mostly for interview analysis and AI-assisted qualitative work, but it’s no longer the only option. As UX research matures, many teams need tools that go beyond ... The post Best 10 Looppanel Alternatives in 2026 for Qualitative Research appeared first...",
+      "content": "Teams turn to Looppanel mostly for interview analysis and AI-assisted qualitative work, but it’s no longer the only option. As UX research matures, many teams need tools that go beyond ... The post Best 10 Looppanel Alternatives in 2026 for Qualitative Research appeared first on Articles on everything UX: Research, Testing & Design.",
+      "category": "Other AI in research",
+      "source": {
+        "name": "UX Tweak Blog",
+        "url": "https://blog.uxtweak.com/looppanel-alternatives/"
       },
       "analysis": ""
     },

@@ -70,7 +70,7 @@ function matchesKeywords(text, keywords) {
  */
 function inferCategory(title, description) {
   const text = `${title || ''} ${description || ''}`.toLowerCase();
-  if (/\b(synthetic\s+user|synthetic\s+participant|LLM\s+persona|AI\s+persona|concept\s+test.*(AI|LLM)|AI.*concept\s+test)\b/.test(text)) return 'Synthetic users';
+  if (/\b(synthetic\s+users?|synthetic\s+participant|LLM\s+persona|AI\s+persona|concept\s+test.*(AI|LLM)|AI.*concept\s+test)\b/.test(text)) return 'Synthetic users';
   if (/\b(transcript\s+summar|summariz|theme\s+extraction|one-?click\s+summar|synthesis.*(AI|from\s+transcript)|affinity.*AI|thematic.*AI|insight\s+extraction|pattern\s+recognition.*(AI|research))\b/.test(text)) return 'AI summarization';
   if (/\b(automated\s+usability|scan\s+prototype|usability\s+issue\s+detection|AI.*(a11y|accessibility)|heuristic.*AI|flag.*usability)\b/.test(text)) return 'Automated usability checks';
   if (/\b(survey.*(AI|optimiz)|questionnaire.*AI|AI.*survey|clearer\s+survey|reduce\s+bias.*survey|adaptive\s+(survey|follow-?up))\b/.test(text)) return 'Survey optimization';
@@ -79,7 +79,7 @@ function inferCategory(title, description) {
   if (/\b(interview.*(AI|transcript)|transcript.*interview|qualitative.*AI|coding.*(AI|qualitative)|qualitative.*coding)\b/.test(text)) return 'Interview analysis';
   if (/\b(chatbot|conversational\s+AI|AI\s+assistant|virtual\s+assistant|chat\s+bot).*(research|user|feedback)\b/.test(text) || /\b(research|user|feedback).*(chatbot|conversational\s+AI|AI\s+assistant)\b/.test(text)) return 'Conversational AI in research';
   if (/\b(sentiment|NPS|feedback\s+analysis|voice\s+of\s+customer).*(AI|automated|machine\s+learning)\b/.test(text) || /\b(AI|ML).*(sentiment|NPS|feedback\s+analysis)\b/.test(text)) return 'Sentiment & feedback analysis';
-  if (/\b(design\s+tools|Figma|prototype).*(AI|assist)\b/.test(text) || /\bAI.*(design|prototyp|wireframe)\b/.test(text)) return 'AI for design';
+  if (/\b(design\s+tools|Figma|prototype).*(AI|assist)\b/.test(text) || /\bAI.*(design|prototyp|wireframe)\b/.test(text) || /\b(prototype|design).*(AI|Claude|GPT)\b/.test(text) || /\b(AI|Claude|GPT).*(prototype|design\s+system)\b/.test(text)) return 'AI for design';
   if (/\b(automation|automate).*(research|insight|discovery)\b/.test(text) || /\b(research|insight).*(automation|automate|pipeline)\b/.test(text)) return 'Research automation';
   if (/\b(user\s+test|usability\s+test|A\/B\s+test).*(AI|automated)\b/.test(text) || /\bAI.*(user\s+testing|usability\s+testing)\b/.test(text)) return 'AI in user testing';
   return 'Other AI in research';
