@@ -3,24 +3,24 @@
   "updated": "2026-02-26",
   "themes": [
     {
-      "name": "AI for design",
-      "count": 20
-    },
-    {
       "name": "AI strategy & literacy",
-      "count": 4
+      "count": 3
     },
     {
       "name": "General AI in research",
       "count": 3
     },
     {
-      "name": "AI for product management",
+      "name": "AI for design",
       "count": 2
     },
     {
-      "name": "Interview analysis",
-      "count": 2
+      "name": "AI summarization",
+      "count": 1
+    },
+    {
+      "name": "Automated usability checks",
+      "count": 1
     }
   ],
   "note": "Based on how often each theme appears in posts from our RSS sources this month. Social media (e.g. LinkedIn) is not included—no public API."
