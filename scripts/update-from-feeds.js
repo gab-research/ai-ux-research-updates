@@ -66,17 +66,22 @@ function matchesKeywords(text, keywords) {
 
 /**
  * Infer theme from post title and description: focus on AI application (e.g. "Synthetic users")
- * rather than research process. Used so daily theme analysis reflects how AI is applied in research.
+ * rather than research process. Order matters: first match wins. Broader patterns help spread counts across more themes.
  */
 function inferCategory(title, description) {
   const text = `${title || ''} ${description || ''}`.toLowerCase();
   if (/\b(synthetic\s+user|synthetic\s+participant|LLM\s+persona|AI\s+persona|concept\s+test.*(AI|LLM)|AI.*concept\s+test)\b/.test(text)) return 'Synthetic users';
-  if (/\b(transcript\s+summar|summariz|theme\s+extraction|one-?click\s+summar|synthesis.*(AI|from\s+transcript)|affinity.*AI|thematic.*AI)\b/.test(text)) return 'AI summarization';
+  if (/\b(transcript\s+summar|summariz|theme\s+extraction|one-?click\s+summar|synthesis.*(AI|from\s+transcript)|affinity.*AI|thematic.*AI|insight\s+extraction|pattern\s+recognition.*(AI|research))\b/.test(text)) return 'AI summarization';
   if (/\b(automated\s+usability|scan\s+prototype|usability\s+issue\s+detection|AI.*(a11y|accessibility)|heuristic.*AI|flag.*usability)\b/.test(text)) return 'Automated usability checks';
   if (/\b(survey.*(AI|optimiz)|questionnaire.*AI|AI.*survey|clearer\s+survey|reduce\s+bias.*survey|adaptive\s+(survey|follow-?up))\b/.test(text)) return 'Survey optimization';
   if (/\b(session\s+replay.*AI|AI.*session\s+replay|behavioral\s+pattern.*AI|drop-?off.*detection|rage\s+click|heatmap.*AI)\b/.test(text)) return 'Session replay + AI';
   if (/\b(recruit.*AI|AI.*recruit|screener.*AI|participant\s+recruitment.*AI)\b/.test(text)) return 'AI-assisted recruitment';
-  if (/\b(interview.*(AI|transcript)|transcript.*interview|qualitative.*AI)\b/.test(text)) return 'Interview analysis';
+  if (/\b(interview.*(AI|transcript)|transcript.*interview|qualitative.*AI|coding.*(AI|qualitative)|qualitative.*coding)\b/.test(text)) return 'Interview analysis';
+  if (/\b(chatbot|conversational\s+AI|AI\s+assistant|virtual\s+assistant|chat\s+bot).*(research|user|feedback)\b/.test(text) || /\b(research|user|feedback).*(chatbot|conversational\s+AI|AI\s+assistant)\b/.test(text)) return 'Conversational AI in research';
+  if (/\b(sentiment|NPS|feedback\s+analysis|voice\s+of\s+customer).*(AI|automated|machine\s+learning)\b/.test(text) || /\b(AI|ML).*(sentiment|NPS|feedback\s+analysis)\b/.test(text)) return 'Sentiment & feedback analysis';
+  if (/\b(design\s+tools|Figma|prototype).*(AI|assist)\b/.test(text) || /\bAI.*(design|prototyp|wireframe)\b/.test(text)) return 'AI for design';
+  if (/\b(automation|automate).*(research|insight|discovery)\b/.test(text) || /\b(research|insight).*(automation|automate|pipeline)\b/.test(text)) return 'Research automation';
+  if (/\b(user\s+test|usability\s+test|A\/B\s+test).*(AI|automated)\b/.test(text) || /\bAI.*(user\s+testing|usability\s+testing)\b/.test(text)) return 'AI in user testing';
   return 'Other AI in research';
 }
 
@@ -262,6 +267,15 @@ async function main() {
   const existingUpdates = existing && Array.isArray(existing.updates) ? existing.updates : [];
   let finalUpdates = allItems.length > 0 ? allItems.slice(0, maxUpdates) : existingUpdates;
 
+  // Rotate "today's" featured post so the first slot shows fresh content each day (even when no new articles are published).
+  if (finalUpdates.length > 1) {
+    const dayEpoch = Math.floor(now.getTime() / (24 * 60 * 60 * 1000));
+    const featuredIndex = dayEpoch % finalUpdates.length;
+    const featured = finalUpdates[featuredIndex];
+    const rest = finalUpdates.filter((_, i) => i !== featuredIndex);
+    finalUpdates = [featured, ...rest];
+  }
+
   // Normalize all updates to AI-application themes (so existing and new items use the same taxonomy)
   finalUpdates = finalUpdates.map((u) => ({
     ...u,
@@ -279,10 +293,34 @@ async function main() {
   console.log(`Updated ${UPDATES_PATH} with ${finalUpdates.length} items.`);
 
   // Top 5 themes by frequency across our RSS sources for this specific month (e.g. February).
-  const topThemes = Object.entries(themeCountsAcrossSources)
+  const APPLICATION_THEMES = [
+    'Synthetic users',
+    'AI summarization',
+    'Automated usability checks',
+    'Survey optimization',
+    'Session replay + AI',
+    'Interview analysis',
+    'Conversational AI in research',
+    'Sentiment & feedback analysis',
+    'AI for design',
+    'Research automation',
+    'AI in user testing',
+    'Other AI in research'
+  ];
+  let topThemes = Object.entries(themeCountsAcrossSources)
     .map(([name, count]) => ({ name: name || 'Other AI in research', count }))
     .sort((a, b) => b.count - a.count)
     .slice(0, 5);
+  // If we have fewer than 5 themes (e.g. only "Other" had count), fill with other application themes at 0 so we show 5 distinct AI-application themes.
+  if (topThemes.length < 5) {
+    const seen = new Set(topThemes.map((t) => t.name));
+    for (const themeName of APPLICATION_THEMES) {
+      if (seen.has(themeName)) continue;
+      topThemes.push({ name: themeName, count: 0 });
+      if (topThemes.length >= 5) break;
+    }
+    topThemes = topThemes.sort((a, b) => b.count - a.count).slice(0, 5);
+  }
   const themesPayload = {
     month: currentMonthKey,
     updated: today,
