@@ -4,23 +4,23 @@
   "themes": [
     {
       "name": "Other AI in research",
-      "count": 74
+      "count": 36
     },
     {
-      "name": "Synthetic users",
-      "count": 0
+      "name": "AI for design",
+      "count": 22
     },
     {
-      "name": "AI summarization",
-      "count": 0
+      "name": "Interview analysis",
+      "count": 5
     },
     {
-      "name": "Automated usability checks",
-      "count": 0
+      "name": "Research automation",
+      "count": 3
     },
     {
-      "name": "Survey optimization",
-      "count": 0
+      "name": "AI in user testing",
+      "count": 3
     }
   ],
   "note": "Based on how often each theme appears in posts from our RSS sources this month. Social media (e.g. LinkedIn) is not included—no public API."
