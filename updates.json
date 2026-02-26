@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-02-26T20:38:22.653Z",
+  "lastUpdated": "2026-02-26T20:40:50.176Z",
   "updates": [
     {
       "date": "2026-02-26",
@@ -244,6 +244,18 @@
       "analysis": ""
     },
     {
+      "date": "2026-02-18",
+      "title": "A Guide to Which AI to Use in the Agentic Era",
+      "summary": "It's not just chatbots anymore",
+      "content": "It's not just chatbots anymore",
+      "category": "Conversational AI in research",
+      "source": {
+        "name": "Ethan Mollick (One Useful Thing)",
+        "url": "https://www.oneusefulthing.org/p/a-guide-to-which-ai-to-use-in-the"
+      },
+      "analysis": ""
+    },
+    {
       "date": "2026-02-17",
       "title": "How to prototype using Claude Opus 4.5 + Bootstrap  –  Use UXPin Merge!",
       "summary": "Generate production-ready React Bootstrap components with AI and import them into your design system to build interactive prototypes and speed design-to-code. The post How to prototype using Claude Opus 4.5 + Bootstrap – Use UXPin Merge! appeared first on Studio by UXPin.",
@@ -257,25 +269,13 @@
     },
     {
       "date": "2026-02-17",
-      "title": "Support System for Product Leaders - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "title": "Support System for Product Leaders - All Things Product Podcast with Teresa Torres &amp; Petra Wille",
       "summary": "Listen to this episode on: Spotify | Apple Podcasts Product leaders are overwhelmed — and it’s not just you. Between shrinking headcount, constant AI disruption, economic uncertainty, and nonstop context switching, many product leaders are trying to do more with less while sti...",
       "content": "Listen to this episode on: Spotify | Apple Podcasts Product leaders are overwhelmed — and it’s not just you. Between shrinking headcount, constant AI disruption, economic uncertainty, and nonstop context switching, many product leaders are trying to do more with less while still protecting their teams. In this episode",
       "category": "AI for product management",
       "source": {
         "name": "Teresa Torres (Product Talk)",
         "url": "https://www.producttalk.org/support-system-for-product-leaders-all-things-product-podcast-with-teresa-torres-petra-wille/"
-      },
-      "analysis": ""
-    },
-    {
-      "date": "2026-02-17",
-      "title": "A Guide to Which AI to Use in the Agentic Era",
-      "summary": "It's not just chatbots anymore",
-      "content": "It's not just chatbots anymore",
-      "category": "Conversational AI in research",
-      "source": {
-        "name": "Ethan Mollick (One Useful Thing)",
-        "url": "https://www.oneusefulthing.org/p/a-guide-to-which-ai-to-use-in-the"
       },
       "analysis": ""
     },
@@ -461,7 +461,7 @@
     },
     {
       "date": "2026-02-10",
-      "title": "Claude Code - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "title": "Claude Code - All Things Product Podcast with Teresa Torres &amp; Petra Wille",
       "summary": "Listen to this episode on: Spotify | Apple Podcasts Petra finally carved out time to try Claude Code—and immediately ran into the “this tool thinks everything is a code repo” reality. In this episode, Petra and Teresa unpack what it’s like to move from Claude-in-the-browser",
       "content": "Listen to this episode on: Spotify | Apple Podcasts Petra finally carved out time to try Claude Code—and immediately ran into the “this tool thinks everything is a code repo” reality. In this episode, Petra and Teresa unpack what it’s like to move from Claude-in-the-browser",
       "category": "AI for product management",
@@ -557,7 +557,7 @@
     },
     {
       "date": "2026-02-03",
-      "title": "Groupthink When Hiring - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "title": "Groupthink When Hiring - All Things Product Podcast with Teresa Torres &amp; Petra Wille",
       "summary": "Listen to this episode on: Spotify | Apple Podcasts Is hiring broken—or just badly designed? In this episode of All Things Product, Petra Wille and Teresa Torres unpack what’s really going wrong in modern hiring processes. From AI-fueled application overload to endless intervi...",
       "content": "Listen to this episode on: Spotify | Apple Podcasts Is hiring broken—or just badly designed? In this episode of All Things Product, Petra Wille and Teresa Torres unpack what’s really going wrong in modern hiring processes. From AI-fueled application overload to endless interview loops and “casual&",
       "category": "General AI in research",
@@ -612,18 +612,6 @@
       "source": {
         "name": "Ethan Mollick (One Useful Thing)",
         "url": "https://www.oneusefulthing.org/p/management-as-ai-superpower"
-      },
-      "analysis": ""
-    },
-    {
-      "date": "2026-01-27",
-      "title": "Baymard's 2025 Year in Review and 2026 Roadmap",
-      "summary": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) For us at Baymard, 2025 was an exciting year, with thousands of hours of new UX research and b...",
-      "content": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) For us at Baymard, 2025 was an exciting year, with thousands of hours of new UX research and benchmarking conducted. Within the last year, we’ve released the 2 major research studies — Loyalty Program UX and Telco UX Deep-Dive — along with 19 industry-specific benchmarks. We’ve also launched a brand-new research pillar: Quantitative Insights. In addition to this, we released UX-Query and UX-Ray to further help ecommerce sites access and apply our UX insights based on over 200,000 hours of Baymard UX research findings. As the new year begins, we provide an overview of our releases in 2025 and outline the roadmap for 2026. 2 New UX Research Studies in 2025 In 2025 we wrapped up work on 2 new studies: an industry-specific study (telco) and a new core theme study (loyalty). 1) New “Telco” Research Study Our new Telco UX study included 3,500+ hours of research solely devoted to this industry. The research included 16 sites focused on US and UK telco providers, including both large mobile networks and MVN...",
-      "category": "General AI in research",
-      "source": {
-        "name": "Baymard Institute",
-        "url": "https://feeds.baymard.com/link/9825/17264440/year-in-review-2025-and-2026-roadmap"
       },
       "analysis": ""
     },
