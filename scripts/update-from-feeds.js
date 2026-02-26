@@ -58,10 +58,19 @@ function toISODate(d) {
   return `${y}-${m}-${day}`;
 }
 
+const AI_TERMS = /\b(ai|artificial\s+intelligence|llm|gpt|claude|gemini|machine\s+learning|genai|generative\s+ai|agentic|synthetic\s+user|automated|automation|chatbot|copilot|neural|deep\s+learning|nlp|natural\s+language)\b/;
+const AI_TERMS_PT = /\b(ia|inteligência\s+artificial|ferramentas\s+de\s+ia|automação\s+com\s+ia|modelos\s+de\s+linguagem)\b/;
+
+function hasAIRelevance(text) {
+  const lower = (text || '').toLowerCase();
+  return AI_TERMS.test(lower) || AI_TERMS_PT.test(lower);
+}
+
 function matchesKeywords(text, keywords) {
   if (!text) return false;
   const lower = text.toLowerCase();
-  return keywords.some((k) => lower.includes(k.toLowerCase()));
+  if (!keywords.some((k) => lower.includes(k.toLowerCase()))) return false;
+  return hasAIRelevance(text);
 }
 
 /**
@@ -101,13 +110,19 @@ function inferCategory(title, description) {
   // Sentiment & feedback analysis
   if (/sentiment.*(ai|automat|ml)|nps.*(ai|automat)|feedback\s+analysis|voice\s+of\s+customer|ai.*(sentiment|nps|feedback\s+analysis)/.test(text)) return 'Sentiment & feedback analysis';
 
-  // Research automation — AI across research, AI tools for UX, agentic AI, AI literacy
-  if (/ai.*research\s+process|research.*automat|ai\s+tools?.*(research|ux|lesson)|ai\s+across.*research|research\s+recommend|ai.*user\s+research|ai\s+literacy|agentic\s+ai/.test(text)) return 'Research automation';
+  // AI strategy & literacy — AI skills, responsible AI, AI impact on work, AI tools guidance
+  if (/ai\s+(skill|literacy|native|era|superpower|coding\s+tool)|responsible.*(ai|developer)|ai\s+writes|poisoning.*ai|context\s+rot.*ai|ai.*gets?\s+worse|valuable\s+skill.*ai|age\s+of\s+ai|ai.*consult/.test(text)) return 'AI strategy & literacy';
+
+  // AI for product management — AI in product decisions, opportunity trees with AI, product leadership + AI
+  if (/product\s+talk.*ai|ai.*product\s+(management|decision|leader)|claude\s+code|ai\s+product/.test(text)) return 'AI for product management';
+
+  // Research automation — AI across research, AI tools for UX, agentic AI
+  if (/ai.*research\s+process|research.*automat|ai\s+tools?.*(research|ux|lesson)|ai\s+across.*research|research\s+recommend|ai.*user\s+research|agentic\s+ai/.test(text)) return 'Research automation';
 
   // AI-assisted recruitment
   if (/recruit.*ai|ai.*recruit|screener.*ai|participant\s+recruitment/.test(text)) return 'AI-assisted recruitment';
 
-  return 'Other AI in research';
+  return 'General AI in research';
 }
 
 /** Fetch raw URL with same User-Agent (for XML sanitization fallback). */
@@ -177,10 +192,15 @@ async function main() {
       console.error('No updates.json or empty updates.');
       process.exit(1);
     }
-    const updated = existing.updates.map((u) => ({
+    const filtered = existing.updates.filter((u) => {
+      const postText = `${u.title || ''} ${u.summary || ''} ${u.content || ''}`;
+      return hasAIRelevance(postText);
+    });
+    const updated = filtered.map((u) => ({
       ...u,
       category: inferCategory(u.title, u.summary || u.content || '')
     }));
+    const removed = existing.updates.length - updated.length;
     const output = {
       title: existing.title || 'AI for UX Research',
       subtitle: existing.subtitle || 'Daily updates on AI applications improving UX research efficiency',
@@ -188,7 +208,7 @@ async function main() {
       updates: updated
     };
     fs.writeFileSync(UPDATES_PATH, JSON.stringify(output, null, 2), 'utf8');
-    console.log('Updated categories for ' + updated.length + ' posts in ' + UPDATES_PATH + '.');
+    console.log('Updated categories for ' + updated.length + ' posts in ' + UPDATES_PATH + (removed > 0 ? ' (removed ' + removed + ' non-AI posts).' : '.'));
     process.exit(0);
   }
 
@@ -233,22 +253,24 @@ async function main() {
     }
   }
 
-  // Build a map of URL -> update so we merge with existing (keep up to maxUpdates across runs)
+  // Build a map of URL -> update so we merge with existing (keep up to maxUpdates across runs).
+  // Skip existing posts that don't pass the AI relevance check (removes non-AI posts from earlier runs).
   const byUrl = new Map();
   if (existing && Array.isArray(existing.updates)) {
     for (const u of existing.updates) {
       const url = u.source && u.source.url;
-      if (url) {
-        byUrl.set(url, {
-          date: u.date,
-          title: u.title,
-          summary: u.summary,
-          content: u.content || u.summary,
-          category: u.category || 'Research',
-          source: u.source,
-          analysis: typeof u.analysis === 'string' ? u.analysis.trim() : ''
-        });
-      }
+      if (!url) continue;
+      const postText = `${u.title || ''} ${u.summary || ''} ${u.content || ''}`;
+      if (!hasAIRelevance(postText)) continue;
+      byUrl.set(url, {
+        date: u.date,
+        title: u.title,
+        summary: u.summary,
+        content: u.content || u.summary,
+        category: u.category || 'Research',
+        source: u.source,
+        analysis: typeof u.analysis === 'string' ? u.analysis.trim() : ''
+      });
     }
   }
 
@@ -276,8 +298,8 @@ async function main() {
       const title = (item.title && item.title.trim()) || 'Untitled';
       const description = item.contentSnippet || item.content || item.summary || '';
 
-      // Count theme for every post in the current month (sources only; not the website's updates).
-      if (itemMonthKey === currentMonthKey) {
+      // Count theme for every AI-relevant post in the current month (sources only; not the website's updates).
+      if (itemMonthKey === currentMonthKey && hasAIRelevance(`${title} ${description}`)) {
         const theme = inferCategory(title, description);
         themeCountsAcrossSources[theme] = (themeCountsAcrossSources[theme] || 0) + 1;
       }
@@ -352,10 +374,12 @@ async function main() {
     'AI for design',
     'Research automation',
     'AI in user testing',
-    'Other AI in research'
+    'AI strategy & literacy',
+    'AI for product management',
+    'General AI in research'
   ];
   let topThemes = Object.entries(themeCountsAcrossSources)
-    .map(([name, count]) => ({ name: name || 'Other AI in research', count }))
+    .map(([name, count]) => ({ name: name || 'General AI in research', count }))
     .sort((a, b) => b.count - a.count)
     .slice(0, 5);
   // If we have fewer than 5 themes (e.g. only "Other" had count), fill with other application themes at 0 so we show 5 distinct AI-application themes.

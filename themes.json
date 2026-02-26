@@ -3,24 +3,24 @@
   "updated": "2026-02-26",
   "themes": [
     {
-      "name": "Other AI in research",
-      "count": 36
+      "name": "AI for design",
+      "count": 20
     },
     {
-      "name": "AI for design",
-      "count": 22
+      "name": "AI strategy & literacy",
+      "count": 6
+    },
+    {
+      "name": "General AI in research",
+      "count": 3
     },
     {
       "name": "Interview analysis",
-      "count": 5
+      "count": 3
     },
     {
       "name": "Research automation",
-      "count": 3
-    },
-    {
-      "name": "AI in user testing",
-      "count": 3
+      "count": 2
     }
   ],
   "note": "Based on how often each theme appears in posts from our RSS sources this month. Social media (e.g. LinkedIn) is not included—no public API."
