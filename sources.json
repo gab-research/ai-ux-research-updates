@@ -1,6 +1,11 @@
 {
   "feeds": [
     {
+      "name": "Anthropic Research",
+      "url": "https://www.anthropic.com/research/feed",
+      "website": "https://www.anthropic.com/research"
+    },
+    {
       "name": "Nielsen Norman Group",
       "url": "https://www.nngroup.com/feed/rss/",
       "website": "https://www.nngroup.com"
