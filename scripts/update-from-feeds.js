@@ -270,9 +270,8 @@ async function main() {
       const summary = truncate(stripHtml(description || title), 280);
       const content = truncate(stripHtml(description || ''), 1200);
       const analysis = typeof analysesByUrl[link] === 'string' ? analysesByUrl[link].trim() : (byUrl.get(link) && byUrl.get(link).analysis) || '';
-      // Preserve existing category so manual re-categorization and past posts are not overwritten each run.
-      const existingEntry = byUrl.get(link);
-      const category = existingEntry && existingEntry.category ? existingEntry.category : inferCategory(title, description);
+
+      const category = inferCategory(title, description);
       byUrl.set(link, {
         date: toISODate(pubDate),
         title,
@@ -299,7 +298,12 @@ async function main() {
     finalUpdates = [featured, ...rest];
   }
 
-  // Keep existing categories for past posts; only new items (from feed) already have inferCategory set when added to byUrl.
+  // Apply current theme definitions to every post so past posts match the new themes (once per run).
+  finalUpdates = finalUpdates.map((u) => ({
+    ...u,
+    category: inferCategory(u.title, u.summary || u.content || '')
+  }));
+
   const output = {
     title: siteTitle,
     subtitle: siteSubtitle,
