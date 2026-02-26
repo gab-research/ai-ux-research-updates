@@ -2,7 +2,7 @@
   "feeds": [
     {
       "name": "Anthropic Research",
-      "url": "https://openrss.org/https://www.anthropic.com/research",
+      "url": "https://openrss.org/www.anthropic.com/news",
       "website": "https://www.anthropic.com/research"
     },
     {
@@ -12,7 +12,7 @@
     },
     {
       "name": "Dovetail Blog",
-      "url": "https://dovetail.com/blog/feed/",
+      "url": "https://openrss.org/dovetail.com/blog",
       "website": "https://dovetail.com"
     },
     {
@@ -22,17 +22,17 @@
     },
     {
       "name": "Contentsquare Blog (incl. Hotjar)",
-      "url": "https://contentsquare.com/blog/feed/",
-      "website": "https://contentsquare.com/blog"
+      "url": "https://openrss.org/www.hotjar.com/blog",
+      "website": "https://www.hotjar.com/blog"
     },
     {
       "name": "Typeform Blog",
-      "url": "https://www.typeform.com/blog/feed",
+      "url": "https://openrss.org/www.typeform.com/blog",
       "website": "https://www.typeform.com"
     },
     {
       "name": "Maze Blog",
-      "url": "https://maze.co/blog/feed",
+      "url": "https://openrss.org/maze.co/blog",
       "website": "https://maze.co/blog"
     },
     {

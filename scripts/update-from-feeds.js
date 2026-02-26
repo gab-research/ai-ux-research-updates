@@ -16,9 +16,9 @@ const UPDATES_PATH = path.join(ROOT, 'updates.json');
 const ANALYSES_PATH = path.join(ROOT, 'analyses.json');
 const THEMES_PATH = path.join(ROOT, 'themes.json');
 
-const USER_AGENT = 'Mozilla/5.0 (compatible; AI-UX-Research-Updates/1.0; +https://github.com/gab-research/ai-ux-research-updates)';
-const FEED_TIMEOUT_MS = 10000;   // per-feed request timeout
-const FEED_JOB_TIMEOUT_MS = 18000; // max time per feed (fetch + fallback), then skip so no feed can hang the run
+const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
+const FEED_TIMEOUT_MS = 20000;   // per-feed request timeout (OpenRSS can be slow)
+const FEED_JOB_TIMEOUT_MS = 60000; // max time per feed (fetch + retries), then skip
 const parser = new Parser({
   timeout: FEED_TIMEOUT_MS,
   headers: { 'User-Agent': USER_AGENT }
@@ -147,9 +147,37 @@ function sanitizeXmlForRss(xml) {
   return xml.replace(/&(?!amp;|lt;|gt;|quot;|apos;|#\d+;|#x[\da-fA-F]+;|[a-zA-Z]+\d*;)/g, '&amp;');
 }
 
+function buildOpenRssUrl(originalUrl) {
+  try {
+    const u = new URL(originalUrl);
+    if (u.hostname === 'openrss.org') return null;
+    const cleanPath = u.pathname.replace(/\/(feed|rss)\/?$/i, '') || '';
+    return `https://openrss.org/${u.hostname}${cleanPath}`;
+  } catch { return null; }
+}
+
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+async function parseUrlWithRetry(url, name, retries = 1) {
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    try {
+      return await parser.parseURL(url);
+    } catch (err) {
+      const is429 = /status\s*code\s*429/i.test(err.message);
+      if (is429 && attempt < retries) {
+        const wait = 5000 * (attempt + 1);
+        console.log(`  ↳ ${name}: 429 rate-limited, waiting ${wait / 1000}s before retry…`);
+        await sleep(wait);
+        continue;
+      }
+      throw err;
+    }
+  }
+}
+
 async function fetchFeed(feedConfig) {
   try {
-    const feed = await parser.parseURL(feedConfig.url);
+    const feed = await parseUrlWithRetry(feedConfig.url, feedConfig.name);
     return { feed, name: feedConfig.name };
   } catch (err) {
     const isParseError = /entity|parse|XML|invalid character/i.test(err.message);
@@ -160,10 +188,23 @@ async function fetchFeed(feedConfig) {
         const feed = await parser.parseString(sanitized);
         return { feed, name: feedConfig.name };
       } catch (fallbackErr) {
-        console.warn(`Skipping feed ${feedConfig.name}: ${err.message}`);
+        // parse error persists, try OpenRSS as last resort
+      }
+    }
+
+    const is403or404 = /status\s*code\s*(403|404)/i.test(err.message);
+    const openRssUrl = buildOpenRssUrl(feedConfig.url);
+    if ((is403or404 || isParseError) && openRssUrl) {
+      try {
+        console.log(`  ↳ Retrying ${feedConfig.name} via OpenRSS: ${openRssUrl}`);
+        const feed = await parseUrlWithRetry(openRssUrl, feedConfig.name);
+        return { feed, name: feedConfig.name };
+      } catch (openRssErr) {
+        console.warn(`Skipping feed ${feedConfig.name}: original ${err.message}, OpenRSS ${openRssErr.message}`);
         return null;
       }
     }
+
     console.warn(`Skipping feed ${feedConfig.name}: ${err.message}`);
     return null;
   }
