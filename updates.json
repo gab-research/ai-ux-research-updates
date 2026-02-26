@@ -1,20 +1,8 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-02-26T19:16:53.363Z",
+  "lastUpdated": "2026-02-26T19:22:59.451Z",
   "updates": [
-    {
-      "date": "2026-02-23",
-      "title": "Hidden cost of AI prototypes, leadership myths, how designers use AI",
-      "summary": "Hidden cost of AI prototypes, leadership myths, how designers use AI",
-      "content": "Hidden cost of AI prototypes, leadership myths, how designers use AI",
-      "category": "AI for design",
-      "source": {
-        "name": "UX Collective (Medium)",
-        "url": "https://uxdesign.cc/hidden-cost-of-ai-prototypes-leadership-myths-how-designers-use-ai-568b86eb87f2?source=rss----138adf9c44c---4"
-      },
-      "analysis": ""
-    },
     {
       "date": "2026-02-26",
       "title": "Synthetic users for rapid concept testing",
@@ -96,6 +84,18 @@
       "source": {
         "name": "UXPin Blog",
         "url": "https://www.uxpin.com/studio/blog/prototype-claude-haiku-4-5-mui-uxpin-merge/"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-02-23",
+      "title": "Hidden cost of AI prototypes, leadership myths, how designers use AI",
+      "summary": "Hidden cost of AI prototypes, leadership myths, how designers use AI",
+      "content": "Hidden cost of AI prototypes, leadership myths, how designers use AI",
+      "category": "AI for design",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/hidden-cost-of-ai-prototypes-leadership-myths-how-designers-use-ai-568b86eb87f2?source=rss----138adf9c44c---4"
       },
       "analysis": ""
     },

@@ -331,19 +331,11 @@ async function main() {
     }
   }
 
+  // Deduplicate by URL, then sort newest-first.
   const allItems = Array.from(byUrl.values());
   allItems.sort((a, b) => (b.date > a.date ? 1 : b.date < a.date ? -1 : 0));
   const existingUpdates = existing && Array.isArray(existing.updates) ? existing.updates : [];
   let finalUpdates = allItems.length > 0 ? allItems.slice(0, maxUpdates) : existingUpdates;
-
-  // Rotate "today's" featured post so the first slot shows fresh content each day (even when no new articles are published).
-  if (finalUpdates.length > 1) {
-    const dayEpoch = Math.floor(now.getTime() / (24 * 60 * 60 * 1000));
-    const featuredIndex = dayEpoch % finalUpdates.length;
-    const featured = finalUpdates[featuredIndex];
-    const rest = finalUpdates.filter((_, i) => i !== featuredIndex);
-    finalUpdates = [featured, ...rest];
-  }
 
   // Apply current theme definitions to every post so past posts match the new themes (once per run).
   finalUpdates = finalUpdates.map((u) => ({
