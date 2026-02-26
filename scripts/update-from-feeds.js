@@ -8,6 +8,7 @@
 const fs = require('fs');
 const path = require('path');
 const https = require('https');
+const { execSync } = require('child_process');
 const Parser = require('rss-parser');
 
 const ROOT = path.resolve(__dirname, '..');
@@ -24,8 +25,8 @@ const BROWSER_HEADERS = {
   'Connection': 'keep-alive',
   'Cache-Control': 'no-cache'
 };
-const FEED_TIMEOUT_MS = 20000;   // per-feed request timeout (OpenRSS can be slow)
-const FEED_JOB_TIMEOUT_MS = 60000; // max time per feed (fetch + retries), then skip
+const FEED_TIMEOUT_MS = 12000;   // per-feed Node.js request timeout (curl fallback handles slow feeds)
+const FEED_JOB_TIMEOUT_MS = 45000; // max time per feed (node try + curl try + OpenRSS curl), then skip
 const parser = new Parser({
   timeout: FEED_TIMEOUT_MS,
   headers: BROWSER_HEADERS
@@ -165,54 +166,78 @@ function buildOpenRssUrl(originalUrl) {
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-async function parseUrlWithRetry(url, name, retries = 2) {
-  for (let attempt = 0; attempt <= retries; attempt++) {
-    try {
-      return await parser.parseURL(url);
-    } catch (err) {
-      const is429 = /status\s*code\s*429/i.test(err.message);
-      if (is429 && attempt < retries) {
-        const wait = 10000 * (attempt + 1);
-        console.log(`  ↳ ${name}: 429 rate-limited, waiting ${wait / 1000}s before retry…`);
-        await sleep(wait);
-        continue;
-      }
-      throw err;
-    }
+/**
+ * Fetch a URL using curl (different TLS fingerprint from Node.js).
+ * Cloudflare and OpenRSS block Node.js requests from GitHub Actions IPs
+ * but usually allow curl because it uses OpenSSL with a browser-like TLS handshake.
+ */
+function fetchWithCurl(url) {
+  try {
+    const result = execSync(
+      `curl -sS -L --max-time 15 -H "User-Agent: ${USER_AGENT}" -H "Accept: application/rss+xml, application/xml, text/xml, */*" -H "Accept-Language: en-US,en;q=0.9" "${url}"`,
+      { encoding: 'utf8', timeout: 20000, maxBuffer: 5 * 1024 * 1024 }
+    );
+    if (!result || !result.trim()) throw new Error('empty response');
+    return result;
+  } catch (e) {
+    const stderr = (e.stderr || '').trim();
+    throw new Error(`curl failed: ${stderr || e.message}`);
   }
 }
 
 async function fetchFeed(feedConfig) {
+  // Step 1: Try rss-parser (Node.js HTTP client)
   try {
-    const feed = await parseUrlWithRetry(feedConfig.url, feedConfig.name);
+    const feed = await parser.parseURL(feedConfig.url);
     return { feed, name: feedConfig.name };
-  } catch (err) {
-    const isParseError = /entity|parse|XML|invalid character/i.test(err.message);
-    if (isParseError) {
+  } catch (nodeErr) {
+    const isBlock = /status\s*code\s*(403|429)/i.test(nodeErr.message);
+    const is404 = /status\s*code\s*404/i.test(nodeErr.message);
+    const isParseError = /entity|parse|XML|invalid character|Non-whitespace/i.test(nodeErr.message);
+
+    // Step 2: Try curl (different TLS fingerprint — bypasses most Cloudflare/bot blocks)
+    if (isBlock || isParseError) {
       try {
-        const raw = await fetchRaw(feedConfig.url);
+        console.log(`  ↳ ${feedConfig.name}: retrying with curl…`);
+        const raw = fetchWithCurl(feedConfig.url);
         const sanitized = sanitizeXmlForRss(raw);
         const feed = await parser.parseString(sanitized);
         return { feed, name: feedConfig.name };
-      } catch (fallbackErr) {
-        // parse error persists, try OpenRSS as last resort
+      } catch (curlErr) {
+        // curl also failed, continue to OpenRSS fallback
       }
     }
 
-    const is403or404 = /status\s*code\s*(403|404)/i.test(err.message);
+    // Step 3: Try OpenRSS proxy (only for non-OpenRSS URLs)
     const openRssUrl = buildOpenRssUrl(feedConfig.url);
-    if ((is403or404 || isParseError) && openRssUrl) {
+    if ((isBlock || is404 || isParseError) && openRssUrl) {
       try {
-        console.log(`  ↳ Retrying ${feedConfig.name} via OpenRSS: ${openRssUrl}`);
-        const feed = await parseUrlWithRetry(openRssUrl, feedConfig.name);
+        console.log(`  ↳ ${feedConfig.name}: retrying via OpenRSS…`);
+        const raw = fetchWithCurl(openRssUrl);
+        const sanitized = sanitizeXmlForRss(raw);
+        const feed = await parser.parseString(sanitized);
         return { feed, name: feedConfig.name };
       } catch (openRssErr) {
-        console.warn(`Skipping feed ${feedConfig.name}: original ${err.message}, OpenRSS ${openRssErr.message}`);
+        console.warn(`Skipping feed ${feedConfig.name}: node ${nodeErr.message}, curl+OpenRSS also failed`);
         return null;
       }
     }
 
-    console.warn(`Skipping feed ${feedConfig.name}: ${err.message}`);
+    // Step 4: For OpenRSS primary URLs that fail, try curl directly
+    if (new URL(feedConfig.url).hostname === 'openrss.org') {
+      try {
+        console.log(`  ↳ ${feedConfig.name}: retrying OpenRSS URL with curl…`);
+        const raw = fetchWithCurl(feedConfig.url);
+        const sanitized = sanitizeXmlForRss(raw);
+        const feed = await parser.parseString(sanitized);
+        return { feed, name: feedConfig.name };
+      } catch (curlErr) {
+        console.warn(`Skipping feed ${feedConfig.name}: node ${nodeErr.message}, curl also failed`);
+        return null;
+      }
+    }
+
+    console.warn(`Skipping feed ${feedConfig.name}: ${nodeErr.message}`);
     return null;
   }
 }
