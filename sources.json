@@ -1,39 +1,14 @@
 {
   "feeds": [
     {
-      "name": "Anthropic Research",
-      "url": "https://openrss.org/www.anthropic.com/news",
-      "website": "https://www.anthropic.com/research"
-    },
-    {
       "name": "Nielsen Norman Group",
       "url": "https://www.nngroup.com/feed/rss/",
       "website": "https://www.nngroup.com"
     },
     {
-      "name": "Dovetail Blog",
-      "url": "https://openrss.org/dovetail.com/blog",
-      "website": "https://dovetail.com"
-    },
-    {
       "name": "UX Collective (Medium)",
       "url": "https://uxdesign.cc/feed",
       "website": "https://uxdesign.cc"
-    },
-    {
-      "name": "Contentsquare Blog (incl. Hotjar)",
-      "url": "https://openrss.org/www.hotjar.com/blog",
-      "website": "https://www.hotjar.com/blog"
-    },
-    {
-      "name": "Typeform Blog",
-      "url": "https://openrss.org/www.typeform.com/blog",
-      "website": "https://www.typeform.com"
-    },
-    {
-      "name": "Maze Blog",
-      "url": "https://openrss.org/maze.co/blog",
-      "website": "https://maze.co/blog"
     },
     {
       "name": "Baymard Institute",
@@ -70,11 +45,6 @@
       "name": "Prototypr",
       "url": "https://blog.prototypr.io/feed",
       "website": "https://prototypr.io"
-    },
-    {
-      "name": "Balsamiq Blog",
-      "url": "https://balsamiq.com/blog/feed",
-      "website": "https://balsamiq.com"
     },
     {
       "name": "Don Norman (JND.org)",

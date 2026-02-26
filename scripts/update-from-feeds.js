@@ -25,8 +25,8 @@ const BROWSER_HEADERS = {
   'Connection': 'keep-alive',
   'Cache-Control': 'no-cache'
 };
-const FEED_TIMEOUT_MS = 12000;   // per-feed Node.js request timeout (curl fallback handles slow feeds)
-const FEED_JOB_TIMEOUT_MS = 45000; // max time per feed (node try + curl try + OpenRSS curl), then skip
+const FEED_TIMEOUT_MS = 18000;   // per-feed Node.js request timeout
+const FEED_JOB_TIMEOUT_MS = 40000; // max time per feed (node try + Substack API/curl fallback), then skip
 const parser = new Parser({
   timeout: FEED_TIMEOUT_MS,
   headers: BROWSER_HEADERS
@@ -133,44 +133,14 @@ function inferCategory(title, description) {
   return 'General AI in research';
 }
 
-/** Fetch raw URL with full browser headers (for XML sanitization fallback). */
-function fetchRaw(url) {
-  return new Promise((resolve, reject) => {
-    const req = https.get(url, { headers: BROWSER_HEADERS }, (res) => {
-      if (res.statusCode !== 200) {
-        reject(new Error(`Status code ${res.statusCode}`));
-        return;
-      }
-      const chunks = [];
-      res.on('data', (c) => chunks.push(c));
-      res.on('end', () => resolve(Buffer.concat(chunks).toString('utf8')));
-    });
-    req.on('error', reject);
-    req.setTimeout(FEED_TIMEOUT_MS, () => { req.destroy(); reject(new Error('timeout')); });
-  });
-}
-
-/** Fix common XML issues: unescaped & that break parsers (e.g. in Dovetail feed). */
+/** Fix common XML issues: unescaped & that break parsers. */
 function sanitizeXmlForRss(xml) {
   return xml.replace(/&(?!amp;|lt;|gt;|quot;|apos;|#\d+;|#x[\da-fA-F]+;|[a-zA-Z]+\d*;)/g, '&amp;');
 }
 
-function buildOpenRssUrl(originalUrl) {
-  try {
-    const u = new URL(originalUrl);
-    if (u.hostname === 'openrss.org') return null;
-    const cleanPath = u.pathname.replace(/\/(feed|rss)\/?$/i, '') || '';
-    return `https://openrss.org/${u.hostname}${cleanPath}`;
-  } catch { return null; }
-}
-
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-/**
- * Fetch a URL using curl (different TLS fingerprint from Node.js).
- * Cloudflare and OpenRSS block Node.js requests from GitHub Actions IPs
- * but usually allow curl because it uses OpenSSL with a browser-like TLS handshake.
- */
+/** Fetch a URL using curl (different TLS fingerprint, handles edge cases). */
 function fetchWithCurl(url) {
   try {
     const result = execSync(
@@ -185,60 +155,67 @@ function fetchWithCurl(url) {
   }
 }
 
+/**
+ * Fetch posts from Substack's JSON API (bypasses Cloudflare RSS blocking).
+ * Returns an rss-parser-compatible feed object.
+ */
+function fetchSubstackApi(feedUrl) {
+  const match = feedUrl.match(/https?:\/\/([^/]+\.substack\.com)/i);
+  if (!match) return null;
+  const domain = match[1];
+  const apiUrl = `https://${domain}/api/v1/archive?sort=new&limit=12`;
+  try {
+    const raw = execSync(
+      `curl -sS -L --max-time 15 -H "User-Agent: ${USER_AGENT}" -H "Accept: application/json" "${apiUrl}"`,
+      { encoding: 'utf8', timeout: 20000, maxBuffer: 5 * 1024 * 1024 }
+    );
+    const posts = JSON.parse(raw);
+    if (!Array.isArray(posts) || posts.length === 0) return null;
+    return {
+      items: posts.map((p) => ({
+        title: p.title || p.social_title || 'Untitled',
+        pubDate: p.post_date,
+        link: p.canonical_url || `https://${domain}/p/${p.slug}`,
+        contentSnippet: p.subtitle || p.description || ''
+      }))
+    };
+  } catch (e) {
+    return null;
+  }
+}
+
+function isSubstackUrl(url) {
+  return /\.substack\.com\b/i.test(url);
+}
+
 async function fetchFeed(feedConfig) {
   // Step 1: Try rss-parser (Node.js HTTP client)
   try {
     const feed = await parser.parseURL(feedConfig.url);
     return { feed, name: feedConfig.name };
   } catch (nodeErr) {
-    const isBlock = /status\s*code\s*(403|429)/i.test(nodeErr.message);
-    const is404 = /status\s*code\s*404/i.test(nodeErr.message);
-    const isParseError = /entity|parse|XML|invalid character|Non-whitespace/i.test(nodeErr.message);
-
-    // Step 2: Try curl (different TLS fingerprint — bypasses most Cloudflare/bot blocks)
-    if (isBlock || isParseError) {
-      try {
-        console.log(`  ↳ ${feedConfig.name}: retrying with curl…`);
-        const raw = fetchWithCurl(feedConfig.url);
-        const sanitized = sanitizeXmlForRss(raw);
-        const feed = await parser.parseString(sanitized);
+    // Step 2 (Substack only): Try Substack JSON API — bypasses Cloudflare
+    if (isSubstackUrl(feedConfig.url)) {
+      const feed = fetchSubstackApi(feedConfig.url);
+      if (feed) {
+        console.log(`  ↳ ${feedConfig.name}: fetched via Substack API`);
         return { feed, name: feedConfig.name };
-      } catch (curlErr) {
-        // curl also failed, continue to OpenRSS fallback
       }
+      console.warn(`Skipping feed ${feedConfig.name}: RSS ${nodeErr.message}, Substack API also failed`);
+      return null;
     }
 
-    // Step 3: Try OpenRSS proxy (only for non-OpenRSS URLs)
-    const openRssUrl = buildOpenRssUrl(feedConfig.url);
-    if ((isBlock || is404 || isParseError) && openRssUrl) {
-      try {
-        console.log(`  ↳ ${feedConfig.name}: retrying via OpenRSS…`);
-        const raw = fetchWithCurl(openRssUrl);
-        const sanitized = sanitizeXmlForRss(raw);
-        const feed = await parser.parseString(sanitized);
-        return { feed, name: feedConfig.name };
-      } catch (openRssErr) {
-        console.warn(`Skipping feed ${feedConfig.name}: node ${nodeErr.message}, curl+OpenRSS also failed`);
-        return null;
-      }
+    // Step 3: Try curl with XML sanitization (handles parse errors and slow responses)
+    try {
+      console.log(`  ↳ ${feedConfig.name}: retrying with curl…`);
+      const raw = fetchWithCurl(feedConfig.url);
+      const sanitized = sanitizeXmlForRss(raw);
+      const feed = await parser.parseString(sanitized);
+      return { feed, name: feedConfig.name };
+    } catch (curlErr) {
+      console.warn(`Skipping feed ${feedConfig.name}: ${nodeErr.message}`);
+      return null;
     }
-
-    // Step 4: For OpenRSS primary URLs that fail, try curl directly
-    if (new URL(feedConfig.url).hostname === 'openrss.org') {
-      try {
-        console.log(`  ↳ ${feedConfig.name}: retrying OpenRSS URL with curl…`);
-        const raw = fetchWithCurl(feedConfig.url);
-        const sanitized = sanitizeXmlForRss(raw);
-        const feed = await parser.parseString(sanitized);
-        return { feed, name: feedConfig.name };
-      } catch (curlErr) {
-        console.warn(`Skipping feed ${feedConfig.name}: node ${nodeErr.message}, curl also failed`);
-        return null;
-      }
-    }
-
-    console.warn(`Skipping feed ${feedConfig.name}: ${nodeErr.message}`);
-    return null;
   }
 }
 
@@ -354,16 +331,8 @@ async function main() {
   const themeCountsAcrossSources = {};
   const seenLinks = new Set();
 
-  // Fetch feeds in small batches to avoid rate-limiting OpenRSS (which serves many of our feeds).
-  const BATCH_SIZE = 3;
-  const BATCH_DELAY_MS = 2000;
-  const feedResults = [];
-  for (let i = 0; i < sources.feeds.length; i += BATCH_SIZE) {
-    const batch = sources.feeds.slice(i, i + BATCH_SIZE);
-    const batchResults = await Promise.all(batch.map((fc) => fetchFeedWithTimeout(fc)));
-    feedResults.push(...batchResults);
-    if (i + BATCH_SIZE < sources.feeds.length) await sleep(BATCH_DELAY_MS);
-  }
+  // Fetch all feeds in parallel; each feed is capped at FEED_JOB_TIMEOUT_MS.
+  const feedResults = await Promise.all(sources.feeds.map((fc) => fetchFeedWithTimeout(fc)));
 
   for (const result of feedResults) {
     if (!result) continue;
