@@ -184,6 +184,32 @@ function fetchSubstackApi(feedUrl) {
   }
 }
 
+/**
+ * Fetch feed via rss2json.com proxy (their servers aren't blocked by Cloudflare).
+ * Free tier: 10,000 req/day — we need ~7/day.
+ */
+function fetchViaRss2Json(feedUrl) {
+  try {
+    const apiUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feedUrl)}`;
+    const raw = execSync(
+      `curl -sS -L --max-time 20 "${apiUrl}"`,
+      { encoding: 'utf8', timeout: 25000, maxBuffer: 5 * 1024 * 1024 }
+    );
+    const data = JSON.parse(raw);
+    if (data.status !== 'ok' || !data.items || data.items.length === 0) return null;
+    return {
+      items: data.items.map((item) => ({
+        title: item.title || 'Untitled',
+        pubDate: item.pubDate,
+        link: item.link,
+        contentSnippet: item.description || item.content || ''
+      }))
+    };
+  } catch (e) {
+    return null;
+  }
+}
+
 function isSubstackUrl(url) {
   return /\.substack\.com\b/i.test(url);
 }
@@ -201,7 +227,13 @@ async function fetchFeed(feedConfig) {
         console.log(`  ↳ ${feedConfig.name}: fetched via Substack API`);
         return { feed, name: feedConfig.name };
       }
-      console.warn(`Skipping feed ${feedConfig.name}: RSS ${nodeErr.message}, Substack API also failed`);
+      // Step 3 (Substack only): Try rss2json.com proxy — their IPs aren't blocked
+      const proxyFeed = fetchViaRss2Json(feedConfig.url);
+      if (proxyFeed) {
+        console.log(`  ↳ ${feedConfig.name}: fetched via rss2json.com proxy`);
+        return { feed: proxyFeed, name: feedConfig.name };
+      }
+      console.warn(`Skipping feed ${feedConfig.name}: RSS ${nodeErr.message}, Substack API and rss2json proxy also failed`);
       return null;
     }
 
