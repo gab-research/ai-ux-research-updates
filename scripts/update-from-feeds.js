@@ -148,11 +148,14 @@ async function main() {
 
   const keywords = sources.keywords || ['AI', 'UX research', 'user research', 'research'];
   const maxUpdates = Math.min(Math.max(1, Number(sources.maxUpdates) || 365), 365);
-  // Use CURRENT_DATE (e.g. 2026-02-25) when set (e.g. in GitHub Actions) so the site uses that as "today"
+  const daysBack = Math.min(Math.max(1, Number(sources.daysBack) || 30), 365);
+  // Use CURRENT_DATE when set (e.g. in GitHub Actions) so the site uses that as "today"
   const now = process.env.CURRENT_DATE ? (() => {
     const d = new Date(process.env.CURRENT_DATE);
     return isNaN(d.getTime()) ? new Date() : d;
   })() : new Date();
+  const cutoff = new Date(now);
+  cutoff.setDate(cutoff.getDate() - daysBack);
 
   const existing = loadJSON(UPDATES_PATH);
   const siteTitle = (existing && existing.title) || 'AI for UX Research';
@@ -227,8 +230,8 @@ async function main() {
         themeCountsAcrossSources[theme] = (themeCountsAcrossSources[theme] || 0) + 1;
       }
 
-      // Only add to the site (byUrl) posts that were published in the current month (e.g. February 2026).
-      if (itemMonthKey !== currentMonthKey) continue;
+      // Add to the site (byUrl) any post from the last N days so we pick up new content (including today).
+      if (pubDate < cutoff) continue;
 
       const link = item.link && item.link.trim();
       if (!link || seenLinks.has(link)) continue;
@@ -258,11 +261,6 @@ async function main() {
   allItems.sort((a, b) => (b.date > a.date ? 1 : b.date < a.date ? -1 : 0));
   const existingUpdates = existing && Array.isArray(existing.updates) ? existing.updates : [];
   let finalUpdates = allItems.length > 0 ? allItems.slice(0, maxUpdates) : existingUpdates;
-
-  // Ensure the latest update is always dated "today" so the site shows an update from the current day
-  if (finalUpdates.length > 0 && finalUpdates[0].date !== today) {
-    finalUpdates = [{ ...finalUpdates[0], date: today }, ...finalUpdates.slice(1)];
-  }
 
   // Normalize all updates to AI-application themes (so existing and new items use the same taxonomy)
   finalUpdates = finalUpdates.map((u) => ({
