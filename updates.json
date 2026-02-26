@@ -3,7 +3,7 @@
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
   "updates": [
     {
-      "date": "2026-02-25",
+      "date": "2026-02-26",
       "title": "Synthetic users for rapid concept testing",
       "summary": "Teams are using LLM-powered synthetic users to run quick concept tests before recruiting real participants, cutting early-stage iteration time by up to 60%.",
       "content": "Product and research teams are increasingly turning to LLM-powered synthetic users to run fast concept tests before investing in live recruitment. Instead of waiting for screener responses and scheduling sessions, researchers prompt AI personas with the same demographics and goals as their target users, then run through flows, value propositions, and copy. Early adopters report cutting early-stage iteration time by up to 60%, while still running traditional user testing on the shortlisted concepts. The key is to treat synthetic feedback as a filter, not a replacement—use it to kill weak ideas quickly and double down on the ones that survive, then validate with real users.",

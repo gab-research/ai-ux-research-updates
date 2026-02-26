@@ -1,10 +1,10 @@
 {
   "month": "2026-02",
-  "updated": "2026-02-25",
+  "updated": "2026-02-26",
   "themes": [
     {
       "name": "Other AI in research",
-      "count": 73
+      "count": 74
     }
   ],
   "note": "Based on how often each theme appears in posts from our RSS sources this month. Social media (e.g. LinkedIn) is not included—no public API."
