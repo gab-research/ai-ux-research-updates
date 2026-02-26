@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-02-26T16:30:47.521Z",
+  "lastUpdated": "2026-02-26T16:48:41.283Z",
   "updates": [
     {
       "date": "2026-02-26",
@@ -612,6 +612,54 @@
       "source": {
         "name": "Teresa Torres (Product Talk)",
         "url": "https://www.producttalk.org/episode-preview-all-things-product-podcast-with-teresa-torres-petra-wille-5/"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-01-30",
+      "title": "AI-Moderated Interviews: If, When, and How to Use Them",
+      "summary": "AI interviews offer faster feedback at scale, but they're not a replacement for in-depth, human-led semistructured interviews.",
+      "content": "AI interviews offer faster feedback at scale, but they're not a replacement for in-depth, human-led semistructured interviews.",
+      "category": "Other AI in research",
+      "source": {
+        "name": "Nielsen Norman Group",
+        "url": "https://www.nngroup.com/articles/ai-interviewers/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-01-30",
+      "title": "Demand Accuracy in Your AI Tools: Lessons from Baymard Institute",
+      "summary": "Most AI-powered tools for UX lack reliability and accountability in their outputs. Demand transparency and proven accuracy, or don't buy it.",
+      "content": "Most AI-powered tools for UX lack reliability and accountability in their outputs. Demand transparency and proven accuracy, or don't buy it.",
+      "category": "Other AI in research",
+      "source": {
+        "name": "Nielsen Norman Group",
+        "url": "https://www.nngroup.com/articles/baymard-ai-tool-accuracy/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-01-30",
+      "title": "Practical Use Of AI Coding Tools For The Responsible Developer",
+      "summary": "AI coding tools like agents can be valuable allies in everyday development work. They help handle time-consuming grunt work, guide you through large legacy codebases, and offer low-risk ways to implement features in previously unfamiliar programming languages. Here are practic...",
+      "content": "AI coding tools like agents can be valuable allies in everyday development work. They help handle time-consuming grunt work, guide you through large legacy codebases, and offer low-risk ways to implement features in previously unfamiliar programming languages. Here are practical, easy-to-apply techniques to help you use these tools to improve your workflow.",
+      "category": "Other AI in research",
+      "source": {
+        "name": "Smashing Magazine",
+        "url": "https://smashingmagazine.com/2026/01/practical-use-ai-coding-tools-responsible-developer/"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-01-29",
+      "title": "The Plight of the Senior UX Designer/Researcher",
+      "summary": "As UX/Design leaders, perhaps our greatest responsibility is to the people we manage and lead. In the latest episode of Finding Our Way, Jesse James Garrett and I addressed just how poorly we are doing to support Senior Practitioners, by which I mean folks who are about 5-10 y...",
+      "content": "As UX/Design leaders, perhaps our greatest responsibility is to the people we manage and lead. In the latest episode of Finding Our Way, Jesse James Garrett and I addressed just how poorly we are doing to support Senior Practitioners, by which I mean folks who are about 5-10 years",
+      "category": "Other AI in research",
+      "source": {
+        "name": "Peter Merholz",
+        "url": "https://www.petermerholz.com/blog/the-plight-of-the-senior-ux-designer-researcher/"
       },
       "analysis": ""
     }
