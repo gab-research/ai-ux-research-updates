@@ -1,12 +1,11 @@
-# Runs daily to fetch new articles from RSS feeds and update updates.json.
-# Push this repo to GitHub and the site will refresh automatically every day.
+# Runs every 2 hours to fetch new articles from RSS feeds and update updates.json.
 
-name: Daily content update
+name: Content update
 
 on:
   schedule:
-    # Run every day at 11:00 UTC = 8:00 AM Brasília (UTC-3)
-    - cron: '0 11 * * *'
+    # Run every 2 hours (at minute 0)
+    - cron: '0 */2 * * *'
   workflow_dispatch:
     # Allow manual run from Actions tab
 
