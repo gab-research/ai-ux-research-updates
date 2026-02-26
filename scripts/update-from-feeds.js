@@ -17,11 +17,18 @@ const ANALYSES_PATH = path.join(ROOT, 'analyses.json');
 const THEMES_PATH = path.join(ROOT, 'themes.json');
 
 const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
+const BROWSER_HEADERS = {
+  'User-Agent': USER_AGENT,
+  'Accept': 'application/rss+xml, application/xml, text/xml, application/atom+xml, */*',
+  'Accept-Language': 'en-US,en;q=0.9',
+  'Connection': 'keep-alive',
+  'Cache-Control': 'no-cache'
+};
 const FEED_TIMEOUT_MS = 20000;   // per-feed request timeout (OpenRSS can be slow)
 const FEED_JOB_TIMEOUT_MS = 60000; // max time per feed (fetch + retries), then skip
 const parser = new Parser({
   timeout: FEED_TIMEOUT_MS,
-  headers: { 'User-Agent': USER_AGENT }
+  headers: BROWSER_HEADERS
 });
 
 function loadJSON(filePath) {
@@ -125,10 +132,10 @@ function inferCategory(title, description) {
   return 'General AI in research';
 }
 
-/** Fetch raw URL with same User-Agent (for XML sanitization fallback). */
+/** Fetch raw URL with full browser headers (for XML sanitization fallback). */
 function fetchRaw(url) {
   return new Promise((resolve, reject) => {
-    const req = https.get(url, { headers: { 'User-Agent': USER_AGENT } }, (res) => {
+    const req = https.get(url, { headers: BROWSER_HEADERS }, (res) => {
       if (res.statusCode !== 200) {
         reject(new Error(`Status code ${res.statusCode}`));
         return;
@@ -158,14 +165,14 @@ function buildOpenRssUrl(originalUrl) {
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-async function parseUrlWithRetry(url, name, retries = 1) {
+async function parseUrlWithRetry(url, name, retries = 2) {
   for (let attempt = 0; attempt <= retries; attempt++) {
     try {
       return await parser.parseURL(url);
     } catch (err) {
       const is429 = /status\s*code\s*429/i.test(err.message);
       if (is429 && attempt < retries) {
-        const wait = 5000 * (attempt + 1);
+        const wait = 10000 * (attempt + 1);
         console.log(`  ↳ ${name}: 429 rate-limited, waiting ${wait / 1000}s before retry…`);
         await sleep(wait);
         continue;
@@ -322,8 +329,16 @@ async function main() {
   const themeCountsAcrossSources = {};
   const seenLinks = new Set();
 
-  // Fetch all feeds in parallel; each feed is capped at FEED_JOB_TIMEOUT_MS so none can hang the run for hours.
-  const feedResults = await Promise.all(sources.feeds.map((fc) => fetchFeedWithTimeout(fc)));
+  // Fetch feeds in small batches to avoid rate-limiting OpenRSS (which serves many of our feeds).
+  const BATCH_SIZE = 3;
+  const BATCH_DELAY_MS = 2000;
+  const feedResults = [];
+  for (let i = 0; i < sources.feeds.length; i += BATCH_SIZE) {
+    const batch = sources.feeds.slice(i, i + BATCH_SIZE);
+    const batchResults = await Promise.all(batch.map((fc) => fetchFeedWithTimeout(fc)));
+    feedResults.push(...batchResults);
+    if (i + BATCH_SIZE < sources.feeds.length) await sleep(BATCH_DELAY_MS);
+  }
 
   for (const result of feedResults) {
     if (!result) continue;
