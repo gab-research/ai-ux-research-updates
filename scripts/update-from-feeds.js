@@ -145,6 +145,28 @@ function fetchFeedWithTimeout(feedConfig) {
 }
 
 async function main() {
+  // Re-categorize all existing posts with current theme definitions (no feed fetch).
+  if (process.argv.includes('--categories-only')) {
+    const existing = loadJSON(UPDATES_PATH);
+    if (!existing || !Array.isArray(existing.updates)) {
+      console.error('No updates.json or empty updates.');
+      process.exit(1);
+    }
+    const updated = existing.updates.map((u) => ({
+      ...u,
+      category: inferCategory(u.title, u.summary || u.content || '')
+    }));
+    const output = {
+      title: existing.title || 'AI for UX Research',
+      subtitle: existing.subtitle || 'Daily updates on AI applications improving UX research efficiency',
+      lastUpdated: new Date().toISOString(),
+      updates: updated
+    };
+    fs.writeFileSync(UPDATES_PATH, JSON.stringify(output, null, 2), 'utf8');
+    console.log('Updated categories for ' + updated.length + ' posts in ' + UPDATES_PATH + '.');
+    process.exit(0);
+  }
+
   const sources = loadJSON(SOURCES_PATH);
   if (!sources || !sources.feeds || !Array.isArray(sources.feeds)) {
     console.error('Missing or invalid sources.json (needs "feeds" array).');
