@@ -273,6 +273,7 @@ async function main() {
   const output = {
     title: siteTitle,
     subtitle: siteSubtitle,
+    lastUpdated: new Date().toISOString(),
     updates: finalUpdates
   };
 
