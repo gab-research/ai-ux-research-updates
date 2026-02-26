@@ -29,8 +29,6 @@ jobs:
         run: npm install
 
       - name: Fetch new content and update updates.json
-        env:
-          CURRENT_DATE: '2026-02-25'
         run: npm run update
 
       - name: Commit and push if changed
