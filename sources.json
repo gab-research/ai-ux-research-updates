@@ -141,43 +141,83 @@
   "themeFeeds": [
     {
       "name": "Google News: AI user research",
-      "url": "https://news.google.com/rss/search?q=%22AI+user+research%22+when:30d&hl=en-US&gl=US&ceid=US:en"
+      "url": "https://news.google.com/rss/search?q=AI+user+research+when:30d&hl=en-US&gl=US&ceid=US:en"
     },
     {
-      "name": "Google News: AI UX research",
-      "url": "https://news.google.com/rss/search?q=%22AI+UX+research%22+when:30d&hl=en-US&gl=US&ceid=US:en"
+      "name": "Google News: AI UX tools",
+      "url": "https://news.google.com/rss/search?q=AI+UX+research+tools+when:30d&hl=en-US&gl=US&ceid=US:en"
     },
     {
       "name": "Google News: synthetic users",
-      "url": "https://news.google.com/rss/search?q=%22synthetic+users%22+OR+%22synthetic+participants%22+research+when:30d&hl=en-US&gl=US&ceid=US:en"
+      "url": "https://news.google.com/rss/search?q=synthetic+users+OR+synthetic+participants+AI+when:30d&hl=en-US&gl=US&ceid=US:en"
     },
     {
       "name": "Google News: AI usability testing",
-      "url": "https://news.google.com/rss/search?q=%22AI+usability+testing%22+OR+%22automated+usability%22+when:30d&hl=en-US&gl=US&ceid=US:en"
+      "url": "https://news.google.com/rss/search?q=AI+usability+testing+OR+automated+usability+when:30d&hl=en-US&gl=US&ceid=US:en"
     },
     {
-      "name": "Google News: AI interview analysis",
-      "url": "https://news.google.com/rss/search?q=%22AI+interview+analysis%22+OR+%22AI+qualitative+research%22+when:30d&hl=en-US&gl=US&ceid=US:en"
+      "name": "Google News: AI qualitative research",
+      "url": "https://news.google.com/rss/search?q=AI+qualitative+research+OR+AI+interview+analysis+when:30d&hl=en-US&gl=US&ceid=US:en"
     },
     {
-      "name": "Google News: LLM research tools",
-      "url": "https://news.google.com/rss/search?q=LLM+%22user+research%22+OR+%22UX+research%22+when:30d&hl=en-US&gl=US&ceid=US:en"
+      "name": "Google News: LLM research",
+      "url": "https://news.google.com/rss/search?q=LLM+user+research+OR+LLM+UX+when:30d&hl=en-US&gl=US&ceid=US:en"
     },
     {
-      "name": "Google News: AI survey research",
-      "url": "https://news.google.com/rss/search?q=%22AI+survey%22+%22user+research%22+when:30d&hl=en-US&gl=US&ceid=US:en"
+      "name": "Google News: AI survey tools",
+      "url": "https://news.google.com/rss/search?q=AI+survey+tools+OR+AI+survey+optimization+when:30d&hl=en-US&gl=US&ceid=US:en"
     },
     {
       "name": "Google News: generative AI design",
-      "url": "https://news.google.com/rss/search?q=%22generative+AI%22+%22design+research%22+when:30d&hl=en-US&gl=US&ceid=US:en"
+      "url": "https://news.google.com/rss/search?q=generative+AI+design+tools+OR+AI+prototyping+when:30d&hl=en-US&gl=US&ceid=US:en"
     },
     {
-      "name": "Google News: AI sentiment analysis",
-      "url": "https://news.google.com/rss/search?q=%22AI+sentiment+analysis%22+%22user+feedback%22+when:30d&hl=en-US&gl=US&ceid=US:en"
+      "name": "Google News: AI sentiment feedback",
+      "url": "https://news.google.com/rss/search?q=AI+sentiment+analysis+user+feedback+when:30d&hl=en-US&gl=US&ceid=US:en"
     },
     {
       "name": "Google News: AI product research",
-      "url": "https://news.google.com/rss/search?q=%22AI%22+%22product+research%22+OR+%22research+automation%22+when:30d&hl=en-US&gl=US&ceid=US:en"
+      "url": "https://news.google.com/rss/search?q=AI+product+research+OR+AI+research+automation+when:30d&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "name": "Google News: AI chatbot research",
+      "url": "https://news.google.com/rss/search?q=AI+chatbot+user+research+OR+conversational+AI+research+when:30d&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "name": "Google News: AI design research",
+      "url": "https://news.google.com/rss/search?q=AI+design+research+OR+AI+UX+design+when:30d&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "name": "Google News: AI research tools broad",
+      "url": "https://news.google.com/rss/search?q=artificial+intelligence+research+tools+UX+when:30d&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "name": "Google News: AI session replay heatmap",
+      "url": "https://news.google.com/rss/search?q=AI+session+replay+OR+AI+heatmap+OR+AI+analytics+UX+when:30d&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "name": "Google News: AI summarization insights",
+      "url": "https://news.google.com/rss/search?q=AI+summarization+research+insights+OR+AI+transcript+analysis+when:30d&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "name": "Google News: AI recruitment research",
+      "url": "https://news.google.com/rss/search?q=AI+participant+recruitment+OR+AI+research+recruitment+when:30d&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "name": "Google News: AI testing automation",
+      "url": "https://news.google.com/rss/search?q=AI+testing+automation+user+experience+when:30d&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "name": "Google News: AI customer insights",
+      "url": "https://news.google.com/rss/search?q=AI+customer+insights+OR+AI+user+insights+when:30d&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "name": "Google News: AI research platform",
+      "url": "https://news.google.com/rss/search?q=AI+research+platform+UX+OR+AI+research+tool+launch+when:30d&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "name": "Google News: AI personalization",
+      "url": "https://news.google.com/rss/search?q=AI+personalization+user+experience+OR+AI+recommendation+UX+when:30d&hl=en-US&gl=US&ceid=US:en"
     }
   ],
   "maxUpdates": 365,

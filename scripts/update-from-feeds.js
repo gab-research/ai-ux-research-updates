@@ -292,37 +292,46 @@ function fetchGoogleNewsFeed(feedConfig) {
 
 /**
  * Collect article titles for theme analysis from all sources (curated + Google News).
- * Each source is capped at MAX_POSTS_PER_SOURCE to prevent one prolific source
- * from dominating the ranking.
+ * Curated RSS blogs are capped at MAX_POSTS_PER_SOURCE to prevent one blog from
+ * dominating. Google News feeds have no cap since they aggregate many sources.
  */
 function collectThemeTitles(feedResults, themeResults, currentMonthKey) {
   const allTitles = [];
-  const allResults = [...feedResults, ...themeResults];
+  const seenTitles = new Set();
 
-  for (const result of allResults) {
-    if (!result) continue;
-    const { feed, name } = result;
-    const items = feed.items || [];
-    let sourceCount = 0;
+  function processResults(results, cap) {
+    for (const result of results) {
+      if (!result) continue;
+      const { feed, name } = result;
+      const items = feed.items || [];
+      let sourceCount = 0;
 
-    for (const item of items) {
-      if (sourceCount >= MAX_POSTS_PER_SOURCE) break;
-      const pubDate = parseDate(item.pubDate);
-      if (!pubDate) continue;
+      for (const item of items) {
+        if (cap && sourceCount >= cap) break;
+        const pubDate = parseDate(item.pubDate);
+        if (!pubDate) continue;
 
-      const itemMonthKey = toISODate(pubDate).slice(0, 7);
-      if (itemMonthKey !== currentMonthKey) continue;
+        const itemMonthKey = toISODate(pubDate).slice(0, 7);
+        if (itemMonthKey !== currentMonthKey) continue;
 
-      const title = (item.title && item.title.trim()) || '';
-      const description = stripHtml(item.contentSnippet || item.content || item.summary || '');
-      if (!title) continue;
+        const title = (item.title && item.title.trim()) || '';
+        const description = stripHtml(item.contentSnippet || item.content || item.summary || '');
+        if (!title) continue;
 
-      if (!hasAIRelevance(`${title} ${description}`)) continue;
+        const titleLower = title.toLowerCase();
+        if (seenTitles.has(titleLower)) continue;
 
-      allTitles.push({ title, description: truncate(description, 200), source: name });
-      sourceCount++;
+        if (!hasAIRelevance(`${title} ${description}`)) continue;
+
+        seenTitles.add(titleLower);
+        allTitles.push({ title, description: truncate(description, 200), source: name });
+        sourceCount++;
+      }
     }
   }
+
+  processResults(feedResults, MAX_POSTS_PER_SOURCE);
+  processResults(themeResults, 0);
   return allTitles;
 }
 
