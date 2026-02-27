@@ -31,6 +31,7 @@
     card.setAttribute('aria-label', update.title);
     const monthKey = getMonthKey(update.date);
     if (monthKey) card.setAttribute('data-month', monthKey);
+    if (update.category) card.setAttribute('data-category', update.category);
 
     const hasContent = typeof update.content === 'string' && update.content.trim().length > 0;
     const analysisText = typeof update.analysis === 'string' ? update.analysis.trim() : '';
@@ -124,6 +125,28 @@
     return y + '-' + m;
   }
 
+  var activeThemeFilter = '';
+
+  function clearThemeFilter() {
+    activeThemeFilter = '';
+    var listEl = document.getElementById('themes-list');
+    if (listEl) {
+      listEl.querySelectorAll('.theme-item').forEach(function (el) { el.classList.remove('is-active'); });
+    }
+  }
+
+  function applyCardFilters() {
+    var navEl = document.getElementById('sidebar-nav');
+    var activeMonthBtn = navEl && navEl.querySelector('.sidebar-link.is-active');
+    var monthFilter = activeMonthBtn ? (activeMonthBtn.getAttribute('data-month') || '') : '';
+
+    feedEl.querySelectorAll('.update-card').forEach(function (card) {
+      var matchesMonth = monthFilter === '' || card.getAttribute('data-month') === monthFilter;
+      var matchesTheme = activeThemeFilter === '' || card.getAttribute('data-category') === activeThemeFilter;
+      card.hidden = !(matchesMonth && matchesTheme);
+    });
+  }
+
   function renderThemesList(listEl, sorted, monthKey, formatMonthLabel) {
     if (!listEl) return;
     if (!sorted.length) {
@@ -133,12 +156,29 @@
     }
     listEl.setAttribute('role', 'list');
     listEl.innerHTML = sorted.map(function (item, i) {
-      return '<div class="theme-item" role="listitem">' +
+      return '<button type="button" class="theme-item" role="listitem" data-category="' + escapeAttr(item.name) + '">' +
         '<span class="theme-rank">' + (i + 1) + '</span>' +
         '<span class="theme-name">' + escapeHtml(item.name) + '</span>' +
         '<span class="theme-count">' + item.count + (item.count === 1 ? ' post' : ' posts') + '</span>' +
-        '</div>';
+        '</button>';
     }).join('');
+
+    listEl.querySelectorAll('.theme-item').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var category = btn.getAttribute('data-category') || '';
+        var wasActive = btn.classList.contains('is-active');
+
+        listEl.querySelectorAll('.theme-item').forEach(function (el) { el.classList.remove('is-active'); });
+
+        if (wasActive) {
+          activeThemeFilter = '';
+        } else {
+          btn.classList.add('is-active');
+          activeThemeFilter = category;
+        }
+        applyCardFilters();
+      });
+    });
   }
 
   function showThemesSection(monthKey, sorted, updatedDate) {
@@ -181,13 +221,9 @@
 
     navEl.querySelectorAll('.sidebar-link').forEach(function (btn) {
       btn.addEventListener('click', function () {
-        var month = btn.getAttribute('data-month') || '';
         navEl.querySelectorAll('.sidebar-link').forEach(function (b) { b.classList.remove('is-active'); });
         btn.classList.add('is-active');
-        feedEl.querySelectorAll('.update-card').forEach(function (card) {
-          var cardMonth = card.getAttribute('data-month') || '';
-          card.hidden = month !== '' && cardMonth !== month;
-        });
+        applyCardFilters();
       });
     });
 
