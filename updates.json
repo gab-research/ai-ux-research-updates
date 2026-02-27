@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-02-27T11:47:38.418Z",
+  "lastUpdated": "2026-02-27T14:10:58.850Z",
   "updates": [
+    {
+      "date": "2026-02-27",
+      "title": "How to prototype using Claude Haiku 4.5 + Bootstrap  –  Use UXPin Merge!",
+      "summary": "Use AI to generate Bootstrap React components, import them into UXPin Merge, and build responsive, production-ready prototypes for faster handoffs. The post How to prototype using Claude Haiku 4.5 + Bootstrap – Use UXPin Merge! appeared first on Studio by UXPin.",
+      "content": "Use AI to generate Bootstrap React components, import them into UXPin Merge, and build responsive, production-ready prototypes for faster handoffs. The post How to prototype using Claude Haiku 4.5 + Bootstrap – Use UXPin Merge! appeared first on Studio by UXPin.",
+      "category": "AI for design",
+      "source": {
+        "name": "UXPin Blog",
+        "url": "https://www.uxpin.com/studio/blog/prototype-claude-haiku-4-5-bootstrap-uxpin-merge/"
+      },
+      "analysis": ""
+    },
     {
       "date": "2026-02-26",
       "title": "Synthetic users for rapid concept testing",
