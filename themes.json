@@ -3,44 +3,40 @@
   "updated": "2026-02-27",
   "themes": [
     {
-      "name": "AI for Design Prototyping",
-      "count": 7
+      "name": "AI Chatbots & Agents",
+      "count": 33
     },
     {
-      "name": "Synthetic Users / AI Participants",
-      "count": 2
+      "name": "AI for Design & Prototyping",
+      "count": 32
     },
     {
-      "name": "AI for Bias Mitigation",
-      "count": 1
+      "name": "AI Research Analysis",
+      "count": 23
     },
     {
-      "name": "AI for Sales/Customer Agents",
-      "count": 1
+      "name": "AI Product Automation",
+      "count": 19
     },
     {
-      "name": "Automated UX Analysis",
-      "count": 1
+      "name": "AI-Driven Analytics",
+      "count": 17
     },
     {
-      "name": "AI Interview Analysis",
-      "count": 1
+      "name": "Synthetic Users & Data",
+      "count": 13
+    },
+    {
+      "name": "Automated UX Testing",
+      "count": 8
+    },
+    {
+      "name": "AI Recruitment & Engagement",
+      "count": 8
     },
     {
       "name": "AI Sentiment Analysis",
-      "count": 1
-    },
-    {
-      "name": "AI in Product Search",
-      "count": 1
-    },
-    {
-      "name": "AI for Professional Workflows",
-      "count": 1
-    },
-    {
-      "name": "AI in Retail/E-commerce",
-      "count": 1
+      "count": 4
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources and Google News this month."
