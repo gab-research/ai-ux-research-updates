@@ -3,44 +3,44 @@
   "updated": "2026-02-27",
   "themes": [
     {
-      "name": "Agentic AI & Automation",
+      "name": "AI for Job Market Analysis",
+      "count": 51
+    },
+    {
+      "name": "AI Chatbots (Research/Tool)",
       "count": 42
     },
     {
-      "name": "AI Chatbot Interactions",
-      "count": 35
-    },
-    {
       "name": "AI for Design & Prototyping",
-      "count": 32
+      "count": 39
     },
     {
-      "name": "AI Research Platforms",
-      "count": 28
+      "name": "AI Summarization & Analysis",
+      "count": 19
     },
     {
-      "name": "AI for Customer/User Data Analysis",
-      "count": 18
+      "name": "AI Research Platforms/Tools",
+      "count": 19
     },
     {
-      "name": "AI for Qualitative Analysis",
+      "name": "AI Survey Creation/Analysis",
+      "count": 16
+    },
+    {
+      "name": "AI Research Automation",
       "count": 14
     },
     {
-      "name": "AI Summarization",
+      "name": "AI for Product Insights/Decisions",
+      "count": 14
+    },
+    {
+      "name": "AI for Usability Testing",
       "count": 12
     },
     {
-      "name": "AI in Product Development",
-      "count": 8
-    },
-    {
       "name": "Synthetic Users & Data",
-      "count": 5
-    },
-    {
-      "name": "Automated UX/UI Testing",
-      "count": 3
+      "count": 8
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources and Google News this month."
