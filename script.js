@@ -188,7 +188,7 @@
     const dateEl = document.getElementById('themes-date');
     const listEl = document.getElementById('themes-list');
     if (!sectionEl || !titleEl || !listEl) return;
-    titleEl.textContent = 'Top 5 themes in AI in UX Research — ' + formatMonthLabel(monthKey);
+    titleEl.textContent = 'Top 10 themes in AI in UX Research — ' + formatMonthLabel(monthKey);
     if (updatedEl) {
       updatedEl.textContent = 'Based on how often each theme appears in the sources this month.';
       updatedEl.style.display = '';

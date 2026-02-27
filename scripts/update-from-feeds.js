@@ -2,7 +2,8 @@
 /**
  * Fetches articles from RSS feeds (UX research / AI sources), filters by keywords,
  * and writes updates.json so the website updates automatically.
- * Run daily via GitHub Actions or cron.
+ * Uses Google Gemini API (free tier) to analyze broader internet data and identify trending themes.
+ * Run every 2 hours via GitHub Actions or cron.
  */
 
 const fs = require('fs');
@@ -10,6 +11,7 @@ const path = require('path');
 const https = require('https');
 const { execSync } = require('child_process');
 const Parser = require('rss-parser');
+const { GoogleGenerativeAI } = require('@google/generative-ai');
 
 const ROOT = path.resolve(__dirname, '..');
 const SOURCES_PATH = path.join(ROOT, 'sources.json');
@@ -27,6 +29,7 @@ const BROWSER_HEADERS = {
 };
 const FEED_TIMEOUT_MS = 18000;   // per-feed Node.js request timeout
 const FEED_JOB_TIMEOUT_MS = 40000; // max time per feed (node try + Substack API/curl fallback), then skip
+const MAX_POSTS_PER_SOURCE = 5;  // cap per source for theme counting to prevent one prolific blog from dominating
 const parser = new Parser({
   timeout: FEED_TIMEOUT_MS,
   headers: BROWSER_HEADERS
@@ -266,6 +269,144 @@ function fetchFeedWithTimeout(feedConfig) {
   });
 }
 
+/**
+ * Fetch a Google News RSS feed via curl. These are theme-only feeds —
+ * they contribute to theme analysis but never add posts to the site.
+ */
+function fetchGoogleNewsFeed(feedConfig) {
+  try {
+    const raw = execSync(
+      `curl -sS -L --max-time 15 -H "User-Agent: ${USER_AGENT}" -H "Accept: application/rss+xml, application/xml, text/xml, */*" "${feedConfig.url}"`,
+      { encoding: 'utf8', timeout: 20000, maxBuffer: 5 * 1024 * 1024 }
+    );
+    if (!raw || !raw.trim()) return null;
+    const sanitized = sanitizeXmlForRss(raw);
+    return parser.parseString(sanitized).then((feed) => ({
+      feed,
+      name: feedConfig.name
+    }));
+  } catch (e) {
+    return Promise.resolve(null);
+  }
+}
+
+/**
+ * Collect article titles for theme analysis from all sources (curated + Google News).
+ * Each source is capped at MAX_POSTS_PER_SOURCE to prevent one prolific source
+ * from dominating the ranking.
+ */
+function collectThemeTitles(feedResults, themeResults, currentMonthKey) {
+  const allTitles = [];
+  const allResults = [...feedResults, ...themeResults];
+
+  for (const result of allResults) {
+    if (!result) continue;
+    const { feed, name } = result;
+    const items = feed.items || [];
+    let sourceCount = 0;
+
+    for (const item of items) {
+      if (sourceCount >= MAX_POSTS_PER_SOURCE) break;
+      const pubDate = parseDate(item.pubDate);
+      if (!pubDate) continue;
+
+      const itemMonthKey = toISODate(pubDate).slice(0, 7);
+      if (itemMonthKey !== currentMonthKey) continue;
+
+      const title = (item.title && item.title.trim()) || '';
+      const description = stripHtml(item.contentSnippet || item.content || item.summary || '');
+      if (!title) continue;
+
+      if (!hasAIRelevance(`${title} ${description}`)) continue;
+
+      allTitles.push({ title, description: truncate(description, 200), source: name });
+      sourceCount++;
+    }
+  }
+  return allTitles;
+}
+
+/**
+ * Use Google Gemini API (free tier) to analyze collected article titles and
+ * identify the top 10 trending themes about AI applications in UX/user research.
+ * Returns an array of { name, count } objects, or null if the API is unavailable.
+ */
+async function analyzeThemesWithGemini(titles, currentMonthKey) {
+  const apiKey = process.env.GEMINI_API_KEY;
+  if (!apiKey) {
+    console.log('No GEMINI_API_KEY set — falling back to regex theme analysis.');
+    return null;
+  }
+
+  if (titles.length === 0) {
+    console.log('No titles to analyze — skipping Gemini API call.');
+    return null;
+  }
+
+  const genAI = new GoogleGenerativeAI(apiKey);
+  const model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash' });
+
+  const titleList = titles
+    .map((t, i) => `${i + 1}. "${t.title}" (${t.source})`)
+    .join('\n');
+
+  const prompt = `You are an analyst tracking trends in AI applied to UX and user research.
+
+Below are ${titles.length} article titles published in ${currentMonthKey} from various sources across the internet (blogs, news sites, and industry publications). Each article is about AI applied to research, design, or product work.
+
+ARTICLES:
+${titleList}
+
+Analyze these articles and identify the 10 most prominent themes about **AI applications** (not research processes). Focus on specific AI applications such as:
+- Synthetic users / AI participants
+- AI-powered interview analysis
+- AI summarization of research data
+- Automated usability testing
+- AI for design / prototyping
+- AI survey optimization
+- Session replay with AI
+- AI sentiment analysis
+- Research automation with AI
+- Conversational AI in research
+- AI for product decisions
+- Or any other specific AI application theme you identify
+
+Rules:
+- Each theme name should be short (2-5 words), describing a specific AI application
+- Count how many articles relate to each theme (one article can match at most one theme)
+- Do NOT use generic names like "General AI" or "Other" — every theme must be a specific application
+- Sort by count descending
+- Return ONLY valid JSON, no other text
+
+Return this exact JSON format:
+[
+  { "name": "Theme name", "count": 3 },
+  { "name": "Theme name", "count": 2 }
+]`;
+
+  try {
+    const result = await model.generateContent(prompt);
+    const text = result.response.text().trim();
+    const jsonMatch = text.match(/\[[\s\S]*\]/);
+    if (!jsonMatch) throw new Error('No JSON array in response');
+
+    const themes = JSON.parse(jsonMatch[0]);
+    if (!Array.isArray(themes) || themes.length === 0) throw new Error('Empty themes array');
+
+    const validated = themes
+      .filter((t) => t.name && typeof t.count === 'number')
+      .slice(0, 10);
+
+    if (validated.length === 0) throw new Error('No valid themes after validation');
+
+    console.log(`Gemini identified ${validated.length} themes from ${titles.length} articles.`);
+    return validated;
+  } catch (e) {
+    console.warn(`Gemini API theme analysis failed: ${e.message} — falling back to regex.`);
+    return null;
+  }
+}
+
 async function main() {
   // Re-categorize all existing posts with current theme definitions (no feed fetch).
   if (process.argv.includes('--categories-only')) {
@@ -356,16 +497,21 @@ async function main() {
     }
   }
 
-  // Theme frequency across ALL posts from our RSS sources in the current month only.
-  // Count every feed item published this month (no keyword filter, no cutoff). Do NOT use the site's curated updates.
   const today = toISODate(now);
   const currentMonthKey = today.slice(0, 7); // e.g. "2026-02"
-  const themeCountsAcrossSources = {};
   const seenLinks = new Set();
 
-  // Fetch all feeds in parallel; each feed is capped at FEED_JOB_TIMEOUT_MS.
-  const feedResults = await Promise.all(sources.feeds.map((fc) => fetchFeedWithTimeout(fc)));
+  // Fetch curated RSS feeds and Google News theme feeds in parallel.
+  const themeFeeds = sources.themeFeeds || [];
+  const [feedResults, ...themeResults] = await Promise.all([
+    Promise.all(sources.feeds.map((fc) => fetchFeedWithTimeout(fc))),
+    ...themeFeeds.map((tf) => fetchGoogleNewsFeed(tf).catch(() => null))
+  ]);
 
+  const successfulThemeFeeds = themeResults.filter(Boolean).length;
+  console.log(`Fetched ${successfulThemeFeeds}/${themeFeeds.length} Google News theme feeds.`);
+
+  // Process curated feeds for site posts (same as before).
   for (const result of feedResults) {
     if (!result) continue;
 
@@ -376,17 +522,9 @@ async function main() {
       const pubDate = parseDate(item.pubDate);
       if (!pubDate) continue;
 
-      const itemMonthKey = toISODate(pubDate).slice(0, 7);
       const title = (item.title && item.title.trim()) || 'Untitled';
       const description = item.contentSnippet || item.content || item.summary || '';
 
-      // Count theme for every AI-relevant post in the current month (sources only; not the website's updates).
-      if (itemMonthKey === currentMonthKey && hasAIRelevance(`${title} ${description}`)) {
-        const theme = inferCategory(title, description);
-        themeCountsAcrossSources[theme] = (themeCountsAcrossSources[theme] || 0) + 1;
-      }
-
-      // Add to the site (byUrl) any post from the last N days so we pick up new content (including today).
       if (pubDate < cutoff) continue;
 
       const link = item.link && item.link.trim();
@@ -435,45 +573,53 @@ async function main() {
   fs.writeFileSync(UPDATES_PATH, JSON.stringify(output, null, 2), 'utf8');
   console.log(`Updated ${UPDATES_PATH} with ${finalUpdates.length} items.`);
 
-  // Top 5 themes by frequency across our RSS sources for this specific month (e.g. February).
-  const APPLICATION_THEMES = [
-    'Synthetic users',
-    'AI summarization',
-    'Automated usability checks',
-    'Survey optimization',
-    'Session replay + AI',
-    'Interview analysis',
-    'Conversational AI in research',
-    'Sentiment & feedback analysis',
-    'AI for design',
-    'Research automation',
-    'AI in user testing',
-    'AI strategy & literacy',
-    'AI for product management',
-    'General AI in research'
-  ];
-  let topThemes = Object.entries(themeCountsAcrossSources)
-    .map(([name, count]) => ({ name: name || 'General AI in research', count }))
-    .sort((a, b) => b.count - a.count)
-    .slice(0, 5);
-  // If we have fewer than 5 themes (e.g. only "Other" had count), fill with other application themes at 0 so we show 5 distinct AI-application themes.
-  if (topThemes.length < 5) {
-    const seen = new Set(topThemes.map((t) => t.name));
-    for (const themeName of APPLICATION_THEMES) {
-      if (seen.has(themeName)) continue;
-      topThemes.push({ name: themeName, count: 0 });
-      if (topThemes.length >= 5) break;
+  // --- Theme analysis ---
+  // Collect titles from curated feeds + Google News feeds (capped per source).
+  const themeTitles = collectThemeTitles(feedResults, themeResults, currentMonthKey);
+  console.log(`Collected ${themeTitles.length} AI-relevant article titles for theme analysis (${currentMonthKey}).`);
+
+  // Try Gemini API first; fall back to regex if unavailable.
+  let topThemes = await analyzeThemesWithGemini(themeTitles, currentMonthKey);
+
+  if (!topThemes) {
+    // Regex fallback: count themes using inferCategory with per-source cap.
+    console.log('Using regex fallback for theme analysis.');
+    const themeCountsAcrossSources = {};
+    for (const t of themeTitles) {
+      const theme = inferCategory(t.title, t.description);
+      themeCountsAcrossSources[theme] = (themeCountsAcrossSources[theme] || 0) + 1;
     }
-    topThemes = topThemes.sort((a, b) => b.count - a.count).slice(0, 5);
+
+    const APPLICATION_THEMES = [
+      'Synthetic users', 'AI summarization', 'Automated usability checks',
+      'Survey optimization', 'Session replay + AI', 'Interview analysis',
+      'Conversational AI in research', 'Sentiment & feedback analysis',
+      'AI for design', 'Research automation', 'AI in user testing',
+      'AI strategy & literacy', 'AI for product management', 'General AI in research'
+    ];
+    topThemes = Object.entries(themeCountsAcrossSources)
+      .map(([name, count]) => ({ name: name || 'General AI in research', count }))
+      .sort((a, b) => b.count - a.count)
+      .slice(0, 10);
+    if (topThemes.length < 10) {
+      const seen = new Set(topThemes.map((t) => t.name));
+      for (const themeName of APPLICATION_THEMES) {
+        if (seen.has(themeName)) continue;
+        topThemes.push({ name: themeName, count: 0 });
+        if (topThemes.length >= 10) break;
+      }
+      topThemes = topThemes.sort((a, b) => b.count - a.count).slice(0, 10);
+    }
   }
+
   const themesPayload = {
     month: currentMonthKey,
     updated: today,
     themes: topThemes,
-    note: 'Based on how often each theme appears in posts from our RSS sources this month. Social media (e.g. LinkedIn) is not included—no public API.'
+    note: 'Themes identified by analyzing articles from curated sources and Google News this month.'
   };
   fs.writeFileSync(THEMES_PATH, JSON.stringify(themesPayload, null, 2), 'utf8');
-  console.log(`Updated ${THEMES_PATH} with top ${topThemes.length} themes for ${currentMonthKey} (from ${Object.values(themeCountsAcrossSources).reduce((a, b) => a + b, 0)} source posts this month).`);
+  console.log(`Updated ${THEMES_PATH} with top ${topThemes.length} themes for ${currentMonthKey} (from ${themeTitles.length} articles analyzed).`);
 }
 
 main()

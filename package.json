@@ -8,6 +8,7 @@
     "test-update": "node scripts/update-from-feeds.js"
   },
   "dependencies": {
+    "@google/generative-ai": "^0.24.0",
     "rss-parser": "^3.13.0"
   }
 }

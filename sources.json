@@ -138,6 +138,48 @@
     "LLM",
     "modelos de linguagem"
   ],
+  "themeFeeds": [
+    {
+      "name": "Google News: AI user research",
+      "url": "https://news.google.com/rss/search?q=%22AI+user+research%22+when:30d&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "name": "Google News: AI UX research",
+      "url": "https://news.google.com/rss/search?q=%22AI+UX+research%22+when:30d&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "name": "Google News: synthetic users",
+      "url": "https://news.google.com/rss/search?q=%22synthetic+users%22+OR+%22synthetic+participants%22+research+when:30d&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "name": "Google News: AI usability testing",
+      "url": "https://news.google.com/rss/search?q=%22AI+usability+testing%22+OR+%22automated+usability%22+when:30d&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "name": "Google News: AI interview analysis",
+      "url": "https://news.google.com/rss/search?q=%22AI+interview+analysis%22+OR+%22AI+qualitative+research%22+when:30d&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "name": "Google News: LLM research tools",
+      "url": "https://news.google.com/rss/search?q=LLM+%22user+research%22+OR+%22UX+research%22+when:30d&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "name": "Google News: AI survey research",
+      "url": "https://news.google.com/rss/search?q=%22AI+survey%22+%22user+research%22+when:30d&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "name": "Google News: generative AI design",
+      "url": "https://news.google.com/rss/search?q=%22generative+AI%22+%22design+research%22+when:30d&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "name": "Google News: AI sentiment analysis",
+      "url": "https://news.google.com/rss/search?q=%22AI+sentiment+analysis%22+%22user+feedback%22+when:30d&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "name": "Google News: AI product research",
+      "url": "https://news.google.com/rss/search?q=%22AI%22+%22product+research%22+OR+%22research+automation%22+when:30d&hl=en-US&gl=US&ceid=US:en"
+    }
+  ],
   "maxUpdates": 365,
   "daysBack": 30
 }

@@ -33,6 +33,8 @@ jobs:
 
       - name: Fetch new content and update updates.json
         run: npm run update
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
       - name: Commit and push if changed
         run: |

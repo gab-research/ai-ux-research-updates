@@ -1,27 +1,27 @@
 {
   "month": "2026-02",
-  "updated": "2026-02-27",
+  "updated": "2026-02-24",
   "themes": [
     {
-      "name": "AI for design",
-      "count": 17
+      "name": "General AI in research",
+      "count": 13
     },
     {
       "name": "AI strategy & literacy",
       "count": 7
     },
     {
-      "name": "General AI in research",
+      "name": "AI for design",
+      "count": 6
+    },
+    {
+      "name": "AI for product management",
       "count": 3
     },
     {
-      "name": "Research automation",
-      "count": 2
-    },
-    {
-      "name": "Conversational AI in research",
+      "name": "AI in user testing",
       "count": 2
     }
   ],
-  "note": "Based on how often each theme appears in posts from our RSS sources this month. Social media (e.g. LinkedIn) is not included—no public API."
+  "note": "Themes identified by analyzing articles from curated sources and Google News this month."
 }
