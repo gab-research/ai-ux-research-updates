@@ -1,26 +1,46 @@
 {
   "month": "2026-02",
-  "updated": "2026-02-24",
+  "updated": "2026-02-27",
   "themes": [
     {
-      "name": "General AI in research",
-      "count": 13
-    },
-    {
-      "name": "AI strategy & literacy",
+      "name": "AI for Design Prototyping",
       "count": 7
     },
     {
-      "name": "AI for design",
-      "count": 6
-    },
-    {
-      "name": "AI for product management",
-      "count": 3
-    },
-    {
-      "name": "AI in user testing",
+      "name": "Synthetic Users / AI Participants",
       "count": 2
+    },
+    {
+      "name": "AI for Bias Mitigation",
+      "count": 1
+    },
+    {
+      "name": "AI for Sales/Customer Agents",
+      "count": 1
+    },
+    {
+      "name": "Automated UX Analysis",
+      "count": 1
+    },
+    {
+      "name": "AI Interview Analysis",
+      "count": 1
+    },
+    {
+      "name": "AI Sentiment Analysis",
+      "count": 1
+    },
+    {
+      "name": "AI in Product Search",
+      "count": 1
+    },
+    {
+      "name": "AI for Professional Workflows",
+      "count": 1
+    },
+    {
+      "name": "AI in Retail/E-commerce",
+      "count": 1
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources and Google News this month."
