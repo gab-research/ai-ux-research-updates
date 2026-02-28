@@ -3,44 +3,44 @@
   "updated": "2026-02-28",
   "themes": [
     {
-      "name": "AI Chatbot Performance Evaluation",
-      "count": 24
+      "name": "AI Chatbots / Assistants",
+      "count": 45
     },
     {
-      "name": "AI Research Tools/Platforms",
-      "count": 15
+      "name": "AI Agents / Workflows",
+      "count": 41
     },
     {
-      "name": "AI for UI/UX Prototyping",
+      "name": "AI for Design / Prototyping",
+      "count": 36
+    },
+    {
+      "name": "AI for Job Impact / Automation",
+      "count": 31
+    },
+    {
+      "name": "AI for Customer/Business Insights",
+      "count": 30
+    },
+    {
+      "name": "Synthetic Users / Media",
+      "count": 23
+    },
+    {
+      "name": "AI for Survey Analysis / Optimization",
+      "count": 23
+    },
+    {
+      "name": "AI for Research Platforms / Tools",
+      "count": 17
+    },
+    {
+      "name": "AI for Code Generation / Development",
       "count": 12
     },
     {
-      "name": "UX for Agentic AI Systems",
-      "count": 11
-    },
-    {
-      "name": "AI Deepfake Detection/Generation",
-      "count": 10
-    },
-    {
-      "name": "AI for SEO/Visibility",
+      "name": "AI Search / Optimization",
       "count": 9
-    },
-    {
-      "name": "AI Content Labeling/Detection",
-      "count": 7
-    },
-    {
-      "name": "AI for Legal Services",
-      "count": 6
-    },
-    {
-      "name": "AI for Image/Graphic Generation",
-      "count": 6
-    },
-    {
-      "name": "AI for Education/Learning",
-      "count": 5
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources and Google News this month."
