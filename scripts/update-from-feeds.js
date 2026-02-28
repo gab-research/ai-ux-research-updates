@@ -72,16 +72,24 @@ function toISODate(d) {
 const AI_TERMS = /\b(ai|artificial\s+intelligence|llm|gpt|claude|gemini|machine\s+learning|genai|generative\s+ai|agentic|synthetic\s+user|automated|automation|chatbot|copilot|neural|deep\s+learning|nlp|natural\s+language)\b/;
 const AI_TERMS_PT = /\b(ia|inteligência\s+artificial|ferramentas\s+de\s+ia|automação\s+com\s+ia|modelos\s+de\s+linguagem)\b/;
 
+const RESEARCH_TERMS = /\b(research|usability|user\s+test|user\s+experience|ux\b|survey|interview|feedback|insight|synthesis|participant|recruitment|qualitative|quantitative|persona|journey\s+map|nps|voice\s+of\s+customer|sentiment|session\s+replay|heatmap|a11y|accessibility|user\s+need|discovery|user\s+study|observation|ethnograph|diary\s+stud|card\s+sort|tree\s+test|benchmark|user\s+flow|pain\s+point|empathy|affinity|stakeholder)\b/;
+const RESEARCH_TERMS_PT = /\b(pesquisa|usabilidade|experiência\s+do\s+usuário|entrevista|feedback|participante|jornada\s+do\s+usuário)\b/;
+
 function hasAIRelevance(text) {
   const lower = (text || '').toLowerCase();
   return AI_TERMS.test(lower) || AI_TERMS_PT.test(lower);
+}
+
+function hasResearchRelevance(text) {
+  const lower = (text || '').toLowerCase();
+  return RESEARCH_TERMS.test(lower) || RESEARCH_TERMS_PT.test(lower);
 }
 
 function matchesKeywords(text, keywords) {
   if (!text) return false;
   const lower = text.toLowerCase();
   if (!keywords.some((k) => lower.includes(k.toLowerCase()))) return false;
-  return hasAIRelevance(text);
+  return hasAIRelevance(text) && hasResearchRelevance(text);
 }
 
 /**
@@ -97,17 +105,17 @@ function inferCategory(title, description) {
   // AI summarization — transcript summaries, theme extraction, affinity mapping, opportunity trees
   if (/summariz|summar.*transcript|theme\s+extraction|one-?click\s+summar|synthesis.*(ai|transcript)|affinity.*ai|thematic.*ai|insight\s+extraction|pattern\s+recognition.*(ai|research)|opportunity\s+solution\s+tree/.test(text)) return 'AI summarization';
 
-  // Automated usability checks — must be before "AI for design" and "AI in user testing" to catch "usability issue detection"
+  // Automated usability checks — must be before "AI for design & research" and "AI in user testing" to catch "usability issue detection"
   if (/automated\s+usability|usability\s+issue\s+detection|ai.*(a11y|accessibility)|heuristic.*ai|flag.*usability|ux\s+analysis.*parameter|instant\s+ux\s+analysis|scan\s+prototype/.test(text)) return 'Automated usability checks';
 
-  // AI in user testing — must be before "AI for design" to catch UXtweak/Useberry tool comparisons
+  // AI in user testing — must be before "AI for design & research" to catch UXtweak/Useberry tool comparisons
   if (/usability\s+test|user\s+test|ux\s+test|\buxtweak\b|\buseberry\b|ux\s+benchmark|unmoderated\s+test/.test(text)) return 'AI in user testing';
 
   // Interview analysis — interviews, qualitative research, known qual tools (Looppanel, Condens, Dovetail)
   if (/\binterview|qualitative\s+(research|insight|coding)|\blooppanel\b|\bcondens\b|\bdovetail\b|stakeholder.*(report|ready)|insights?\s+editor|ai[- ]moderated/.test(text)) return 'Interview analysis';
 
-  // AI for design — UXPin, prototyping with AI/Claude/GPT, AI design tools, Figma alternatives
-  if (/\buxpin\b|prototype.*(claude|gpt|ai|merge)|ai.*(design\s+tool|prototyp|wireframe)|design\s+tool.*(ai|alternative)|figma.*(ai|alternative)|ai[- ]native\s+design|ai\s+prototype|code[- ]backed\s+design|react\s+component.*(ai|design)/.test(text)) return 'AI for design';
+  // AI for design & research — design tools/prototyping with a research or testing connection
+  if (/ai.*(design.*research|research.*design|design\s+tool.*test)|prototype.*(test|research|usability)|ai[- ]native\s+design.*(research|ux|test)/.test(text)) return 'AI for design & research';
 
   // Survey optimization — survey AI, question optimization, message testing tools
   if (/survey.*(ai|optimiz|design|question)|questionnaire.*ai|ai.*survey|clearer\s+survey|reduce\s+bias.*survey|adaptive\s+(survey|follow-?up)|\bwynter\b|message\s+testing/.test(text)) return 'Survey optimization';
@@ -426,7 +434,7 @@ async function main() {
     }
     const filtered = existing.updates.filter((u) => {
       const postText = `${u.title || ''} ${u.summary || ''} ${u.content || ''}`;
-      return hasAIRelevance(postText);
+      return hasAIRelevance(postText) && hasResearchRelevance(postText);
     });
     const updated = filtered.map((u) => ({
       ...u,
@@ -493,7 +501,7 @@ async function main() {
       const url = u.source && u.source.url;
       if (!url) continue;
       const postText = `${u.title || ''} ${u.summary || ''} ${u.content || ''}`;
-      if (!hasAIRelevance(postText)) continue;
+      if (!hasAIRelevance(postText) || !hasResearchRelevance(postText)) continue;
       byUrl.set(url, {
         date: u.date,
         title: u.title,
@@ -603,7 +611,7 @@ async function main() {
       'Synthetic users', 'AI summarization', 'Automated usability checks',
       'Survey optimization', 'Session replay + AI', 'Interview analysis',
       'Conversational AI in research', 'Sentiment & feedback analysis',
-      'AI for design', 'Research automation', 'AI in user testing',
+      'AI for design & research', 'Research automation', 'AI in user testing',
       'AI strategy & literacy', 'AI for product management', 'General AI in research'
     ];
     topThemes = Object.entries(themeCountsAcrossSources)
