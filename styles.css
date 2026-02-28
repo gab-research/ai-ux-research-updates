@@ -341,7 +341,7 @@ body {
 
 .theme-item {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: var(--space-md);
   padding: var(--space-sm) var(--space-md);
   background: var(--color-surface);
@@ -371,17 +371,32 @@ body {
   font-weight: 600;
   color: var(--color-accent);
   font-variant-numeric: tabular-nums;
+  padding-top: 2px;
+}
+
+.theme-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
 }
 
 .theme-name {
-  flex: 1;
   font-weight: 500;
   color: var(--color-text);
 }
 
+.theme-desc {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  line-height: 1.3;
+}
+
 .theme-count {
+  flex-shrink: 0;
   font-size: 0.85rem;
   color: var(--color-text-muted);
+  padding-top: 2px;
 }
 
 /* --- Updates section --- */

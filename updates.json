@@ -1,14 +1,14 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-02-28T19:23:09.591Z",
+  "lastUpdated": "2026-02-28T20:40:51.623Z",
   "updates": [
     {
       "date": "2026-02-28",
       "title": "Everyone wants to hire seniors. Nobody wants to make them.",
       "summary": "We’re having the wrong conversation about AI and jobs. The question isn’t whether juniors get replaced. It’s where seniors come from when… Continue reading on UX Collective »",
       "content": "We’re having the wrong conversation about AI and jobs. The question isn’t whether juniors get replaced. It’s where seniors come from when… Continue reading on UX Collective »",
-      "category": "General AI in research",
+      "category": "Survey optimization",
       "source": {
         "name": "UX Collective (Medium)",
         "url": "https://uxdesign.cc/everyone-wants-to-hire-seniors-nobody-wants-to-make-them-b3f5671f971a?source=rss----138adf9c44c---4"
@@ -112,6 +112,18 @@
       "analysis": ""
     },
     {
+      "date": "2026-02-17",
+      "title": "Toys, Crafts & Hobbies UX Benchmark: 5,500+ Performance Scores and 4,500+ Best Practice Examples",
+      "summary": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) At Baymard, we’ve just released a new UX benchmark with 11 “Toys, Crafts & Hobbies” UX case st...",
+      "content": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) At Baymard, we’ve just released a new UX benchmark with 11 “Toys, Crafts & Hobbies” UX case studies. This follows from our large-scale user testing and adds to our existing ecommerce UX benchmark. In this article, we give you a snapshot of the overall UX performance. 11 Toys, Crafts & Hobbies UX Case Studies and the Overall Performance Get Premium access to review your own site or have it audited by Baymard researchers. These are the 11 in-depth Toys, Crafts & Hobbies UX case studies. The 11 toys, crafts, and hobby sites have been manually assessed across 500+ research-based UX parameters relevant to Toys, Crafts & Hobbies, resulting in 5,500+ weighted UX performance scores and 4,500+ best practice examples from these sites. Each of the 5,500+ UX performance scores from the 11 Toys, Crafts & Hobbies case studies is summarized in the interactive scatterplot below — showing you how they perform collectively and individually: {{ scatterplot-graph: size=big + habitat=public + base-sites=collection:toys-...",
+      "category": "AI in user testing",
+      "source": {
+        "name": "Baymard Institute",
+        "url": "https://feeds.baymard.com/link/9825/17277775/toys-crafts-and-hobbies-ux-benchmark-2026"
+      },
+      "analysis": ""
+    },
+    {
       "date": "2026-02-13",
       "title": "What UX Consulting Clients Expect in the Age of AI",
       "summary": "Clients still seek strong judgment and critical thinking, research rigor, and respect for real-world and user constraints from UX consultants.",
@@ -128,7 +140,7 @@
       "title": "Designing For Agentic AI: Practical UX Patterns For Control, Consent, And Accountability",
       "summary": "Autonomy is an output of a technical system. Trustworthiness is an output of a design process. Here are concrete design patterns, operational frameworks, and organizational practices for building agentic systems that are not only powerful but also transparent, controllable, an...",
       "content": "Autonomy is an output of a technical system. Trustworthiness is an output of a design process. Here are concrete design patterns, operational frameworks, and organizational practices for building agentic systems that are not only powerful but also transparent, controllable, and trustworthy.",
-      "category": "Research automation",
+      "category": "AI ethics in research",
       "source": {
         "name": "Smashing Magazine",
         "url": "https://smashingmagazine.com/2026/02/designing-agentic-ai-practical-ux-patterns/"
@@ -184,11 +196,23 @@
       "analysis": ""
     },
     {
+      "date": "2026-02-05",
+      "title": "2026 Progress: Instant UX Analysis of Your Site Now Across 209 UX Parameters (Still 95% Accuracy Rate)",
+      "summary": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) The pressure on UX- and product teams to deliver results faster has never been higher, but the...",
+      "content": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) The pressure on UX- and product teams to deliver results faster has never been higher, but the requirement for those results to be rooted in actual user research remains non-negotiable. At Baymard, we developed UX-Ray to allow UX designers and UX researchers to move rapidly but not recklessly, by providing an instant UX analysis that returns evidence-backed and fully traceable UX insights with a 95% accuracy rate. Over the last 4 months, we’ve achieved a 5x increase in the depth of instant UX analysis you can perform on your UX designs. UX Analysis Now Across 209 UX Parameters As of February 1st, 2026, UX-Ray can now conduct an instant UX analysis of your ecommerce site across 209 distinct UX parameters/heuristics. This is up from 39 UX parameters in October 2025. This expansion lets you move from new design frames to a comprehensive, research-backed UX audit in minutes rather than weeks. See It in Action (Video) Still with a Documented 95% Accuracy Rate Speed is irrelevant if the UX insights do not...",
+      "category": "Automated usability checks",
+      "source": {
+        "name": "Baymard Institute",
+        "url": "https://feeds.baymard.com/link/9825/17270368/ux-ray-progress-2026"
+      },
+      "analysis": ""
+    },
+    {
       "date": "2026-02-03",
       "title": "Combobox vs. Multiselect vs. Listbox: How To Choose The Right One",
       "summary": "Combobox vs. Multi-Select vs. Listbox vs. Dual Listbox? How they are different, what purpose they serve, and how to choose the right one. Brought to you by Design Patterns For AI Interfaces, **friendly video courses on UX** and design patterns by Vitaly.",
       "content": "Combobox vs. Multi-Select vs. Listbox vs. Dual Listbox? How they are different, what purpose they serve, and how to choose the right one. Brought to you by Design Patterns For AI Interfaces, **friendly video courses on UX** and design patterns by Vitaly.",
-      "category": "General AI in research",
+      "category": "Research automation",
       "source": {
         "name": "Smashing Magazine",
         "url": "https://smashingmagazine.com/2026/02/combobox-vs-multiselect-vs-listbox/"
@@ -200,7 +224,7 @@
       "title": "Groupthink When Hiring - All Things Product Podcast with Teresa Torres &amp; Petra Wille",
       "summary": "Listen to this episode on: Spotify | Apple Podcasts Is hiring broken—or just badly designed? In this episode of All Things Product, Petra Wille and Teresa Torres unpack what’s really going wrong in modern hiring processes. From AI-fueled application overload to endless intervi...",
       "content": "Listen to this episode on: Spotify | Apple Podcasts Is hiring broken—or just badly designed? In this episode of All Things Product, Petra Wille and Teresa Torres unpack what’s really going wrong in modern hiring processes. From AI-fueled application overload to endless interview loops and “casual&",
-      "category": "General AI in research",
+      "category": "AI for product management",
       "source": {
         "name": "Teresa Torres (Product Talk)",
         "url": "https://www.producttalk.org/episode-preview-all-things-product-podcast-with-teresa-torres-petra-wille-5/"
@@ -212,7 +236,7 @@
       "title": "AI-Moderated Interviews: If, When, and How to Use Them",
       "summary": "AI interviews offer faster feedback at scale, but they're not a replacement for in-depth, human-led semistructured interviews.",
       "content": "AI interviews offer faster feedback at scale, but they're not a replacement for in-depth, human-led semistructured interviews.",
-      "category": "Interview analysis",
+      "category": "AI in user testing",
       "source": {
         "name": "Nielsen Norman Group",
         "url": "https://www.nngroup.com/articles/ai-interviewers/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication"
@@ -224,10 +248,22 @@
       "title": "Demand Accuracy in Your AI Tools: Lessons from Baymard Institute",
       "summary": "Most AI-powered tools for UX lack reliability and accountability in their outputs. Demand transparency and proven accuracy, or don't buy it.",
       "content": "Most AI-powered tools for UX lack reliability and accountability in their outputs. Demand transparency and proven accuracy, or don't buy it.",
-      "category": "Research automation",
+      "category": "AI ethics in research",
       "source": {
         "name": "Nielsen Norman Group",
         "url": "https://www.nngroup.com/articles/baymard-ai-tool-accuracy/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-01-27",
+      "title": "Baymard's 2025 Year in Review and 2026 Roadmap",
+      "summary": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) For us at Baymard, 2025 was an exciting year, with thousands of hours of new UX research and b...",
+      "content": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) For us at Baymard, 2025 was an exciting year, with thousands of hours of new UX research and benchmarking conducted. Within the last year, we’ve released the 2 major research studies — Loyalty Program UX and Telco UX Deep-Dive — along with 19 industry-specific benchmarks. We’ve also launched a brand-new research pillar: Quantitative Insights. In addition to this, we released UX-Query and UX-Ray to further help ecommerce sites access and apply our UX insights based on over 200,000 hours of Baymard UX research findings. As the new year begins, we provide an overview of our releases in 2025 and outline the roadmap for 2026. 2 New UX Research Studies in 2025 In 2025 we wrapped up work on 2 new studies: an industry-specific study (telco) and a new core theme study (loyalty). 1) New “Telco” Research Study Our new Telco UX study included 3,500+ hours of research solely devoted to this industry. The research included 16 sites focused on US and UK telco providers, including both large mobile networks and MVN...",
+      "category": "General AI in research",
+      "source": {
+        "name": "Baymard Institute",
+        "url": "https://feeds.baymard.com/link/9825/17264440/year-in-review-2025-and-2026-roadmap"
       },
       "analysis": ""
     }

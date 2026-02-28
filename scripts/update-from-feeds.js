@@ -99,47 +99,68 @@ function matchesKeywords(text, keywords) {
 function inferCategory(title, description) {
   const text = `${title || ''} ${description || ''}`.toLowerCase();
 
-  // Synthetic users — synthetic participants, AI personas
-  if (/synthetic\s+users?|synthetic\s+participant|llm\s+persona|ai\s+persona|synthetic\s+user\s+panel/.test(text)) return 'Synthetic users';
+  // Synthetic users — AI participants, virtual users, simulated users, AI personas
+  if (/synthetic\s+(user|participant|respondent|persona)|virtual\s+(user|participant|respondent)|simulated\s+(user|participant)|ai\s+(participant|persona|respondent)|llm\s+persona|fake\s+user|digital\s+twin.*(user|participant|research)/.test(text)) return 'Synthetic users';
 
-  // AI summarization — transcript summaries, theme extraction, affinity mapping, opportunity trees
-  if (/summariz|summar.*transcript|theme\s+extraction|one-?click\s+summar|synthesis.*(ai|transcript)|affinity.*ai|thematic.*ai|insight\s+extraction|pattern\s+recognition.*(ai|research)|opportunity\s+solution\s+tree/.test(text)) return 'AI summarization';
+  // AI summarization — transcript summaries, theme extraction, affinity mapping, note-taking
+  if (/summariz|summar.*(transcript|note|meeting|report)|theme\s+extraction|one-?click\s+summar|synthesis.*(ai|transcript|automat)|affinity.*ai|thematic.*(ai|analysis)|insight\s+extraction|pattern\s+recognition.*(ai|research)|opportunity\s+solution\s+tree|ai.*(note|recap|minute|digest)|auto.*(summariz|transcri)/.test(text)) return 'AI summarization';
 
-  // Automated usability checks — must be before "AI for design & research" and "AI in user testing" to catch "usability issue detection"
-  if (/automated\s+usability|usability\s+issue\s+detection|ai.*(a11y|accessibility)|heuristic.*ai|flag.*usability|ux\s+analysis.*parameter|instant\s+ux\s+analysis|scan\s+prototype/.test(text)) return 'Automated usability checks';
+  // Automated usability checks — accessibility, heuristic evaluation, UX audit
+  if (/automated\s+usability|usability\s+issue|ai.*(a11y|accessibility|audit)|heuristic.*ai|flag.*usability|ux\s+analysis|instant\s+ux|scan\s+prototype|ai.*(evaluate|check|review).*(usability|ux|interface)|ux\s+audit/.test(text)) return 'Automated usability checks';
 
-  // AI in user testing — must be before "AI for design & research" to catch UXtweak/Useberry tool comparisons
-  if (/usability\s+test|user\s+test|ux\s+test|\buxtweak\b|\buseberry\b|ux\s+benchmark|unmoderated\s+test/.test(text)) return 'AI in user testing';
+  // AI in user testing — usability testing, unmoderated testing, tool comparisons
+  if (/usability\s+test|user\s+test|ux\s+test|\buxtweak\b|\buseberry\b|\bmaze\b.*test|ux\s+benchmark|unmoderated\s+test|remote\s+test.*ai|ai.*(test.*user|user.*test)|moderated.*ai/.test(text)) return 'AI in user testing';
 
-  // Interview analysis — interviews, qualitative research, known qual tools (Looppanel, Condens, Dovetail)
-  if (/\binterview|qualitative\s+(research|insight|coding)|\blooppanel\b|\bcondens\b|\bdovetail\b|stakeholder.*(report|ready)|insights?\s+editor|ai[- ]moderated/.test(text)) return 'Interview analysis';
+  // Interview analysis — interviews, qualitative research, transcript coding, qual tools
+  if (/\binterview.*(ai|analysis|tool|automat|transcri)|qualitative\s+(research|insight|coding|analysis)|ai.*(interview|qualitative)|\blooppanel\b|\bcondens\b|\bdovetail\b|stakeholder.*(report|ready)|insights?\s+editor|ai[- ]moderated|transcript.*(analysis|cod)/.test(text)) return 'Interview analysis';
 
-  // AI for design & research — design tools/prototyping with a research or testing connection
+  // AI for design & research — design tools with a research or testing connection
   if (/ai.*(design.*research|research.*design|design\s+tool.*test)|prototype.*(test|research|usability)|ai[- ]native\s+design.*(research|ux|test)/.test(text)) return 'AI for design & research';
 
-  // Survey optimization — survey AI, question optimization, message testing tools
-  if (/survey.*(ai|optimiz|design|question)|questionnaire.*ai|ai.*survey|clearer\s+survey|reduce\s+bias.*survey|adaptive\s+(survey|follow-?up)|\bwynter\b|message\s+testing/.test(text)) return 'Survey optimization';
+  // Survey optimization — AI surveys, question optimization, form design, response analysis
+  if (/survey.*(ai|optimiz|design|question|tool|automat|generat)|questionnaire.*ai|ai.*(survey|poll|form)|clearer\s+survey|reduce\s+bias.*survey|adaptive\s+(survey|follow-?up)|\bwynter\b|message\s+testing|ai.*(question|response\s+analysis)/.test(text)) return 'Survey optimization';
 
-  // Session replay + AI
-  if (/session\s+replay|behavioral\s+pattern.*ai|drop-?off.*detection|rage\s+click|heatmap.*ai/.test(text)) return 'Session replay + AI';
+  // Session replay + AI — behavioral analytics, heatmaps, click tracking
+  if (/session\s+replay|behavioral\s+(pattern|analytics?).*ai|drop-?off.*detection|rage\s+click|heatmap.*ai|ai.*(replay|heatmap|click\s+track|behavior)|user\s+behavior.*ai/.test(text)) return 'Session replay + AI';
 
-  // Conversational AI in research — chatbots, AI sales reps, voice+AI workflows
-  if (/chatbot|conversational\s+ai|virtual\s+assistant|chat\s+bot|ai\s+sales\s+rep|voice.*ai.*workflow/.test(text)) return 'Conversational AI in research';
+  // Conversational AI in research — chatbots, virtual assistants, voice AI
+  if (/chatbot|conversational\s+ai|virtual\s+assistant|chat\s+bot|ai\s+sales\s+rep|voice.*ai|ai.*(chat|convers|dialog)|natural\s+language.*(process|understand)|nlu|nlp.*(research|ux|user)/.test(text)) return 'Conversational AI in research';
 
-  // Sentiment & feedback analysis
-  if (/sentiment.*(ai|automat|ml)|nps.*(ai|automat)|feedback\s+analysis|voice\s+of\s+customer|ai.*(sentiment|nps|feedback\s+analysis)/.test(text)) return 'Sentiment & feedback analysis';
+  // Sentiment & feedback analysis — NPS, VOC, opinion mining, review analysis
+  if (/sentiment|nps.*(ai|automat)|feedback\s+(analysis|loop|tool)|voice\s+of\s+(customer|user)|ai.*(sentiment|nps|feedback|opinion|review\s+analysis)|opinion\s+mining|text\s+analysis.*ai|customer\s+feedback.*ai/.test(text)) return 'Sentiment & feedback analysis';
 
-  // AI strategy & literacy — AI skills, responsible AI, AI impact on work, AI tools guidance
-  if (/ai\s+(skill|literacy|native|era|superpower|coding\s+tool)|responsible.*(ai|developer)|ai\s+writes|poisoning.*ai|context\s+rot.*ai|ai.*gets?\s+worse|valuable\s+skill.*ai|age\s+of\s+ai|ai.*consult/.test(text)) return 'AI strategy & literacy';
+  // AI ethics in research — bias, fairness, responsible AI, trust, privacy in research
+  if (/ai.*(ethic|bias|fairness|trust|transparen|accountab|responsible|privacy|consent|harm)|bias.*(ai|algorithm|model)|ethical\s+ai|responsible\s+ai|ai\s+governance|algorithmic.*(bias|fairness|justice)/.test(text)) return 'AI ethics in research';
 
-  // AI for product management — AI in product decisions, opportunity trees with AI, product leadership + AI
-  if (/product\s+talk.*ai|ai.*product\s+(management|decision|leader)|claude\s+code|ai\s+product/.test(text)) return 'AI for product management';
+  // AI-powered data analysis — data analysis, clustering, pattern detection, analytics
+  if (/ai.*(data\s+analysis|analytics|cluster|segment|pattern\s+detect|visualization|dashboard)|data.*(ai|machine\s+learn|automat.*analy)|machine\s+learning.*(analysis|data|cluster|predict)|automat.*(analysis|analytics|classify|cluster)/.test(text)) return 'AI-powered data analysis';
 
-  // Research automation — AI across research, AI tools for UX, agentic AI
-  if (/ai.*research\s+process|research.*automat|ai\s+tools?.*(research|ux|lesson)|ai\s+across.*research|research\s+recommend|ai.*user\s+research|agentic\s+ai/.test(text)) return 'Research automation';
+  // AI content generation — AI writing, report generation, UX copy, content creation
+  if (/ai.*(writ|content\s+(creat|generat)|copywriting|report\s+generat|ux\s+copy|microcopy)|generat.*(content|report|copy|text|article)|llm.*(writ|generat|content)|gpt.*(writ|generat|content)/.test(text)) return 'AI content generation';
 
-  // AI-assisted recruitment
-  if (/recruit.*ai|ai.*recruit|screener.*ai|participant\s+recruitment/.test(text)) return 'AI-assisted recruitment';
+  // Predictive UX — personalization, recommendations, predictive analytics
+  if (/predict.*(ux|user|experience|behavior|analytics|model)|ai.*(personali|recommend|predict)|personali.*(ai|machine|algorithm)|recommendation\s+(engine|system)|next\s+best\s+action|propensity|churn.*predict/.test(text)) return 'Predictive UX';
+
+  // AI strategy & literacy — AI skills, AI impact on work, AI adoption, future of work
+  if (/ai\s+(skill|literacy|native|era|superpower|coding\s+tool|adopt|matur|readiness|transform)|responsible.*(ai|developer)|ai\s+writes|poisoning.*ai|context\s+rot.*ai|ai.*gets?\s+worse|valuable\s+skill.*ai|age\s+of\s+ai|ai.*(consult|strateg|roadmap|implement|workforce)|future.*(ai|work.*ai)|ai.*(impact|revolution|disrupt)/.test(text)) return 'AI strategy & literacy';
+
+  // AI for product management — AI in product decisions, product leadership + AI
+  if (/product.*(ai|machine\s+learn)|ai.*(product\s+(management|decision|leader|discover|backlog|priorit))|claude\s+code|ai\s+product|product\s+manager.*ai/.test(text)) return 'AI for product management';
+
+  // Research automation — AI agents, research workflows, research tools, research ops
+  if (/ai.*(research\s+process|research\s+workflow|research\s+ops)|research.*(automat|tool.*ai|workflow.*ai)|ai\s+tools?.*(research|ux|lesson)|ai\s+across.*research|research\s+recommend|ai.*user\s+research|agentic\s+(ai|research)|ai\s+agent.*(research|ux)|research\s+assistant.*ai/.test(text)) return 'Research automation';
+
+  // AI-assisted recruitment — participant recruitment, screener optimization
+  if (/recruit.*(ai|automat)|ai.*(recruit|screener)|screener.*ai|participant\s+recruit|panel\s+management.*ai/.test(text)) return 'AI-assisted recruitment';
+
+  // Second pass: broader patterns to reduce the catch-all bucket
+  if (/\b(gpt|claude|gemini|llama|copilot|openai|anthropic|google\s+ai|chatgpt|bard|mistral)\b/.test(text)) return 'AI strategy & literacy';
+  if (/ai.*(transform|chang|reshap|revolutioniz|disrupt|impact|future|trend|state\s+of)/.test(text)) return 'AI strategy & literacy';
+  if (/\b(automat|ai|machine\s+learn)\b.*(research|ux|insight|finding|discover)/.test(text)) return 'Research automation';
+  if (/\b(ai|ml|llm)\b.*(tool|platform|software|workflow|pipeline)/.test(text)) return 'Research automation';
+  if (/ai.*(analys|analyz|data|metric|measure|evaluat|assess)/.test(text)) return 'AI-powered data analysis';
+  if (/ai.*(generat|creat|writ|draft|produc).*(content|text|report|copy)/.test(text)) return 'AI content generation';
+  if (/\b(llm|large\s+language|generat\w+\s+ai|gen\s*ai)\b/.test(text)) return 'AI strategy & literacy';
 
   return 'General AI in research';
 }
@@ -390,6 +411,7 @@ Analyze these articles and identify the 10 most prominent themes about **AI appl
 
 Rules:
 - Each theme name should be short (2-5 words), describing a specific AI application
+- Each theme must include a brief description (1 sentence) explaining what kind of content it covers
 - Count how many articles relate to each theme (one article can match at most one theme)
 - Do NOT use generic names like "General AI" or "Other" — every theme must be a specific application
 - Sort by count descending
@@ -397,31 +419,41 @@ Rules:
 
 Return this exact JSON format:
 [
-  { "name": "Theme name", "count": 3 },
-  { "name": "Theme name", "count": 2 }
+  { "name": "Theme name", "count": 3, "description": "Brief explanation of what this theme covers." },
+  { "name": "Theme name", "count": 2, "description": "Brief explanation of what this theme covers." }
 ]`;
 
-  try {
-    const result = await model.generateContent(prompt);
-    const text = result.response.text().trim();
-    const jsonMatch = text.match(/\[[\s\S]*\]/);
-    if (!jsonMatch) throw new Error('No JSON array in response');
+  for (let attempt = 0; attempt < 3; attempt++) {
+    try {
+      const result = await model.generateContent(prompt);
+      const text = result.response.text().trim();
+      const jsonMatch = text.match(/\[[\s\S]*\]/);
+      if (!jsonMatch) throw new Error('No JSON array in response');
 
-    const themes = JSON.parse(jsonMatch[0]);
-    if (!Array.isArray(themes) || themes.length === 0) throw new Error('Empty themes array');
+      const themes = JSON.parse(jsonMatch[0]);
+      if (!Array.isArray(themes) || themes.length === 0) throw new Error('Empty themes array');
 
-    const validated = themes
-      .filter((t) => t.name && typeof t.count === 'number')
-      .slice(0, 10);
+      const validated = themes
+        .filter((t) => t.name && typeof t.count === 'number')
+        .slice(0, 10);
 
-    if (validated.length === 0) throw new Error('No valid themes after validation');
+      if (validated.length === 0) throw new Error('No valid themes after validation');
 
-    console.log(`Gemini identified ${validated.length} themes from ${titles.length} articles.`);
-    return validated;
-  } catch (e) {
-    console.warn(`Gemini API theme analysis failed: ${e.message} — falling back to regex.`);
-    return null;
+      console.log(`Gemini identified ${validated.length} themes from ${titles.length} articles.`);
+      return validated;
+    } catch (e) {
+      const is429 = /429|too many|quota/i.test(e.message);
+      if (is429 && attempt < 2) {
+        const wait = (attempt + 1) * 30000;
+        console.warn(`  Theme analysis rate-limited, waiting ${wait / 1000}s before retry (attempt ${attempt + 1}/3)…`);
+        await sleep(wait);
+        continue;
+      }
+      console.warn(`Gemini API theme analysis failed: ${e.message} — falling back to regex.`);
+      return null;
+    }
   }
+  return null;
 }
 
 /**
@@ -631,6 +663,71 @@ async function main() {
     category: inferCategory(u.title, u.summary || u.content || '')
   }));
 
+  // --- Theme analysis (runs BEFORE enrichment to get API quota priority) ---
+  const themeTitles = collectThemeTitles(feedResults, themeResults, currentMonthKey);
+  console.log(`Collected ${themeTitles.length} AI-relevant article titles for theme analysis (${currentMonthKey}).`);
+
+  let topThemes = await analyzeThemesWithGemini(themeTitles, currentMonthKey);
+
+  if (!topThemes) {
+    console.log('Using regex fallback for theme analysis.');
+    const themeCountsAcrossSources = {};
+    for (const t of themeTitles) {
+      const theme = inferCategory(t.title, t.description);
+      themeCountsAcrossSources[theme] = (themeCountsAcrossSources[theme] || 0) + 1;
+    }
+
+    const THEME_DESCRIPTIONS = {
+      'Synthetic users': 'AI-generated participants and virtual personas for early-stage concept testing.',
+      'AI summarization': 'Automated transcript summaries, theme extraction, and affinity mapping.',
+      'Automated usability checks': 'AI-powered accessibility audits, heuristic evaluations, and UX analysis.',
+      'Survey optimization': 'AI tools for designing better surveys, reducing bias, and analyzing responses.',
+      'Session replay + AI': 'AI-enhanced session replays, heatmaps, and behavioral pattern detection.',
+      'Interview analysis': 'AI-assisted interview transcription, coding, and qualitative analysis.',
+      'Conversational AI in research': 'Chatbots, virtual assistants, and voice AI in research contexts.',
+      'Sentiment & feedback analysis': 'AI for NPS analysis, opinion mining, and customer feedback processing.',
+      'AI for design & research': 'Design tools and prototyping with a research or usability testing connection.',
+      'Research automation': 'AI agents and tools automating research workflows and operations.',
+      'AI in user testing': 'AI-powered usability testing, remote testing tools, and benchmark comparisons.',
+      'AI strategy & literacy': 'AI adoption, skills, impact on work, and organizational readiness.',
+      'AI for product management': 'AI in product decisions, discovery, prioritization, and roadmapping.',
+      'AI ethics in research': 'Bias, fairness, responsible AI, privacy, and trust in research.',
+      'AI-powered data analysis': 'Automated data analysis, clustering, segmentation, and pattern detection.',
+      'AI content generation': 'AI writing, report generation, UX copy, and content creation.',
+      'Predictive UX': 'Personalization, recommendation engines, and predictive user analytics.',
+      'AI-assisted recruitment': 'AI for participant recruitment, screener optimization, and panel management.',
+      'General AI in research': 'Other AI applications in research not covered by specific themes.'
+    };
+
+    const APPLICATION_THEMES = Object.keys(THEME_DESCRIPTIONS);
+    topThemes = Object.entries(themeCountsAcrossSources)
+      .map(([name, count]) => ({
+        name: name || 'General AI in research',
+        count,
+        description: THEME_DESCRIPTIONS[name] || ''
+      }))
+      .sort((a, b) => b.count - a.count)
+      .slice(0, 10);
+    if (topThemes.length < 10) {
+      const seen = new Set(topThemes.map((t) => t.name));
+      for (const themeName of APPLICATION_THEMES) {
+        if (seen.has(themeName)) continue;
+        topThemes.push({ name: themeName, count: 0, description: THEME_DESCRIPTIONS[themeName] || '' });
+        if (topThemes.length >= 10) break;
+      }
+      topThemes = topThemes.sort((a, b) => b.count - a.count).slice(0, 10);
+    }
+  }
+
+  const themesPayload = {
+    month: currentMonthKey,
+    updated: today,
+    themes: topThemes,
+    note: 'Themes identified by analyzing articles from curated sources and Google News this month.'
+  };
+  fs.writeFileSync(THEMES_PATH, JSON.stringify(themesPayload, null, 2), 'utf8');
+  console.log(`Updated ${THEMES_PATH} with top ${topThemes.length} themes for ${currentMonthKey} (from ${themeTitles.length} articles analyzed).`);
+
   // --- Enrich posts with Gemini (content summary + Nubank analysis) ---
   const geminiKey = process.env.GEMINI_API_KEY;
   if (geminiKey) {
@@ -683,54 +780,6 @@ async function main() {
 
   fs.writeFileSync(UPDATES_PATH, JSON.stringify(output, null, 2), 'utf8');
   console.log(`Updated ${UPDATES_PATH} with ${finalUpdates.length} items.`);
-
-  // --- Theme analysis ---
-  // Collect titles from curated feeds + Google News feeds (capped per source).
-  const themeTitles = collectThemeTitles(feedResults, themeResults, currentMonthKey);
-  console.log(`Collected ${themeTitles.length} AI-relevant article titles for theme analysis (${currentMonthKey}).`);
-
-  // Try Gemini API first; fall back to regex if unavailable.
-  let topThemes = await analyzeThemesWithGemini(themeTitles, currentMonthKey);
-
-  if (!topThemes) {
-    // Regex fallback: count themes using inferCategory with per-source cap.
-    console.log('Using regex fallback for theme analysis.');
-    const themeCountsAcrossSources = {};
-    for (const t of themeTitles) {
-      const theme = inferCategory(t.title, t.description);
-      themeCountsAcrossSources[theme] = (themeCountsAcrossSources[theme] || 0) + 1;
-    }
-
-    const APPLICATION_THEMES = [
-      'Synthetic users', 'AI summarization', 'Automated usability checks',
-      'Survey optimization', 'Session replay + AI', 'Interview analysis',
-      'Conversational AI in research', 'Sentiment & feedback analysis',
-      'AI for design & research', 'Research automation', 'AI in user testing',
-      'AI strategy & literacy', 'AI for product management', 'General AI in research'
-    ];
-    topThemes = Object.entries(themeCountsAcrossSources)
-      .map(([name, count]) => ({ name: name || 'General AI in research', count }))
-      .sort((a, b) => b.count - a.count)
-      .slice(0, 10);
-    if (topThemes.length < 10) {
-      const seen = new Set(topThemes.map((t) => t.name));
-      for (const themeName of APPLICATION_THEMES) {
-        if (seen.has(themeName)) continue;
-        topThemes.push({ name: themeName, count: 0 });
-        if (topThemes.length >= 10) break;
-      }
-      topThemes = topThemes.sort((a, b) => b.count - a.count).slice(0, 10);
-    }
-  }
-
-  const themesPayload = {
-    month: currentMonthKey,
-    updated: today,
-    themes: topThemes,
-    note: 'Themes identified by analyzing articles from curated sources and Google News this month.'
-  };
-  fs.writeFileSync(THEMES_PATH, JSON.stringify(themesPayload, null, 2), 'utf8');
-  console.log(`Updated ${THEMES_PATH} with top ${topThemes.length} themes for ${currentMonthKey} (from ${themeTitles.length} articles analyzed).`);
 }
 
 main()
