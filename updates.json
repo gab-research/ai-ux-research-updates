@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-02-28T20:40:51.623Z",
+  "lastUpdated": "2026-02-28T20:51:17.823Z",
   "updates": [
     {
       "date": "2026-02-28",
@@ -221,7 +221,7 @@
     },
     {
       "date": "2026-02-03",
-      "title": "Groupthink When Hiring - All Things Product Podcast with Teresa Torres &amp; Petra Wille",
+      "title": "Groupthink When Hiring - All Things Product Podcast with Teresa Torres & Petra Wille",
       "summary": "Listen to this episode on: Spotify | Apple Podcasts Is hiring broken—or just badly designed? In this episode of All Things Product, Petra Wille and Teresa Torres unpack what’s really going wrong in modern hiring processes. From AI-fueled application overload to endless intervi...",
       "content": "Listen to this episode on: Spotify | Apple Podcasts Is hiring broken—or just badly designed? In this episode of All Things Product, Petra Wille and Teresa Torres unpack what’s really going wrong in modern hiring processes. From AI-fueled application overload to endless interview loops and “casual&",
       "category": "AI for product management",
@@ -252,18 +252,6 @@
       "source": {
         "name": "Nielsen Norman Group",
         "url": "https://www.nngroup.com/articles/baymard-ai-tool-accuracy/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication"
-      },
-      "analysis": ""
-    },
-    {
-      "date": "2026-01-27",
-      "title": "Baymard's 2025 Year in Review and 2026 Roadmap",
-      "summary": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) For us at Baymard, 2025 was an exciting year, with thousands of hours of new UX research and b...",
-      "content": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) For us at Baymard, 2025 was an exciting year, with thousands of hours of new UX research and benchmarking conducted. Within the last year, we’ve released the 2 major research studies — Loyalty Program UX and Telco UX Deep-Dive — along with 19 industry-specific benchmarks. We’ve also launched a brand-new research pillar: Quantitative Insights. In addition to this, we released UX-Query and UX-Ray to further help ecommerce sites access and apply our UX insights based on over 200,000 hours of Baymard UX research findings. As the new year begins, we provide an overview of our releases in 2025 and outline the roadmap for 2026. 2 New UX Research Studies in 2025 In 2025 we wrapped up work on 2 new studies: an industry-specific study (telco) and a new core theme study (loyalty). 1) New “Telco” Research Study Our new Telco UX study included 3,500+ hours of research solely devoted to this industry. The research included 16 sites focused on US and UK telco providers, including both large mobile networks and MVN...",
-      "category": "General AI in research",
-      "source": {
-        "name": "Baymard Institute",
-        "url": "https://feeds.baymard.com/link/9825/17264440/year-in-review-2025-and-2026-roadmap"
       },
       "analysis": ""
     }

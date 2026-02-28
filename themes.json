@@ -1,40 +1,40 @@
 {
   "month": "2026-02",
-  "updated": "2026-02-24",
+  "updated": "2026-02-28",
   "themes": [
     {
       "name": "General AI in research",
-      "count": 161,
+      "count": 175,
       "description": "Other AI applications in research not covered by specific themes."
     },
     {
       "name": "AI strategy & literacy",
-      "count": 95,
+      "count": 106,
       "description": "AI adoption, skills, impact on work, and organizational readiness."
     },
     {
       "name": "Research automation",
-      "count": 76,
+      "count": 81,
       "description": "AI agents and tools automating research workflows and operations."
     },
     {
       "name": "Survey optimization",
-      "count": 67,
+      "count": 75,
       "description": "AI tools for designing better surveys, reducing bias, and analyzing responses."
     },
     {
       "name": "Conversational AI in research",
-      "count": 28,
+      "count": 30,
       "description": "Chatbots, virtual assistants, and voice AI in research contexts."
     },
     {
       "name": "AI-powered data analysis",
-      "count": 26,
+      "count": 25,
       "description": "Automated data analysis, clustering, segmentation, and pattern detection."
     },
     {
       "name": "AI for product management",
-      "count": 20,
+      "count": 21,
       "description": "AI in product decisions, discovery, prioritization, and roadmapping."
     },
     {
