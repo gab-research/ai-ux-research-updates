@@ -361,7 +361,7 @@ async function analyzeThemesWithGemini(titles, currentMonthKey) {
   }
 
   const genAI = new GoogleGenerativeAI(apiKey);
-  const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash' });
+  const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
 
   const titleList = titles
     .map((t, i) => `${i + 1}. "${t.title}" (${t.source})`)
@@ -635,7 +635,8 @@ async function main() {
   const geminiKey = process.env.GEMINI_API_KEY;
   if (geminiKey) {
     const genAI = new GoogleGenerativeAI(geminiKey);
-    const enrichModel = genAI.getGenerativeModel({ model: 'gemini-2.0-flash' });
+    const enrichModel = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
+    const MAX_ENRICH_PER_RUN = 5;
 
     const toEnrich = finalUpdates.filter((u) => {
       const needsContent = !u.content || u.content === u.summary;
@@ -643,10 +644,11 @@ async function main() {
       return needsContent || needsAnalysis;
     });
 
-    if (toEnrich.length > 0) {
-      console.log(`Enriching ${toEnrich.length} posts with Gemini (content + Nubank analysis)…`);
+    const batch = toEnrich.slice(0, MAX_ENRICH_PER_RUN);
+    if (batch.length > 0) {
+      console.log(`Enriching ${batch.length} of ${toEnrich.length} posts with Gemini (content + Nubank analysis)…`);
       let enriched = 0;
-      for (const post of toEnrich) {
+      for (const post of batch) {
         const result = await enrichPostWithGemini(enrichModel, post);
         if (result) {
           if (result.content) post.content = result.content;
@@ -659,7 +661,7 @@ async function main() {
         }
         await sleep(5000);
       }
-      console.log(`Enriched ${enriched}/${toEnrich.length} posts.`);
+      console.log(`Enriched ${enriched}/${batch.length} posts.${toEnrich.length > MAX_ENRICH_PER_RUN ? ` ${toEnrich.length - MAX_ENRICH_PER_RUN} remaining for next run.` : ''}`);
     }
   } else {
     console.log('No GEMINI_API_KEY set — skipping post enrichment.');
