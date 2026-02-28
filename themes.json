@@ -3,44 +3,44 @@
   "updated": "2026-02-28",
   "themes": [
     {
-      "name": "AI for Workflow Automation",
-      "count": 95
+      "name": "AI Research Analysis & Insights",
+      "count": 50
     },
     {
-      "name": "AI Chatbot/Agent UX",
+      "name": "AI Agents & Automation",
       "count": 43
     },
     {
       "name": "AI for Design & Prototyping",
-      "count": 43
+      "count": 42
     },
     {
-      "name": "AI for Data Insights",
+      "name": "AI Chatbots/LLMs Research",
+      "count": 41
+    },
+    {
+      "name": "AI Research Platforms & Tools",
       "count": 34
     },
     {
-      "name": "AI for Research Automation",
-      "count": 33
+      "name": "AI & User Experience Impact",
+      "count": 25
     },
     {
-      "name": "Synthetic Users & Data Generation",
-      "count": 23
+      "name": "Synthetic Users & Data",
+      "count": 19
     },
     {
       "name": "AI for Testing & QA",
-      "count": 12
-    },
-    {
-      "name": "AI for SEO & Marketing",
       "count": 11
     },
     {
-      "name": "AI System Ethics & Governance",
+      "name": "AI for Recruitment & Trials",
       "count": 10
     },
     {
-      "name": "AI for Summarization & Content Creation",
-      "count": 6
+      "name": "AI for Product Strategy",
+      "count": 7
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources and Google News this month."
