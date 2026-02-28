@@ -427,8 +427,9 @@ Return this exact JSON format:
 /**
  * Use Gemini to generate a richer content summary and a "How to use at Nubank"
  * analysis for a single post. Returns { content, analysis } or null on failure.
+ * Retries up to 2 times on 429 rate-limit errors with exponential backoff.
  */
-async function enrichPostWithGemini(model, post) {
+async function enrichPostWithGemini(model, post, attempt = 0) {
   const prompt = `You are a senior UX researcher at Nubank, a large digital bank in Brazil. You help the research team stay current on AI applications in UX research.
 
 Article title: "${post.title}"
@@ -450,7 +451,11 @@ Return ONLY valid JSON with no other text:
     const jsonMatch = text.match(/\{[\s\S]*\}/);
     if (!jsonMatch) return null;
 
-    const parsed = JSON.parse(jsonMatch[0]);
+    // Remove control characters that break JSON.parse
+    const sanitized = jsonMatch[0].replace(/[\x00-\x1f\x7f]/g, (ch) =>
+      ch === '\n' || ch === '\r' || ch === '\t' ? ch : ' '
+    );
+    const parsed = JSON.parse(sanitized);
     if (!parsed.content || !parsed.analysis) return null;
 
     return {
@@ -458,6 +463,13 @@ Return ONLY valid JSON with no other text:
       analysis: parsed.analysis.trim()
     };
   } catch (e) {
+    const is429 = /429|too many|quota/i.test(e.message);
+    if (is429 && attempt < 2) {
+      const wait = (attempt + 1) * 30000;
+      console.warn(`  Rate-limited, waiting ${wait / 1000}s before retry…`);
+      await sleep(wait);
+      return enrichPostWithGemini(model, post, attempt + 1);
+    }
     console.warn(`  Gemini enrichment failed for "${post.title.slice(0, 50)}…": ${e.message}`);
     return null;
   }
@@ -645,7 +657,7 @@ async function main() {
           }
           enriched++;
         }
-        await sleep(1500);
+        await sleep(13000);
       }
       console.log(`Enriched ${enriched}/${toEnrich.length} posts.`);
     }
