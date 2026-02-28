@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-02-28T13:49:34.653Z",
+  "lastUpdated": "2026-02-28T14:48:58.272Z",
   "updates": [
     {
       "date": "2026-02-28",
@@ -12,6 +12,18 @@
       "source": {
         "name": "UXPin Blog",
         "url": "https://www.uxpin.com/studio/blog/prototype-claude-haiku-4-5-custom-design-systems-uxpin-merge/"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-02-28",
+      "title": "Everyone wants to hire seniors. Nobody wants to make them.",
+      "summary": "We’re having the wrong conversation about AI and jobs. The question isn’t whether juniors get replaced. It’s where seniors come from when… Continue reading on UX Collective »",
+      "content": "We’re having the wrong conversation about AI and jobs. The question isn’t whether juniors get replaced. It’s where seniors come from when… Continue reading on UX Collective »",
+      "category": "General AI in research",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/everyone-wants-to-hire-seniors-nobody-wants-to-make-them-b3f5671f971a?source=rss----138adf9c44c---4"
       },
       "analysis": ""
     },
@@ -317,7 +329,7 @@
     },
     {
       "date": "2026-02-17",
-      "title": "Support System for Product Leaders - All Things Product Podcast with Teresa Torres &amp; Petra Wille",
+      "title": "Support System for Product Leaders - All Things Product Podcast with Teresa Torres & Petra Wille",
       "summary": "Listen to this episode on: Spotify | Apple Podcasts Product leaders are overwhelmed — and it’s not just you. Between shrinking headcount, constant AI disruption, economic uncertainty, and nonstop context switching, many product leaders are trying to do more with less while sti...",
       "content": "Listen to this episode on: Spotify | Apple Podcasts Product leaders are overwhelmed — and it’s not just you. Between shrinking headcount, constant AI disruption, economic uncertainty, and nonstop context switching, many product leaders are trying to do more with less while still protecting their teams. In this episode",
       "category": "AI for product management",
@@ -509,7 +521,7 @@
     },
     {
       "date": "2026-02-10",
-      "title": "Claude Code - All Things Product Podcast with Teresa Torres &amp; Petra Wille",
+      "title": "Claude Code - All Things Product Podcast with Teresa Torres & Petra Wille",
       "summary": "Listen to this episode on: Spotify | Apple Podcasts Petra finally carved out time to try Claude Code—and immediately ran into the “this tool thinks everything is a code repo” reality. In this episode, Petra and Teresa unpack what it’s like to move from Claude-in-the-browser",
       "content": "Listen to this episode on: Spotify | Apple Podcasts Petra finally carved out time to try Claude Code—and immediately ran into the “this tool thinks everything is a code repo” reality. In this episode, Petra and Teresa unpack what it’s like to move from Claude-in-the-browser",
       "category": "AI for product management",
@@ -605,7 +617,7 @@
     },
     {
       "date": "2026-02-03",
-      "title": "Groupthink When Hiring - All Things Product Podcast with Teresa Torres &amp; Petra Wille",
+      "title": "Groupthink When Hiring - All Things Product Podcast with Teresa Torres & Petra Wille",
       "summary": "Listen to this episode on: Spotify | Apple Podcasts Is hiring broken—or just badly designed? In this episode of All Things Product, Petra Wille and Teresa Torres unpack what’s really going wrong in modern hiring processes. From AI-fueled application overload to endless intervi...",
       "content": "Listen to this episode on: Spotify | Apple Podcasts Is hiring broken—or just badly designed? In this episode of All Things Product, Petra Wille and Teresa Torres unpack what’s really going wrong in modern hiring processes. From AI-fueled application overload to endless interview loops and “casual&",
       "category": "General AI in research",

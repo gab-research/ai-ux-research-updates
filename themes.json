@@ -3,44 +3,44 @@
   "updated": "2026-02-28",
   "themes": [
     {
-      "name": "AI Design & Prototyping",
+      "name": "AI in Product Development/Strategy",
+      "count": 57
+    },
+    {
+      "name": "AI Chatbots/Agents",
+      "count": 43
+    },
+    {
+      "name": "AI-Powered Insights/Analysis",
+      "count": 28
+    },
+    {
+      "name": "AI for Design/Prototyping",
+      "count": 28
+    },
+    {
+      "name": "AI Ethics/Safety/Bias",
       "count": 27
     },
     {
-      "name": "AI for Customer Insights & Analytics",
-      "count": 19
+      "name": "AI for Research Automation",
+      "count": 25
     },
     {
-      "name": "AI Research Platforms & Tools",
-      "count": 17
+      "name": "LLM Technology & Trends",
+      "count": 22
     },
     {
-      "name": "AI Agents & Automation",
-      "count": 16
+      "name": "AI in Specific Industries",
+      "count": 21
     },
     {
-      "name": "AI in Medical & Biotech",
-      "count": 11
+      "name": "AI Usability/Testing Automation",
+      "count": 12
     },
     {
-      "name": "AI Summarization & Transcription",
-      "count": 9
-    },
-    {
-      "name": "AI for SEO & Visibility",
-      "count": 8
-    },
-    {
-      "name": "AI Automated Testing",
-      "count": 6
-    },
-    {
-      "name": "Synthetic Users & Data",
-      "count": 6
-    },
-    {
-      "name": "AI Code Generation",
-      "count": 5
+      "name": "AI Search/SEO",
+      "count": 10
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources and Google News this month."
