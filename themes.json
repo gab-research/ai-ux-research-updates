@@ -3,44 +3,44 @@
   "updated": "2026-02-28",
   "themes": [
     {
-      "name": "AI Research Analysis & Insights",
-      "count": 50
-    },
-    {
-      "name": "AI Agents & Automation",
-      "count": 43
-    },
-    {
       "name": "AI for Design & Prototyping",
-      "count": 42
+      "count": 39
     },
     {
-      "name": "AI Chatbots/LLMs Research",
-      "count": 41
+      "name": "AI Customer/User Insights",
+      "count": 28
     },
     {
-      "name": "AI Research Platforms & Tools",
-      "count": 34
+      "name": "AI Research Platforms",
+      "count": 23
     },
     {
-      "name": "AI & User Experience Impact",
-      "count": 25
+      "name": "AI Research Summarization",
+      "count": 17
+    },
+    {
+      "name": "AI Agent Automation",
+      "count": 15
     },
     {
       "name": "Synthetic Users & Data",
-      "count": 19
-    },
-    {
-      "name": "AI for Testing & QA",
-      "count": 11
-    },
-    {
-      "name": "AI for Recruitment & Trials",
-      "count": 10
-    },
-    {
-      "name": "AI for Product Strategy",
       "count": 7
+    },
+    {
+      "name": "Automated UX Testing",
+      "count": 7
+    },
+    {
+      "name": "AI for Product Decisions",
+      "count": 6
+    },
+    {
+      "name": "AI-Powered Qualitative Analysis",
+      "count": 5
+    },
+    {
+      "name": "AI Survey Analysis/Optimization",
+      "count": 1
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources and Google News this month."
