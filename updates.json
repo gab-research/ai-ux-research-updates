@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-02-28T10:50:57.575Z",
+  "lastUpdated": "2026-02-28T13:49:34.653Z",
   "updates": [
+    {
+      "date": "2026-02-28",
+      "title": "How to prototype using Claude Haiku 4.5 + Custom Design Systems  –  Use UXPin Merge!",
+      "summary": "Generate production-ready React prototypes from your design system using Claude Haiku 4.5 and UXPin Merge, keeping design and code in sync. The post How to prototype using Claude Haiku 4.5 + Custom Design Systems – Use UXPin Merge! appeared first on Studio by UXPin.",
+      "content": "Generate production-ready React prototypes from your design system using Claude Haiku 4.5 and UXPin Merge, keeping design and code in sync. The post How to prototype using Claude Haiku 4.5 + Custom Design Systems – Use UXPin Merge! appeared first on Studio by UXPin.",
+      "category": "AI for design",
+      "source": {
+        "name": "UXPin Blog",
+        "url": "https://www.uxpin.com/studio/blog/prototype-claude-haiku-4-5-custom-design-systems-uxpin-merge/"
+      },
+      "analysis": ""
+    },
     {
       "date": "2026-02-27",
       "title": "How to prototype using Claude Haiku 4.5 + Bootstrap  –  Use UXPin Merge!",
