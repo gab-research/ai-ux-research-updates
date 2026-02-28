@@ -361,7 +361,7 @@ async function analyzeThemesWithGemini(titles, currentMonthKey) {
   }
 
   const genAI = new GoogleGenerativeAI(apiKey);
-  const model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash' });
+  const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash' });
 
   const titleList = titles
     .map((t, i) => `${i + 1}. "${t.title}" (${t.source})`)
@@ -635,7 +635,7 @@ async function main() {
   const geminiKey = process.env.GEMINI_API_KEY;
   if (geminiKey) {
     const genAI = new GoogleGenerativeAI(geminiKey);
-    const enrichModel = genAI.getGenerativeModel({ model: 'gemini-2.5-flash' });
+    const enrichModel = genAI.getGenerativeModel({ model: 'gemini-2.0-flash' });
 
     const toEnrich = finalUpdates.filter((u) => {
       const needsContent = !u.content || u.content === u.summary;
@@ -657,7 +657,7 @@ async function main() {
           }
           enriched++;
         }
-        await sleep(13000);
+        await sleep(5000);
       }
       console.log(`Enriched ${enriched}/${toEnrich.length} posts.`);
     }
