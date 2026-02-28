@@ -1,46 +1,46 @@
 {
   "month": "2026-02",
-  "updated": "2026-02-28",
+  "updated": "2026-02-24",
   "themes": [
     {
-      "name": "AI Chatbots / Assistants",
-      "count": 45
+      "name": "General AI in research",
+      "count": 449
     },
     {
-      "name": "AI Agents / Workflows",
-      "count": 41
+      "name": "Conversational AI in research",
+      "count": 32
     },
     {
-      "name": "AI for Design / Prototyping",
-      "count": 36
+      "name": "Survey optimization",
+      "count": 24
     },
     {
-      "name": "AI for Job Impact / Automation",
-      "count": 31
+      "name": "Research automation",
+      "count": 21
     },
     {
-      "name": "AI for Customer/Business Insights",
-      "count": 30
+      "name": "AI strategy & literacy",
+      "count": 14
     },
     {
-      "name": "Synthetic Users / Media",
-      "count": 23
+      "name": "AI for product management",
+      "count": 8
     },
     {
-      "name": "AI for Survey Analysis / Optimization",
-      "count": 23
+      "name": "Interview analysis",
+      "count": 6
     },
     {
-      "name": "AI for Research Platforms / Tools",
-      "count": 17
+      "name": "AI summarization",
+      "count": 5
     },
     {
-      "name": "AI for Code Generation / Development",
-      "count": 12
+      "name": "Automated usability checks",
+      "count": 3
     },
     {
-      "name": "AI Search / Optimization",
-      "count": 9
+      "name": "Sentiment & feedback analysis",
+      "count": 3
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources and Google News this month."

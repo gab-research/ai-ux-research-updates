@@ -424,6 +424,45 @@ Return this exact JSON format:
   }
 }
 
+/**
+ * Use Gemini to generate a richer content summary and a "How to use at Nubank"
+ * analysis for a single post. Returns { content, analysis } or null on failure.
+ */
+async function enrichPostWithGemini(model, post) {
+  const prompt = `You are a senior UX researcher at Nubank, a large digital bank in Brazil. You help the research team stay current on AI applications in UX research.
+
+Article title: "${post.title}"
+Source: ${post.source.name}
+Snippet: "${post.summary}"
+
+Generate two sections in English:
+
+1. CONTENT: Write a 3-5 sentence summary expanding on this article. Explain the key idea, why it matters for UX researchers, and any practical implications. Do NOT repeat the snippet verbatim — add depth and context.
+
+2. ANALYSIS: Write a practical "How to use at Nubank" guide (2-3 short paragraphs). Cover: where this fits in Nubank's research workflow, how researchers should apply it, and any guardrails or limitations. Reference Nubank products and flows where relevant (e.g. PIX, loans, card activation, onboarding, insurance). Be specific and actionable.
+
+Return ONLY valid JSON with no other text:
+{ "content": "...", "analysis": "..." }`;
+
+  try {
+    const result = await model.generateContent(prompt);
+    const text = result.response.text().trim();
+    const jsonMatch = text.match(/\{[\s\S]*\}/);
+    if (!jsonMatch) return null;
+
+    const parsed = JSON.parse(jsonMatch[0]);
+    if (!parsed.content || !parsed.analysis) return null;
+
+    return {
+      content: parsed.content.trim(),
+      analysis: parsed.analysis.trim()
+    };
+  } catch (e) {
+    console.warn(`  Gemini enrichment failed for "${post.title.slice(0, 50)}…": ${e.message}`);
+    return null;
+  }
+}
+
 async function main() {
   // Re-categorize all existing posts with current theme definitions (no feed fetch).
   if (process.argv.includes('--categories-only')) {
@@ -579,6 +618,47 @@ async function main() {
     ...u,
     category: inferCategory(u.title, u.summary || u.content || '')
   }));
+
+  // --- Enrich posts with Gemini (content summary + Nubank analysis) ---
+  const geminiKey = process.env.GEMINI_API_KEY;
+  if (geminiKey) {
+    const genAI = new GoogleGenerativeAI(geminiKey);
+    const enrichModel = genAI.getGenerativeModel({ model: 'gemini-2.5-flash' });
+
+    const toEnrich = finalUpdates.filter((u) => {
+      const needsContent = !u.content || u.content === u.summary;
+      const needsAnalysis = !u.analysis || u.analysis.trim() === '';
+      return needsContent || needsAnalysis;
+    });
+
+    if (toEnrich.length > 0) {
+      console.log(`Enriching ${toEnrich.length} posts with Gemini (content + Nubank analysis)…`);
+      let enriched = 0;
+      for (const post of toEnrich) {
+        const result = await enrichPostWithGemini(enrichModel, post);
+        if (result) {
+          if (result.content) post.content = result.content;
+          if (result.analysis) {
+            post.analysis = result.analysis;
+            const url = post.source && post.source.url;
+            if (url) analysesByUrl[url] = result.analysis;
+          }
+          enriched++;
+        }
+        await sleep(1500);
+      }
+      console.log(`Enriched ${enriched}/${toEnrich.length} posts.`);
+    }
+  } else {
+    console.log('No GEMINI_API_KEY set — skipping post enrichment.');
+  }
+
+  // Persist analyses so they survive across runs.
+  try {
+    fs.writeFileSync(ANALYSES_PATH, JSON.stringify(analysesByUrl, null, 2), 'utf8');
+  } catch (e) {
+    console.warn('Could not write analyses.json:', e.message);
+  }
 
   const output = {
     title: siteTitle,
