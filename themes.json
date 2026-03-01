@@ -8,6 +8,11 @@
       "description": "AI adoption, skills, impact on work, and organizational readiness."
     },
     {
+      "name": "General AI in research",
+      "count": 1,
+      "description": "Other AI applications in research not covered by specific themes."
+    },
+    {
       "name": "Synthetic users",
       "count": 0,
       "description": "AI-generated participants and virtual personas for early-stage concept testing."
@@ -46,11 +51,6 @@
       "name": "Sentiment & feedback analysis",
       "count": 0,
       "description": "AI for NPS analysis, opinion mining, and customer feedback processing."
-    },
-    {
-      "name": "AI for design & research",
-      "count": 0,
-      "description": "Design tools and prototyping with a research or usability testing connection."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources and Google News this month."
