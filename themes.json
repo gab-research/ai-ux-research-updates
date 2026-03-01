@@ -1,56 +1,56 @@
 {
-  "month": "2026-02",
-  "updated": "2026-02-28",
+  "month": "2026-03",
+  "updated": "2026-03-01",
   "themes": [
     {
-      "name": "General AI in research",
-      "count": 169,
-      "description": "Other AI applications in research not covered by specific themes."
-    },
-    {
       "name": "AI strategy & literacy",
-      "count": 97,
+      "count": 1,
       "description": "AI adoption, skills, impact on work, and organizational readiness."
     },
     {
-      "name": "Research automation",
-      "count": 80,
-      "description": "AI agents and tools automating research workflows and operations."
-    },
-    {
-      "name": "Survey optimization",
-      "count": 70,
-      "description": "AI tools for designing better surveys, reducing bias, and analyzing responses."
-    },
-    {
-      "name": "Conversational AI in research",
-      "count": 39,
-      "description": "Chatbots, virtual assistants, and voice AI in research contexts."
-    },
-    {
-      "name": "AI-powered data analysis",
-      "count": 25,
-      "description": "Automated data analysis, clustering, segmentation, and pattern detection."
-    },
-    {
-      "name": "AI for product management",
-      "count": 20,
-      "description": "AI in product decisions, discovery, prioritization, and roadmapping."
-    },
-    {
-      "name": "AI ethics in research",
-      "count": 18,
-      "description": "Bias, fairness, responsible AI, privacy, and trust in research."
-    },
-    {
-      "name": "Predictive UX",
-      "count": 8,
-      "description": "Personalization, recommendation engines, and predictive user analytics."
+      "name": "Synthetic users",
+      "count": 0,
+      "description": "AI-generated participants and virtual personas for early-stage concept testing."
     },
     {
       "name": "AI summarization",
-      "count": 8,
+      "count": 0,
       "description": "Automated transcript summaries, theme extraction, and affinity mapping."
+    },
+    {
+      "name": "Automated usability checks",
+      "count": 0,
+      "description": "AI-powered accessibility audits, heuristic evaluations, and UX analysis."
+    },
+    {
+      "name": "Survey optimization",
+      "count": 0,
+      "description": "AI tools for designing better surveys, reducing bias, and analyzing responses."
+    },
+    {
+      "name": "Session replay + AI",
+      "count": 0,
+      "description": "AI-enhanced session replays, heatmaps, and behavioral pattern detection."
+    },
+    {
+      "name": "Interview analysis",
+      "count": 0,
+      "description": "AI-assisted interview transcription, coding, and qualitative analysis."
+    },
+    {
+      "name": "Conversational AI in research",
+      "count": 0,
+      "description": "Chatbots, virtual assistants, and voice AI in research contexts."
+    },
+    {
+      "name": "Sentiment & feedback analysis",
+      "count": 0,
+      "description": "AI for NPS analysis, opinion mining, and customer feedback processing."
+    },
+    {
+      "name": "AI for design & research",
+      "count": 0,
+      "description": "Design tools and prototyping with a research or usability testing connection."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources and Google News this month."
