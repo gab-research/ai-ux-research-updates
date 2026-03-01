@@ -99,10 +99,10 @@ function matchesKeywords(text, keywords) {
 function inferCategory(title, description) {
   const text = `${title || ''} ${description || ''}`.toLowerCase();
 
-  // Synthetic users — AI participants, virtual users, simulated users, AI personas
+  // Synthetic users — AI participants, virtual users, simulated users
   if (/synthetic\s+(user|participant|respondent|persona)|virtual\s+(user|participant|respondent)|simulated\s+(user|participant)|ai\s+(participant|persona|respondent)|llm\s+persona|fake\s+user|digital\s+twin.*(user|participant|research)/.test(text)) return 'Synthetic users';
 
-  // AI summarization — transcript summaries, theme extraction, affinity mapping, note-taking
+  // AI summarization — transcript summaries, theme extraction, affinity mapping
   if (/summariz|summar.*(transcript|note|meeting|report)|theme\s+extraction|one-?click\s+summar|synthesis.*(ai|transcript|automat)|affinity.*ai|thematic.*(ai|analysis)|insight\s+extraction|pattern\s+recognition.*(ai|research)|opportunity\s+solution\s+tree|ai.*(note|recap|minute|digest)|auto.*(summariz|transcri)/.test(text)) return 'AI summarization';
 
   // Automated usability checks — accessibility, heuristic evaluation, UX audit
@@ -111,13 +111,13 @@ function inferCategory(title, description) {
   // AI in user testing — usability testing, unmoderated testing, tool comparisons
   if (/usability\s+test|user\s+test|ux\s+test|\buxtweak\b|\buseberry\b|\bmaze\b.*test|ux\s+benchmark|unmoderated\s+test|remote\s+test.*ai|ai.*(test.*user|user.*test)|moderated.*ai/.test(text)) return 'AI in user testing';
 
-  // Interview analysis — interviews, qualitative research, transcript coding, qual tools
+  // Interview analysis — interviews, qualitative research, transcript coding
   if (/\binterview.*(ai|analysis|tool|automat|transcri)|qualitative\s+(research|insight|coding|analysis)|ai.*(interview|qualitative)|\blooppanel\b|\bcondens\b|\bdovetail\b|stakeholder.*(report|ready)|insights?\s+editor|ai[- ]moderated|transcript.*(analysis|cod)/.test(text)) return 'Interview analysis';
 
   // AI for design & research — design tools with a research or testing connection
   if (/ai.*(design.*research|research.*design|design\s+tool.*test)|prototype.*(test|research|usability)|ai[- ]native\s+design.*(research|ux|test)/.test(text)) return 'AI for design & research';
 
-  // Survey optimization — AI surveys, question optimization, form design, response analysis
+  // Survey optimization — AI surveys, question optimization, response analysis
   if (/survey.*(ai|optimiz|design|question|tool|automat|generat)|questionnaire.*ai|ai.*(survey|poll|form)|clearer\s+survey|reduce\s+bias.*survey|adaptive\s+(survey|follow-?up)|\bwynter\b|message\s+testing|ai.*(question|response\s+analysis)/.test(text)) return 'Survey optimization';
 
   // Session replay + AI — behavioral analytics, heatmaps, click tracking
@@ -126,41 +126,51 @@ function inferCategory(title, description) {
   // Conversational AI in research — chatbots, virtual assistants, voice AI
   if (/chatbot|conversational\s+ai|virtual\s+assistant|chat\s+bot|ai\s+sales\s+rep|voice.*ai|ai.*(chat|convers|dialog)|natural\s+language.*(process|understand)|nlu|nlp.*(research|ux|user)/.test(text)) return 'Conversational AI in research';
 
-  // Sentiment & feedback analysis — NPS, VOC, opinion mining, review analysis
+  // Sentiment & feedback analysis — NPS, VOC, opinion mining
   if (/sentiment|nps.*(ai|automat)|feedback\s+(analysis|loop|tool)|voice\s+of\s+(customer|user)|ai.*(sentiment|nps|feedback|opinion|review\s+analysis)|opinion\s+mining|text\s+analysis.*ai|customer\s+feedback.*ai/.test(text)) return 'Sentiment & feedback analysis';
 
-  // AI ethics in research — bias, fairness, responsible AI, trust, privacy in research
+  // AI ethics in research — bias, fairness, responsible AI, trust, privacy
   if (/ai.*(ethic|bias|fairness|trust|transparen|accountab|responsible|privacy|consent|harm)|bias.*(ai|algorithm|model)|ethical\s+ai|responsible\s+ai|ai\s+governance|algorithmic.*(bias|fairness|justice)/.test(text)) return 'AI ethics in research';
 
-  // AI-powered data analysis — data analysis, clustering, pattern detection, analytics
+  // AI-powered data analysis — clustering, segmentation, pattern detection
   if (/ai.*(data\s+analysis|analytics|cluster|segment|pattern\s+detect|visualization|dashboard)|data.*(ai|machine\s+learn|automat.*analy)|machine\s+learning.*(analysis|data|cluster|predict)|automat.*(analysis|analytics|classify|cluster)/.test(text)) return 'AI-powered data analysis';
 
-  // AI content generation — AI writing, report generation, UX copy, content creation
+  // AI content generation — AI writing, report generation, UX copy
   if (/ai.*(writ|content\s+(creat|generat)|copywriting|report\s+generat|ux\s+copy|microcopy)|generat.*(content|report|copy|text|article)|llm.*(writ|generat|content)|gpt.*(writ|generat|content)/.test(text)) return 'AI content generation';
 
   // Predictive UX — personalization, recommendations, predictive analytics
   if (/predict.*(ux|user|experience|behavior|analytics|model)|ai.*(personali|recommend|predict)|personali.*(ai|machine|algorithm)|recommendation\s+(engine|system)|next\s+best\s+action|propensity|churn.*predict/.test(text)) return 'Predictive UX';
 
-  // AI strategy & literacy — AI skills, AI impact on work, AI adoption, future of work
-  if (/ai\s+(skill|literacy|native|era|superpower|coding\s+tool|adopt|matur|readiness|transform)|responsible.*(ai|developer)|ai\s+writes|poisoning.*ai|context\s+rot.*ai|ai.*gets?\s+worse|valuable\s+skill.*ai|age\s+of\s+ai|ai.*(consult|strateg|roadmap|implement|workforce)|future.*(ai|work.*ai)|ai.*(impact|revolution|disrupt)/.test(text)) return 'AI strategy & literacy';
+  // AI coding assistants — Copilot, Claude Code, Cursor, GPT for coding (split from AI strategy)
+  if (/\b(copilot|claude\s+code|cursor\s+ai|codeium|tabnine|github\s+copilot)\b|ai.*(coding|code\s+assist|code\s+generat|programm|develop)|coding.*(ai|assist|copilot)/.test(text)) return 'AI coding assistants';
 
-  // AI for product management — AI in product decisions, product leadership + AI
-  if (/product.*(ai|machine\s+learn)|ai.*(product\s+(management|decision|leader|discover|backlog|priorit))|claude\s+code|ai\s+product|product\s+manager.*ai/.test(text)) return 'AI for product management';
+  // AI workforce impact — AI replacing roles, future of work, skills gap (split from AI strategy)
+  if (/ai.*(replac|displac|job|career|workforce|hiring|talent|skill\s+gap|reskill|upskill|future\s+of\s+work|layoff)|future.*(work.*ai|ai.*work)|workforce.*ai|ai\s+(era|native|superpower|age\s+of)|age\s+of\s+ai/.test(text)) return 'AI workforce impact';
 
-  // Research automation — AI agents, research workflows, research tools, research ops
-  if (/ai.*(research\s+process|research\s+workflow|research\s+ops)|research.*(automat|tool.*ai|workflow.*ai)|ai\s+tools?.*(research|ux|lesson)|ai\s+across.*research|research\s+recommend|ai.*user\s+research|agentic\s+(ai|research)|ai\s+agent.*(research|ux)|research\s+assistant.*ai/.test(text)) return 'Research automation';
+  // AI tool evaluation — comparing, selecting, reviewing AI tools (split from AI strategy)
+  if (/ai\s+tool.*(review|compar|evaluat|select|best|top\s+\d|versus|vs|alternatives|roundup|list)|best\s+ai\s+tool|compar.*(ai|llm|gpt|claude)|ai.*(benchmark|leaderboard)|which\s+ai/.test(text)) return 'AI tool evaluation';
+
+  // Agentic AI in research — AI agents running research tasks autonomously (split from Research automation)
+  if (/agentic\s+(ai|research|ux)|ai\s+agent.*(research|ux|user|task|autonomous)|autonomous.*(research|ai\s+agent)|multi-?agent|agent.*(framework|orchestrat)|research\s+agent/.test(text)) return 'Agentic AI in research';
+
+  // AI research tools — specific tool launches, reviews for research workflows (split from Research automation)
+  if (/ai.*(research\s+tool|research\s+platform|research\s+software)|research.*(tool.*ai|platform.*ai|software.*ai)|ai\s+tools?.*(research|ux|lesson)|new\s+ai.*(tool|platform|launch)|ai\s+for\s+(ux|user)\s+research/.test(text)) return 'AI research tools';
+
+  // AI for product management — AI in product decisions, discovery, prioritization
+  if (/product.*(ai|machine\s+learn)|ai.*(product\s+(management|decision|leader|discover|backlog|priorit))|ai\s+product|product\s+manager.*ai/.test(text)) return 'AI for product management';
 
   // AI-assisted recruitment — participant recruitment, screener optimization
   if (/recruit.*(ai|automat)|ai.*(recruit|screener)|screener.*ai|participant\s+recruit|panel\s+management.*ai/.test(text)) return 'AI-assisted recruitment';
 
-  // Second pass: broader patterns to reduce the catch-all bucket
-  if (/\b(gpt|claude|gemini|llama|copilot|openai|anthropic|google\s+ai|chatgpt|bard|mistral)\b/.test(text)) return 'AI strategy & literacy';
-  if (/ai.*(transform|chang|reshap|revolutioniz|disrupt|impact|future|trend|state\s+of)/.test(text)) return 'AI strategy & literacy';
-  if (/\b(automat|ai|machine\s+learn)\b.*(research|ux|insight|finding|discover)/.test(text)) return 'Research automation';
-  if (/\b(ai|ml|llm)\b.*(tool|platform|software|workflow|pipeline)/.test(text)) return 'Research automation';
+  // Second pass: targeted patterns for the new specific themes
+  if (/\b(copilot|openai|anthropic|claude|chatgpt)\b.*(code|develop|engineer|programm)/.test(text)) return 'AI coding assistants';
+  if (/\b(copilot|openai|anthropic|google\s+ai)\b.*(research|ux|user|test|study)/.test(text)) return 'AI research tools';
+  if (/\b(gpt|claude|gemini|llama|chatgpt|bard|mistral)\b.*(compar|review|evaluat|benchmark|vs\b|versus)/.test(text)) return 'AI tool evaluation';
+  if (/\b(gpt|claude|gemini|llama|chatgpt)\b.*(transform|chang|impact|future|replac)/.test(text)) return 'AI workforce impact';
   if (/ai.*(analys|analyz|data|metric|measure|evaluat|assess)/.test(text)) return 'AI-powered data analysis';
   if (/ai.*(generat|creat|writ|draft|produc).*(content|text|report|copy)/.test(text)) return 'AI content generation';
-  if (/\b(llm|large\s+language|generat\w+\s+ai|gen\s*ai)\b/.test(text)) return 'AI strategy & literacy';
+  if (/\b(automat|ai|machine\s+learn)\b.*(research|ux|insight|finding|discover)/.test(text)) return 'AI research tools';
+  if (/\b(ai|ml|llm)\b.*(tool|platform|software|workflow|pipeline)/.test(text)) return 'AI research tools';
 
   return 'General AI in research';
 }
@@ -395,25 +405,49 @@ Below are ${titles.length} article titles published in ${currentMonthKey} from v
 ARTICLES:
 ${titleList}
 
-Analyze these articles and identify the 10 most prominent themes about **AI applications** (not research processes). Focus on specific AI applications such as:
-- Synthetic users / AI participants
-- AI-powered interview analysis
-- AI summarization of research data
-- Automated usability testing
-- AI for design / prototyping
-- AI survey optimization
-- Session replay with AI
-- AI sentiment analysis
-- Research automation with AI
+Analyze these articles and identify the 10 most prominent themes about **specific AI applications**. Each theme must be actionable — a researcher reading the theme name should immediately understand what tools, techniques, or capabilities it refers to.
+
+GOOD theme examples (use these exact names when they fit):
+- Synthetic users
+- AI summarization
+- AI coding assistants
+- Agentic AI in research
+- AI tool evaluation
+- AI workforce impact
+- AI research tools
+- Interview analysis
+- AI-powered data analysis
+- AI content generation
+- Predictive UX
+- Automated usability checks
+- Survey optimization
+- Session replay + AI
 - Conversational AI in research
-- AI for product decisions
-- Or any other specific AI application theme you identify
+- Sentiment & feedback analysis
+- AI for product management
+- AI-assisted recruitment
+- AI ethics in research
+- AI for design & research
+
+BANNED theme names (NEVER use these — they are too broad and not actionable):
+- "General AI in research"
+- "AI strategy & literacy"
+- "AI strategy"
+- "AI literacy"
+- "Research automation"
+- "AI trends"
+- "AI adoption"
+- "AI transformation"
+- "Other"
+- "Miscellaneous"
+- Any name containing the word "general" or "other"
+
+If an article doesn't fit any specific theme, skip it. It is better to have fewer well-categorized articles than to dump them into a vague bucket.
 
 Rules:
 - Each theme name should be short (2-5 words), describing a specific AI application
 - Each theme must include a brief description (1 sentence) explaining what kind of content it covers
 - Count how many articles relate to each theme (one article can match at most one theme)
-- Do NOT use generic names like "General AI" or "Other" — every theme must be a specific application
 - Sort by count descending
 - Return ONLY valid JSON, no other text
 
@@ -433,8 +467,9 @@ Return this exact JSON format:
       const themes = JSON.parse(jsonMatch[0]);
       if (!Array.isArray(themes) || themes.length === 0) throw new Error('Empty themes array');
 
+      const BANNED_NAMES = /general ai|ai strategy|ai literacy|research automation|ai trends|ai adoption|ai transformation|other|miscellaneous/i;
       const validated = themes
-        .filter((t) => t.name && typeof t.count === 'number')
+        .filter((t) => t.name && typeof t.count === 'number' && !BANNED_NAMES.test(t.name))
         .slice(0, 10);
 
       if (validated.length === 0) throw new Error('No valid themes after validation');
@@ -687,22 +722,26 @@ async function main() {
       'Conversational AI in research': 'Chatbots, virtual assistants, and voice AI in research contexts.',
       'Sentiment & feedback analysis': 'AI for NPS analysis, opinion mining, and customer feedback processing.',
       'AI for design & research': 'Design tools and prototyping with a research or usability testing connection.',
-      'Research automation': 'AI agents and tools automating research workflows and operations.',
       'AI in user testing': 'AI-powered usability testing, remote testing tools, and benchmark comparisons.',
-      'AI strategy & literacy': 'AI adoption, skills, impact on work, and organizational readiness.',
       'AI for product management': 'AI in product decisions, discovery, prioritization, and roadmapping.',
       'AI ethics in research': 'Bias, fairness, responsible AI, privacy, and trust in research.',
       'AI-powered data analysis': 'Automated data analysis, clustering, segmentation, and pattern detection.',
       'AI content generation': 'AI writing, report generation, UX copy, and content creation.',
       'Predictive UX': 'Personalization, recommendation engines, and predictive user analytics.',
       'AI-assisted recruitment': 'AI for participant recruitment, screener optimization, and panel management.',
-      'General AI in research': 'Other AI applications in research not covered by specific themes.'
+      'AI coding assistants': 'Copilot, Claude Code, Cursor, and other AI tools for code generation and development.',
+      'AI workforce impact': 'AI replacing roles, future of work, skills gap, reskilling, and organizational change.',
+      'AI tool evaluation': 'Comparing, benchmarking, and selecting AI tools and LLMs for specific use cases.',
+      'Agentic AI in research': 'Autonomous AI agents running research tasks, multi-agent frameworks, and orchestration.',
+      'AI research tools': 'New AI tool launches, reviews, and platforms built for research workflows.',
     };
 
+    const EXCLUDED_THEMES = ['General AI in research'];
     const APPLICATION_THEMES = Object.keys(THEME_DESCRIPTIONS);
     topThemes = Object.entries(themeCountsAcrossSources)
+      .filter(([name]) => !EXCLUDED_THEMES.includes(name))
       .map(([name, count]) => ({
-        name: name || 'General AI in research',
+        name,
         count,
         description: THEME_DESCRIPTIONS[name] || ''
       }))
@@ -733,7 +772,7 @@ async function main() {
   if (geminiKey) {
     const genAI = new GoogleGenerativeAI(geminiKey);
     const enrichModel = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
-    const MAX_ENRICH_PER_RUN = 5;
+    const MAX_ENRICH_PER_RUN = 20;
 
     const toEnrich = finalUpdates.filter((u) => {
       const needsContent = !u.content || u.content === u.summary;
