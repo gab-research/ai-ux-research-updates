@@ -4,13 +4,18 @@
   "themes": [
     {
       "name": "AI strategy & literacy",
-      "count": 1,
+      "count": 2,
       "description": "AI adoption, skills, impact on work, and organizational readiness."
     },
     {
       "name": "General AI in research",
       "count": 1,
       "description": "Other AI applications in research not covered by specific themes."
+    },
+    {
+      "name": "AI ethics in research",
+      "count": 1,
+      "description": "Bias, fairness, responsible AI, privacy, and trust in research."
     },
     {
       "name": "Synthetic users",
@@ -46,11 +51,6 @@
       "name": "Conversational AI in research",
       "count": 0,
       "description": "Chatbots, virtual assistants, and voice AI in research contexts."
-    },
-    {
-      "name": "Sentiment & feedback analysis",
-      "count": 0,
-      "description": "AI for NPS analysis, opinion mining, and customer feedback processing."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources and Google News this month."
