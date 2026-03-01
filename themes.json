@@ -8,6 +8,11 @@
       "description": "AI adoption, skills, impact on work, and organizational readiness."
     },
     {
+      "name": "Survey optimization",
+      "count": 1,
+      "description": "AI tools for designing better surveys, reducing bias, and analyzing responses."
+    },
+    {
       "name": "General AI in research",
       "count": 1,
       "description": "Other AI applications in research not covered by specific themes."
@@ -31,11 +36,6 @@
       "name": "Automated usability checks",
       "count": 0,
       "description": "AI-powered accessibility audits, heuristic evaluations, and UX analysis."
-    },
-    {
-      "name": "Survey optimization",
-      "count": 0,
-      "description": "AI tools for designing better surveys, reducing bias, and analyzing responses."
     },
     {
       "name": "Session replay + AI",

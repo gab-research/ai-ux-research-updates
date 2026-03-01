@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-03-01T13:52:28.069Z",
+  "lastUpdated": "2026-03-01T14:53:19.042Z",
   "updates": [
     {
       "date": "2026-03-01",
@@ -12,6 +12,18 @@
       "source": {
         "name": "UX Collective (Medium)",
         "url": "https://uxdesign.cc/dancing-in-the-clouds-with-copilot-and-claude-d492f7556824?source=rss----138adf9c44c---4"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-03-01",
+      "title": "The AI adoption theatre: When innovation becomes performance",
+      "summary": "An LLM that can reason, synthesize, generate, and adapt, sitting right there in your workflow. That part is real. The problem is what… Continue reading on UX Collective »",
+      "content": "An LLM that can reason, synthesize, generate, and adapt, sitting right there in your workflow. That part is real. The problem is what… Continue reading on UX Collective »",
+      "category": "Survey optimization",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/the-ai-adoption-theatre-when-innovation-becomes-performance-fd03bb16b0ce?source=rss----138adf9c44c---4"
       },
       "analysis": ""
     },
