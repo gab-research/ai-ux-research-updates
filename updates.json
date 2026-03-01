@@ -1,14 +1,14 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-03-01T19:01:55.033Z",
+  "lastUpdated": "2026-03-01T20:55:33.492Z",
   "updates": [
     {
       "date": "2026-03-01",
       "title": "Dancing in the clouds with Copilot and Claude",
       "summary": "Data Visualization with the 2026 Pantone Color of the Year Continue reading on UX Collective »",
       "content": "Data Visualization with the 2026 Pantone Color of the Year Continue reading on UX Collective »",
-      "category": "AI strategy & literacy",
+      "category": "AI coding assistants",
       "source": {
         "name": "UX Collective (Medium)",
         "url": "https://uxdesign.cc/dancing-in-the-clouds-with-copilot-and-claude-d492f7556824?source=rss----138adf9c44c---4"
@@ -56,7 +56,7 @@
       "title": "The UX of survival in the age of AI deepfakes",
       "summary": "The UX of survival in the age of AI deepfakes",
       "content": "The UX of survival in the age of AI deepfakes",
-      "category": "AI strategy & literacy",
+      "category": "AI workforce impact",
       "source": {
         "name": "UX Collective (Medium)",
         "url": "https://uxdesign.cc/the-ux-of-survival-in-the-age-of-ai-deepfakes-b8e8602eddaa?source=rss----138adf9c44c---4"
@@ -152,7 +152,7 @@
       "title": "What UX Consulting Clients Expect in the Age of AI",
       "summary": "Clients still seek strong judgment and critical thinking, research rigor, and respect for real-world and user constraints from UX consultants.",
       "content": "Clients still seek strong judgment and critical thinking, research rigor, and respect for real-world and user constraints from UX consultants.",
-      "category": "AI strategy & literacy",
+      "category": "AI workforce impact",
       "source": {
         "name": "Nielsen Norman Group",
         "url": "https://www.nngroup.com/articles/ux-consulting-ai/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication"
@@ -212,7 +212,7 @@
       "title": "Use AI Across Your User Research Process",
       "summary": "Hi, I’m Nikki.",
       "content": "Hi, I’m Nikki.",
-      "category": "Research automation",
+      "category": "AI research tools",
       "source": {
         "name": "Nikki Anderson (User Research Strategist)",
         "url": "https://www.userresearchstrategist.com/p/use-ai-across-your-user-research"
@@ -236,7 +236,7 @@
       "title": "Combobox vs. Multiselect vs. Listbox: How To Choose The Right One",
       "summary": "Combobox vs. Multi-Select vs. Listbox vs. Dual Listbox? How they are different, what purpose they serve, and how to choose the right one. Brought to you by Design Patterns For AI Interfaces, **friendly video courses on UX** and design patterns by Vitaly.",
       "content": "Combobox vs. Multi-Select vs. Listbox vs. Dual Listbox? How they are different, what purpose they serve, and how to choose the right one. Brought to you by Design Patterns For AI Interfaces, **friendly video courses on UX** and design patterns by Vitaly.",
-      "category": "Research automation",
+      "category": "AI research tools",
       "source": {
         "name": "Smashing Magazine",
         "url": "https://smashingmagazine.com/2026/02/combobox-vs-multiselect-vs-listbox/"
@@ -245,7 +245,7 @@
     },
     {
       "date": "2026-02-03",
-      "title": "Groupthink When Hiring - All Things Product Podcast with Teresa Torres &amp; Petra Wille",
+      "title": "Groupthink When Hiring - All Things Product Podcast with Teresa Torres & Petra Wille",
       "summary": "Listen to this episode on: Spotify | Apple Podcasts Is hiring broken—or just badly designed? In this episode of All Things Product, Petra Wille and Teresa Torres unpack what’s really going wrong in modern hiring processes. From AI-fueled application overload to endless intervi...",
       "content": "Listen to this episode on: Spotify | Apple Podcasts Is hiring broken—or just badly designed? In this episode of All Things Product, Petra Wille and Teresa Torres unpack what’s really going wrong in modern hiring processes. From AI-fueled application overload to endless interview loops and “casual&",
       "category": "AI for product management",

@@ -8,19 +8,14 @@
       "description": "AI tools for designing better surveys, reducing bias, and analyzing responses."
     },
     {
-      "name": "AI strategy & literacy",
+      "name": "AI coding assistants",
       "count": 1,
-      "description": "AI adoption, skills, impact on work, and organizational readiness."
+      "description": "Copilot, Claude Code, Cursor, and other AI tools for code generation and development."
     },
     {
       "name": "AI content generation",
       "count": 1,
       "description": "AI writing, report generation, UX copy, and content creation."
-    },
-    {
-      "name": "General AI in research",
-      "count": 1,
-      "description": "Other AI applications in research not covered by specific themes."
     },
     {
       "name": "AI ethics in research",
@@ -51,6 +46,11 @@
       "name": "Interview analysis",
       "count": 0,
       "description": "AI-assisted interview transcription, coding, and qualitative analysis."
+    },
+    {
+      "name": "Conversational AI in research",
+      "count": 0,
+      "description": "Chatbots, virtual assistants, and voice AI in research contexts."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources and Google News this month."
