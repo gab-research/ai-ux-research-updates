@@ -1,8 +1,32 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-03-02T08:02:43.694Z",
+  "lastUpdated": "2026-03-02T11:49:19.453Z",
   "updates": [
+    {
+      "date": "2026-03-02",
+      "title": "Something big, surveillance by default, agentic UX principles",
+      "summary": "Something big, surveillance by default, agentic UX principles",
+      "content": "Something big, surveillance by default, agentic UX principles",
+      "category": "Agentic AI in research",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/something-big-surveillance-by-default-agentic-ux-principles-1ffe13091f97?source=rss----138adf9c44c---4"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-03-02",
+      "title": "Made to create, learning to curate: the designer’s dilemma",
+      "summary": "Designers aren’t burning out because AI is hard to use. They’re burning out because nothing else changed around it. Continue reading on UX Collective »",
+      "content": "Designers aren’t burning out because AI is hard to use. They’re burning out because nothing else changed around it. Continue reading on UX Collective »",
+      "category": "AI research tools",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/made-to-create-learning-to-curate-the-designers-dilemma-0c6a89340a06?source=rss----138adf9c44c---4"
+      },
+      "analysis": ""
+    },
     {
       "date": "2026-03-01",
       "title": "Dancing in the clouds with Copilot and Claude",

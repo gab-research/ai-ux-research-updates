@@ -3,9 +3,24 @@
   "updated": "2026-03-02",
   "themes": [
     {
+      "name": "AI research tools",
+      "count": 5,
+      "description": "New AI tool launches, reviews, and platforms built for research workflows."
+    },
+    {
       "name": "Survey optimization",
-      "count": 1,
+      "count": 5,
       "description": "AI tools for designing better surveys, reducing bias, and analyzing responses."
+    },
+    {
+      "name": "Conversational AI in research",
+      "count": 2,
+      "description": "Chatbots, virtual assistants, and voice AI in research contexts."
+    },
+    {
+      "name": "Agentic AI in research",
+      "count": 1,
+      "description": "Autonomous AI agents running research tasks, multi-agent frameworks, and orchestration."
     },
     {
       "name": "AI coding assistants",
@@ -18,11 +33,6 @@
       "description": "AI writing, report generation, UX copy, and content creation."
     },
     {
-      "name": "Conversational AI in research",
-      "count": 1,
-      "description": "Chatbots, virtual assistants, and voice AI in research contexts."
-    },
-    {
       "name": "AI ethics in research",
       "count": 1,
       "description": "Bias, fairness, responsible AI, privacy, and trust in research."
@@ -33,24 +43,14 @@
       "description": "Automated transcript summaries, theme extraction, and affinity mapping."
     },
     {
-      "name": "AI research tools",
+      "name": "AI workforce impact",
       "count": 1,
-      "description": "New AI tool launches, reviews, and platforms built for research workflows."
+      "description": "AI replacing roles, future of work, skills gap, reskilling, and organizational change."
     },
     {
       "name": "Synthetic users",
       "count": 0,
       "description": "AI-generated participants and virtual personas for early-stage concept testing."
-    },
-    {
-      "name": "Automated usability checks",
-      "count": 0,
-      "description": "AI-powered accessibility audits, heuristic evaluations, and UX analysis."
-    },
-    {
-      "name": "Session replay + AI",
-      "count": 0,
-      "description": "AI-enhanced session replays, heatmaps, and behavioral pattern detection."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources and Google News this month."
