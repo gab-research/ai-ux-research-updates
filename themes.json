@@ -1,6 +1,6 @@
 {
   "month": "2026-03",
-  "updated": "2026-03-01",
+  "updated": "2026-03-02",
   "themes": [
     {
       "name": "Survey optimization",
@@ -28,14 +28,19 @@
       "description": "Bias, fairness, responsible AI, privacy, and trust in research."
     },
     {
+      "name": "AI summarization",
+      "count": 1,
+      "description": "Automated transcript summaries, theme extraction, and affinity mapping."
+    },
+    {
+      "name": "AI research tools",
+      "count": 1,
+      "description": "New AI tool launches, reviews, and platforms built for research workflows."
+    },
+    {
       "name": "Synthetic users",
       "count": 0,
       "description": "AI-generated participants and virtual personas for early-stage concept testing."
-    },
-    {
-      "name": "AI summarization",
-      "count": 0,
-      "description": "Automated transcript summaries, theme extraction, and affinity mapping."
     },
     {
       "name": "Automated usability checks",
@@ -46,11 +51,6 @@
       "name": "Session replay + AI",
       "count": 0,
       "description": "AI-enhanced session replays, heatmaps, and behavioral pattern detection."
-    },
-    {
-      "name": "Interview analysis",
-      "count": 0,
-      "description": "AI-assisted interview transcription, coding, and qualitative analysis."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources and Google News this month."
