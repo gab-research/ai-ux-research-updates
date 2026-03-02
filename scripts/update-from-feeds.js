@@ -457,6 +457,7 @@ Return this exact JSON format:
   { "name": "Theme name", "count": 2, "description": "Brief explanation of what this theme covers." }
 ]`;
 
+  let wasRateLimited = false;
   for (let attempt = 0; attempt < 3; attempt++) {
     try {
       const result = await model.generateContent(prompt);
@@ -475,9 +476,10 @@ Return this exact JSON format:
       if (validated.length === 0) throw new Error('No valid themes after validation');
 
       console.log(`Gemini identified ${validated.length} themes from ${titles.length} articles.`);
-      return validated;
+      return { themes: validated, rateLimited: wasRateLimited };
     } catch (e) {
       const is429 = /429|too many|quota/i.test(e.message);
+      if (is429) wasRateLimited = true;
       if (is429 && attempt < 2) {
         const wait = (attempt + 1) * 30000;
         console.warn(`  Theme analysis rate-limited, waiting ${wait / 1000}s before retry (attempt ${attempt + 1}/3)…`);
@@ -485,10 +487,10 @@ Return this exact JSON format:
         continue;
       }
       console.warn(`Gemini API theme analysis failed: ${e.message} — falling back to regex.`);
-      return null;
+      return { themes: null, rateLimited: wasRateLimited };
     }
   }
-  return null;
+  return { themes: null, rateLimited: wasRateLimited };
 }
 
 /**
@@ -702,7 +704,9 @@ async function main() {
   const themeTitles = collectThemeTitles(feedResults, themeResults, currentMonthKey);
   console.log(`Collected ${themeTitles.length} AI-relevant article titles for theme analysis (${currentMonthKey}).`);
 
-  let topThemes = await analyzeThemesWithGemini(themeTitles, currentMonthKey);
+  const geminiThemeResult = await analyzeThemesWithGemini(themeTitles, currentMonthKey);
+  let topThemes = geminiThemeResult.themes;
+  const themeApiWasRateLimited = geminiThemeResult.rateLimited;
 
   if (!topThemes) {
     console.log('Using regex fallback for theme analysis.');
@@ -769,7 +773,11 @@ async function main() {
 
   // --- Enrich posts with Gemini (content summary + Nubank analysis) ---
   const geminiKey = process.env.GEMINI_API_KEY;
-  if (geminiKey) {
+  if (!geminiKey) {
+    console.log('No GEMINI_API_KEY set — skipping post enrichment.');
+  } else if (themeApiWasRateLimited) {
+    console.log('Gemini API was rate-limited during theme analysis — skipping enrichment this run to avoid cascading errors. Will retry next run.');
+  } else {
     const genAI = new GoogleGenerativeAI(geminiKey);
     const enrichModel = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
     const MAX_ENRICH_PER_RUN = 20;
@@ -795,12 +803,10 @@ async function main() {
           }
           enriched++;
         }
-        await sleep(5000);
+        await sleep(8000);
       }
       console.log(`Enriched ${enriched}/${batch.length} posts.${toEnrich.length > MAX_ENRICH_PER_RUN ? ` ${toEnrich.length - MAX_ENRICH_PER_RUN} remaining for next run.` : ''}`);
     }
-  } else {
-    console.log('No GEMINI_API_KEY set — skipping post enrichment.');
   }
 
   // Persist analyses so they survive across runs.
