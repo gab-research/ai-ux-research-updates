@@ -4,8 +4,13 @@
   "themes": [
     {
       "name": "AI research tools",
-      "count": 5,
+      "count": 6,
       "description": "New AI tool launches, reviews, and platforms built for research workflows."
+    },
+    {
+      "name": "Survey optimization",
+      "count": 5,
+      "description": "AI tools for designing better surveys, reducing bias, and analyzing responses."
     },
     {
       "name": "Conversational AI in research",
@@ -13,14 +18,14 @@
       "description": "Chatbots, virtual assistants, and voice AI in research contexts."
     },
     {
-      "name": "Survey optimization",
-      "count": 4,
-      "description": "AI tools for designing better surveys, reducing bias, and analyzing responses."
-    },
-    {
       "name": "AI content generation",
       "count": 2,
       "description": "AI writing, report generation, UX copy, and content creation."
+    },
+    {
+      "name": "AI-powered data analysis",
+      "count": 2,
+      "description": "Automated data analysis, clustering, segmentation, and pattern detection."
     },
     {
       "name": "AI workforce impact",
@@ -46,11 +51,6 @@
       "name": "AI tool evaluation",
       "count": 1,
       "description": "Comparing, benchmarking, and selecting AI tools and LLMs for specific use cases."
-    },
-    {
-      "name": "AI-powered data analysis",
-      "count": 1,
-      "description": "Automated data analysis, clustering, segmentation, and pattern detection."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources and Google News this month."
