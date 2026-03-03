@@ -102,6 +102,51 @@
       "name": "Jared Spool (Medium)",
       "url": "https://jmspool.medium.com/feed",
       "website": "https://centercentre.com"
+    },
+    {
+      "name": "Jakob Nielsen (Substack)",
+      "url": "https://jakobnielsenphd.substack.com/feed",
+      "website": "https://jakobnielsenphd.substack.com"
+    },
+    {
+      "name": "Indi Young (Substack)",
+      "url": "https://indiyoung.substack.com/feed",
+      "website": "https://indiyoung.com"
+    },
+    {
+      "name": "UXmatters",
+      "url": "https://www.uxmatters.com/index.xml",
+      "website": "https://www.uxmatters.com"
+    },
+    {
+      "name": "Great Question Blog",
+      "url": "https://greatquestion.co/blog/rss.xml",
+      "website": "https://greatquestion.co"
+    },
+    {
+      "name": "Parallel Blog",
+      "url": "https://www.parallelhq.com/blog/rss.xml",
+      "website": "https://www.parallelhq.com"
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "website": "https://blog.google/technology/ai"
+    },
+    {
+      "name": "OpenAI Blog",
+      "url": "https://openai.com/blog/rss.xml",
+      "website": "https://openai.com/blog"
+    },
+    {
+      "name": "Microsoft Research",
+      "url": "https://www.microsoft.com/en-us/research/feed/",
+      "website": "https://www.microsoft.com/en-us/research"
+    },
+    {
+      "name": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/feed/",
+      "website": "https://www.technologyreview.com"
     }
   ],
   "keywords": [
@@ -216,6 +261,22 @@
     {
       "name": "Google News: AI personalization",
       "url": "https://news.google.com/rss/search?q=AI+personalization+user+experience+OR+AI+recommendation+UX+when:30d&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "name": "Google News: agentic AI research",
+      "url": "https://news.google.com/rss/search?q=AI+agentic+research+2026+when:30d&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "name": "Google News: AI coding assistants researchers",
+      "url": "https://news.google.com/rss/search?q=AI+coding+assistants+researchers+when:30d&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "name": "Google News: AI research tools comparison",
+      "url": "https://news.google.com/rss/search?q=AI+research+tools+comparison+review+when:30d&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "name": "Google News: AI workforce impact research UX",
+      "url": "https://news.google.com/rss/search?q=AI+workforce+impact+research+UX+when:30d&hl=en-US&gl=US&ceid=US:en"
     }
   ],
   "maxUpdates": 365,
