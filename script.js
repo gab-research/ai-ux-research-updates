@@ -160,7 +160,7 @@
       return '<button type="button" class="theme-item" role="listitem" data-category="' + escapeAttr(item.name) + '">' +
         '<span class="theme-rank">' + (i + 1) + '</span>' +
         '<span class="theme-info"><span class="theme-name">' + escapeHtml(item.name) + '</span>' + descHtml + '</span>' +
-        '<span class="theme-count">' + item.count + (item.count === 1 ? ' post' : ' posts') + '</span>' +
+        '<span class="theme-count">' + item.count + (item.count === 1 ? ' mention' : ' mentions') + '</span>' +
         '</button>';
     }).join('');
 

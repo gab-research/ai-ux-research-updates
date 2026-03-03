@@ -279,6 +279,21 @@
       "url": "https://news.google.com/rss/search?q=AI+workforce+impact+research+UX+when:30d&hl=en-US&gl=US&ceid=US:en"
     }
   ],
+  "hackerNewsQueries": [
+    "AI user research",
+    "synthetic users AI",
+    "AI usability testing",
+    "LLM UX research",
+    "AI qualitative research",
+    "agentic AI research"
+  ],
+  "devToTags": [
+    "ai",
+    "ux",
+    "research",
+    "machinelearning",
+    "userexperience"
+  ],
   "maxUpdates": 365,
   "daysBack": 30
 }

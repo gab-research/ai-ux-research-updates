@@ -330,11 +330,85 @@ function fetchGoogleNewsFeed(feedConfig) {
 }
 
 /**
- * Collect article titles for theme analysis from all sources (curated + Google News).
+ * Fetch article titles from HackerNews via its free Algolia search API.
+ * Used for theme analysis only (volume counting). No auth required.
+ */
+function fetchHackerNewsData(queries, currentMonthKey) {
+  const [year, month] = currentMonthKey.split('-').map(Number);
+  const startOfMonth = Math.floor(new Date(year, month - 1, 1).getTime() / 1000);
+  const titles = [];
+  const seen = new Set();
+
+  for (const query of queries) {
+    try {
+      const encoded = encodeURIComponent(query);
+      const url = `https://hn.algolia.com/api/v1/search?query=${encoded}&tags=story&numericFilters=created_at_i%3E${startOfMonth}&hitsPerPage=50`;
+      const raw = execSync(
+        `curl -sS -L --max-time 15 "${url}"`,
+        { encoding: 'utf8', timeout: 20000, maxBuffer: 5 * 1024 * 1024 }
+      );
+      const data = JSON.parse(raw);
+      if (!data.hits || !Array.isArray(data.hits)) continue;
+
+      for (const hit of data.hits) {
+        const title = (hit.title || '').trim();
+        if (!title) continue;
+        const lower = title.toLowerCase();
+        if (seen.has(lower)) continue;
+        seen.add(lower);
+        titles.push({ title, description: '', source: 'HackerNews' });
+      }
+    } catch (e) {
+      // Silently skip failed queries
+    }
+  }
+  return titles;
+}
+
+/**
+ * Fetch article titles from DEV.to via its free public API.
+ * Used for theme analysis only (volume counting). No auth required.
+ */
+function fetchDevToData(tags, currentMonthKey) {
+  const titles = [];
+  const seen = new Set();
+
+  for (const tag of tags) {
+    try {
+      const url = `https://dev.to/api/articles?tag=${encodeURIComponent(tag)}&per_page=100&top=1`;
+      const raw = execSync(
+        `curl -sS -L --max-time 15 -H "User-Agent: ${USER_AGENT}" "${url}"`,
+        { encoding: 'utf8', timeout: 20000, maxBuffer: 5 * 1024 * 1024 }
+      );
+      const articles = JSON.parse(raw);
+      if (!Array.isArray(articles)) continue;
+
+      for (const article of articles) {
+        const pubDate = parseDate(article.published_at);
+        if (!pubDate) continue;
+        const itemMonthKey = toISODate(pubDate).slice(0, 7);
+        if (itemMonthKey !== currentMonthKey) continue;
+
+        const title = (article.title || '').trim();
+        if (!title) continue;
+        const lower = title.toLowerCase();
+        if (seen.has(lower)) continue;
+        seen.add(lower);
+        titles.push({ title, description: (article.description || '').trim(), source: 'DEV.to' });
+      }
+    } catch (e) {
+      // Silently skip failed tags
+    }
+  }
+  return titles;
+}
+
+/**
+ * Collect article titles for theme analysis from all sources (curated + Google News + HN + DEV.to).
  * Curated RSS blogs are capped at MAX_POSTS_PER_SOURCE to prevent one blog from
  * dominating. Google News feeds have no cap since they aggregate many sources.
  */
-function collectThemeTitles(feedResults, themeResults, currentMonthKey) {
+function collectThemeTitles(feedResults, themeResults, currentMonthKey, extraTitles) {
   const allTitles = [];
   const seenTitles = new Set();
 
@@ -371,6 +445,17 @@ function collectThemeTitles(feedResults, themeResults, currentMonthKey) {
 
   processResults(feedResults, MAX_POSTS_PER_SOURCE);
   processResults(themeResults, 0);
+
+  if (extraTitles && extraTitles.length > 0) {
+    for (const t of extraTitles) {
+      const titleLower = (t.title || '').toLowerCase();
+      if (!titleLower || seenTitles.has(titleLower)) continue;
+      if (!hasAIRelevance(`${t.title} ${t.description || ''}`)) continue;
+      seenTitles.add(titleLower);
+      allTitles.push({ title: t.title, description: truncate(t.description || '', 200), source: t.source });
+    }
+  }
+
   return allTitles;
 }
 
@@ -620,6 +705,8 @@ async function main() {
     for (const u of existing.updates) {
       const url = u.source && u.source.url;
       if (!url) continue;
+      const postDate = parseDate(u.date);
+      if (postDate && postDate < cutoff) continue;
       const postText = `${u.title || ''} ${u.summary || ''} ${u.content || ''}`;
       if (!hasAIRelevance(postText) || !hasResearchRelevance(postText)) continue;
       byUrl.set(url, {
@@ -675,12 +762,17 @@ async function main() {
       const content = truncate(stripHtml(description || ''), 1200);
       const analysis = typeof analysesByUrl[link] === 'string' ? analysesByUrl[link].trim() : (byUrl.get(link) && byUrl.get(link).analysis) || '';
 
+      const existingEntry = byUrl.get(link);
+      const existingHasEnrichedContent = existingEntry
+        && existingEntry.content
+        && existingEntry.content !== existingEntry.summary;
+
       const category = inferCategory(title, description);
       byUrl.set(link, {
         date: toISODate(pubDate),
         title,
         summary: summary || title,
-        content: content || summary,
+        content: existingHasEnrichedContent ? existingEntry.content : (content || summary),
         category,
         source: { name, url: link },
         analysis: analysis || ''
@@ -700,8 +792,27 @@ async function main() {
     category: inferCategory(u.title, u.summary || u.content || '')
   }));
 
+  // --- Fetch HackerNews + DEV.to titles for broader theme analysis ---
+  const hnQueries = sources.hackerNewsQueries || [];
+  const devToTags = sources.devToTags || [];
+  let extraTitles = [];
+
+  if (hnQueries.length > 0) {
+    console.log(`Fetching HackerNews titles (${hnQueries.length} queries)…`);
+    const hnTitles = fetchHackerNewsData(hnQueries, currentMonthKey);
+    console.log(`  HackerNews: ${hnTitles.length} titles collected.`);
+    extraTitles = extraTitles.concat(hnTitles);
+  }
+
+  if (devToTags.length > 0) {
+    console.log(`Fetching DEV.to titles (${devToTags.length} tags)…`);
+    const devTitles = fetchDevToData(devToTags, currentMonthKey);
+    console.log(`  DEV.to: ${devTitles.length} titles collected.`);
+    extraTitles = extraTitles.concat(devTitles);
+  }
+
   // --- Theme analysis (runs BEFORE enrichment to get API quota priority) ---
-  const themeTitles = collectThemeTitles(feedResults, themeResults, currentMonthKey);
+  const themeTitles = collectThemeTitles(feedResults, themeResults, currentMonthKey, extraTitles);
   console.log(`Collected ${themeTitles.length} AI-relevant article titles for theme analysis (${currentMonthKey}).`);
 
   const geminiThemeResult = await analyzeThemesWithGemini(themeTitles, currentMonthKey);
@@ -766,7 +877,7 @@ async function main() {
     month: currentMonthKey,
     updated: today,
     themes: topThemes,
-    note: 'Themes identified by analyzing articles from curated sources and Google News this month.'
+    note: 'Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month.'
   };
   fs.writeFileSync(THEMES_PATH, JSON.stringify(themesPayload, null, 2), 'utf8');
   console.log(`Updated ${THEMES_PATH} with top ${topThemes.length} themes for ${currentMonthKey} (from ${themeTitles.length} articles analyzed).`);
