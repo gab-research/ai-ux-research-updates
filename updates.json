@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-03-03T10:10:04.302Z",
+  "lastUpdated": "2026-03-03T18:09:04.948Z",
   "updates": [
     {
       "date": "2026-03-03",
@@ -72,6 +72,18 @@
       "source": {
         "name": "Parallel Blog",
         "url": "https://www.parallelhq.com/blog/voice-user-interface-vui-design-principles"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-03-03",
+      "title": "Trailer: The Shape of Things to Come",
+      "summary": "Microsoft research lead Doug Burger introduces his new podcast series, The Shape of Things to Come, an exploration into the fundamental truths about AI and how the technology will reshape the future. The post Trailer: The Shape of Things to Come appeared first on Microsoft Res...",
+      "content": "Microsoft research lead Doug Burger introduces his new podcast series, The Shape of Things to Come, an exploration into the fundamental truths about AI and how the technology will reshape the future. The post Trailer: The Shape of Things to Come appeared first on Microsoft Research.",
+      "category": "General AI in research",
+      "source": {
+        "name": "Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/podcast/trailer-the-shape-of-things-to-come/"
       },
       "analysis": ""
     },
@@ -593,7 +605,7 @@
     },
     {
       "date": "2026-02-03",
-      "title": "Groupthink When Hiring - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "title": "Groupthink When Hiring - All Things Product Podcast with Teresa Torres &amp; Petra Wille",
       "summary": "Listen to this episode on: Spotify | Apple Podcasts Is hiring broken—or just badly designed? In this episode of All Things Product, Petra Wille and Teresa Torres unpack what’s really going wrong in modern hiring processes. From AI-fueled application overload to endless intervi...",
       "content": "Listen to this episode on: Spotify | Apple Podcasts Is hiring broken—or just badly designed? In this episode of All Things Product, Petra Wille and Teresa Torres unpack what’s really going wrong in modern hiring processes. From AI-fueled application overload to endless interview loops and “casual&",
       "category": "AI for product management",
