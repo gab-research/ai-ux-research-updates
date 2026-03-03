@@ -477,7 +477,7 @@ async function analyzeThemesWithGemini(titles, currentMonthKey) {
   }
 
   const genAI = new GoogleGenerativeAI(apiKey);
-  const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
+  const model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash-lite' });
 
   const titleList = titles
     .map((t, i) => `${i + 1}. "${t.title}" (${t.source})`)
@@ -890,7 +890,7 @@ async function main() {
     console.log('Gemini API was rate-limited during theme analysis — skipping enrichment this run to avoid cascading errors. Will retry next run.');
   } else {
     const genAI = new GoogleGenerativeAI(geminiKey);
-    const enrichModel = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
+    const enrichModel = genAI.getGenerativeModel({ model: 'gemini-2.5-flash-lite' });
     const MAX_ENRICH_PER_RUN = 20;
 
     const toEnrich = finalUpdates.filter((u) => {
