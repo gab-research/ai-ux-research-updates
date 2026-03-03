@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-03-03T18:09:04.948Z",
+  "lastUpdated": "2026-03-03T21:16:58.496Z",
   "updates": [
     {
       "date": "2026-03-03",
@@ -78,7 +78,7 @@
     {
       "date": "2026-03-03",
       "title": "Trailer: The Shape of Things to Come",
-      "summary": "Microsoft research lead Doug Burger introduces his new podcast series, The Shape of Things to Come, an exploration into the fundamental truths about AI and how the technology will reshape the future. The post Trailer: The Shape of Things to Come appeared first on Microsoft Res...",
+      "summary": "Microsoft research lead Doug Burger introduces his new podcast series, \"The Shape of Things to Come\", an exploration into the fundamental truths about AI and how the technology will reshape the future. The post Trailer: The Shape of Things to Come appeared first on Microsoft R...",
       "content": "Microsoft research lead Doug Burger introduces his new podcast series, The Shape of Things to Come, an exploration into the fundamental truths about AI and how the technology will reshape the future. The post Trailer: The Shape of Things to Come appeared first on Microsoft Research.",
       "category": "General AI in research",
       "source": {
@@ -624,30 +624,6 @@
       "source": {
         "name": "Jakob Nielsen (Substack)",
         "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260202"
-      },
-      "analysis": ""
-    },
-    {
-      "date": "2026-01-30",
-      "title": "AI-Moderated Interviews: If, When, and How to Use Them",
-      "summary": "AI interviews offer faster feedback at scale, but they're not a replacement for in-depth, human-led semistructured interviews.",
-      "content": "AI interviews offer faster feedback at scale, but they're not a replacement for in-depth, human-led semistructured interviews.",
-      "category": "AI in user testing",
-      "source": {
-        "name": "Nielsen Norman Group",
-        "url": "https://www.nngroup.com/articles/ai-interviewers/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication"
-      },
-      "analysis": ""
-    },
-    {
-      "date": "2026-01-30",
-      "title": "Demand Accuracy in Your AI Tools: Lessons from Baymard Institute",
-      "summary": "Most AI-powered tools for UX lack reliability and accountability in their outputs. Demand transparency and proven accuracy, or don't buy it.",
-      "content": "Most AI-powered tools for UX lack reliability and accountability in their outputs. Demand transparency and proven accuracy, or don't buy it.",
-      "category": "AI ethics in research",
-      "source": {
-        "name": "Nielsen Norman Group",
-        "url": "https://www.nngroup.com/articles/baymard-ai-tool-accuracy/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication"
       },
       "analysis": ""
     }
