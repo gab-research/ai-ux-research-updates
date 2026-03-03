@@ -19,23 +19,28 @@
     },
     {
       "name": "AI-powered data analysis",
-      "count": 4,
+      "count": 5,
       "description": "Automated data analysis, clustering, segmentation, and pattern detection."
     },
     {
-      "name": "AI workforce impact",
-      "count": 4,
-      "description": "AI replacing roles, future of work, skills gap, reskilling, and organizational change."
+      "name": "AI ethics in research",
+      "count": 3,
+      "description": "Bias, fairness, responsible AI, privacy, and trust in research."
     },
     {
-      "name": "AI ethics in research",
-      "count": 2,
-      "description": "Bias, fairness, responsible AI, privacy, and trust in research."
+      "name": "AI workforce impact",
+      "count": 3,
+      "description": "AI replacing roles, future of work, skills gap, reskilling, and organizational change."
     },
     {
       "name": "Agentic AI in research",
       "count": 2,
       "description": "Autonomous AI agents running research tasks, multi-agent frameworks, and orchestration."
+    },
+    {
+      "name": "AI coding assistants",
+      "count": 2,
+      "description": "Copilot, Claude Code, Cursor, and other AI tools for code generation and development."
     },
     {
       "name": "AI content generation",
@@ -46,11 +51,6 @@
       "name": "AI tool evaluation",
       "count": 2,
       "description": "Comparing, benchmarking, and selecting AI tools and LLMs for specific use cases."
-    },
-    {
-      "name": "AI for product management",
-      "count": 2,
-      "description": "AI in product decisions, discovery, prioritization, and roadmapping."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources and Google News this month."

@@ -1,8 +1,80 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-03-03T05:10:36.705Z",
+  "lastUpdated": "2026-03-03T10:10:04.302Z",
   "updates": [
+    {
+      "date": "2026-03-03",
+      "title": "AI for User Persona Generation: 2026 Step-by-Step Guide",
+      "summary": "Learn how to use AI for user persona generation in 2026. Discover the tools and techniques to create data-driven personas that accelerate your design process.",
+      "content": "Learn how to use AI for user persona generation in 2026. Discover the tools and techniques to create data-driven personas that accelerate your design process.",
+      "category": "AI-powered data analysis",
+      "source": {
+        "name": "Parallel Blog",
+        "url": "https://www.parallelhq.com/blog/using-ai-user-persona-generation"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-03-03",
+      "title": "10 Examples of AI in Everyday Apps & Products (2026)",
+      "summary": "Mastering AI implementation. Discover the best 2026 examples of AI in everyday apps and learn how your product can leverage machine learning for better UX. Read now!",
+      "content": "Mastering AI implementation. Discover the best 2026 examples of AI in everyday apps and learn how your product can leverage machine learning for better UX. Read now!",
+      "category": "AI for product management",
+      "source": {
+        "name": "Parallel Blog",
+        "url": "https://www.parallelhq.com/blog/examples-of-ai-in-everyday-apps"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-03-03",
+      "title": "10 Best AI-Native Design Agencies: 2026 Vetted Rankings",
+      "summary": "Searching for the best AI-native design agency in 2026? Explore our vetted list of top firms integrating AI into the UI/UX process for faster, smarter results.",
+      "content": "Searching for the best AI-native design agency in 2026? Explore our vetted list of top firms integrating AI into the UI/UX process for faster, smarter results.",
+      "category": "AI for design & research",
+      "source": {
+        "name": "Parallel Blog",
+        "url": "https://www.parallelhq.com/blog/ai-native-design-agency"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-03-03",
+      "title": "Mastering AI-Powered Prototyping for UI/UX Design (2026)",
+      "summary": "Stop manually building prototypes. Learn how AI-powered prototyping tools can streamline your 2026 creative process and drive rapid product innovation. Read more!",
+      "content": "Stop manually building prototypes. Learn how AI-powered prototyping tools can streamline your 2026 creative process and drive rapid product innovation. Read more!",
+      "category": "AI research tools",
+      "source": {
+        "name": "Parallel Blog",
+        "url": "https://www.parallelhq.com/blog/ai-powered-prototyping-tools"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-03-03",
+      "title": "10 Best AI Product Design Agencies: 2026 Vetted Rankings",
+      "summary": "Looking for the best AI product design agency in 2026? Discover our vetted list of top rankings specializing in machine learning, intelligent UI, and UX. View now!",
+      "content": "Looking for the best AI product design agency in 2026? Discover our vetted list of top rankings specializing in machine learning, intelligent UI, and UX. View now!",
+      "category": "AI for product management",
+      "source": {
+        "name": "Parallel Blog",
+        "url": "https://www.parallelhq.com/blog/ai-product-design-agency"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-03-03",
+      "title": "Voice User Interface (VUI) Design Principles: Guide (2026)",
+      "summary": "Build high-performing voice interfaces with our expert VUI design guide. Learn to navigate the complexities of AI-voice UX and enhance user satisfaction in 2026.",
+      "content": "Build high-performing voice interfaces with our expert VUI design guide. Learn to navigate the complexities of AI-voice UX and enhance user satisfaction in 2026.",
+      "category": "Conversational AI in research",
+      "source": {
+        "name": "Parallel Blog",
+        "url": "https://www.parallelhq.com/blog/voice-user-interface-vui-design-principles"
+      },
+      "analysis": ""
+    },
     {
       "date": "2026-03-02",
       "title": "Something big, surveillance by default, agentic UX principles",
@@ -76,42 +148,6 @@
       "analysis": ""
     },
     {
-      "date": "2026-03-02",
-      "title": "AI for User Persona Generation: 2026 Step-by-Step Guide",
-      "summary": "Learn how to use AI for user persona generation in 2026. Discover the tools and techniques to create data-driven personas that accelerate your design process.",
-      "content": "Learn how to use AI for user persona generation in 2026. Discover the tools and techniques to create data-driven personas that accelerate your design process.",
-      "category": "AI-powered data analysis",
-      "source": {
-        "name": "Parallel Blog",
-        "url": "https://www.parallelhq.com/blog/using-ai-user-persona-generation"
-      },
-      "analysis": ""
-    },
-    {
-      "date": "2026-03-02",
-      "title": "10 Examples of AI in Everyday Apps & Products (2026)",
-      "summary": "Mastering AI implementation. Discover the best 2026 examples of AI in everyday apps and learn how your product can leverage machine learning for better UX. Read now!",
-      "content": "Mastering AI implementation. Discover the best 2026 examples of AI in everyday apps and learn how your product can leverage machine learning for better UX. Read now!",
-      "category": "AI for product management",
-      "source": {
-        "name": "Parallel Blog",
-        "url": "https://www.parallelhq.com/blog/examples-of-ai-in-everyday-apps"
-      },
-      "analysis": ""
-    },
-    {
-      "date": "2026-03-02",
-      "title": "10 Best AI-Native Design Agencies: 2026 Vetted Rankings",
-      "summary": "Searching for the best AI-native design agency in 2026? Explore our vetted list of top firms integrating AI into the UI/UX process for faster, smarter results.",
-      "content": "Searching for the best AI-native design agency in 2026? Explore our vetted list of top firms integrating AI into the UI/UX process for faster, smarter results.",
-      "category": "AI for design & research",
-      "source": {
-        "name": "Parallel Blog",
-        "url": "https://www.parallelhq.com/blog/ai-native-design-agency"
-      },
-      "analysis": ""
-    },
-    {
       "date": "2026-03-01",
       "title": "Dancing in the clouds with Copilot and Claude",
       "summary": "Data Visualization with the 2026 Pantone Color of the Year Continue reading on UX Collective »",
@@ -144,42 +180,6 @@
       "source": {
         "name": "UX Collective (Medium)",
         "url": "https://uxdesign.cc/everyone-wants-to-hire-seniors-nobody-wants-to-make-them-b3f5671f971a?source=rss----138adf9c44c---4"
-      },
-      "analysis": ""
-    },
-    {
-      "date": "2026-02-28",
-      "title": "Mastering AI-Powered Prototyping for UI/UX Design (2026)",
-      "summary": "Stop manually building prototypes. Learn how AI-powered prototyping tools can streamline your 2026 creative process and drive rapid product innovation. Read more!",
-      "content": "Stop manually building prototypes. Learn how AI-powered prototyping tools can streamline your 2026 creative process and drive rapid product innovation. Read more!",
-      "category": "AI research tools",
-      "source": {
-        "name": "Parallel Blog",
-        "url": "https://www.parallelhq.com/blog/ai-powered-prototyping-tools"
-      },
-      "analysis": ""
-    },
-    {
-      "date": "2026-02-28",
-      "title": "10 Best AI Product Design Agencies: 2026 Vetted Rankings",
-      "summary": "Looking for the best AI product design agency in 2026? Discover our vetted list of top rankings specializing in machine learning, intelligent UI, and UX. View now!",
-      "content": "Looking for the best AI product design agency in 2026? Discover our vetted list of top rankings specializing in machine learning, intelligent UI, and UX. View now!",
-      "category": "AI for product management",
-      "source": {
-        "name": "Parallel Blog",
-        "url": "https://www.parallelhq.com/blog/ai-product-design-agency"
-      },
-      "analysis": ""
-    },
-    {
-      "date": "2026-02-28",
-      "title": "Voice User Interface (VUI) Design Principles: Guide (2026)",
-      "summary": "Build high-performing voice interfaces with our expert VUI design guide. Learn to navigate the complexities of AI-voice UX and enhance user satisfaction in 2026.",
-      "content": "Build high-performing voice interfaces with our expert VUI design guide. Learn to navigate the complexities of AI-voice UX and enhance user satisfaction in 2026.",
-      "category": "Conversational AI in research",
-      "source": {
-        "name": "Parallel Blog",
-        "url": "https://www.parallelhq.com/blog/voice-user-interface-vui-design-principles"
       },
       "analysis": ""
     },
@@ -365,18 +365,6 @@
     },
     {
       "date": "2026-02-17",
-      "title": "Toys, Crafts & Hobbies UX Benchmark: 5,500+ Performance Scores and 4,500+ Best Practice Examples",
-      "summary": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) At Baymard, we’ve just released a new UX benchmark with 11 “Toys, Crafts & Hobbies” UX case st...",
-      "content": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) At Baymard, we’ve just released a new UX benchmark with 11 “Toys, Crafts & Hobbies” UX case studies. This follows from our large-scale user testing and adds to our existing ecommerce UX benchmark. In this article, we give you a snapshot of the overall UX performance. 11 Toys, Crafts & Hobbies UX Case Studies and the Overall Performance Get Premium access to review your own site or have it audited by Baymard researchers. These are the 11 in-depth Toys, Crafts & Hobbies UX case studies. The 11 toys, crafts, and hobby sites have been manually assessed across 500+ research-based UX parameters relevant to Toys, Crafts & Hobbies, resulting in 5,500+ weighted UX performance scores and 4,500+ best practice examples from these sites. Each of the 5,500+ UX performance scores from the 11 Toys, Crafts & Hobbies case studies is summarized in the interactive scatterplot below — showing you how they perform collectively and individually: {{ scatterplot-graph: size=big + habitat=public + base-sites=collection:toys-...",
-      "category": "AI in user testing",
-      "source": {
-        "name": "Baymard Institute",
-        "url": "https://feeds.baymard.com/link/9825/17277775/toys-crafts-and-hobbies-ux-benchmark-2026"
-      },
-      "analysis": ""
-    },
-    {
-      "date": "2026-02-17",
       "title": "The Rise of the AI Researcher in 2026 - Great Question",
       "summary": "The industry says AI is replacing UX researchers. An anonymised meta-analysis of 1,500+ conversations with research teams tells a different story: researchers are drowning, not disappearing, and three new archetypes are emerging.",
       "content": "The industry says AI is replacing UX researchers. An anonymised meta-analysis of 1,500+ conversations with research teams tells a different story: researchers are drowning, not disappearing, and three new archetypes are emerging.",
@@ -408,6 +396,18 @@
       "source": {
         "name": "Parallel Blog",
         "url": "https://www.parallelhq.com/blog/ux-ai-chatbots"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-02-17",
+      "title": "Toys, Crafts & Hobbies UX Benchmark: 5,500+ Performance Scores and 4,500+ Best Practice Examples",
+      "summary": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) At Baymard, we’ve just released a new UX benchmark with 11 “Toys, Crafts & Hobbies” UX case st...",
+      "content": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) At Baymard, we’ve just released a new UX benchmark with 11 “Toys, Crafts & Hobbies” UX case studies. This follows from our large-scale user testing and adds to our existing ecommerce UX benchmark. In this article, we give you a snapshot of the overall UX performance. 11 Toys, Crafts & Hobbies UX Case Studies and the Overall Performance Get Premium access to review your own site or have it audited by Baymard researchers. These are the 11 in-depth Toys, Crafts & Hobbies UX case studies. The 11 toys, crafts, and hobby sites have been manually assessed across 500+ research-based UX parameters relevant to Toys, Crafts & Hobbies, resulting in 5,500+ weighted UX performance scores and 4,500+ best practice examples from these sites. Each of the 5,500+ UX performance scores from the 11 Toys, Crafts & Hobbies case studies is summarized in the interactive scatterplot below — showing you how they perform collectively and individually: {{ scatterplot-graph: size=big + habitat=public + base-sites=collection:toys-...",
+      "category": "AI in user testing",
+      "source": {
+        "name": "Baymard Institute",
+        "url": "https://feeds.baymard.com/link/9825/17277775/toys-crafts-and-hobbies-ux-benchmark-2026"
       },
       "analysis": ""
     },
@@ -533,18 +533,6 @@
     },
     {
       "date": "2026-02-05",
-      "title": "2026 Progress: Instant UX Analysis of Your Site Now Across 209 UX Parameters (Still 95% Accuracy Rate)",
-      "summary": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) The pressure on UX- and product teams to deliver results faster has never been higher, but the...",
-      "content": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) The pressure on UX- and product teams to deliver results faster has never been higher, but the requirement for those results to be rooted in actual user research remains non-negotiable. At Baymard, we developed UX-Ray to allow UX designers and UX researchers to move rapidly but not recklessly, by providing an instant UX analysis that returns evidence-backed and fully traceable UX insights with a 95% accuracy rate. Over the last 4 months, we’ve achieved a 5x increase in the depth of instant UX analysis you can perform on your UX designs. UX Analysis Now Across 209 UX Parameters As of February 1st, 2026, UX-Ray can now conduct an instant UX analysis of your ecommerce site across 209 distinct UX parameters/heuristics. This is up from 39 UX parameters in October 2025. This expansion lets you move from new design frames to a comprehensive, research-backed UX audit in minutes rather than weeks. See It in Action (Video) Still with a Documented 95% Accuracy Rate Speed is irrelevant if the UX insights do not...",
-      "category": "Automated usability checks",
-      "source": {
-        "name": "Baymard Institute",
-        "url": "https://feeds.baymard.com/link/9825/17270368/ux-ray-progress-2026"
-      },
-      "analysis": ""
-    },
-    {
-      "date": "2026-02-05",
       "title": "Natively Adaptive Interfaces: A new framework for AI accessibility",
       "summary": "Learn how Google's NAI framework uses AI to make technology more adaptive, inclusive and helpful for everyone.",
       "content": "Learn how Google's NAI framework uses AI to make technology more adaptive, inclusive and helpful for everyone.",
@@ -564,6 +552,18 @@
       "source": {
         "name": "OpenAI Blog",
         "url": "https://openai.com/index/gpt-5-lowers-protein-synthesis-cost"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-02-05",
+      "title": "2026 Progress: Instant UX Analysis of Your Site Now Across 209 UX Parameters (Still 95% Accuracy Rate)",
+      "summary": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) The pressure on UX- and product teams to deliver results faster has never been higher, but the...",
+      "content": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) The pressure on UX- and product teams to deliver results faster has never been higher, but the requirement for those results to be rooted in actual user research remains non-negotiable. At Baymard, we developed UX-Ray to allow UX designers and UX researchers to move rapidly but not recklessly, by providing an instant UX analysis that returns evidence-backed and fully traceable UX insights with a 95% accuracy rate. Over the last 4 months, we’ve achieved a 5x increase in the depth of instant UX analysis you can perform on your UX designs. UX Analysis Now Across 209 UX Parameters As of February 1st, 2026, UX-Ray can now conduct an instant UX analysis of your ecommerce site across 209 distinct UX parameters/heuristics. This is up from 39 UX parameters in October 2025. This expansion lets you move from new design frames to a comprehensive, research-backed UX audit in minutes rather than weeks. See It in Action (Video) Still with a Documented 95% Accuracy Rate Speed is irrelevant if the UX insights do not...",
+      "category": "Automated usability checks",
+      "source": {
+        "name": "Baymard Institute",
+        "url": "https://feeds.baymard.com/link/9825/17270368/ux-ray-progress-2026"
       },
       "analysis": ""
     },
@@ -593,7 +593,7 @@
     },
     {
       "date": "2026-02-03",
-      "title": "Groupthink When Hiring - All Things Product Podcast with Teresa Torres &amp; Petra Wille",
+      "title": "Groupthink When Hiring - All Things Product Podcast with Teresa Torres & Petra Wille",
       "summary": "Listen to this episode on: Spotify | Apple Podcasts Is hiring broken—or just badly designed? In this episode of All Things Product, Petra Wille and Teresa Torres unpack what’s really going wrong in modern hiring processes. From AI-fueled application overload to endless intervi...",
       "content": "Listen to this episode on: Spotify | Apple Podcasts Is hiring broken—or just badly designed? In this episode of All Things Product, Petra Wille and Teresa Torres unpack what’s really going wrong in modern hiring processes. From AI-fueled application overload to endless interview loops and “casual&",
       "category": "AI for product management",
