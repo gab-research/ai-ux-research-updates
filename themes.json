@@ -1,21 +1,41 @@
 {
   "month": "2026-03",
-  "updated": "2026-03-02",
+  "updated": "2026-03-03",
   "themes": [
     {
       "name": "AI research tools",
-      "count": 6,
+      "count": 14,
       "description": "New AI tool launches, reviews, and platforms built for research workflows."
     },
     {
       "name": "Survey optimization",
-      "count": 5,
+      "count": 8,
       "description": "AI tools for designing better surveys, reducing bias, and analyzing responses."
     },
     {
       "name": "Conversational AI in research",
-      "count": 5,
+      "count": 7,
       "description": "Chatbots, virtual assistants, and voice AI in research contexts."
+    },
+    {
+      "name": "AI-powered data analysis",
+      "count": 4,
+      "description": "Automated data analysis, clustering, segmentation, and pattern detection."
+    },
+    {
+      "name": "AI workforce impact",
+      "count": 4,
+      "description": "AI replacing roles, future of work, skills gap, reskilling, and organizational change."
+    },
+    {
+      "name": "AI ethics in research",
+      "count": 2,
+      "description": "Bias, fairness, responsible AI, privacy, and trust in research."
+    },
+    {
+      "name": "Agentic AI in research",
+      "count": 2,
+      "description": "Autonomous AI agents running research tasks, multi-agent frameworks, and orchestration."
     },
     {
       "name": "AI content generation",
@@ -23,34 +43,14 @@
       "description": "AI writing, report generation, UX copy, and content creation."
     },
     {
-      "name": "AI-powered data analysis",
-      "count": 2,
-      "description": "Automated data analysis, clustering, segmentation, and pattern detection."
-    },
-    {
-      "name": "AI workforce impact",
-      "count": 2,
-      "description": "AI replacing roles, future of work, skills gap, reskilling, and organizational change."
-    },
-    {
-      "name": "Agentic AI in research",
-      "count": 1,
-      "description": "Autonomous AI agents running research tasks, multi-agent frameworks, and orchestration."
-    },
-    {
-      "name": "AI coding assistants",
-      "count": 1,
-      "description": "Copilot, Claude Code, Cursor, and other AI tools for code generation and development."
-    },
-    {
-      "name": "AI for design & research",
-      "count": 1,
-      "description": "Design tools and prototyping with a research or usability testing connection."
-    },
-    {
       "name": "AI tool evaluation",
-      "count": 1,
+      "count": 2,
       "description": "Comparing, benchmarking, and selecting AI tools and LLMs for specific use cases."
+    },
+    {
+      "name": "AI for product management",
+      "count": 2,
+      "description": "AI in product decisions, discovery, prioritization, and roadmapping."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources and Google News this month."
