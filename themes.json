@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 17,
-      "description": "Covers AI agents designed to perform research tasks autonomously, including browsing, data gathering, and analysis."
+      "count": 26,
+      "description": "Articles discussing AI agents that can independently perform research tasks, interpret information, and execute actions within research workflows."
     },
     {
       "name": "AI coding assistants",
-      "count": 15,
-      "description": "Focuses on AI tools that help developers write, debug, and review code, improving productivity and quality."
+      "count": 20,
+      "description": "Content focused on AI tools that help developers write, debug, review, and understand code."
     },
     {
       "name": "AI research tools",
-      "count": 14,
-      "description": "Articles about specific AI applications and platforms designed to enhance various stages of the research process."
+      "count": 16,
+      "description": "Articles highlighting specific AI-powered software and platforms designed to assist in various research activities."
     },
     {
-      "name": "AI for design & research",
-      "count": 11,
-      "description": "Explores how AI is being integrated into the design and research workflows for product development."
+      "name": "AI-powered data analysis",
+      "count": 14,
+      "description": "Content related to AI techniques and tools used for analyzing large datasets, extracting insights, and identifying patterns."
     },
     {
       "name": "AI summarization",
-      "count": 9,
-      "description": "Discusses AI capabilities for condensing large amounts of text, data, or meeting transcripts into concise summaries."
+      "count": 12,
+      "description": "Articles focusing on AI's ability to condense long texts, research papers, or transcripts into concise summaries."
     },
     {
-      "name": "Conversational AI in research",
-      "count": 9,
-      "description": "Articles about using AI chatbots and conversational interfaces to conduct research, gather feedback, or assist users."
+      "name": "AI for product research",
+      "count": 11,
+      "description": "Discussions on how AI is applied to understand user needs, market trends, and inform product development decisions."
     },
     {
-      "name": "AI workforce impact",
+      "name": "AI usability testing",
+      "count": 10,
+      "description": "Articles about AI's role in automating, enhancing, or simulating usability testing processes."
+    },
+    {
+      "name": "AI customer insights",
+      "count": 9,
+      "description": "Content exploring how AI is used to gather and analyze data from customers to understand behavior and preferences."
+    },
+    {
+      "name": "AI for design & research",
       "count": 8,
-      "description": "Examines how AI is affecting job roles, skill requirements, and the overall labor market, particularly in research and development."
+      "description": "Articles that bridge the gap between AI applications in both the design and research phases of product development."
     },
     {
-      "name": "AI sentiment feedback",
-      "count": 6,
-      "description": "Covers AI applications used to analyze and understand user sentiment, opinions, and feedback from various sources."
-    },
-    {
-      "name": "AI for product management",
-      "count": 6,
-      "description": "Articles focusing on how AI can assist in product strategy, development, and decision-making processes."
-    },
-    {
-      "name": "AI ethics in research",
-      "count": 6,
-      "description": "Addresses the ethical considerations, challenges, and responsible development of AI in research and user experience."
+      "name": "AI recruitment research",
+      "count": 8,
+      "description": "Content related to AI's impact on job markets, hiring processes, and the skills required in the workforce."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
