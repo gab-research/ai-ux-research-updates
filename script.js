@@ -61,7 +61,7 @@
           '</div>';
       }
       fullContentHtml += '</div>';
-      inner += fullContentHtml + '<button type="button" class="update-toggle" aria-expanded="false" aria-controls="' + id + '">Read full content</button>';
+      inner += fullContentHtml + '<button type="button" class="update-toggle" aria-expanded="false" aria-controls="' + id + '">Show more</button>';
     }
 
     inner += renderSource(update.source);
@@ -75,7 +75,7 @@
           const isOpen = !contentEl.hidden;
           contentEl.hidden = isOpen;
           btn.setAttribute('aria-expanded', !isOpen);
-          btn.textContent = isOpen ? 'Read full content' : 'Show less';
+          btn.textContent = isOpen ? 'Show more' : 'Show less';
         });
       }
     }
