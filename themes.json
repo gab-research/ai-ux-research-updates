@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 77,
-      "description": "Articles discussing AI agents capable of performing research tasks autonomously or semi-autonomously, including their frameworks, infrastructure, and applications."
-    },
-    {
-      "name": "AI coding assistants",
-      "count": 38,
-      "description": "Content focused on AI tools that assist developers with writing, reviewing, and securing code, including specific models and their security implications."
-    },
-    {
-      "name": "AI summarization",
-      "count": 18,
-      "description": "Articles detailing AI's capability to condense large amounts of text, such as meeting transcripts, research papers, or video content, into concise summaries and insights."
-    },
-    {
-      "name": "AI for design & research",
-      "count": 16,
-      "description": "Content exploring AI's role in aiding UX/UI design processes, including UI generation, prototyping, and generating design system components."
-    },
-    {
-      "name": "AI customer insights",
-      "count": 15,
-      "description": "Articles covering how AI is used to understand consumer behavior, preferences, and sentiment, often through analysis of surveys and interactions."
+      "count": 67,
+      "description": "Articles discussing AI agents that can perform research tasks autonomously, make decisions, and interact with systems."
     },
     {
       "name": "AI research tools",
-      "count": 13,
-      "description": "Discussions on AI-powered tools designed to streamline or enhance various aspects of research, from literature reviews to data analysis."
+      "count": 40,
+      "description": "Articles focusing on specific AI-powered software and platforms designed to assist with various research activities."
+    },
+    {
+      "name": "AI coding assistants",
+      "count": 32,
+      "description": "Content related to AI tools that help developers write, debug, and review code."
+    },
+    {
+      "name": "AI summarization",
+      "count": 23,
+      "description": "Articles about AI capabilities for condensing large amounts of text, such as meeting notes, research papers, or transcripts, into concise summaries."
     },
     {
       "name": "AI for product management",
-      "count": 11,
-      "description": "Content on how AI is being applied to product development workflows, including strategy, conflict identification, and market research."
+      "count": 15,
+      "description": "Content related to how AI is being applied to improve product strategy, development, and management processes."
+    },
+    {
+      "name": "AI customer insights",
+      "count": 13,
+      "description": "Articles focusing on AI's role in analyzing customer data to derive actionable insights for businesses."
+    },
+    {
+      "name": "AI workforce impact",
+      "count": 13,
+      "description": "Discussions on how AI is affecting job markets, skill requirements, and employment trends."
+    },
+    {
+      "name": "AI for design & research",
+      "count": 12,
+      "description": "Content exploring AI applications specifically within the fields of UX/UI design and user research methodologies."
     },
     {
       "name": "AI chatbot research",
       "count": 11,
-      "description": "Articles focusing on the use of AI chatbots for research purposes, including shopping assistance, information gathering, and comparing AI models."
+      "description": "Articles specifically addressing the research aspects and applications of AI-powered chatbots."
     },
     {
-      "name": "AI tool evaluation",
-      "count": 10,
-      "description": "Content related to the comparison, review, and assessment of various AI tools and platforms for specific research or development tasks."
-    },
-    {
-      "name": "AI sentiment feedback",
-      "count": 9,
-      "description": "Articles addressing the use of AI to analyze and understand user sentiment from feedback, reviews, and online discussions."
+      "name": "AI for qualitative research",
+      "count": 11,
+      "description": "Content related to AI's application in analyzing and extracting insights from qualitative data, such as interviews and open-ended feedback."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."

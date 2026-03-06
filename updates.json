@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-03-06T10:00:15.611Z",
+  "lastUpdated": "2026-03-06T17:56:11.306Z",
   "updates": [
     {
       "date": "2026-03-06",
@@ -14,6 +14,30 @@
         "url": "https://cms.greatquestion.co/blog/ai-prompts-ux-research"
       },
       "analysis": "At Nubank, these AI prompts can be integrated across several research workflows. For instance, during the planning phase for a new feature on our personal loans product, a researcher could use an AI prompt to brainstorm potential user pain points or to generate a list of key research questions related to loan application friction. For participant recruitment, prompts can help draft screening questions for users interested in our PIX services or for those who have recently completed card activation.  When analyzing qualitative data from user interviews about our insurance offerings, AI can assist in identifying recurring themes or sentiment patterns, accelerating the synthesis process.\n\nResearchers should approach these prompts as a starting point, always critically evaluating and customizing them for Nubank's specific context and user base.  It's vital to remember that AI is a tool to augment human expertise, not replace it.  Guardrails are necessary to ensure data privacy and ethical considerations are paramount, especially when dealing with sensitive financial information related to onboarding or account management.  For example, when using AI for analysis, researchers must verify the generated insights against their own understanding and ensure no personally identifiable information is inadvertently exposed or misused.  The output should always be human-validated and interpreted within the broader strategic goals of Nubank."
+    },
+    {
+      "date": "2026-03-06",
+      "title": "Human Strategy In An AI-Accelerated Workflow",
+      "summary": "UX design is entering a new phase, with designers shifting from makers of outputs to directors of intent. AI can now generate wireframes, prototypes, and even design systems in minutes, but UX has never been only about creating interfaces. It’s about navigating ambiguity, advo...",
+      "content": "This article argues that AI's ability to rapidly generate design artifacts like wireframes and prototypes necessitates a strategic shift in UX design, from merely creating outputs to directing intent.  For UX researchers, this means focusing on higher-order thinking: understanding user problems, defining the 'why' behind design decisions, and navigating complex user needs that AI cannot currently grasp.  The practical implication is that researchers should leverage AI for its efficiency in task execution, freeing up their cognitive bandwidth to excel in areas like strategic problem-solving, complex user journey mapping, and ethical considerations.",
+      "category": "AI summarization",
+      "source": {
+        "name": "Smashing Magazine",
+        "url": "https://smashingmagazine.com/2026/03/human-strategy-ai-accelerated-workflow/"
+      },
+      "analysis": "At Nubank, this article's core idea – shifting from 'makers' to 'directors of intent' – directly impacts our research workflow. Instead of spending excessive time manually creating early-stage prototypes for testing simple flows like PIX transfers or card activation, researchers can utilize AI tools to generate these rapidly. This allows us to dedicate more time to understanding the nuanced user needs and pain points that arise during more complex processes, such as loan applications or insurance onboarding, where AI's current generative capabilities are less mature.\n\nResearchers should actively explore and pilot AI tools for generating initial design concepts or variations for features within the Nubank app. For example, we could use AI to rapidly iterate on different onboarding screens or present alternative layouts for credit card management. However, it's crucial to establish guardrails. AI-generated outputs should always be treated as starting points, rigorously validated through qualitative user interviews and usability testing, especially for sensitive financial products. We must remain the critical arbiters of user experience, ensuring that AI-assisted creations align with Nubank's commitment to simplicity, transparency, and user well-being, rather than simply prioritizing speed over thoughtful design."
+    },
+    {
+      "date": "2026-03-06",
+      "title": "How Balyasny Asset Management built an AI research engine for investing",
+      "summary": "See how Balyasny built an AI research system with GPT-5.4, rigorous model evaluation, and agent workflows to transform investment analysis at scale.",
+      "content": "This article details how Balyasny Asset Management leveraged advanced AI, including GPT-5.4, to create a sophisticated engine for investment research.  They integrated AI agents with robust model evaluation to automate and scale the complex process of analyzing financial markets. For UX researchers, this signifies a paradigm shift: AI can augment human analytical capabilities, enabling faster synthesis of vast datasets and identification of nuanced patterns that were previously time-consuming to uncover.  This has practical implications for understanding user behavior at scale, identifying emerging needs, and personalizing financial product experiences, moving beyond traditional qualitative methods to data-driven insights with unprecedented speed.",
+      "category": "Survey optimization",
+      "source": {
+        "name": "OpenAI Blog",
+        "url": "https://openai.com/index/balyasny-asset-management"
+      },
+      "analysis": "At Nubank, Balyasny's approach offers a powerful model for enhancing our research capabilities, particularly in analyzing large-scale qualitative and quantitative user feedback. Instead of relying solely on manual synthesis of survey responses, support tickets, or app store reviews, researchers could use AI agents to identify recurring pain points in areas like PIX transfers or loan application processes.  These agents could also help surface unexpected emergent needs from user conversations, informing future product iterations or new feature development, much like identifying market trends for investors.\n\nResearchers should apply this by experimenting with AI assistants to pre-process and categorize open-ended feedback. For instance, an AI could summarize common reasons for card activation issues or identify user sentiments around our onboarding flow.  This frees up researcher time for deeper analysis, hypothesis generation, and strategic recommendation.  However, it's crucial to maintain human oversight for critical interpretation, especially when dealing with sensitive user data related to loans or insurance.  AI should be seen as an augmentation tool, not a replacement for human empathy and critical judgment in understanding the complex financial lives of our customers."
     },
     {
       "date": "2026-03-05",
