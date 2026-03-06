@@ -769,7 +769,7 @@ async function main() {
 
       const category = inferCategory(title, description);
       byUrl.set(link, {
-        date: toISODate(pubDate),
+        date: existingEntry ? existingEntry.date : toISODate(pubDate),
         title,
         summary: summary || title,
         content: existingHasEnrichedContent ? existingEntry.content : (content || summary),
