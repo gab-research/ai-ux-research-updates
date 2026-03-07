@@ -3,54 +3,54 @@
   "updated": "2026-03-07",
   "themes": [
     {
-      "name": "Agentic AI in research",
-      "count": 51,
-      "description": "Focuses on AI agents that can perform research tasks autonomously, often involving complex workflows and decision-making."
+      "name": "Survey optimization",
+      "count": 43,
+      "description": "AI tools for designing better surveys, reducing bias, and analyzing responses."
     },
     {
       "name": "AI coding assistants",
       "count": 32,
-      "description": "Covers AI tools that assist developers in writing, debugging, and reviewing code."
+      "description": "Copilot, Claude Code, Cursor, and other AI tools for code generation and development."
     },
     {
-      "name": "AI workforce impact",
-      "count": 22,
-      "description": "Examines how AI is affecting jobs, hiring trends, and the skills required in the workforce."
+      "name": "Conversational AI in research",
+      "count": 31,
+      "description": "Chatbots, virtual assistants, and voice AI in research contexts."
     },
     {
       "name": "AI research tools",
-      "count": 19,
-      "description": "Highlights AI-powered platforms and software designed to facilitate and enhance various research activities."
+      "count": 30,
+      "description": "New AI tool launches, reviews, and platforms built for research workflows."
     },
     {
-      "name": "AI summarization",
-      "count": 17,
-      "description": "Deals with AI capabilities for condensing large amounts of text into concise summaries, often for research or meeting notes."
+      "name": "AI-powered data analysis",
+      "count": 29,
+      "description": "Automated data analysis, clustering, segmentation, and pattern detection."
+    },
+    {
+      "name": "AI workforce impact",
+      "count": 26,
+      "description": "AI replacing roles, future of work, skills gap, reskilling, and organizational change."
+    },
+    {
+      "name": "AI ethics in research",
+      "count": 21,
+      "description": "Bias, fairness, responsible AI, privacy, and trust in research."
+    },
+    {
+      "name": "Agentic AI in research",
+      "count": 18,
+      "description": "Autonomous AI agents running research tasks, multi-agent frameworks, and orchestration."
+    },
+    {
+      "name": "AI content generation",
+      "count": 14,
+      "description": "AI writing, report generation, UX copy, and content creation."
     },
     {
       "name": "AI for product management",
-      "count": 15,
-      "description": "Explores how AI is being applied to product development, strategy, and management processes."
-    },
-    {
-      "name": "AI for design & research",
-      "count": 14,
-      "description": "Covers AI applications that directly support the design and user research phases of product development."
-    },
-    {
-      "name": "Synthetic users",
-      "count": 12,
-      "description": "Discusses the creation and use of artificial user data or personas for testing and research purposes."
-    },
-    {
-      "name": "AI chatbot research",
-      "count": 11,
-      "description": "Focuses on research related to AI chatbots, their capabilities, limitations, and applications."
-    },
-    {
-      "name": "AI sentiment feedback",
-      "count": 10,
-      "description": "Covers the use of AI to analyze and understand user sentiment and feedback from various sources."
+      "count": 8,
+      "description": "AI in product decisions, discovery, prioritization, and roadmapping."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
