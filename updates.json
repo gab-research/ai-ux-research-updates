@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-03-08T09:01:08.647Z",
+  "lastUpdated": "2026-03-08T16:57:30.796Z",
   "updates": [
     {
       "date": "2026-03-07",
@@ -626,18 +626,6 @@
         "url": "https://www.producttalk.org/context-engineering/"
       },
       "analysis": "At Nubank, 'Context Engineering' can be integrated into our existing research workflows, particularly during the synthesis and ideation phases. For instance, when analyzing open-ended feedback from user surveys on PIX transactions or loan applications, researchers can feed anonymized, aggregated data into an LLM, pre-defined with our user segmentation models and Nubank's product design principles. This allows the AI to help identify emergent themes, summarize pain points, and even suggest potential areas for A/B testing or feature improvements in areas like card activation or insurance onboarding, significantly accelerating the insight generation process.\n\nResearchers should approach this by first clearly defining the 'context' for the AI, including relevant Nubank documentation, previous research findings, and specific user journey maps. It's crucial to establish clear guardrails, ensuring data privacy and anonymization are paramount. The AI should be treated as a powerful assistant, not a replacement for human judgment.  For example, while an LLM might draft initial hypotheses for improving the onboarding flow, the UX researcher must critically evaluate these, validate them with further research, and ensure they align with Nubank's ethical guidelines and user-centric principles before implementation."
-    },
-    {
-      "date": "2026-02-06",
-      "title": "Best 10 Looppanel Alternatives in 2026 for Qualitative Research",
-      "summary": "Teams turn to Looppanel mostly for interview analysis and AI-assisted qualitative work, but it’s no longer the only option. As UX research matures, many teams need tools that go beyond ... The post Best 10 Looppanel Alternatives in 2026 for Qualitative Research appeared first...",
-      "content": "Teams turn to Looppanel mostly for interview analysis and AI-assisted qualitative work, but it’s no longer the only option. As UX research matures, many teams need tools that go beyond ... The post Best 10 Looppanel Alternatives in 2026 for Qualitative Research appeared first on Articles on everything UX: Research, Testing & Design.",
-      "category": "Interview analysis",
-      "source": {
-        "name": "UX Tweak Blog",
-        "url": "https://blog.uxtweak.com/looppanel-alternatives/"
-      },
-      "analysis": "At Nubank, this article underscores the increasing importance of AI-powered qualitative analysis tools to augment our research capabilities, particularly as we scale our product offerings like PIX, personal loans, and digital insurance. Researchers should actively explore and pilot these Looppanel alternatives to streamline the analysis of large volumes of interview data gathered from customer feedback on critical flows such as card activation and onboarding.  This could significantly reduce the time spent on manual transcription and initial thematic coding, allowing for faster iteration cycles and more impactful insights presented to product teams.\n\nWhen applying these tools, it's crucial to maintain a human-in-the-loop approach. While AI can accelerate identification of themes and sentiment, researchers must critically review and validate AI-generated summaries and insights. We should establish clear guidelines for when and how to use these tools, ensuring that they supplement, rather than replace, deep qualitative interpretation.  For instance, when analyzing feedback related to a new loan application process, AI might flag common pain points, but a researcher’s nuanced understanding is vital to uncover the root causes and propose effective solutions, ensuring we uphold Nubank's commitment to excellent customer experience."
     }
   ]
 }
