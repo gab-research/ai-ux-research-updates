@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-03-09T05:14:13.941Z",
+  "lastUpdated": "2026-03-09T10:32:53.061Z",
   "updates": [
+    {
+      "date": "2026-03-09",
+      "title": "Design is not just how it works. Design is how it wins.",
+      "summary": "In the age of AI, “working” is a commodity while “winning” is the new mandate. Continue reading on UX Collective »",
+      "content": "This article argues that in the current AI-driven landscape, simply ensuring a product functions correctly is no longer sufficient for success. \"Winning\" now requires a deeper focus on user experience that differentiates and delights, moving beyond basic functionality. For UX researchers at Nubank, this means shifting our evaluation criteria from mere usability to how well our experiences create competitive advantages, drive customer loyalty, and achieve business objectives like increased engagement with features such as PIX or successful onboarding.  The practical implication is that our research must now proactively identify opportunities for superior user delight and competitive differentiation, rather than solely validating existing functionality.",
+      "category": "AI workforce impact",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/design-is-not-just-how-it-works-design-is-how-it-wins-862f4a46cd1a?source=rss----138adf9c44c---4"
+      },
+      "analysis": "At Nubank, this philosophy directly impacts our research into core product flows like PIX transactions, loan applications, and card activation. Instead of just confirming users can complete these tasks, we should be investigating *how* to make them demonstrably better and more engaging than competitors. This could involve testing novel micro-interactions during onboarding that foster trust, or researching user perceptions of speed and clarity in loan approval notifications. Our research questions should evolve to probe not just \"can they do it?\" but \"how can we make them *want* to do it with us, and how can we make it a delightful experience that keeps them coming back?\"\n\nTo operationalize this, researchers should prioritize generative research that uncovers unmet needs and aspirational user goals, not just problem-solving. When evaluating existing flows, such as the process for purchasing insurance, we need to look beyond error rates and task completion to measure emotional responses, perceived value, and moments of genuine delight or frustration. Guardrails are essential: while \"winning\" implies a competitive edge, it must always be grounded in ethical practices, user well-being, and delivering genuine value. We must avoid features that exploit user psychology for short-term gains if they compromise long-term trust or negatively impact financial health, especially in sensitive areas like credit and savings."
+    },
     {
       "date": "2026-03-07",
       "title": "AI UX Research: 2026 Methodologies & Analysis Methods",
