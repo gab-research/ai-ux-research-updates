@@ -3,54 +3,54 @@
   "updated": "2026-03-10",
   "themes": [
     {
-      "name": "Agentic AI in research",
-      "count": 87,
-      "description": "Articles discussing AI agents that can autonomously perform research tasks, make decisions, and execute workflows."
+      "name": "Survey optimization",
+      "count": 63,
+      "description": "AI tools for designing better surveys, reducing bias, and analyzing responses."
     },
     {
       "name": "AI coding assistants",
-      "count": 63,
-      "description": "Content focused on AI tools that assist developers in writing, reviewing, and debugging code."
+      "count": 48,
+      "description": "Copilot, Claude Code, Cursor, and other AI tools for code generation and development."
     },
     {
       "name": "AI research tools",
-      "count": 48,
-      "description": "Articles that review, recommend, or discuss various AI tools specifically for research purposes, including UX research."
+      "count": 46,
+      "description": "New AI tool launches, reviews, and platforms built for research workflows."
     },
     {
-      "name": "AI summarization",
-      "count": 29,
-      "description": "Content related to AI's ability to condense large amounts of text, such as meeting transcripts or research papers, into concise summaries."
+      "name": "AI workforce impact",
+      "count": 33,
+      "description": "AI replacing roles, future of work, skills gap, reskilling, and organizational change."
     },
     {
-      "name": "AI for product management",
-      "count": 19,
-      "description": "Articles focusing on how AI is used to assist in product strategy, development, and management tasks."
+      "name": "Agentic AI in research",
+      "count": 31,
+      "description": "Autonomous AI agents running research tasks, multi-agent frameworks, and orchestration."
     },
     {
-      "name": "AI sentiment feedback",
-      "count": 17,
-      "description": "Discussions about AI tools and techniques for analyzing user sentiment and feedback from various sources."
+      "name": "Conversational AI in research",
+      "count": 27,
+      "description": "Chatbots, virtual assistants, and voice AI in research contexts."
     },
     {
       "name": "AI-powered data analysis",
-      "count": 15,
-      "description": "Content related to using AI for analyzing datasets to derive insights and support decision-making."
+      "count": 24,
+      "description": "Automated data analysis, clustering, segmentation, and pattern detection."
     },
     {
-      "name": "AI for design & research",
-      "count": 14,
-      "description": "Articles exploring the intersection of AI with the design process and its application in research methodologies."
+      "name": "AI content generation",
+      "count": 10,
+      "description": "AI writing, report generation, UX copy, and content creation."
     },
     {
-      "name": "AI recruitment research",
-      "count": 13,
-      "description": "Research and analysis on the impact of AI on job markets, hiring, and the skills required for future roles."
+      "name": "AI for product management",
+      "count": 9,
+      "description": "AI in product decisions, discovery, prioritization, and roadmapping."
     },
     {
-      "name": "Synthetic users",
-      "count": 12,
-      "description": "Articles discussing the creation and use of artificial users, voices, or media for testing or research purposes."
+      "name": "Sentiment & feedback analysis",
+      "count": 8,
+      "description": "AI for NPS analysis, opinion mining, and customer feedback processing."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
