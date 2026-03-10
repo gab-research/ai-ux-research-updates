@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-03-10T05:04:45.152Z",
+  "lastUpdated": "2026-03-10T10:08:12.227Z",
   "updates": [
+    {
+      "date": "2026-03-10",
+      "title": "UX-Ray for Figma: Align Your Designs with Research-Backed UX Best Practices",
+      "summary": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) Key Takeaways New UX-Ray plugin for Figma applies Baymard’s large-scale research to your UX de...",
+      "content": "Baymard Institute's new UX-Ray plugin for Figma bridges the gap between design and evidence-based UX.  It leverages Baymard's extensive research into user experience best practices, directly integrating these insights into the Figma design environment.  This empowers designers and researchers to proactively identify and address potential UX issues early in the design process, rather than relying solely on post-design usability testing.  The plugin's core value lies in making complex, research-backed recommendations accessible and actionable, fostering a more user-centric design culture.",
+      "category": "General AI in research",
+      "source": {
+        "name": "Baymard Institute",
+        "url": "https://feeds.baymard.com/link/9825/17296693/ux-ray-for-figma"
+      },
+      "analysis": "At Nubank, UX-Ray can significantly enhance our existing research workflow by acting as a continuous layer of validation during the design phase. Before a PIX transfer flow or a new loan application design is handed off for in-depth user testing, researchers and designers can collaboratively run the UX-Ray plugin within Figma. This allows for immediate identification of common usability pitfalls that Baymard's research has consistently highlighted across various financial products, potentially saving valuable iteration time.\n\nResearchers should integrate UX-Ray as a proactive review step, perhaps during design critiques or before user testing is scheduled. For instance, when designing the onboarding flow for new users or the card activation process, UX-Ray could flag potential friction points related to form design, information architecture, or unclear calls to action. It's crucial to remember that UX-Ray is a tool to augment, not replace, comprehensive user research. Its recommendations are based on general best practices and might not capture the nuances of specific Nubank user segments or complex contextual behaviors, especially those unique to the Brazilian market. Therefore, findings from UX-Ray should be treated as hypotheses to be validated through our established user testing methodologies."
+    },
     {
       "date": "2026-03-09",
       "title": "Design is not just how it works. Design is how it wins.",
