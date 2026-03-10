@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-03-09T18:09:13.784Z",
+  "lastUpdated": "2026-03-10T05:04:45.152Z",
   "updates": [
     {
       "date": "2026-03-09",
@@ -14,6 +14,18 @@
         "url": "https://uxdesign.cc/design-is-not-just-how-it-works-design-is-how-it-wins-862f4a46cd1a?source=rss----138adf9c44c---4"
       },
       "analysis": "At Nubank, this philosophy directly impacts our research into core product flows like PIX transactions, loan applications, and card activation. Instead of just confirming users can complete these tasks, we should be investigating *how* to make them demonstrably better and more engaging than competitors. This could involve testing novel micro-interactions during onboarding that foster trust, or researching user perceptions of speed and clarity in loan approval notifications. Our research questions should evolve to probe not just \"can they do it?\" but \"how can we make them *want* to do it with us, and how can we make it a delightful experience that keeps them coming back?\"\n\nTo operationalize this, researchers should prioritize generative research that uncovers unmet needs and aspirational user goals, not just problem-solving. When evaluating existing flows, such as the process for purchasing insurance, we need to look beyond error rates and task completion to measure emotional responses, perceived value, and moments of genuine delight or frustration. Guardrails are essential: while \"winning\" implies a competitive edge, it must always be grounded in ethical practices, user well-being, and delivering genuine value. We must avoid features that exploit user psychology for short-term gains if they compromise long-term trust or negatively impact financial health, especially in sensitive areas like credit and savings."
+    },
+    {
+      "date": "2026-03-09",
+      "title": "We thought AI feedback was making our designers faster. It was making them shallower",
+      "summary": "The designs shipped faster; the designers grew more slowly. Continue reading on UX Collective »",
+      "content": "This article from UX Collective highlights a critical pitfall of integrating AI into design processes: the illusion of speed masking a decline in depth. While AI tools can accelerate the generation of design variations and preliminary feedback, they risk encouraging designers to settle for superficial improvements rather than engaging in deeper problem-solving and critical thinking. For UX researchers, this is crucial as it underscores the need to guide AI usage towards augmenting, not replacing, the nuanced understanding of user needs and motivations.  Ignoring this can lead to products that appear polished and are delivered quickly but ultimately fail to address underlying user pain points or drive meaningful innovation, impacting long-term user satisfaction and business goals.",
+      "category": "Sentiment & feedback analysis",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/we-thought-ai-feedback-was-making-our-designers-faster-it-was-making-them-shallower-853e41b257fb?source=rss----138adf9c44c---4"
+      },
+      "analysis": "At Nubank, this insight directly impacts our research workflow by emphasizing the need for intentional AI integration. Instead of solely relying on AI for initial ideation or sentiment analysis on early prototypes, researchers should leverage AI to expedite the *initial stages* of exploring design space (e.g., generating multiple variations for a PIX transaction flow or different onboarding screens) but immediately follow up with qualitative user testing to validate and deepen understanding.  This ensures we don't sacrifice the critical ‘why’ behind user behavior for the sake of rapid iteration.\n\nOur researchers should apply this by critically evaluating AI-generated feedback. For example, if an AI suggests an improvement to a loan application flow based on predicted user engagement, researchers must then conduct targeted user interviews or usability tests to understand the underlying user motivations for that preference.  This prevents us from building products that are superficially optimized but fundamentally flawed. Guardrails are essential: AI should serve as a co-pilot, not the pilot. We must actively train our researchers to identify when AI output is superficial and to prioritize in-depth qualitative exploration, especially for sensitive flows like insurance applications or complex credit card activation processes, where nuanced understanding is paramount."
     },
     {
       "date": "2026-03-07",
