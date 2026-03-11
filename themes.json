@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 71,
-      "description": "Articles focusing on AI agents performing research tasks autonomously or semi-autonomously."
+      "count": 100,
+      "description": "Articles focusing on AI agents that can autonomously perform research tasks, conduct complex workflows, and interact with tools or systems."
     },
     {
       "name": "AI coding assistants",
-      "count": 46,
-      "description": "Content discussing AI tools that help developers write, review, and debug code."
-    },
-    {
-      "name": "AI workforce impact",
-      "count": 34,
-      "description": "Research and analysis on how AI is changing jobs, roles, and the labor market."
+      "count": 55,
+      "description": "Content discussing AI tools and platforms that assist developers in writing, reviewing, debugging, and generating code."
     },
     {
       "name": "AI summarization",
-      "count": 25,
-      "description": "Articles about AI tools that condense large amounts of text into concise summaries, such as meeting notes or research papers."
+      "count": 29,
+      "description": "Articles on AI's ability to condense large amounts of text, such as meeting notes, transcripts, or research papers, into concise summaries."
+    },
+    {
+      "name": "AI for design & research",
+      "count": 27,
+      "description": "Tools and methods for leveraging AI in the design process, from UI generation to research synthesis and best practice alignment."
+    },
+    {
+      "name": "AI research tools",
+      "count": 24,
+      "description": "Articles about platforms and applications designed to support and enhance various aspects of the research lifecycle."
     },
     {
       "name": "AI recruitment research",
       "count": 21,
-      "description": "Studies and analyses on AI's role in identifying, matching, and recruiting candidates for open positions."
-    },
-    {
-      "name": "AI research tools comparison",
-      "count": 17,
-      "description": "Content that directly compares the features, performance, or use cases of different AI tools for research purposes."
-    },
-    {
-      "name": "AI design research",
-      "count": 13,
-      "description": "Explores how AI is being used to inform, generate, or analyze design decisions and processes."
-    },
-    {
-      "name": "AI customer insights",
-      "count": 24,
-      "description": "Articles on how AI is used to gather, analyze, and derive actionable insights from customer data and interactions."
-    },
-    {
-      "name": "AI for product management",
-      "count": 3,
-      "description": "Focuses on how AI can assist product managers in strategy, planning, and execution."
+      "description": "Research and tools exploring AI's impact on job markets, including potential job displacement and new roles."
     },
     {
       "name": "Synthetic users",
-      "count": 15,
-      "description": "Content related to the creation and use of AI-generated personas or data that mimic human users for testing or research."
+      "count": 16,
+      "description": "Discussions on AI-generated voices, avatars, and content that mimic human interaction for testing or simulation purposes."
+    },
+    {
+      "name": "AI sentiment & feedback",
+      "count": 16,
+      "description": "Content related to AI's application in analyzing customer sentiment, reviews, and qualitative feedback to derive insights."
+    },
+    {
+      "name": "AI usability testing",
+      "count": 11,
+      "description": "Articles focusing on AI-powered approaches for conducting usability tests and gathering feedback on products and interfaces."
+    },
+    {
+      "name": "AI-powered data analysis",
+      "count": 10,
+      "description": "Content covering AI's role in analyzing and interpreting complex datasets to extract actionable insights and trends."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."

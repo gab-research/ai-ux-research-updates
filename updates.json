@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-03-11T10:09:51.842Z",
+  "lastUpdated": "2026-03-11T18:37:16.511Z",
   "updates": [
     {
       "date": "2026-03-11",
@@ -38,6 +38,18 @@
         "url": "https://cms.greatquestion.co/blog/claude-skills-ux-research-assistant"
       },
       "analysis": "At Nubank, these Claude skills can be integrated into our existing research workflow to accelerate key stages. For instance, after conducting user interviews for new features like enhanced PIX transfer options or optimizing the loan application process, researchers can use Claude for automatic transcript cleaning and initial thematic coding. This would drastically cut down the hours spent on manual transcription review and early synthesis, allowing us to identify pain points and opportunities much faster. Similarly, when developing new onboarding flows for insurance products or refining our card activation experience, Claude can assist in generating diverse screener questions to recruit precisely the right participants.\n\nResearchers should approach these tools as powerful assistants, not replacements for critical thinking. While Claude can automate many initial steps, the final synthesis, interpretation of findings, and strategic recommendations still require human expertise. We need to establish clear guidelines for data privacy and security, ensuring sensitive user information is handled appropriately. It's crucial to train our researchers on how to effectively prompt Claude and critically evaluate its outputs.  For example, after generating insights on potential friction points in our credit card application flow, researchers must validate these AI-generated hypotheses through further qualitative or quantitative methods."
+    },
+    {
+      "date": "2026-03-11",
+      "title": "Conversations with Claude: Can You Conduct a Content Audit?",
+      "summary": "Audio Version ($) During one of our recent Claude Code Office Hours, a participant asked, \"Can we zoom out? Help me understand what I can use Claude Code for.\" This is a great question. I was so focused on how to help people set up Claude Code that I",
+      "content": "Teresa Torres's article explores the potential of AI language models like Claude to assist with content audits, a crucial but often time-consuming task in UX research.  The key idea is that AI can help researchers \"zoom out\" and gain a higher-level understanding of content, identifying themes, inconsistencies, and areas for improvement. This is significant for UX researchers as it can dramatically speed up the initial discovery phases of content analysis, freeing up valuable time for deeper strategic thinking and user validation. Practical implications include faster identification of content gaps or redundancies within product flows like credit card onboarding or insurance policy explanations, leading to more efficient content strategy development.",
+      "category": "AI coding assistants",
+      "source": {
+        "name": "Teresa Torres (Product Talk)",
+        "url": "https://www.producttalk.org/conversations-with-claude-content-audit/"
+      },
+      "analysis": "At Nubank, this capability can be integrated into our existing research workflow for product development and optimization, particularly for large-scale content evaluations. For instance, when auditing the language used across our PIX transfer flow, loan application processes, or even the card activation guide, Claude could help identify recurring jargon, complex phrasing, or inconsistent tone across different touchpoints. UX researchers could feed existing product copy into Claude, prompting it to summarize key themes, flag jargon, or suggest more accessible alternatives. This could be invaluable before launching new features or updating existing ones, ensuring clarity and a consistent brand voice.\n\nResearchers should approach this as an augmentation tool, not a replacement for human judgment. While Claude can efficiently process and summarize large volumes of text, the nuanced understanding of user context, emotional tone, and strategic business goals still rests with the human researcher. We must establish clear guardrails: always critically review Claude's outputs, cross-reference findings with actual user data (interviews, usability tests), and ensure sensitive customer information is handled with utmost privacy and security. For example, when analyzing loan agreement language, Claude might highlight complex sentences, but a researcher must determine if that complexity is legally mandated or if user-friendly alternatives exist that still meet compliance requirements. The focus should remain on leveraging AI to accelerate the initial stages of content understanding, allowing researchers to dedicate more energy to user-centric validation and strategic content decisions."
     },
     {
       "date": "2026-03-10",
