@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-03-12T05:09:18.419Z",
+  "lastUpdated": "2026-03-12T10:10:56.333Z",
   "updates": [
+    {
+      "date": "2026-03-12",
+      "title": "Best AI tools for UX research in 2026",
+      "summary": "Compare the top AI-powered research tools for 2026. Real case studies from ServiceNow, Brex, and Asana. Decision framework included.",
+      "content": "This article from Great Question Blog explores the cutting edge of AI applications within UX research for 2026, presenting a curated list of leading tools.  It highlights how AI can significantly enhance efficiency and depth in understanding user behaviors and needs, a critical factor for UX researchers aiming to build intuitive and effective digital products. The inclusion of real-world case studies from major tech companies demonstrates the practical benefits and ROI of adopting these AI-driven solutions, offering a decision framework to guide researchers in selecting the most suitable tools for their specific contexts.",
+      "category": "AI tool evaluation",
+      "source": {
+        "name": "Great Question Blog",
+        "url": "https://cms.greatquestion.co/blog/best-ai-tools-ux-research-2026"
+      },
+      "analysis": "This resource is highly relevant for Nubank's research team as we continuously seek to optimize our understanding of user needs across our diverse product portfolio, from PIX transactions to loan applications and credit card onboarding. The article's insights on AI-powered tools can help us accelerate qualitative data analysis, identify emerging user pain points in areas like insurance claims, and personalize user journey mapping more effectively.\n\nResearchers at Nubank should proactively explore these AI tools to augment, not replace, their current methodologies. For instance, AI could assist in sentiment analysis of customer feedback related to card activation issues or quickly surface themes from open-ended survey responses about new feature adoption. It's crucial to maintain human oversight and critical judgment, ensuring AI outputs are validated through traditional research methods and don't introduce bias into our understanding, particularly when developing sensitive financial products."
+    },
     {
       "date": "2026-03-11",
       "title": "Great Question vs Maze: prototype testing and beyond",

@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 43,
-      "description": "Articles discussing AI agents that can autonomously perform research tasks, including publishing and reviewing findings."
+      "count": 109,
+      "description": "Articles focusing on autonomous AI agents performing research tasks, from data collection to analysis."
     },
     {
       "name": "AI coding assistants",
-      "count": 26,
-      "description": "Content focused on AI tools that assist developers with writing, reviewing, and analyzing code."
-    },
-    {
-      "name": "AI research tools",
-      "count": 21,
-      "description": "Articles about AI-powered platforms and tools specifically designed to aid in various research activities."
-    },
-    {
-      "name": "AI summarization",
-      "count": 16,
-      "description": "Content related to AI's ability to condense large amounts of text, such as meeting notes or research papers, into concise summaries."
-    },
-    {
-      "name": "AI workforce impact",
-      "count": 15,
-      "description": "Articles exploring how AI is affecting job roles, skills, and the overall labor market, often through research studies."
-    },
-    {
-      "name": "AI-powered data analysis",
-      "count": 14,
-      "description": "Discussions on using AI for analyzing data, extracting insights, and driving business intelligence."
+      "count": 75,
+      "description": "Content related to AI tools that assist developers in writing, reviewing, and debugging code."
     },
     {
       "name": "Synthetic users",
-      "count": 14,
-      "description": "Articles focusing on the creation and detection of AI-generated voices, avatars, and content that mimics human users."
+      "count": 28,
+      "description": "Discussions around AI-generated content, voices, or personas used to simulate user interactions or create synthetic media."
     },
     {
-      "name": "AI for design & research",
+      "name": "AI recruitment research",
+      "count": 27,
+      "description": "Research and articles specifically on how AI impacts job markets, potential job displacement, and hiring processes."
+    },
+    {
+      "name": "AI research tools",
+      "count": 26,
+      "description": "Articles that review, compare, or discuss a variety of AI-powered tools designed for research purposes."
+    },
+    {
+      "name": "AI summarization",
+      "count": 22,
+      "description": "Content focused on AI's ability to condense large amounts of text, such as meeting notes or research papers, into concise summaries."
+    },
+    {
+      "name": "AI chatbot research",
+      "count": 21,
+      "description": "Articles investigating the capabilities, risks, and applications of AI chatbots in user interactions and research."
+    },
+    {
+      "name": "AI sentiment feedback",
+      "count": 13,
+      "description": "Topics concerning the use of AI to analyze sentiment and feedback from various sources, such as reviews or market data."
+    },
+    {
+      "name": "AI product research",
       "count": 12,
-      "description": "Content exploring how AI tools and techniques are being applied to enhance design processes and research methodologies."
+      "description": "Discussions on how AI is being applied in the development, analysis, and market positioning of products."
     },
     {
-      "name": "AI research platform",
-      "count": 10,
-      "description": "Articles introducing or discussing platforms specifically built for AI research, development, and deployment."
-    },
-    {
-      "name": "AI usability testing",
-      "count": 9,
-      "description": "Discussions on using AI to automate or enhance usability testing processes for digital products."
+      "name": "AI survey tools",
+      "count": 12,
+      "description": "Articles focusing on AI-powered platforms and techniques for creating, distributing, and analyzing surveys."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
