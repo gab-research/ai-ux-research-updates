@@ -1,56 +1,56 @@
 {
   "month": "2026-03",
-  "updated": "2026-03-11",
+  "updated": "2026-03-12",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 100,
-      "description": "Articles focusing on AI agents that can autonomously perform research tasks, conduct complex workflows, and interact with tools or systems."
+      "count": 43,
+      "description": "Articles discussing AI agents that can autonomously perform research tasks, including publishing and reviewing findings."
     },
     {
       "name": "AI coding assistants",
-      "count": 55,
-      "description": "Content discussing AI tools and platforms that assist developers in writing, reviewing, debugging, and generating code."
-    },
-    {
-      "name": "AI summarization",
-      "count": 29,
-      "description": "Articles on AI's ability to condense large amounts of text, such as meeting notes, transcripts, or research papers, into concise summaries."
-    },
-    {
-      "name": "AI for design & research",
-      "count": 27,
-      "description": "Tools and methods for leveraging AI in the design process, from UI generation to research synthesis and best practice alignment."
+      "count": 26,
+      "description": "Content focused on AI tools that assist developers with writing, reviewing, and analyzing code."
     },
     {
       "name": "AI research tools",
-      "count": 24,
-      "description": "Articles about platforms and applications designed to support and enhance various aspects of the research lifecycle."
-    },
-    {
-      "name": "AI recruitment research",
       "count": 21,
-      "description": "Research and tools exploring AI's impact on job markets, including potential job displacement and new roles."
+      "description": "Articles about AI-powered platforms and tools specifically designed to aid in various research activities."
     },
     {
-      "name": "Synthetic users",
+      "name": "AI summarization",
       "count": 16,
-      "description": "Discussions on AI-generated voices, avatars, and content that mimic human interaction for testing or simulation purposes."
+      "description": "Content related to AI's ability to condense large amounts of text, such as meeting notes or research papers, into concise summaries."
     },
     {
-      "name": "AI sentiment & feedback",
-      "count": 16,
-      "description": "Content related to AI's application in analyzing customer sentiment, reviews, and qualitative feedback to derive insights."
-    },
-    {
-      "name": "AI usability testing",
-      "count": 11,
-      "description": "Articles focusing on AI-powered approaches for conducting usability tests and gathering feedback on products and interfaces."
+      "name": "AI workforce impact",
+      "count": 15,
+      "description": "Articles exploring how AI is affecting job roles, skills, and the overall labor market, often through research studies."
     },
     {
       "name": "AI-powered data analysis",
+      "count": 14,
+      "description": "Discussions on using AI for analyzing data, extracting insights, and driving business intelligence."
+    },
+    {
+      "name": "Synthetic users",
+      "count": 14,
+      "description": "Articles focusing on the creation and detection of AI-generated voices, avatars, and content that mimics human users."
+    },
+    {
+      "name": "AI for design & research",
+      "count": 12,
+      "description": "Content exploring how AI tools and techniques are being applied to enhance design processes and research methodologies."
+    },
+    {
+      "name": "AI research platform",
       "count": 10,
-      "description": "Content covering AI's role in analyzing and interpreting complex datasets to extract actionable insights and trends."
+      "description": "Articles introducing or discussing platforms specifically built for AI research, development, and deployment."
+    },
+    {
+      "name": "AI usability testing",
+      "count": 9,
+      "description": "Discussions on using AI to automate or enhance usability testing processes for digital products."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."

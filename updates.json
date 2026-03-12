@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-03-11T18:37:16.511Z",
+  "lastUpdated": "2026-03-12T05:09:18.419Z",
   "updates": [
     {
       "date": "2026-03-11",
@@ -53,7 +53,7 @@
     },
     {
       "date": "2026-03-10",
-      "title": "From raw interaction to reusable knowledge: Rethinking memory for AI agents",
+      "title": "PlugMem: Transforming raw agent interactions into reusable knowledge",
       "summary": "It seems counterintuitive: giving AI agents more memory can make them less effective. As interaction logs accumulate, they grow large, fill with irrelevant content, and become increasingly difficult to use. More memory means that agents must search through larger volumes of pa...",
       "content": "This Microsoft Research article highlights a fundamental challenge in AI development: simply increasing memory capacity for AI agents can paradoxically degrade their performance. As interaction data grows, it becomes a noisy, unwieldy burden, hindering efficient retrieval of relevant information. For UX researchers, this means that sophisticated AI tools for analyzing user feedback, like those processing customer interactions for PIX transactions or loan applications, need intelligent memory management. The implication is that effective AI in UX research relies not just on vast storage, but on sophisticated mechanisms for filtering, prioritizing, and retrieving pertinent insights from accumulated data, ensuring AI assistants can provide actionable recommendations rather than getting lost in the noise.",
       "category": "General AI in research",
