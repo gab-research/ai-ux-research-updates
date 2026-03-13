@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-03-13T10:00:57.538Z",
+  "lastUpdated": "2026-03-13T17:54:00.416Z",
   "updates": [
     {
       "date": "2026-03-12",
@@ -746,42 +746,6 @@
         "url": "https://openai.com/index/introducing-gpt-5-3-codex-spark"
       },
       "analysis": "At Nubank, GPT-5.3-Codex-Spark can be integrated into our research workflow to accelerate the creation of high-fidelity interactive prototypes, especially for complex features like onboarding flows or new insurance product interfaces. Researchers can leverage its real-time coding to quickly build functional mockups that closely mimic the user experience of existing Nubank products, allowing for earlier and more frequent user testing.  This could also empower researchers to automate the generation of code for data visualization dashboards, providing quicker insights into user behavior patterns observed during card activation or credit limit application processes.  A key guardrail will be ensuring that generated code is rigorously reviewed for security vulnerabilities and accurately reflects the intended user experience, especially when dealing with sensitive financial operations like PIX transactions. Researchers must also be mindful of the potential for over-reliance on AI, ensuring critical thinking and qualitative insights remain central to our research methodologies."
-    },
-    {
-      "date": "2026-02-11",
-      "title": "Designing For Agentic AI: Practical UX Patterns For Control, Consent, And Accountability",
-      "summary": "Autonomy is an output of a technical system. Trustworthiness is an output of a design process. Here are concrete design patterns, operational frameworks, and organizational practices for building agentic systems that are not only powerful but also transparent, controllable, an...",
-      "content": "Autonomy is an output of a technical system. Trustworthiness is an output of a design process. Here are concrete design patterns, operational frameworks, and organizational practices for building agentic systems that are not only powerful but also transparent, controllable, and trustworthy.",
-      "category": "AI ethics in research",
-      "source": {
-        "name": "Smashing Magazine",
-        "url": "https://smashingmagazine.com/2026/02/designing-agentic-ai-practical-ux-patterns/"
-      },
-      "analysis": "At Nubank, this article directly informs our research on AI-powered features, particularly in sensitive areas like PIX transactions, loan applications, and even our onboarding flows. Researchers should integrate \"agentic AI\" design patterns into early ideation and prototyping. When designing features like automated credit limit adjustments or personalized financial advice, we must prioritize research methodologies that test user understanding of AI actions, their ability to override decisions (e.g., a suggested PIX recipient), and clear explanations of *why* the AI took a specific action. This is crucial for maintaining trust, especially when dealing with financial products where errors can have significant consequences.\n\nTo apply this, researchers should develop frameworks for evaluating the transparency of our AI's decision-making processes across products like credit card activation or insurance claims. This involves asking: Is the user aware an AI is involved? Can they understand its reasoning? Do they have clear opt-out or modification options? We need to actively explore user mental models around AI autonomy to identify potential points of confusion or distrust, ensuring that guardrails are in place to prevent unintended consequences and that accountability for AI actions is clearly defined and communicated to the user, much like we do with explicit confirmations for PIX transfers."
-    },
-    {
-      "date": "2026-02-11",
-      "title": "UXtweak & WIAA join forces to strengthen the global IA community",
-      "summary": "We are partnering with the World Information Architecture Association (WIAA)! WIAA is a global nonprofit dedicated to advancing the discipline of information architecture – the foundation of every great user ... The post UXtweak & WIAA join forces to strengthen the global IA c...",
-      "content": "We are partnering with the World Information Architecture Association (WIAA)! WIAA is a global nonprofit dedicated to advancing the discipline of information architecture – the foundation of every great user ... The post UXtweak & WIAA join forces to strengthen the global IA community appeared first on Articles on everything UX: Research, Testing & Design.",
-      "category": "AI in user testing",
-      "source": {
-        "name": "UX Tweak Blog",
-        "url": "https://blog.uxtweak.com/uxtweak-wiaa/"
-      },
-      "analysis": "This partnership between UXtweak and WIAA directly impacts our work at Nubank by reinforcing the importance of robust information architecture in our product design and research processes. Researchers can leverage this to advocate for stronger IA principles during user interviews, usability testing, and heuristic evaluations for features like card activation or insurance onboarding.  Specifically, when analyzing user flows for PIX transactions or loan applications, we should focus on how well users can navigate and find information, ensuring clear labeling and logical categorization aligns with IA best practices. This partnership encourages us to integrate IA assessments more systematically into our research, potentially utilizing UXtweak's platform to analyze user behavior related to information discovery and comprehension.\n\nWhen applying this, researchers should proactively seek to understand and document the information architecture of the products they are researching, regardless of the specific feature (e.g., personal loans, credit card management, or onboarding). This means asking questions about how users expect to find information, identifying any points of confusion related to navigation or labeling, and noting opportunities for IA improvements. It's crucial to remember that while IA is foundational, it's one piece of the larger UX puzzle. Therefore, any IA recommendations should be contextualized within the overall user experience and validated through further research, ensuring they contribute to a holistic and positive user journey across all Nubank products."
-    },
-    {
-      "date": "2026-02-11",
-      "title": "Context Engineering: 5 Familiar Strategies from Real Product Teams",
-      "summary": "Audio Version ($) I've been getting a lot of questions about why I'm diving so deep into Claude Code. So I want to take a step back and provide some context. Last March, when I started building my first AI product—the Product Talk Interview Coach",
-      "content": "This article introduces \"Context Engineering,\" a framework for effectively utilizing AI, specifically large language models like Claude, in product development.  The core idea is to provide AI with the necessary background information and constraints to generate more relevant and useful outputs, moving beyond simple prompt-response interactions. For UX researchers, this is crucial as it allows us to leverage AI for more sophisticated analysis of user feedback, generative ideation for new features, and even personalized user journey mapping.  Practically, it means framing AI requests with specific project goals, user archetypes, and desired outcomes, enabling more powerful AI-assisted research tasks.",
-      "category": "Interview analysis",
-      "source": {
-        "name": "Teresa Torres (Product Talk)",
-        "url": "https://www.producttalk.org/context-engineering/"
-      },
-      "analysis": "At Nubank, Context Engineering can be integrated into our existing research workflow by enhancing how we utilize AI for synthesizing qualitative data and generating user personas. For example, when analyzing user feedback from PIX transactions or loan applications, researchers can \"engineer the context\" for an AI by providing it with anonymized verbatims, the specific pain points we're investigating (e.g., complexity in loan disclosure), and the target user segment. This allows the AI to generate a more focused summary of themes, identify subtle usability issues, or even draft initial persona descriptions based on aggregated user language, saving significant manual synthesis time. This approach can be applied to understanding friction points in onboarding flows, analyzing feedback on card activation, or even ideating on new insurance product features.\n\nWhen applying Context Engineering, it's vital to establish clear guardrails. Researchers must always critically evaluate AI-generated insights, treating them as hypotheses to be validated, not definitive truths. We should avoid inputting sensitive customer PII directly into AI tools and instead rely on aggregated and anonymized data. Furthermore, researchers need to be mindful of potential AI biases and ensure the context provided doesn't inadvertently steer the AI towards reinforcing existing assumptions. The goal is to augment human expertise and creativity, not replace it, ensuring our research remains grounded in user reality and ethical considerations."
     }
   ]
 }
