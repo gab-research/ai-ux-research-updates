@@ -1,56 +1,56 @@
 {
   "month": "2026-03",
-  "updated": "2026-03-12",
+  "updated": "2026-03-13",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 45,
-      "description": "Covers AI agents designed to autonomously perform research tasks, including data collection, analysis, and experimentation."
+      "count": 77,
+      "description": "Articles discussing AI agents that can autonomously perform research tasks, make decisions, and interact with tools or environments."
     },
     {
       "name": "AI coding assistants",
-      "count": 41,
-      "description": "Focuses on AI tools that assist developers with writing, debugging, reviewing, and generating code."
-    },
-    {
-      "name": "AI summarization",
-      "count": 21,
-      "description": "Articles discussing AI's ability to condense large amounts of text, such as meeting notes, research papers, or user feedback, into concise summaries."
+      "count": 33,
+      "description": "Content focused on AI tools that assist developers in writing, debugging, reviewing, or generating code."
     },
     {
       "name": "AI research tools",
-      "count": 19,
-      "description": "Encompasses AI-powered tools and platforms specifically designed to aid user researchers in various aspects of their work."
+      "count": 27,
+      "description": "Discussion and reviews of specific AI-powered tools designed to aid in various research processes, from data analysis to literature reviews."
     },
     {
-      "name": "AI chatbot research",
-      "count": 19,
-      "description": "Explores the use, capabilities, and implications of AI chatbots in research, user interaction, and information retrieval."
-    },
-    {
-      "name": "AI for design and research",
-      "count": 14,
-      "description": "Examines how AI is being integrated into design processes and workflows to enhance creativity and efficiency in research."
+      "name": "AI workforce impact",
+      "count": 26,
+      "description": "Articles exploring how AI is affecting jobs, skills, and employment landscapes, including research on potential job displacement and evolution."
     },
     {
       "name": "AI sentiment feedback",
-      "count": 12,
-      "description": "Covers AI applications for analyzing and understanding user sentiment and feedback from various sources."
+      "count": 21,
+      "description": "Content related to AI's ability to analyze user sentiment, reviews, and feedback to derive insights."
     },
     {
-      "name": "AI recruitment research",
-      "count": 11,
-      "description": "Focuses on how AI is used in the recruitment process, including identifying candidates, assessing skills, and analyzing job market impacts."
+      "name": "AI summarization",
+      "count": 17,
+      "description": "Focuses on AI's capabilities in condensing large amounts of text, such as meeting notes, transcripts, or research papers, into concise summaries."
+    },
+    {
+      "name": "AI testing automation",
+      "count": 14,
+      "description": "Articles discussing AI's role in automating testing processes, including software testing, product testing, and quality assurance."
     },
     {
       "name": "AI usability testing",
-      "count": 10,
-      "description": "Discusses the use of AI to automate or enhance usability testing processes for digital products and services."
+      "count": 13,
+      "description": "Content related to using AI to streamline or enhance the process of usability testing for products and interfaces."
     },
     {
-      "name": "AI customer insights",
-      "count": 10,
-      "description": "Articles that explore how AI is used to gather, analyze, and derive insights from customer data and behavior."
+      "name": "AI for product management",
+      "count": 12,
+      "description": "Focuses on how AI is being applied to assist product managers with tasks like strategy, research, and decision-making."
+    },
+    {
+      "name": "Synthetic users",
+      "count": 11,
+      "description": "Articles exploring the use and detection of AI-generated or synthetic personas and voices in research and user interaction contexts."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
