@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-03-14T09:06:08.000Z",
+  "lastUpdated": "2026-03-14T17:03:00.636Z",
   "updates": [
     {
       "date": "2026-03-13",
@@ -746,30 +746,6 @@
         "url": "https://openai.com/index/scaling-social-science-research"
       },
       "analysis": "At Nubank, GABRIEL can be integrated into our existing research workflow, particularly for analyzing post-onboarding feedback or open-ended questions in large-scale surveys related to PIX adoption or loan application experiences. Researchers can feed raw textual data, such as comments from a recent card activation survey or feedback on our insurance offerings, into GABRIEL to extract themes, sentiment scores, and frequency counts. This will dramatically accelerate the synthesis phase, allowing us to identify systemic issues and opportunities more rapidly than manual coding allows.\n\nTo apply this, researchers should first define clear research questions and desired quantitative outputs. For example, instead of manually tagging 'difficulty with PIX transfer,' GABRIEL could quantify 'user friction points in PIX transfer' by identifying recurring negative sentiment and specific keywords. However, it's crucial to remember that GABRIEL is a tool to augment, not replace, human judgment. Researchers must validate the AI's outputs by performing their own qualitative review of a sample of the data and be mindful of potential biases inherent in large language models, especially when dealing with nuanced user language or specific Brazilian cultural contexts.  Guardrails should include established protocols for data anonymization before input and a final human-in-the-loop review to ensure accuracy and contextual understanding, especially for sensitive areas like loan rejections or fraud reporting."
-    },
-    {
-      "date": "2026-02-12",
-      "title": "Gemini 3 Deep Think: Advancing science, research and engineering",
-      "summary": "We’re releasing a major upgrade to Gemini 3 Deep Think, our specialized reasoning mode.",
-      "content": "Google's Gemini 3 Deep Think represents a significant leap in specialized AI reasoning capabilities.  This upgraded model is designed to tackle more complex problems, enhance scientific discovery, and accelerate engineering processes. For UX researchers, this means access to more sophisticated analytical tools that can help uncover deeper insights from qualitative data, predict user behavior with greater accuracy, and even assist in generating novel research hypotheses. Practically, this could translate to faster and more nuanced understanding of user pain points during critical flows like onboarding or insurance claims, ultimately leading to more innovative product solutions.",
-      "category": "General AI in research",
-      "source": {
-        "name": "Google AI Blog",
-        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/"
-      },
-      "analysis": "At Nubank, Gemini 3 Deep Think can be integrated into our qualitative data analysis workflows, particularly for large volumes of open-ended feedback from user interviews or app reviews related to PIX transactions or loan applications. Researchers can leverage its advanced reasoning to identify nuanced patterns, sentiment shifts, and unmet needs that might be missed by traditional methods.  For instance, it could help us quickly synthesize feedback on card activation issues or understand subtle frustrations during the account opening process. This enhanced understanding can then inform more targeted ideation and design sprints. \n\nResearchers should approach Gemini 3 Deep Think as an augmentation tool, not a replacement for human judgment. While it can excel at pattern recognition and hypothesis generation, it's crucial to validate its findings through traditional qualitative methods and user testing.  Guardrails should include ensuring data privacy and anonymization, especially when dealing with sensitive customer information. Furthermore, researchers must maintain critical oversight, understanding that AI-generated insights are hypotheses that require empirical validation to ensure they truly reflect the user experience and align with Nubank's commitment to simplicity and transparency."
-    },
-    {
-      "date": "2026-02-12",
-      "title": "Introducing GPT-5.3-Codex-Spark",
-      "summary": "Introducing GPT-5.3-Codex-Spark—our first real-time coding model. 15x faster generation, 128k context, now in research preview for ChatGPT Pro users.",
-      "content": "OpenAI's GPT-5.3-Codex-Spark marks a significant leap in real-time coding capabilities, boasting 15x faster generation and an expansive 128k context window. This advancement is particularly relevant for UX researchers as it opens new avenues for automating and accelerating tasks previously requiring extensive manual effort or specialized coding skills.  Imagine quickly generating code snippets for interactive prototypes, performing sophisticated data analysis on user feedback, or even creating dynamic visualizations of research findings, all with unprecedented speed and efficiency. The research preview for ChatGPT Pro users suggests a future where AI coding assistants are seamlessly integrated into our research toolkits, democratizing advanced capabilities and freeing up valuable researcher time for strategic insights and higher-level problem-solving.",
-      "category": "AI content generation",
-      "source": {
-        "name": "OpenAI Blog",
-        "url": "https://openai.com/index/introducing-gpt-5-3-codex-spark"
-      },
-      "analysis": "At Nubank, GPT-5.3-Codex-Spark can be integrated to significantly enhance our research workflows, particularly in areas requiring rapid iteration and data manipulation. For instance, researchers working on improving the PIX transfer flow could use it to quickly generate A/B test variations of UI elements or script automated tests for new features. Similarly, when analyzing large volumes of qualitative feedback from loan applications or card activation processes, Codex-Spark could help us parse, categorize, and even summarize themes with remarkable speed, drastically reducing the time spent on manual data wrangling. This will allow us to deliver insights faster to product teams.\n\nResearchers should leverage this tool for generating code for interactive prototypes, developing custom scripts for data analysis of user session recordings or survey responses, and potentially for building quick tools to visualize complex user journey data. However, we must establish clear guardrails. All generated code should undergo rigorous peer review and security audits before deployment, especially when dealing with sensitive user data or integrating into production environments. Researchers should focus on using it as an accelerator for well-defined tasks, not as a replacement for fundamental research design principles or critical thinking. For example, while it can help analyze feedback on our onboarding flow, the researcher still needs to define the analysis criteria and interpret the output within the context of user experience goals."
     }
   ]
 }
