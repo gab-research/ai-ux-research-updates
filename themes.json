@@ -1,56 +1,56 @@
 {
   "month": "2026-03",
-  "updated": "2026-03-13",
+  "updated": "2026-03-14",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 78,
-      "description": "Articles discussing AI agents designed to autonomously perform research tasks, from data analysis to content generation and execution of workflows."
+      "count": 93,
+      "description": "Articles focusing on AI agents that can autonomously perform research tasks, interact with tools, and collaborate."
     },
     {
       "name": "AI coding assistants",
-      "count": 58,
-      "description": "Content focusing on AI tools that assist developers in writing, reviewing, and debugging code."
-    },
-    {
-      "name": "AI research tools",
-      "count": 48,
-      "description": "Articles about platforms, software, and frameworks designed to facilitate and enhance various aspects of research processes using AI."
+      "count": 50,
+      "description": "Content related to AI tools that help developers write, debug, and understand code."
     },
     {
       "name": "AI summarization",
       "count": 30,
-      "description": "Publications detailing AI applications for condensing large amounts of text, audio, or video into concise summaries."
+      "description": "Articles detailing AI capabilities in condensing large amounts of text into concise summaries, useful for research and insights."
     },
     {
-      "name": "AI workforce impact",
-      "count": 28,
-      "description": "Research and discussions on how AI is affecting job roles, recruitment, and the skills required in the workforce."
-    },
-    {
-      "name": "AI usability testing",
-      "count": 14,
-      "description": "Content related to using AI to automate, enhance, or conduct usability testing for products and services."
-    },
-    {
-      "name": "AI qualitative research",
-      "count": 25,
-      "description": "Articles discussing the application of AI in qualitative research methods, such as interviews and sentiment analysis."
+      "name": "AI research tools",
+      "count": 29,
+      "description": "General discussion and lists of AI-powered tools designed to aid in various aspects of user research."
     },
     {
       "name": "AI sentiment feedback",
-      "count": 16,
-      "description": "Focuses on AI tools and methods for analyzing user sentiment and feedback from various sources."
+      "count": 26,
+      "description": "Content exploring how AI analyzes and interprets user feedback, opinions, and emotions from text or other data sources."
     },
     {
       "name": "AI chatbot research",
-      "count": 18,
-      "description": "Articles specifically examining the development, capabilities, risks, and applications of AI chatbots in research and user interaction."
+      "count": 25,
+      "description": "Articles focused on the research, development, and implications of AI chatbots, including their capabilities and limitations."
     },
     {
-      "name": "AI product research",
-      "count": 19,
-      "description": "Content related to using AI for market research, product development insights, and understanding product lifecycles."
+      "name": "AI for product management",
+      "count": 15,
+      "description": "How AI is being applied to product management tasks, including strategy, roadmap development, and conflict resolution."
+    },
+    {
+      "name": "AI usability testing",
+      "count": 13,
+      "description": "Content on using AI to automate or enhance the process of testing the usability of products and designs."
+    },
+    {
+      "name": "AI design research",
+      "count": 11,
+      "description": "Articles discussing how AI is influencing and being used within the design process for UX and product development."
+    },
+    {
+      "name": "AI workforce impact",
+      "count": 11,
+      "description": "Research and discussion on how AI affects jobs, employment, and the skills needed in the modern workforce."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
