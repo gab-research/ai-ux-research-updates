@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-03-15T17:02:19.456Z",
+  "lastUpdated": "2026-03-16T06:06:56.230Z",
   "updates": [
     {
       "date": "2026-03-13",
@@ -722,18 +722,6 @@
         "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260216"
       },
       "analysis": "At Nubank, these insights are highly relevant for optimizing our research operations and staying ahead of the curve. The \"AI coding wins complete dominance\" suggests we should explore AI-powered tools for tasks like generating user persona drafts, summarizing interview transcripts, or even creating initial UI mockups for A/B testing. This can significantly speed up the research process, allowing us to iterate faster on features like the PIX flow or the card activation experience.  For example, researchers could use AI to quickly analyze feedback from thousands of users on a new loan application interface.\n\nRegarding \"usability scaling,\" this reinforces the importance of robust quantitative methods and potentially leveraging AI for large-scale user behavior analysis. We should continue to invest in tools that can process vast amounts of data from our app usage, identifying usability issues in our onboarding flow or insurance product interfaces without needing to conduct individual interviews with every user. However, it's crucial to maintain human oversight and critical judgment. AI-generated insights should always be validated through qualitative research to ensure we understand the 'why' behind user behavior, especially in sensitive areas like credit decisions or personal financial management."
-    },
-    {
-      "date": "2026-02-13",
-      "title": "What UX Consulting Clients Expect in the Age of AI",
-      "summary": "Clients still seek strong judgment and critical thinking, research rigor, and respect for real-world and user constraints from UX consultants.",
-      "content": "Clients still seek strong judgment and critical thinking, research rigor, and respect for real-world and user constraints from UX consultants.",
-      "category": "AI workforce impact",
-      "source": {
-        "name": "Nielsen Norman Group",
-        "url": "https://www.nngroup.com/articles/ux-consulting-ai/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication"
-      },
-      "analysis": "At Nubank, this NNG insight reinforces that while AI tools can significantly accelerate tasks like data synthesis or identifying patterns in user feedback for products like PIX transactions or loan applications, our core research value remains. Researchers should leverage AI for efficiency in initial data exploration, but always apply their critical judgment to validate AI-generated insights against qualitative understanding and user context. This is especially crucial when dealing with sensitive flows like onboarding new customers or processing insurance claims, where human oversight ensures accuracy, fairness, and adherence to Nubank's commitment to user trust.\n\nTo operationalize this, we should integrate a \"human validation\" step into our AI-assisted research workflows. This means researchers must proactively question AI outputs, perform deeper dives into edge cases, and prioritize user empathy in interpreting findings related to complex journeys like card activation or applying for a new credit limit. The guardrail is to view AI as a powerful assistant, not a replacement for human expertise. Our focus should be on augmenting researcher capabilities, empowering them to deliver more strategic recommendations informed by both AI's scale and their own seasoned judgment, ultimately strengthening the user experience across all Nubank services."
     }
   ]
 }
