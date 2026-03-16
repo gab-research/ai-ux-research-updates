@@ -1,8 +1,32 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-03-16T11:14:40.301Z",
+  "lastUpdated": "2026-03-16T19:39:14.094Z",
   "updates": [
+    {
+      "date": "2026-03-16",
+      "title": "UX Roundup: Old vs New UX | Adam Smith Predicts AI | AI Video | AI Agents",
+      "summary": "Summary: Books dominated by Old UX instead of new UX | How Adam Smith predicts AI will turn out for the economy | Chinese sci-fi video made with Seedance 2 | The 5 levels of AI agency",
+      "content": "Jakob Nielsen's UX Roundup highlights a prevailing imbalance in the UX field, noting a continued reliance on traditional \"Old UX\" methods despite the emergence of \"New UX\" approaches. The article also delves into forward-looking predictions, including Adam Smith's perspective on AI's economic impact and the burgeoning capabilities of AI-generated video content. Furthermore, it introduces the concept of \"AI agency\" through a five-level framework, which is crucial for understanding the evolving role of AI in our tools and workflows. For UX researchers, this signifies a need to actively embrace and integrate novel AI-powered methodologies and to critically assess the maturity of AI in various applications to inform our research strategies and design recommendations.",
+      "category": "Predictive UX",
+      "source": {
+        "name": "Jakob Nielsen (Substack)",
+        "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260316"
+      },
+      "analysis": "At Nubank, this roundup serves as a timely reminder to formally integrate \"New UX\" principles and AI tools into our established research workflows. For instance, when exploring improvements to the PIX transaction flow or refining the card activation process, researchers could leverage AI-powered sentiment analysis tools to quickly process vast amounts of customer feedback, complementing traditional usability testing. Similarly, for loan applications or insurance onboarding, AI-driven content generation or summarization tools could assist in drafting research protocols or synthesizing findings, thereby accelerating our research cycles. The \"AI agency\" framework can guide our evaluation of AI tools we consider adopting, ensuring we select solutions appropriate for our current needs and team capabilities, rather than over-promising on nascent AI functionalities.\n\nIt's crucial to establish clear guardrails for using AI in research at Nubank. While AI can be a powerful assistant for tasks like data synthesis, persona generation, or even creating initial concept prototypes for features like new insurance products, it should never replace direct user interaction or critical human judgment. Researchers must maintain full oversight, validating AI-generated insights with qualitative methods and ensuring data privacy and ethical considerations are paramount, especially when dealing with sensitive customer financial information. The focus should be on AI as an enhancer, not a substitute, for the deep empathy and strategic thinking that define excellent UX research for products like our credit cards and digital accounts."
+    },
+    {
+      "date": "2026-03-16",
+      "title": "Nurturing agentic AI beyond the toddler stage",
+      "summary": "Parents of young children face a lot of fears about developmental milestones, from infancy through adulthood. The number of months it takes a baby to learn to talk or walk is often used as a benchmark for wellness, or an indicator of additional tests needed to properly diagnos...",
+      "content": "This article discusses the critical phase of AI development that extends beyond initial \"toddler-like\" capabilities, comparing it to child development milestones. It emphasizes the need to move beyond basic functional AI towards systems that exhibit more agency, adaptability, and nuanced understanding. For UX researchers, this is vital as it signifies a shift from simply evaluating if an AI can perform a task to understanding *how* it learns, adapts, and interacts within complex user journeys. Practically, this means we must start anticipating and researching AI systems that can proactively assist users, make personalized recommendations, and even anticipate needs across Nubank's service ecosystem, rather than just reacting to explicit user commands.",
+      "category": "AI coding assistants",
+      "source": {
+        "name": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/2026/03/16/1133979/nurturing-agentic-ai-beyond-the-toddler-stage/"
+      },
+      "analysis": "At Nubank, this concept of \"nurturing agentic AI\" can be integrated into our existing research workflow by prioritizing foundational research into user expectations for proactive AI assistance. Instead of solely focusing on usability of current features like PIX transfers or loan applications, we should begin exploring scenarios where AI could anticipate user needs. For instance, when a user frequently uses PIX for a specific contact, an agentic AI could proactively suggest a quicker way to initiate that transfer or even offer personalized spending insights related to that recipient. Similarly, during onboarding, an AI could intelligently adapt the flow based on perceived user understanding, offering more detailed explanations or skipping certain steps for more experienced users.\n\nResearchers should apply this by designing studies that probe user comfort levels with AI taking initiative in areas like credit card activation, insurance policy suggestions, or even identifying potential fraud before it happens. This involves qualitative explorations into user mental models of AI and quantitative surveys to gauge trust and perceived value of agentic AI features. A key guardrail will be ensuring transparency and user control; agentic AI must not feel intrusive or opaque. Researchers must rigorously test for explainability – users need to understand *why* an AI is suggesting something. Furthermore, we must be mindful of potential biases that could be amplified by agentic AI, ensuring fairness and equity across all Nubank customer segments when developing and deploying these advanced AI capabilities."
+    },
     {
       "date": "2026-03-13",
       "title": "The Methodological Problems Hiding in Your Research Tools",
