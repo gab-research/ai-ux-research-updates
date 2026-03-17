@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-03-16T19:39:14.094Z",
+  "lastUpdated": "2026-03-17T05:15:34.363Z",
   "updates": [
     {
       "date": "2026-03-16",
@@ -26,6 +26,18 @@
         "url": "https://www.technologyreview.com/2026/03/16/1133979/nurturing-agentic-ai-beyond-the-toddler-stage/"
       },
       "analysis": "At Nubank, this concept of \"nurturing agentic AI\" can be integrated into our existing research workflow by prioritizing foundational research into user expectations for proactive AI assistance. Instead of solely focusing on usability of current features like PIX transfers or loan applications, we should begin exploring scenarios where AI could anticipate user needs. For instance, when a user frequently uses PIX for a specific contact, an agentic AI could proactively suggest a quicker way to initiate that transfer or even offer personalized spending insights related to that recipient. Similarly, during onboarding, an AI could intelligently adapt the flow based on perceived user understanding, offering more detailed explanations or skipping certain steps for more experienced users.\n\nResearchers should apply this by designing studies that probe user comfort levels with AI taking initiative in areas like credit card activation, insurance policy suggestions, or even identifying potential fraud before it happens. This involves qualitative explorations into user mental models of AI and quantitative surveys to gauge trust and perceived value of agentic AI features. A key guardrail will be ensuring transparency and user control; agentic AI must not feel intrusive or opaque. Researchers must rigorously test for explainability – users need to understand *why* an AI is suggesting something. Furthermore, we must be mindful of potential biases that could be amplified by agentic AI, ensuring fairness and equity across all Nubank customer segments when developing and deploying these advanced AI capabilities."
+    },
+    {
+      "date": "2026-03-16",
+      "title": "Context engineering: A repeatable AI workflow for product designers",
+      "summary": "A step-by-step method to feed AI the right inputs in the right order, without prompt gymnastics. Continue reading on UX Collective »",
+      "content": "This article introduces \"context engineering,\" a structured approach to leverage AI effectively in product design workflows. It emphasizes the importance of carefully crafting AI prompts with sufficient context and logical sequencing to elicit more relevant and actionable outputs, moving beyond trial-and-error \"prompt gymnastics.\" For UX researchers, this is crucial as it promises to unlock AI's potential for tasks like synthesizing qualitative data, generating user persona drafts, or exploring design variations, thereby accelerating insights generation and improving the quality of design artifacts. By providing AI with the right information in the right order, researchers can achieve more reliable and efficient results, freeing up cognitive load for strategic thinking and deeper user understanding.",
+      "category": "AI for product management",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/context-engineering-a-repeatable-ai-workflow-for-product-designers-8d7b55b83b2b?source=rss----138adf9c44c---4"
+      },
+      "analysis": "At Nubank, context engineering can be integrated into our existing research workflow by augmenting our analysis and ideation phases. For instance, when synthesizing feedback from qualitative interviews or usability tests on the PIX experience, researchers can use context engineering to feed AI detailed transcripts, user journey maps, and key pain points. The AI, guided by engineered context, could then help generate thematic summaries, identify nuanced user needs, or even propose initial hypotheses for further investigation, reducing the time spent on manual coding and initial data interpretation. This would be particularly useful after large-scale beta testing of new loan features or during the initial onboarding flow for new customers.\n\nTo apply this, researchers should focus on building a \"context library\" for common research scenarios. This library would contain templates for prompt structures and pre-defined data inputs relevant to Nubank's products and user segments. For example, a context template for analyzing card activation feedback might include typical user questions, potential friction points identified in past research, and relevant design guidelines. Researchers would then select and adapt these templates, adding specific data from their current study, before feeding it to the AI. Guardrails are essential: researchers must always critically evaluate AI-generated outputs, treating them as starting points rather than definitive answers. The AI's understanding is limited to the provided context, so bias detection and human oversight remain paramount, especially when dealing with sensitive customer data or complex financial decisions related to insurance products."
     },
     {
       "date": "2026-03-13",
