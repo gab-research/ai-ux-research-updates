@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-03-17T10:36:59.167Z",
+  "lastUpdated": "2026-03-17T19:41:00.557Z",
   "updates": [
+    {
+      "date": "2026-03-17",
+      "title": "Product Release Roundup: March 2026 | Great Question",
+      "summary": "New to Great Question in March: AI study synthesis, MCP beta waitlist, and more",
+      "content": "New to Great Question in March: AI study synthesis, MCP beta waitlist, and more",
+      "category": "AI summarization",
+      "source": {
+        "name": "Great Question Blog",
+        "url": "https://cms.greatquestion.co/blog/product-release-roundup-march-2026"
+      },
+      "analysis": ""
+    },
     {
       "date": "2026-03-16",
       "title": "UX Roundup: Old vs New UX | Adam Smith Predicts AI | AI Video | AI Agents",
