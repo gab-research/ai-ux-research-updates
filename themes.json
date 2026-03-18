@@ -1,56 +1,56 @@
 {
   "month": "2026-03",
-  "updated": "2026-03-17",
+  "updated": "2026-03-18",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 105,
-      "description": "Focuses on AI agents that can autonomously conduct research tasks, collaborate, and leverage tools for complex workflows."
-    },
-    {
-      "name": "AI coding assistants",
-      "count": 85,
-      "description": "Covers AI tools that help developers write, review, debug, and manage code, enhancing productivity and efficiency."
+      "count": 106,
+      "description": "Focuses on AI agents designed to autonomously conduct research, analyze data, and execute tasks independently."
     },
     {
       "name": "AI research tools",
-      "count": 67,
-      "description": "Highlights AI-powered platforms and applications designed to assist researchers in data gathering, analysis, and insight generation."
+      "count": 72,
+      "description": "Covers a broad range of AI-powered tools specifically developed to assist in various aspects of user research."
+    },
+    {
+      "name": "AI coding assistants",
+      "count": 42,
+      "description": "Articles discussing AI tools that help developers write, review, and debug code."
     },
     {
       "name": "AI usability testing",
-      "count": 38,
-      "description": "Explores AI's role in automating and enhancing the process of testing user interfaces and experiences for usability."
-    },
-    {
-      "name": "AI-assisted recruitment",
-      "count": 36,
-      "description": "Focuses on AI applications used in hiring processes, from resume screening and candidate matching to interview analysis."
-    },
-    {
-      "name": "AI workforce impact",
-      "count": 33,
-      "description": "Examines how AI is changing job roles, employment, and the skills required in the workforce."
+      "count": 20,
+      "description": "Explores the application of AI in automating or enhancing the process of testing product usability."
     },
     {
       "name": "AI summarization",
-      "count": 28,
-      "description": "Covers AI tools that condense large amounts of text into concise summaries, aiding in quick comprehension and analysis."
+      "count": 19,
+      "description": "Articles focused on AI's ability to condense large amounts of text into concise summaries, extracting key insights."
     },
     {
-      "name": "AI customer insights",
-      "count": 27,
-      "description": "Details how AI is used to analyze customer data, behavior, and feedback to derive actionable insights for businesses."
+      "name": "AI workforce impact",
+      "count": 18,
+      "description": "Examines how AI is affecting jobs, employment, and the skills required in the modern workforce."
     },
     {
-      "name": "AI design and research",
-      "count": 23,
-      "description": "Focuses on AI applications specifically aiding in the design process and user research activities."
+      "name": "Synthetic users",
+      "count": 17,
+      "description": "Discusses the creation and use of artificial users or personas for testing or research purposes."
     },
     {
-      "name": "AI summarization insights",
-      "count": 21,
-      "description": "Concentrates on AI's ability to not only summarize information but also extract deeper insights and trends from it."
+      "name": "AI for design & research",
+      "count": 16,
+      "description": "Covers AI applications that directly support and enhance both the design and user research processes."
+    },
+    {
+      "name": "AI qualitative research",
+      "count": 16,
+      "description": "Focuses on AI's role in gathering and analyzing qualitative data, such as interviews and open-ended feedback."
+    },
+    {
+      "name": "AI recruitment research",
+      "count": 14,
+      "description": "Explores how AI is used in the hiring process, from analyzing resumes to identifying potential candidates."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
