@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-03-18T05:41:24.346Z",
+  "lastUpdated": "2026-03-18T10:38:14.609Z",
   "updates": [
+    {
+      "date": "2026-03-18",
+      "title": "More AI, More UXR | Great Question",
+      "summary": "Economic principles like comparative advantage, O-Ring theory, and Jevons Paradox show why AI efficiency expands UX research opportunities rather than eliminates them.",
+      "content": "Economic principles like comparative advantage, O-Ring theory, and Jevons Paradox show why AI efficiency expands UX research opportunities rather than eliminates them.",
+      "category": "Survey optimization",
+      "source": {
+        "name": "Great Question Blog",
+        "url": "https://cms.greatquestion.co/blog/more-ai-more-uxr"
+      },
+      "analysis": ""
+    },
     {
       "date": "2026-03-17",
       "title": "Product Release Roundup: March 2026 | Great Question",
@@ -763,13 +775,13 @@
       "date": "2026-02-16",
       "title": "UX Roundup: Year of the Horse | Creative Workflow | AI Coding | Usability Scaling | Was I Right or Wrong? | 30,000 Citations | Winning AI Video",
       "summary": "Year of the Fire Horse | Reversing creative workflows | AI coding wins complete dominance | Usability scaling continues | 40 years of being right become 40 years of being wrong | Usability Engineering book passes 30,000 citations | Award-winning AI video",
-      "content": "Jakob Nielsen's latest \"UX Roundup\" highlights a dynamic shift in the UX landscape, particularly with the ascendance of AI in creative processes and coding. The \"Year of the Fire Horse\" implies a period of intense, transformative change, with AI coding rapidly becoming dominant, suggesting a future where developers and researchers can leverage AI for faster prototyping and complex task automation. This rapid evolution also touches upon the philosophical challenge of self-correction, as Nielsen reflects on his own past predictions. For UX researchers, this means a growing imperative to understand and integrate AI tools to enhance efficiency, scale usability efforts, and stay ahead of industry trends, ultimately impacting how we design and test experiences for millions of Nubank users.",
+      "content": "Jakob Nielsen's latest \"UX Roundup\" highlights a significant shift in how UX research and development are approached, particularly with the rise of AI. The piece emphasizes \"AI coding wins complete dominance,\" suggesting that AI tools are rapidly transforming the coding aspect of product development, potentially freeing up developers for more complex problem-solving.  For UX researchers, this implies a future where more robust and sophisticated prototypes can be built faster, allowing for earlier and more extensive user testing.  The \"reversing creative workflows\" point also suggests a move towards AI-assisted ideation and design, which could accelerate the concept validation phase, crucial for products like Nubank's PIX or new loan offerings.",
       "category": "AI coding assistants",
       "source": {
         "name": "Jakob Nielsen (Substack)",
         "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260216"
       },
-      "analysis": "At Nubank, this AI-driven shift presents a significant opportunity to augment our research capabilities. We can explore integrating AI coding assistants into our internal tools to accelerate the development of research prototypes, especially for testing new features in areas like PIX transactions or loan application flows. For example, instead of manual coding for A/B test variations of an onboarding screen, an AI could generate multiple options based on research hypotheses, allowing us to test more concepts rapidly.\n\nFurthermore, Nielsen's emphasis on \"usability scaling\" suggests leveraging AI for automated usability testing or intelligent analysis of large user datasets from existing products like card activation or insurance policy management. Researchers should experiment with AI-powered tools for sentiment analysis on customer feedback or even for generating initial user personas based on aggregated behavioral data. However, it's crucial to establish guardrails. AI-generated code or analysis must be rigorously reviewed by human researchers to ensure it aligns with Nubank's ethical guidelines and product quality standards, and we must remain mindful of data privacy when employing AI for user data interpretation."
+      "analysis": "At Nubank, this AI coding dominance means our UX researchers should actively explore and advocate for the integration of AI-powered coding assistants into our development cycles. This could accelerate the creation of interactive prototypes for new features like enhanced card activation flows or insurance policy onboarding.  By leveraging AI for faster, more accurate coding, we can reduce the time spent on building basic functionalities and instead focus more on the nuanced user experience research, allowing for iterative testing of complex scenarios.\n\nResearchers should also consider how AI-driven code generation might influence our usability testing strategies. If AI can quickly generate code for a functional prototype, we can run more A/B tests or unmoderated studies on a wider range of design variations for existing products like our loan application process. It's crucial, however, to maintain human oversight, ensuring that AI-generated code aligns with Nubank's strict security and accessibility standards, and that the core user needs remain at the forefront, not just the efficiency of code generation. We must also be mindful of the \"40 years of being right become 40 years of being wrong\" sentiment, urging critical evaluation of AI outputs rather than blind acceptance."
     }
   ]
 }
