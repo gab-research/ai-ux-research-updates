@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-03-19T05:18:22.389Z",
+  "lastUpdated": "2026-03-19T10:09:32.045Z",
   "updates": [
     {
       "date": "2026-03-19",
@@ -758,18 +758,6 @@
         "url": "https://openai.com/index/introducing-evmbench"
       },
       "analysis": "At Nubank, EVMbench directly informs our ongoing efforts to ensure the security and trustworthiness of our digital financial services. Researchers can leverage this knowledge to advocate for AI-powered security testing tools within our development pipelines. Imagine AI agents scanning smart contract code underpinning new features like advanced insurance policy management or complex PIX transaction flows *before* they go live, flagging potential exploits that could compromise user funds or sensitive data. This proactive approach not only mitigates risk but also bolsters user confidence.\n\nWhen applying this at Nubank, our research team should collaborate with engineering and security teams to understand how EVMbench or similar AI evaluation frameworks can be integrated into pre-deployment testing. This could involve identifying user stories where enhanced security guarantees are paramount, such as during sensitive onboarding processes or when users are managing high-value assets. It's crucial to remember that AI is a tool; the ultimate responsibility for user security remains with our human teams. Therefore, EVMbench's insights should augment, not replace, rigorous human code audits and security reviews, ensuring a robust defense-in-depth strategy for all Nubank products, from card activation to loan disbursement."
-    },
-    {
-      "date": "2026-02-17",
-      "title": "Toys, Crafts & Hobbies UX Benchmark: 5,500+ Performance Scores and 4,500+ Best Practice Examples",
-      "summary": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) At Baymard, we’ve just released a new UX benchmark with 11 “Toys, Crafts & Hobbies” UX case st...",
-      "content": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) At Baymard, we’ve just released a new UX benchmark with 11 “Toys, Crafts & Hobbies” UX case studies. This follows from our large-scale user testing and adds to our existing ecommerce UX benchmark. In this article, we give you a snapshot of the overall UX performance. 11 Toys, Crafts & Hobbies UX Case Studies and the Overall Performance Get Premium access to review your own site or have it audited by Baymard researchers. These are the 11 in-depth Toys, Crafts & Hobbies UX case studies. The 11 toys, crafts, and hobby sites have been manually assessed across 500+ research-based UX parameters relevant to Toys, Crafts & Hobbies, resulting in 5,500+ weighted UX performance scores and 4,500+ best practice examples from these sites. Each of the 5,500+ UX performance scores from the 11 Toys, Crafts & Hobbies case studies is summarized in the interactive scatterplot below — showing you how they perform collectively and individually: {{ scatterplot-graph: size=big + habitat=public + base-sites=collection:toys-...",
-      "category": "AI in user testing",
-      "source": {
-        "name": "Baymard Institute",
-        "url": "https://feeds.baymard.com/link/9825/17277775/toys-crafts-and-hobbies-ux-benchmark-2026"
-      },
-      "analysis": "At Nubank, this Baymard benchmark can significantly enhance our understanding of best-in-class e-commerce UX, even though our primary focus is financial services. We can leverage its extensive dataset and best practice examples to identify transferable principles for user journeys that involve product discovery and selection, much like how users might browse for loans or insurance products on our platform. For instance, the report's findings on visual presentation, navigation, and filtering in the \"Toys, Crafts & Hobbies\" sector could inspire improvements in how we present different credit card options or loan packages, or even how users explore investment opportunities within the app.\n\nResearchers should apply this by critically evaluating our existing flows against Baymard's best practices, particularly in areas where we aim for intuitive self-service and a delightful user experience. For example, when redesigning the PIX transfer flow to be more user-friendly, we could look at how visual cues and progress indicators are used in successful e-commerce sites. Similarly, during the onboarding process or card activation, we can draw inspiration for clearer instructions and immediate feedback mechanisms. A key guardrail is to remember that the context is different; while UI patterns for browsing and purchasing are relevant, the core financial security and trust elements of our products must remain paramount. We should focus on applying the *principles* of clear communication, efficient navigation, and engaging presentation rather than directly copying e-commerce layouts."
     }
   ]
 }
