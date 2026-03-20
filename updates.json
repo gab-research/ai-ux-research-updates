@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-03-19T18:11:51.134Z",
+  "lastUpdated": "2026-03-20T05:09:27.867Z",
   "updates": [
     {
       "date": "2026-03-19",
@@ -746,18 +746,6 @@
         "url": "https://openai.com/index/advancing-independent-research-ai-alignment"
       },
       "analysis": "This investment in AI alignment research has direct implications for how we approach AI integration at Nubank.  Firstly, it reinforces the need to prioritize ethical considerations and user trust in any AI-powered feature we develop. This means actively exploring how AI alignment principles can be integrated into our UX research processes, from early ideation for features like PIX instant payments or loan application pre-qualification to the ongoing monitoring of personalized insurance recommendations.  We should encourage our researchers to stay abreast of developments in AI safety and communicate potential risks and benefits to product teams.\n\nPractically, researchers can apply these insights by incorporating alignment-focused questions into our user interviews and usability testing. For example, when evaluating an AI-driven onboarding flow, we could probe users on their perceptions of fairness, transparency, and control over the AI's decisions. When designing new AI features for credit assessment or fraud detection, we must actively research potential biases and ensure the AI's objectives are clearly aligned with user well-being and regulatory compliance, not just optimization for the bank.  Guardrails include ensuring all AI applications are rigorously tested for fairness, interpretability, and robustness, and maintaining human oversight in critical decision-making processes, especially for sensitive areas like loan approvals and card activation."
-    },
-    {
-      "date": "2026-02-18",
-      "title": "Introducing EVMbench",
-      "summary": "OpenAI and Paradigm introduce EVMbench, a benchmark evaluating AI agents’ ability to detect, patch, and exploit high-severity smart contract vulnerabilities.",
-      "content": "OpenAI and Paradigm's EVMbench offers a novel way to assess the capabilities of AI agents in identifying and rectifying critical security flaws within smart contracts. This is particularly relevant for UX researchers as it highlights the potential for AI to contribute to the security and integrity of financial products, a core aspect of user trust and safety. For Nubank, this means future AI tools could proactively identify vulnerabilities in our digital banking infrastructure, safeguarding user data and transaction security, thereby indirectly improving the perceived reliability of our services like PIX transfers and loan applications.",
-      "category": "AI tool evaluation",
-      "source": {
-        "name": "OpenAI Blog",
-        "url": "https://openai.com/index/introducing-evmbench"
-      },
-      "analysis": "At Nubank, EVMbench directly informs our ongoing efforts to ensure the security and trustworthiness of our digital financial services. Researchers can leverage this knowledge to advocate for AI-powered security testing tools within our development pipelines. Imagine AI agents scanning smart contract code underpinning new features like advanced insurance policy management or complex PIX transaction flows *before* they go live, flagging potential exploits that could compromise user funds or sensitive data. This proactive approach not only mitigates risk but also bolsters user confidence.\n\nWhen applying this at Nubank, our research team should collaborate with engineering and security teams to understand how EVMbench or similar AI evaluation frameworks can be integrated into pre-deployment testing. This could involve identifying user stories where enhanced security guarantees are paramount, such as during sensitive onboarding processes or when users are managing high-value assets. It's crucial to remember that AI is a tool; the ultimate responsibility for user security remains with our human teams. Therefore, EVMbench's insights should augment, not replace, rigorous human code audits and security reviews, ensuring a robust defense-in-depth strategy for all Nubank products, from card activation to loan disbursement."
     }
   ]
 }
