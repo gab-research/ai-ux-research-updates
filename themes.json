@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 132,
-      "description": "Articles discussing AI agents that can autonomously perform research tasks, conduct analysis, or interact with systems."
-    },
-    {
-      "name": "AI research tools",
-      "count": 113,
-      "description": "Content focused on specific AI tools designed to assist in research processes, from data gathering to analysis."
-    },
-    {
-      "name": "AI coding assistants",
-      "count": 70,
-      "description": "Articles detailing AI tools that help developers write, debug, review, or generate code."
-    },
-    {
-      "name": "AI survey tools",
-      "count": 57,
-      "description": "Discussions about AI applications in creating, distributing, and analyzing surveys."
-    },
-    {
-      "name": "AI for design & research",
-      "count": 40,
-      "description": "Articles exploring AI's role in aiding or automating aspects of the design process, from ideation to prototyping."
-    },
-    {
-      "name": "AI workforce impact",
-      "count": 37,
-      "description": "Research and discussion on how AI affects job roles, employment, and the skills needed in the workforce."
+      "count": 124,
+      "description": "Articles focusing on AI agents that can autonomously perform research tasks, analyze data, and even interact with systems to achieve research goals."
     },
     {
       "name": "AI summarization",
-      "count": 29,
-      "description": "Content about AI tools and techniques used to condense large amounts of text into concise summaries."
+      "count": 88,
+      "description": "Content related to AI tools and techniques for condensing large amounts of text, such as meeting notes, research papers, or user feedback, into concise summaries."
+    },
+    {
+      "name": "AI coding assistants",
+      "count": 84,
+      "description": "Articles discussing AI tools designed to help developers write, debug, and maintain code, improving efficiency and productivity in software development."
+    },
+    {
+      "name": "AI research tools",
+      "count": 79,
+      "description": "Broad coverage of various AI-powered tools and platforms designed to aid in the research process, from data collection to analysis and insight generation."
+    },
+    {
+      "name": "AI workforce impact",
+      "count": 68,
+      "description": "Discussions on how AI is affecting jobs, skills, hiring, and the overall labor market, including research on potential job displacement and new roles."
     },
     {
       "name": "AI chatbot research",
-      "count": 27,
-      "description": "Articles focusing on the research, capabilities, limitations, and societal impact of AI chatbots."
+      "count": 64,
+      "description": "Focuses on studies and analyses of AI chatbots, their capabilities, limitations, ethical implications, and user interactions, particularly concerning their impact on user behavior and perception."
+    },
+    {
+      "name": "AI design research",
+      "count": 43,
+      "description": "Articles detailing how AI is being used to assist in the design process, including generating UI elements, prototyping, and exploring design concepts."
+    },
+    {
+      "name": "AI survey tools",
+      "count": 42,
+      "description": "Content related to AI applications for creating, distributing, and analyzing surveys, aiming to improve efficiency and extract deeper insights from survey data."
+    },
+    {
+      "name": "Synthetic users",
+      "count": 39,
+      "description": "Articles exploring the use of AI to create artificial user profiles or personas for testing and research, and the implications of AI-generated content mimicking human output."
     },
     {
       "name": "AI qualitative research",
-      "count": 26,
-      "description": "Content related to using AI for qualitative data analysis, such as coding verbatims or thematic analysis."
-    },
-    {
-      "name": "AI product research",
-      "count": 23,
-      "description": "Discussions on how AI is used in researching and developing new products and features."
+      "count": 37,
+      "description": "Focuses on AI's role in qualitative research methods, such as analyzing interview transcripts, coding verbatim responses, and identifying themes in open-ended feedback."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
