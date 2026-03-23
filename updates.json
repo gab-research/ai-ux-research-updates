@@ -1,8 +1,32 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-03-23T11:13:25.451Z",
+  "lastUpdated": "2026-03-23T18:35:18.328Z",
   "updates": [
+    {
+      "date": "2026-03-23",
+      "title": "UX Roundup: Generate in 4K | Research Reproducibility Crisis | NotebookLM Videos Perform Well | Midjourney v.8 | Micropayments | Microsoft Image Model | NVIDIA GTC",
+      "summary": "Why I generate images in 4K resolution | Half of UI academic research fails to reproduce | NotebookLM Cinematic Videos Do Well with Viewers | Midjourney Version 8 Disappoints | New protocol for AI agents to use micropayments | Microsoft releases its new MAI-Image-2 model | NVI...",
+      "content": "Jakob Nielsen's latest UX Roundup highlights several critical trends impacting UX research.  The article underscores the growing importance of high-resolution visual outputs, exemplified by his own use of 4K image generation, which is crucial for detailed UI analysis and client presentations.  A concerning 'reproducibility crisis' in academic UX research suggests a need for more rigorous documentation and standardized methodologies, directly impacting our ability to build upon existing knowledge.  Furthermore, the rise of AI tools like NotebookLM, demonstrating success with video content, and the development of new AI models like Microsoft's MAI-Image-2, point towards a future where AI will increasingly augment research capabilities, from content creation to data synthesis, with a fascinating exploration of micropayments for AI agents indicating potential shifts in tooling and collaboration.",
+      "category": "AI summarization",
+      "source": {
+        "name": "Jakob Nielsen (Substack)",
+        "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260323"
+      },
+      "analysis": "At Nubank, these AI advancements can be integrated into our research workflow to enhance efficiency and deepen insights. For instance, researchers can leverage high-resolution image generation, similar to Nielsen's 4K approach, to meticulously document and present UI elements during usability testing of features like PIX transactions or credit card activation flows, ensuring clarity and precision for stakeholders. The \"reproducibility crisis\" serves as a critical reminder to document our research processes, especially when experimenting with AI tools, for the benefit of the wider team and future projects, particularly for complex flows like loan applications or insurance onboarding.\n\nRegarding practical application, researchers should explore tools that facilitate AI-powered content generation and analysis. For understanding user sentiment in customer feedback related to our digital accounts or investment products, NotebookLM's video capabilities could be adapted to summarize qualitative data into easily digestible video narratives.  However, it's vital to establish guardrails.  AI-generated content must always be fact-checked and validated by human researchers.  We should avoid relying solely on AI for crucial decision-making, especially concerning sensitive areas like financial product design or policy changes, ensuring that our ethical guidelines and user privacy remain paramount throughout the research process."
+    },
+    {
+      "date": "2026-03-23",
+      "title": "Will machines ever be intelligent?",
+      "summary": "Are machines truly intelligent? AI researchers Subutai Ahmad and Nicolò Fusi join Doug Burger to compare transformer-based AI with the human brain, exploring continual learning, efficiency, and whether today’s models are on a path toward human intelligence. The post Will machi...",
+      "content": "This Microsoft Research article delves into the fundamental question of whether current AI, particularly transformer-based models, can be considered truly intelligent by comparing them to the human brain. The discussion highlights key areas like continual learning and efficiency, suggesting that while today's AI excels at specific tasks, it may not yet possess the adaptable and generalized intelligence of humans. For UX researchers, understanding these distinctions is crucial for setting realistic expectations about AI's capabilities in product development and for anticipating future shifts in user interaction.  This insight can inform how we design AI-powered features, ensuring they are not over-promised and align with actual technological advancements, potentially impacting everything from personalized financial advice to fraud detection systems.",
+      "category": "Survey optimization",
+      "source": {
+        "name": "Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/podcast/will-machines-ever-be-intelligent/"
+      },
+      "analysis": "At Nubank, this article's insights can directly inform our AI-driven research initiatives. When exploring AI applications for features like personalized loan recommendations or optimizing the PIX transaction flow, researchers should critically assess the AI's current 'intelligence' level. Instead of assuming human-like understanding, we should focus on how AI can augment existing user journeys by analyzing vast datasets for patterns, identifying potential friction points in card activation, or predicting customer churn for insurance products. This means leveraging AI for predictive analytics and task automation, rather than expecting it to independently grasp complex user emotions or solve nuanced financial planning problems during onboarding.\n\nResearchers should apply this by meticulously evaluating the specific capabilities of AI tools being considered for user research. For example, while an AI might be proficient at summarizing open-ended feedback from survey responses, it's unlikely to independently conduct a heuristic evaluation of a new feature. We must implement guardrails, ensuring human oversight and judgment remain paramount. AI should be viewed as a powerful assistant for data processing and hypothesis generation, but not a replacement for the critical thinking and empathy that define effective UX research, especially when dealing with sensitive financial matters for our millions of customers."
+    },
     {
       "date": "2026-03-22",
       "title": "AI User Research: The Complete 2026 Guide & Top Tools",
