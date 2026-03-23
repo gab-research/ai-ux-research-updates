@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-03-22T17:01:50.606Z",
+  "lastUpdated": "2026-03-23T05:49:42.898Z",
   "updates": [
     {
       "date": "2026-03-22",
@@ -734,18 +734,6 @@
         "url": "https://typeform.com/blog/ai-powered-surveys-guide"
       },
       "analysis": "Where it adds value: Use AI to improve clarity, reduce bias, and shorten surveys for segment and tracking work (e.g. NPS, satisfaction, feature demand, financial habits). It’s especially useful when the topic is sensitive or complex—credit, insurance, fees—where poor wording can skew answers or confuse respondents. Use adaptive logic so follow-ups match the segment (e.g. different paths for investors vs. first-time savers), which keeps surveys relevant and completion rates higher.\n\nOwnership and guardrails: Researchers own the research question and the final questionnaire. Use AI for structure, readability, and branching suggestions; then review every item for leading language, double-barrels, and regulatory risk. Any survey that touches terms, pricing, or legal obligations should still go through compliance and legal where required—AI does not replace that sign-off.\n\nOperational tip: Align with whoever owns the survey platform (e.g. Research Ops or product) so that AI-improved questions live in shared templates and stay consistent across squads. Document which questions were AI-suggested vs. human-written so you can review performance and bias over time."
-    },
-    {
-      "date": "2026-02-21",
-      "title": "Session replay + AI for behavior patterns",
-      "summary": "Combining session replay with AI analysis helps identify recurring drop-off patterns and confusion points at scale without manually watching hundreds of sessions.",
-      "content": "Combining session replay with AI analysis is helping teams spot behavior patterns at scale. Instead of manually watching hundreds of sessions, researchers use tools that aggregate replays and apply AI to detect recurring drop-offs, rage clicks, long hesitations, and navigation loops. The output is a digest of likely problem areas with example sessions to drill into. That makes it possible to prioritize which flows to study in depth and which to fix with design changes. The approach works best when paired with qualitative research—replay + AI surfaces the 'where,' and interviews or surveys explain the 'why.'",
-      "category": "Session replay + AI",
-      "source": {
-        "name": "Hotjar - Introducing Hotjar AI (Contentsquare Sense)",
-        "url": "https://hotjar.com/blog/introducing-hotjar-ai"
-      },
-      "analysis": "Role of research: Session replay + AI gives you the 'where'—which steps, screens, or segments show the most drop-off, hesitation, or confusion. Research’s job is to turn that into the 'why' and actionable recommendations. Use the AI digest to decide where to invest in deeper methods (e.g. moderated usability, interviews, or diary studies) and where design can iterate from behavioural signals alone.\n\nWhere to use it at Nubank: Run it on critical flows—onboarding, conversion funnels, key product flows (e.g. loan application, PIX, card activation), and support or error-recovery paths. Use the output to prioritise: which problem areas need a dedicated study vs. which can be handed to design with a short brief. That keeps research capacity focused on the most ambiguous or high-impact questions.\n\nEthics and compliance: Use only where Nubank’s replay and data policies allow; respect consent and minimisation. Do not rely on AI summaries alone for decisions that affect users in regulated or high-risk contexts—always pair with human review and, where needed, qualitative validation. Document how replay + AI informed your research backlog so the link between behavioural data and research questions stays clear."
     }
   ]
 }
