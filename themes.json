@@ -3,54 +3,54 @@
   "updated": "2026-03-23",
   "themes": [
     {
-      "name": "Agentic AI in research",
-      "count": 94,
-      "description": "Articles focusing on AI agents that can autonomously perform research tasks, analyze data, and collaborate."
+      "name": "Survey optimization",
+      "count": 102,
+      "description": "AI tools for designing better surveys, reducing bias, and analyzing responses."
     },
     {
       "name": "AI research tools",
-      "count": 77,
-      "description": "Broad category for articles discussing various AI tools specifically designed for research activities."
+      "count": 95,
+      "description": "New AI tool launches, reviews, and platforms built for research workflows."
     },
     {
-      "name": "AI usability testing",
-      "count": 49,
-      "description": "Content related to using AI for testing and evaluating the usability of products and systems."
+      "name": "Conversational AI in research",
+      "count": 78,
+      "description": "Chatbots, virtual assistants, and voice AI in research contexts."
     },
     {
-      "name": "AI chatbot research",
-      "count": 43,
-      "description": "Articles specifically examining the behaviors, implications, and research surrounding AI chatbots."
+      "name": "AI workforce impact",
+      "count": 58,
+      "description": "AI replacing roles, future of work, skills gap, reskilling, and organizational change."
+    },
+    {
+      "name": "Agentic AI in research",
+      "count": 52,
+      "description": "Autonomous AI agents running research tasks, multi-agent frameworks, and orchestration."
     },
     {
       "name": "AI coding assistants",
-      "count": 41,
-      "description": "Focuses on AI tools that assist developers with writing, reviewing, and understanding code."
+      "count": 50,
+      "description": "Copilot, Claude Code, Cursor, and other AI tools for code generation and development."
     },
     {
-      "name": "AI for design & research",
-      "count": 38,
-      "description": "Articles that explore the intersection of AI in both design creation and user research processes."
+      "name": "AI-powered data analysis",
+      "count": 49,
+      "description": "Automated data analysis, clustering, segmentation, and pattern detection."
     },
     {
-      "name": "AI research tools comparison",
-      "count": 24,
-      "description": "Content that compares, benchmarks, or reviews different AI tools used in research contexts."
+      "name": "AI for product management",
+      "count": 17,
+      "description": "AI in product decisions, discovery, prioritization, and roadmapping."
     },
     {
-      "name": "AI qualitative research",
-      "count": 23,
-      "description": "Articles that discuss the application of AI in qualitative research methods like interviews and sentiment analysis."
+      "name": "AI content generation",
+      "count": 16,
+      "description": "AI writing, report generation, UX copy, and content creation."
     },
     {
-      "name": "AI survey tools",
-      "count": 20,
-      "description": "Content focused on AI applications for designing, distributing, and analyzing surveys."
-    },
-    {
-      "name": "AI summarization",
-      "count": 18,
-      "description": "Articles discussing the use of AI to condense large amounts of text into concise summaries and key insights."
+      "name": "AI ethics in research",
+      "count": 14,
+      "description": "Bias, fairness, responsible AI, privacy, and trust in research."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
