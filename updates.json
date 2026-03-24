@@ -1,8 +1,32 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-03-24T10:37:26.799Z",
+  "lastUpdated": "2026-03-24T19:38:22.777Z",
   "updates": [
+    {
+      "date": "2026-03-24",
+      "title": "Mobile App UX Benchmark 2026: 3,300+ Performance Scores and 2,500+ Best Practice Examples",
+      "summary": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) At Baymard, we’ve just released a new Mobile App UX benchmark with 10 case studies from the Ap...",
+      "content": "This Baymard Institute report presents a comprehensive benchmark of mobile app UX, analyzing over 3,300 performance scores and offering more than 2,500 best practice examples.  It delves into the critical performance metrics that drive user satisfaction and conversion within mobile applications. For UX researchers, this report is invaluable as it provides data-driven insights into what truly constitutes excellent mobile UX, allowing us to benchmark our own efforts against industry leaders and identify actionable areas for improvement across key user flows. The practical implications lie in leveraging these benchmarks to inform design decisions, prioritize research efforts, and ultimately elevate the user experience of digital banking products like Nubank's.",
+      "category": "AI in user testing",
+      "source": {
+        "name": "Baymard Institute",
+        "url": "https://feeds.baymard.com/link/9825/17305011/mobile-app-ux-benchmark-2026"
+      },
+      "analysis": "At Nubank, this Baymard Mobile App UX Benchmark will serve as a foundational external data source for our ongoing UX research efforts, particularly in the Design Systems and Competitive Analysis phases. Researchers should use the 2,500+ best practice examples to critically evaluate current Nubank product flows, such as the PIX transfer interface, card activation process, and loan application journey.  This data can directly inform hypothesis generation for A/B tests and provide evidence-based recommendations during feature development for areas like onboarding or insurance product discovery.\n\nWhen applying this benchmark, researchers should exercise caution by contextualizing findings within the Brazilian market and Nubank's specific user base. While Baymard's data offers robust general principles, it's crucial to validate whether these best practices resonate universally with our diverse user segments. For instance, a best practice in e-commerce might need adaptation for the unique security and trust considerations inherent in financial services.  Therefore, this benchmark should act as a strong starting point for research, not an absolute mandate, always supplemented by qualitative user research and an understanding of local financial behaviors."
+    },
+    {
+      "date": "2026-03-24",
+      "title": "Powering product discovery in ChatGPT",
+      "summary": "ChatGPT introduces richer, visually immersive shopping powered by the Agentic Commerce Protocol, enabling product discovery, side-by-side comparisons, and merchant integration.",
+      "content": "OpenAI's latest blog post highlights the integration of ChatGPT with an \"Agentic Commerce Protocol\" to revolutionize product discovery. This new capability allows ChatGPT to facilitate richer, visually engaging shopping experiences, moving beyond simple text-based recommendations to include side-by-side comparisons and direct merchant integrations. For UX researchers, this signifies a powerful new paradigm for understanding user needs and behaviors in a more dynamic, interactive context. It offers practical implications for designing more intuitive and personalized discovery journeys, potentially transforming how users find and interact with financial products and services within digital banking platforms.",
+      "category": "AI tool evaluation",
+      "source": {
+        "name": "OpenAI Blog",
+        "url": "https://openai.com/index/powering-product-discovery-in-chatgpt"
+      },
+      "analysis": "At Nubank, this advancement in ChatGPT's product discovery capabilities can be integrated into our existing user research workflows, particularly during the \"Understand\" and \"Explore\" phases. Researchers can leverage this to simulate user journeys for new product ideation or to test the discoverability of existing features like PIX transfers or loan applications. For instance, we could task a ChatGPT agent with finding the best credit card for a user based on their spending habits, then analyze the comparison interface and decision-making process as a proxy for real user behavior. This allows us to gather qualitative insights on user preferences and friction points in a controlled environment before investing in full-scale prototyping or live testing.\n\nTo apply this, researchers should focus on crafting nuanced prompts that mimic real-world user scenarios for services such as credit card activation, onboarding for new customers, or exploring insurance options. The \"side-by-side comparison\" aspect could be invaluable for understanding how users evaluate different loan terms or investment portfolios. However, it's crucial to remember that these are simulated interactions. Guardrails should include acknowledging the AI's potential biases and the absence of genuine emotional context. We must supplement AI-generated insights with traditional qualitative methods like interviews and usability testing to validate findings and capture the full spectrum of user experience, especially concerning trust and financial well-being which are paramount for Nubank."
+    },
     {
       "date": "2026-03-23",
       "title": "UX Roundup: Generate in 4K | Research Reproducibility Crisis | NotebookLM Videos Perform Well | Midjourney v.8 | Micropayments | Microsoft Image Model | NVIDIA GTC",
