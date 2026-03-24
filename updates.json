@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-03-23T18:35:18.328Z",
+  "lastUpdated": "2026-03-24T05:17:04.224Z",
   "updates": [
     {
       "date": "2026-03-23",
@@ -26,6 +26,18 @@
         "url": "https://www.microsoft.com/en-us/research/podcast/will-machines-ever-be-intelligent/"
       },
       "analysis": "At Nubank, this article's insights can directly inform our AI-driven research initiatives. When exploring AI applications for features like personalized loan recommendations or optimizing the PIX transaction flow, researchers should critically assess the AI's current 'intelligence' level. Instead of assuming human-like understanding, we should focus on how AI can augment existing user journeys by analyzing vast datasets for patterns, identifying potential friction points in card activation, or predicting customer churn for insurance products. This means leveraging AI for predictive analytics and task automation, rather than expecting it to independently grasp complex user emotions or solve nuanced financial planning problems during onboarding.\n\nResearchers should apply this by meticulously evaluating the specific capabilities of AI tools being considered for user research. For example, while an AI might be proficient at summarizing open-ended feedback from survey responses, it's unlikely to independently conduct a heuristic evaluation of a new feature. We must implement guardrails, ensuring human oversight and judgment remain paramount. AI should be viewed as a powerful assistant for data processing and hypothesis generation, but not a replacement for the critical thinking and empathy that define effective UX research, especially when dealing with sensitive financial matters for our millions of customers."
+    },
+    {
+      "date": "2026-03-23",
+      "title": "New Artificial Intelligence Specialty for UX Certification",
+      "summary": "NNGroup is excited to announce the NN/G UX Certification program’s newest specialty: Artificial Intelligence (AI). As AI reshapes every part of UX work, this specialty helps practitioners demonstrate that they can effectively utilize and adapt these new tools to their workflow...",
+      "content": "Nielsen Norman Group has launched a new AI specialty within its UX Certification program, acknowledging the profound impact of artificial intelligence on the field of user experience. This initiative highlights the growing imperative for UX researchers to understand and integrate AI-powered tools into their practice.  The certification aims to equip professionals with the skills to leverage AI for enhancing research efficiency, uncovering deeper insights, and ultimately, designing more effective and intuitive digital products.  It emphasizes a proactive approach to adapting to AI's transformative influence on how user research is conducted and applied.",
+      "category": "AI research tools",
+      "source": {
+        "name": "Nielsen Norman Group",
+        "url": "https://www.nngroup.com/news/item/new-ai-specialty/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication"
+      },
+      "analysis": "At Nubank, this AI specialty certification directly aligns with our drive to innovate and leverage technology for better customer experiences. UX researchers can begin by exploring AI tools that assist in data analysis, such as AI-powered sentiment analysis for customer feedback on app reviews related to PIX transactions or loan applications.  These tools can rapidly process large volumes of qualitative data, identifying emerging trends and pain points much faster than manual methods.  Researchers can also experiment with AI for generating user personas based on anonymized behavioral data, which could inform strategies for improving the card activation flow or the insurance onboarding process.\n\nWhen applying these AI tools, it's crucial to maintain rigorous oversight and ethical considerations. While AI can accelerate insights, the human element of empathy and critical thinking remains paramount. Researchers must validate AI-generated findings with traditional qualitative methods, ensuring that nuances and context, especially in sensitive areas like financial planning or fraud detection, are not overlooked.  Guardrails should include clear data privacy protocols and a commitment to avoiding biased outputs, always prioritizing the accuracy and fairness of research outcomes for all Nubank customers across our diverse product ecosystem."
     },
     {
       "date": "2026-03-22",
@@ -746,18 +758,6 @@
         "url": "https://www.userinterviews.com/ai-in-ux-research-report"
       },
       "analysis": "When to use it: Run automated checks on new or updated flows before you schedule usability sessions—especially for high-traffic or high-stakes journeys (e.g. loan application, card activation, PIX, first-time onboarding, support flows). The goal is to fix obvious usability and accessibility issues in sprint, so that when real users come in, you’re testing comprehension, trust, and edge cases instead of repeating 'the CTA was unclear' in every report.\n\nHow to integrate with Nubank’s process: Align the tool’s taxonomy with your design system and a11y standards so the report speaks the same language as design and eng. Share the report with the squad (research, design, product) and assign ownership for fixes before the next round of recruitment. After each usability study, log which issues were caught by the AI vs. found in-session—over time that helps you tune what to run automated vs. what to reserve for human testing.\n\nBoundary: Treat the output as a pre-flight checklist, not a substitute for user testing. Real users still reveal misinterpretation, emotional friction, and context you can’t automate. Use the report to raise the floor; keep moderated sessions to understand why people behave the way they do."
-    },
-    {
-      "date": "2026-02-22",
-      "title": "Survey design and question optimization",
-      "summary": "Researchers are using AI to suggest clearer survey questions, reduce bias, and adapt follow-ups based on previous answers—improving response quality and completion rates.",
-      "content": "Researchers are using AI to improve survey design and question quality. Tools suggest clearer wording, flag leading or double-barreled questions, and recommend shorter, more focused items. Some platforms also support adaptive follow-ups: the next question can depend on the previous answer, so respondents see only relevant branches. The result is better response quality and higher completion rates, with less manual tuning. Teams still need to review suggestions and align questions to their research goals, but AI is speeding up the draft-and-refine loop and reducing common survey pitfalls.",
-      "category": "Survey optimization",
-      "source": {
-        "name": "Typeform - Smarter surveys: A modern guide to AI-powered surveys",
-        "url": "https://typeform.com/blog/ai-powered-surveys-guide"
-      },
-      "analysis": "Where it adds value: Use AI to improve clarity, reduce bias, and shorten surveys for segment and tracking work (e.g. NPS, satisfaction, feature demand, financial habits). It’s especially useful when the topic is sensitive or complex—credit, insurance, fees—where poor wording can skew answers or confuse respondents. Use adaptive logic so follow-ups match the segment (e.g. different paths for investors vs. first-time savers), which keeps surveys relevant and completion rates higher.\n\nOwnership and guardrails: Researchers own the research question and the final questionnaire. Use AI for structure, readability, and branching suggestions; then review every item for leading language, double-barrels, and regulatory risk. Any survey that touches terms, pricing, or legal obligations should still go through compliance and legal where required—AI does not replace that sign-off.\n\nOperational tip: Align with whoever owns the survey platform (e.g. Research Ops or product) so that AI-improved questions live in shared templates and stay consistent across squads. Document which questions were AI-suggested vs. human-written so you can review performance and bias over time."
     }
   ]
 }
