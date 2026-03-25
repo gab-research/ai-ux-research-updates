@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-03-25T10:35:04.581Z",
+  "lastUpdated": "2026-03-25T18:40:02.045Z",
   "updates": [
     {
       "date": "2026-03-25",
@@ -14,6 +14,18 @@
         "url": "https://cms.greatquestion.co/blog/how-to-analyze-survey-data"
       },
       "analysis": "At Nubank, this guide directly complements our ongoing efforts to refine user experiences across products like PIX, our loan offerings, and the card activation flow. Researchers should integrate this step-by-step approach into their post-survey analysis phase, beginning with quantitative methods for closed-ended questions to identify high-level trends (e.g., satisfaction scores for a new onboarding feature). Subsequently, qualitative coding for open-ended responses will be vital for understanding the 'why' behind these trends. For instance, if feedback on our insurance product reveals low NPS, qualitative analysis can pinpoint specific usability issues or unmet needs.\n\nResearchers should leverage AI-assisted tools to expedite the coding and thematic analysis of large volumes of open-ended text, particularly when analyzing feedback from significant user segments or during rapid iterations. However, it's imperative to maintain human oversight. AI should be viewed as a powerful augmentation, not a replacement, for researcher judgment. We must critically evaluate AI-generated themes, ensuring they align with our understanding of the user and our strategic objectives for products such as credit card management or personal finance features. For instance, when analyzing feedback on a new feature within the app, AI might surface common keywords, but a human researcher will be needed to interpret the sentiment and actionable nature of that feedback to guide future development sprints."
+    },
+    {
+      "date": "2026-03-25",
+      "title": "This startup wants to change how mathematicians do math",
+      "summary": "Axiom Math, a startup based in Palo Alto, California, has released a free new AI tool for mathematicians, designed to discover mathematical patterns that could unlock solutions to long-standing problems. The tool, called Axplorer, is a redesign of an existing one called Patter...",
+      "content": "Axiom Math's Axplorer is an AI tool poised to revolutionize mathematical discovery by automating the identification of complex patterns, potentially accelerating breakthroughs in fields previously reliant on manual, intuitive analysis.  For UX researchers, this represents a paradigm shift in how we can leverage AI to understand user behavior, as the underlying principles of pattern recognition can be applied to vast datasets of user interactions.  By uncovering latent relationships and predicting emergent trends, Axplorer's approach could enable UX teams to proactively identify pain points and opportunities within complex user journeys like the onboarding flow for a new Nubank account or the nuanced decision-making process for PIX transfers.",
+      "category": "AI summarization",
+      "source": {
+        "name": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/2026/03/25/1134642/this-startup-wants-to-change-how-mathematicians-do-math/"
+      },
+      "analysis": "At Nubank, Axplorer's pattern-discovery capabilities can be integrated into our post-research analysis workflow, especially when dealing with large-scale qualitative data from interviews or usability testing sessions. Instead of relying solely on manual coding and thematic analysis, researchers could feed anonymized transcripts and session notes into a similar AI-driven tool. This would help surface unexpected correlations between user sentiment and specific product features, such as identifying subtle friction points during the credit card activation process or uncovering previously unseen patterns in user queries related to insurance policy details.  By automating the discovery of these deeper patterns, we can move beyond surface-level insights and gain a more profound understanding of user needs, leading to more impactful design iterations.\n\nWhen applying such a tool, it's crucial to remember that AI is an augmentation, not a replacement, for human expertise. Researchers must maintain critical oversight, interpreting the AI's findings within the broader context of user psychology and business objectives. Guardrails should include rigorous data anonymization and privacy protocols to protect customer information, especially when analyzing sensitive data related to loan applications or personal financial management.  Furthermore, the AI's outputs should be validated through traditional qualitative methods to ensure the patterns identified are indeed meaningful and actionable, preventing over-reliance on automated insights that might lack the nuance of human interpretation."
     },
     {
       "date": "2026-03-24",
