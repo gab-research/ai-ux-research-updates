@@ -1,56 +1,56 @@
 {
   "month": "2026-03",
-  "updated": "2026-03-25",
+  "updated": "2026-03-26",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 152,
-      "description": "Covers AI agents that autonomously perform research tasks, from data collection and analysis to task execution and problem-solving."
-    },
-    {
-      "name": "AI research tools",
-      "count": 129,
-      "description": "Focuses on specific AI-powered tools designed to assist in various aspects of research, including analysis, data handling, and workflow optimization."
-    },
-    {
-      "name": "AI summarization",
-      "count": 70,
-      "description": "Articles discussing AI's ability to condense large amounts of text, such as research papers, meeting notes, or user feedback, into concise summaries."
+      "count": 114,
+      "description": "Articles discussing AI agents performing autonomous tasks within research processes, such as data collection, analysis, or decision-making."
     },
     {
       "name": "AI coding assistants",
-      "count": 68,
-      "description": "Highlights AI tools that aid developers in writing, debugging, and understanding code, accelerating the software development lifecycle."
-    },
-    {
-      "name": "AI chatbot research",
-      "count": 67,
-      "description": "Explores the research and implications of using AI chatbots for user interaction, information retrieval, and conversational interfaces."
-    },
-    {
-      "name": "AI design research",
-      "count": 57,
-      "description": "Focuses on how AI is being used to inform, generate, and streamline the design process, from concept to high-fidelity prototypes."
-    },
-    {
-      "name": "AI workforce impact",
-      "count": 46,
-      "description": "Examines the effects of AI on jobs, skills, and the future of work, including research on job displacement and creation."
-    },
-    {
-      "name": "Synthetic users",
-      "count": 42,
-      "description": "Articles about the creation and use of AI-generated personas or data to simulate real users for testing and research purposes."
+      "count": 89,
+      "description": "Content focusing on AI tools that assist developers in writing, debugging, or refactoring code."
     },
     {
       "name": "AI usability testing",
-      "count": 16,
-      "description": "Covers the application of AI in streamlining and enhancing the process of testing the usability of products and services."
+      "count": 47,
+      "description": "Articles detailing how AI is used to automate, enhance, or conduct usability tests for digital products."
     },
     {
-      "name": "AI customer insights",
-      "count": 15,
-      "description": "Focuses on how AI is employed to extract actionable insights from customer data, understand behavior, and personalize experiences."
+      "name": "AI design research",
+      "count": 45,
+      "description": "Content related to AI's application in the design process, including idea generation, prototyping, and UI/UX creation."
+    },
+    {
+      "name": "AI research tools",
+      "count": 43,
+      "description": "Articles covering a broad spectrum of AI-powered tools utilized across various research disciplines."
+    },
+    {
+      "name": "AI qualitative research",
+      "count": 38,
+      "description": "Focuses on AI applications in qualitative research methods like interviews, sentiment analysis, and thematic analysis."
+    },
+    {
+      "name": "AI workforce impact",
+      "count": 36,
+      "description": "Research and analysis on how AI is affecting jobs, skills, and employment trends across industries."
+    },
+    {
+      "name": "AI summarization",
+      "count": 30,
+      "description": "Content discussing AI tools and techniques for condensing large amounts of text into concise summaries."
+    },
+    {
+      "name": "AI survey tools",
+      "count": 29,
+      "description": "Articles exploring AI applications in creating, distributing, and analyzing survey data."
+    },
+    {
+      "name": "AI sentiment feedback",
+      "count": 22,
+      "description": "Covers AI's use in understanding and analyzing user opinions, emotions, and feedback from various sources."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."

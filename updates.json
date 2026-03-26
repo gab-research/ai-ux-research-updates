@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-03-25T18:40:02.045Z",
+  "lastUpdated": "2026-03-26T05:53:11.427Z",
   "updates": [
     {
       "date": "2026-03-25",
@@ -770,30 +770,6 @@
         "url": "https://www.microsoft.com/en-us/research/blog/corpgen-advances-ai-agents-for-real-work/"
       },
       "analysis": "At Nubank, CORPGEN's advancements in AI agents for real work can directly augment our UX research efforts across various product lines. Imagine an agent capable of ingesting and analyzing thousands of customer reviews related to PIX transactions, loan applications, or card activation processes. It could then identify recurring pain points or positive sentiment trends, providing researchers with an initial synthesized overview of user concerns much faster than manual analysis. This would free up valuable researcher time to dive deeper into qualitative interviews and user journey mapping, ultimately improving the user experience for products like our credit cards or onboarding flows.\n\nResearchers can begin by exploring pilot programs where AI agents assist with synthesizing large datasets of user feedback from channels like our app's feedback section, customer support logs, or even survey responses for our insurance products. The key is to treat these AI outputs as intelligent starting points, not final answers. Researchers must maintain oversight, critically evaluating the AI's findings, cross-referencing with other data, and ensuring the nuances of Brazilian user behavior and cultural context are not lost. Guardrails should include clear guidelines on data privacy and security, especially when dealing with sensitive information related to financial products, and a robust human-in-the-loop process for validation and refinement."
-    },
-    {
-      "date": "2026-02-24",
-      "title": "AI summarization of interview transcripts",
-      "summary": "Tools like Marvin and Dovetail now offer one-click summarization and theme extraction from user interview transcripts, turning hours of analysis into structured insights in minutes.",
-      "content": "Tools like Marvin, Dovetail, and others now offer one-click summarization and theme extraction from user interview transcripts. Researchers upload recordings or transcripts, and the tool returns structured summaries, recurring themes, and sometimes suggested quotes—turning hours of manual analysis into a first draft in minutes. Teams use these outputs as a starting point: they still review and refine, but the heavy lifting of pattern-finding is accelerated. Best practice is to keep the human in the loop for nuance and to avoid over-relying on AI for sensitive or ambiguous themes. When used well, this workflow lets researchers run more interviews without drowning in analysis.",
-      "category": "AI summarization",
-      "source": {
-        "name": "Dovetail - AI content analysis generator",
-        "url": "https://dovetail.com/ai-content-analysis-generator/"
-      },
-      "analysis": "Role in the research process: Use AI summarisation as the first pass after discovery or usability interviews. It should produce a draft structure (themes, sub-themes, candidate quotes) that you then refine—not replace—with your own judgment. That keeps synthesis faster without outsourcing interpretation on regulated or sensitive topics.\n\nPractical workflow: After each round of interviews (e.g. 5–8 sessions per study), upload transcripts to your chosen tool. Use the AI output to build an initial affinity map or theme list; then re-read critical moments and adjust. Tag themes so they can be reused across squads (e.g. 'onboarding friction', 'trust in PIX', 'loan comprehension'). For Nubank, reserve full human synthesis for anything touching debt, fraud, identity, or regulatory risk—AI can still suggest themes, but a researcher should own the final framing and recommendations.\n\nQuality guardrail: Keep a short checklist: 'Did the AI miss nuance or context? Did it over-generalise?' If a theme is going into a shareout or roadmap decision, trace it back to at least one real quote and one researcher note. That way AI accelerates structure and recall; researchers keep accountability for meaning and action."
-    },
-    {
-      "date": "2026-02-24",
-      "title": "Being an AI-native designer isn’t what you think it is",
-      "summary": "What 28 design leaders have said AI-native design really is Continue reading on UX Collective »",
-      "content": "This article argues that \"AI-native design\" is less about mastering specific AI tools and more about adopting a mindset that leverages AI to augment human creativity and problem-solving. It emphasizes that AI-native designers are those who understand AI's capabilities and limitations, using it as a collaborative partner rather than a replacement for human intuition and empathy. For UX researchers, this distinction is crucial because it shifts the focus from tool proficiency to strategic integration of AI into the research process. Practical implications include a deeper understanding of how AI can accelerate tasks like synthesis and ideation, freeing up researchers to concentrate on higher-level strategic thinking and user advocacy.",
-      "category": "AI for design & research",
-      "source": {
-        "name": "UX Collective (Medium)",
-        "url": "https://uxdesign.cc/being-an-ai-native-designer-isnt-what-you-think-it-is-dae1d03e68f5?source=rss----138adf9c44c---4"
-      },
-      "analysis": "At Nubank, an \"AI-native\" approach to UX research means integrating AI as a smart assistant to enhance our existing workflows, not to automate critical human connection. For instance, AI can help synthesize vast amounts of user feedback from PIX transaction analyses or card activation flows, identifying emergent themes that might be missed manually. Similarly, during the onboarding or insurance application process, AI can quickly process large datasets to identify friction points or predict user drop-off likelihood, allowing researchers to proactively address these issues.\n\nResearchers should apply this by viewing AI tools as copilots for tasks like qualitative data analysis, persona generation refinement, or even drafting initial research questions. For example, instead of solely relying on manual affinity mapping of loan application feedback, an AI tool could suggest clusters of user pain points, which the researcher then validates and enriches with their deep user understanding. Crucially, guardrails must be in place: AI outputs should always be critically reviewed and validated by human judgment, ensuring that empathy and nuanced user understanding remain at the core of our research. We must avoid over-reliance on AI for direct user interaction or for making definitive judgments about user needs, always prioritizing ethical considerations and data privacy."
     }
   ]
 }
