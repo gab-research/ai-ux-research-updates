@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-03-28T02:51:20.013Z",
+  "lastUpdated": "2026-03-28T08:51:55.743Z",
   "updates": [
     {
       "date": "2026-03-27",
@@ -787,13 +787,13 @@
       "date": "2026-02-26",
       "title": "Pacific Northwest National Laboratory and OpenAI partner to accelerate federal permitting",
       "summary": "OpenAI and Pacific Northwest National Laboratory introduce DraftNEPABench, a new benchmark evaluating how AI coding agents can accelerate federal permitting—showing potential to reduce NEPA drafting time by up to 15% and modernize infrastructure reviews.",
-      "content": "This article highlights a significant collaboration between the Pacific Northwest National Laboratory (PNNL) and OpenAI to improve the efficiency of federal permitting processes, specifically through the development of DraftNEPABench. This benchmark assesses the capability of AI coding agents to expedite the drafting of National Environmental Policy Act (NEPA) documents, a crucial step in infrastructure development.  For UX researchers, this signals a growing trend in leveraging AI for complex information processing and documentation, a skill set that can be adapted to streamline our own research reporting and analysis.  The potential for substantial time savings in drafting could translate to quicker insights and more agile decision-making in product development, akin to how faster PIX transactions improve user experience.",
+      "content": "This article highlights a collaboration between Pacific Northwest National Laboratory and OpenAI, aimed at leveraging AI to streamline federal permitting processes. They've developed DraftNEPABench, a benchmark for assessing AI's capability in drafting National Environmental Policy Act (NEPA) documents.  The research suggests a significant potential to reduce drafting time for these complex environmental reviews by as much as 15%, thus modernizing infrastructure development. For UX researchers, this signals the growing application of AI in accelerating complex documentation and review cycles, a principle directly transferable to improving internal workflows and user-facing processes within financial services.",
       "category": "AI coding assistants",
       "source": {
         "name": "OpenAI Blog",
         "url": "https://openai.com/index/pacific-northwest-national-laboratory"
       },
-      "analysis": "At Nubank, this partnership's focus on AI-driven efficiency in documentation and review can be directly applied to our research workflow. Researchers can explore using AI coding agents or similar LLM capabilities to automate initial drafts of user research reports, synthesize large volumes of qualitative data from interviews (e.g., loan application feedback), or even generate preliminary summaries of user journey mapping for onboarding or card activation flows.  Imagine an AI assisting in summarizing key pain points identified during a study on insurance product adoption.\n\nWhile promising, researchers must maintain critical oversight. These AI tools should be viewed as powerful assistants, not replacements for human analysis and interpretation.  Guardrails include ensuring data privacy and security, as sensitive customer information should not be fed into public AI models.  Furthermore, the AI's output needs rigorous validation by researchers to ensure accuracy, nuance, and adherence to Nubank's brand voice and ethical standards, especially when analyzing feedback related to sensitive financial products like personal loans or PIX irregularities."
+      "analysis": "At Nubank, this partnership's implications lie in accelerating our internal research documentation and reporting. Instead of relying solely on manual synthesis for summarizing user interview transcripts, competitive analyses, or journey mapping findings for products like PIX transactions or loan applications, AI coding agents could assist in generating initial drafts. This frees up researchers to focus on deeper strategic insights and qualitative analysis.\n\nResearchers can start by experimenting with AI tools to draft sections of reports, generate summaries of user feedback from large datasets, or even help in outlining research plans for new features. For instance, after conducting user testing for card activation or onboarding flows, AI could help collate and summarize common pain points. However, it's crucial to remember that AI-generated content is a starting point, not a final product. Researchers must rigorously review, fact-check, and add their expert qualitative interpretation, especially when dealing with sensitive data or customer-facing communications related to insurance or financial advice, ensuring no critical nuances are missed."
     },
     {
       "date": "2026-02-26",
