@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-03-28T16:44:57.938Z",
+  "lastUpdated": "2026-03-29T03:27:04.905Z",
   "updates": [
     {
       "date": "2026-03-27",
@@ -770,30 +770,6 @@
         "url": "https://uxdesign.cc/everyone-wants-to-hire-seniors-nobody-wants-to-make-them-b3f5671f971a?source=rss----138adf9c44c---4"
       },
       "analysis": "At Nubank, this article prompts a shift in how we view AI's role in UX research, moving beyond task automation to strategic augmentation of senior capabilities. Instead of solely focusing on AI tools that can accelerate data synthesis for features like PIX transactions or loan applications, we should prioritize AI that can assist seniors in identifying emergent trends, hypothesizing complex user behaviors, or even simulating the impact of design changes on broader customer segments. This allows our senior researchers to dedicate more cognitive bandwidth to strategic problem definition, complex stakeholder management, and the ethical considerations surrounding new product launches, such as insurance onboarding.\n\nResearchers should proactively explore AI tools that can elevate their strategic contributions, rather than just streamline execution. This means experimenting with AI-powered foresight tools, advanced qualitative analysis assistants that can surface nuanced insights from large datasets (e.g., from card activation feedback), and generative AI for ideation or hypothesis generation. The guardrail here is critical oversight: AI outputs must be rigorously validated and interpreted through a senior researcher's experienced lens. We must avoid blindly trusting AI-generated insights, especially when dealing with sensitive customer data or high-stakes product decisions, ensuring that human judgment and ethical frameworks remain paramount in our research processes."
-    },
-    {
-      "date": "2026-02-27",
-      "title": "How to Use AI for Qualitative Data Analysis? (2026 Steps)",
-      "summary": "Master AI qualitative data analysis in 2026. Learn how to use generative AI tools to code, synthesize, and interpret unstructured research data 10x faster. Read more!",
-      "content": "This article from Parallel Blog outlines a future where Artificial Intelligence, specifically generative AI, will revolutionize the way UX researchers approach qualitative data analysis.  The core idea is to leverage AI tools to automate and accelerate the laborious tasks of coding interview transcripts, survey open-ended responses, and other unstructured data. For UX researchers at Nubank, this is critical as it promises to significantly reduce the time spent on manual analysis, freeing up valuable researcher capacity to focus on higher-level strategic insights and rapid iteration for products like PIX, personal loans, and new customer onboarding.  The practical implication is the potential to uncover deeper themes and patterns from vast datasets much faster, leading to more data-informed product decisions and a quicker response to user needs.",
-      "category": "Interview analysis",
-      "source": {
-        "name": "Parallel Blog",
-        "url": "https://www.parallelhq.com/blog/ai-qualitative-data-analysis"
-      },
-      "analysis": "At Nubank, integrating AI for qualitative data analysis can be strategically applied to our core research workflows. Imagine using AI tools to rapidly code thousands of open-ended feedback entries from our PIX transaction flows or card activation process. This would allow us to quickly identify pain points or delight factors that might otherwise be buried in manual analysis, informing immediate improvements to user journeys. Researchers can begin by piloting these tools on specific, contained projects, perhaps analyzing user feedback on a recent feature update for our personal loans product before broader implementation.  It's crucial to treat AI output as a powerful assistant, not a replacement for human judgment; insights must always be validated by researchers through critical review and triangulation with other data sources.  Guardrails should include establishing clear guidelines on data privacy and security, ensuring all AI tools comply with Nubank's stringent data handling policies, and that researchers are trained to critically evaluate AI-generated themes, especially when dealing with sensitive user data related to insurance applications or onboarding."
-    },
-    {
-      "date": "2026-02-26",
-      "title": "CORPGEN advances AI agents for real work",
-      "summary": "By mid-morning, a typical knowledge worker is already juggling a client report, a budget spreadsheet, a slide deck, and an email backlog, all interdependent and all demanding attention at once. For AI agents to be genuinely useful in that environment, they will need to operate...",
-      "content": "By mid-morning, a typical knowledge worker is already juggling a client report, a budget spreadsheet, a slide deck, and an email backlog, all interdependent and all demanding attention at once. For AI agents to be genuinely useful in that environment, they will need to operate the same way, but today’s best models are evaluated one […] The post CORPGEN advances AI agents for real work appeared first on Microsoft Research.",
-      "category": "General AI in research",
-      "source": {
-        "name": "Microsoft Research",
-        "url": "https://www.microsoft.com/en-us/research/blog/corpgen-advances-ai-agents-for-real-work/"
-      },
-      "analysis": "At Nubank, CORPGEN's advancements in AI agents for real work can directly augment our UX research efforts across various product lines. Imagine an agent capable of ingesting and analyzing thousands of customer reviews related to PIX transactions, loan applications, or card activation processes. It could then identify recurring pain points or positive sentiment trends, providing researchers with an initial synthesized overview of user concerns much faster than manual analysis. This would free up valuable researcher time to dive deeper into qualitative interviews and user journey mapping, ultimately improving the user experience for products like our credit cards or onboarding flows.\n\nResearchers can begin by exploring pilot programs where AI agents assist with synthesizing large datasets of user feedback from channels like our app's feedback section, customer support logs, or even survey responses for our insurance products. The key is to treat these AI outputs as intelligent starting points, not final answers. Researchers must maintain oversight, critically evaluating the AI's findings, cross-referencing with other data, and ensuring the nuances of Brazilian user behavior and cultural context are not lost. Guardrails should include clear guidelines on data privacy and security, especially when dealing with sensitive information related to financial products, and a robust human-in-the-loop process for validation and refinement."
     }
   ]
 }
