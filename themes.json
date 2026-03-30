@@ -1,56 +1,56 @@
 {
   "month": "2026-03",
-  "updated": "2026-03-29",
+  "updated": "2026-03-30",
   "themes": [
     {
       "name": "Agentic AI in research",
       "count": 103,
-      "description": "Articles discussing AI agents designed to autonomously perform research tasks, from data collection and analysis to generating hypotheses and conducting experiments."
+      "description": "Focuses on AI agents that can autonomously perform research tasks, make decisions, and interact with tools or systems to achieve research objectives."
     },
     {
       "name": "AI coding assistants",
-      "count": 69,
-      "description": "Focuses on AI tools that help developers write, debug, review, and optimize code, accelerating the software development lifecycle."
-    },
-    {
-      "name": "AI design research",
-      "count": 41,
-      "description": "Covers AI applications used in the design process, including generating UI elements, exploring design aesthetics, and aiding in the creation of user interfaces."
+      "count": 78,
+      "description": "Articles discussing AI tools that assist developers in writing, reviewing, and debugging code, often through code generation and suggestion."
     },
     {
       "name": "AI research tools",
-      "count": 38,
-      "description": "Articles about various AI-powered tools used broadly for research, encompassing data analysis, information gathering, and insight generation across disciplines."
+      "count": 63,
+      "description": "Covers a broad category of AI-powered tools designed to aid researchers in various aspects of their work, from data analysis to literature review."
     },
     {
       "name": "AI summarization",
-      "count": 33,
-      "description": "Focuses on AI capabilities that condense large amounts of text, such as articles, meeting transcripts, or research papers, into concise summaries."
-    },
-    {
-      "name": "Synthetic users",
-      "count": 32,
-      "description": "Discusses the creation and use of artificial user profiles or data for testing, simulation, and research purposes."
+      "count": 52,
+      "description": "Articles detailing AI applications that condense large amounts of text into concise summaries, useful for research and content analysis."
     },
     {
       "name": "AI chatbot research",
-      "count": 30,
-      "description": "Articles exploring the behavior, effectiveness, and potential risks associated with AI chatbots, particularly in user interactions and information provision."
+      "count": 49,
+      "description": "Examines the behavior, impact, and risks of AI chatbots, including their interactions with users and their potential for misinformation or harm."
     },
     {
       "name": "AI usability testing",
-      "count": 30,
-      "description": "Covers the application of AI in evaluating the ease of use and user experience of products and services, often through automated checks or simulated user interactions."
+      "count": 40,
+      "description": "Focuses on AI's role in automating or enhancing the process of testing user interfaces and user experiences for usability and effectiveness."
     },
     {
       "name": "AI customer insights",
-      "count": 29,
-      "description": "Focuses on AI techniques and tools used to analyze customer data, feedback, and behavior to derive actionable insights for business strategy and product development."
+      "count": 39,
+      "description": "Explores how AI is used to analyze customer data, behavior, and feedback to generate actionable insights for businesses."
     },
     {
-      "name": "AI workforce impact",
-      "count": 25,
-      "description": "Discusses how AI is changing the job market, including job creation, displacement, skill requirements, and the overall impact on the human workforce."
+      "name": "AI design research",
+      "count": 33,
+      "description": "Discusses AI's application in the design process, including generating UI elements, exploring design concepts, and aiding designers."
+    },
+    {
+      "name": "AI research platform",
+      "count": 32,
+      "description": "Covers platforms and infrastructure designed to facilitate and manage AI research, development, and experimentation."
+    },
+    {
+      "name": "Synthetic users",
+      "count": 29,
+      "description": "Articles focusing on the creation and use of artificial or simulated users for testing, training, or research purposes."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."

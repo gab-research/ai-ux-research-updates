@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-03-29T16:45:29.463Z",
+  "lastUpdated": "2026-03-30T03:27:56.233Z",
   "updates": [
     {
       "date": "2026-03-29",
@@ -770,18 +770,6 @@
         "url": "https://uxdesign.cc/the-ai-adoption-theatre-when-innovation-becomes-performance-fd03bb16b0ce?source=rss----138adf9c44c---4"
       },
       "analysis": "At Nubank, this \"AI adoption theatre\" concept is crucial as we integrate LLMs into our research workflow. Instead of broadly applying AI to every stage, we should focus on specific, high-impact areas where LLMs can genuinely augment our capabilities. For instance, when analyzing qualitative data from user interviews for our PIX or loan application flows, LLMs can rapidly synthesize themes and identify pain points that might be missed in manual analysis, freeing up researchers for deeper interpretation. Similarly, during the initial stages of card activation or onboarding, LLMs could help generate diverse persona-based scenarios for usability testing.\n\nResearchers should approach LLM integration with a \"test and validate\" mindset, treating AI-generated insights as hypotheses to be rigorously tested against user behavior and feedback. We must avoid over-reliance, especially in areas requiring nuanced ethical judgment or highly sensitive data, such as in our insurance product development. Guardrails should include maintaining human oversight for all critical research conclusions, clearly documenting when and how AI was used in analysis, and prioritizing tools that offer transparency and control over data privacy. This ensures our AI adoption is purposeful, enhancing our ability to build better financial experiences for millions of Brazilians, not just a performance."
-    },
-    {
-      "date": "2026-02-28",
-      "title": "Everyone wants to hire seniors. Nobody wants to make them.",
-      "summary": "We’re having the wrong conversation about AI and jobs. The question isn’t whether juniors get replaced. It’s where seniors come from when… Continue reading on UX Collective »",
-      "content": "This article argues that the prevailing concern about AI replacing junior roles in UX research is misguided. Instead, the true challenge lies in the unsustainable pipeline for senior expertise.  If AI tools become the primary means of performing foundational research tasks, we risk a future where experienced professionals capable of strategic oversight, complex problem-solving, and nuanced interpretation are scarce.  This is crucial for UX researchers as it highlights the need to focus on developing skills that AI cannot replicate, such as critical thinking, empathetic understanding, and ethical judgment, to ensure a robust senior talent pool for the industry.",
-      "category": "Survey optimization",
-      "source": {
-        "name": "UX Collective (Medium)",
-        "url": "https://uxdesign.cc/everyone-wants-to-hire-seniors-nobody-wants-to-make-them-b3f5671f971a?source=rss----138adf9c44c---4"
-      },
-      "analysis": "At Nubank, this article prompts a shift in how we view AI's role in UX research, moving beyond task automation to strategic augmentation of senior capabilities. Instead of solely focusing on AI tools that can accelerate data synthesis for features like PIX transactions or loan applications, we should prioritize AI that can assist seniors in identifying emergent trends, hypothesizing complex user behaviors, or even simulating the impact of design changes on broader customer segments. This allows our senior researchers to dedicate more cognitive bandwidth to strategic problem definition, complex stakeholder management, and the ethical considerations surrounding new product launches, such as insurance onboarding.\n\nResearchers should proactively explore AI tools that can elevate their strategic contributions, rather than just streamline execution. This means experimenting with AI-powered foresight tools, advanced qualitative analysis assistants that can surface nuanced insights from large datasets (e.g., from card activation feedback), and generative AI for ideation or hypothesis generation. The guardrail here is critical oversight: AI outputs must be rigorously validated and interpreted through a senior researcher's experienced lens. We must avoid blindly trusting AI-generated insights, especially when dealing with sensitive customer data or high-stakes product decisions, ensuring that human judgment and ethical frameworks remain paramount in our research processes."
     }
   ]
 }
