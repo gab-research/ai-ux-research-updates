@@ -1,8 +1,32 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-03-31T09:11:48.487Z",
+  "lastUpdated": "2026-03-31T17:08:44.576Z",
   "updates": [
+    {
+      "date": "2026-03-31",
+      "title": "Electronics & Office UX Benchmark: 5,000+ Performance Scores and 3,900+ Best Practice Examples",
+      "summary": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) At Baymard, we’ve just released a new UX benchmark with 9 “Electronics & Office” UX case studi...",
+      "content": "Baymard Institute's latest UX benchmark for Electronics & Office provides a comprehensive dataset of over 5,000 performance scores and 3,900 best practice examples. This extensive research analyzes user experience across a range of digital products and services within this sector, identifying key areas for improvement and success. For UX researchers, this report offers valuable insights into industry-standard patterns and user expectations, directly informing design decisions and strategic research planning. The practical implications include leveraging these benchmarks to identify competitive gaps, validate design hypotheses, and ultimately enhance user satisfaction and conversion rates in digital product development.",
+      "category": "AI in user testing",
+      "source": {
+        "name": "Baymard Institute",
+        "url": "https://feeds.baymard.com/link/9825/17310163/electronics-and-office-ux-benchmark-2026"
+      },
+      "analysis": "This Baymard benchmark is highly relevant for Nubank's UX research team, particularly when evaluating and improving existing product flows or developing new features. Researchers can use these findings to benchmark Nubank's own performance against leading practices in comparable digital product categories, even if not directly electronics or office-related. For instance, when designing or iterating on the PIX transfer flow, researchers can compare the clarity of confirmation screens or the efficiency of the payment process against best practices identified in similar transactional interfaces.\n\nTo apply this, researchers should proactively integrate the benchmark data into their ongoing research activities. This could involve using the performance scores as quantitative targets for A/B testing new designs for card activation or insurance policy applications. The best practice examples can serve as inspiration and a checklist for heuristic evaluations or design critiques. However, it's crucial to acknowledge that the \"Electronics & Office\" context may not perfectly map to all Nubank experiences; therefore, researchers must critically adapt the insights, focusing on the underlying UX principles rather than direct feature parity. For example, while a \"product comparison\" feature might be a benchmark in electronics, the core principle of presenting clear, comparable options can be applied to loan product offerings or investment fund choices."
+    },
+    {
+      "date": "2026-03-31",
+      "title": "MCP for user research: connect AI to your research data",
+      "summary": "Great Question now has a native MCP server. Connect Claude or Cursor to your research repository and ask questions across years of sessions and insights.",
+      "content": "This article introduces a new capability from Great Question that allows UX researchers to integrate AI, specifically models like Claude or Cursor, directly with their existing research repositories.  The core innovation lies in enabling natural language queries across vast datasets of past user sessions and insights, moving beyond manual sifting or keyword searches. This is significant for UX researchers as it democratizes access to historical knowledge, allowing for quicker identification of trends, patterns, and forgotten user feedback. Practically, it means researchers can now rapidly answer complex questions about user behavior related to specific product features or entire customer journeys, accelerating insight generation and informing product decisions more effectively.",
+      "category": "Survey optimization",
+      "source": {
+        "name": "Great Question Blog",
+        "url": "https://cms.greatquestion.co/blog/mcp-for-user-research"
+      },
+      "analysis": "At Nubank, this AI integration can significantly augment our existing research practices. Researchers can leverage this 'MCP server' to query our extensive repository of user interviews, usability tests, and survey responses related to key Nubank flows like PIX transactions, loan applications, card activation, onboarding, or insurance product usage. For instance, a researcher could ask, 'What were the primary pain points users encountered during the PIX transfer process in 2022?' or 'Show me all feedback related to user confusion during our digital onboarding journey over the last two years.' This allows for rapid hypothesis testing and exploration of historical context without manual data extraction.\n\nTo apply this at Nubank, researchers should first familiarize themselves with the interface and experiment with basic queries. It's crucial to start with well-defined questions that build upon existing knowledge or address specific product development needs. For example, before designing a new feature for our digital insurance products, a researcher could use this to quickly surface all past user discussions about their insurance expectations. However, it's important to remember that AI-generated insights are a starting point, not an end-all. Researchers must still critically evaluate the AI's output, cross-reference it with primary research where necessary, and ensure responsible data handling and privacy considerations are maintained throughout the process."
+    },
     {
       "date": "2026-03-30",
       "title": "UX Roundup: Apple 50 Years | AI UX Explained | Good AI Support | New Reasoning Image Model | AI Creativity | Suno 5.5",
