@@ -1,56 +1,56 @@
 {
-  "month": "2026-03",
-  "updated": "2026-03-31",
+  "month": "2026-04",
+  "updated": "2026-04-01",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 101,
-      "description": "Articles discussing AI agents that can independently perform research tasks, analyze data, and generate insights."
+      "count": 3,
+      "description": "Articles focusing on the use of AI agents capable of independent action and decision-making for research purposes."
     },
     {
       "name": "AI coding assistants",
-      "count": 73,
-      "description": "Focuses on AI tools that help developers write, review, debug, and optimize code."
+      "count": 3,
+      "description": "Content discussing AI tools that assist developers in writing, debugging, and managing code."
+    },
+    {
+      "name": "AI agent threats",
+      "count": 2,
+      "description": "Discussions around security risks and protective measures related to AI agents, including their potential for malicious activity."
+    },
+    {
+      "name": "AI memory and simulation",
+      "count": 2,
+      "description": "Articles exploring advancements in AI's ability to remember information and the use of simulations for training or testing AI agents."
+    },
+    {
+      "name": "AI tool evaluation",
+      "count": 2,
+      "description": "Analysis and ranking of various AI tools, particularly in the context of coding and development."
     },
     {
       "name": "AI research tools",
-      "count": 66,
-      "description": "Covers AI-powered tools specifically designed to aid researchers in data analysis, information retrieval, and insight generation."
+      "count": 1,
+      "description": "Content highlighting specific AI applications or platforms used to facilitate scientific discovery and research."
     },
     {
-      "name": "AI summarization",
-      "count": 45,
-      "description": "Articles related to AI applications that condense large amounts of text, such as research papers, meeting transcripts, or articles, into concise summaries."
+      "name": "AI ethics in research",
+      "count": 1,
+      "description": "Articles examining ethical considerations and potential issues arising from the use of AI in research, such as AI fabrications."
     },
     {
-      "name": "Synthetic users",
-      "count": 39,
-      "description": "Discusses the creation and use of artificial user profiles or data for testing, research, or simulation purposes."
+      "name": "AI for product management",
+      "count": 1,
+      "description": "Discussions on how AI technologies are being applied to support and enhance product management processes."
     },
     {
-      "name": "AI chatbot research",
-      "count": 39,
-      "description": "Focuses on the study and analysis of AI chatbots, including their behavior, user interactions, and potential impacts."
+      "name": "AI-powered data analysis",
+      "count": 1,
+      "description": "Content detailing the application of AI techniques for analyzing large datasets and extracting insights."
     },
     {
-      "name": "AI for design & research",
-      "count": 32,
-      "description": "Explores how AI is integrated into the design process, from ideation and prototyping to research synthesis and best practice alignment."
-    },
-    {
-      "name": "AI customer insights",
-      "count": 30,
-      "description": "Covers AI applications used to gather, analyze, and interpret customer data to derive actionable insights for businesses."
-    },
-    {
-      "name": "AI usability testing",
-      "count": 24,
-      "description": "Articles focusing on AI's role in automating or augmenting the process of testing product usability and user experience."
-    },
-    {
-      "name": "AI design research",
-      "count": 22,
-      "description": "Examines how AI is used to inform and guide the design process through research and analysis of user needs and preferences."
+      "name": "AI automation",
+      "count": 1,
+      "description": "Focuses on AI systems designed to automate specific tasks or processes, such as in the context of agent-based automation."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
