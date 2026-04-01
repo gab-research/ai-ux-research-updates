@@ -3,54 +3,54 @@
   "updated": "2026-04-01",
   "themes": [
     {
-      "name": "Agentic AI in research",
+      "name": "Agentic AI development",
+      "count": 13,
+      "description": "Focuses on the creation, simulation, and management of AI agents that can perform tasks autonomously, including code generation, research, and complex simulations."
+    },
+    {
+      "name": "AI-powered code assistance",
+      "count": 7,
+      "description": "Covers AI tools and techniques that assist developers and researchers in writing, optimizing, and managing code, including specific AI models and their applications."
+    },
+    {
+      "name": "AI memory systems",
       "count": 3,
-      "description": "Articles focusing on the use of AI agents capable of independent action and decision-making for research purposes."
-    },
-    {
-      "name": "AI coding assistants",
-      "count": 3,
-      "description": "Content discussing AI tools that assist developers in writing, debugging, and managing code."
-    },
-    {
-      "name": "AI agent threats",
-      "count": 2,
-      "description": "Discussions around security risks and protective measures related to AI agents, including their potential for malicious activity."
-    },
-    {
-      "name": "AI memory and simulation",
-      "count": 2,
-      "description": "Articles exploring advancements in AI's ability to remember information and the use of simulations for training or testing AI agents."
-    },
-    {
-      "name": "AI tool evaluation",
-      "count": 2,
-      "description": "Analysis and ranking of various AI tools, particularly in the context of coding and development."
+      "description": "Explores the development and implementation of AI systems capable of remembering and utilizing past information, focusing on the underlying technologies like vector databases."
     },
     {
       "name": "AI research tools",
-      "count": 1,
-      "description": "Content highlighting specific AI applications or platforms used to facilitate scientific discovery and research."
+      "count": 3,
+      "description": "Highlights AI applications and platforms specifically designed to aid in the research process, including data analysis and discovery."
     },
     {
-      "name": "AI ethics in research",
-      "count": 1,
-      "description": "Articles examining ethical considerations and potential issues arising from the use of AI in research, such as AI fabrications."
+      "name": "AI for personalized experiences",
+      "count": 2,
+      "description": "Discusses AI's role in creating tailored user experiences, such as personalized account management and style recommendations."
+    },
+    {
+      "name": "AI code quality & fabrication",
+      "count": 2,
+      "description": "Addresses the challenges of AI-generated code, including detecting fabrications, understanding code leaks, and managing AI model behavior."
     },
     {
       "name": "AI for product management",
       "count": 1,
-      "description": "Discussions on how AI technologies are being applied to support and enhance product management processes."
+      "description": "Details how AI can be applied to enhance product development and management processes."
     },
     {
-      "name": "AI-powered data analysis",
+      "name": "AI for content creation",
       "count": 1,
-      "description": "Content detailing the application of AI techniques for analyzing large datasets and extracting insights."
+      "description": "Examines AI applications for generating various forms of content, including viral videos."
     },
     {
-      "name": "AI automation",
+      "name": "AI for design & research",
       "count": 1,
-      "description": "Focuses on AI systems designed to automate specific tasks or processes, such as in the context of agent-based automation."
+      "description": "Covers the impact of AI on design awards and the broader implications for creative industries."
+    },
+    {
+      "name": "AI for automated analysis",
+      "count": 1,
+      "description": "Focuses on AI's capability to automate complex analytical tasks, such as root cause analysis for modern operations."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
