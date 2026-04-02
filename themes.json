@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "AI coding assistants",
-      "count": 27,
-      "description": "Focuses on AI tools and discussions related to helping developers write, debug, and optimize code."
+      "count": 24,
+      "description": "Articles focusing on AI tools and techniques that aid developers in writing, understanding, and debugging code."
     },
     {
-      "name": "Agentic AI in research",
-      "count": 12,
-      "description": "Covers AI systems designed to act autonomously or semi-autonomously in research tasks and environments."
+      "name": "Agentic AI research",
+      "count": 14,
+      "description": "Content discussing autonomous AI agents that can perform research tasks, generate data, or interact with systems."
+    },
+    {
+      "name": "AI chatbot research",
+      "count": 11,
+      "description": "Research and discussions around the capabilities, limitations, and potential pitfalls of AI chatbots in various applications."
     },
     {
       "name": "AI research tools",
       "count": 10,
-      "description": "Highlights platforms and software that leverage AI to facilitate or enhance various research activities."
-    },
-    {
-      "name": "Synthetic users",
-      "count": 9,
-      "description": "Discusses the creation and use of artificial or simulated users for testing, research, or other purposes."
-    },
-    {
-      "name": "AI chatbot research",
-      "count": 8,
-      "description": "Explores the use of AI chatbots in research, including their capabilities, limitations, and potential impacts on users."
+      "description": "Articles highlighting specific AI-powered platforms and software designed to assist in user research activities."
     },
     {
       "name": "AI for design & research",
-      "count": 7,
-      "description": "Covers the application of AI technologies to improve the processes and outcomes of design and user research."
+      "count": 9,
+      "description": "Content exploring how AI is integrated into the design process and user research workflows for enhanced efficiency and insights."
     },
     {
-      "name": "AI workforce impact",
+      "name": "AI content generation",
+      "count": 7,
+      "description": "Discussions and examples of AI models creating various forms of content, from text and code to images and videos."
+    },
+    {
+      "name": "AI ethics in research",
       "count": 6,
-      "description": "Analyzes how AI is affecting jobs, skills, and the overall structure of the workforce."
+      "description": "Articles addressing the ethical considerations, risks, and responsible use of AI in research and user interactions."
+    },
+    {
+      "name": "Synthetic users",
+      "count": 4,
+      "description": "Content about the creation and use of artificial users for testing, simulation, or understanding user behavior."
     },
     {
       "name": "AI usability testing",
-      "count": 6,
-      "description": "Focuses on AI's role in automating or enhancing the process of evaluating user interface usability."
-    },
-    {
-      "name": "AI survey tools",
-      "count": 5,
-      "description": "Features AI-powered platforms and methods for creating, distributing, and analyzing surveys."
+      "count": 4,
+      "description": "Exploration of how AI can automate or enhance the process of testing the usability of products and interfaces."
     },
     {
       "name": "AI customer insights",
-      "count": 5,
-      "description": "Discusses how AI is used to extract, analyze, and derive actionable insights from customer data."
+      "count": 3,
+      "description": "Articles detailing how AI is used to extract valuable information and understand customer behavior and preferences."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
