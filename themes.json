@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "AI coding assistants",
-      "count": 24,
-      "description": "This theme covers articles discussing AI tools and techniques that aid in writing, debugging, and understanding code."
+      "count": 27,
+      "description": "Focuses on AI tools and discussions related to helping developers write, debug, and optimize code."
     },
     {
-      "name": "Agentic AI research",
-      "count": 11,
-      "description": "Articles focusing on AI agents capable of independent decision-making and task execution within research contexts."
+      "name": "Agentic AI in research",
+      "count": 12,
+      "description": "Covers AI systems designed to act autonomously or semi-autonomously in research tasks and environments."
     },
     {
       "name": "AI research tools",
-      "count": 9,
-      "description": "This theme includes articles about platforms and software that leverage AI to enhance user research processes."
+      "count": 10,
+      "description": "Highlights platforms and software that leverage AI to facilitate or enhance various research activities."
     },
     {
-      "name": "AI customer insights",
-      "count": 5,
-      "description": "Content related to using AI to extract, analyze, and understand customer behavior and preferences."
+      "name": "Synthetic users",
+      "count": 9,
+      "description": "Discusses the creation and use of artificial or simulated users for testing, research, or other purposes."
+    },
+    {
+      "name": "AI chatbot research",
+      "count": 8,
+      "description": "Explores the use of AI chatbots in research, including their capabilities, limitations, and potential impacts on users."
+    },
+    {
+      "name": "AI for design & research",
+      "count": 7,
+      "description": "Covers the application of AI technologies to improve the processes and outcomes of design and user research."
+    },
+    {
+      "name": "AI workforce impact",
+      "count": 6,
+      "description": "Analyzes how AI is affecting jobs, skills, and the overall structure of the workforce."
+    },
+    {
+      "name": "AI usability testing",
+      "count": 6,
+      "description": "Focuses on AI's role in automating or enhancing the process of evaluating user interface usability."
     },
     {
       "name": "AI survey tools",
       "count": 5,
-      "description": "Articles that focus on AI applications designed to improve the creation, distribution, and analysis of surveys."
+      "description": "Features AI-powered platforms and methods for creating, distributing, and analyzing surveys."
     },
     {
-      "name": "AI for design and research",
-      "count": 4,
-      "description": "This theme covers the application of AI directly in the design process and in performing research activities."
-    },
-    {
-      "name": "AI usability testing",
-      "count": 3,
-      "description": "Articles discussing how AI is used to automate or enhance the process of testing product usability."
-    },
-    {
-      "name": "AI ethics in research",
-      "count": 3,
-      "description": "Content related to the ethical considerations and potential risks of using AI in user research."
-    },
-    {
-      "name": "AI recruitment research",
-      "count": 2,
-      "description": "Articles focusing on the use of AI in the research and development of recruitment processes."
-    },
-    {
-      "name": "Synthetic users",
-      "count": 2,
-      "description": "This theme covers the creation and use of artificially generated user profiles or data for testing and research."
+      "name": "AI customer insights",
+      "count": 5,
+      "description": "Discusses how AI is used to extract, analyze, and derive actionable insights from customer data."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
