@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-04-02T17:04:15.959Z",
+  "lastUpdated": "2026-04-03T03:16:55.824Z",
   "updates": [
     {
       "date": "2026-04-02",
@@ -691,7 +691,7 @@
       "date": "2026-03-04",
       "title": "Stakeholder Management for Product Teams: Show Your Work, Don't Sell Your Conclusions",
       "summary": "Audio Version ($) Everyone I talk to is rushing to add AI features to their roadmap. And every stakeholder has an opinion about what they should be building. The challenge is we are forgetting our discovery fundamentals. We are reverting back to a feature factory. Delivery is...",
-      "content": "This article argues that the current rush to implement AI features risks a relapse into old, ineffective product development habits.  Teresa Torres highlights how stakeholders, eager for AI, can pressure product teams into a 'feature factory' mentality, neglecting crucial discovery processes. For UX researchers, this is a critical reminder to prioritize understanding user needs and validating solutions over simply delivering AI-powered functionalities. Failing to do so can lead to building irrelevant or even harmful AI features, undermining user trust and Nubank's commitment to user-centricity.  The practical implication is that researchers must champion robust discovery, even when faced with strong stakeholder opinions on AI.",
+      "content": "Audio Version ($) Everyone I talk to is rushing to add AI features to their roadmap. And every stakeholder has an opinion about what they should be building. The challenge is we are forgetting our discovery fundamentals. We are reverting back to a feature factory. Delivery is getting faster and easier,",
       "category": "Sentiment & feedback analysis",
       "source": {
         "name": "Teresa Torres (Product Talk)",

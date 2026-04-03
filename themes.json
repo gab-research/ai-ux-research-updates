@@ -1,56 +1,56 @@
 {
   "month": "2026-04",
-  "updated": "2026-04-02",
+  "updated": "2026-04-03",
   "themes": [
     {
       "name": "AI coding assistants",
-      "count": 24,
-      "description": "Articles focusing on AI tools and techniques that aid developers in writing, understanding, and debugging code."
+      "count": 27,
+      "description": "Articles discussing AI tools that aid developers in writing, debugging, and optimizing code."
     },
     {
       "name": "Agentic AI research",
-      "count": 14,
-      "description": "Content discussing autonomous AI agents that can perform research tasks, generate data, or interact with systems."
+      "count": 11,
+      "description": "Research and development focused on AI systems capable of autonomous action and decision-making in research contexts."
     },
     {
       "name": "AI chatbot research",
-      "count": 11,
-      "description": "Research and discussions around the capabilities, limitations, and potential pitfalls of AI chatbots in various applications."
+      "count": 8,
+      "description": "Studies and discussions on the behavior, impact, and potential risks of AI chatbots in various user interactions."
     },
     {
-      "name": "AI research tools",
-      "count": 10,
-      "description": "Articles highlighting specific AI-powered platforms and software designed to assist in user research activities."
-    },
-    {
-      "name": "AI for design & research",
-      "count": 9,
-      "description": "Content exploring how AI is integrated into the design process and user research workflows for enhanced efficiency and insights."
-    },
-    {
-      "name": "AI content generation",
-      "count": 7,
-      "description": "Discussions and examples of AI models creating various forms of content, from text and code to images and videos."
-    },
-    {
-      "name": "AI ethics in research",
-      "count": 6,
-      "description": "Articles addressing the ethical considerations, risks, and responsible use of AI in research and user interactions."
-    },
-    {
-      "name": "Synthetic users",
-      "count": 4,
-      "description": "Content about the creation and use of artificial users for testing, simulation, or understanding user behavior."
+      "name": "Generative AI design",
+      "count": 8,
+      "description": "Content exploring the use of generative AI models for creating and iterating on design elements and products."
     },
     {
       "name": "AI usability testing",
-      "count": 4,
-      "description": "Exploration of how AI can automate or enhance the process of testing the usability of products and interfaces."
+      "count": 5,
+      "description": "Articles about leveraging AI for automated or enhanced usability testing and validation of products."
+    },
+    {
+      "name": "AI research platform",
+      "count": 3,
+      "description": "Tools and platforms that utilize AI to facilitate and streamline various aspects of the research process."
+    },
+    {
+      "name": "AI sentiment feedback",
+      "count": 1,
+      "description": "Analyzing user emotions and opinions from feedback data using AI."
     },
     {
       "name": "AI customer insights",
-      "count": 3,
-      "description": "Articles detailing how AI is used to extract valuable information and understand customer behavior and preferences."
+      "count": 2,
+      "description": "Using AI to extract actionable insights from customer data for product and service improvement."
+    },
+    {
+      "name": "AI survey tools",
+      "count": 7,
+      "description": "Tools that employ AI to improve the creation, distribution, and analysis of surveys."
+    },
+    {
+      "name": "AI summarization",
+      "count": 1,
+      "description": "AI-powered tools that condense large amounts of text into concise summaries."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
