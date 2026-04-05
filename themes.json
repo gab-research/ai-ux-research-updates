@@ -1,56 +1,56 @@
 {
   "month": "2026-04",
-  "updated": "2026-04-04",
+  "updated": "2026-04-05",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 22,
-      "description": "Articles focusing on AI agents that can perform research tasks autonomously or assist researchers in complex discovery processes."
+      "count": 29,
+      "description": "Articles discussing AI agents that can autonomously perform research tasks, including autonomous agents for discovery and research automation."
     },
     {
       "name": "AI coding assistants",
-      "count": 20,
-      "description": "Content discussing AI tools that help developers write, review, and debug code."
-    },
-    {
-      "name": "AI for design & research",
-      "count": 16,
-      "description": "Articles exploring AI applications in generating design elements, assisting with design systems, and creating visual assets."
-    },
-    {
-      "name": "AI chatbot research",
-      "count": 10,
-      "description": "Research and discussions around the behavior, impact, and potential risks of AI chatbots on users."
-    },
-    {
-      "name": "AI usability testing",
-      "count": 9,
-      "description": "Content related to using AI for testing the usability and functionality of products and systems."
+      "count": 22,
+      "description": "Content focused on AI tools that assist developers with writing, debugging, and understanding code, including discussions on specific tools like Claude Code."
     },
     {
       "name": "AI research tools",
+      "count": 17,
+      "description": "Articles highlighting platforms and software that leverage AI to enhance various aspects of the research process, from data collection to analysis."
+    },
+    {
+      "name": "AI chatbot research",
+      "count": 16,
+      "description": "Research findings and discussions on the behavior, capabilities, and potential risks of AI chatbots, including issues like sycophancy and delusion."
+    },
+    {
+      "name": "Generative AI design",
+      "count": 12,
+      "description": "Articles exploring the use of generative AI models for creating and manipulating designs, including 3D models and other visual assets."
+    },
+    {
+      "name": "AI usability testing",
+      "count": 10,
+      "description": "Content related to AI applications in testing the usability of products and services, often focusing on automated testing and AI-driven insights."
+    },
+    {
+      "name": "AI for product management",
       "count": 9,
-      "description": "Articles reviewing and comparing various AI-powered tools designed to aid in research processes."
+      "description": "Discussions on how AI can be integrated into product development workflows, from ideation and feature prioritization to user research and analytics."
+    },
+    {
+      "name": "AI-assisted recruitment",
+      "count": 6,
+      "description": "Articles focusing on AI's role in the recruitment process, including tools for candidate sourcing, screening, and engagement."
     },
     {
       "name": "Synthetic users",
-      "count": 8,
-      "description": "Discussions about the creation and use of artificial users or personas for testing and simulation."
-    },
-    {
-      "name": "AI customer insights",
       "count": 6,
-      "description": "Articles on leveraging AI to extract and analyze customer behavior and preferences for product development."
+      "description": "Content related to the creation and use of synthetic users or data for testing, training, and simulation purposes."
     },
     {
-      "name": "AI summarization",
+      "name": "AI content generation",
       "count": 5,
-      "description": "Content focused on AI's ability to condense large amounts of text or data into concise summaries."
-    },
-    {
-      "name": "AI testing automation",
-      "count": 5,
-      "description": "Articles discussing the automation of testing processes using AI, including functional and performance testing."
+      "description": "Articles discussing the creation of various content types using AI, such as text, video, and marketing copy."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
