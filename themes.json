@@ -1,56 +1,56 @@
 {
   "month": "2026-04",
-  "updated": "2026-04-05",
+  "updated": "2026-04-06",
   "themes": [
     {
-      "name": "Agentic AI research",
-      "count": 28,
-      "description": "Articles discussing AI agents performing research tasks autonomously or semi-autonomously, exploring their capabilities and implications."
-    },
-    {
       "name": "AI coding assistants",
-      "count": 24,
-      "description": "Content focused on AI tools that help developers write, debug, or refactor code."
+      "count": 64,
+      "description": "Articles focusing on AI tools that help developers write, debug, and optimize code."
     },
     {
-      "name": "AI research tools",
-      "count": 18,
-      "description": "Articles detailing specific AI-powered platforms or software designed to assist in various research activities."
+      "name": "Agentic AI research",
+      "count": 27,
+      "description": "Content discussing autonomous AI agents performing research tasks, often in specific domains like telecommunications or travel."
     },
     {
       "name": "AI chatbot research",
-      "count": 13,
-      "description": "Studies and discussions on the behavior, impact, and research applications of AI chatbots, including their potential drawbacks."
-    },
-    {
-      "name": "AI for design research",
-      "count": 7,
-      "description": "Content exploring how AI is used in the process of understanding user needs, testing designs, and informing design decisions."
-    },
-    {
-      "name": "AI usability testing",
-      "count": 7,
-      "description": "Articles focused on AI's role in automating or enhancing usability testing processes and analyses."
+      "count": 16,
+      "description": "Research and discussions around the capabilities, limitations, and psychological impacts of AI chatbots."
     },
     {
       "name": "AI survey tools",
-      "count": 7,
-      "description": "Discussions and reviews of AI applications for creating, analyzing, or optimizing surveys."
-    },
-    {
-      "name": "AI customer insights",
-      "count": 6,
-      "description": "Content on using AI to extract actionable insights from customer data and interactions."
+      "count": 16,
+      "description": "Articles about AI applications for creating, analyzing, and distributing surveys."
     },
     {
       "name": "Generative AI design",
-      "count": 6,
-      "description": "Articles exploring the use of generative AI for creating design assets, interfaces, or prototypes."
+      "count": 13,
+      "description": "Content on using generative AI models for creating designs, including UIs, chips, and 3D models."
     },
     {
-      "name": "AI summarization insights",
-      "count": 4,
-      "description": "Focuses on AI's ability to condense large amounts of information into digestible summaries and extract key insights."
+      "name": "AI research tools",
+      "count": 11,
+      "description": "General overview and comparisons of AI-powered platforms and tools for conducting research."
+    },
+    {
+      "name": "AI usability testing",
+      "count": 11,
+      "description": "Articles discussing AI's role in automating or enhancing usability testing processes."
+    },
+    {
+      "name": "AI summarization",
+      "count": 9,
+      "description": "Focus on AI's ability to condense large amounts of information into concise summaries for insights."
+    },
+    {
+      "name": "AI sentiment feedback",
+      "count": 8,
+      "description": "Content related to AI tools and research for analyzing user sentiment and feedback."
+    },
+    {
+      "name": "AI product research",
+      "count": 7,
+      "description": "Articles specifically about using AI for market research, competitive analysis, and product discovery."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
