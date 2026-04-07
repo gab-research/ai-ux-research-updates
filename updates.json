@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-04-07T03:20:10.802Z",
+  "lastUpdated": "2026-04-07T09:14:37.892Z",
   "updates": [
+    {
+      "date": "2026-04-07",
+      "title": "What Is a Heuristic Evaluation? 2026 UX Guide & Examples",
+      "summary": "What is a heuristic evaluation? Discover the 2026 UX guide to identifying usability issues. Learn how to use AI for heuristic inspections and audits. Read more!",
+      "content": "This article likely delves into the foundational principles of heuristic evaluation as a method for identifying usability issues within digital products. It probably emphasizes the need for UX researchers to stay abreast of evolving best practices, especially with the projected advancements by 2026. A key takeaway is the integration of Artificial Intelligence (AI) into this traditional UX research technique, suggesting that AI can augment or even automate parts of the heuristic inspection and auditing process. This is significant because it offers the potential to increase efficiency and identify a wider range of usability problems, ultimately leading to more robust and user-centered product development.",
+      "category": "Automated usability checks",
+      "source": {
+        "name": "Parallel Blog",
+        "url": "https://www.parallelhq.com/blog/what-heuristic-evaluation"
+      },
+      "analysis": "At Nubank, heuristic evaluation, augmented by AI, can be strategically integrated into our existing research workflow. For new features or significant updates in areas like PIX transactions, loan applications, or card activation flows, a baseline heuristic evaluation can be conducted early on. Researchers should leverage AI tools to quickly scan wireframes or prototypes against established usability heuristics (like Nielsen's), flagging potential issues before user testing. This initial AI-assisted scan can then be refined and validated by human researchers, focusing on the most critical pain points for our diverse Brazilian customer base.\n\nWhen applying this at Nubank, researchers must remember that AI is a tool, not a replacement for human empathy and contextual understanding. While AI can efficiently identify common usability flaws in flows like account onboarding or insurance product exploration, it may struggle with nuanced cultural context or specific Brazilian financial behaviors. Therefore, any AI-generated insights should be critically reviewed and prioritized by researchers, who will then use their expertise to design targeted user tests to validate these findings and uncover deeper, context-specific issues. This hybrid approach ensures we maintain our commitment to user-centricity while benefiting from the speed and scale AI can offer."
+    },
     {
       "date": "2026-04-06",
       "title": "UX Roundup: OpenAI Usability | Integrated Software | Seedance 2 vs. Kling 3 | Grok Imagine | Increasing AI Use",
