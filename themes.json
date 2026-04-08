@@ -3,54 +3,54 @@
   "updated": "2026-04-08",
   "themes": [
     {
-      "name": "Agentic AI in research",
-      "count": 24,
-      "description": "Covers AI agents that can autonomously perform research tasks, often involving complex workflows and decision-making."
+      "name": "Agentic AI research",
+      "count": 31,
+      "description": "Covers research, development, and application of autonomous AI agents designed to perform tasks with minimal human intervention."
     },
     {
       "name": "AI coding assistants",
-      "count": 23,
-      "description": "Focuses on AI tools that help developers write, debug, and optimize code, including analysis of their performance and usage."
+      "count": 24,
+      "description": "Focuses on AI tools that help developers write, debug, and optimize code, including explorations of their capabilities and limitations."
     },
     {
-      "name": "AI for design & research",
-      "count": 15,
-      "description": "Explores AI applications that directly assist in the design process, from UI generation to prototyping and creative asset development."
+      "name": "AI summarization",
+      "count": 18,
+      "description": "Articles discussing AI's ability to condense large amounts of text or data into concise summaries for faster comprehension and insight extraction."
     },
     {
       "name": "AI research tools",
-      "count": 12,
-      "description": "Highlights specific software and platforms that leverage AI to enhance various research methodologies and data analysis."
-    },
-    {
-      "name": "AI chatbot research",
-      "count": 11,
-      "description": "Investigates the behavior, impact, and implications of AI chatbots, including their potential for deception and cognitive effects."
-    },
-    {
-      "name": "AI survey tools",
-      "count": 10,
-      "description": "Covers AI applications for creating, analyzing, and optimizing surveys, including insights into user responses and survey design."
+      "count": 17,
+      "description": "Encompasses articles about platforms and software that leverage AI to streamline and enhance various research processes."
     },
     {
       "name": "AI workforce impact",
       "count": 10,
-      "description": "Examines how AI is changing job roles, hiring practices, and the overall professional landscape, including concerns about job displacement and creation."
+      "description": "Examines how AI is affecting jobs, skills, hiring, and the overall structure of the workforce."
     },
     {
       "name": "AI testing automation",
-      "count": 8,
-      "description": "Focuses on AI's role in automating testing processes across software development, quality assurance, and various product functionalities."
+      "count": 9,
+      "description": "Highlights AI's role in automating quality assurance and testing processes for software and products."
     },
     {
-      "name": "AI sentiment feedback",
-      "count": 3,
-      "description": "Covers AI tools and techniques used to analyze user sentiment from feedback, reviews, and other qualitative data sources."
+      "name": "AI usability testing",
+      "count": 9,
+      "description": "Explores how AI can be used to automate, enhance, or analyze usability testing for digital products."
     },
     {
-      "name": "AI summarization",
-      "count": 3,
-      "description": "Discusses AI capabilities in condensing large amounts of text or data into concise summaries for easier comprehension."
+      "name": "AI chatbot research",
+      "count": 13,
+      "description": "Focuses on the research and findings related to AI chatbots, including their behavior, impact, and potential risks."
+    },
+    {
+      "name": "AI for design & research",
+      "count": 7,
+      "description": "Covers the application of AI in aiding design processes and conducting user research, including tool functionalities and best practices."
+    },
+    {
+      "name": "Generative AI design",
+      "count": 7,
+      "description": "Discusses the use of generative AI models for creating design assets, interfaces, and other creative outputs."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."

@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-04-08T09:13:36.451Z",
+  "lastUpdated": "2026-04-08T17:16:02.427Z",
   "updates": [
     {
       "date": "2026-04-07",
@@ -602,18 +602,6 @@
         "url": "https://feeds.baymard.com/link/9825/17296693/ux-ray-for-figma"
       },
       "analysis": "At Nubank, UX-Ray can significantly enhance our existing research workflow by acting as a continuous layer of validation during the design phase. Before a PIX transfer flow or a new loan application design is handed off for in-depth user testing, researchers and designers can collaboratively run the UX-Ray plugin within Figma. This allows for immediate identification of common usability pitfalls that Baymard's research has consistently highlighted across various financial products, potentially saving valuable iteration time.\n\nResearchers should integrate UX-Ray as a proactive review step, perhaps during design critiques or before user testing is scheduled. For instance, when designing the onboarding flow for new users or the card activation process, UX-Ray could flag potential friction points related to form design, information architecture, or unclear calls to action. It's crucial to remember that UX-Ray is a tool to augment, not replace, comprehensive user research. Its recommendations are based on general best practices and might not capture the nuances of specific Nubank user segments or complex contextual behaviors, especially those unique to the Brazilian market. Therefore, findings from UX-Ray should be treated as hypotheses to be validated through our established user testing methodologies."
-    },
-    {
-      "date": "2026-03-09",
-      "title": "UX Roundup: GUI Heroes | Great AI Videos | AI Won’t Kill Software | Bing GEO | AI Capability Growth | Google AI UX | One-Shot Video | GPT 5.4 Writing",
-      "summary": "Using Nano Banana 2 to render the heroes of the graphical user interface as a monument | Two examples of great AI (short) videos | AI won’t kill software | Bing reports AI citations of your website | AI task horizons keep increasing | Google simplifies its AI product architect...",
-      "content": "Using Nano Banana 2 to render the heroes of the graphical user interface as a monument | Two examples of great AI (short) videos | AI won’t kill software | Bing reports AI citations of your website | AI task horizons keep increasing | Google simplifies its AI product architecture | One-shot instructional AI video from NotebookLM | GPT 5.4 is probably a better writer than 5.2",
-      "category": "AI content generation",
-      "source": {
-        "name": "Jakob Nielsen (Substack)",
-        "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260309"
-      },
-      "analysis": "At Nubank, this roundup directly informs our AI integration strategy across various product flows. For instance, in the PIX onboarding experience, we can explore how AI-generated visual elements or simplified language models could enhance clarity and reduce friction. Similarly, when researching loan applications or insurance product discovery, AI could assist in generating more personalized explanations or identifying user pain points from large datasets of customer feedback.  Researchers should actively experiment with AI-powered content generation tools to draft survey questions, summarize interview transcripts, or even prototype simplified UI copy for A/B testing. This could significantly speed up our research cycles and allow for deeper dives into user needs.  We must, however, maintain guardrails, ensuring all AI-generated content is rigorously validated for accuracy, cultural appropriateness for Brazil, and adherence to Nubank's brand voice.  Crucially, AI should augment, not replace, human empathy and critical thinking, especially in sensitive areas like financial advice or complex credit decisioning for loans.\n\nSpecifically, for card activation or account opening flows, AI could analyze user behavior patterns to proactively suggest personalized help content or identify potential roadblocks before they occur.  Researchers can leverage AI tools to analyze sentiment from customer support interactions related to these flows, flagging recurring issues for deeper investigation.  When applying AI, our focus must remain on enhancing user autonomy and trust.  Therefore, any AI-driven insights or recommendations must be clearly presented and always allow for human override and user agency.  We need to be mindful of potential biases in AI models and actively work to mitigate them to ensure equitable experiences for all Nubank customers."
     }
   ]
 }
