@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-04-10T09:19:25.576Z",
+  "lastUpdated": "2026-04-10T16:58:43.420Z",
   "updates": [
     {
       "date": "2026-04-10",
@@ -542,18 +542,6 @@
         "url": "https://uxdesign.cc/the-first-fruit-of-the-google-apple-ai-pact-efec0ff52a03?source=rss----138adf9c44c---4"
       },
       "analysis": "At Nubank, the \"MacBook Neo\" article's implications can be integrated into our AI literacy and tool exploration. Researchers should actively monitor how AI, particularly advancements from major tech players like Apple and Google, influences user interface patterns and interaction models. This could involve observing how users adapt to new AI-powered assistants or predictive features within their devices, which might set new benchmarks for what users expect from our own applications, such as the PIX flow or loan application processes.  Our focus should be on understanding how these broader AI trends shape user cognitive load and their perception of intelligence and helpfulness in digital products.\n\nResearchers can leverage this by experimenting with AI-assisted tools for qualitative data analysis, such as AI-powered transcription services or sentiment analysis of user feedback from card activation or onboarding flows. We should also consider user testing scenarios where AI-driven features are simulated or integrated to gauge user trust and adoption. For example, when exploring personalized insurance offerings, we can test AI-driven recommendation engines against traditional methods to understand user preference and perceived value. The key guardrail is to always prioritize user privacy and ethical AI deployment, ensuring that any AI-driven insights or functionalities enhance, rather than compromise, the user's experience and trust in Nubank's services."
-    },
-    {
-      "date": "2026-03-11",
-      "title": "Conversations with Claude: Can You Conduct a Content Audit?",
-      "summary": "Audio Version ($) During one of our recent Claude Code Office Hours, a participant asked, \"Can we zoom out? Help me understand what I can use Claude Code for.\" This is a great question. I was so focused on how to help people set up Claude Code that I",
-      "content": "This article explores the potential of AI language models like Claude to automate and enhance content audits, a crucial yet time-consuming UX research activity. The author highlights the growing need for efficient content analysis to ensure consistency, clarity, and alignment with user needs across digital products. For UX researchers, leveraging AI for content audits could free up valuable time to focus on more strategic tasks like user interviews and journey mapping, ultimately leading to more impactful product improvements. Practical implications include faster identification of content gaps, inconsistent terminology, or areas needing user education, particularly beneficial for complex financial products.",
-      "category": "AI coding assistants",
-      "source": {
-        "name": "Teresa Torres (Product Talk)",
-        "url": "https://www.producttalk.org/conversations-with-claude-content-audit/"
-      },
-      "analysis": "At Nubank, this AI-driven approach to content audits can significantly streamline our research processes, especially when dealing with the vast amount of content across our product suite, from PIX transaction descriptions to loan agreement details and card activation guides. Researchers can use Claude to quickly scan and analyze large volumes of text for adherence to brand voice, clarity, and accuracy, identifying potential issues before they reach customers. For instance, imagine auditing the language used in our onboarding flow or insurance policy summaries to ensure it's easily understandable and trustworthy for new users.\n\nTo effectively apply this, researchers should integrate Claude into their existing content review stages. Start by feeding relevant content (e.g., app screens, FAQs, help center articles) into Claude with specific prompts. For example, ask it to identify jargon in loan application explanations, or to flag inconsistencies in how \"pending\" transactions are described across the app. However, it's crucial to remember Claude is a tool, not a replacement for human judgment. All AI-generated findings must be validated by a human researcher to ensure nuanced understanding and ethical considerations are met. This is especially important for sensitive areas like fraud warnings or customer support scripts, where misinterpretation could have serious consequences. Always maintain a critical eye and use Claude to augment, not dictate, your content decisions."
     }
   ]
 }
