@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "AI coding assistants",
-      "count": 79,
-      "description": "Articles focusing on AI tools that assist developers in writing, debugging, and understanding code."
+      "count": 58,
+      "description": "Articles discussing AI tools designed to help developers write, debug, and understand code, including comparisons and practical application guides."
     },
     {
       "name": "Agentic AI in research",
-      "count": 37,
-      "description": "Discussions on AI agents that can perform research tasks autonomously or semi-autonomously."
+      "count": 31,
+      "description": "Content focusing on AI agents that can perform research tasks autonomously or semi-autonomously, including their capabilities, limitations, and deployment."
     },
     {
       "name": "AI research tools",
-      "count": 23,
-      "description": "Tools and platforms that leverage AI to assist researchers in various stages of the research process."
+      "count": 25,
+      "description": "Articles that review, compare, or showcase specific AI-powered platforms and tools used for various research activities."
     },
     {
       "name": "AI workforce impact",
-      "count": 19,
-      "description": "Research and analysis on how AI is affecting jobs, employment, and the future of work."
-    },
-    {
-      "name": "AI usability testing",
-      "count": 14,
-      "description": "The application of AI in testing the usability and effectiveness of products and systems."
-    },
-    {
-      "name": "AI survey tools",
-      "count": 13,
-      "description": "AI-powered tools and platforms designed to enhance the creation, distribution, and analysis of surveys."
-    },
-    {
-      "name": "AI summarization",
-      "count": 13,
-      "description": "The use of AI to condense and extract key information from large volumes of text or data."
-    },
-    {
-      "name": "Generative AI design",
-      "count": 11,
-      "description": "AI applications focused on generating design assets, UIs, or creative content."
-    },
-    {
-      "name": "AI qualitative research",
-      "count": 10,
-      "description": "AI's role in analyzing and extracting insights from qualitative data sources like text and conversations."
+      "count": 24,
+      "description": "Research and articles exploring how AI is affecting jobs, skills, recruitment, and the overall labor market."
     },
     {
       "name": "AI chatbot research",
+      "count": 17,
+      "description": "Studies and discussions on the behavior, usability, and impact of AI chatbots on users, including their accuracy and ethical implications."
+    },
+    {
+      "name": "Generative AI design",
+      "count": 15,
+      "description": "Content focused on the use of generative AI for creating designs, UIs, product concepts, and other creative outputs."
+    },
+    {
+      "name": "AI summarization",
+      "count": 14,
+      "description": "Articles discussing AI's ability to condense large amounts of text or data into concise summaries, including research insights and applications."
+    },
+    {
+      "name": "AI survey tools",
+      "count": 14,
+      "description": "Content related to AI-powered tools and methodologies for creating, distributing, and analyzing surveys."
+    },
+    {
+      "name": "AI customer insights",
+      "count": 13,
+      "description": "Articles detailing how AI is used to analyze customer data, feedback, and behavior to derive actionable insights."
+    },
+    {
+      "name": "AI sentiment feedback",
       "count": 10,
-      "description": "Studies and discussions about the capabilities, limitations, and user interactions with AI chatbots."
+      "description": "Discussions on using AI to analyze and understand user sentiment from reviews, social media, and other feedback channels."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
