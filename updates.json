@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-04-11T08:55:39.394Z",
+  "lastUpdated": "2026-04-11T16:49:15.066Z",
   "updates": [
+    {
+      "date": "2026-04-11",
+      "title": "How to build UX using GPT-5.2 + MUI  –  Use UXPin Merge!",
+      "summary": "Generate production-ready React UIs: use GPT-5.2 to create MUI components and prototype with UXPin Merge for synced design systems. The post How to build UX using GPT-5.2 + MUI – Use UXPin Merge! appeared first on Studio by UXPin.",
+      "content": "This article proposes a novel approach to UI development by integrating GPT-5.2's generative capabilities with Material UI (MUI) components within the UXPin Merge platform. The core idea is to leverage AI for rapid generation of production-ready React UI elements, streamlining the design-to-development handoff. For UX researchers, this signifies a potential acceleration in prototyping and a more robust connection between design specifications and implemented code, enabling quicker validation of user flows and interfaces. The practical implication is the ability to translate complex UX requirements into tangible, coded prototypes more efficiently, freeing up researcher time for deeper user understanding.",
+      "category": "AI content generation",
+      "source": {
+        "name": "UXPin Blog",
+        "url": "https://www.uxpin.com/studio/blog/build-ux-gpt-5-2-mui-uxpin-merge/"
+      },
+      "analysis": "At Nubank, this technology could significantly enhance our prototyping speed within research sprints, particularly for new feature development or iterating on existing flows like onboarding or card activation. Researchers could use GPT-5.2 to quickly generate MUI-based components for mockups and interactive prototypes, ensuring consistency with our established design system. This would allow us to test early concepts for features such as loan applications or insurance onboarding with users much faster than traditional methods.\n\nTo apply this, researchers could experiment with prompting GPT-5.2 to generate specific UI elements or even small sections of a flow based on defined user stories and desired MUI components. For example, generating the necessary fields and buttons for a PIX transfer confirmation screen. However, it's crucial to establish guardrails. Researchers must maintain oversight, ensuring the AI-generated UIs align with our core UX principles and accessibility standards, and are not merely aesthetically pleasing but functionally sound. We should also treat these as starting points for deeper, qualitative user feedback rather than definitive solutions."
+    },
     {
       "date": "2026-04-10",
       "title": "10 UX/UI Design Trends Shaping 2026",
@@ -518,18 +530,6 @@
         "url": "https://uxdesign.cc/fried-ce8bf302af8f?source=rss----138adf9c44c---4"
       },
       "analysis": "At Nubank, \"AI brain fry\" and \"token anxiety\" are relevant as we explore and adopt AI tools for tasks like summarizing user interviews for PIX transactions, identifying patterns in loan application feedback, or even assisting with early card activation troubleshooting. Researchers should approach these AI tools with a critical lens, not as replacements for core research skills, but as accelerators.  This means focusing on using AI to augment, not automate, the core human understanding of our customers' journeys, from onboarding to managing their insurance policies.\n\nTo combat \"brain fry,\" researchers should receive structured training on specific AI tools, emphasizing their strengths and weaknesses, and establishing clear project-based objectives for their use. Instead of passively feeding data, encourage active prompting and iterative refinement of AI outputs.  Guardrails are crucial: AI-generated insights should always be validated against primary research data and expert judgment.  We must avoid over-reliance, ensuring that the empathy and qualitative depth essential to Nubank's customer experience remain at the forefront, even when leveraging AI for efficiency in areas like understanding user sentiment around new features or analyzing feedback on our digital investment products."
-    },
-    {
-      "date": "2026-03-12",
-      "title": "Systematic debugging for AI agents: Introducing the AgentRx framework",
-      "summary": "As AI agents transition from simple chatbots to autonomous systems capable of managing cloud incidents, navigating complex web interfaces, and executing multi-step API workflows, a new challenge has emerged: transparency. When a human makes a mistake, we can usually trace the...",
-      "content": "As AI agents transition from simple chatbots to autonomous systems capable of managing cloud incidents, navigating complex web interfaces, and executing multi-step API workflows, a new challenge has emerged: transparency. When a human makes a mistake, we can usually trace the logic. But when an AI agent fails, perhaps by hallucinating a tool output or […] The post Systematic debugging for AI agents: Introducing the AgentRx framework appeared first on Microsoft Research.",
-      "category": "Conversational AI in research",
-      "source": {
-        "name": "Microsoft Research",
-        "url": "https://www.microsoft.com/en-us/research/blog/systematic-debugging-for-ai-agents-introducing-the-agentrx-framework/"
-      },
-      "analysis": "At Nubank, AgentRx can be integrated into our existing UX research workflow for AI-powered features. When researching areas like automated PIX transaction dispute resolution or the AI-driven assistant guiding users through loan applications, researchers can leverage AgentRx to systematically identify where the AI agent's logic may be failing. Instead of anecdotal observations, we can use the framework's principles to pinpoint the specific steps or data points causing an incorrect outcome, leading to more precise bug reporting and faster iteration cycles for our AI development teams.\n\nResearchers should proactively apply AgentRx when evaluating the performance of our AI agents in pilot programs or ongoing A/B testing. For instance, if users report issues during card activation where an AI agent is involved in verifying information, AgentRx can help diagnose if the agent misinterpreted a document or failed to follow the correct API workflow. However, it's important to note that AgentRx is a debugging framework for the AI agent's internal logic. While it aids in understanding 'why' an error occurred, it doesn't replace traditional user research methods for understanding the broader user experience, emotional impact, or unmet needs related to the AI interaction."
     }
   ]
 }
