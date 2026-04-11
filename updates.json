@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-04-11T02:54:30.416Z",
+  "lastUpdated": "2026-04-11T08:55:39.394Z",
   "updates": [
     {
       "date": "2026-04-10",
@@ -518,18 +518,6 @@
         "url": "https://uxdesign.cc/fried-ce8bf302af8f?source=rss----138adf9c44c---4"
       },
       "analysis": "At Nubank, \"AI brain fry\" and \"token anxiety\" are relevant as we explore and adopt AI tools for tasks like summarizing user interviews for PIX transactions, identifying patterns in loan application feedback, or even assisting with early card activation troubleshooting. Researchers should approach these AI tools with a critical lens, not as replacements for core research skills, but as accelerators.  This means focusing on using AI to augment, not automate, the core human understanding of our customers' journeys, from onboarding to managing their insurance policies.\n\nTo combat \"brain fry,\" researchers should receive structured training on specific AI tools, emphasizing their strengths and weaknesses, and establishing clear project-based objectives for their use. Instead of passively feeding data, encourage active prompting and iterative refinement of AI outputs.  Guardrails are crucial: AI-generated insights should always be validated against primary research data and expert judgment.  We must avoid over-reliance, ensuring that the empathy and qualitative depth essential to Nubank's customer experience remain at the forefront, even when leveraging AI for efficiency in areas like understanding user sentiment around new features or analyzing feedback on our digital investment products."
-    },
-    {
-      "date": "2026-03-12",
-      "title": "Best AI tools for UX research in 2026",
-      "summary": "Compare the top AI-powered research tools for 2026. Real case studies from ServiceNow, Brex, and Asana. Decision framework included.",
-      "content": "This article from Great Question Blog offers a forward-looking assessment of the leading AI tools poised to revolutionize UX research by 2026. It highlights how these advanced platforms can automate and augment various research tasks, moving beyond basic analysis to provide deeper, more actionable insights. For UX researchers, this signifies a critical shift towards more efficient, data-driven, and predictive research methodologies, enabling them to respond faster to user needs and inform product development with greater precision across complex digital banking environments.",
-      "category": "AI tool evaluation",
-      "source": {
-        "name": "Great Question Blog",
-        "url": "https://cms.greatquestion.co/blog/best-ai-tools-ux-research-2026"
-      },
-      "analysis": "At Nubank, this article's insights directly inform how we can integrate AI tools to enhance our existing research workflows, particularly for high-volume, critical user journeys like onboarding, PIX transactions, loan applications, and card activation. Researchers can leverage these AI tools to analyze vast datasets from user feedback, support interactions, and in-app behavior more efficiently. Imagine using AI to quickly identify friction points in the PIX flow or to predict potential issues in a new loan product's user interface based on sentiment analysis of early feedback. This would free up valuable researcher time for more strategic activities, such as qualitative deep dives and generative research.\n\nWhen applying these AI tools, it's crucial to maintain a human-centered approach and establish clear guardrails. While AI can identify patterns and anomalies, the nuanced understanding of user empathy and context remains a researcher's forte. We should use AI as an augmentation, not a replacement, for human judgment. For instance, AI could flag a statistically significant increase in complaints about card activation difficulty, but a human researcher would then conduct targeted qualitative interviews to understand the root cause and propose a truly user-centric solution. Furthermore, data privacy and ethical considerations must be paramount, ensuring all AI applications comply with Nubank's stringent data protection policies, especially when dealing with sensitive financial information related to insurance or personal loans."
     },
     {
       "date": "2026-03-12",
