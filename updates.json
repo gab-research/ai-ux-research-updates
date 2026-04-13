@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-04-13T10:03:39.731Z",
+  "lastUpdated": "2026-04-13T17:15:16.951Z",
   "updates": [
     {
       "date": "2026-04-13",
@@ -38,6 +38,30 @@
         "url": "https://www.parallelhq.com/blog/ai-powered-saas-ui-ux"
       },
       "analysis": "At Nubank, this article's insights should be integrated into our AI strategy workshops and foundational UX research training. When approaching research for new AI features, such as personalized loan offers or intelligent fraud detection in card transactions, researchers need to pivot from standard usability testing to exploring user comprehension of AI recommendations and their decision-making processes. This means designing research protocols that specifically probe for user trust, perceived fairness, and clarity around how AI influences outcomes, moving beyond just task completion rates.\n\nResearchers should proactively develop frameworks for evaluating AI-driven user journeys, considering the \"explainability\" of AI decisions within flows like onboarding or insurance claim processing. This involves understanding when and how to surface AI logic to users without overwhelming them, and how to research user reactions to \"black box\" scenarios. As a guardrail, we must emphasize that AI should augment, not replace, human empathy and control. Research should rigorously assess if AI integration genuinely enhances the user experience and provides tangible benefits, rather than simply adding complexity. This is especially critical for sensitive financial products where trust is paramount, such as in the PIX transfer experience or when offering personalized financial advice."
+    },
+    {
+      "date": "2026-04-13",
+      "title": "Google Stitch AI Design Tool: Features, Updates & Alternatives (2026)",
+      "summary": "A comprehensive guide to Google Stitch — Google's AI-powered design tool for UI/UX. Covers its latest features, prototyping capabilities, Firebase integration, and how it compares to other AI design tools in 2026. The post Google Stitch AI Design Tool: Features, Updates & Alte...",
+      "content": "The UXPin blog post \"Google Stitch AI Design Tool: Features, Updates & Alternatives (2026)\" delves into Google's AI-powered design tool, Stitch, highlighting its advanced UI/UX design capabilities. This tool likely offers features such as automated design generation, intelligent prototyping, and seamless integration with developer platforms like Firebase. For UX researchers, understanding Stitch is crucial as it represents a potential shift in how design artifacts are created and iterated upon. Its practical implications could include accelerated design cycles, the ability to quickly explore numerous design variations for features like a new PIX transaction flow, and potentially freeing up researcher time for more strategic tasks, although the accuracy and bias in AI-generated designs would need careful scrutiny.",
+      "category": "AI for design & research",
+      "source": {
+        "name": "UXPin Blog",
+        "url": "https://www.uxpin.com/studio/blog/google-stitch-ai-design-tool-updates-ui-ux/"
+      },
+      "analysis": "At Nubank, Google Stitch could be integrated into our early-stage ideation and concept validation workflows. For instance, when exploring new features for our loan application process or testing different card activation onboarding experiences, Stitch could rapidly generate multiple UI variations based on defined user needs and existing design systems. This allows researchers to quickly present diverse options to users for feedback, accelerating hypothesis testing and reducing the time spent on manual wireframing for initial concepts. Researchers should treat Stitch-generated designs as starting points, always validating them through user testing and ensuring they align with Nubank's brand and accessibility standards.\n\nIt's imperative that researchers maintain critical oversight. While Stitch can expedite the generation of UI mockups for features like insurance policy customization or new investment product interfaces, it's not a replacement for deep user understanding or strategic design thinking. Researchers must actively guide the AI's output, scrutinize its suggestions for potential biases, and ensure that the generated designs truly address the underlying user problems and meet the functional requirements of our products. The focus should remain on leveraging Stitch as a productivity enhancer to inform and accelerate our human-centered design process, rather than relying on it for complete design autonomy."
+    },
+    {
+      "date": "2026-04-13",
+      "title": "UX Roundup: Preschool Robots | Multi-Metaphor AI | Meta Releases New AI | Cows &amp; AI | Task Horizons | VC All-In on AI",
+      "summary": "Preschool robots build agency by reducing recovery time after failure | Multiple AI roles improve learning without flattening voice | Meta’s Muse Spark suggests the frontier race is shifting toward interface orchestration as well as raw model scale | Halter turns cattle manage...",
+      "content": "This UX Roundup highlights diverse applications of AI, emphasizing its role in fostering user agency, enhancing learning experiences, and orchestrating complex interfaces.  The article suggests that AI can be instrumental in reducing friction points, such as the recovery time after user errors, particularly relevant for onboarding or complex financial processes like loan applications.  Furthermore, it points to a shift in AI development focus from pure model power to the creation of intuitive interfaces, implying that UX researchers need to understand how to integrate and design around these new AI-powered tools to create more effective and engaging user experiences, even in non-traditional contexts like managing livestock. This broad spectrum of applications underscores the growing importance of AI literacy for UX professionals across various domains.",
+      "category": "General AI in research",
+      "source": {
+        "name": "Jakob Nielsen (Substack)",
+        "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260413"
+      },
+      "analysis": "At Nubank, this roundup signals a critical need to explore AI's potential for improving user agency and reducing error recovery within our core financial products. For instance, in the PIX transfer flow, AI could proactively guide users through potential errors, minimizing frustration and abandonment. Similarly, during card activation or onboarding for new customers, AI-powered conversational agents could offer immediate, context-aware support, significantly shortening the time users spend resolving issues and enhancing their confidence.  Our research team should actively investigate AI tools that can analyze user behavior patterns to predict and preemptively address potential pain points, thereby building stronger user trust and satisfaction across all our services, from insurance claims to loan applications."
     },
     {
       "date": "2026-04-11",
