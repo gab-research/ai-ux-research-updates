@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-04-12T16:52:08.953Z",
+  "lastUpdated": "2026-04-13T03:41:12.181Z",
   "updates": [
+    {
+      "date": "2026-04-13",
+      "title": "UX Research Repository: Best Practices & Tools (2026)",
+      "summary": "A practical guide to building a UX research repository your team will actually use. Covers how to choose the right tool, set up structure, AI-powered repositories in 2026, and a comparison of the top options.",
+      "content": "This article from Great Question Blog offers a comprehensive roadmap for establishing an effective UX research repository by 2026. It emphasizes practical strategies for tool selection, structural design, and crucially, the integration of AI to unlock deeper insights from research data. For UX researchers, a well-organized repository is vital for preventing redundant work, fostering knowledge sharing, and quickly surfacing learnings that can inform product decisions, ultimately leading to more user-centric experiences across the digital banking landscape.",
+      "category": "AI research tools",
+      "source": {
+        "name": "Great Question Blog",
+        "url": "https://cms.greatquestion.co/blog/ux-research-repository-guide"
+      },
+      "analysis": "At Nubank, a robust UX research repository directly supports our mission to simplify financial lives for millions. This guide's principles would fit into our existing research workflow by creating a central, accessible hub for all research artifacts. Researchers working on features like PIX transactions, loan applications, or card activation should consistently contribute findings, user pain points, and successful patterns to this repository. This ensures that learnings from onboarding new users are readily available when designing improvements for our insurance products, for instance.\n\nTo apply this at Nubank, we'd need to prioritize a tool that integrates seamlessly with our current research platforms and supports AI-driven analysis. Researchers should be trained on best practices for tagging, categorizing, and summarizing their work to maximize discoverability. Guardrails would include establishing clear data privacy protocols, ensuring only anonymized or aggregated data is stored for broader analysis, and maintaining a regular cadence for repository review and curation to prevent it from becoming outdated or cluttered. This proactive approach will prevent us from \"reinventing the wheel\" and accelerate our ability to iterate on and improve core Nubank experiences."
+    },
     {
       "date": "2026-04-11",
       "title": "How to build UX using GPT-5.2 + MUI  –  Use UXPin Merge!",
@@ -506,18 +518,6 @@
         "url": "https://uxdesign.cc/context-engineering-a-repeatable-ai-workflow-for-product-designers-8d7b55b83b2b?source=rss----138adf9c44c---4"
       },
       "analysis": "At Nubank, context engineering can be integrated into our existing research workflow by augmenting our analysis and ideation phases. For instance, when synthesizing feedback from qualitative interviews or usability tests on the PIX experience, researchers can use context engineering to feed AI detailed transcripts, user journey maps, and key pain points. The AI, guided by engineered context, could then help generate thematic summaries, identify nuanced user needs, or even propose initial hypotheses for further investigation, reducing the time spent on manual coding and initial data interpretation. This would be particularly useful after large-scale beta testing of new loan features or during the initial onboarding flow for new customers.\n\nTo apply this, researchers should focus on building a \"context library\" for common research scenarios. This library would contain templates for prompt structures and pre-defined data inputs relevant to Nubank's products and user segments. For example, a context template for analyzing card activation feedback might include typical user questions, potential friction points identified in past research, and relevant design guidelines. Researchers would then select and adapt these templates, adding specific data from their current study, before feeding it to the AI. Guardrails are essential: researchers must always critically evaluate AI-generated outputs, treating them as starting points rather than definitive answers. The AI's understanding is limited to the provided context, so bias detection and human oversight remain paramount, especially when dealing with sensitive customer data or complex financial decisions related to insurance products."
-    },
-    {
-      "date": "2026-03-13",
-      "title": "The Methodological Problems Hiding in Your Research Tools",
-      "summary": "The methodological blind spots in UX research tools have always been a problem. Now that AI is planning and analyzing research, it's gotten worse.",
-      "content": "This Nielsen Norman Group article highlights a critical, and increasingly complex, issue: the inherent methodological limitations within UX research tools are being exacerbated by the integration of AI.  While AI promises efficiency in tasks like research planning and data analysis, its opacity can mask underlying biases or flawed assumptions within the tools themselves.  This is paramount for UX researchers as it means that insights generated by AI-powered tools might appear objective but could, in reality, be systematically skewed, leading to misinformed product decisions.  Understanding these \"methodological blind spots\" is crucial for maintaining research integrity and ensuring that AI augments, rather than compromises, our ability to understand users.",
-      "category": "AI research tools",
-      "source": {
-        "name": "Nielsen Norman Group",
-        "url": "https://www.nngroup.com/articles/research-tool-problems/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication"
-      },
-      "analysis": "At Nubank, this article's warning is particularly relevant as we increasingly leverage AI to streamline research for products like PIX, loan applications, and card activation flows. Researchers should approach AI-driven insights with a critical lens. Instead of blindly accepting AI-generated summaries or participant segmentation, they must actively interrogate the underlying data and algorithms. This means cross-referencing AI findings with qualitative data, performing manual sanity checks on AI-generated patterns, and documenting the specific AI models and parameters used for transparency.  For instance, when AI analyzes feedback on our onboarding process, researchers should verify if the AI is accurately capturing nuances in user frustration that might be missed by purely quantitative metrics.\n\nTo mitigate risks, Nubank should implement a \"human-in-the-loop\" approach for AI-assisted research. This involves establishing clear guidelines for when and how AI tools can be used, emphasizing that AI is a co-pilot, not a replacement for human judgment. Before deploying AI-generated personas or key findings related to insurance product adoption, for example, a senior researcher should review the methodology and assess potential biases. Implementing regular training for researchers on AI ethics and the limitations of specific tools is also essential.  Ultimately, our goal is to harness AI's power while ensuring our research remains robust, unbiased, and deeply empathetic to the Nubank user experience across all our services."
     }
   ]
 }
