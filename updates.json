@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-04-13T03:41:12.181Z",
+  "lastUpdated": "2026-04-13T10:03:39.731Z",
   "updates": [
     {
       "date": "2026-04-13",
@@ -14,6 +14,30 @@
         "url": "https://cms.greatquestion.co/blog/ux-research-repository-guide"
       },
       "analysis": "At Nubank, a robust UX research repository directly supports our mission to simplify financial lives for millions. This guide's principles would fit into our existing research workflow by creating a central, accessible hub for all research artifacts. Researchers working on features like PIX transactions, loan applications, or card activation should consistently contribute findings, user pain points, and successful patterns to this repository. This ensures that learnings from onboarding new users are readily available when designing improvements for our insurance products, for instance.\n\nTo apply this at Nubank, we'd need to prioritize a tool that integrates seamlessly with our current research platforms and supports AI-driven analysis. Researchers should be trained on best practices for tagging, categorizing, and summarizing their work to maximize discoverability. Guardrails would include establishing clear data privacy protocols, ensuring only anonymized or aggregated data is stored for broader analysis, and maintaining a regular cadence for repository review and curation to prevent it from becoming outdated or cluttered. This proactive approach will prevent us from \"reinventing the wheel\" and accelerate our ability to iterate on and improve core Nubank experiences."
+    },
+    {
+      "date": "2026-04-13",
+      "title": "What is AI-moderated research? A quick overview",
+      "summary": "AI-moderated research conducts qualitative interviews at scale, the depth of a real conversation, without the scheduling bottleneck. Here's what it is, how it works, and when to use it.",
+      "content": "AI-moderated research offers a groundbreaking approach to qualitative user interviews by leveraging artificial intelligence to conduct them at scale while retaining conversational depth. This innovative method aims to bypass the traditional human moderator's scheduling constraints, enabling researchers to gather rich insights from a larger participant pool more efficiently. For UX researchers at Nubank, this means potentially accelerating the feedback loop for new features like improved PIX transfer experiences or streamlined loan application processes, allowing for quicker iteration and more responsive product development. The practical implication is the ability to gather nuanced user feedback on critical flows, such as card activation or onboarding, without sacrificing the qualitative richness traditionally achieved through one-on-one sessions.",
+      "category": "AI in user testing",
+      "source": {
+        "name": "Great Question Blog",
+        "url": "https://cms.greatquestion.co/blog/what-is-ai-moderated-research"
+      },
+      "analysis": "At Nubank, AI-moderated research can be strategically integrated into our existing workflow to augment our qualitative data gathering capabilities. It's particularly valuable for understanding user sentiment and pain points within high-volume, well-defined flows. For instance, researchers could deploy AI moderators to gather nuanced feedback on the usability of the new insurance onboarding process or identify friction points in the PIX payment confirmation screen after an initial user test. This would allow us to gather a broad spectrum of opinions on these established features more rapidly than traditional diary studies or limited interview rounds.\n\nResearchers should approach AI moderation as a complementary tool, not a complete replacement for human-led interviews. It's best applied to flows or features where the scope of inquiry is relatively contained and we need to understand the 'why' behind user behaviors at scale. For highly sensitive or exploratory research, such as understanding the emotional journey of a customer applying for a complex loan, human moderators remain indispensable. We must also establish clear guardrails, ensuring that AI prompts are rigorously tested for bias and clarity, and that qualitative analysis teams are equipped to synthesize the AI-generated transcripts effectively, looking for emergent themes and unique user stories that might be missed by purely automated analysis. Implementing this requires a pilot phase, perhaps starting with feedback on a minor iteration of our credit card activation flow, to validate its efficacy and refine our approach."
+    },
+    {
+      "date": "2026-04-13",
+      "title": "Building AI SaaS: Lessons in AI UX vs traditional UX",
+      "summary": "Master AI ux design. Explore our deep-dive into the road to AI-powered SaaS, comparing AI vs. traditional UX. Learn to avoid common pitfalls and drive 2026 growth.",
+      "content": "This article from Parallel Blog delves into the unique challenges and opportunities presented by AI-powered Software as a Service (SaaS) from a UX perspective. It highlights that designing for AI experiences isn't merely an extension of traditional UX but requires a distinct approach to manage user expectations, explain complex AI behaviors, and ensure ethical considerations are paramount. For UX researchers at Nubank, understanding these differences is crucial for successfully integrating AI features into products like PIX, loan applications, or card activation flows. Failing to adapt traditional UX methodologies could lead to user frustration, mistrust, and hinder the adoption of innovative AI-driven solutions, ultimately impacting growth and customer satisfaction.",
+      "category": "AI tool evaluation",
+      "source": {
+        "name": "Parallel Blog",
+        "url": "https://www.parallelhq.com/blog/ai-powered-saas-ui-ux"
+      },
+      "analysis": "At Nubank, this article's insights should be integrated into our AI strategy workshops and foundational UX research training. When approaching research for new AI features, such as personalized loan offers or intelligent fraud detection in card transactions, researchers need to pivot from standard usability testing to exploring user comprehension of AI recommendations and their decision-making processes. This means designing research protocols that specifically probe for user trust, perceived fairness, and clarity around how AI influences outcomes, moving beyond just task completion rates.\n\nResearchers should proactively develop frameworks for evaluating AI-driven user journeys, considering the \"explainability\" of AI decisions within flows like onboarding or insurance claim processing. This involves understanding when and how to surface AI logic to users without overwhelming them, and how to research user reactions to \"black box\" scenarios. As a guardrail, we must emphasize that AI should augment, not replace, human empathy and control. Research should rigorously assess if AI integration genuinely enhances the user experience and provides tangible benefits, rather than simply adding complexity. This is especially critical for sensitive financial products where trust is paramount, such as in the PIX transfer experience or when offering personalized financial advice."
     },
     {
       "date": "2026-04-11",
