@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 29,
-      "description": "Articles focusing on AI agents performing research tasks autonomously or semi-autonomously."
+      "count": 47,
+      "description": "Covers research and development related to AI agents that can perform tasks autonomously, make decisions, and interact with systems or users."
     },
     {
       "name": "AI coding assistants",
-      "count": 28,
-      "description": "Content related to AI tools that help developers write, review, or refactor code."
+      "count": 39,
+      "description": "Focuses on AI tools and research that assist developers in writing, debugging, and understanding code."
     },
     {
       "name": "AI summarization",
-      "count": 25,
-      "description": "Articles discussing AI's capability to condense large amounts of text or data into concise summaries."
-    },
-    {
-      "name": "AI for design & research",
-      "count": 18,
-      "description": "Content covering AI applications that directly assist in the design process or creative research."
-    },
-    {
-      "name": "AI research tools",
-      "count": 17,
-      "description": "Articles about AI-powered platforms and tools specifically designed to aid in research activities."
-    },
-    {
-      "name": "AI workforce impact",
-      "count": 16,
-      "description": "Discussions on how AI is affecting jobs, skills, and the overall labor market."
-    },
-    {
-      "name": "AI chatbot research",
-      "count": 14,
-      "description": "Research and analysis specifically focused on the behavior, impact, and challenges of AI chatbots."
-    },
-    {
-      "name": "AI survey tools",
-      "count": 14,
-      "description": "Articles on AI applications for creating, distributing, and analyzing survey data."
-    },
-    {
-      "name": "AI sentiment & feedback analysis",
-      "count": 10,
-      "description": "Content on using AI to analyze customer feedback, reviews, and social media sentiment."
+      "count": 28,
+      "description": "Articles discussing AI's ability to condense large amounts of text or data into concise summaries for easier understanding and analysis."
     },
     {
       "name": "AI-powered data analysis",
-      "count": 9,
-      "description": "Discussions on using AI to process, interpret, and extract insights from data."
+      "count": 24,
+      "description": "Explores how AI tools and techniques are used to analyze complex datasets, uncover insights, and inform decision-making."
+    },
+    {
+      "name": "AI for design & research",
+      "count": 23,
+      "description": "Covers AI applications that directly support or enhance the design and user research process, from ideation to synthesis."
+    },
+    {
+      "name": "AI research platforms",
+      "count": 17,
+      "description": "Articles focusing on platforms and tools specifically built to facilitate or automate aspects of research using AI."
+    },
+    {
+      "name": "AI chatbot research",
+      "count": 16,
+      "description": "Examines the findings, implications, and user experiences related to AI-powered chatbots, including their capabilities and limitations."
+    },
+    {
+      "name": "AI sentiment & feedback",
+      "count": 15,
+      "description": "Focuses on how AI analyzes and interprets user sentiment, feedback, and reviews to extract actionable insights."
+    },
+    {
+      "name": "AI research tools comparison",
+      "count": 14,
+      "description": "Articles that compare and evaluate different AI tools and platforms for research purposes, highlighting their features and effectiveness."
+    },
+    {
+      "name": "AI workforce impact",
+      "count": 13,
+      "description": "Discusses the effects of AI on jobs, skills, recruitment, and the broader labor market."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
