@@ -1,56 +1,56 @@
 {
   "month": "2026-04",
-  "updated": "2026-04-13",
+  "updated": "2026-04-14",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 30,
-      "description": "Articles focusing on AI agents that can autonomously perform research tasks, gather data, or make decisions within a research context."
+      "count": 29,
+      "description": "Articles focusing on AI agents performing research tasks autonomously or semi-autonomously."
     },
     {
       "name": "AI coding assistants",
-      "count": 29,
-      "description": "Content discussing AI tools that help developers write, debug, and understand code."
+      "count": 28,
+      "description": "Content related to AI tools that help developers write, review, or refactor code."
     },
     {
-      "name": "AI usability testing",
-      "count": 23,
-      "description": "Articles covering AI applications for testing user interfaces, applications, and product usability."
+      "name": "AI summarization",
+      "count": 25,
+      "description": "Articles discussing AI's capability to condense large amounts of text or data into concise summaries."
     },
     {
-      "name": "AI design research",
-      "count": 19,
-      "description": "Focuses on AI's role in the design process, from ideation and prototyping to generating design elements."
+      "name": "AI for design & research",
+      "count": 18,
+      "description": "Content covering AI applications that directly assist in the design process or creative research."
     },
     {
       "name": "AI research tools",
       "count": 17,
-      "description": "Articles about AI-powered platforms and tools designed to aid researchers in various stages of the research process."
-    },
-    {
-      "name": "AI chatbot research",
-      "count": 17,
-      "description": "Content exploring the behavior, impact, and research surrounding AI-powered chatbots and conversational agents."
+      "description": "Articles about AI-powered platforms and tools specifically designed to aid in research activities."
     },
     {
       "name": "AI workforce impact",
-      "count": 17,
-      "description": "Articles examining how AI is changing jobs, creating new roles, and impacting the overall labor market."
+      "count": 16,
+      "description": "Discussions on how AI is affecting jobs, skills, and the overall labor market."
+    },
+    {
+      "name": "AI chatbot research",
+      "count": 14,
+      "description": "Research and analysis specifically focused on the behavior, impact, and challenges of AI chatbots."
+    },
+    {
+      "name": "AI survey tools",
+      "count": 14,
+      "description": "Articles on AI applications for creating, distributing, and analyzing survey data."
+    },
+    {
+      "name": "AI sentiment & feedback analysis",
+      "count": 10,
+      "description": "Content on using AI to analyze customer feedback, reviews, and social media sentiment."
     },
     {
       "name": "AI-powered data analysis",
-      "count": 14,
-      "description": "Discussions on using AI to analyze large datasets, extract insights, and identify patterns."
-    },
-    {
-      "name": "AI summarization",
-      "count": 13,
-      "description": "Articles about AI systems that condense information from text, audio, or video into concise summaries."
-    },
-    {
-      "name": "AI customer insights",
-      "count": 12,
-      "description": "Content related to using AI to understand customer behavior, preferences, and sentiment."
+      "count": 9,
+      "description": "Discussions on using AI to process, interpret, and extract insights from data."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
