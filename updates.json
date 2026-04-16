@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-04-16T03:36:41.503Z",
+  "lastUpdated": "2026-04-16T09:27:19.582Z",
   "updates": [
+    {
+      "date": "2026-04-16",
+      "title": "AI, UX, and the factory model",
+      "summary": "AI, UX, and the factory model",
+      "content": "This article explores the growing integration of AI into UX research, framing it through the lens of a 'factory model.'  It suggests that AI can automate and scale repetitive research tasks, moving UX research towards a more efficient and industrialized process. This matters for UX researchers as it promises to free up valuable time for deeper, more strategic insights.  Practical implications include leveraging AI for data analysis, participant recruitment, and even initial hypothesis generation, allowing researchers to focus on complex problem-solving and user advocacy.",
+      "category": "AI research tools",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/ai-ux-and-the-factory-model-7c38802de4a5?source=rss----138adf9c44c---4"
+      },
+      "analysis": "At Nubank, this 'factory model' concept for AI in UX research can be integrated into our existing workflows, particularly in areas where we handle a high volume of user interactions and feedback. For instance, AI could significantly accelerate the analysis of qualitative data from user interviews and surveys related to PIX transactions or loan applications. Researchers could leverage AI tools to identify recurring pain points, sentiment trends, or emerging usability issues across thousands of customer feedback entries, flagging them for deeper investigation.\n\nTo apply this, our research team should pilot AI-powered tools for tasks like sentiment analysis of app reviews concerning card activation issues or initial onboarding experiences. We can also explore AI for persona development by analyzing large datasets of user behavior and demographic information. It's crucial to establish clear guardrails: AI should be seen as an augmentation, not a replacement, for human judgment. Researchers must always critically review AI-generated insights, validate them through traditional methods, and ensure that ethical considerations, such as data privacy and bias mitigation, are paramount, especially when dealing with sensitive financial data related to insurance or credit products."
+    },
     {
       "date": "2026-04-15",
       "title": "Building trust in the AI era with privacy-led UX",
