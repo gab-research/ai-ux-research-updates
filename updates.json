@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-04-16T09:27:19.582Z",
+  "lastUpdated": "2026-04-16T17:24:21.751Z",
   "updates": [
     {
       "date": "2026-04-16",
@@ -14,6 +14,18 @@
         "url": "https://uxdesign.cc/ai-ux-and-the-factory-model-7c38802de4a5?source=rss----138adf9c44c---4"
       },
       "analysis": "At Nubank, this 'factory model' concept for AI in UX research can be integrated into our existing workflows, particularly in areas where we handle a high volume of user interactions and feedback. For instance, AI could significantly accelerate the analysis of qualitative data from user interviews and surveys related to PIX transactions or loan applications. Researchers could leverage AI tools to identify recurring pain points, sentiment trends, or emerging usability issues across thousands of customer feedback entries, flagging them for deeper investigation.\n\nTo apply this, our research team should pilot AI-powered tools for tasks like sentiment analysis of app reviews concerning card activation issues or initial onboarding experiences. We can also explore AI for persona development by analyzing large datasets of user behavior and demographic information. It's crucial to establish clear guardrails: AI should be seen as an augmentation, not a replacement, for human judgment. Researchers must always critically review AI-generated insights, validate them through traditional methods, and ensure that ethical considerations, such as data privacy and bias mitigation, are paramount, especially when dealing with sensitive financial data related to insurance or credit products."
+    },
+    {
+      "date": "2026-04-16",
+      "title": "We become what we behold",
+      "summary": "A discussion of AI + Design and our shifting roles. Continue reading on UX Collective »",
+      "content": "This article explores the profound impact of AI on the field of UX design and research, arguing that as we increasingly integrate AI into our tools and processes, our own roles and perspectives inevitably shift.  It highlights that AI isn't just a tool to automate tasks, but a force that can reshape how we understand users, define problems, and even perceive creativity. For UX researchers, this means grappling with a future where AI might assist in synthesis, hypothesis generation, and even user interaction analysis, necessitating a focus on higher-level strategic thinking and ethical considerations.  Understanding this evolution is crucial for staying relevant and leveraging AI to enhance, rather than replace, human-centric research.",
+      "category": "AI research tools",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/we-become-what-we-behold-b552cad26702?source=rss----138adf9c44c---4"
+      },
+      "analysis": "At Nubank, the \"We become what we behold\" concept can be integrated into our research workflow by acknowledging how AI-powered tools, such as those assisting with sentiment analysis for customer feedback or even generative AI for initial persona drafts, influence our own research outputs and interpretations. For instance, when analyzing feedback on our PIX or credit card activation flows, an AI-generated summary might highlight certain pain points. Researchers must then critically examine this output, not just accept it, ensuring it aligns with nuanced qualitative findings and doesn't introduce algorithmic biases. This proactive scrutiny is vital to maintain the integrity of our user-centric approach.\n\nTo apply this at Nubank, researchers should actively experiment with AI augmentation for tasks like identifying emerging themes in large datasets or quickly prototyping user journey variations. However, we must establish clear guardrails. AI should be viewed as a co-pilot, not the pilot. For sensitive areas like loan applications or insurance onboarding, the final analysis and strategic recommendations must always rest with the human researcher. We need to train our teams on the limitations of AI, such as its potential for misinterpreting cultural nuances specific to Brazil or its inability to grasp the emotional context of financial stress. This ensures our research remains deeply empathetic and ethically sound, safeguarding user trust in Nubank's products."
     },
     {
       "date": "2026-04-15",
