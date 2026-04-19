@@ -1,56 +1,56 @@
 {
   "month": "2026-04",
-  "updated": "2026-04-18",
+  "updated": "2026-04-19",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 50,
-      "description": "Covers AI agents designed to autonomously perform research tasks, explore data, and make decisions within a research context."
+      "count": 87,
+      "description": "Articles focusing on AI agents capable of performing research tasks autonomously or semi-autonomously, including self-improvement and multi-agent collaboration for research."
     },
     {
       "name": "AI coding assistants",
-      "count": 36,
-      "description": "Focuses on AI tools that help developers write, debug, and optimize code, including analysis of their effectiveness and security."
+      "count": 63,
+      "description": "Content discussing AI tools that assist developers in writing, debugging, and understanding code, including leaks and security vulnerabilities of these tools."
+    },
+    {
+      "name": "AI for design & research",
+      "count": 45,
+      "description": "AI applications that directly support the design process, from generating prototypes to analyzing design data and aiding in the creation of visual assets."
     },
     {
       "name": "AI research tools",
-      "count": 28,
-      "description": "Articles detailing platforms, frameworks, and tools specifically built to facilitate or automate various stages of research."
+      "count": 41,
+      "description": "Articles detailing AI platforms and tools specifically built to facilitate and accelerate various forms of research, from drug discovery to market analysis."
     },
     {
       "name": "AI summarization",
+      "count": 36,
+      "description": "AI tools and techniques used to condense large amounts of text, meetings, or data into concise summaries for easier understanding."
+    },
+    {
+      "name": "AI-powered data analysis",
       "count": 24,
-      "description": "Content related to AI's ability to condense large amounts of text, data, or conversations into concise summaries and key insights."
-    },
-    {
-      "name": "AI design research",
-      "count": 20,
-      "description": "Explores how AI is used to research, inform, and assist in the design process, including UI/UX prototyping and concept generation."
-    },
-    {
-      "name": "AI for product management",
-      "count": 17,
-      "description": "Articles focusing on AI applications that assist product managers in tasks like strategy, roadmap planning, and feature development."
-    },
-    {
-      "name": "AI sentiment feedback",
-      "count": 15,
-      "description": "Covers AI's application in analyzing customer feedback, reviews, and social media to gauge sentiment and identify key themes."
+      "description": "Focuses on AI applications that automate or enhance the analysis of data for insights, particularly in areas like customer behavior and market trends."
     },
     {
       "name": "AI usability testing",
-      "count": 15,
-      "description": "Discusses AI's role in automating, enhancing, or analyzing usability testing processes and results."
-    },
-    {
-      "name": "AI workforce impact",
-      "count": 14,
-      "description": "Articles examining the effects of AI on employment, job roles, recruitment, and the skills needed in the modern workforce."
+      "count": 21,
+      "description": "Articles on how AI is being used to automate, enhance, or analyze the process of usability testing for software and digital products."
     },
     {
       "name": "AI chatbot research",
-      "count": 13,
-      "description": "Focuses on research into the behavior, impact, and limitations of AI chatbots, particularly in user interactions and information seeking."
+      "count": 21,
+      "description": "Research and analysis of user interactions with AI chatbots, including their accuracy, biases, and impact on user cognition and behavior."
+    },
+    {
+      "name": "AI testing automation",
+      "count": 19,
+      "description": "AI's role in automating the testing of software, from generating test cases to analyzing test results and ensuring product quality."
+    },
+    {
+      "name": "AI sentiment & feedback analysis",
+      "count": 18,
+      "description": "Utilizing AI to analyze customer feedback, social media sentiment, and reviews to extract actionable insights and understand user perception."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
