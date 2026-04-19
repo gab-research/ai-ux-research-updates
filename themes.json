@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 87,
-      "description": "Articles focusing on AI agents capable of performing research tasks autonomously or semi-autonomously, including self-improvement and multi-agent collaboration for research."
+      "count": 62,
+      "description": "Focuses on AI agents that can autonomously perform research tasks, analyze data, or interact with systems and users to achieve research objectives."
     },
     {
       "name": "AI coding assistants",
-      "count": 63,
-      "description": "Content discussing AI tools that assist developers in writing, debugging, and understanding code, including leaks and security vulnerabilities of these tools."
+      "count": 48,
+      "description": "Covers tools and techniques that use AI to help developers write, review, debug, and optimize code."
     },
     {
-      "name": "AI for design & research",
-      "count": 45,
-      "description": "AI applications that directly support the design process, from generating prototypes to analyzing design data and aiding in the creation of visual assets."
-    },
-    {
-      "name": "AI research tools",
-      "count": 41,
-      "description": "Articles detailing AI platforms and tools specifically built to facilitate and accelerate various forms of research, from drug discovery to market analysis."
-    },
-    {
-      "name": "AI summarization",
-      "count": 36,
-      "description": "AI tools and techniques used to condense large amounts of text, meetings, or data into concise summaries for easier understanding."
-    },
-    {
-      "name": "AI-powered data analysis",
-      "count": 24,
-      "description": "Focuses on AI applications that automate or enhance the analysis of data for insights, particularly in areas like customer behavior and market trends."
-    },
-    {
-      "name": "AI usability testing",
-      "count": 21,
-      "description": "Articles on how AI is being used to automate, enhance, or analyze the process of usability testing for software and digital products."
-    },
-    {
-      "name": "AI chatbot research",
-      "count": 21,
-      "description": "Research and analysis of user interactions with AI chatbots, including their accuracy, biases, and impact on user cognition and behavior."
+      "name": "AI design research",
+      "count": 44,
+      "description": "Explores how AI is used to assist in the design process, from generating prototypes and UIs to automating design tasks and analyzing design systems."
     },
     {
       "name": "AI testing automation",
-      "count": 19,
-      "description": "AI's role in automating the testing of software, from generating test cases to analyzing test results and ensuring product quality."
+      "count": 41,
+      "description": "Discusses the application of AI in automating various aspects of software testing, including test case generation, execution, and analysis."
     },
     {
-      "name": "AI sentiment & feedback analysis",
-      "count": 18,
-      "description": "Utilizing AI to analyze customer feedback, social media sentiment, and reviews to extract actionable insights and understand user perception."
+      "name": "AI customer insights",
+      "count": 35,
+      "description": "Details how AI is leveraged to analyze customer feedback, sentiment, and behavior to derive actionable insights for businesses."
+    },
+    {
+      "name": "AI summarization",
+      "count": 31,
+      "description": "Focuses on AI capabilities that condense large amounts of text or data into concise summaries, aiding in quick comprehension."
+    },
+    {
+      "name": "AI research tools",
+      "count": 29,
+      "description": "Covers platforms and applications that utilize AI to accelerate and enhance the research process, including literature review and data extraction."
+    },
+    {
+      "name": "AI chatbot research",
+      "count": 28,
+      "description": "Examines the behavior, capabilities, and implications of AI chatbots, including user interaction, limitations, and potential harms."
+    },
+    {
+      "name": "AI workforce impact",
+      "count": 26,
+      "description": "Analyzes the effects of AI on jobs, employment, skills, and the future of work, including displacement and creation of roles."
+    },
+    {
+      "name": "AI usability testing",
+      "count": 25,
+      "description": "Explores how AI is integrated into usability testing processes, from automating checks to analyzing user interactions and feedback."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
