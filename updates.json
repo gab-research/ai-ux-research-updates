@@ -1,8 +1,32 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-04-20T03:40:42.764Z",
+  "lastUpdated": "2026-04-20T10:05:57.211Z",
   "updates": [
+    {
+      "date": "2026-04-20",
+      "title": "AI is ruining the way you talk about your work",
+      "summary": "Chat UI rewards fluency, not precision. Your expertise lives in precision. Continue reading on UX Collective »",
+      "content": "This article highlights a critical challenge: the inherent bias of conversational AI interfaces towards generating fluent, polished prose, which can inadvertently obscure the nuanced and precise language required for deep UX research insights.  The core idea is that AI's tendency to prioritize eloquence over accuracy can lead researchers to report findings that sound good but lack the specific, actionable details essential for informing product decisions. This matters because our expertise as UX researchers is built on identifying subtle user behaviors, motivations, and pain points, which are often expressed with specific terminology and context.  Failing to capture this precision can result in watered-down recommendations for products like PIX transactions, loan applications, or card activation flows, potentially leading to less effective user experiences.",
+      "category": "Conversational AI in research",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/ai-is-ruining-the-way-you-talk-about-your-work-599dbd78ea18?source=rss----138adf9c44c---4"
+      },
+      "analysis": "At Nubank, this insight is particularly relevant as we strive for clarity and precision in communicating user needs across diverse product teams working on everything from onboarding to insurance. Researchers should actively resist the temptation to simply accept AI-generated summaries or translations of user interviews and usability tests. Instead, researchers should use AI tools to *assist* in transcription and initial thematic identification, but then meticulously review and refine the output, focusing on preserving the exact phrasing and sentiment of users. For instance, when analyzing feedback on a new loan application flow, a researcher would cross-reference AI-generated summaries with the raw interview transcripts to ensure terms like 'interest rate' or 'repayment schedule' are accurately reflected and not replaced with vague generalities.\n\nTo apply this at Nubank, we need to implement a \"human-in-the-loop\" verification process for all AI-assisted research outputs. This means researchers should consider AI a powerful co-pilot, not an autopilot. Before presenting findings on, say, the card activation process or new PIX features to product managers, a dedicated review phase must be implemented. Researchers should ask themselves: 'Does this AI-generated summary accurately capture the user's specific point of friction or delight?' If there's any doubt, the researcher must consult the primary data. Guardrails include setting clear expectations that AI is a tool for efficiency, not a replacement for critical thinking and domain expertise, and ensuring researchers are trained to identify and correct AI-generated 'fluency' that might mask a lack of true understanding."
+    },
+    {
+      "date": "2026-04-20",
+      "title": "Claude CoWork + UXR Deliverables",
+      "summary": "Watch how I transform a customer journey map from static -&gt; interactive",
+      "content": "Nikki Anderson's \"Claude CoWork + UXR Deliverables\" showcases an innovative approach to democratizing and enhancing UX research outputs. The core idea is leveraging AI, specifically Claude CoWork, to transform static deliverables like customer journey maps into dynamic, interactive experiences. This is crucial for UX researchers as it moves beyond passive consumption of findings, enabling stakeholders to actively explore data, uncover deeper insights, and foster a more collaborative understanding of user needs. The practical implication is the potential to create living documents that evolve with new data, improving communication and driving more informed product decisions across teams at Nubank.",
+      "category": "AI workforce impact",
+      "source": {
+        "name": "Nikki Anderson (User Research Strategist)",
+        "url": "https://www.userresearchstrategist.com/p/claude-cowork-uxr-deliverables"
+      },
+      "analysis": "At Nubank, this approach can significantly enhance how we communicate research findings, particularly for complex flows like onboarding, PIX transactions, or loan applications. Instead of static reports, researchers can use Claude CoWork to build interactive journey maps that allow product managers, designers, and engineers to click into specific pain points, explore supporting quotes or video snippets, and even simulate different user scenarios. This interactivity can be integrated into our existing research workflow by having researchers present a synthesized interactive map in stakeholder reviews, encouraging deeper engagement and quicker iteration cycles.\n\nTo implement this, researchers should identify key deliverables that would benefit from interactivity, such as journey maps for credit card activation or insurance policy exploration. They would then use Claude CoWork to embed research data, user quotes, and even proto-personas directly within the map. Crucially, researchers must maintain oversight to ensure the AI-generated interactivity accurately reflects the research findings and doesn't introduce bias. Guardrails should include rigorous review of the interactive elements for accuracy and clarity, ensuring that the AI acts as an assistant to amplify research insights, not replace the researcher's critical analysis."
+    },
     {
       "date": "2026-04-16",
       "title": "AI, UX, and the factory model",
