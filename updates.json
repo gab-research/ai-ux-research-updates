@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-04-21T09:46:50.200Z",
+  "lastUpdated": "2026-04-21T17:15:00.979Z",
   "updates": [
+    {
+      "date": "2026-04-21",
+      "title": "How to mitigate the risk of AI implementation in enterprise environments",
+      "summary": "My focus has been on the enterprise sector for years. After the 2022 ChatGPT revolution, I witnessed a massive hype around self-made AI… Continue reading on UX Collective »",
+      "content": "This article addresses the inherent risks of rapidly integrating AI into enterprise settings, particularly in the wake of the 2022 AI surge that sparked widespread enthusiasm for generative AI tools. It argues that while the potential benefits are significant, a thoughtful and risk-averse approach is crucial for successful and ethical implementation. For UX researchers, understanding these risks is vital to ensure AI-powered solutions enhance, rather than detract from, user experience, and to advocate for responsible AI development and deployment that aligns with user needs and company values.",
+      "category": "Conversational AI in research",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/how-to-mitigate-the-risk-of-ai-implementation-in-enterprise-environments-74d3bd7f9e65?source=rss----138adf9c44c---4"
+      },
+      "analysis": "At Nubank, this article's focus on mitigating AI implementation risks is directly relevant to our ongoing exploration of AI within UX research. Researchers can leverage these insights to critically evaluate potential AI tools for tasks like sentiment analysis of customer feedback from our app, identifying patterns in user behavior during the PIX transfer flow, or even in generating initial user personas for new product ideation for loans or insurance. Before widespread adoption, a pilot phase focusing on a specific workflow, such as the card activation process, would allow us to assess AI performance and identify any unforeseen issues with accuracy, bias, or user trust.\n\nWhen applying AI tools, our researchers must maintain a human-in-the-loop approach, especially for sensitive areas like customer support interactions or in generating content for onboarding flows. This means rigorously validating AI-generated insights and outputs against traditional research methods. Crucially, we need to establish clear guardrails around data privacy, algorithmic bias, and the transparency of AI-assisted research. For example, when using AI to summarize user interviews, researchers must ensure the AI doesn't misinterpret nuances or introduce bias, and that the original intent of the participant is preserved. Any AI-generated recommendations for improving the user experience should be treated as hypotheses to be validated, not as definitive truths."
+    },
     {
       "date": "2026-04-20",
       "title": "AI is ruining the way you talk about your work",
