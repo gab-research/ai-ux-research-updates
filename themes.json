@@ -1,56 +1,56 @@
 {
   "month": "2026-04",
-  "updated": "2026-04-20",
+  "updated": "2026-04-21",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 86,
-      "description": "Covers the use of AI agents that can autonomously perform tasks and make decisions within research workflows, often involving complex sequences of actions."
+      "count": 113,
+      "description": "Covers AI agents actively performing research tasks, making decisions, and interacting autonomously."
     },
     {
       "name": "AI coding assistants",
-      "count": 68,
-      "description": "Focuses on AI tools that help developers write, debug, and refactor code, including specific mentions of models like Claude Code and GPT-4.1."
-    },
-    {
-      "name": "AI research tools",
-      "count": 56,
-      "description": "Encompasses a broad range of AI-powered tools designed to assist in various stages of research, from discovery to analysis and reporting."
+      "count": 64,
+      "description": "Focuses on AI tools that help developers write, debug, and optimize code."
     },
     {
       "name": "AI for design & research",
-      "count": 49,
-      "description": "Highlights AI applications that directly support design processes, from ideation and prototyping to UI generation and design system application."
-    },
-    {
-      "name": "AI survey tools",
-      "count": 29,
-      "description": "Covers AI applications specifically designed to create, distribute, analyze, and optimize surveys, enhancing data collection and insights."
-    },
-    {
-      "name": "AI content generation",
-      "count": 27,
-      "description": "Focuses on AI's ability to generate various forms of content, including text, images, and potentially code, for research and design purposes."
+      "count": 58,
+      "description": "Encompasses AI tools and techniques used to assist in the design process and research planning/execution."
     },
     {
       "name": "AI summarization",
-      "count": 22,
-      "description": "Covers the use of AI to condense large amounts of text, research papers, or meeting transcripts into concise summaries."
+      "count": 35,
+      "description": "Articles discussing AI's ability to condense large amounts of text, data, or research findings into concise summaries."
     },
     {
-      "name": "AI qualitative research",
-      "count": 18,
-      "description": "Explores AI's application in analyzing and extracting insights from qualitative data, such as interview transcripts and open-ended feedback."
+      "name": "AI research platform",
+      "count": 33,
+      "description": "Highlights platforms and tools designed to facilitate and accelerate various types of AI-driven research."
     },
     {
-      "name": "AI recruitment research",
-      "count": 17,
-      "description": "Focuses on AI's impact on the job market, including AI's role in replacing jobs, creating new ones, and influencing hiring processes."
+      "name": "AI-powered data analysis",
+      "count": 29,
+      "description": "Covers AI applications for analyzing datasets, uncovering insights, and identifying patterns."
     },
     {
-      "name": "AI testing automation",
-      "count": 17,
-      "description": "Covers the application of AI in automating software testing processes, improving efficiency, and identifying bugs."
+      "name": "AI usability testing",
+      "count": 23,
+      "description": "Focuses on how AI is being used to automate or enhance the process of testing software and product usability."
+    },
+    {
+      "name": "AI workforce impact",
+      "count": 21,
+      "description": "Examines how AI is affecting jobs, skill requirements, and the overall labor market."
+    },
+    {
+      "name": "AI chatbot research",
+      "count": 19,
+      "description": "Covers research and studies focusing on the behavior, impact, and limitations of AI chatbots."
+    },
+    {
+      "name": "AI sentiment & feedback analysis",
+      "count": 16,
+      "description": "Articles on using AI to understand and analyze user sentiment, opinions, and feedback from various sources."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
