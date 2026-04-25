@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-04-25T09:04:07.056Z",
+  "lastUpdated": "2026-04-25T16:55:11.464Z",
   "updates": [
     {
       "date": "2026-04-25",
@@ -557,18 +557,6 @@
     },
     {
       "date": "2026-03-26",
-      "title": "Intent by Discovery: Designing the AI User Experience",
-      "summary": "AI is not just a better chat box. It changes the user’s role from operator to supervisor, which forces UX to move from command-based interaction toward intent-based delegation, new usability metrics, orchestration layers, calibrated friction, and ultimately exploration-based i...",
-      "content": "AI is not just a better chat box. It changes the user’s role from operator to supervisor, which forces UX to move from command-based interaction toward intent-based delegation, new usability metrics, orchestration layers, calibrated friction, and ultimately exploration-based interaction to clarify the user’s needs.",
-      "category": "Conversational AI in research",
-      "source": {
-        "name": "Jakob Nielsen (Substack)",
-        "url": "https://jakobnielsenphd.substack.com/p/intent-ux"
-      },
-      "analysis": "At Nubank, this \"Intent by Discovery\" framework directly impacts how we approach research for new AI-powered features. Instead of testing usability for explicitly stated commands (e.g., 'Send 50 BRL via PIX to John'), we should investigate how users express their financial *intentions* (e.g., 'I need to pay my friend back for dinner'). This means our research, whether generative or evaluative, should focus on understanding user goals in broader contexts, such as their overall financial management for loans, their journey during card activation, or their planning for insurance needs.  We can explore user workflows in areas like setting up recurring PIX payments or managing their credit card limits, looking for moments where expressing a high-level goal would be more natural and efficient than issuing a series of precise commands.\n\nWhen applying this at Nubank, researchers should prioritize qualitative methods like in-depth interviews and contextual inquiries to uncover latent user intents before jumping into feature development.  Think about research sessions where we ask users about their financial aspirations rather than just their current tasks.  For evaluative research, we can design tasks that require users to describe their desired outcomes, and then observe how the AI system helps them achieve it through discovery and delegation.  A key guardrail is to ensure that \"intent by discovery\" doesn't lead to opaque AI behavior. Transparency about how the AI interprets intent and the options available for confirmation or correction remains paramount for building trust, especially in sensitive financial flows like loan applications or insurance claims."
-    },
-    {
-      "date": "2026-03-26",
       "title": "AsgardBench: A benchmark for visually grounded interactive planning",
       "summary": "Imagine a robot tasked with cleaning a kitchen. It needs to observe its environment, decide what to do, and adjust when things don’t go as expected, for example, when the mug it was tasked to wash is already clean, or the sink is full of other items. This is the domain of embo...",
       "content": "Imagine a robot tasked with cleaning a kitchen. It needs to observe its environment, decide what to do, and adjust when things don’t go as expected, for example, when the mug it was tasked to wash is already clean, or the sink is full of other items. This is the domain of embodied AI: systems […] The post AsgardBench: A benchmark for visually grounded interactive planning appeared first on Microsoft Research.",
@@ -578,18 +566,6 @@
         "url": "https://www.microsoft.com/en-us/research/blog/asgardbench-a-benchmark-for-visually-grounded-interactive-planning/"
       },
       "analysis": "AsgardBench's focus on visually grounded interactive planning can inform our development of more intuitive and adaptive AI within Nubank's existing user journeys. Consider the onboarding flow for a new user: an AI assistant, informed by principles like AsgardBench, could proactively offer guidance based on the user's current screen and potential points of confusion, adjusting its suggestions as the user progresses, rather than following a rigid script. Similarly, for PIX transactions, an AI could analyze the context of the payment (recipient, amount, previous interactions) to offer real-time fraud warnings or alternative transfer methods if it detects anomalies, enhancing security and user confidence.\n\nWhen applying this at Nubank, researchers should explore how AI agents can be trained to understand and interpret user inputs and application states in a similar 'visually grounded' manner. This means moving beyond keyword-based interactions to AI that can infer user intent from the overall context of their activity within the app, whether they are applying for a loan, activating a new card, or reviewing insurance policies. Researchers should prioritize testing these AI-powered features in realistic simulated environments that mimic user behavior and potential deviations. Guardrails are crucial: the AI must be transparent about its limitations, avoid making critical financial decisions autonomously, and always provide clear avenues for human intervention or clarification to ensure user trust and prevent misinterpretations that could lead to errors in sensitive financial operations."
-    },
-    {
-      "date": "2026-03-26",
-      "title": "GroundedPlanBench: Spatially grounded long-horizon task planning for robot manipulation",
-      "summary": "Vision-language models (VLMs) use images and text to plan robot actions, but they still struggle to decide what actions to take and where to take them. Most systems split these decisions into two steps: a VLM generates a plan in natural language, and a separate model translate...",
-      "content": "Vision-language models (VLMs) use images and text to plan robot actions, but they still struggle to decide what actions to take and where to take them. Most systems split these decisions into two steps: a VLM generates a plan in natural language, and a separate model translates it into executable actions. This approach often breaks […] The post GroundedPlanBench: Spatially grounded long-horizon task planning for robot manipulation appeared first on Microsoft Research.",
-      "category": "General AI in research",
-      "source": {
-        "name": "Microsoft Research",
-        "url": "https://www.microsoft.com/en-us/research/blog/groundedplanbench-spatially-grounded-long-horizon-task-planning-for-robot-manipulation/"
-      },
-      "analysis": "At Nubank, GroundedPlanBench's principles can be applied to enhance our AI-powered assistance for complex customer flows. For instance, during the **PIX onboarding process**, imagine a user struggling to locate a specific contact or a confusing transaction detail. An AI system trained with grounded planning could interpret screenshots of the user's screen (the 'image') and their verbal or typed queries (the 'text') to proactively guide them with precise instructions and highlighted actions, moving beyond generic FAQs. Similarly, when users are applying for a **loan**, an AI could analyze their uploaded documents and application form contextually, offering tailored next steps and explanations based on the specific information presented, thus improving comprehension and reducing abandonment rates."
     }
   ]
 }
