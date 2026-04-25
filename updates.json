@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-04-25T03:21:34.054Z",
+  "lastUpdated": "2026-04-25T09:04:07.056Z",
   "updates": [
+    {
+      "date": "2026-04-25",
+      "title": "How to build UX using GPT-5.2 + Bootstrap  –  Use UXPin Merge!",
+      "summary": "Use GPT-5.2 with Bootstrap and UXPin Merge to design production-ready, code-backed UX prototypes for faster, accurate handoffs. The post How to build UX using GPT-5.2 + Bootstrap – Use UXPin Merge! appeared first on Studio by UXPin.",
+      "content": "This article proposes an innovative approach to UX design and prototyping by integrating GPT-5.2, Bootstrap, and UXPin Merge. The core idea is to leverage advanced AI, specifically GPT-5.2, to generate design components and even entire interfaces powered by Bootstrap's framework.  UXPin Merge then acts as the bridge, enabling the creation of production-ready, code-backed prototypes directly from these AI-generated designs. This matters for UX researchers as it significantly accelerates the design-to-development handoff, allowing for more rapid iteration and testing of concepts with stakeholders and users. The practical implication is a potential reduction in time and resources spent on manual prototyping and design specification.",
+      "category": "General AI in research",
+      "source": {
+        "name": "UXPin Blog",
+        "url": "https://www.uxpin.com/studio/blog/build-ux-gpt-5-2-bootstrap-uxpin-merge/"
+      },
+      "analysis": "At Nubank, this new workflow could be integrated during the ideation and early prototyping phases of new features. For instance, when exploring UI variations for a new PIX transaction flow or iterating on the onboarding experience for new customers, researchers could use GPT-5.2 to rapidly generate wireframes or mockups based on defined user needs and Bootstrap components. UXPin Merge would then translate these into interactive prototypes, enabling faster user testing and feedback collection before committing extensive engineering resources.\n\nResearchers should approach this as a powerful augmentation tool, not a replacement for core research activities. The generated designs should be treated as starting points for validation, not final solutions. It's crucial to establish clear prompts for GPT-5.2 that align with Nubank's brand guidelines and user experience principles.  Guardrails should include rigorous user validation of all AI-generated designs, especially for sensitive flows like loan applications or card activation.  Furthermore, ensuring the generated code from Bootstrap is clean and maintainable is paramount, and this would require collaboration with development teams to establish compatibility and integration standards."
+    },
     {
       "date": "2026-04-24",
       "title": "How to build UX using GPT-5.2 + Ant Design  –  Use UXPin Merge!",
