@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-04-24T17:07:56.132Z",
+  "lastUpdated": "2026-04-25T03:21:34.054Z",
   "updates": [
     {
       "date": "2026-04-24",
@@ -547,7 +547,7 @@
       "date": "2026-03-26",
       "title": "Intent by Discovery: Designing the AI User Experience",
       "summary": "AI is not just a better chat box. It changes the user’s role from operator to supervisor, which forces UX to move from command-based interaction toward intent-based delegation, new usability metrics, orchestration layers, calibrated friction, and ultimately exploration-based i...",
-      "content": "Jakob Nielsen's \"Intent by Discovery\" argues that AI fundamentally shifts user interaction from a direct command-and-control model to one of supervision and delegation.  This paradigm change necessitates a reevaluation of UX design, moving beyond simple conversational interfaces to anticipating and facilitating user intent. For UX researchers, understanding this shift is crucial as it demands new approaches to understanding user goals and designing for emergent behaviors. The practical implication is the need to develop systems that support users in articulating their overarching objectives, allowing AI to handle the execution, thereby streamlining complex processes like managing finances or applying for credit.",
+      "content": "AI is not just a better chat box. It changes the user’s role from operator to supervisor, which forces UX to move from command-based interaction toward intent-based delegation, new usability metrics, orchestration layers, calibrated friction, and ultimately exploration-based interaction to clarify the user’s needs.",
       "category": "Conversational AI in research",
       "source": {
         "name": "Jakob Nielsen (Substack)",
@@ -559,7 +559,7 @@
       "date": "2026-03-26",
       "title": "AsgardBench: A benchmark for visually grounded interactive planning",
       "summary": "Imagine a robot tasked with cleaning a kitchen. It needs to observe its environment, decide what to do, and adjust when things don’t go as expected, for example, when the mug it was tasked to wash is already clean, or the sink is full of other items. This is the domain of embo...",
-      "content": "AsgardBench introduces a new benchmark for evaluating AI's ability to perform interactive planning in visually complex environments, similar to a robot navigating a kitchen. This research focuses on AI systems that can perceive their surroundings, make sequential decisions, and adapt to unexpected changes in real-time. For UX researchers, this is significant as it moves towards AI agents that can understand and react to dynamic, real-world scenarios, mirroring the unpredictable nature of user interactions with digital products. The practical implication is the potential to develop more intelligent and adaptable AI assistants within our applications, capable of providing context-aware support and guidance, much like a sophisticated virtual assistant helping a user navigate a complex banking task.",
+      "content": "Imagine a robot tasked with cleaning a kitchen. It needs to observe its environment, decide what to do, and adjust when things don’t go as expected, for example, when the mug it was tasked to wash is already clean, or the sink is full of other items. This is the domain of embodied AI: systems […] The post AsgardBench: A benchmark for visually grounded interactive planning appeared first on Microsoft Research.",
       "category": "General AI in research",
       "source": {
         "name": "Microsoft Research",
@@ -571,7 +571,7 @@
       "date": "2026-03-26",
       "title": "GroundedPlanBench: Spatially grounded long-horizon task planning for robot manipulation",
       "summary": "Vision-language models (VLMs) use images and text to plan robot actions, but they still struggle to decide what actions to take and where to take them. Most systems split these decisions into two steps: a VLM generates a plan in natural language, and a separate model translate...",
-      "content": "This Microsoft Research paper introduces GroundedPlanBench, a novel approach to improving how vision-language models (VLMs) plan robot manipulation tasks.  Current VLMs, while capable of understanding images and text, face challenges in generating precise, actionable plans, often separating the 'what' from the 'where'. GroundedPlanBench aims to unify these decisions, leading to more robust and contextually aware robotic actions.  For UX researchers, this is significant because it points towards more intelligent and adaptive user interfaces that can interpret complex visual and textual cues, ultimately leading to more intuitive and seamless digital experiences for Nubank customers.  The practical implication is the potential for AI systems that can better understand and respond to user needs in dynamic, real-world scenarios within financial applications.",
+      "content": "Vision-language models (VLMs) use images and text to plan robot actions, but they still struggle to decide what actions to take and where to take them. Most systems split these decisions into two steps: a VLM generates a plan in natural language, and a separate model translates it into executable actions. This approach often breaks […] The post GroundedPlanBench: Spatially grounded long-horizon task planning for robot manipulation appeared first on Microsoft Research.",
       "category": "General AI in research",
       "source": {
         "name": "Microsoft Research",
