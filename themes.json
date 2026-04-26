@@ -1,56 +1,56 @@
 {
   "month": "2026-04",
-  "updated": "2026-04-25",
+  "updated": "2026-04-26",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 108,
-      "description": "Focuses on AI systems that can autonomously perform research tasks, make decisions, and interact with environments to achieve research goals."
-    },
-    {
-      "name": "AI research tools",
-      "count": 95,
-      "description": "Covers tools and platforms designed to assist researchers in various stages of their work, from data collection to analysis."
+      "count": 133,
+      "description": "Articles focusing on AI agents that can perform research tasks autonomously, make decisions, and interact with systems or data to achieve research objectives."
     },
     {
       "name": "AI coding assistants",
-      "count": 76,
-      "description": "Articles detailing AI tools that help developers write, debug, and optimize code."
+      "count": 61,
+      "description": "Content detailing AI tools that help developers write, debug, and optimize code, often integrated into IDEs."
     },
     {
-      "name": "AI design research",
-      "count": 53,
-      "description": "Explores how AI is being used to research, generate, and iterate on design concepts and user interfaces."
+      "name": "AI research tools",
+      "count": 57,
+      "description": "Articles discussing platforms, software, or specific AI functionalities used to facilitate or enhance various research processes."
     },
     {
       "name": "AI summarization",
-      "count": 47,
-      "description": "Focuses on AI capabilities for condensing large amounts of text or data into concise summaries and key insights."
-    },
-    {
-      "name": "AI workforce impact",
-      "count": 44,
-      "description": "Examines how AI is affecting jobs, employment, and the nature of work, including discussions on job displacement and creation."
-    },
-    {
-      "name": "AI testing automation",
-      "count": 40,
-      "description": "Covers the application of AI in automating software testing processes, improving efficiency and quality assurance."
-    },
-    {
-      "name": "AI research tools comparison",
-      "count": 36,
-      "description": "Articles that compare the features, performance, and costs of different AI tools available for research purposes."
+      "count": 41,
+      "description": "This theme covers AI applications that condense large amounts of text, data, or conversations into concise summaries."
     },
     {
       "name": "AI usability testing",
-      "count": 32,
-      "description": "Explores the use of AI in various aspects of usability testing, including participant recruitment, analysis, and interface evaluation."
+      "count": 36,
+      "description": "Focuses on how AI is used to automate, enhance, or analyze usability testing processes and results."
     },
     {
-      "name": "Synthetic users",
-      "count": 22,
-      "description": "Discusses the creation and use of AI-generated personas or users for research and testing purposes."
+      "name": "AI design research",
+      "count": 31,
+      "description": "Content exploring AI's role in the design process, from ideation and prototyping to generating design assets and analyzing design effectiveness."
+    },
+    {
+      "name": "AI chatbot research",
+      "count": 29,
+      "description": "Articles examining the behavior, impact, safety, and user interaction with AI-powered chatbots."
+    },
+    {
+      "name": "AI workforce impact",
+      "count": 27,
+      "description": "This theme covers research and discussion on how AI affects jobs, employment, and the skills required in the workforce."
+    },
+    {
+      "name": "AI tool evaluation",
+      "count": 26,
+      "description": "Articles that compare, contrast, and assess the performance, features, and value of different AI tools."
+    },
+    {
+      "name": "AI for product management",
+      "count": 24,
+      "description": "Content on how AI is applied to product development, roadmapping, feature prioritization, and market analysis."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
