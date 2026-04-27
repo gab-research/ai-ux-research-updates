@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 74,
-      "description": "Articles discussing AI agents that can perform research tasks autonomously, such as data collection, analysis, or hypothesis generation."
+      "count": 119,
+      "description": "Covers AI agents that can perform research tasks autonomously, make decisions, and interact with systems to achieve research goals."
     },
     {
       "name": "AI coding assistants",
-      "count": 58,
-      "description": "Content focusing on AI tools that assist developers in writing, debugging, and testing code."
+      "count": 78,
+      "description": "Focuses on AI tools that assist developers with writing, debugging, and analyzing code."
+    },
+    {
+      "name": "AI research tools",
+      "count": 69,
+      "description": "Encompasses a broad range of AI-powered platforms and software designed to support and enhance the research process."
     },
     {
       "name": "AI summarization",
       "count": 56,
-      "description": "Focuses on AI's ability to condense large amounts of text, data, or research findings into concise summaries."
+      "description": "Deals with AI applications that condense large amounts of text, data, or research into concise summaries and key insights."
     },
     {
-      "name": "AI research tools",
-      "count": 49,
-      "description": "Articles highlighting specific software and platforms designed to aid researchers in various aspects of their work."
+      "name": "AI chatbot research",
+      "count": 53,
+      "description": "Explores the use, impact, and research findings related to AI-powered chatbots, including their user interactions and potential biases."
+    },
+    {
+      "name": "AI design research",
+      "count": 46,
+      "description": "Covers the application of AI in the design process, including AI-assisted design tools, prototyping, and generative design."
+    },
+    {
+      "name": "Synthetic users",
+      "count": 37,
+      "description": "Focuses on the creation and use of AI-generated personas or user simulations for testing and research purposes."
     },
     {
       "name": "AI for product management",
-      "count": 35,
-      "description": "Covers AI applications and tools specifically designed to assist product managers in their day-to-day tasks and strategic decisions."
+      "count": 34,
+      "description": "Highlights how AI is being used to inform product decisions, manage roadmaps, and analyze product performance."
     },
     {
-      "name": "AI recruitment research",
-      "count": 33,
-      "description": "Articles discussing the impact of AI on recruitment processes, job markets, and the skills required for the future workforce."
+      "name": "AI workforce impact",
+      "count": 32,
+      "description": "Examines the effects of AI on employment, job roles, skills, and the future of work across various industries."
     },
     {
       "name": "AI testing automation",
       "count": 30,
-      "description": "Content related to AI-powered tools and strategies for automating software testing and quality assurance processes."
-    },
-    {
-      "name": "AI usability testing",
-      "count": 26,
-      "description": "Articles that explore how AI is being used to analyze user behavior, automate testing, and improve the usability of digital products."
-    },
-    {
-      "name": "AI chatbot research",
-      "count": 25,
-      "description": "Focuses on research and studies concerning the behavior, impact, and effectiveness of AI-powered chatbots in user interactions."
-    },
-    {
-      "name": "AI design research",
-      "count": 24,
-      "description": "Content related to the application of AI in the design process, from concept generation to prototyping and UI/UX creation."
+      "description": "Details AI's role in automating software testing, quality assurance, and validation processes."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
