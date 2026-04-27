@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 101,
-      "description": "Articles discussing AI agents that can autonomously perform research tasks, make decisions, and interact with systems to achieve research objectives."
+      "count": 74,
+      "description": "Articles discussing AI agents that can perform research tasks autonomously, such as data collection, analysis, or hypothesis generation."
     },
     {
       "name": "AI coding assistants",
-      "count": 63,
-      "description": "Content focused on AI tools that assist developers in writing, debugging, and optimizing code."
-    },
-    {
-      "name": "AI research tools",
-      "count": 56,
-      "description": "Articles detailing specific AI-powered platforms and software designed to aid researchers in various stages of their work."
+      "count": 58,
+      "description": "Content focusing on AI tools that assist developers in writing, debugging, and testing code."
     },
     {
       "name": "AI summarization",
-      "count": 36,
-      "description": "Covers AI applications for condensing large amounts of text into concise summaries, useful for research papers, reports, and meetings."
+      "count": 56,
+      "description": "Focuses on AI's ability to condense large amounts of text, data, or research findings into concise summaries."
     },
     {
-      "name": "AI chatbot research",
+      "name": "AI research tools",
+      "count": 49,
+      "description": "Articles highlighting specific software and platforms designed to aid researchers in various aspects of their work."
+    },
+    {
+      "name": "AI for product management",
       "count": 35,
-      "description": "Focuses on studies and findings related to user interactions, behavior, and the impact of AI chatbots in various contexts."
+      "description": "Covers AI applications and tools specifically designed to assist product managers in their day-to-day tasks and strategic decisions."
     },
     {
-      "name": "AI design research",
-      "count": 31,
-      "description": "Articles exploring how AI is used in the design process, from generating design elements to prototyping and user interface creation."
-    },
-    {
-      "name": "AI survey tools",
-      "count": 30,
-      "description": "Covers AI applications for creating, distributing, and analyzing surveys, including optimizing questions and understanding responses."
-    },
-    {
-      "name": "AI-powered data analysis",
-      "count": 25,
-      "description": "Content related to AI techniques and tools used for analyzing datasets, identifying patterns, and deriving insights."
-    },
-    {
-      "name": "AI content generation",
-      "count": 24,
-      "description": "Discusses AI tools and techniques for creating written content, images, and other forms of media."
+      "name": "AI recruitment research",
+      "count": 33,
+      "description": "Articles discussing the impact of AI on recruitment processes, job markets, and the skills required for the future workforce."
     },
     {
       "name": "AI testing automation",
-      "count": 22,
-      "description": "Articles on using AI to automate software testing processes, including test case generation, execution, and analysis."
+      "count": 30,
+      "description": "Content related to AI-powered tools and strategies for automating software testing and quality assurance processes."
+    },
+    {
+      "name": "AI usability testing",
+      "count": 26,
+      "description": "Articles that explore how AI is being used to analyze user behavior, automate testing, and improve the usability of digital products."
+    },
+    {
+      "name": "AI chatbot research",
+      "count": 25,
+      "description": "Focuses on research and studies concerning the behavior, impact, and effectiveness of AI-powered chatbots in user interactions."
+    },
+    {
+      "name": "AI design research",
+      "count": 24,
+      "description": "Content related to the application of AI in the design process, from concept generation to prototyping and UI/UX creation."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
