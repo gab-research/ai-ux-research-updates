@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-04-26T16:55:31.686Z",
+  "lastUpdated": "2026-04-27T03:49:38.144Z",
   "updates": [
     {
       "date": "2026-04-26",
@@ -530,18 +530,6 @@
         "url": "https://www.parallelhq.com/blog/thematic-ai"
       },
       "analysis": "At Nubank, Thematic AI can be integrated into our existing research workflow, particularly after gathering qualitative data from sources like in-app feedback forms, surveys after PIX transfers, or transcripts from customer service interactions regarding loan applications. Researchers can feed these large text datasets into an NLP-powered thematic analysis tool, which will automatically surface recurring topics and sentiment. This complements our ongoing efforts to improve the onboarding experience or refine insurance product communication.\n\nTo apply this, researchers should use Thematic AI as a powerful initial screening mechanism. After the AI identifies core themes (e.g., \"confusion during card activation,\" \"issues with PIX recipient validation,\" \"difficulty understanding loan terms\"), the researcher's crucial role is to then dive deeper, triangulate these AI-identified themes with other data sources (quantitative metrics, user interviews), and provide the nuanced, contextual understanding that AI alone cannot. It's vital to remember that AI is a tool to augment, not replace, human critical thinking and empathy. We must establish guardrails, ensuring the AI model is trained on representative Nubank user data and that researchers critically evaluate the generated themes for accuracy and relevance before presenting them as actionable insights. Over-reliance without human validation could lead to misinterpretations of user needs."
-    },
-    {
-      "date": "2026-03-27",
-      "title": "GenUI vs. Vibe Coding: Who’s Designing?",
-      "summary": "With generative UI, the AI system decides to generate an interactive element or entire product in response to a user need. Vibe coding is when users request the AI to build it.",
-      "content": "This Nielsen Norman Group article distinguishes between two emerging AI applications in design: GenUI and Vibe Coding. GenUI empowers AI to proactively generate UI elements or full products based on inferred user needs, acting as an autonomous designer. Vibe Coding, conversely, positions the user as the director, where AI translates user-driven prompts into design outputs. For UX researchers, understanding this dichotomy is crucial as it reshapes the human-AI design partnership. It signifies a shift from AI as a tool for analysis to AI as a potential co-creator, impacting how we validate designs, ideate solutions, and even define the role of the designer.",
-      "category": "AI coding assistants",
-      "source": {
-        "name": "Nielsen Norman Group",
-        "url": "https://www.nngroup.com/articles/genui-vs-vibe/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication"
-      },
-      "analysis": "At Nubank, GenUI and Vibe Coding can be integrated into our research workflow to accelerate ideation and prototyping, particularly for features like optimizing PIX transaction flows or generating loan application variations. For instance, GenUI could proactively suggest personalized onboarding improvements by analyzing user drop-off points, while Vibe Coding might allow a researcher to quickly iterate on different card activation screen layouts by providing prompts like 'Design a clear and reassuring card activation screen for a new Nubank Ultravioleta card.' Researchers should experiment with these tools in early-stage concept validation, using them to rapidly explore a wider design space before committing to in-depth user testing.\n\nHowever, it's vital to establish clear guardrails. Researchers must treat AI-generated designs as hypotheses, not finished products. Rigorous user testing remains paramount to validate the usability, desirability, and accessibility of any GenUI or Vibe Coded output. Limitations include the AI's current understanding of nuanced brand voice, complex financial regulations, and the unique emotional context of user needs within specific Nubank products like insurance claims or dispute resolution. Therefore, human oversight and critical evaluation are indispensable to ensure ethical, effective, and on-brand solutions."
     }
   ]
 }
