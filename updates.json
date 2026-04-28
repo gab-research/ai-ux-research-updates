@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-04-28T10:23:32.076Z",
+  "lastUpdated": "2026-04-28T17:56:41.170Z",
   "updates": [
+    {
+      "date": "2026-04-28",
+      "title": "How to build UX using GPT-5.1 + shadcn/ui  –  Use UXPin Merge!",
+      "summary": "Create production-ready React components in UXPin using GPT-5.1 and shadcn/ui to reduce handoffs and sync design with code. The post How to build UX using GPT-5.1 + shadcn/ui – Use UXPin Merge! appeared first on Studio by UXPin.",
+      "content": "This UXPin blog post introduces a novel approach to bridging the gap between design and development by leveraging AI. It highlights the potential of integrating GPT-5.1 with a component library like shadcn/ui within a design tool like UXPin Merge to generate production-ready React components.  For UX researchers, this means a significant acceleration in prototyping and design iteration, allowing for more realistic and testable user flows.  The practical implication is a streamlined handoff process, reducing friction and ensuring designs accurately reflect implementable code, ultimately leading to faster product development and a more cohesive user experience.",
+      "category": "General AI in research",
+      "source": {
+        "name": "UXPin Blog",
+        "url": "https://www.uxpin.com/studio/blog/build-ux-gpt-5-1-shadcn-ui-uxpin-merge/"
+      },
+      "analysis": "At Nubank, this integration could significantly enhance our research workflows, particularly for validating complex UI components and interactions. Imagine rapidly prototyping a new feature for the PIX transfer flow, complete with interactive elements generated from GPT-5.1 and styled with shadcn/ui, directly within UXPin. Researchers could then test these high-fidelity prototypes with users, gathering feedback on usability and intuitiveness before significant engineering resources are committed. This is especially valuable for iterative improvements on existing features like card activation or loan application processes, allowing for quick hypothesis testing.\n\nTo apply this, researchers should focus on utilizing UXPin Merge to create interactive prototypes that closely mirror our production environment. When exploring new features or refining existing ones, such as insurance product discovery or onboarding flows, researchers can work with design systems components (potentially even internal Nubank component libraries if integrated) to build testable prototypes powered by AI-generated code snippets. However, it's crucial to maintain a critical eye. Researchers must validate that the AI-generated components adhere to Nubank's design principles, accessibility standards, and brand guidelines, and that the generated code is clean and maintainable for our engineering teams. This tool should augment, not replace, our understanding of technical constraints and user needs."
+    },
     {
       "date": "2026-04-27",
       "title": "The “Bug-Free” Workforce: How AI Efficiency Is Subtly Disrupting The Interactions That Build Strong Teams",
