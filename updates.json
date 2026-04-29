@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-04-29T03:51:43.549Z",
+  "lastUpdated": "2026-04-29T10:13:18.259Z",
   "updates": [
+    {
+      "date": "2026-04-29",
+      "title": "How to build UX using GPT-5.1 + Ant Design  –  Use UXPin Merge!",
+      "summary": "AI-generated layouts tied to production components eliminate handoff friction between design and development. The post How to build UX using GPT-5.1 + Ant Design – Use UXPin Merge! appeared first on Studio by UXPin.",
+      "content": "This article explores the integration of AI, specifically GPT-5.1, with design systems like Ant Design through the UXPin Merge platform.  The core idea is to leverage AI for generating design elements and layouts that are directly linked to production-ready code components.  For UX researchers, this is significant as it promises to streamline the design-to-development handoff, a common bottleneck.  Practically, this could allow researchers to rapidly prototype and iterate on user interfaces, receiving feedback on designs that are much closer to actual implementation, thus accelerating the product development cycle for features like our onboarding flow or loan application processes.",
+      "category": "AI content generation",
+      "source": {
+        "name": "UXPin Blog",
+        "url": "https://www.uxpin.com/studio/blog/build-ux-gpt-5-1-ant-design-uxpin-merge/"
+      },
+      "analysis": "At Nubank, this technology could be integrated into our early-stage ideation and prototyping phases, particularly when exploring new features for existing products like PIX transfers or insurance offerings. Researchers could use AI-powered tools, integrated with our internal design system (or a component library like Ant Design), to generate initial UI mockups based on user needs and business requirements. This allows for faster exploration of different design solutions before investing heavily in detailed UX design and development.\n\nWhen applying this, researchers should focus on using AI to generate *potential* design directions and validate them with users, rather than treating AI outputs as final. The generated components should be viewed as starting points that require our expert UX judgment and adherence to Nubank's brand guidelines and accessibility standards. It's crucial to remember that AI cannot replace deep user understanding or the nuanced decision-making involved in creating truly intuitive and inclusive experiences for products like card activation or customer support flows. We must maintain rigorous user testing and validation throughout the process to ensure the AI-assisted designs meet our high standards for user satisfaction and usability."
+    },
     {
       "date": "2026-04-28",
       "title": "How to build UX using GPT-5.1 + shadcn/ui  –  Use UXPin Merge!",
