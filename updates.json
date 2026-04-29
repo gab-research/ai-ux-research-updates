@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-04-29T10:13:18.259Z",
+  "lastUpdated": "2026-04-29T17:45:36.788Z",
   "updates": [
     {
       "date": "2026-04-29",
@@ -566,18 +566,6 @@
         "url": "https://feeds.baymard.com/link/9825/17310163/electronics-and-office-ux-benchmark-2026"
       },
       "analysis": "This Baymard benchmark is highly relevant for Nubank's UX research team, particularly when evaluating and improving existing product flows or developing new features. Researchers can use these findings to benchmark Nubank's own performance against leading practices in comparable digital product categories, even if not directly electronics or office-related. For instance, when designing or iterating on the PIX transfer flow, researchers can compare the clarity of confirmation screens or the efficiency of the payment process against best practices identified in similar transactional interfaces.\n\nTo apply this, researchers should proactively integrate the benchmark data into their ongoing research activities. This could involve using the performance scores as quantitative targets for A/B testing new designs for card activation or insurance policy applications. The best practice examples can serve as inspiration and a checklist for heuristic evaluations or design critiques. However, it's crucial to acknowledge that the \"Electronics & Office\" context may not perfectly map to all Nubank experiences; therefore, researchers must critically adapt the insights, focusing on the underlying UX principles rather than direct feature parity. For example, while a \"product comparison\" feature might be a benchmark in electronics, the core principle of presenting clear, comparable options can be applied to loan product offerings or investment fund choices."
-    },
-    {
-      "date": "2026-03-30",
-      "title": "UX Roundup: Apple 50 Years | AI UX Explained | Good AI Support | New Reasoning Image Model | AI Creativity | Suno 5.5",
-      "summary": "Apple Computer 50 years anniversary | The New UX for AI | Excellent AI support chat from Substack | New reasoning image model: Luma Uni-1 thinks through what to draw | AI is more creative than humans and will likely get even more creative in the future with more compute | Upgr...",
-      "content": "Apple Computer 50 years anniversary | The New UX for AI | Excellent AI support chat from Substack | New reasoning image model: Luma Uni-1 thinks through what to draw | AI is more creative than humans and will likely get even more creative in the future with more compute | Upgraded AI music model Suno 5.5",
-      "category": "Conversational AI in research",
-      "source": {
-        "name": "Jakob Nielsen (Substack)",
-        "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260330"
-      },
-      "analysis": "At Nubank, this Roundup provides a valuable prompt to explore how AI can augment our existing UX research processes, especially as we iterate on critical flows like PIX transactions, loan applications, or even the initial card activation and onboarding journeys. Instead of viewing AI solely as a feature for our users, we should consider it as a tool for our researchers. For instance, AI could help us rapidly synthesize qualitative feedback from user interviews about our insurance products, identify patterns in app usage data to proactively address potential issues before they become widespread, or even generate initial hypotheses for A/B testing new features in the Nubank app.\n\nResearchers should proactively experiment with AI tools for tasks like generating user personas based on existing data, drafting interview scripts, summarizing large volumes of user feedback, or even creating low-fidelity prototypes based on descriptive prompts.  However, we must establish clear guardrails. AI-generated insights should always be validated by human researchers and grounded in our deep understanding of the Brazilian market and Nubank's user base.  AI is a powerful assistant, not a replacement for critical thinking, empathy, or ethical considerations in understanding our customers' needs and ensuring a seamless, intuitive experience across all Nubank services."
     }
   ]
 }
