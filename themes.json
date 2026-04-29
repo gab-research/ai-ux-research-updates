@@ -1,31 +1,31 @@
 {
   "month": "2026-04",
-  "updated": "2026-04-28",
+  "updated": "2026-04-29",
   "themes": [
     {
       "name": "AI research tools",
-      "count": 100,
+      "count": 95,
       "description": "New AI tool launches, reviews, and platforms built for research workflows."
     },
     {
       "name": "Survey optimization",
-      "count": 83,
+      "count": 92,
       "description": "AI tools for designing better surveys, reducing bias, and analyzing responses."
     },
     {
       "name": "Conversational AI in research",
-      "count": 65,
+      "count": 68,
       "description": "Chatbots, virtual assistants, and voice AI in research contexts."
     },
     {
-      "name": "AI workforce impact",
-      "count": 61,
-      "description": "AI replacing roles, future of work, skills gap, reskilling, and organizational change."
+      "name": "AI coding assistants",
+      "count": 67,
+      "description": "Copilot, Claude Code, Cursor, and other AI tools for code generation and development."
     },
     {
-      "name": "AI coding assistants",
-      "count": 59,
-      "description": "Copilot, Claude Code, Cursor, and other AI tools for code generation and development."
+      "name": "AI workforce impact",
+      "count": 58,
+      "description": "AI replacing roles, future of work, skills gap, reskilling, and organizational change."
     },
     {
       "name": "AI-powered data analysis",
@@ -39,17 +39,17 @@
     },
     {
       "name": "AI tool evaluation",
-      "count": 19,
+      "count": 21,
       "description": "Comparing, benchmarking, and selecting AI tools and LLMs for specific use cases."
     },
     {
       "name": "AI ethics in research",
-      "count": 18,
+      "count": 20,
       "description": "Bias, fairness, responsible AI, privacy, and trust in research."
     },
     {
       "name": "AI content generation",
-      "count": 17,
+      "count": 15,
       "description": "AI writing, report generation, UX copy, and content creation."
     }
   ],
