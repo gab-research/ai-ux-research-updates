@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-04-29T17:45:36.788Z",
+  "lastUpdated": "2026-04-30T03:52:15.862Z",
   "updates": [
     {
       "date": "2026-04-29",
@@ -376,6 +376,18 @@
       "analysis": "At Nubank, this roundup signals a critical need to explore AI's potential for improving user agency and reducing error recovery within our core financial products. For instance, in the PIX transfer flow, AI could proactively guide users through potential errors, minimizing frustration and abandonment. Similarly, during card activation or onboarding for new customers, AI-powered conversational agents could offer immediate, context-aware support, significantly shortening the time users spend resolving issues and enhancing their confidence.  Our research team should actively investigate AI tools that can analyze user behavior patterns to predict and preemptively address potential pain points, thereby building stronger user trust and satisfaction across all our services, from insurance claims to loan applications."
     },
     {
+      "date": "2026-04-13",
+      "title": "MCP for user research: connect AI to your research data",
+      "summary": "Great Question now has a native MCP server. Connect Claude or Cursor to your research repository and ask questions across years of sessions and insights.",
+      "content": "This article introduces a significant advancement in user research tooling: the integration of Large Language Models (LLMs) like Claude and Cursor with research repositories. The core idea is to leverage AI to unlock deeper insights by enabling natural language querying of vast amounts of user session data and insights. For UX researchers, this is revolutionary as it democratizes data analysis, allowing them to quickly surface patterns, extract specific findings, and answer complex questions that would previously require extensive manual effort or specialized querying skills.  The practical implication is a substantial acceleration in the research cycle, leading to faster, more data-informed product decisions across platforms like our app.",
+      "category": "Survey optimization",
+      "source": {
+        "name": "Great Question Blog",
+        "url": "https://cms.greatquestion.co/blog/mcp-for-user-research"
+      },
+      "analysis": "At Nubank, this AI integration directly supports our mission to democratize financial services by providing even richer user understanding. Researchers can now connect our centralized research repository, housing data from studies on PIX usage, loan applications, card activation flows, and onboarding experiences, to an LLM. This allows them to ask questions like, 'What are the common pain points users encountered during the last six months of onboarding for new customers?' or 'Can you identify recurring themes in user feedback related to insurance claim submissions?' This capability will significantly speed up our discovery phases and validation efforts for new features.\n\nTo apply this at Nubank, researchers should first ensure their research data is consistently tagged and organized within our repository. Then, they can connect approved LLM tools through Great Question's MCP server. Key guardrails include maintaining data privacy and anonymization standards as per Nubank's policies; the AI should only access anonymized or pseudonymized data. Furthermore, researchers must critically evaluate the AI's output, cross-referencing findings with original source material to ensure accuracy and avoid relying solely on algorithmic interpretation, especially when informing critical decisions about sensitive flows like loan approvals or credit card management."
+    },
+    {
       "date": "2026-04-11",
       "title": "How to build UX using GPT-5.2 + MUI  –  Use UXPin Merge!",
       "summary": "Generate production-ready React UIs: use GPT-5.2 to create MUI components and prototype with UXPin Merge for synced design systems. The post How to build UX using GPT-5.2 + MUI – Use UXPin Merge! appeared first on Studio by UXPin.",
@@ -542,18 +554,6 @@
         "url": "https://www.parallelhq.com/blog/personalization-in-ux-using-ai"
       },
       "analysis": "At Nubank, the principles of adaptive UI and AI-driven personalization fit squarely within our ongoing efforts to create frictionless financial experiences. Our UX researchers can leverage this by focusing on how AI can enhance key flows such as onboarding, PIX transfers, or credit card activation. Imagine an AI that subtly adapts the information presented during a loan application based on inferred user financial literacy, or proactively offers relevant insurance options at the point of purchase after a large PIX transaction. This requires us to explore new research methods that can evaluate AI's inferential capabilities and the resulting user experience, potentially through A/B testing of AI-driven variations or qualitative studies observing user interactions with adaptive elements."
-    },
-    {
-      "date": "2026-03-31",
-      "title": "MCP for user research: connect AI to your research data",
-      "summary": "Great Question now has a native MCP server. Connect Claude or Cursor to your research repository and ask questions across years of sessions and insights.",
-      "content": "This article introduces a new capability from Great Question that allows UX researchers to integrate AI, specifically models like Claude or Cursor, directly with their existing research repositories.  The core innovation lies in enabling natural language queries across vast datasets of past user sessions and insights, moving beyond manual sifting or keyword searches. This is significant for UX researchers as it democratizes access to historical knowledge, allowing for quicker identification of trends, patterns, and forgotten user feedback. Practically, it means researchers can now rapidly answer complex questions about user behavior related to specific product features or entire customer journeys, accelerating insight generation and informing product decisions more effectively.",
-      "category": "Survey optimization",
-      "source": {
-        "name": "Great Question Blog",
-        "url": "https://cms.greatquestion.co/blog/mcp-for-user-research"
-      },
-      "analysis": "At Nubank, this AI integration can significantly augment our existing research practices. Researchers can leverage this 'MCP server' to query our extensive repository of user interviews, usability tests, and survey responses related to key Nubank flows like PIX transactions, loan applications, card activation, onboarding, or insurance product usage. For instance, a researcher could ask, 'What were the primary pain points users encountered during the PIX transfer process in 2022?' or 'Show me all feedback related to user confusion during our digital onboarding journey over the last two years.' This allows for rapid hypothesis testing and exploration of historical context without manual data extraction.\n\nTo apply this at Nubank, researchers should first familiarize themselves with the interface and experiment with basic queries. It's crucial to start with well-defined questions that build upon existing knowledge or address specific product development needs. For example, before designing a new feature for our digital insurance products, a researcher could use this to quickly surface all past user discussions about their insurance expectations. However, it's important to remember that AI-generated insights are a starting point, not an end-all. Researchers must still critically evaluate the AI's output, cross-reference it with primary research where necessary, and ensure responsible data handling and privacy considerations are maintained throughout the process."
     },
     {
       "date": "2026-03-31",
