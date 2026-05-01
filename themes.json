@@ -3,54 +3,54 @@
   "updated": "2026-05-01",
   "themes": [
     {
-      "name": "AI research tools comparison",
-      "count": 3,
-      "description": "Articles discussing and evaluating different AI tools for research purposes."
-    },
-    {
-      "name": "AI for design & research",
-      "count": 2,
-      "description": "Content focusing on AI applications directly assisting in the design and user research process."
+      "name": "AI coding assistants",
+      "count": 8,
+      "description": "Articles focusing on AI tools that help developers write, refactor, and audit code."
     },
     {
       "name": "Agentic AI in research",
-      "count": 2,
-      "description": "Explores the use of autonomous AI agents to perform research tasks independently."
+      "count": 7,
+      "description": "Content discussing autonomous AI agents performing research tasks, automating processes, and making decisions."
+    },
+    {
+      "name": "AI research tools comparison",
+      "count": 5,
+      "description": "Articles that compare and evaluate different AI-powered tools for research purposes."
+    },
+    {
+      "name": "AI for design & research",
+      "count": 4,
+      "description": "Discussions on how AI is applied to enhance user experience research and design processes."
     },
     {
       "name": "AI research platform",
-      "count": 1,
-      "description": "Focuses on platforms that leverage AI for research functionalities."
+      "count": 3,
+      "description": "Articles about platforms designed to facilitate and manage AI-driven research."
     },
     {
-      "name": "AI workforce impact",
+      "name": "AI survey tools",
+      "count": 2,
+      "description": "Content related to AI applications for optimizing and conducting user surveys."
+    },
+    {
+      "name": "AI chatbot research",
+      "count": 2,
+      "description": "Studies and discussions on the accuracy, behavior, and research applications of AI chatbots."
+    },
+    {
+      "name": "Generative AI design",
       "count": 1,
-      "description": "Articles examining how AI is changing the nature of work and professions."
+      "description": "Articles focusing on the use of generative AI for creating design assets and prototypes."
     },
     {
       "name": "AI product research",
       "count": 1,
-      "description": "Details on how AI is being utilized to conduct research for product development."
+      "description": "Content pertaining to the application of AI in the discovery and analysis phase of product development."
     },
     {
-      "name": "AI coding assistants",
+      "name": "AI session replay heatmap",
       "count": 1,
-      "description": "Content related to AI tools that help developers write, debug, or optimize code."
-    },
-    {
-      "name": "Synthetic users",
-      "count": 1,
-      "description": "Discusses the use of AI-generated user simulations for testing and research."
-    },
-    {
-      "name": "AI tool evaluation",
-      "count": 1,
-      "description": "Articles focused on assessing the capabilities and performance of specific AI tools."
-    },
-    {
-      "name": "AI content generation",
-      "count": 1,
-      "description": "Covers the use of AI to create various forms of content, including design assets."
+      "description": "Discussions on using AI to analyze session replay data and generate heatmaps for UX insights."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
