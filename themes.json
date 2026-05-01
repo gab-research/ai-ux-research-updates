@@ -1,56 +1,41 @@
 {
-  "month": "2026-04",
-  "updated": "2026-04-30",
+  "month": "2026-05",
+  "updated": "2026-05-01",
   "themes": [
     {
+      "name": "AI research tools comparison",
+      "count": 1,
+      "description": "Articles comparing different AI tools and their features for research purposes."
+    },
+    {
       "name": "Agentic AI in research",
-      "count": 139,
-      "description": "Articles discussing AI agents that can autonomously perform research tasks, make decisions, and evolve."
+      "count": 1,
+      "description": "Focuses on autonomous AI agents performing research or business process tasks."
     },
     {
-      "name": "AI coding assistants",
-      "count": 88,
-      "description": "Focuses on AI tools that help developers write, review, and debug code."
+      "name": "AI content generation",
+      "count": 1,
+      "description": "Explores the use of AI for creating visual content, such as image generation."
     },
     {
-      "name": "AI chatbot research",
-      "count": 70,
-      "description": "Covers research and user experiences related to AI chatbots, including their accuracy, bias, and impact on users."
+      "name": "Conversational AI in research",
+      "count": 1,
+      "description": "Discusses the usage and implications of large language models like ChatGPT in research contexts."
     },
     {
-      "name": "AI research tools",
-      "count": 62,
-      "description": "Articles detailing AI-powered platforms and tools designed to facilitate research processes across various domains."
+      "name": "AI for design & research",
+      "count": 1,
+      "description": "Covers AI models and their application for tasks relevant to design and research workflows."
     },
     {
-      "name": "AI design & prototyping",
-      "count": 57,
-      "description": "Explores AI applications in the design process, from generating prototypes to assisting with UI/UX design."
+      "name": "AI-powered data analysis",
+      "count": 1,
+      "description": "Investigates AI techniques for analyzing complex data, such as time-frequency representations for sound classification."
     },
     {
-      "name": "AI summarization",
-      "count": 30,
-      "description": "Focuses on AI's ability to condense large amounts of text or data into concise summaries."
-    },
-    {
-      "name": "AI tool evaluation",
-      "count": 27,
-      "description": "Articles comparing, reviewing, and assessing the effectiveness of different AI tools for specific tasks."
-    },
-    {
-      "name": "AI usability testing",
-      "count": 26,
-      "description": "Discusses how AI is used to enhance or automate aspects of usability testing and product evaluation."
-    },
-    {
-      "name": "AI recruitment research",
-      "count": 26,
-      "description": "Examines the impact of AI on recruitment processes, job markets, and the skills needed for future work."
-    },
-    {
-      "name": "Synthetic users",
-      "count": 26,
-      "description": "Covers the creation and use of artificial users or personas for testing and research purposes."
+      "name": "AI for product management",
+      "count": 1,
+      "description": "Details AI tools and their integration into product development and management processes."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
