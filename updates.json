@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-05-02T03:36:54.794Z",
+  "lastUpdated": "2026-05-02T09:15:12.196Z",
   "updates": [
+    {
+      "date": "2026-05-02",
+      "title": "How to build UX using GPT-5 Mini + MUI  –  Use UXPin Merge!",
+      "summary": "Generate production-ready MUI components with GPT-5 Mini and sync them into UXPin Merge for faster, consistent UX prototypes. The post How to build UX using GPT-5 Mini + MUI – Use UXPin Merge! appeared first on Studio by UXPin.",
+      "content": "This article introduces a workflow for leveraging GPT-5 Mini's generative capabilities with Material UI (MUI) to rapidly create production-ready design components. By integrating these AI-generated components into UXPin Merge, design teams can significantly accelerate the prototyping process, ensuring greater consistency and adherence to established design systems. For UX researchers, this development offers a powerful new tool for quickly iterating on user interfaces, generating realistic mockups that can be tested earlier and more frequently in the development lifecycle, ultimately leading to more data-driven design decisions.",
+      "category": "AI content generation",
+      "source": {
+        "name": "UXPin Blog",
+        "url": "https://www.uxpin.com/studio/blog/build-ux-gpt-5-mini-mui-uxpin-merge/"
+      },
+      "analysis": "At Nubank, this GPT-5 Mini + MUI + UXPin Merge workflow could be integrated into our early-stage ideation and prototyping phases. For instance, when exploring new features for our PIX payment flow or designing an improved loan application interface, researchers could use GPT-5 Mini to generate initial component variations based on natural language prompts describing desired functionality and aesthetics. These components would then be synced to UXPin Merge, allowing for rapid assembly of interactive prototypes that closely resemble our live product, facilitating user testing for features like card activation or onboarding.\n\nResearchers should apply this by using it as a rapid prototyping accelerator. Instead of manually crafting every button, input field, or card for a new feature exploration, they can prompt GPT-5 Mini for MUI-compliant components and immediately see them in a high-fidelity prototype. This allows for faster hypothesis testing and gathering qualitative feedback on user flows before significant engineering investment. However, it's crucial to remember that this is a tool for acceleration, not a replacement for human-centered design. Researchers must still rigorously validate AI-generated designs with real users, and ensure that generated components align with our existing design language and accessibility standards. Over-reliance without user validation could lead to subtle usability issues or inconsistencies that are difficult to catch in automated generation."
+    },
     {
       "date": "2026-05-01",
       "title": "How to build UX using GPT-5.1 + Custom Design Systems  –  Use UXPin Merge!",
@@ -139,13 +151,13 @@
       "date": "2026-04-27",
       "title": "Best user research tools in 2026: 10 platforms compared",
       "summary": "Side-by-side comparison of 10 user research tools covering recruitment, methods, repository, and AI. Updated for 2026 with real feature breakdowns.",
-      "content": "Side-by-side comparison of 10 user research tools covering recruitment, methods, repository, and AI. Updated for 2026 with real feature breakdowns.",
+      "content": "This article from Great Question Blog provides a forward-looking comparison of the top ten user research tools anticipated for 2026. It delves into how these platforms integrate AI across core research functions like participant recruitment, diverse methodological support, and knowledge repository management. For UX researchers at Nubank, understanding these advancements is crucial for maintaining a competitive edge, enabling them to leverage AI for more efficient, insightful, and scalable research operations. The practical implications include faster access to participants, more sophisticated data analysis, and a consolidated understanding of user behavior across our product suite, from PIX transactions to loan applications.",
       "category": "AI tool evaluation",
       "source": {
         "name": "Great Question Blog",
         "url": "https://cms.greatquestion.co/blog/best-user-research-tools-in-2026-10-platforms-compared"
       },
-      "analysis": "At Nubank, this article's insights directly inform our continuous effort to optimize our research processes, especially in areas like rapid iteration for new features such as PIX instant payments or loan application flows. Researchers can leverage AI-enhanced tools to identify patterns in qualitative feedback from our app's feedback channels more efficiently, potentially speeding up the discovery phase for improvements to card activation processes or onboarding experiences.\n\nWhen applying these tools, researchers should focus on how AI can augment, not replace, human intuition. For instance, AI might flag common pain points in insurance policy explanations, but human judgment is still needed to understand the nuance and propose solutions. We must establish clear guidelines for data privacy and bias detection within AI tools, ensuring they align with Nubank's ethical standards. The goal is to integrate these advanced capabilities strategically to enhance our understanding of customer needs across all our product lines, from credit cards to investment accounts."
+      "analysis": "This \"Best User Research Tools in 2026\" article directly supports Nubank's ongoing efforts to optimize our research processes, particularly as AI integration becomes more prevalent. Researchers should actively explore the featured tools to identify those that can enhance our existing workflows. For instance, AI-powered recruitment features could expedite finding participants for studies on new product features like insurance claims processing or the card activation flow. Furthermore, AI's role in analyzing qualitative data could help us quickly synthesize feedback from large cohorts interacting with our digital onboarding experience.\n\nWhen evaluating these tools, it's essential to consider their integration with our current Nubank infrastructure and data privacy policies. Researchers should prioritize platforms that offer robust data security and transparency in their AI algorithms, especially when dealing with sensitive user information related to financial products like loans. We must also ensure that any AI-driven insights are critically reviewed and triangulated with other research methods to avoid bias. The goal is to augment, not replace, human judgment in understanding user needs and pain points across all Nubank services."
     },
     {
       "date": "2026-04-26",

@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 17,
-      "description": "Articles discussing AI agents capable of performing tasks autonomously, with a focus on their application in research and development workflows."
+      "count": 12,
+      "description": "Focuses on AI agents performing autonomous tasks in research, design, and product workflows, including automation and advanced decision-making."
     },
     {
       "name": "AI coding assistants",
       "count": 11,
-      "description": "Content related to AI tools that help developers write, refactor, and debug code, enhancing productivity and code quality."
+      "description": "Covers AI tools that assist developers in writing, debugging, and refactoring code, improving developer productivity."
+    },
+    {
+      "name": "AI research tools",
+      "count": 10,
+      "description": "Encompasses a broad category of AI applications used to enhance or automate various aspects of user research and analysis."
     },
     {
       "name": "AI for product management",
       "count": 7,
-      "description": "Applications of AI specifically targeting product research, development, and management processes, including workflow automation and new product insights."
-    },
-    {
-      "name": "AI research tools",
-      "count": 7,
-      "description": "Articles covering various AI-powered tools and platforms designed to assist with different aspects of research, from data analysis to information seeking."
-    },
-    {
-      "name": "AI for design & research",
-      "count": 6,
-      "description": "Discussions on how AI is being integrated into the design and research process, including generative design and new research methodologies."
-    },
-    {
-      "name": "AI testing automation",
-      "count": 4,
-      "description": "Focuses on the use of AI to automate and improve the efficiency and effectiveness of testing processes in software development."
-    },
-    {
-      "name": "Synthetic users",
-      "count": 2,
-      "description": "Articles exploring the creation and use of artificial users for testing and research purposes, particularly in the context of AI development."
-    },
-    {
-      "name": "AI tool evaluation",
-      "count": 2,
-      "description": "Content that discusses how IT teams and researchers are evaluating and choosing AI tools for their specific needs and projects."
-    },
-    {
-      "name": "AI ethics in research",
-      "count": 2,
-      "description": "Explores the ethical considerations and challenges associated with implementing AI in research, including issues of bias, trust, and security."
+      "description": "Details how AI is applied to product development, roadmapping, and understanding user needs for better product outcomes."
     },
     {
       "name": "AI-powered data analysis",
-      "count": 2,
-      "description": "Covers the application of AI techniques for analyzing large datasets, uncovering insights, and automating data processing tasks."
+      "count": 7,
+      "description": "Highlights AI's role in analyzing large datasets, extracting insights, and identifying patterns for research and business intelligence."
+    },
+    {
+      "name": "AI tool evaluation",
+      "count": 6,
+      "description": "Discusses the methods, challenges, and criteria for assessing the effectiveness and suitability of various AI tools."
+    },
+    {
+      "name": "AI ethics in research",
+      "count": 6,
+      "description": "Addresses the ethical considerations, biases, and responsible implementation of AI in UX and user research contexts."
+    },
+    {
+      "name": "Conversational AI in research",
+      "count": 5,
+      "description": "Focuses on AI chatbots and language models used for user interaction, feedback collection, and as research assistants."
+    },
+    {
+      "name": "AI workforce impact",
+      "count": 5,
+      "description": "Explores how AI is changing job roles, skill requirements, and the overall impact on the workforce, particularly in tech and research."
+    },
+    {
+      "name": "AI for design & research",
+      "count": 5,
+      "description": "Covers AI applications directly supporting UX/UI design processes and user research methodologies."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
