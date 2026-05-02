@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-05-02T09:15:12.196Z",
+  "lastUpdated": "2026-05-02T16:59:38.611Z",
   "updates": [
     {
       "date": "2026-05-02",
@@ -578,18 +578,6 @@
         "url": "https://www.nngroup.com/articles/ai-survey-writing/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication"
       },
       "analysis": "At Nubank, AI-powered survey drafting tools can be integrated into our existing research workflow, particularly during the initial phases of qualitative and quantitative study design. Researchers can leverage AI to quickly generate multiple question variations for surveys related to customer satisfaction with our credit card activation process, or user perceptions of our personal loan application flow.  The key is to treat these AI outputs as raw material.  After generating a draft, a UX researcher must meticulously review each question for clarity, bias, and relevance to the specific research objectives, ensuring it aligns with the Nubank brand voice and adheres to best practices in survey methodology.\n\nIt's crucial to establish clear guardrails. Researchers should not solely rely on AI-generated questions, especially for sensitive topics or when designing complex user journeys like onboarding for new digital accounts.  The AI's understanding of subtle cultural nuances relevant to the Brazilian market, or the specific emotional drivers behind decisions regarding insurance products, might be limited. Therefore, human expertise remains indispensable for refining questions to avoid leading language, ensure appropriate response scales, and ultimately, guarantee the integrity and actionability of the data collected for features like PIX.  Always prioritize a human-in-the-loop approach for quality assurance."
-    },
-    {
-      "date": "2026-04-02",
-      "title": "Building Banani: How a Canvas-First AI Designer Is Raising the Floor on Product Design",
-      "summary": "Listen to this episode on: Spotify | Apple Podcasts What if the future of product design isn't about replacing designers — it's about giving every team access to one? For solo founders, stretched design teams, and early-stage startups, great UX has always been out of reach. Ba...",
-      "content": "Listen to this episode on: Spotify | Apple Podcasts What if the future of product design isn't about replacing designers — it's about giving every team access to one? For solo founders, stretched design teams, and early-stage startups, great UX has always been out of reach. Banani",
-      "category": "AI workforce impact",
-      "source": {
-        "name": "Teresa Torres (Product Talk)",
-        "url": "https://www.producttalk.org/building-banani-how-a-canvas-first-ai-designer-is-raising-the-floor-on-product-design/"
-      },
-      "analysis": "At Nubank, Banani could be integrated into our early-stage ideation and prototyping phases. Researchers could leverage it to quickly generate multiple visual concepts for new features or improvements across products like PIX transactions, loan application flows, or card activation experiences. Instead of solely relying on dedicated design sprints for initial mockups, researchers could use Banani to explore a broader range of visual directions, accelerating the process of identifying promising directions before handing them off to senior designers for refinement and user testing. This would allow us to gather user feedback on a wider array of design possibilities earlier in the product development lifecycle.\n\nResearchers should view Banani as a powerful co-pilot, not a replacement for their core skills. The AI can generate visual outputs, but the critical understanding of user needs, pain points, and behaviors still resides with the UX researcher. It's crucial to maintain a critical eye, ensuring that AI-generated designs align with Nubank's established design principles, accessibility standards, and the unique context of our Brazilian users.  We must also be mindful of potential biases in AI models and actively mitigate them, especially when designing for sensitive areas like insurance or onboarding processes where trust and clarity are paramount.  The ultimate goal is to use Banani to amplify research efforts and enable more efficient exploration, leading to better-informed design decisions."
     }
   ]
 }

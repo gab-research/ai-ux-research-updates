@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 12,
-      "description": "Focuses on AI agents performing autonomous tasks in research, design, and product workflows, including automation and advanced decision-making."
+      "count": 17,
+      "description": "Focuses on AI agents that can autonomously perform research tasks, automate workflows, and assist in complex decision-making processes."
     },
     {
       "name": "AI coding assistants",
-      "count": 11,
-      "description": "Covers AI tools that assist developers in writing, debugging, and refactoring code, improving developer productivity."
+      "count": 12,
+      "description": "Covers AI tools that aid developers in writing, understanding, and optimizing code, including code generation and analysis."
     },
     {
       "name": "AI research tools",
-      "count": 10,
-      "description": "Encompasses a broad category of AI applications used to enhance or automate various aspects of user research and analysis."
+      "count": 9,
+      "description": "Encompasses a broad range of AI-powered tools designed to enhance and automate various aspects of the research process, from data collection to insight generation."
     },
     {
       "name": "AI for product management",
-      "count": 7,
-      "description": "Details how AI is applied to product development, roadmapping, and understanding user needs for better product outcomes."
-    },
-    {
-      "name": "AI-powered data analysis",
-      "count": 7,
-      "description": "Highlights AI's role in analyzing large datasets, extracting insights, and identifying patterns for research and business intelligence."
-    },
-    {
-      "name": "AI tool evaluation",
-      "count": 6,
-      "description": "Discusses the methods, challenges, and criteria for assessing the effectiveness and suitability of various AI tools."
-    },
-    {
-      "name": "AI ethics in research",
-      "count": 6,
-      "description": "Addresses the ethical considerations, biases, and responsible implementation of AI in UX and user research contexts."
-    },
-    {
-      "name": "Conversational AI in research",
       "count": 5,
-      "description": "Focuses on AI chatbots and language models used for user interaction, feedback collection, and as research assistants."
+      "description": "Explores how AI is applied to product development, roadmapping, feature prioritization, and understanding user needs within the product lifecycle."
     },
     {
-      "name": "AI workforce impact",
-      "count": 5,
-      "description": "Explores how AI is changing job roles, skill requirements, and the overall impact on the workforce, particularly in tech and research."
+      "name": "Synthetic users",
+      "count": 4,
+      "description": "Investigates the creation and use of AI-generated personas or data that mimic real users for testing and research purposes."
+    },
+    {
+      "name": "AI summarization",
+      "count": 4,
+      "description": "Details the application of AI to condense large amounts of text, research findings, or user feedback into concise summaries."
     },
     {
       "name": "AI for design & research",
-      "count": 5,
-      "description": "Covers AI applications directly supporting UX/UI design processes and user research methodologies."
+      "count": 4,
+      "description": "Focuses on AI's role in augmenting the creative and analytical processes within user experience design and research."
+    },
+    {
+      "name": "AI usability testing",
+      "count": 3,
+      "description": "Examines AI's contribution to automating, enhancing, and analyzing usability testing processes and feedback."
+    },
+    {
+      "name": "AI tool evaluation",
+      "count": 3,
+      "description": "Discusses the methods and considerations for assessing the effectiveness, reliability, and suitability of various AI tools."
+    },
+    {
+      "name": "AI workforce impact",
+      "count": 3,
+      "description": "Addresses the ways AI is changing job roles, skill requirements, and the overall structure of the workforce."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
