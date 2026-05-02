@@ -1,56 +1,56 @@
 {
   "month": "2026-05",
-  "updated": "2026-05-01",
+  "updated": "2026-05-02",
   "themes": [
     {
-      "name": "AI coding assistants",
-      "count": 8,
-      "description": "Articles focusing on AI tools that help developers write, refactor, and audit code."
-    },
-    {
       "name": "Agentic AI in research",
-      "count": 7,
-      "description": "Content discussing autonomous AI agents performing research tasks, automating processes, and making decisions."
+      "count": 17,
+      "description": "Articles discussing AI agents capable of performing tasks autonomously, with a focus on their application in research and development workflows."
     },
     {
-      "name": "AI research tools comparison",
-      "count": 5,
-      "description": "Articles that compare and evaluate different AI-powered tools for research purposes."
+      "name": "AI coding assistants",
+      "count": 11,
+      "description": "Content related to AI tools that help developers write, refactor, and debug code, enhancing productivity and code quality."
+    },
+    {
+      "name": "AI for product management",
+      "count": 7,
+      "description": "Applications of AI specifically targeting product research, development, and management processes, including workflow automation and new product insights."
+    },
+    {
+      "name": "AI research tools",
+      "count": 7,
+      "description": "Articles covering various AI-powered tools and platforms designed to assist with different aspects of research, from data analysis to information seeking."
     },
     {
       "name": "AI for design & research",
+      "count": 6,
+      "description": "Discussions on how AI is being integrated into the design and research process, including generative design and new research methodologies."
+    },
+    {
+      "name": "AI testing automation",
       "count": 4,
-      "description": "Discussions on how AI is applied to enhance user experience research and design processes."
+      "description": "Focuses on the use of AI to automate and improve the efficiency and effectiveness of testing processes in software development."
     },
     {
-      "name": "AI research platform",
-      "count": 3,
-      "description": "Articles about platforms designed to facilitate and manage AI-driven research."
-    },
-    {
-      "name": "AI survey tools",
+      "name": "Synthetic users",
       "count": 2,
-      "description": "Content related to AI applications for optimizing and conducting user surveys."
+      "description": "Articles exploring the creation and use of artificial users for testing and research purposes, particularly in the context of AI development."
     },
     {
-      "name": "AI chatbot research",
+      "name": "AI tool evaluation",
       "count": 2,
-      "description": "Studies and discussions on the accuracy, behavior, and research applications of AI chatbots."
+      "description": "Content that discusses how IT teams and researchers are evaluating and choosing AI tools for their specific needs and projects."
     },
     {
-      "name": "Generative AI design",
-      "count": 1,
-      "description": "Articles focusing on the use of generative AI for creating design assets and prototypes."
+      "name": "AI ethics in research",
+      "count": 2,
+      "description": "Explores the ethical considerations and challenges associated with implementing AI in research, including issues of bias, trust, and security."
     },
     {
-      "name": "AI product research",
-      "count": 1,
-      "description": "Content pertaining to the application of AI in the discovery and analysis phase of product development."
-    },
-    {
-      "name": "AI session replay heatmap",
-      "count": 1,
-      "description": "Discussions on using AI to analyze session replay data and generate heatmaps for UX insights."
+      "name": "AI-powered data analysis",
+      "count": 2,
+      "description": "Covers the application of AI techniques for analyzing large datasets, uncovering insights, and automating data processing tasks."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
