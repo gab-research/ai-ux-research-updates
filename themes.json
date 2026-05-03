@@ -3,54 +3,54 @@
   "updated": "2026-05-03",
   "themes": [
     {
-      "name": "Agentic AI applications",
-      "count": 18,
-      "description": "Articles discussing AI agents that can autonomously perform tasks, manage processes, and interact with systems, often highlighting their impact on business operations and software development."
+      "name": "Agentic AI in research",
+      "count": 17,
+      "description": "Articles discussing AI agents that can independently perform research tasks, explore data, and make decisions."
     },
     {
       "name": "AI coding assistants",
-      "count": 15,
-      "description": "Content focusing on AI tools that assist developers in writing, debugging, and optimizing code, including discussions on their effectiveness, security, and integration into workflows."
+      "count": 12,
+      "description": "Content focused on AI tools that help developers write, debug, and optimize code."
     },
     {
-      "name": "AI for design and research",
-      "count": 10,
-      "description": "Articles exploring how AI can be integrated into the design process and user research activities, from generating design elements to informing research strategies."
-    },
-    {
-      "name": "AI research tools comparison",
-      "count": 3,
-      "description": "Articles that compare, evaluate, or provide insights into various AI tools specifically designed for research purposes, including their features and performance."
-    },
-    {
-      "name": "AI in media generation",
-      "count": 3,
-      "description": "Content related to AI's role in creating synthetic media, such as fake photos, AI actors, and AI-written scripts, and the implications for industries and value perception."
-    },
-    {
-      "name": "AI for user experience",
-      "count": 2,
-      "description": "Articles that examine how AI can be applied to enhance user experience, from improving dating apps to addressing usability and accessibility in human-AI interactions."
-    },
-    {
-      "name": "AI chatbot accuracy",
-      "count": 2,
-      "description": "Discussions on the accuracy and potential negative impacts of AI chatbots, including their tendency to make errors or influence user behavior negatively."
-    },
-    {
-      "name": "AI testing automation",
-      "count": 2,
-      "description": "Articles related to the application of AI in automating testing processes, particularly for software and AI systems themselves."
+      "name": "AI for design & research",
+      "count": 9,
+      "description": "Articles exploring how AI can be used to assist in the design process and user research activities."
     },
     {
       "name": "AI workforce impact",
-      "count": 2,
-      "description": "Content that addresses the effects of AI on employment, job security, and the skills required in the workforce, including concerns and potential shifts."
+      "count": 9,
+      "description": "Discussions on how AI is affecting jobs, employment, and the nature of work."
     },
     {
-      "name": "AI-generated content security",
-      "count": 2,
-      "description": "Discussions surrounding security risks associated with AI-generated content, including attacks like slopsquatting and the bypass of safety filters through identity-framing."
+      "name": "AI research platforms",
+      "count": 7,
+      "description": "Articles about platforms and tools designed to facilitate and enhance AI-driven research processes."
+    },
+    {
+      "name": "AI summarization",
+      "count": 5,
+      "description": "Content related to AI's ability to condense large amounts of text or data into concise summaries."
+    },
+    {
+      "name": "AI research tools",
+      "count": 5,
+      "description": "Articles detailing specific AI-powered tools used for conducting research, analysis, or data gathering."
+    },
+    {
+      "name": "AI ethics in research",
+      "count": 5,
+      "description": "Discussions on the ethical considerations, risks, and responsible use of AI in research contexts."
+    },
+    {
+      "name": "Synthetic users",
+      "count": 3,
+      "description": "Articles that explore the creation and use of artificial or simulated users for testing and research."
+    },
+    {
+      "name": "AI customer insights",
+      "count": 3,
+      "description": "Content focused on how AI can be used to extract and understand customer preferences and behaviors."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
