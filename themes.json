@@ -1,56 +1,56 @@
 {
   "month": "2026-05",
-  "updated": "2026-05-02",
+  "updated": "2026-05-03",
   "themes": [
     {
-      "name": "Agentic AI in research",
-      "count": 17,
-      "description": "Focuses on AI agents that can autonomously perform research tasks, automate workflows, and assist in complex decision-making processes."
+      "name": "Agentic AI applications",
+      "count": 18,
+      "description": "Articles discussing AI agents that can autonomously perform tasks, manage processes, and interact with systems, often highlighting their impact on business operations and software development."
     },
     {
       "name": "AI coding assistants",
-      "count": 12,
-      "description": "Covers AI tools that aid developers in writing, understanding, and optimizing code, including code generation and analysis."
+      "count": 15,
+      "description": "Content focusing on AI tools that assist developers in writing, debugging, and optimizing code, including discussions on their effectiveness, security, and integration into workflows."
     },
     {
-      "name": "AI research tools",
-      "count": 9,
-      "description": "Encompasses a broad range of AI-powered tools designed to enhance and automate various aspects of the research process, from data collection to insight generation."
+      "name": "AI for design and research",
+      "count": 10,
+      "description": "Articles exploring how AI can be integrated into the design process and user research activities, from generating design elements to informing research strategies."
     },
     {
-      "name": "AI for product management",
-      "count": 5,
-      "description": "Explores how AI is applied to product development, roadmapping, feature prioritization, and understanding user needs within the product lifecycle."
-    },
-    {
-      "name": "Synthetic users",
-      "count": 4,
-      "description": "Investigates the creation and use of AI-generated personas or data that mimic real users for testing and research purposes."
-    },
-    {
-      "name": "AI summarization",
-      "count": 4,
-      "description": "Details the application of AI to condense large amounts of text, research findings, or user feedback into concise summaries."
-    },
-    {
-      "name": "AI for design & research",
-      "count": 4,
-      "description": "Focuses on AI's role in augmenting the creative and analytical processes within user experience design and research."
-    },
-    {
-      "name": "AI usability testing",
+      "name": "AI research tools comparison",
       "count": 3,
-      "description": "Examines AI's contribution to automating, enhancing, and analyzing usability testing processes and feedback."
+      "description": "Articles that compare, evaluate, or provide insights into various AI tools specifically designed for research purposes, including their features and performance."
     },
     {
-      "name": "AI tool evaluation",
+      "name": "AI in media generation",
       "count": 3,
-      "description": "Discusses the methods and considerations for assessing the effectiveness, reliability, and suitability of various AI tools."
+      "description": "Content related to AI's role in creating synthetic media, such as fake photos, AI actors, and AI-written scripts, and the implications for industries and value perception."
+    },
+    {
+      "name": "AI for user experience",
+      "count": 2,
+      "description": "Articles that examine how AI can be applied to enhance user experience, from improving dating apps to addressing usability and accessibility in human-AI interactions."
+    },
+    {
+      "name": "AI chatbot accuracy",
+      "count": 2,
+      "description": "Discussions on the accuracy and potential negative impacts of AI chatbots, including their tendency to make errors or influence user behavior negatively."
+    },
+    {
+      "name": "AI testing automation",
+      "count": 2,
+      "description": "Articles related to the application of AI in automating testing processes, particularly for software and AI systems themselves."
     },
     {
       "name": "AI workforce impact",
-      "count": 3,
-      "description": "Addresses the ways AI is changing job roles, skill requirements, and the overall structure of the workforce."
+      "count": 2,
+      "description": "Content that addresses the effects of AI on employment, job security, and the skills required in the workforce, including concerns and potential shifts."
+    },
+    {
+      "name": "AI-generated content security",
+      "count": 2,
+      "description": "Discussions surrounding security risks associated with AI-generated content, including attacks like slopsquatting and the bypass of safety filters through identity-framing."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
