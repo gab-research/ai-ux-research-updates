@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-05-03T09:27:01.586Z",
+  "lastUpdated": "2026-05-03T17:01:20.322Z",
   "updates": [
     {
       "date": "2026-05-03",
@@ -578,18 +578,6 @@
         "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260406"
       },
       "analysis": "At Nubank, the increasing AI focus outlined by Nielsen can be directly integrated into our research workflow. For instance, when exploring the usability of new features within the Nubank app, such as simplifying the PIX transfer process or improving the clarity of loan information, we should proactively test AI-assisted components. This includes evaluating the intuitiveness of AI-generated chatbot responses for customer support or assessing the effectiveness of AI-powered personalized recommendations for insurance products. Researchers should also consider how these advancements can augment our existing research methodologies, perhaps by using AI to rapidly synthesize user feedback or even generate initial personas based on aggregated user data before human refinement.\n\nWhen applying these AI advancements at Nubank, it's essential to establish clear guardrails. For AI that interacts directly with users, like during onboarding or card activation flows, rigorous A/B testing and user feedback loops are paramount to ensure it aligns with Nubank's human-centered design principles and maintains our brand's trust. We must also be mindful of data privacy and security, ensuring that any AI tools used adhere to strict Nubank policies.  For generative AI, such as Grok's image capabilities, we can explore its use in rapid prototyping for visual assets or mood boards, but always with human oversight to maintain brand consistency and avoid generating misleading or inappropriate content. The reported increase in AI use among employees also suggests we should investigate how internal teams are leveraging AI for efficiency, potentially identifying best practices that could be shared across research operations."
-    },
-    {
-      "date": "2026-04-03",
-      "title": "AI Can Help with Survey Writing, But It Still Requires Human Expertise",
-      "summary": "AI can produce polished survey drafts quickly, but experienced human review is still needed to catch subtle survey-design flaws that weaken data quality.",
-      "content": "The Nielsen Norman Group article highlights the dual nature of AI in survey writing: it's a powerful tool for generating initial drafts rapidly, but it cannot replace the nuanced judgment of experienced UX researchers.  AI excels at producing grammatically sound and seemingly coherent questions, but it may miss subtle biases, leading questions, or a lack of clarity that could significantly skew user responses. For UX researchers at Nubank, this means AI can accelerate the early stages of survey creation for features like PIX transaction feedback or loan application satisfaction, freeing up valuable time for human expertise to ensure data quality and actionable insights, especially when researching sensitive flows like card activation or insurance claims.",
-      "category": "Survey optimization",
-      "source": {
-        "name": "Nielsen Norman Group",
-        "url": "https://www.nngroup.com/articles/ai-survey-writing/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication"
-      },
-      "analysis": "At Nubank, AI-assisted survey writing can be integrated into the initial ideation phase of research projects, particularly for routine satisfaction surveys or gathering feedback on established features like loan status updates or onboarding flows. Researchers can leverage AI tools to generate multiple question variations for a given research objective, which can then be critically reviewed and refined. This approach allows us to quickly explore different ways to ask about user experiences, for example, by generating draft questions for understanding pain points in the credit card activation process or for gauging sentiment around new PIX functionalities.\n\nWhen applying this, researchers must treat AI-generated content as a starting point, not a final product. A rigorous human review process is paramount. This involves checking for clarity, avoiding jargon (especially relevant for our diverse user base), ensuring neutrality, and verifying that questions directly address the research goals. For instance, when researching potential improvements to our digital insurance product, AI might suggest generic questions, but a human researcher would ensure they probe specific usability issues within the policy management or claims submission flows, adding context relevant to the Nubank experience. Key guardrails include the understanding that AI cannot grasp the full context of a Nubank user's financial journey, nor can it anticipate the subtle emotional nuances that might affect responses in sensitive areas like debt management or fraud reporting."
     }
   ]
 }
