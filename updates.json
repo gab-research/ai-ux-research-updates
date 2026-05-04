@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-05-04T10:21:33.422Z",
+  "lastUpdated": "2026-05-04T17:48:19.725Z",
   "updates": [
     {
       "date": "2026-05-04",
@@ -26,6 +26,42 @@
         "url": "https://www.uxpin.com/studio/blog/build-ux-gpt-5-mini-ant-design-uxpin-merge/"
       },
       "analysis": "At Nubank, this approach could be integrated into our rapid prototyping and concept validation phases. For instance, when exploring new features for our PIX experience or refining the onboarding flow for a new loan product, UX researchers could leverage GPT-5 Mini to generate initial UI component suggestions based on user problem statements or design principles. These suggestions could then be directly translated into interactive prototypes using Ant Design components within UXPin Merge, allowing for faster user testing of key flows like card activation or insurance purchase.\n\nResearchers should apply this by focusing on using the AI-generated components as a strong starting point, rather than a final solution. The primary value lies in accelerated iteration and exploration. It's crucial to remember that AI-generated designs still require rigorous qualitative and quantitative validation. We must ensure that these rapid prototypes are aligned with Nubank's brand, accessibility standards, and the core needs of our diverse customer base. Limitations include the AI's potential for generic outputs, requiring expert researcher oversight to ensure innovation and user-centricity, and the need for developers familiar with Ant Design and React to seamlessly integrate the final output."
+    },
+    {
+      "date": "2026-05-04",
+      "title": "How to Make a Web App from Scratch: A Step-by-Step Guide (2026)",
+      "summary": "Learn how to build a web app from scratch in 2026. This step-by-step guide covers research, planning, UI design, front-end and back-end development, testing, deployment, and AI-assisted workflows. The post How to Make a Web App from Scratch: A Step-by-Step Guide (2026) appeare...",
+      "content": "Learn how to build a web app from scratch in 2026. This step-by-step guide covers research, planning, UI design, front-end and back-end development, testing, deployment, and AI-assisted workflows. The post How to Make a Web App from Scratch: A Step-by-Step Guide (2026) appeared first on Studio by UXPin.",
+      "category": "AI research tools",
+      "source": {
+        "name": "UXPin Blog",
+        "url": "https://www.uxpin.com/studio/blog/how-to-make-a-web-app/"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-05-04",
+      "title": "Google Gemini UX Overhaul: Lessons for AI Interface Design in 2026",
+      "summary": "Google's Gemini AI platform received a major UX redesign including a native macOS app and developer tools. Here's what the overhaul means for AI interface design and how to apply these lessons to your own products. The post Google Gemini UX Overhaul: Lessons for AI Interface D...",
+      "content": "Google's Gemini AI platform received a major UX redesign including a native macOS app and developer tools. Here's what the overhaul means for AI interface design and how to apply these lessons to your own products. The post Google Gemini UX Overhaul: Lessons for AI Interface Design in 2026 appeared first on Studio by UXPin.",
+      "category": "Survey optimization",
+      "source": {
+        "name": "UXPin Blog",
+        "url": "https://www.uxpin.com/studio/blog/google-gemini-ai-ux-overhaul-macos-app/"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-05-04",
+      "title": "UX Roundup: User Research Game | AI Photo Recommendations | AI Helps TA | Teaching Metacognition | AI Shorts | 100 TW Compute | Happy Horse",
+      "summary": "User researchers as role-playing game classes | AI posture recommendation feature in Huawei Pura 90 phones | AI helps teaching assistants provide better feedback to students | AI as a metacognitive coach | Recommending an entertaining short AI film | SpaceX’s plan for 100 TW o...",
+      "content": "User researchers as role-playing game classes | AI posture recommendation feature in Huawei Pura 90 phones | AI helps teaching assistants provide better feedback to students | AI as a metacognitive coach | Recommending an entertaining short AI film | SpaceX’s plan for 100 TW orbital compute | New Chinese video model Happy Horse from Alibaba",
+      "category": "Sentiment & feedback analysis",
+      "source": {
+        "name": "Jakob Nielsen (Substack)",
+        "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260504"
+      },
+      "analysis": ""
     },
     {
       "date": "2026-05-03",
