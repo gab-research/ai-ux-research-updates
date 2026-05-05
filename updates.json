@@ -1,8 +1,44 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-05-05T10:09:27.459Z",
+  "lastUpdated": "2026-05-05T17:45:35.026Z",
   "updates": [
+    {
+      "date": "2026-05-05",
+      "title": "The trick to designing agentic AI is learning how to think like a manager",
+      "summary": "Setting boundaries (and establishing trust) is the ask with agentic projects Continue reading on UX Collective »",
+      "content": "Setting boundaries (and establishing trust) is the ask with agentic projects Continue reading on UX Collective »",
+      "category": "AI ethics in research",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/the-trick-to-designing-agentic-ai-is-learning-how-to-think-like-a-manager-9945b028aac7?source=rss----138adf9c44c---4"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-05-05",
+      "title": "How to build UX using GPT-5 Mini + Bootstrap  –  Use UXPin Merge!",
+      "summary": "Combine GPT-5 Mini, Bootstrap, and UXPin Merge to generate responsive, code-aligned prototypes faster and reduce handoff errors. The post How to build UX using GPT-5 Mini + Bootstrap – Use UXPin Merge! appeared first on Studio by UXPin.",
+      "content": "This article highlights a novel approach to accelerate UX design and prototyping by integrating advanced AI models like GPT-5 Mini with established design systems like Bootstrap. The core idea is to leverage AI to intelligently generate code-aligned prototypes, significantly reducing the time and effort traditionally required for this process. For UX researchers, this means faster iteration cycles and the ability to test more concepts quickly. The practical implication is a potential shift towards more dynamic and data-driven prototyping, allowing for earlier validation with users and a smoother transition to development, minimizing costly handoff errors.",
+      "category": "AI content generation",
+      "source": {
+        "name": "UXPin Blog",
+        "url": "https://www.uxpin.com/studio/blog/build-ux-gpt-5-mini-bootstrap-uxpin-merge/"
+      },
+      "analysis": "At Nubank, this approach could significantly enhance our prototyping speed, especially for iterating on complex flows like the PIX transaction process or the initial onboarding experience for new customers. Researchers could utilize GPT-5 Mini to generate multiple variations of a user interface based on research findings or user stories, which can then be refined within UXPin Merge. This would allow us to create more realistic, coded prototypes earlier in the discovery phase for features like loan applications or card activation, enabling quicker user testing and feedback acquisition before significant development investment.\n\nTo apply this, researchers should first collaborate closely with design and engineering teams to define the scope of AI-assisted prototyping. For example, we could experiment with generating initial UI drafts for a new insurance product feature or exploring different layout options for the card management screen. It's crucial to establish clear guardrails: AI-generated code should always be treated as a starting point, requiring thorough review and validation by experienced developers to ensure it adheres to Nubank's technical standards and security protocols. We must also be mindful of potential biases in AI output and ensure the generated designs are inclusive and accessible to all our users."
+    },
+    {
+      "date": "2026-05-05",
+      "title": "Microsoft at NSDI 2026: Advances in large-scale networked systems",
+      "summary": "Microsoft researchers share advances in building and operating large-scale distributed systems, spanning datacenters, networking, and the growing intersection with AI during NSDI ’26. The post Microsoft at NSDI 2026: Advances in large-scale networked systems appeared first on...",
+      "content": "Microsoft researchers share advances in building and operating large-scale distributed systems, spanning datacenters, networking, and the growing intersection with AI during NSDI ’26. The post Microsoft at NSDI 2026: Advances in large-scale networked systems appeared first on Microsoft Research.",
+      "category": "AI-powered data analysis",
+      "source": {
+        "name": "Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/blog/microsoft-at-nsdi-2026-advances-in-large-scale-networked-systems/"
+      },
+      "analysis": ""
+    },
     {
       "date": "2026-05-04",
       "title": "Collected consciousness, exhausting moment, UX Research with AI",
@@ -150,7 +186,7 @@
     {
       "date": "2026-04-30",
       "title": "Red-teaming a network of agents: Understanding what breaks when AI agents interact at scale",
-      "summary": "Safe agents don’t guarantee a safe ecosystem of interconnected agents. Microsoft Research examines what breaks when AI agents interact and why network-level risks require new approaches.",
+      "summary": "Safe agents don’t guarantee a safe ecosystem of interconnected agents. Microsoft Research examines what breaks when AI agents interact and why network-level risks require new approaches. The post Red-teaming a network of agents: Understanding what breaks when AI agents interac...",
       "content": "This Microsoft Research article highlights a crucial gap in AI safety: individual agent safety doesn't automatically translate to a secure ecosystem when multiple AI agents interact.  The research explores how emergent behaviors and network-level vulnerabilities can arise from these complex interactions, leading to unexpected failures. For UX researchers, this is critical as it shifts focus from individual user journeys to the broader, interconnected experience of our users interacting with multiple AI-powered features. Understanding these systemic risks can help us proactively identify and mitigate potential issues in complex flows like onboarding or managing a PIX transaction across different Nubank services, preventing cascading failures that could impact user trust and satisfaction.",
       "category": "Agentic AI in research",
       "source": {
