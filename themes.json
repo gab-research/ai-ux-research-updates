@@ -3,54 +3,54 @@
   "updated": "2026-05-07",
   "themes": [
     {
-      "name": "Agentic AI in research",
-      "count": 30,
-      "description": "Articles discussing AI systems designed to autonomously perform research tasks and complex workflows."
+      "name": "Agentic AI research",
+      "count": 44,
+      "description": "Articles discussing the use of AI agents specifically for conducting research, analysis, or acting as autonomous research assistants."
     },
     {
       "name": "AI coding assistants",
-      "count": 16,
-      "description": "Content focused on AI tools that help developers write, debug, and understand code."
+      "count": 33,
+      "description": "Content focused on AI tools that assist developers in writing, debugging, and understanding code."
     },
     {
       "name": "AI research tools",
-      "count": 14,
-      "description": "Articles about AI-powered platforms and software specifically designed to aid in various research processes."
+      "count": 27,
+      "description": "Articles about AI-powered platforms and software designed to aid in various research processes, not limited to specific methodologies."
     },
     {
-      "name": "Synthetic users",
-      "count": 8,
-      "description": "Discussions on using AI to create simulated user profiles or entire user bases for testing and research."
+      "name": "AI usability testing",
+      "count": 18,
+      "description": "Focuses on AI's role in automating or enhancing the process of testing product usability."
     },
     {
-      "name": "AI chatbot research",
-      "count": 8,
-      "description": "Content exploring the development, impact, and research surrounding conversational AI agents."
+      "name": "AI workforce impact",
+      "count": 16,
+      "description": "Covers how AI is changing jobs, skills, and the overall employment landscape."
     },
     {
       "name": "AI summarization",
-      "count": 7,
-      "description": "Articles detailing the use of AI to condense large amounts of text, data, or research findings into concise summaries."
+      "count": 15,
+      "description": "Articles that discuss AI's ability to condense large amounts of information into concise summaries."
     },
     {
-      "name": "AI-powered data analysis",
-      "count": 7,
-      "description": "Focuses on AI applications for analyzing datasets, identifying patterns, and extracting insights."
+      "name": "AI sentiment feedback",
+      "count": 12,
+      "description": "Content related to AI's application in analyzing and understanding user sentiment from feedback."
     },
     {
       "name": "AI recruitment research",
-      "count": 16,
-      "description": "Articles examining the impact and implications of AI in the hiring and recruitment process, including studies on its effectiveness and biases."
+      "count": 11,
+      "description": "Articles detailing AI's use and impact within the hiring and recruitment process."
     },
     {
-      "name": "AI for design & research",
-      "count": 13,
-      "description": "Content on how AI is being applied to augment or transform creative design and user research activities."
+      "name": "AI chatbot research",
+      "count": 11,
+      "description": "Focuses on the research, development, and implications of AI-powered conversational agents."
     },
     {
-      "name": "AI testing automation",
-      "count": 12,
-      "description": "Articles discussing the use of AI to automate various stages of software testing and quality assurance."
+      "name": "AI design research",
+      "count": 10,
+      "description": "Articles exploring how AI is integrated into or assists with design processes and research."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."

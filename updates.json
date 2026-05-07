@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-05-07T10:32:17.875Z",
+  "lastUpdated": "2026-05-07T17:55:29.967Z",
   "updates": [
     {
       "date": "2026-05-07",
@@ -53,7 +53,7 @@
     },
     {
       "date": "2026-05-06",
-      "title": "How frontier enterprises are building an AI advantage",
+      "title": "How frontier firms are pulling ahead",
       "summary": "OpenAI’s B2B Signals research shows how frontier enterprises deepen AI adoption, scale Codex-powered agentic workflows, and build durable competitive advantage.",
       "content": "This OpenAI blog post highlights how leading companies are leveraging AI to gain a significant edge in their respective markets.  It emphasizes the strategic integration of AI, particularly agentic workflows powered by models like Codex, to automate complex tasks and enhance operational efficiency. For UX researchers, understanding these 'frontier enterprises' is crucial as it signals a shift towards AI-driven product development and service delivery, impacting how user experiences are designed, tested, and iterated upon.  The practical implication is that UX research methodologies will need to evolve to incorporate AI-assisted insights and to design for increasingly intelligent and autonomous user interfaces.",
       "category": "AI coding assistants",
