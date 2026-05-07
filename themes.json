@@ -1,56 +1,56 @@
 {
   "month": "2026-05",
-  "updated": "2026-05-06",
+  "updated": "2026-05-07",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 32,
-      "description": "Covers AI agents performing research tasks autonomously, from data collection to analysis, often in complex or multi-step processes."
-    },
-    {
-      "name": "AI research tools",
-      "count": 19,
-      "description": "Focuses on AI-powered platforms and tools designed to enhance and accelerate various aspects of research workflows."
-    },
-    {
-      "name": "AI usability testing",
-      "count": 16,
-      "description": "Explores the application of AI in the automated testing and evaluation of product usability and functionality."
+      "count": 37,
+      "description": "Articles focusing on AI systems designed to perform research tasks autonomously or semi-autonomously, often involving complex workflows and decision-making."
     },
     {
       "name": "AI coding assistants",
-      "count": 12,
-      "description": "Features AI tools that assist developers in writing, debugging, and optimizing code."
+      "count": 26,
+      "description": "Content discussing AI tools that help developers write, review, and optimize code."
     },
     {
-      "name": "AI summarization",
-      "count": 11,
-      "description": "Highlights AI capabilities for condensing large amounts of text into concise summaries for easier comprehension."
+      "name": "AI research tools",
+      "count": 22,
+      "description": "Articles highlighting specific AI-powered platforms and software designed to assist in various research activities."
     },
     {
-      "name": "AI-powered data analysis",
-      "count": 10,
-      "description": "Details how AI is used to analyze datasets, identify patterns, and extract insights for decision-making."
+      "name": "AI chatbot research",
+      "count": 19,
+      "description": "Research and discussions specifically around the use, impact, and development of AI chatbots, especially in user interactions."
     },
     {
-      "name": "Conversational AI in research",
-      "count": 10,
-      "description": "Covers the use of AI chatbots and conversational agents for conducting research, gathering feedback, and user interaction."
-    },
-    {
-      "name": "AI workforce impact",
-      "count": 10,
-      "description": "Examines the effects of AI on employment, job roles, and the skills required in the modern workforce."
-    },
-    {
-      "name": "Synthetic users",
-      "count": 7,
-      "description": "Discusses the creation and use of AI-generated user personas or data for testing and research purposes."
+      "name": "AI usability testing",
+      "count": 17,
+      "description": "Articles related to using AI for automated testing, evaluation, and quality assurance of software and products."
     },
     {
       "name": "AI for design & research",
+      "count": 15,
+      "description": "Content that explores the integration of AI into the design process and how it aids user research methodologies."
+    },
+    {
+      "name": "AI workforce impact",
+      "count": 15,
+      "description": "Discussions on how AI is affecting jobs, skills, and the overall structure of the workforce."
+    },
+    {
+      "name": "Synthetic users",
+      "count": 10,
+      "description": "Articles focused on the creation and use of artificial user profiles or data for research and testing purposes."
+    },
+    {
+      "name": "AI summarization",
+      "count": 9,
+      "description": "Content detailing AI's capability to condense large amounts of information into concise summaries."
+    },
+    {
+      "name": "AI customer insights",
       "count": 7,
-      "description": "Focuses on AI applications specifically tailored to support and enhance both the design and user research processes."
+      "description": "Articles on how AI is used to extract and understand customer behaviors, preferences, and feedback."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
