@@ -1,8 +1,32 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-05-07T03:51:27.246Z",
+  "lastUpdated": "2026-05-07T10:32:17.875Z",
   "updates": [
+    {
+      "date": "2026-05-07",
+      "title": "How to build UX using GPT-4.1 + MUI  –  Use UXPin Merge!",
+      "summary": "Generate production-ready MUI React components with GPT-4.1 in UXPin Merge to speed design and eliminate handoff friction. The post How to build UX using GPT-4.1 + MUI – Use UXPin Merge! appeared first on Studio by UXPin.",
+      "content": "This UXPin blog post introduces a novel approach to design and development by integrating GPT-4.1 with their UXPin Merge platform to generate production-ready MUI React components. The core idea is to leverage AI for component creation, significantly accelerating the design process and minimizing the friction typically associated with design-to-developer handoff. For UX researchers, this means a potential paradigm shift: AI can empower them to quickly prototype complex user interfaces and test concepts more rapidly, bridging the gap between ideation and implementation. The practical implication is the ability to deliver high-fidelity, developer-ready prototypes much faster, allowing for more iterative testing and a quicker feedback loop on new features for products like Nubank's PIX or loan application flows.",
+      "category": "AI content generation",
+      "source": {
+        "name": "UXPin Blog",
+        "url": "https://www.uxpin.com/studio/blog/build-ux-gpt-4-1-mui-uxpin-merge/"
+      },
+      "analysis": "At Nubank, this technology could revolutionize our rapid prototyping efforts. Imagine a researcher needing to quickly visualize a new flow for card activation or a simplified insurance onboarding process. Instead of manually building every component, they could use GPT-4.1 within UXPin Merge to generate the initial set of MUI components based on descriptive prompts. This would drastically cut down the time spent on 'build' and free up researchers to focus more on user testing, iterative refinement, and exploring user pain points within the PIX transfer experience or loan application journeys. The generated components, being production-ready, also ensure design consistency with our existing design system and facilitate smoother handoffs to engineering teams, enabling faster delivery of user-validated features.\n\nIt's crucial, however, to establish guardrails. While AI can generate components, UX researchers must remain the arbiters of user experience. The generated UI should be critically evaluated for usability, accessibility, and adherence to Nubank's brand guidelines. Researchers should use this tool as a starting point, not a final solution. For instance, when designing a new feature for personal loans, AI might generate basic input fields, but the researcher must then ensure the loan application flow is intuitive, clearly communicates risks, and aligns with our commitment to transparent financial services. This technology should augment, not replace, the nuanced understanding and user empathy that are core to our research practice. We should focus its application on accelerating the creation of standard UI elements, allowing us more time to deep-dive into complex interactions and user needs."
+    },
+    {
+      "date": "2026-05-07",
+      "title": "Static user research deliverables are done",
+      "summary": "How to build dynamic, evidence-linked, competitor-aware research artifacts in Claude Cowork, without being a designer, begging engineering, or burning weeks",
+      "content": "Nikki Anderson's article argues that traditional, static user research deliverables like PDFs and presentations are becoming obsolete. She proposes leveraging AI tools, specifically Claude Cowork, to create dynamic, interconnected, and contextually rich research artifacts. This shift is critical for UX researchers as it allows for faster iteration, easier knowledge sharing, and more immediate access to evidence-based insights.  The practical implication is that researchers can move beyond static reports to living documents that directly link findings to raw data, competitive analysis, and user journeys, all without extensive design or engineering support.",
+      "category": "AI coding assistants",
+      "source": {
+        "name": "Nikki Anderson (User Research Strategist)",
+        "url": "https://www.userresearchstrategist.com/p/static-user-research-deliverables"
+      },
+      "analysis": "At Nubank, this concept of dynamic, AI-assisted deliverables can significantly enhance our research workflow, particularly for feature teams working on products like PIX transactions, personal loans, or insurance policies. Instead of spending days compiling lengthy slide decks for card activation or onboarding flows, researchers can use Claude Cowork to generate interactive reports that directly embed video clips of user sessions, highlight key pain points from usability tests, and link to competitor analysis directly within the artifact.  This would allow product managers and designers to explore findings on demand, making research more accessible and actionable.\n\nTo implement this, researchers should begin by experimenting with Claude Cowork on smaller research initiatives, perhaps for iterative improvements on an existing feature like the insurance application process. The AI can help synthesize qualitative feedback into structured insights, cross-reference findings with competitor offerings in the digital banking space, and even suggest potential solutions based on aggregated user behavior. A key guardrail will be ensuring data privacy and security when inputting sensitive user information into the AI tool. Researchers must also maintain critical oversight, verifying the AI's interpretations and ensuring that the \"evidence-linking\" is accurate and representative of the actual research data. The goal is to augment, not replace, human analysis and strategic thinking."
+    },
     {
       "date": "2026-05-06",
       "title": "How to build UX using GPT-5 Mini + Custom Design Systems  –  Use UXPin Merge!",
