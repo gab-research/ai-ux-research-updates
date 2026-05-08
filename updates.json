@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-05-08T03:42:08.287Z",
+  "lastUpdated": "2026-05-08T09:47:05.857Z",
   "updates": [
+    {
+      "date": "2026-05-08",
+      "title": "How to build UX using GPT-4.1 + shadcn/ui  –  Use UXPin Merge!",
+      "summary": "Build production-ready React prototypes with AI and component libraries to speed design-to-code handoffs. The post How to build UX using GPT-4.1 + shadcn/ui – Use UXPin Merge! appeared first on Studio by UXPin.",
+      "content": "This article from UXPin explores a novel approach to accelerating the UX design and development process by integrating GPT-4.1 with the shadcn/ui component library through their Merge technology. The core idea is to leverage AI for generating production-ready React code directly from design specifications, significantly streamlining the handoff between design and engineering teams. For UX researchers, this matters because it promises to reduce the time spent on manual implementation and prototyping, allowing for faster iteration and validation of user experiences. Practically, this could mean quicker development of interactive prototypes for testing complex flows like a PIX transaction or a loan application, enabling more agile research cycles.",
+      "category": "AI for product management",
+      "source": {
+        "name": "UXPin Blog",
+        "url": "https://www.uxpin.com/studio/blog/build-ux-gpt-4-1-shadcn-ui-uxpin-merge/"
+      },
+      "analysis": "At Nubank, this approach could be integrated into our prototyping workflow, particularly for validating new features or iterating on existing flows like customer onboarding or card activation. Researchers could utilize GPT-4.1 via UXPin Merge to quickly generate functional prototypes for user testing, simulating interactions within products like our personal loans or insurance offerings. This would move beyond static wireframes or basic interactive prototypes to something closer to the actual user experience, allowing for more realistic feedback.\n\nWhen applying this, researchers should focus on using it for rapid prototyping and concept validation rather than full-fledged feature development. It's crucial to remember that AI-generated code will require rigorous review by our engineering teams to ensure it adheres to Nubank's strict standards for security, performance, and accessibility. The current limitations of AI in understanding nuanced user needs or complex business logic mean that human oversight remains paramount. We should also consider the potential biases inherent in AI models and ensure that the generated designs and code are inclusive and equitable across all our user segments, especially for sensitive flows like managing PIX recipients or understanding loan terms."
+    },
     {
       "date": "2026-05-07",
       "title": "How to build UX using GPT-4.1 + MUI  –  Use UXPin Merge!",

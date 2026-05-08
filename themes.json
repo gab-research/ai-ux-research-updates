@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 43,
-      "description": "Articles focusing on AI agents that can autonomously perform research tasks, make decisions, and drive research processes."
+      "count": 16,
+      "description": "Articles discussing AI agents that can autonomously perform research tasks or act as independent research entities."
     },
     {
       "name": "AI coding assistants",
-      "count": 27,
-      "description": "Content discussing AI tools that assist developers in writing, debugging, and optimizing code."
+      "count": 16,
+      "description": "Content focused on AI tools that assist developers in writing, debugging, and refactoring code."
     },
     {
       "name": "AI research tools",
-      "count": 24,
-      "description": "Articles highlighting AI platforms and tools specifically designed to aid researchers in various stages of their work."
-    },
-    {
-      "name": "AI for design & research",
-      "count": 15,
-      "description": "Content exploring the application of AI in user interface (UI) and user experience (UX) design, including component generation and design system integration."
+      "count": 14,
+      "description": "Articles highlighting various AI applications and platforms designed to aid in research processes."
     },
     {
       "name": "AI chatbot research",
-      "count": 13,
-      "description": "Articles examining the use, development, accuracy, and impact of AI-powered chatbots in research and user interaction."
-    },
-    {
-      "name": "AI research platform",
-      "count": 11,
-      "description": "Content focused on platforms that leverage AI to streamline and enhance the entire research lifecycle for organizations and individuals."
-    },
-    {
-      "name": "AI testing automation",
-      "count": 11,
-      "description": "Articles discussing the use of AI to automate testing processes, particularly in software development and IT operations."
+      "count": 8,
+      "description": "Research and discussions specifically around the capabilities, limitations, and impacts of AI chatbots."
     },
     {
       "name": "AI workforce impact",
-      "count": 10,
-      "description": "Discussions on how AI is affecting jobs, recruitment, and the overall structure of the workforce."
+      "count": 8,
+      "description": "Articles exploring how AI is affecting jobs, skills, and the future of work."
     },
     {
       "name": "AI summarization",
-      "count": 9,
-      "description": "Content related to AI's ability to condense large amounts of text or data into concise summaries, providing key insights."
+      "count": 8,
+      "description": "Content on AI's ability to condense large amounts of text into concise summaries."
     },
     {
-      "name": "AI recruitment research",
-      "count": 9,
-      "description": "Articles specifically on how AI is being used or studied in the context of hiring and talent acquisition processes."
+      "name": "AI research platform",
+      "count": 6,
+      "description": "Articles focusing on AI platforms designed to facilitate or enhance research activities."
+    },
+    {
+      "name": "AI testing automation",
+      "count": 6,
+      "description": "Discussions on using AI to automate testing processes in software development and other fields."
+    },
+    {
+      "name": "AI for design & research",
+      "count": 6,
+      "description": "Content specifically about AI tools and methodologies applied to enhance user experience design and research."
+    },
+    {
+      "name": "AI usability testing",
+      "count": 6,
+      "description": "Articles related to the use of AI in testing the usability and effectiveness of products and systems."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
