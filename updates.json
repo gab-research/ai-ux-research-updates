@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-05-07T17:55:29.967Z",
+  "lastUpdated": "2026-05-08T03:42:08.287Z",
   "updates": [
     {
       "date": "2026-05-07",
@@ -26,6 +26,18 @@
         "url": "https://www.userresearchstrategist.com/p/static-user-research-deliverables"
       },
       "analysis": "At Nubank, this concept of dynamic, AI-assisted deliverables can significantly enhance our research workflow, particularly for feature teams working on products like PIX transactions, personal loans, or insurance policies. Instead of spending days compiling lengthy slide decks for card activation or onboarding flows, researchers can use Claude Cowork to generate interactive reports that directly embed video clips of user sessions, highlight key pain points from usability tests, and link to competitor analysis directly within the artifact.  This would allow product managers and designers to explore findings on demand, making research more accessible and actionable.\n\nTo implement this, researchers should begin by experimenting with Claude Cowork on smaller research initiatives, perhaps for iterative improvements on an existing feature like the insurance application process. The AI can help synthesize qualitative feedback into structured insights, cross-reference findings with competitor offerings in the digital banking space, and even suggest potential solutions based on aggregated user behavior. A key guardrail will be ensuring data privacy and security when inputting sensitive user information into the AI tool. Researchers must also maintain critical oversight, verifying the AI's interpretations and ensuring that the \"evidence-linking\" is accurate and representative of the actual research data. The goal is to augment, not replace, human analysis and strategic thinking."
+    },
+    {
+      "date": "2026-05-07",
+      "title": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
+      "summary": "OpenAI expands Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber, helping verified defenders accelerate vulnerability research and protect critical infrastructure.",
+      "content": "OpenAI's recent announcement introduces GPT-5.5 and GPT-5.5-Cyber, significant advancements in their Trusted Access program aimed at bolstering cybersecurity efforts. This expansion focuses on empowering verified security professionals with enhanced AI capabilities to accelerate the identification of vulnerabilities within critical digital infrastructure. For UX researchers, this implies a future where AI can significantly aid in understanding user security behaviors and identifying potential friction points that could be exploited, ultimately leading to more robust and trustworthy digital banking experiences. The practical implications are immense, potentially allowing for proactive identification of security risks within user flows like onboarding or PIX transactions, thereby building greater user confidence.",
+      "category": "AI ethics in research",
+      "source": {
+        "name": "OpenAI Blog",
+        "url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber"
+      },
+      "analysis": "At Nubank, GPT-5.5 and GPT-5.5-Cyber can be integrated into our existing UX research workflow by augmenting our qualitative data analysis. For instance, when analyzing interview transcripts or open-ended survey responses related to security concerns during onboarding or card activation, these models could help identify emerging patterns of user anxiety or confusion that might indicate potential security vulnerabilities or usability issues. Researchers could leverage GPT-5.5-Cyber to analyze anonymized security-related user feedback for trends that might impact the trustworthiness of features like instant loan approvals or even insurance claim processes.\n\nTo apply this, researchers should start by experimenting with GPT-5.5 (for general text analysis of user feedback and security discussions) and GPT-5.5-Cyber (once available and vetted for security research applications) on specific, anonymized datasets. Focus on areas where security and user trust are paramount, such as identifying potential social engineering attack vectors within our communication channels or understanding user perceptions of data privacy during complex flows like account recovery. It's crucial to remember that these AI tools are assistants; human oversight and critical judgment remain essential to avoid misinterpretations and ensure ethical research practices. Strict adherence to Nubank's data privacy and security policies is paramount, and any application involving sensitive user data must undergo thorough review by our security and legal teams before deployment."
     },
     {
       "date": "2026-05-06",
