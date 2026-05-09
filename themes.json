@@ -1,56 +1,56 @@
 {
   "month": "2026-05",
-  "updated": "2026-05-08",
+  "updated": "2026-05-09",
   "themes": [
     {
+      "name": "Agentic AI in research",
+      "count": 45,
+      "description": "Articles discussing AI agents specifically designed to assist with or perform research tasks, including autonomous research agents and agentic workflows."
+    },
+    {
       "name": "AI coding assistants",
-      "count": 34,
-      "description": "Copilot, Claude Code, Cursor, and other AI tools for code generation and development."
+      "count": 31,
+      "description": "Content focusing on AI tools that aid developers in writing, debugging, and understanding code, often acting as programming partners."
     },
     {
       "name": "AI research tools",
-      "count": 31,
-      "description": "New AI tool launches, reviews, and platforms built for research workflows."
-    },
-    {
-      "name": "Conversational AI in research",
-      "count": 29,
-      "description": "Chatbots, virtual assistants, and voice AI in research contexts."
-    },
-    {
-      "name": "Survey optimization",
-      "count": 25,
-      "description": "AI tools for designing better surveys, reducing bias, and analyzing responses."
-    },
-    {
-      "name": "AI-powered data analysis",
-      "count": 21,
-      "description": "Automated data analysis, clustering, segmentation, and pattern detection."
-    },
-    {
-      "name": "Agentic AI in research",
       "count": 20,
-      "description": "Autonomous AI agents running research tasks, multi-agent frameworks, and orchestration."
+      "description": "Articles about AI-powered platforms, software, and tools designed to enhance or automate various stages of the research process."
     },
     {
-      "name": "AI content generation",
-      "count": 14,
-      "description": "AI writing, report generation, UX copy, and content creation."
+      "name": "AI usability testing",
+      "count": 15,
+      "description": "Focuses on the application of AI in testing the usability of products and services, including automated checks and AI-driven feedback."
     },
     {
-      "name": "AI workforce impact",
-      "count": 14,
-      "description": "AI replacing roles, future of work, skills gap, reskilling, and organizational change."
+      "name": "Synthetic users",
+      "count": 13,
+      "description": "Covers the creation and use of artificial user representations or 'digital twins' for testing, research, or simulation purposes."
     },
     {
-      "name": "AI tool evaluation",
+      "name": "AI for design & research",
       "count": 11,
-      "description": "Comparing, benchmarking, and selecting AI tools and LLMs for specific use cases."
+      "description": "Articles exploring how AI is integrated into the design process and general research activities, including AI for ideation and prototyping."
     },
     {
-      "name": "AI ethics in research",
-      "count": 8,
-      "description": "Bias, fairness, responsible AI, privacy, and trust in research."
+      "name": "AI customer insights",
+      "count": 10,
+      "description": "Explores how AI is used to analyze customer data and behavior to derive actionable insights for product development and marketing."
+    },
+    {
+      "name": "AI chatbot research",
+      "count": 9,
+      "description": "Content detailing the research and development surrounding AI-powered chatbots, their interactions, accuracy, and impact on users."
+    },
+    {
+      "name": "AI recruitment research",
+      "count": 16,
+      "description": "Articles discussing the use of AI in the recruitment process, including AI's impact on job roles, hiring tools, and candidate selection."
+    },
+    {
+      "name": "AI qualitative research",
+      "count": 7,
+      "description": "Focuses on AI applications in qualitative research methods, such as analyzing interview transcripts or understanding user sentiment from free-text data."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."

@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-05-08T17:26:56.161Z",
+  "lastUpdated": "2026-05-09T03:43:36.226Z",
   "updates": [
     {
       "date": "2026-05-08",
@@ -727,7 +727,7 @@
       "date": "2026-04-09",
       "title": "New Future of Work: AI is driving rapid change, uneven benefits",
       "summary": "For the past five years, the New Future of Work report has captured how work is changing. This year, the shift feels especially sharp. Previous editions have focused on technology’s role in increasing productivity by automating tasks, accelerating communication, and expanding...",
-      "content": "Microsoft Research's latest \"New Future of Work\" report highlights the accelerating impact of AI on the workplace, extending beyond simple task automation to fundamentally reshape how we collaborate and innovate.  This rapid evolution is creating both significant opportunities for enhanced productivity and considerable challenges in ensuring equitable access to these advancements. For UX researchers, understanding these AI-driven shifts is critical, as it directly influences user expectations, the design of future digital experiences, and the ethical considerations embedded within our products like PIX transactions or loan applications.",
+      "content": "For the past five years, the New Future of Work report has captured how work is changing. This year, the shift feels especially sharp. Previous editions have focused on technology’s role in increasing productivity by automating tasks, accelerating communication, and expanding access to information, as well as the rise of remote work. Today, generative AI […] The post New Future of Work: AI is driving rapid change, uneven benefits appeared first on Microsoft Research.",
       "category": "AI workforce impact",
       "source": {
         "name": "Microsoft Research",
@@ -739,7 +739,7 @@
       "date": "2026-04-09",
       "title": "Ideas: Steering AI toward the work future we want",
       "summary": "Microsoft Chief Scientist Jaime Teevan and researchers Jenna Butler, Jake Hofman, and Rebecca Janssen unpack the New Future of Work Report 2025 and explore the ideal AI-driven working world. Plus, is AI a tool or a collaborator? And why the answer matters. The post Ideas: Stee...",
-      "content": "This Microsoft Research article explores the implications of AI on the future of work, emphasizing the need to proactively shape this evolution rather than passively adapt. It delves into the \"New Future of Work Report 2025,\" highlighting the critical distinction between AI as a mere tool and AI as a true collaborator. For UX researchers, understanding this paradigm shift is paramount; it means moving beyond designing for simple task automation to envisioning richer, more synergistic human-AI partnerships. This has practical implications for our research, pushing us to explore how AI can augment user capabilities and create more intuitive, empowering experiences across all Nubank products, from onboarding to complex financial management.",
+      "content": "Microsoft Chief Scientist Jaime Teevan and researchers Jenna Butler, Jake Hofman, and Rebecca Janssen unpack the New Future of Work Report 2025 and explore the ideal AI-driven working world. Plus, is AI a tool or a collaborator? And why the answer matters. The post Ideas: Steering AI toward the work future we want appeared first on Microsoft Research.",
       "category": "AI workforce impact",
       "source": {
         "name": "Microsoft Research",
