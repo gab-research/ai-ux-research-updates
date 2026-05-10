@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-05-10T09:44:46.710Z",
+  "lastUpdated": "2026-05-10T17:03:46.964Z",
   "updates": [
     {
       "date": "2026-05-10",
@@ -722,18 +722,6 @@
         "url": "https://www.uxpin.com/studio/blog/build-ux-gpt-5-2-mui-uxpin-merge/"
       },
       "analysis": "At Nubank, this technology could significantly enhance our prototyping speed within research sprints, particularly for new feature development or iterating on existing flows like onboarding or card activation. Researchers could use GPT-5.2 to quickly generate MUI-based components for mockups and interactive prototypes, ensuring consistency with our established design system. This would allow us to test early concepts for features such as loan applications or insurance onboarding with users much faster than traditional methods.\n\nTo apply this, researchers could experiment with prompting GPT-5.2 to generate specific UI elements or even small sections of a flow based on defined user stories and desired MUI components. For example, generating the necessary fields and buttons for a PIX transfer confirmation screen. However, it's crucial to establish guardrails. Researchers must maintain oversight, ensuring the AI-generated UIs align with our core UX principles and accessibility standards, and are not merely aesthetically pleasing but functionally sound. We should also treat these as starting points for deeper, qualitative user feedback rather than definitive solutions."
-    },
-    {
-      "date": "2026-04-10",
-      "title": "AI Agents as Users",
-      "summary": "AI agents now interact with digital interfaces alongside humans. Designing for both requires rethinking what \"user\" means and prioritizing accessibility.",
-      "content": "The Nielsen Norman Group's \"AI Agents as Users\" article highlights a critical shift: artificial intelligence is no longer solely a tool for researchers but is increasingly becoming an active participant alongside humans within digital interfaces. This fundamentally expands our definition of 'user,' demanding that UX research consider the unique needs and interaction patterns of these intelligent agents. For UX researchers, this means we must move beyond traditional human-centered design paradigms to incorporate AI-specific considerations, such as their processing capabilities, error tolerances, and data interpretation. Failing to account for AI users could lead to suboptimal or even broken experiences for both human and AI participants, impacting the usability and effectiveness of products like Nubank's PIX transactions or loan applications.",
-      "category": "Automated usability checks",
-      "source": {
-        "name": "Nielsen Norman Group",
-        "url": "https://www.nngroup.com/articles/ai-agents-as-users/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication"
-      },
-      "analysis": "This concept directly impacts Nubank's research workflow by prompting us to analyze user journeys not just from a human perspective, but also to anticipate and understand how AI agents might interact with or influence these flows. For instance, when researching the onboarding process, we should consider how AI-powered fraud detection systems might interpret user-provided information, or how a chatbot designed to assist users through card activation might need to communicate differently with an AI-driven customer service agent. Researchers should begin by mapping potential AI touchpoints within existing flows and consider designing experiments that specifically test these AI interactions. This could involve simulated AI user testing or analyzing logs for patterns indicative of AI engagement, especially in high-volume areas like PIX transfers or insurance policy inquiries.\n\nWhen applying this at Nubank, it's crucial to establish clear guardrails. We should differentiate between AI *as a tool* for research (e.g., for data analysis) and AI *as a user* of our products. Our primary focus should remain on human users, but we must be mindful of how our designs accommodate or are impacted by the growing presence of AI agents. For example, in the context of personal loan applications, an AI agent might be responsible for initial credit scoring. Researchers should ensure the data fields and error messages are clear and unambiguous for both human applicants and the AI system processing the information. Similarly, for insurance claims, designing an interface that is easily parsable by an AI processing agent alongside human customer input is essential for efficient resolution."
     }
   ]
 }
