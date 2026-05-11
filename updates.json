@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-05-10T17:03:46.964Z",
+  "lastUpdated": "2026-05-11T04:11:39.652Z",
   "updates": [
     {
       "date": "2026-05-10",
@@ -710,18 +710,6 @@
         "url": "https://cms.greatquestion.co/blog/mcp-for-user-research"
       },
       "analysis": "At Nubank, this AI integration directly supports our mission to democratize financial services by providing even richer user understanding. Researchers can now connect our centralized research repository, housing data from studies on PIX usage, loan applications, card activation flows, and onboarding experiences, to an LLM. This allows them to ask questions like, 'What are the common pain points users encountered during the last six months of onboarding for new customers?' or 'Can you identify recurring themes in user feedback related to insurance claim submissions?' This capability will significantly speed up our discovery phases and validation efforts for new features.\n\nTo apply this at Nubank, researchers should first ensure their research data is consistently tagged and organized within our repository. Then, they can connect approved LLM tools through Great Question's MCP server. Key guardrails include maintaining data privacy and anonymization standards as per Nubank's policies; the AI should only access anonymized or pseudonymized data. Furthermore, researchers must critically evaluate the AI's output, cross-referencing findings with original source material to ensure accuracy and avoid relying solely on algorithmic interpretation, especially when informing critical decisions about sensitive flows like loan approvals or credit card management."
-    },
-    {
-      "date": "2026-04-11",
-      "title": "How to build UX using GPT-5.2 + MUI  –  Use UXPin Merge!",
-      "summary": "Generate production-ready React UIs: use GPT-5.2 to create MUI components and prototype with UXPin Merge for synced design systems. The post How to build UX using GPT-5.2 + MUI – Use UXPin Merge! appeared first on Studio by UXPin.",
-      "content": "This article proposes a novel approach to UI development by integrating GPT-5.2's generative capabilities with Material UI (MUI) components within the UXPin Merge platform. The core idea is to leverage AI for rapid generation of production-ready React UI elements, streamlining the design-to-development handoff. For UX researchers, this signifies a potential acceleration in prototyping and a more robust connection between design specifications and implemented code, enabling quicker validation of user flows and interfaces. The practical implication is the ability to translate complex UX requirements into tangible, coded prototypes more efficiently, freeing up researcher time for deeper user understanding.",
-      "category": "AI content generation",
-      "source": {
-        "name": "UXPin Blog",
-        "url": "https://www.uxpin.com/studio/blog/build-ux-gpt-5-2-mui-uxpin-merge/"
-      },
-      "analysis": "At Nubank, this technology could significantly enhance our prototyping speed within research sprints, particularly for new feature development or iterating on existing flows like onboarding or card activation. Researchers could use GPT-5.2 to quickly generate MUI-based components for mockups and interactive prototypes, ensuring consistency with our established design system. This would allow us to test early concepts for features such as loan applications or insurance onboarding with users much faster than traditional methods.\n\nTo apply this, researchers could experiment with prompting GPT-5.2 to generate specific UI elements or even small sections of a flow based on defined user stories and desired MUI components. For example, generating the necessary fields and buttons for a PIX transfer confirmation screen. However, it's crucial to establish guardrails. Researchers must maintain oversight, ensuring the AI-generated UIs align with our core UX principles and accessibility standards, and are not merely aesthetically pleasing but functionally sound. We should also treat these as starting points for deeper, qualitative user feedback rather than definitive solutions."
     }
   ]
 }
