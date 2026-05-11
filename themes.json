@@ -3,54 +3,54 @@
   "updated": "2026-05-11",
   "themes": [
     {
-      "name": "Agentic AI in research",
-      "count": 32,
-      "description": "Focuses on AI agents that can autonomously perform research tasks, make decisions, and execute actions within research workflows."
+      "name": "Agentic AI research tools",
+      "count": 111,
+      "description": "Covers AI agents specifically designed for or applied to research tasks, including autonomous agents and agent frameworks."
     },
     {
       "name": "AI coding assistants",
-      "count": 25,
-      "description": "Covers AI tools and techniques that assist developers in writing, debugging, and optimizing code."
-    },
-    {
-      "name": "AI usability testing",
-      "count": 16,
-      "description": "Explores the use of AI in automating and enhancing usability testing processes and evaluations."
-    },
-    {
-      "name": "AI research tools",
-      "count": 14,
-      "description": "Highlights various AI-powered tools designed to support and augment different stages of the research process."
-    },
-    {
-      "name": "AI workforce impact",
-      "count": 17,
-      "description": "Examines how AI is affecting jobs, employment, and the skills required in the modern workforce."
-    },
-    {
-      "name": "AI for design & research",
-      "count": 15,
-      "description": "Details AI applications specifically tailored for enhancing design processes and user research activities."
-    },
-    {
-      "name": "AI summarization",
-      "count": 15,
-      "description": "Focuses on AI's ability to condense large amounts of text or data into concise summaries for quicker understanding."
-    },
-    {
-      "name": "AI recruitment research",
-      "count": 16,
-      "description": "Investigates the role of AI in hiring processes, including resume screening, candidate evaluation, and job market analysis."
+      "count": 41,
+      "description": "Focuses on AI tools and research related to assisting developers in writing, reviewing, and debugging code."
     },
     {
       "name": "AI research platform",
+      "count": 19,
+      "description": "Articles discussing platforms or integrated systems that leverage AI for various research functions."
+    },
+    {
+      "name": "AI design research",
       "count": 13,
-      "description": "Describes integrated platforms or ecosystems that leverage AI to facilitate and streamline research operations."
+      "description": "Explores the intersection of AI and UX/UI design processes, including research, prototyping, and system design."
+    },
+    {
+      "name": "AI tool evaluation",
+      "count": 11,
+      "description": "Content focused on reviewing, comparing, and assessing the performance and utility of various AI tools."
+    },
+    {
+      "name": "AI-powered data analysis",
+      "count": 10,
+      "description": "Articles detailing the use of AI for analyzing datasets, extracting insights, and performing quantitative research."
+    },
+    {
+      "name": "AI qualitative research",
+      "count": 10,
+      "description": "Focuses on AI applications in qualitative research methods like interviews, sentiment analysis, and user feedback."
     },
     {
       "name": "Synthetic users",
       "count": 10,
-      "description": "Covers the creation and use of artificial user representations for testing, simulation, and research purposes."
+      "description": "Covers the creation and use of artificial user personas or data for testing and research purposes."
+    },
+    {
+      "name": "AI summarization",
+      "count": 9,
+      "description": "Articles about AI capabilities in condensing large amounts of text into concise summaries for research and analysis."
+    },
+    {
+      "name": "AI chatbot research",
+      "count": 8,
+      "description": "Research and analysis specifically focused on the behavior, reliability, and impact of AI chatbots."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
