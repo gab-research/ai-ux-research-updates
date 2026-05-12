@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-05-11T18:02:34.285Z",
+  "lastUpdated": "2026-05-12T03:55:30.749Z",
   "updates": [
     {
       "date": "2026-05-11",
@@ -62,6 +62,18 @@
         "url": "https://www.technologyreview.com/2026/05/11/1136967/fostering-breakthrough-ai-innovation-through-customer-back-engineering/"
       },
       "analysis": "At Nubank, this customer-back approach to AI integration should become a foundational principle for our UX research. Instead of asking \"how can we use AI for credit scoring?\", we should be asking \"how can we better understand and serve customers seeking loans, and where might AI offer a novel, value-adding solution?\" This means embedding AI ideation sessions within our existing research workflows, such as during early-stage concept testing for new features like insurance products or during post-launch analysis of card activation flows. Researchers should proactively identify opportunities where AI can enhance existing experiences, like personalizing onboarding sequences or optimizing fraud detection for PIX, by grounding their recommendations in robust qualitative and quantitative customer data.\n\nKey guardrails for this approach at Nubank include maintaining a strong ethical framework and ensuring transparency in AI-driven interactions. While AI can personalize recommendations for credit cards or investment products, researchers must ensure these suggestions are always in the customer's best interest and not exploitative. We must also acknowledge the limitations of current AI capabilities, particularly regarding nuanced human empathy, and avoid over-promising what AI can deliver. Our research should focus on how AI can augment, not replace, human-centric experiences, ensuring that features like personalized customer support for loan inquiries remain fundamentally helpful and trustworthy."
+    },
+    {
+      "date": "2026-05-11",
+      "title": "UX Roundup: Moby Dick | AI Broadens Use Compared to Search | Dashboard Visualization | Tacit Knowledge | Design Engineer Fellowship",
+      "summary": "New music video based on Moby-Dick | AI expands users’ tasks compared with traditional search, but provides narrower information results | AI dashboard visualizations help therapists spot trends hidden in session notes | How to elicit tacit knowledge to build AI workflows | A1...",
+      "content": "Jakob Nielsen's UX Roundup highlights the expanding role of AI in various domains, particularly its implications for UX research. The article notes that AI, while broadening user tasks beyond traditional search, may offer more focused but less comprehensive information.  A significant takeaway for UX researchers is the potential of AI-powered dashboard visualizations to uncover hidden patterns in qualitative data, exemplified by its use in therapy sessions. Furthermore, the piece emphasizes the challenge and importance of eliciting \"tacit knowledge\" to effectively build AI workflows, a concept directly relevant to understanding user behaviors and preferences within complex financial products.",
+      "category": "AI summarization",
+      "source": {
+        "name": "Jakob Nielsen (Substack)",
+        "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260511"
+      },
+      "analysis": "At Nubank, this roundup is highly relevant for our ongoing efforts to leverage AI and advanced analytics.  Researchers can apply the insights on AI expanding user tasks by exploring how generative AI tools could assist in tasks like initial user journey mapping or drafting persona descriptions, moving beyond simple keyword searches. For instance, when researching the PIX transfer experience, AI could help generate initial hypotheses about common pain points or identify unusual user flows by analyzing large datasets of user interactions. The implication of AI providing \"narrower information results\" means we must actively guide these tools to ensure comprehensive data exploration and avoid premature conclusions.\n\nThe most actionable insight is the potential of AI dashboard visualizations for analyzing qualitative data. Our UX researchers could explore using AI tools to sift through interview transcripts, customer support logs, or open-ended survey responses related to credit card activation or loan applications. Imagine an AI dashboard highlighting recurring emotional sentiments or unmet needs expressed by users during the onboarding process, surfacing insights that might be missed through manual analysis.  However, it's crucial to establish guardrails. Researchers must critically evaluate AI-generated insights, understand the underlying data and algorithms, and never replace human empathy and contextual understanding with automated outputs.  The elicitation of tacit knowledge remains paramount; AI can augment, not substitute, our deep understanding of Brazilian consumer financial behaviors."
     },
     {
       "date": "2026-05-10",

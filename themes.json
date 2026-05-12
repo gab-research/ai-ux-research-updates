@@ -1,56 +1,56 @@
 {
   "month": "2026-05",
-  "updated": "2026-05-11",
+  "updated": "2026-05-12",
   "themes": [
     {
-      "name": "Agentic AI research tools",
-      "count": 111,
-      "description": "Covers AI agents specifically designed for or applied to research tasks, including autonomous agents and agent frameworks."
+      "name": "Agentic AI in research",
+      "count": 49,
+      "description": "Focuses on AI systems designed to act autonomously in research tasks, from data collection to analysis and synthesis."
     },
     {
       "name": "AI coding assistants",
-      "count": 41,
-      "description": "Focuses on AI tools and research related to assisting developers in writing, reviewing, and debugging code."
+      "count": 37,
+      "description": "Covers AI tools that help developers write, debug, and optimize code, often integrated into IDEs or available as standalone services."
     },
     {
-      "name": "AI research platform",
-      "count": 19,
-      "description": "Articles discussing platforms or integrated systems that leverage AI for various research functions."
-    },
-    {
-      "name": "AI design research",
-      "count": 13,
-      "description": "Explores the intersection of AI and UX/UI design processes, including research, prototyping, and system design."
-    },
-    {
-      "name": "AI tool evaluation",
-      "count": 11,
-      "description": "Content focused on reviewing, comparing, and assessing the performance and utility of various AI tools."
-    },
-    {
-      "name": "AI-powered data analysis",
-      "count": 10,
-      "description": "Articles detailing the use of AI for analyzing datasets, extracting insights, and performing quantitative research."
-    },
-    {
-      "name": "AI qualitative research",
-      "count": 10,
-      "description": "Focuses on AI applications in qualitative research methods like interviews, sentiment analysis, and user feedback."
-    },
-    {
-      "name": "Synthetic users",
-      "count": 10,
-      "description": "Covers the creation and use of artificial user personas or data for testing and research purposes."
+      "name": "AI research tools",
+      "count": 30,
+      "description": "Encompasses a broad range of AI applications that aid in various stages of the research process, from literature review to data processing."
     },
     {
       "name": "AI summarization",
-      "count": 9,
-      "description": "Articles about AI capabilities in condensing large amounts of text into concise summaries for research and analysis."
+      "count": 27,
+      "description": "Deals with AI capabilities that condense large amounts of text, such as articles, reports, or transcripts, into concise summaries."
     },
     {
-      "name": "AI chatbot research",
-      "count": 8,
-      "description": "Research and analysis specifically focused on the behavior, reliability, and impact of AI chatbots."
+      "name": "AI survey tools",
+      "count": 19,
+      "description": "Highlights AI applications designed to assist in the creation, distribution, analysis, and optimization of surveys."
+    },
+    {
+      "name": "Synthetic users",
+      "count": 17,
+      "description": "Explores the use of AI to create artificial user personas or datasets for testing, simulation, and research purposes."
+    },
+    {
+      "name": "AI for design & research",
+      "count": 15,
+      "description": "Covers AI tools and techniques specifically applied to enhance the design process and user research methodologies."
+    },
+    {
+      "name": "AI customer insights",
+      "count": 14,
+      "description": "Focuses on AI applications that analyze customer data to derive actionable insights for product development and marketing."
+    },
+    {
+      "name": "LLM research",
+      "count": 14,
+      "description": "Articles focused on the research, development, and application of Large Language Models in various contexts."
+    },
+    {
+      "name": "AI research platform",
+      "count": 13,
+      "description": "Discusses AI platforms designed to facilitate and accelerate research activities across different domains."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
