@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-05-12T10:39:27.571Z",
+  "lastUpdated": "2026-05-12T18:07:38.342Z",
   "updates": [
     {
       "date": "2026-05-12",
@@ -26,6 +26,18 @@
         "url": "https://www.uxpin.com/studio/blog/build-ux-claude-opus-4-5-mui-uxpin-merge/"
       },
       "analysis": "At Nubank, this workflow could significantly streamline our design and research processes, particularly for rapidly prototyping new features or iterating on existing ones. For example, when exploring improvements to the PIX transfer flow or the onboarding experience for new customers, researchers could use UXPin with Claude Opus 4.5 to quickly generate interactive prototypes with accurate MUI components. This would allow for faster user testing of different UI variations and ensure that the designed elements are directly implementable by our development teams, saving valuable time in the PIX and onboarding development cycles.\n\nResearchers should leverage this by focusing on rapid ideation and validation. Instead of spending extensive time manually building components, they can use the AI to generate initial UI elements based on research requirements. This allows for more time to be allocated to in-depth user interviews and usability testing, ensuring the core user needs are met before significant development investment. However, it's crucial to establish clear guardrails: researchers must critically review AI-generated components for adherence to Nubank's design system and accessibility standards, especially when designing sensitive flows like loan applications or card activation. The AI should be seen as an accelerator for generating common UI patterns, not a replacement for understanding user context and ensuring a secure and intuitive experience across all Nubank products."
+    },
+    {
+      "date": "2026-05-12",
+      "title": "Advancing AI for materials with MatterSim: experimental synthesis, faster simulation, and multi-task models",
+      "summary": "MatterSim is expanding what AI can do for materials science—from faster large-scale simulations to MatterSim-MT, a new multi-task model for simulating properties beyond potential energy surfaces alone. The post Advancing AI for materials with MatterSim: experimental synthesis,...",
+      "content": "Microsoft Research's MatterSim initiative is a significant leap in applying AI to materials science, moving beyond traditional simulations to predict a wider range of material properties. By enabling faster, large-scale simulations and introducing multi-task models like MatterSim-MT, this research accelerates the discovery and design of novel materials. For UX researchers, understanding these advancements is crucial as AI's ability to model complex systems can inform the design of increasingly sophisticated and intelligent user interfaces and experiences. This could translate into more personalized financial products, adaptive platform features, and even novel hardware integrations that improve accessibility and utility in ways we haven't yet imagined.",
+      "category": "AI summarization",
+      "source": {
+        "name": "Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/blog/advancing-ai-for-materials-with-mattersim-experimental-synthesis-faster-simulation-and-multi-task-models/"
+      },
+      "analysis": "At Nubank, MatterSim's principles can be applied to a domain beyond physical materials: the complex, interconnected ecosystem of digital financial services. Instead of simulating molecular interactions, we can adapt the multi-task modeling approach to simulate user behavior across different financial products and touchpoints, such as PIX transactions, loan applications, or card activation flows. This allows us to predict how changes in one area, like a new onboarding feature for insurance, might impact user engagement with other services, optimizing the overall customer journey.\n\nResearchers can leverage this by developing simulations that model not just individual user actions but also the cascading effects of design decisions across our entire product suite. For instance, we could simulate the impact of introducing a simplified PIX onboarding process on the adoption rate of other credit products or the perceived complexity of managing multiple Nubank services. This predictive capability can significantly de-risk new feature rollouts and proactively identify potential friction points before they impact real users. However, we must remember that while powerful, these models are abstractions; qualitative research and user testing remain indispensable for validating AI-driven predictions and understanding the nuances of human financial decision-making."
     },
     {
       "date": "2026-05-11",

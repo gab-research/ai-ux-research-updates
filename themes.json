@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 30,
-      "description": "Covers the application of autonomous AI agents designed to perform research tasks, analyze data, or interact with systems independently."
+      "count": 39,
+      "description": "Covers AI agents designed to perform research tasks autonomously, including exploration, analysis, and task execution."
     },
     {
       "name": "AI coding assistants",
-      "count": 28,
-      "description": "Focuses on AI tools that aid developers in writing, debugging, and understanding code."
-    },
-    {
-      "name": "Synthetic users",
-      "count": 23,
-      "description": "Encompasses AI-generated or simulated user profiles and data used for testing, research, or content creation."
-    },
-    {
-      "name": "AI research tools",
-      "count": 22,
-      "description": "Highlights AI-powered platforms and software designed to assist researchers in various stages of their work, from literature review to data analysis."
-    },
-    {
-      "name": "AI for design & research",
-      "count": 16,
-      "description": "Covers AI applications that directly support and enhance the UX design and user research processes, including idea generation and workflow integration."
-    },
-    {
-      "name": "AI workforce impact",
-      "count": 16,
-      "description": "Examines how AI is affecting jobs, skills, and the overall structure of the workforce, including recruitment and job replacement concerns."
-    },
-    {
-      "name": "AI summarization",
-      "count": 15,
-      "description": "Focuses on AI capabilities for condensing large amounts of text or data into concise summaries."
-    },
-    {
-      "name": "LLM research",
-      "count": 13,
-      "description": "Details research and development related to Large Language Models (LLMs), including their architecture, capabilities, and applications."
+      "count": 34,
+      "description": "Focuses on AI tools that assist developers in writing, debugging, and reviewing code."
     },
     {
       "name": "AI usability testing",
-      "count": 13,
-      "description": "Covers AI tools and methods used to automate, enhance, or analyze usability testing processes."
+      "count": 14,
+      "description": "Explores the application of AI in the process of testing and evaluating the usability of products and services."
     },
     {
-      "name": "AI-powered data analysis",
-      "count": 11,
-      "description": "Features AI applications designed to analyze complex datasets, identify patterns, and extract insights."
+      "name": "AI research tools",
+      "count": 14,
+      "description": "Highlights various AI-powered tools that aid researchers in their work, from data analysis to insight generation."
+    },
+    {
+      "name": "AI for design & research",
+      "count": 10,
+      "description": "Encompasses AI applications specifically tailored to enhance design processes and user research methodologies."
+    },
+    {
+      "name": "AI chatbot research",
+      "count": 10,
+      "description": "Examines research related to the capabilities, limitations, and impact of AI chatbots in various contexts."
+    },
+    {
+      "name": "AI workforce impact",
+      "count": 10,
+      "description": "Covers studies and discussions on how AI is affecting jobs, skills, and the future of work."
+    },
+    {
+      "name": "AI research platform",
+      "count": 9,
+      "description": "Focuses on platforms that integrate multiple AI capabilities to support comprehensive research operations."
+    },
+    {
+      "name": "AI design research",
+      "count": 7,
+      "description": "Specifically looks at how AI is being used to inform and improve the design of user experiences and products."
+    },
+    {
+      "name": "AI summarization",
+      "count": 7,
+      "description": "Covers AI applications that condense large amounts of text into concise summaries for quick understanding."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
