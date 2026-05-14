@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-05-14T04:03:07.077Z",
+  "lastUpdated": "2026-05-14T10:28:09.370Z",
   "updates": [
+    {
+      "date": "2026-05-14",
+      "title": "11 Claude Skills to Turn AI Into Your UX Research Assistant",
+      "summary": "Install these 11 Claude skills and cut your research workflow in half. Transcript cleaning, synthesis, JTBD analysis, survey design, and more — tested on real projects.",
+      "content": "This article from Great Question explores how Claude, a large language model, can be leveraged as a powerful AI assistant for UX researchers. It highlights eleven specific 'skills' that can significantly streamline and accelerate various stages of the research process. By integrating these tools, researchers can automate time-consuming tasks like transcript cleaning and initial synthesis, freeing up valuable time for deeper analysis and strategic thinking. This shift is crucial for UX teams aiming to be more agile and data-driven, enabling faster insights to inform product development for features like PIX transactions or loan application flows.",
+      "category": "Interview analysis",
+      "source": {
+        "name": "Great Question Blog",
+        "url": "https://cms.greatquestion.co/blog/claude-skills-ux-research-assistant"
+      },
+      "analysis": "At Nubank, these Claude skills can be integrated across several key research workflows. For instance, during the analysis of user interviews for new loan products or the PIX onboarding experience, researchers can use Claude for rapid transcript cleaning and preliminary thematic synthesis. This would dramatically reduce the manual effort involved, allowing teams to quickly identify recurring pain points or unmet needs. Similarly, when designing surveys for card activation feedback or insurance product adoption, Claude could assist in generating question ideas and refining survey structures for better clarity and engagement.\n\nResearchers should approach these AI tools as augmentative rather than replacements. While Claude can perform tasks like generating initial hypotheses for JTBD (Jobs To Be Done) analysis on the credit card application flow or suggesting improvements for the onboarding journey, human oversight remains paramount. The generated outputs should always be critically reviewed and validated by experienced researchers. Potential limitations include the need for clear, well-defined prompts to ensure accurate and relevant results, and the importance of maintaining data privacy and security when processing user research data, especially concerning sensitive financial information related to loans or personal accounts."
+    },
     {
       "date": "2026-05-13",
       "title": "UX and SEO: The Complete Guide for Designers in 2026",
@@ -534,7 +546,7 @@
     {
       "date": "2026-04-27",
       "title": "Best user research tools in 2026: 10 platforms compared",
-      "summary": "Side-by-side comparison of 10 user research tools covering recruitment, methods, repository, and AI. Updated for 2026 with real feature breakdowns.",
+      "summary": "Side-by-side comparison of the top 10 user research platforms — features, pricing, AI capabilities, and who each is best for. Updated quarterly.",
       "content": "This article from Great Question Blog provides a forward-looking comparison of the top ten user research tools anticipated for 2026. It delves into how these platforms integrate AI across core research functions like participant recruitment, diverse methodological support, and knowledge repository management. For UX researchers at Nubank, understanding these advancements is crucial for maintaining a competitive edge, enabling them to leverage AI for more efficient, insightful, and scalable research operations. The practical implications include faster access to participants, more sophisticated data analysis, and a consolidated understanding of user behavior across our product suite, from PIX transactions to loan applications.",
       "category": "AI tool evaluation",
       "source": {
