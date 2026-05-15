@@ -1,56 +1,56 @@
 {
   "month": "2026-05",
-  "updated": "2026-05-14",
+  "updated": "2026-05-15",
   "themes": [
     {
-      "name": "Agentic AI in research",
-      "count": 81,
-      "description": "This theme covers AI agents designed to perform specific research tasks, from data analysis to content generation, often acting autonomously or semi-autonomously."
+      "name": "AI research tools",
+      "count": 64,
+      "description": "New AI tool launches, reviews, and platforms built for research workflows."
+    },
+    {
+      "name": "Survey optimization",
+      "count": 61,
+      "description": "AI tools for designing better surveys, reducing bias, and analyzing responses."
     },
     {
       "name": "AI coding assistants",
-      "count": 44,
-      "description": "Articles focused on AI tools that aid developers in writing, debugging, and understanding code, accelerating the software development lifecycle."
-    },
-    {
-      "name": "AI summarization",
-      "count": 27,
-      "description": "Content related to AI's ability to condense large amounts of text, such as research papers, meeting transcripts, or articles, into concise summaries."
-    },
-    {
-      "name": "AI research tools comparison",
-      "count": 18,
-      "description": "This theme includes articles that evaluate, compare, and rank various AI tools available for research and related professional tasks."
-    },
-    {
-      "name": "Synthetic users",
-      "count": 15,
-      "description": "Articles discussing the creation and use of artificial or simulated user profiles for research, testing, or data generation purposes."
+      "count": 47,
+      "description": "Copilot, Claude Code, Cursor, and other AI tools for code generation and development."
     },
     {
       "name": "AI-powered data analysis",
-      "count": 14,
-      "description": "This theme focuses on AI's application in analyzing large datasets to identify patterns, trends, and insights for business or research purposes."
+      "count": 44,
+      "description": "Automated data analysis, clustering, segmentation, and pattern detection."
     },
     {
-      "name": "AI survey tools",
-      "count": 14,
-      "description": "Content related to AI-powered platforms and techniques for designing, distributing, and analyzing surveys more effectively."
-    },
-    {
-      "name": "AI chatbot research",
-      "count": 14,
-      "description": "Articles exploring the use, impact, and research surrounding AI-powered chatbots, including their conversational capabilities and potential effects on users."
-    },
-    {
-      "name": "AI design & research",
-      "count": 13,
-      "description": "This theme covers the intersection of AI with design principles and user research methodologies, including AI's role in ideation and prototyping."
+      "name": "Conversational AI in research",
+      "count": 33,
+      "description": "Chatbots, virtual assistants, and voice AI in research contexts."
     },
     {
       "name": "AI workforce impact",
-      "count": 12,
-      "description": "Articles that examine how AI is changing the job market, including job displacement, skill requirements, and the creation of new roles."
+      "count": 28,
+      "description": "AI replacing roles, future of work, skills gap, reskilling, and organizational change."
+    },
+    {
+      "name": "Agentic AI in research",
+      "count": 27,
+      "description": "Autonomous AI agents running research tasks, multi-agent frameworks, and orchestration."
+    },
+    {
+      "name": "AI tool evaluation",
+      "count": 17,
+      "description": "Comparing, benchmarking, and selecting AI tools and LLMs for specific use cases."
+    },
+    {
+      "name": "AI for product management",
+      "count": 9,
+      "description": "AI in product decisions, discovery, prioritization, and roadmapping."
+    },
+    {
+      "name": "AI content generation",
+      "count": 8,
+      "description": "AI writing, report generation, UX copy, and content creation."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
