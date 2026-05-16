@@ -1,56 +1,56 @@
 {
   "month": "2026-05",
-  "updated": "2026-05-15",
+  "updated": "2026-05-16",
   "themes": [
     {
-      "name": "Agentic AI in research",
-      "count": 112,
-      "description": "Focuses on AI agents designed to perform complex research tasks autonomously or semi-autonomously, including planning, tool use, and iterative problem-solving within research contexts."
+      "name": "Agentic AI research",
+      "count": 68,
+      "description": "Articles discussing AI agents actively participating in or automating aspects of research processes, including data collection, analysis, and insight generation."
     },
     {
       "name": "AI coding assistants",
-      "count": 45,
-      "description": "Covers AI tools that assist developers in writing, reviewing, and debugging code, acting as a pair programmer or intelligent assistant."
-    },
-    {
-      "name": "AI summarization",
-      "count": 38,
-      "description": "Articles detailing AI's capability to condense large amounts of text, such as research papers, meeting transcripts, or articles, into concise summaries."
+      "count": 48,
+      "description": "Content focused on AI tools that assist developers with writing, debugging, reviewing, and understanding code."
     },
     {
       "name": "AI research tools",
-      "count": 34,
-      "description": "Encompasses a broad range of AI-powered tools and platforms designed to enhance or automate various stages of the research process."
+      "count": 40,
+      "description": "Articles detailing specific AI tools and platforms designed to enhance or automate various research activities."
+    },
+    {
+      "name": "AI summarization",
+      "count": 22,
+      "description": "Content on AI capabilities that condense large amounts of text, such as articles, reports, or transcripts, into concise summaries."
+    },
+    {
+      "name": "AI for design and research",
+      "count": 19,
+      "description": "Articles exploring how AI is applied to enhance the creative and analytical aspects of user experience and product design research."
     },
     {
       "name": "AI chatbot research",
-      "count": 32,
-      "description": "Explores the use, impact, and development of AI chatbots specifically within the context of research, user interaction, and information gathering."
+      "count": 17,
+      "description": "Focuses on the use, impact, and research surrounding AI-powered chatbots, including their applications and limitations."
     },
     {
-      "name": "AI design research",
-      "count": 24,
-      "description": "Focuses on the application of AI in the design process, from ideation and concept generation to UI/UX design and prototyping."
+      "name": "AI usability testing",
+      "count": 15,
+      "description": "Articles related to AI's role in automating or augmenting usability testing processes and analysis."
     },
     {
       "name": "Synthetic users",
-      "count": 19,
-      "description": "Covers the creation and use of simulated user profiles or 'digital twins' for testing and research purposes."
+      "count": 14,
+      "description": "Content discussing the creation and use of AI-generated or simulated user profiles for testing and research purposes."
     },
     {
-      "name": "AI recruitment research",
-      "count": 39,
-      "description": "Examines how AI is being used and studied within the recruitment and hiring process, including bias, efficiency, and job displacement."
+      "name": "AI workforce impact",
+      "count": 14,
+      "description": "Research and analysis on how AI is affecting jobs, skills, and the overall labor market, particularly in relation to research and design roles."
     },
     {
-      "name": "AI survey tools",
-      "count": 27,
-      "description": "Articles discussing AI's role in creating, distributing, analyzing, and optimizing surveys and feedback mechanisms."
-    },
-    {
-      "name": "AI testing automation",
-      "count": 21,
-      "description": "Focuses on AI's application in automating testing processes, including software testing, usability testing, and accessibility testing."
+      "name": "AI sentiment feedback",
+      "count": 12,
+      "description": "Articles covering the application of AI to analyze and understand user emotions, opinions, and feedback from various sources."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
