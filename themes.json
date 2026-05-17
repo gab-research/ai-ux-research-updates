@@ -1,56 +1,56 @@
 {
   "month": "2026-05",
-  "updated": "2026-05-16",
+  "updated": "2026-05-17",
   "themes": [
     {
-      "name": "Agentic AI in research",
-      "count": 71,
-      "description": "Focuses on AI agents that can perform research tasks, interact with systems, and make decisions autonomously within research workflows."
+      "name": "AI research tools",
+      "count": 68,
+      "description": "New AI tool launches, reviews, and platforms built for research workflows."
+    },
+    {
+      "name": "AI-powered data analysis",
+      "count": 58,
+      "description": "Automated data analysis, clustering, segmentation, and pattern detection."
+    },
+    {
+      "name": "Survey optimization",
+      "count": 50,
+      "description": "AI tools for designing better surveys, reducing bias, and analyzing responses."
     },
     {
       "name": "AI coding assistants",
-      "count": 56,
-      "description": "Covers AI tools that assist developers in writing, debugging, and refactoring code, often suggesting code snippets or identifying errors."
-    },
-    {
-      "name": "AI research tools",
-      "count": 51,
-      "description": "Articles discussing a variety of AI-powered platforms and software designed to aid researchers in data analysis, discovery, and insight generation."
-    },
-    {
-      "name": "AI chatbot research",
-      "count": 34,
-      "description": "Examines the use, impact, and limitations of AI chatbots in research contexts, including user interaction and data gathering."
-    },
-    {
-      "name": "AI design research",
-      "count": 29,
-      "description": "Explores how AI is applied to the field of UX and product design, from ideation to interface generation and user experience enhancement."
-    },
-    {
-      "name": "AI summarization",
-      "count": 22,
-      "description": "Focuses on AI capabilities for condensing large amounts of text, such as research papers, articles, or meeting transcripts, into concise summaries."
+      "count": 44,
+      "description": "Copilot, Claude Code, Cursor, and other AI tools for code generation and development."
     },
     {
       "name": "AI workforce impact",
-      "count": 21,
-      "description": "Investigates the effects of AI on jobs, employment, skills, and the overall structure of the workforce."
+      "count": 43,
+      "description": "AI replacing roles, future of work, skills gap, reskilling, and organizational change."
     },
     {
-      "name": "Synthetic users",
-      "count": 19,
-      "description": "Articles related to the creation and use of artificial or simulated users for testing, research, or generating content."
+      "name": "Conversational AI in research",
+      "count": 41,
+      "description": "Chatbots, virtual assistants, and voice AI in research contexts."
     },
     {
-      "name": "AI testing automation",
-      "count": 19,
-      "description": "Covers the application of AI in automating software testing processes, including test case generation, execution, and analysis."
+      "name": "Agentic AI in research",
+      "count": 34,
+      "description": "Autonomous AI agents running research tasks, multi-agent frameworks, and orchestration."
     },
     {
-      "name": "AI qualitative research",
-      "count": 17,
-      "description": "Focuses on how AI tools are used to support or enhance qualitative research methods, such as analyzing open-ended responses or interview data."
+      "name": "AI tool evaluation",
+      "count": 14,
+      "description": "Comparing, benchmarking, and selecting AI tools and LLMs for specific use cases."
+    },
+    {
+      "name": "AI summarization",
+      "count": 10,
+      "description": "Automated transcript summaries, theme extraction, and affinity mapping."
+    },
+    {
+      "name": "AI content generation",
+      "count": 10,
+      "description": "AI writing, report generation, UX copy, and content creation."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."

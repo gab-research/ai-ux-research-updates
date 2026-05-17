@@ -1,8 +1,32 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-05-16T17:07:34.687Z",
+  "lastUpdated": "2026-05-17T04:11:34.287Z",
   "updates": [
+    {
+      "date": "2026-05-16",
+      "title": "How to write a DESIGN.md file Claude can actually use",
+      "summary": "Your DESIGN.md should tell a story of your product Continue reading on UX Collective »",
+      "content": "This article outlines a structured approach to creating DESIGN.md files that can be effectively utilized by AI models like Claude. The core idea is to move beyond simple documentation and instead craft a narrative that clearly articulates the product's purpose, user problems addressed, and the proposed solutions with their rationale. For UX researchers, this is crucial for democratizing insights and ensuring AI tools can accurately assist in ideation, synthesis, and even draft documentation, ultimately accelerating the design process and fostering better understanding across teams. Practically, it means framing research findings and design decisions in a way that AI can readily interpret, leading to more efficient AI-powered design exploration and knowledge sharing.",
+      "category": "General AI in research",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/how-to-write-a-design-md-file-claude-can-actually-use-2d89d183f823?source=rss----138adf9c44c---4"
+      },
+      "analysis": "At Nubank, the DESIGN.md file can serve as a centralized, AI-readable repository for design rationale, bridging the gap between research insights and product development. Researchers should adopt this practice during the synthesis phase of a project, whether it's for a new feature like simplified PIX transfers or refining the loan application flow. By documenting the user journey, pain points identified through research (e.g., during card activation or insurance onboarding), and the design choices made to address them, we empower AI tools to generate hypotheses, suggest alternative solutions, or even draft user story mappings. This would be particularly valuable for generating initial drafts of user education content or summarizing complex research findings for product managers.\n\nWhen applying this at Nubank, researchers should ensure DESIGN.md files are structured with clear headings, bullet points, and concise explanations of 'why' behind design decisions, not just 'what'. While this offers significant advantages for AI-assisted ideation and documentation, it's crucial to remember that AI is a tool, not a replacement for human empathy and critical thinking. Researchers must maintain oversight, fact-checking AI-generated content and ensuring the nuances of Brazilian user behavior, particularly around financial literacy and trust, are accurately reflected. The output of AI assistants using these files should be treated as a starting point, requiring human review and refinement before integration into critical user-facing flows like onboarding or the PIX payment process."
+    },
+    {
+      "date": "2026-05-16",
+      "title": "Opening your place to the street",
+      "summary": "On opening a channel to the upstream conversation ─ notes for designers thinking through the age of AI Continue reading on UX Collective »",
+      "content": "This article champions the idea of designers actively engaging with the 'upstream conversation' – the foundational discussions about problem definition and opportunity identification, rather than solely focusing on downstream execution. In the age of AI, this shift is crucial for UX researchers as it allows us to proactively shape the problems AI will help solve, ensuring solutions align with genuine user needs and ethical considerations. By participating in these earlier stages, researchers can guide AI development to address complex user challenges, potentially enhancing experiences across Nubank's product suite from PIX transactions to loan applications and insurance claims.",
+      "category": "AI workforce impact",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/opening-your-place-to-the-street-cf6519afefca?source=rss----138adf9c44c---4"
+      },
+      "analysis": "At Nubank, this article's core message of engaging in upstream conversations is highly relevant to our product development lifecycle. Researchers should actively seek to be involved in the initial strategy and ideation phases for new features or improvements, not just in the validation stages. For instance, before a new PIX feature is conceived, researchers can champion user-centric problem framing, ensuring AI-driven solutions address pain points in discoverability or security. Similarly, during the early conceptualization of new loan products or insurance offerings, research can inform the definition of user needs that AI could then help personalize or streamline.\n\nTo operationalize this, researchers can proactively schedule co-creation sessions with product managers and engineers during the discovery phase. This might involve employing AI-powered tools to synthesize emerging user trends or competitive analyses to inform problem framing. For example, when exploring enhancements to card activation or onboarding flows, understanding the upstream 'why' – the core user anxieties or aspirations – can be significantly amplified by AI insights, leading to more impactful and user-centered AI applications. We must, however, maintain guardrails by always grounding these upstream explorations in robust qualitative and quantitative user data, ensuring that AI doesn't lead us down paths that diverge from genuine user needs or introduce unintended biases."
+    },
     {
       "date": "2026-05-15",
       "title": "AI for Qualitative Coding: 2026 Guide to Auto-Thematic Analysis",
