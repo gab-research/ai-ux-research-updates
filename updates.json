@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-05-18T04:21:14.712Z",
+  "lastUpdated": "2026-05-18T11:51:22.646Z",
   "updates": [
     {
       "date": "2026-05-18",
@@ -26,6 +26,18 @@
         "url": "https://cms.greatquestion.co/blog/great-question-mcp"
       },
       "analysis": "At Nubank, Great Question's MCP server could significantly enhance our research capabilities, particularly when analyzing large volumes of qualitative data from user interviews or usability tests related to products like PIX transactions, loan applications, or card activation flows. Researchers could leverage this by uploading anonymized transcripts directly into Claude or Cursor, then using natural language prompts to quickly identify recurring pain points in our onboarding process or pinpoint areas of confusion in our insurance product information. This would drastically reduce the manual effort required for thematic analysis, allowing us to uncover critical user feedback with greater speed and accuracy.\n\nTo effectively apply this at Nubank, researchers should treat the MCP server as an advanced analytical assistant, not a replacement for core research design and synthesis. It's crucial to maintain a human-centric approach, using the AI to surface patterns and insights, but always validating these findings through critical researcher judgment and triangulating with other data sources. Strict adherence to our data privacy and anonymization protocols is paramount; any participant data fed into the AI must be fully de-identified to ensure compliance and protect user trust. This tool should augment, not automate, our empathy and understanding of the Nubank customer journey."
+    },
+    {
+      "date": "2026-05-18",
+      "title": "UX Roundup: Workflow Redesign in Games Studios | Living Without AI | Learning With AI | Job-Specific Streaming Media | Integrating Voice &amp; Pointing",
+      "summary": "Case study of redesigning workflows for AI in computer game studios | Can you live 4 days without AI?",
+      "content": "This UX Roundup highlights emerging trends and practical applications across various design disciplines, with a particular focus on AI's evolving role. One key takeaway is the transformative impact of AI on workflow redesign within game development studios, offering a glimpse into how AI can automate repetitive tasks, enhance creative processes, and ultimately improve development efficiency. For UX researchers, understanding these workflow shifts is crucial as it signals potential changes in how we collaborate with design and development teams, and how AI might become a tool for our own research practices, from data analysis to insight generation. The article also prompts reflection on our reliance on AI by posing the question of living without it, encouraging a critical examination of our current dependencies and the value AI truly brings to our work.",
+      "category": "Conversational AI in research",
+      "source": {
+        "name": "Jakob Nielsen (Substack)",
+        "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260518"
+      },
+      "analysis": "At Nubank, this article's focus on AI in workflows offers direct relevance to our research operations. We can explore how AI tools can streamline our internal processes, such as automating initial data categorization from user interviews for products like PIX or personal loans, or even assisting in sentiment analysis of customer feedback related to card activation or onboarding flows. This could free up researchers to dedicate more time to strategic thinking and deeper qualitative analysis.\n\nTo apply this at Nubank, researchers should begin by identifying specific pain points or time-consuming tasks within their current research cycles. For example, could AI assist in synthesizing large volumes of open-ended survey responses for our insurance products? We should pilot AI tools for summarization, thematic analysis, or even to generate initial hypotheses from qualitative data. However, it's crucial to establish clear guardrails: AI-generated insights must always be validated by human expertise and qualitative depth. We must maintain ethical considerations regarding data privacy and ensure AI tools are used to augment, not replace, the critical thinking and empathy inherent in robust UX research. The goal is to enhance our capacity to understand and serve our customers across all Nubank offerings."
     },
     {
       "date": "2026-05-16",
