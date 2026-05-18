@@ -1,8 +1,32 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-05-17T17:06:50.124Z",
+  "lastUpdated": "2026-05-18T04:21:14.712Z",
   "updates": [
+    {
+      "date": "2026-05-18",
+      "title": "Best research repository for research ops teams 2026",
+      "summary": "The best AI research repositories for research ops in 2026, scored on governance, stakeholder access, AI search and MCP. ServiceNow went from 15 tools to 7.",
+      "content": "This article from Great Question Blog anticipates the evolving landscape of research repositories by highlighting the impact of AI in 2026. The core idea is that advanced AI capabilities are becoming central to effective research operations, particularly in areas like intelligent search and metadata management. For UX researchers, this signals a future where accessing and synthesizing past research will be significantly faster and more nuanced, enabling them to build upon existing knowledge rather than reinventing the wheel. Practical implications include a potential shift towards more unified platforms that offer sophisticated AI-powered insights, reducing the manual effort involved in knowledge management.",
+      "category": "AI research tools",
+      "source": {
+        "name": "Great Question Blog",
+        "url": "https://cms.greatquestion.co/blog/best-research-repository-research-ops-2026"
+      },
+      "analysis": "At Nubank, this article's insights on AI-powered research repositories fit directly into our ongoing efforts to democratize research and maximize the impact of our findings across product teams (e.g., those working on PIX, loans, or card activation). We should actively explore and pilot AI-driven repositories that can ingest and intelligently tag our extensive research data, from qualitative interviews on onboarding to usability testing of insurance products. This would enable researchers and product managers to quickly surface relevant past findings, preventing redundant research and fostering a more evidence-based decision-making culture.\n\nFor individual researchers, the practical application involves embracing these new AI-enabled tools to enhance their workflow. Instead of relying on manual keyword searches or navigating disparate spreadsheets, researchers can leverage AI to find patterns, identify trends across studies, and quickly access context for new projects. However, we must establish clear guardrails regarding data privacy, ethical AI use, and the interpretability of AI-generated insights. Ensuring that AI complements, rather than replaces, human critical thinking and judgment will be crucial, especially when informing decisions about sensitive financial products and user experiences."
+    },
+    {
+      "date": "2026-05-18",
+      "title": "Great Question MCP: run user research inside Claude, Cursor",
+      "summary": "Great Question's MCP server lets you create studies, add participants, and query transcripts, highlights, and research data, all inside Claude, Cursor, ChatGPT, and other AI tools.",
+      "content": "This article introduces Great Question's MCP server, a revolutionary tool that integrates user research capabilities directly into AI platforms like Claude and Cursor. The core innovation lies in its ability to host the entire research lifecycle – from study creation and participant recruitment to transcript analysis and data querying – within the familiar interfaces of these powerful AI assistants. For UX researchers, this means a paradigm shift towards more efficient and integrated workflows, enabling faster insights extraction and potentially democratizing research by making advanced analysis more accessible. The practical implication is a move towards 'research-as-you-chat,' where insights can be generated and explored collaboratively and contextually alongside AI-powered generative tasks, speeding up the iterative design process.",
+      "category": "AI-powered data analysis",
+      "source": {
+        "name": "Great Question Blog",
+        "url": "https://cms.greatquestion.co/blog/great-question-mcp"
+      },
+      "analysis": "At Nubank, Great Question's MCP server could significantly enhance our research capabilities, particularly when analyzing large volumes of qualitative data from user interviews or usability tests related to products like PIX transactions, loan applications, or card activation flows. Researchers could leverage this by uploading anonymized transcripts directly into Claude or Cursor, then using natural language prompts to quickly identify recurring pain points in our onboarding process or pinpoint areas of confusion in our insurance product information. This would drastically reduce the manual effort required for thematic analysis, allowing us to uncover critical user feedback with greater speed and accuracy.\n\nTo effectively apply this at Nubank, researchers should treat the MCP server as an advanced analytical assistant, not a replacement for core research design and synthesis. It's crucial to maintain a human-centric approach, using the AI to surface patterns and insights, but always validating these findings through critical researcher judgment and triangulating with other data sources. Strict adherence to our data privacy and anonymization protocols is paramount; any participant data fed into the AI must be fully de-identified to ensure compliance and protect user trust. This tool should augment, not automate, our empathy and understanding of the Nubank customer journey."
+    },
     {
       "date": "2026-05-16",
       "title": "How to write a DESIGN.md file Claude can actually use",
