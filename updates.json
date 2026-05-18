@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-05-18T11:51:22.646Z",
+  "lastUpdated": "2026-05-18T18:06:25.645Z",
   "updates": [
     {
       "date": "2026-05-18",
@@ -38,6 +38,18 @@
         "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260518"
       },
       "analysis": "At Nubank, this article's focus on AI in workflows offers direct relevance to our research operations. We can explore how AI tools can streamline our internal processes, such as automating initial data categorization from user interviews for products like PIX or personal loans, or even assisting in sentiment analysis of customer feedback related to card activation or onboarding flows. This could free up researchers to dedicate more time to strategic thinking and deeper qualitative analysis.\n\nTo apply this at Nubank, researchers should begin by identifying specific pain points or time-consuming tasks within their current research cycles. For example, could AI assist in synthesizing large volumes of open-ended survey responses for our insurance products? We should pilot AI tools for summarization, thematic analysis, or even to generate initial hypotheses from qualitative data. However, it's crucial to establish clear guardrails: AI-generated insights must always be validated by human expertise and qualitative depth. We must maintain ethical considerations regarding data privacy and ensure AI tools are used to augment, not replace, the critical thinking and empathy inherent in robust UX research. The goal is to enhance our capacity to understand and serve our customers across all Nubank offerings."
+    },
+    {
+      "date": "2026-05-18",
+      "title": "Be like water, The death of the empty state, AI for UX",
+      "summary": "Be like water, The death of the empty state, AI for UX",
+      "content": "This article advocates for a shift in how UX designers and researchers approach \"empty states,\" those initial screens users encounter before they've generated data or content. Instead of passively displaying empty interfaces, the authors propose \"being like water\" – making these states dynamic, interactive, and immediately valuable by integrating AI.  This is crucial for UX researchers as it transforms a traditionally overlooked area into a powerful onboarding and engagement tool, offering immediate contextual help and personalized guidance.  Practical implications include leveraging AI to proactively suggest actions, offer relevant tutorials, or even generate placeholder content that guides users towards their goals, thereby reducing friction and enhancing user adoption across all product features.",
+      "category": "AI research tools",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/be-like-water-the-death-of-the-empty-state-ai-for-ux-88654390e8ee?source=rss----138adf9c44c---4"
+      },
+      "analysis": "At Nubank, the concept of \"AI for UX\" by reimagining empty states perfectly aligns with our mission of simplifying financial lives. This approach can be integrated across our product suite. For example, during the initial onboarding for a new feature like PIX or a loan application, instead of just showing an empty list of transactions or approved loans, AI could proactively suggest common PIX recipients based on user behavior (with consent, of course), or offer personalized tips on how to best utilize the loan. For card activation, an AI-powered empty state could immediately offer relevant FAQs or a guided setup process rather than a static \"card activated\" message.\n\nResearchers can begin by identifying key empty states within existing flows like onboarding, setting up recurring payments, or accessing specific insurance details. For each identified state, we should explore how AI could: 1. **Educate:** Provide context-sensitive micro-tutorials or helpful tips. 2. **Enable:** Suggest immediate next steps or relevant actions. 3. **Personalize:** Offer tailored recommendations based on user profiles and previous interactions. For instance, in the credit card section, an empty state could leverage AI to suggest personalized spending insights or relevant Nubank offers once the card is active and some transaction history exists. \n\nGuardrails are paramount. Any AI implementation must prioritize user privacy and data security, adhering strictly to LGPD. Transparency about AI's role and ensuring users have clear control over data usage is essential. We must also conduct rigorous A/B testing to ensure AI-driven empty states genuinely improve user experience and do not introduce unintended cognitive load or confusion. Researchers should focus on AI that demonstrably reduces task completion time, increases feature adoption, and enhances user satisfaction, rather than implementing AI for its own sake."
     },
     {
       "date": "2026-05-16",
