@@ -1,56 +1,56 @@
 {
   "month": "2026-05",
-  "updated": "2026-05-18",
+  "updated": "2026-05-19",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 99,
-      "description": "Focuses on AI agents performing tasks, analyses, or workflows within research processes."
+      "count": 88,
+      "description": "Focuses on AI agents that can perform research tasks autonomously, often with a degree of independence and decision-making."
     },
     {
       "name": "AI coding assistants",
-      "count": 78,
-      "description": "Articles discussing AI tools that help developers write, debug, or understand code."
+      "count": 76,
+      "description": "Covers AI tools that aid developers in writing, debugging, and understanding code."
     },
     {
       "name": "AI research tools",
-      "count": 56,
-      "description": "Covers a broad range of AI tools specifically designed to aid researchers in their work."
-    },
-    {
-      "name": "AI workforce impact",
-      "count": 51,
-      "description": "Examines how AI influences jobs, employment, recruitment, and the overall labor market."
-    },
-    {
-      "name": "AI summarization",
-      "count": 35,
-      "description": "Details AI capabilities for condensing large amounts of text into shorter, digestible summaries."
-    },
-    {
-      "name": "AI tool evaluation",
-      "count": 33,
-      "description": "Articles that compare, review, or rank various AI tools and platforms."
-    },
-    {
-      "name": "AI chatbot research",
-      "count": 32,
-      "description": "Focuses on the research, development, and user experience of AI-powered chatbots."
-    },
-    {
-      "name": "AI design & research",
-      "count": 28,
-      "description": "Explores the intersection of AI and the design process, including UI/UX design and research."
-    },
-    {
-      "name": "AI-powered data analysis",
-      "count": 27,
-      "description": "Covers AI applications for analyzing, interpreting, and extracting insights from data."
+      "count": 58,
+      "description": "Highlights AI-powered platforms and tools designed to streamline and enhance various aspects of the research process."
     },
     {
       "name": "AI usability testing",
+      "count": 48,
+      "description": "Explores the application of AI in automating and enhancing the process of testing product usability."
+    },
+    {
+      "name": "AI summarization",
+      "count": 42,
+      "description": "Focuses on AI's ability to condense large amounts of text into concise summaries, aiding comprehension and information extraction."
+    },
+    {
+      "name": "AI workforce impact",
+      "count": 41,
+      "description": "Examines how AI is affecting jobs, skill requirements, and the overall employment landscape."
+    },
+    {
+      "name": "AI-powered data analysis",
+      "count": 32,
+      "description": "Covers AI applications used to analyze data, identify patterns, and extract insights."
+    },
+    {
+      "name": "AI customer insights",
+      "count": 30,
+      "description": "Focuses on using AI to understand customer behavior, preferences, and needs."
+    },
+    {
+      "name": "AI qualitative research",
       "count": 25,
-      "description": "Articles about using AI to automate or enhance the process of testing user interfaces and products."
+      "description": "Explores how AI can assist in analyzing and interpreting qualitative data, such as interviews and open-ended feedback."
+    },
+    {
+      "name": "AI research platform",
+      "count": 25,
+      "description": "Features AI-native platforms and infrastructure designed to support complex research operations and development."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."

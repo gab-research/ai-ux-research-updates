@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-05-18T18:06:25.645Z",
+  "lastUpdated": "2026-05-19T04:16:24.246Z",
   "updates": [
     {
       "date": "2026-05-18",
@@ -50,6 +50,18 @@
         "url": "https://uxdesign.cc/be-like-water-the-death-of-the-empty-state-ai-for-ux-88654390e8ee?source=rss----138adf9c44c---4"
       },
       "analysis": "At Nubank, the concept of \"AI for UX\" by reimagining empty states perfectly aligns with our mission of simplifying financial lives. This approach can be integrated across our product suite. For example, during the initial onboarding for a new feature like PIX or a loan application, instead of just showing an empty list of transactions or approved loans, AI could proactively suggest common PIX recipients based on user behavior (with consent, of course), or offer personalized tips on how to best utilize the loan. For card activation, an AI-powered empty state could immediately offer relevant FAQs or a guided setup process rather than a static \"card activated\" message.\n\nResearchers can begin by identifying key empty states within existing flows like onboarding, setting up recurring payments, or accessing specific insurance details. For each identified state, we should explore how AI could: 1. **Educate:** Provide context-sensitive micro-tutorials or helpful tips. 2. **Enable:** Suggest immediate next steps or relevant actions. 3. **Personalize:** Offer tailored recommendations based on user profiles and previous interactions. For instance, in the credit card section, an empty state could leverage AI to suggest personalized spending insights or relevant Nubank offers once the card is active and some transaction history exists. \n\nGuardrails are paramount. Any AI implementation must prioritize user privacy and data security, adhering strictly to LGPD. Transparency about AI's role and ensuring users have clear control over data usage is essential. We must also conduct rigorous A/B testing to ensure AI-driven empty states genuinely improve user experience and do not introduce unintended cognitive load or confusion. Researchers should focus on AI that demonstrably reduces task completion time, increases feature adoption, and enhances user satisfaction, rather than implementing AI for its own sake."
+    },
+    {
+      "date": "2026-05-18",
+      "title": "UX Design Process: The Complete 7-Step Guide for 2026",
+      "summary": "Learn the 7 essential steps of the UX design process — from research and ideation to prototyping, testing, and developer handoff. Includes AI-accelerated workflows, code-backed prototyping with UXPin Merge, and best practices for shipping better products faster in 2026. The po...",
+      "content": "Learn the 7 essential steps of the UX design process — from research and ideation to prototyping, testing, and developer handoff. Includes AI-accelerated workflows, code-backed prototyping with UXPin Merge, and best practices for shipping better products faster in 2026. The post UX Design Process: The Complete 7-Step Guide for 2026 appeared first on Studio by UXPin.",
+      "category": "AI research tools",
+      "source": {
+        "name": "UXPin Blog",
+        "url": "https://www.uxpin.com/studio/blog/design-process-ux/"
+      },
+      "analysis": ""
     },
     {
       "date": "2026-05-16",
