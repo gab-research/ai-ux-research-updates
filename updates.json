@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-05-19T11:28:27.344Z",
+  "lastUpdated": "2026-05-19T18:11:44.312Z",
   "updates": [
+    {
+      "date": "2026-05-19",
+      "title": "AI Engineering - All Things Product Podcast with Teresa Torres &amp; Petra Wille",
+      "summary": "Listen to this episode on: Spotify | Apple Podcasts What happens when a product leader accidentally becomes an AI engineer? In this episode, Teresa Torres shares how she went from occasional tinkerer to spending 60% of her time doing real engineering work — building AI-powered...",
+      "content": "This \"All Things Product\" podcast episode features Teresa Torres, a product leader who has unexpectedly found herself deeply involved in AI engineering.  The core of the discussion likely revolves around her journey from a general product background to dedicating a significant portion of her time to building AI-powered features. This shift is highly relevant for UX researchers as it highlights the increasing integration of AI into product development cycles. Understanding how product leaders are navigating and implementing AI can inform how UX researchers can best collaborate with engineering teams and proactively identify opportunities to leverage AI for enhanced user experiences, potentially impacting areas like personalized financial advice or fraud detection in real-time transactions.",
+      "category": "AI for product management",
+      "source": {
+        "name": "Teresa Torres (Product Talk)",
+        "url": "https://www.producttalk.org/ai-engineering-all-things-product-podcast-with-teresa-torres-petra-wille/"
+      },
+      "analysis": "This podcast offers valuable insights for Nubank UX researchers by showcasing how product leaders are directly engaging with AI development.  Researchers can leverage this by proactively identifying opportunities where AI can enhance user flows within Nubank's existing product suite. For instance, during the card activation or onboarding process, AI could personalize content or identify potential friction points in real-time. Similarly, for loans or PIX transactions, AI could be used to offer more tailored support or risk assessments, directly impacting user trust and efficiency.  Researchers should aim to understand the 'why' and 'how' of AI implementation from a product perspective, enabling them to shape AI-driven features with a user-centric lens from the outset, rather than treating AI as a post-hoc addition.\n\nTo apply this at Nubank, researchers should actively seek out discussions around AI initiatives within product teams. This involves moving beyond traditional usability testing to exploring the potential of AI in areas like personalized nudges for savings goals, more intelligent fraud alerts during PIX transfers, or even adaptive interfaces for insurance policy management.  It's crucial to establish clear guardrails regarding data privacy and ethical AI use, ensuring that AI applications, while innovative, always prioritize user trust and security.  The focus should be on augmenting human capabilities and improving user outcomes, not simply deploying AI for its own sake, ensuring that Nubank's innovative spirit is coupled with responsible AI practices."
+    },
     {
       "date": "2026-05-18",
       "title": "Best research repository for research ops teams 2026",
@@ -55,13 +67,13 @@
       "date": "2026-05-18",
       "title": "UX Design Process: The Complete 7-Step Guide for 2026",
       "summary": "Learn the 7 essential steps of the UX design process — from research and ideation to prototyping, testing, and developer handoff. Includes AI-accelerated workflows, code-backed prototyping with UXPin Merge, and best practices for shipping better products faster in 2026. The po...",
-      "content": "Learn the 7 essential steps of the UX design process — from research and ideation to prototyping, testing, and developer handoff. Includes AI-accelerated workflows, code-backed prototyping with UXPin Merge, and best practices for shipping better products faster in 2026. The post UX Design Process: The Complete 7-Step Guide for 2026 appeared first on Studio by UXPin.",
+      "content": "This UXPin Blog article outlines a comprehensive 7-step UX design process optimized for the near future, emphasizing the integration of AI to accelerate workflows. The core idea is to streamline and enhance traditional UX methodologies by leveraging AI-powered tools for tasks like research synthesis, ideation, and even early-stage prototyping. For UX researchers, this signifies a shift towards more efficient data analysis and the potential for quicker iterative cycles, ultimately enabling them to contribute more strategically to product development and deliver improved user experiences at a faster pace.",
       "category": "AI research tools",
       "source": {
         "name": "UXPin Blog",
         "url": "https://www.uxpin.com/studio/blog/design-process-ux/"
       },
-      "analysis": ""
+      "analysis": "This article's emphasis on AI-accelerated workflows directly impacts Nubank's research process by offering opportunities to optimize time-intensive stages. For instance, AI could assist in synthesizing large volumes of user feedback from channels like our app reviews or customer support interactions regarding PIX transactions or loan applications. Researchers could leverage AI-generated summaries to identify emerging pain points or popular feature requests, freeing up time for deeper qualitative analysis and strategic recommendation development. This aligns with our goal of delivering innovative financial solutions faster.\n\nWhen applying these AI-accelerated approaches, researchers at Nubank should focus on using AI as an augmentation tool, not a replacement for critical thinking and human empathy. For new product launches, like a future insurance offering or card activation flow, AI could help rapidly identify user needs and potential usability issues based on existing data. However, human oversight remains crucial for validating AI outputs, especially in sensitive areas like credit assessment for loans or understanding the nuances of complex onboarding processes. We must maintain ethical considerations and data privacy standards, ensuring AI-generated insights are interpreted within the broader context of Nubank's user-centric values and regulatory requirements."
     },
     {
       "date": "2026-05-16",
