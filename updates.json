@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-05-20T04:20:16.503Z",
+  "lastUpdated": "2026-05-20T11:14:04.250Z",
   "updates": [
     {
       "date": "2026-05-19",
@@ -950,18 +950,6 @@
         "url": "https://www.parallelhq.com/blog/how-to-use-ai-concept-testing"
       },
       "analysis": "At Nubank, AI-powered concept testing can be integrated into our early-stage product development, particularly for features within existing products or entirely new offerings like micro-insurance or specialized loan products. Researchers can feed AI models with early mockups, user story summaries, and hypothetical user personas to generate initial feedback and identify potential usability or desirability issues. For instance, when testing a new feature for the PIX transfer flow, AI could quickly analyze sentiment from simulated user responses to different UI variations, flagging areas of confusion or strong preference, thereby informing design iterations before we even consider user interviews.\n\nResearchers should approach AI concept testing as a powerful augmentation, not a replacement, for human judgment. While AI can accelerate analysis and identify patterns, it's crucial to apply critical thinking to the generated insights. Potential limitations include the AI's understanding of nuanced cultural contexts specific to Brazil, which could impact the interpretation of feedback related to financial literacy or trust in digital banking. Therefore, AI-generated validation should always be triangulated with qualitative research methods, such as moderated user testing sessions for card activation flows or in-depth interviews during the onboarding process, to ensure a holistic understanding and mitigate bias."
-    },
-    {
-      "date": "2026-04-20",
-      "title": "Claude CoWork + UXR Deliverables",
-      "summary": "Watch how I transform a customer journey map from static -&gt; interactive",
-      "content": "Nikki Anderson's \"Claude CoWork + UXR Deliverables\" demonstrates the practical application of AI, specifically Claude, in enhancing traditional UX research outputs.  The core idea is to leverage AI to dynamically transform static deliverables, like customer journey maps, into interactive and more insightful tools. This is crucial for UX researchers seeking to present complex user data in engaging and actionable ways that resonate with cross-functional teams, leading to more impactful product decisions and improved user experiences.",
-      "category": "AI workforce impact",
-      "source": {
-        "name": "Nikki Anderson (User Research Strategist)",
-        "url": "https://www.userresearchstrategist.com/p/claude-cowork-uxr-deliverables"
-      },
-      "analysis": "At Nubank, this approach can be integrated into our post-research synthesis phase. Imagine taking a completed customer journey map for our PIX or credit card activation flows and feeding it into Claude. Researchers could prompt Claude to identify key pain points, suggest areas for A/B testing, or even generate potential user story variations based on the map's narrative. This transforms a static document into an active brainstorming partner, accelerating the ideation process for features within products like our personal loans or onboarding experience.\n\nResearchers should use Claude as a 'co-pilot' to augment their analysis, not replace it.  When exploring improvements to our insurance product onboarding, for example, a researcher could feed anonymized interview transcripts or survey data into Claude alongside a journey map. The AI can help surface patterns and correlations that might be time-consuming to manually identify.  However, it's vital to maintain human oversight and critical evaluation; Claude's output should be treated as hypotheses to be validated by further research or expert judgment, especially when dealing with sensitive financial data and ensuring adherence to data privacy regulations."
     },
     {
       "date": "2026-04-20",
