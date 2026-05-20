@@ -1,56 +1,56 @@
 {
   "month": "2026-05",
-  "updated": "2026-05-19",
+  "updated": "2026-05-20",
   "themes": [
     {
       "name": "AI research tools",
-      "count": 81,
+      "count": 79,
       "description": "New AI tool launches, reviews, and platforms built for research workflows."
     },
     {
       "name": "AI-powered data analysis",
-      "count": 69,
+      "count": 71,
       "description": "Automated data analysis, clustering, segmentation, and pattern detection."
     },
     {
       "name": "Survey optimization",
-      "count": 56,
+      "count": 64,
       "description": "AI tools for designing better surveys, reducing bias, and analyzing responses."
     },
     {
       "name": "Conversational AI in research",
-      "count": 53,
+      "count": 46,
       "description": "Chatbots, virtual assistants, and voice AI in research contexts."
     },
     {
+      "name": "AI workforce impact",
+      "count": 45,
+      "description": "AI replacing roles, future of work, skills gap, reskilling, and organizational change."
+    },
+    {
       "name": "AI coding assistants",
-      "count": 47,
+      "count": 42,
       "description": "Copilot, Claude Code, Cursor, and other AI tools for code generation and development."
     },
     {
       "name": "Agentic AI in research",
-      "count": 41,
+      "count": 36,
       "description": "Autonomous AI agents running research tasks, multi-agent frameworks, and orchestration."
     },
     {
-      "name": "AI workforce impact",
-      "count": 41,
-      "description": "AI replacing roles, future of work, skills gap, reskilling, and organizational change."
-    },
-    {
       "name": "AI tool evaluation",
-      "count": 20,
+      "count": 18,
       "description": "Comparing, benchmarking, and selecting AI tools and LLMs for specific use cases."
     },
     {
       "name": "AI content generation",
-      "count": 17,
+      "count": 14,
       "description": "AI writing, report generation, UX copy, and content creation."
     },
     {
-      "name": "AI summarization",
-      "count": 14,
-      "description": "Automated transcript summaries, theme extraction, and affinity mapping."
+      "name": "AI for product management",
+      "count": 13,
+      "description": "AI in product decisions, discovery, prioritization, and roadmapping."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
