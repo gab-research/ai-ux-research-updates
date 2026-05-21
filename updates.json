@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-05-21T11:33:31.153Z",
+  "lastUpdated": "2026-05-21T18:07:23.631Z",
   "updates": [
     {
       "date": "2026-05-21",
@@ -50,6 +50,18 @@
         "url": "https://jakobnielsenphd.substack.com/p/artifact-to-intent"
       },
       "analysis": "At Nubank, this \"intent-shaping\" paradigm means our UX research efforts must pivot beyond just evaluating existing flows like PIX transfers or credit card activation. Instead, we should proactively identify moments where user intent is unclear or could be optimized. For instance, during onboarding, researchers could leverage AI-assisted analysis of early user interactions to predict potential intent shifts or areas of confusion, allowing us to refine the system's guidance. Similarly, in loan application processes, understanding the user's underlying financial goals, not just their stated needs, can inform how AI-powered nudges or personalized recommendations are designed to better serve them."
+    },
+    {
+      "date": "2026-05-21",
+      "title": "Vega: Zero-knowledge proofs for digital identity in the age of AI",
+      "summary": "Vega turns a full credential into a single proof, sharing only what is needed and nothing more, with performance that works in real apps. The post Vega: Zero-knowledge proofs for digital identity in the age of AI appeared first on Microsoft Research.",
+      "content": "This Microsoft Research article introduces Vega, a novel system leveraging zero-knowledge proofs (ZKPs) to enhance digital identity management in the era of AI.  Vega enables the creation of a single, verifiable proof from a set of credentials, allowing individuals to selectively disclose only the minimum necessary information. This is crucial for UX researchers as it offers a pathway to build trust and enhance privacy in user interactions, especially as AI systems become more integrated into financial services.  The practical implication is the potential for more secure and user-centric digital experiences, reducing data exposure while still allowing for robust identity verification in applications like onboarding or loan applications.",
+      "category": "Survey optimization",
+      "source": {
+        "name": "Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/blog/vega-zero-knowledge-proofs-for-digital-identity-in-the-age-of-ai/"
+      },
+      "analysis": "At Nubank, Vega's principles can significantly impact our user research for sensitive flows like onboarding and loan applications. Instead of traditional methods that might involve sharing extensive personal data for verification, researchers can explore how ZKPs could allow users to prove eligibility or identity attributes (e.g., age for insurance, income for loans) without revealing the underlying sensitive data. This directly addresses user privacy concerns and can lead to smoother, more trust-building experiences. For example, imagine a user needing to confirm they are over 18 for a credit card offer; Vega could enable them to prove their age without disclosing their exact birthdate, streamlining the process and enhancing data security.\n\nResearchers should focus on understanding user perceptions of this advanced privacy technology and how it influences their willingness to share information or trust Nubank. We can design prototypes for specific scenarios, such as PIX transactions requiring age verification or card activation needing identity confirmation, and test the user experience. Key considerations for our research will be clarity in explaining the benefits of ZKPs to users without technical jargon, ensuring the process remains intuitive, and gathering feedback on how this enhanced privacy impacts their overall satisfaction and trust in Nubank's digital services. Guardrails should include rigorous security audits of any ZKP implementation and clear communication to users about what information is being proven and why, ensuring we maintain transparency and avoid creating new privacy anxieties."
     },
     {
       "date": "2026-05-20",

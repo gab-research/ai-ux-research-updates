@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 98,
-      "description": "Covers AI agents that perform research tasks, automate workflows, and act autonomously in research contexts."
+      "count": 116,
+      "description": "Covers AI agents that autonomously perform research tasks, manage workflows, and generate insights for researchers."
     },
     {
       "name": "AI coding assistants",
-      "count": 54,
-      "description": "Focuses on AI tools that help developers write, debug, and review code."
+      "count": 48,
+      "description": "Focuses on AI tools that help developers write, debug, and understand code, accelerating software development."
+    },
+    {
+      "name": "AI research tools",
+      "count": 40,
+      "description": "Encompasses a broad range of AI-powered platforms and tools designed to assist researchers in various aspects of their work, from data analysis to literature review."
     },
     {
       "name": "AI summarization",
       "count": 33,
-      "description": "Articles discussing AI's ability to condense large amounts of text or data into concise summaries."
+      "description": "Includes articles discussing AI's capability to condense large amounts of text, audio, or video into concise summaries."
     },
     {
-      "name": "AI research tools",
-      "count": 29,
-      "description": "Articles detailing specific AI tools designed to assist researchers in various aspects of their work."
-    },
-    {
-      "name": "AI research platform",
-      "count": 28,
-      "description": "Focuses on platforms that integrate multiple AI capabilities for research purposes."
-    },
-    {
-      "name": "AI recruitment research",
-      "count": 25,
-      "description": "Examines the impact of AI on job markets, hiring processes, and the future of work."
-    },
-    {
-      "name": "Synthetic users",
-      "count": 18,
-      "description": "Covers the use of synthetic data and digital twins for user research and simulation."
-    },
-    {
-      "name": "AI qualitative research",
-      "count": 16,
-      "description": "Articles exploring AI's application in qualitative data analysis and generating insights from non-numerical data."
-    },
-    {
-      "name": "AI design research",
-      "count": 15,
-      "description": "Focuses on AI's role in aiding designers throughout the research and ideation phases."
+      "name": "AI sentiment feedback",
+      "count": 27,
+      "description": "Covers AI's use in analyzing user feedback, reviews, and social media to understand emotions and opinions."
     },
     {
       "name": "AI usability testing",
-      "count": 13,
-      "description": "Discusses the use of AI in automating or enhancing usability testing processes."
+      "count": 26,
+      "description": "Features AI applications that assist in the process of testing the usability and effectiveness of products and interfaces."
+    },
+    {
+      "name": "AI design research",
+      "count": 24,
+      "description": "Focuses on how AI is being integrated into the design process for user interfaces, user experiences, and creative assets."
+    },
+    {
+      "name": "AI workforce impact",
+      "count": 23,
+      "description": "Examines the effects of AI on jobs, skills, and the overall labor market, including fears of displacement and the need for upskilling."
+    },
+    {
+      "name": "Synthetic users",
+      "count": 21,
+      "description": "Discusses the creation and use of artificial users or data for testing, training, or simulating real-world user behavior."
+    },
+    {
+      "name": "AI product research",
+      "count": 18,
+      "description": "Covers the application of AI in understanding product performance, market trends, and user engagement for product development and strategy."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
