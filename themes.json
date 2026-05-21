@@ -1,56 +1,56 @@
 {
   "month": "2026-05",
-  "updated": "2026-05-20",
+  "updated": "2026-05-21",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 110,
-      "description": "Articles focusing on AI agents that can perform research tasks autonomously or assist researchers in complex workflows."
+      "count": 120,
+      "description": "Focuses on AI agents that perform research tasks autonomously, including agents for intelligence gathering, workflow automation, and complex problem-solving."
     },
     {
       "name": "AI coding assistants",
-      "count": 56,
-      "description": "Content related to AI tools that help developers write, debug, and understand code, improving research productivity."
+      "count": 39,
+      "description": "Covers AI tools and research that assist in writing, debugging, and understanding code, often integrated into development workflows."
     },
     {
       "name": "AI research tools",
-      "count": 47,
-      "description": "Articles discussing specific AI-powered tools and platforms designed to aid in various aspects of research."
-    },
-    {
-      "name": "Synthetic users",
-      "count": 20,
-      "description": "Focuses on the creation and use of simulated user data or 'digital twins' for research and testing purposes."
+      "count": 30,
+      "description": "Encompasses articles discussing a broad range of AI tools designed to aid researchers in various aspects of their work, from data analysis to literature review."
     },
     {
       "name": "AI summarization",
-      "count": 17,
-      "description": "Articles about AI systems that condense large amounts of text or data into concise summaries."
+      "count": 26,
+      "description": "Articles focused on AI's ability to condense large amounts of text into concise summaries, useful for reports, meetings, and research synthesis."
     },
     {
-      "name": "AI qualitative research",
-      "count": 15,
-      "description": "Explores how AI is being used to assist in or transform qualitative research methods and analysis."
+      "name": "Synthetic users",
+      "count": 24,
+      "description": "Explores the creation and use of artificial user profiles or 'digital twins' for testing, data generation, and market research simulations."
     },
     {
-      "name": "AI design research",
-      "count": 13,
-      "description": "Content detailing the application of AI in understanding design principles, user interfaces, and design processes."
+      "name": "AI-powered data analysis",
+      "count": 21,
+      "description": "Details how AI is used to analyze qualitative and quantitative data, uncovering insights, identifying patterns, and driving decision-making."
+    },
+    {
+      "name": "AI chatbot research",
+      "count": 20,
+      "description": "Investigates the use of AI chatbots in research contexts, including their impact on user trust, learning, and the potential for misinformation."
     },
     {
       "name": "AI workforce impact",
-      "count": 12,
-      "description": "Discussions on how AI is affecting jobs, skill requirements, and the future of the workforce."
+      "count": 19,
+      "description": "Examines how AI is affecting jobs, skills, and employment trends, including concerns about job displacement and the need for reskilling."
     },
     {
-      "name": "AI usability testing",
-      "count": 12,
-      "description": "Articles concerning the use of AI to automate or enhance usability testing processes and analysis."
+      "name": "AI for design & research",
+      "count": 18,
+      "description": "Focuses on AI's application in the creative process for design and research, including AI-assisted ideation, prototyping, and workflow optimization."
     },
     {
-      "name": "AI product research",
-      "count": 10,
-      "description": "Focuses on AI's role in understanding user needs, market trends, and developing product strategies."
+      "name": "AI testing automation",
+      "count": 17,
+      "description": "Covers the application of AI in automating software testing processes, including functional, accessibility, and performance testing."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
