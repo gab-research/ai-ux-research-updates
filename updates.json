@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-05-22T04:19:53.756Z",
+  "lastUpdated": "2026-05-22T10:57:21.849Z",
   "updates": [
     {
       "date": "2026-05-21",
@@ -101,7 +101,7 @@
     },
     {
       "date": "2026-05-19",
-      "title": "AI Engineering - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "title": "AI Engineering - All Things Product Podcast with Teresa Torres &amp; Petra Wille",
       "summary": "Listen to this episode on: Spotify | Apple Podcasts What happens when a product leader accidentally becomes an AI engineer? In this episode, Teresa Torres shares how she went from occasional tinkerer to spending 60% of her time doing real engineering work — building AI-powered...",
       "content": "This \"All Things Product\" podcast episode features Teresa Torres, a product leader who has unexpectedly found herself deeply involved in AI engineering.  The core of the discussion likely revolves around her journey from a general product background to dedicating a significant portion of her time to building AI-powered features. This shift is highly relevant for UX researchers as it highlights the increasing integration of AI into product development cycles. Understanding how product leaders are navigating and implementing AI can inform how UX researchers can best collaborate with engineering teams and proactively identify opportunities to leverage AI for enhanced user experiences, potentially impacting areas like personalized financial advice or fraud detection in real-time transactions.",
       "category": "AI for product management",
@@ -986,18 +986,6 @@
         "url": "https://openai.com/index/introducing-gpt-5-5"
       },
       "analysis": "At Nubank, GPT-5.5 can be integrated into several stages of our UX research workflow. For instance, during the ideation and discovery phases, researchers can leverage it to quickly analyze large volumes of customer feedback from channels like app reviews or customer support interactions related to specific products such as PIX transactions or loan applications. This could involve summarizing recurring pain points or identifying emerging user needs.  Furthermore, in the analysis phase, GPT-5.5 could assist in synthesizing qualitative interview transcripts, identifying thematic patterns related to onboarding friction or card activation issues, thereby expediting the creation of actionable insights.\n\nResearchers should approach GPT-5.5 as a powerful augmentation tool, not a replacement for human critical thinking.  When applying it, focus on leveraging its strengths in speed and pattern recognition for initial data processing. For example, it could help draft variations of survey questions for insurance products or generate preliminary user personas based on aggregated behavioral data. However, it is crucial to critically review all outputs for accuracy, bias, and relevance, especially when dealing with sensitive financial data or complex user journeys.  Always ensure adherence to Nubank's data privacy policies and maintain human oversight for final strategic decisions, particularly when informing product development for areas like credit card management or personal loan applications."
-    },
-    {
-      "date": "2026-04-22",
-      "title": "The UX Designer’s Nightmare: When “Production-Ready” Becomes A Design Deliverable",
-      "summary": "In a rush to embrace AI, the industry is redefining what it means to be a UX designer, blurring the line between design and engineering. Carrie Webster explores what’s gained, what’s lost, and why designers need to remain the guardians of the user experience.",
-      "content": "This article argues that the rapid adoption of AI in design is leading to a dangerous shift where \"production-ready\" is becoming an expected design deliverable, pushing UX designers into more engineering-focused roles. This blurring of lines threatens to diminish the core responsibilities of UX designers, potentially sacrificing deep user understanding for quicker, code-generated outputs. For UX researchers, this trend highlights the critical need to advocate for user-centric methodologies and to ensure that AI tools augment, rather than replace, the qualitative insights that form the bedrock of effective user experiences. The practical implication is that researchers must actively educate stakeholders on the value of their distinct expertise, ensuring AI integrations serve to enhance research insights, not to automate away the human element of design.",
-      "category": "AI for product management",
-      "source": {
-        "name": "Smashing Magazine",
-        "url": "https://smashingmagazine.com/2026/04/production-ready-becomes-design-deliverable-ux/"
-      },
-      "analysis": "At Nubank, this article's premise directly impacts our research workflow by emphasizing the need to critically evaluate AI-driven design tools. When considering AI for generating user interfaces or optimizing existing flows like our onboarding process or PIX transactions, researchers must ensure that the generated 'production-ready' elements are rigorously tested for usability and desirability. We need to establish clear checkpoints where the output of AI is treated as a prototype for validation, not a final solution. This means researchers will be responsible for designing and executing user tests to confirm that AI-generated designs truly meet user needs, rather than assuming AI has already achieved this.\n\nResearchers should leverage AI to accelerate tasks like preliminary persona generation or identifying patterns in large datasets, but always with a critical lens. The guardrail is that AI should never replace direct user interaction or qualitative insights gathering. For instance, while AI might suggest UI tweaks for our credit card activation flow or insurance policy application, researchers must conduct usability studies to understand the nuances of user confusion or delight, ensuring that the AI's efficiency doesn't come at the expense of genuine user empathy. The core of our research must remain focused on understanding the 'why' behind user behaviors, even when AI is involved in the 'how' of the design."
     }
   ]
 }
