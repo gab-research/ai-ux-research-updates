@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 145,
-      "description": "Focuses on AI agents that can perform complex research tasks autonomously or with minimal human intervention, including data analysis, summarization, and strategy generation."
+      "count": 65,
+      "description": "Covers AI agents performing research tasks, assisting researchers, or acting autonomously in research workflows."
     },
     {
       "name": "AI coding assistants",
-      "count": 78,
-      "description": "Covers AI tools that assist developers and researchers in writing, debugging, and optimizing code, including AI code generation and refactoring."
-    },
-    {
-      "name": "Synthetic users",
       "count": 40,
-      "description": "Explores the use of AI to create artificial user profiles or data for testing, research, and simulation purposes."
+      "description": "Focuses on AI tools that assist developers with writing, reviewing, and debugging code."
     },
     {
       "name": "AI research tools",
       "count": 33,
-      "description": "Highlights a broad range of AI-powered tools and platforms designed to enhance research processes, from data gathering to analysis."
+      "description": "Highlights AI platforms and tools specifically designed to aid researchers in their work, from data collection to analysis."
     },
     {
       "name": "AI summarization",
-      "count": 25,
-      "description": "Articles focusing on AI's ability to condense large amounts of text, such as research papers, meeting transcripts, or articles, into concise summaries."
-    },
-    {
-      "name": "AI design & prototyping",
-      "count": 24,
-      "description": "Covers AI applications in the design process, including AI-assisted UI/UX design, prototyping, and generating design assets."
-    },
-    {
-      "name": "AI workforce impact",
-      "count": 23,
-      "description": "Examines how AI is affecting job roles, skill requirements, and the overall labor market, with a focus on research and development."
+      "count": 26,
+      "description": "Articles discussing AI's ability to condense large amounts of text or data into concise summaries."
     },
     {
       "name": "AI qualitative research",
-      "count": 18,
-      "description": "Focuses on AI's application in qualitative research methods, such as analyzing open-ended responses, interviews, or user feedback."
+      "count": 15,
+      "description": "Covers AI's application in qualitative research methods, including interviews and understanding meaning."
     },
     {
-      "name": "AI for product management",
-      "count": 16,
-      "description": "Discusses how AI is being used to support product managers in tasks like opportunity identification, strategy development, and user feedback analysis."
+      "name": "Synthetic users",
+      "count": 15,
+      "description": "Focuses on the creation and use of AI-generated or simulated user data and personas for research and testing."
     },
     {
       "name": "AI research tools comparison",
-      "count": 15,
-      "description": "Articles that compare and evaluate different AI tools for research, highlighting their features, benefits, and drawbacks."
+      "count": 14,
+      "description": "Articles that compare and evaluate different AI tools and platforms for research purposes."
+    },
+    {
+      "name": "AI research platform",
+      "count": 13,
+      "description": "Discusses platforms and ecosystems built to facilitate AI-powered research and development."
+    },
+    {
+      "name": "AI usability testing",
+      "count": 13,
+      "description": "Covers the use of AI in automating or enhancing usability testing processes."
+    },
+    {
+      "name": "AI customer insights",
+      "count": 12,
+      "description": "Focuses on AI's role in gathering, analyzing, and deriving insights from customer data and interactions."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."

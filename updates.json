@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-05-22T10:57:21.849Z",
+  "lastUpdated": "2026-05-22T17:59:20.816Z",
   "updates": [
+    {
+      "date": "2026-05-22",
+      "title": "AI Personas: How to Create, Validate & Use AI-Generated UX Personas (2026)",
+      "summary": "Learn how to create AI-generated UX personas using ChatGPT, Claude, and Gemini — with step-by-step prompts, validation techniques, and practical tips for integrating AI personas into your design workflow. The post AI Personas: How to Create, Validate & Use AI-Generated UX Pers...",
+      "content": "Learn how to create AI-generated UX personas using ChatGPT, Claude, and Gemini — with step-by-step prompts, validation techniques, and practical tips for integrating AI personas into your design workflow. The post AI Personas: How to Create, Validate & Use AI-Generated UX Personas (2026) appeared first on Studio by UXPin.",
+      "category": "Synthetic users",
+      "source": {
+        "name": "UXPin Blog",
+        "url": "https://www.uxpin.com/studio/blog/ai-personas/"
+      },
+      "analysis": "At Nubank, AI-powered persona generation can be integrated into our research workflow to accelerate the initial stages of understanding user needs, particularly for new feature development or when exploring underserved segments within our customer base. For instance, after conducting initial qualitative interviews or analyzing feedback on features like PIX transactions or loan applications, researchers can leverage LLMs to synthesize this data into draft personas. This would complement our existing processes for card activation or onboarding flows by providing a richer understanding of the 'why' behind user behaviors, moving beyond surface-level analytics.\n\nWhen applying this at Nubank, researchers should treat AI-generated personas as robust starting points, not final artifacts. The output from tools like Gemini or Claude should be rigorously validated through further qualitative research and A/B testing, especially before influencing critical product decisions related to new insurance products or credit limit adjustments. It's crucial to ensure that the LLM's training data doesn't introduce biases that could misrepresent our diverse Brazilian customer base. Therefore, human oversight and critical evaluation remain paramount to maintain the accuracy and ethical integrity of our personas."
+    },
     {
       "date": "2026-05-21",
       "title": "Designing the Human+AI system",
