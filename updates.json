@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-05-23T03:58:12.840Z",
+  "lastUpdated": "2026-05-23T10:01:51.374Z",
   "updates": [
+    {
+      "date": "2026-05-23",
+      "title": "How to build UX using Claude Opus 4.5 + shadcn/ui  –  Use UXPin Merge!",
+      "summary": "Plan UX with AI and prototype using code-backed components for consistent, accessible interfaces and faster design-to-development handoffs. The post How to build UX using Claude Opus 4.5 + shadcn/ui – Use UXPin Merge! appeared first on Studio by UXPin.",
+      "content": "This article explores a novel approach to UX development by integrating advanced AI, specifically Claude Opus 4.5, with a component library like shadcn/ui, facilitated by UXPin Merge. The core idea is to leverage AI for the ideation and planning phases of UX, generating design concepts and user flows that are then translated into functional prototypes using pre-built, code-backed components. This methodology aims to significantly accelerate the design-to-development handoff by ensuring consistency, accessibility, and adherence to established design systems. For UX researchers, this presents an opportunity to expedite the prototyping process, allowing for quicker validation of AI-generated ideas and more efficient iteration cycles.",
+      "category": "AI coding assistants",
+      "source": {
+        "name": "UXPin Blog",
+        "url": "https://www.uxpin.com/studio/blog/build-ux-claude-opus-4-5-shadcn-ui-uxpin-merge/"
+      },
+      "analysis": "At Nubank, this approach could be integrated into our early-stage research for new product development or feature enhancements, for example, when exploring improvements to the PIX transfer experience or designing new insurance product onboarding flows. Researchers could use Claude Opus 4.5 to generate initial user journey maps, persona insights, or even low-fidelity wireframe concepts based on defined problem statements. These AI-generated outputs can then be quickly brought to life in UXPin, using our existing shadcn/ui components, enabling rapid prototyping and user testing of these concepts. This would dramatically reduce the time from hypothesis generation to user feedback, particularly useful when iterating on complex flows like loan applications or card activation.\n\nResearchers should be trained to critically evaluate AI-generated outputs, using them as a starting point rather than a final solution. It's crucial to remember that AI might not fully grasp the nuanced cultural context of the Brazilian market or the specific emotional drivers behind user behavior in financial services. Therefore, human oversight, domain expertise, and direct user validation remain paramount. Limitations include potential AI biases and the need for clear, concise prompts to elicit relevant and actionable design ideas, ensuring the AI outputs align with Nubank's brand identity and accessibility standards."
+    },
     {
       "date": "2026-05-22",
       "title": "AI Personas: How to Create, Validate & Use AI-Generated UX Personas (2026)",
@@ -967,7 +979,7 @@
       "date": "2026-04-23",
       "title": "Introducing GPT-5.5",
       "summary": "Introducing GPT-5.5, our smartest model yet—faster, more capable, and built for complex tasks like coding, research, and data analysis across tools.",
-      "content": "OpenAI's announcement of GPT-5.5 signifies a significant leap in AI capabilities, particularly for tasks requiring advanced reasoning and complex problem-solving.  This new model is positioned to excel in areas like coding and intricate data analysis, which are highly relevant to the evolving landscape of UX research. For Nubank UX researchers, this means the potential for AI to assist with more sophisticated qualitative data synthesis, automated coding of open-ended feedback from customer surveys (like those used in our onboarding or PIX flow), and even generating initial hypotheses for A/B testing on features like loan application design. Its increased speed and capacity suggest it can handle larger datasets and more nuanced requests, potentially accelerating research cycles and uncovering deeper user insights.",
+      "content": "Introducing GPT-5.5, our smartest model yet—faster, more capable, and built for complex tasks like coding, research, and data analysis across tools.",
       "category": "General AI in research",
       "source": {
         "name": "OpenAI Blog",

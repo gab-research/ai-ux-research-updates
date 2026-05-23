@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 67,
-      "description": "Covers AI agents designed to perform research tasks autonomously or assist human researchers with complex workflows and data analysis."
+      "count": 154,
+      "description": "Articles discussing AI agents that can autonomously perform research tasks, gather information, and conduct analysis."
     },
     {
       "name": "AI coding assistants",
-      "count": 45,
-      "description": "Focuses on AI tools that aid developers in writing, debugging, and understanding code, accelerating the software development lifecycle."
-    },
-    {
-      "name": "AI research tools",
-      "count": 44,
-      "description": "Encompasses a broad category of AI-powered platforms and software designed to enhance various aspects of research, from data collection to analysis."
-    },
-    {
-      "name": "AI summarization",
-      "count": 32,
-      "description": "Details AI applications that condense large amounts of text or data into concise summaries, aiding in faster comprehension and insight extraction."
-    },
-    {
-      "name": "AI-powered data analysis",
-      "count": 31,
-      "description": "Explores how AI is used to analyze datasets, identify patterns, and derive actionable insights, often for business intelligence and decision-making."
-    },
-    {
-      "name": "AI recruitment research",
-      "count": 31,
-      "description": "Focuses on AI's role in the recruitment process, including candidate sourcing, resume screening, and impact analysis on the job market."
+      "count": 92,
+      "description": "Content focused on AI tools that aid developers in writing, debugging, and understanding code."
     },
     {
       "name": "Synthetic users",
-      "count": 19,
-      "description": "Covers the use of AI-generated simulated users or personas for testing, research, and data generation purposes."
+      "count": 46,
+      "description": "Discussions around the creation and use of artificial or simulated users for testing and research purposes."
     },
     {
-      "name": "AI research tools comparison",
+      "name": "AI research tools",
+      "count": 45,
+      "description": "Articles highlighting specific AI-powered tools designed to assist researchers in various stages of their work."
+    },
+    {
+      "name": "AI workforce impact",
+      "count": 45,
+      "description": "Content examining how AI is affecting jobs, skills, and the overall structure of the workforce."
+    },
+    {
+      "name": "AI research platform",
+      "count": 38,
+      "description": "Focuses on platforms that provide comprehensive environments and tools for AI-driven research."
+    },
+    {
+      "name": "AI summarization",
+      "count": 35,
+      "description": "Articles detailing the use of AI to condense large amounts of text or data into concise summaries."
+    },
+    {
+      "name": "AI design & research",
+      "count": 25,
+      "description": "Content exploring how AI is applied to enhance or automate aspects of the design and research process."
+    },
+    {
+      "name": "AI usability testing",
       "count": 17,
-      "description": "Articles that compare different AI tools for research, evaluating their features, performance, and suitability for specific tasks."
+      "description": "Articles about using AI to automate or improve the process of testing the usability of products and systems."
     },
     {
-      "name": "AI for design & research",
-      "count": 16,
-      "description": "Examines how AI is integrated into the design process and user research methodologies to enhance creativity, efficiency, and user understanding."
-    },
-    {
-      "name": "AI chatbot research",
-      "count": 16,
-      "description": "Focuses on the research and development of AI chatbots, their capabilities, limitations, and impact on user interaction and information seeking."
+      "name": "AI recruitment research",
+      "count": 17,
+      "description": "Focuses on how AI is being used in recruitment processes, including candidate sourcing, screening, and job analysis."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
