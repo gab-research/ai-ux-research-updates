@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-05-24T10:05:12.032Z",
+  "lastUpdated": "2026-05-24T17:12:40.492Z",
   "updates": [
     {
       "date": "2026-05-24",
@@ -137,7 +137,7 @@
     },
     {
       "date": "2026-05-19",
-      "title": "AI Engineering - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "title": "AI Engineering - All Things Product Podcast with Teresa Torres &amp; Petra Wille",
       "summary": "Listen to this episode on: Spotify | Apple Podcasts What happens when a product leader accidentally becomes an AI engineer? In this episode, Teresa Torres shares how she went from occasional tinkerer to spending 60% of her time doing real engineering work — building AI-powered...",
       "content": "This \"All Things Product\" podcast episode features Teresa Torres, a product leader who has unexpectedly found herself deeply involved in AI engineering.  The core of the discussion likely revolves around her journey from a general product background to dedicating a significant portion of her time to building AI-powered features. This shift is highly relevant for UX researchers as it highlights the increasing integration of AI into product development cycles. Understanding how product leaders are navigating and implementing AI can inform how UX researchers can best collaborate with engineering teams and proactively identify opportunities to leverage AI for enhanced user experiences, potentially impacting areas like personalized financial advice or fraud detection in real-time transactions.",
       "category": "AI for product management",
