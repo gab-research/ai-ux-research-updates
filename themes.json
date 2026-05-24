@@ -1,56 +1,56 @@
 {
   "month": "2026-05",
-  "updated": "2026-05-23",
+  "updated": "2026-05-24",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 88,
-      "description": "Covers AI agents designed to perform research tasks autonomously or semi-autonomously, including agents for workflow automation and specific research functionalities."
+      "count": 103,
+      "description": "AI systems designed to autonomously perform research tasks, such as data collection, analysis, and insight generation."
     },
     {
       "name": "AI coding assistants",
-      "count": 46,
-      "description": "Focuses on AI tools that assist developers in writing, debugging, and optimizing code, including code generation and analysis."
+      "count": 75,
+      "description": "AI tools that help developers write, debug, and optimize code."
     },
     {
       "name": "AI research tools",
-      "count": 43,
-      "description": "Encompasses a broad range of AI-powered platforms and tools specifically designed to aid researchers in various aspects of their work, from data analysis to discovery."
+      "count": 52,
+      "description": "AI applications specifically built to assist researchers in various stages of their work, from literature review to data analysis."
     },
     {
       "name": "Synthetic users",
-      "count": 34,
-      "description": "Deals with the creation and use of artificial user profiles or 'digital twins' for research and testing purposes."
+      "count": 25,
+      "description": "AI-generated user personas or data used to simulate user behavior and test products or research scenarios."
     },
     {
-      "name": "AI summarization",
-      "count": 30,
-      "description": "Articles discussing AI's capability to condense large amounts of text or data into concise summaries, aiding in quick comprehension and analysis."
-    },
-    {
-      "name": "AI for design & research",
-      "count": 28,
-      "description": "Highlights AI applications that directly support and augment the design and research process, including generative design and AI-assisted ideation."
-    },
-    {
-      "name": "AI research platform",
-      "count": 27,
-      "description": "Focuses on integrated platforms and environments that offer a suite of AI capabilities for conducting research."
+      "name": "AI design & UX",
+      "count": 22,
+      "description": "AI applications focused on enhancing the user experience and design process, including interface generation and pattern identification."
     },
     {
       "name": "AI workforce impact",
-      "count": 26,
-      "description": "Examines how AI technologies are changing job roles, skills requirements, and employment landscapes."
+      "count": 21,
+      "description": "Research and discussion on how AI is changing job roles, skills, and employment in various industries."
     },
     {
-      "name": "AI recruitment research",
-      "count": 25,
-      "description": "Covers the use of AI in the hiring process, including AI's impact on job seeker perceptions and recruitment outcomes."
+      "name": "AI summarization",
+      "count": 19,
+      "description": "AI tools that condense large amounts of text, such as articles, transcripts, or research papers, into concise summaries."
     },
     {
-      "name": "AI tool evaluation",
-      "count": 23,
-      "description": "Articles comparing, reviewing, and assessing the performance and usability of various AI tools for different applications."
+      "name": "AI chatbot research",
+      "count": 19,
+      "description": "Studies and analyses focused on the capabilities, limitations, and user interactions with AI-powered chatbots."
+    },
+    {
+      "name": "AI for product management",
+      "count": 19,
+      "description": "AI applications and strategies used to inform product development, prioritization, and strategy."
+    },
+    {
+      "name": "AI testing automation",
+      "count": 16,
+      "description": "AI-powered tools and techniques used to automate software testing processes, including usability and performance checks."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
