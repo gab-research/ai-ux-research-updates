@@ -1,56 +1,56 @@
 {
   "month": "2026-05",
-  "updated": "2026-05-24",
+  "updated": "2026-05-25",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 187,
-      "description": "Focuses on AI agents performing research tasks autonomously or semi-autonomously, including data collection, analysis, and generating insights."
-    },
-    {
-      "name": "AI coding assistants",
-      "count": 79,
-      "description": "Articles discussing AI tools that help developers write, debug, and understand code, accelerating the software development process."
+      "count": 159,
+      "description": "Articles discussing AI agents performing research tasks autonomously, forming research workflows, or acting as co-scientists."
     },
     {
       "name": "AI research tools",
-      "count": 69,
-      "description": "Covers a broad range of AI-powered tools specifically designed to aid researchers in various stages of the research lifecycle."
+      "count": 109,
+      "description": "Articles detailing specific AI tools and platforms used for research, analysis, or insight generation."
+    },
+    {
+      "name": "Synthetic users",
+      "count": 27,
+      "description": "Content focused on the creation and use of synthetic data or 'digital twins' for user research and testing."
+    },
+    {
+      "name": "AI coding assistants",
+      "count": 20,
+      "description": "Articles about AI tools that help developers write, review, or understand code."
     },
     {
       "name": "AI summarization",
-      "count": 48,
-      "description": "Articles about AI capabilities for condensing large amounts of text, data, or media into concise summaries."
+      "count": 18,
+      "description": "Content related to AI's ability to condense large amounts of text or data into concise summaries and insights."
+    },
+    {
+      "name": "AI design & research",
+      "count": 16,
+      "description": "Articles exploring how AI is integrated into or impacts the design process, especially in conjunction with research."
+    },
+    {
+      "name": "AI testing automation",
+      "count": 16,
+      "description": "Discussions on using AI for automating testing processes in software development and other fields."
     },
     {
       "name": "AI workforce impact",
-      "count": 41,
-      "description": "Explores how AI is affecting jobs, employment, hiring, and the overall structure of the workforce."
+      "count": 14,
+      "description": "Research and discussions on how AI is changing job roles, recruitment, and the overall labor market."
     },
     {
-      "name": "AI research platform",
-      "count": 38,
-      "description": "Focuses on platforms and environments designed to facilitate AI research and development, often including specific tools and infrastructure."
+      "name": "AI tool evaluation",
+      "count": 10,
+      "description": "Articles that compare, review, or rank various AI tools for specific applications."
     },
     {
-      "name": "AI design research",
-      "count": 29,
-      "description": "Discusses the application of AI in the design process, including AI-assisted design tools and AI's influence on design workflows."
-    },
-    {
-      "name": "AI chatbot research",
-      "count": 27,
-      "description": "Articles specifically examining the capabilities, limitations, and impact of AI-powered chatbots, including their research applications."
-    },
-    {
-      "name": "AI qualitative research",
-      "count": 21,
-      "description": "Covers AI's role in qualitative data analysis, thematic extraction, and understanding nuanced human feedback."
-    },
-    {
-      "name": "AI-powered data analysis",
-      "count": 20,
-      "description": "Focuses on AI techniques and tools used to analyze datasets, uncover patterns, and generate insights."
+      "name": "AI sentiment feedback",
+      "count": 9,
+      "description": "Content focusing on AI's role in analyzing and understanding user sentiment from feedback, reviews, or calls."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
