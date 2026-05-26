@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-05-26T04:15:47.902Z",
+  "lastUpdated": "2026-05-26T18:34:05.361Z",
   "updates": [
+    {
+      "date": "2026-05-26",
+      "title": "How to build UX using Claude Opus 4.5 + Custom Design Systems  –  Use UXPin Merge!",
+      "summary": "Pair AI-generated UX flows and copy with production components to build US-localized, testable interactive prototypes faster. The post How to build UX using Claude Opus 4.5 + Custom Design Systems – Use UXPin Merge! appeared first on Studio by UXPin.",
+      "content": "This UXPin blog post outlines a novel approach to accelerating UX development by integrating advanced AI, specifically Claude Opus 4.5, with custom design systems. The core idea is to leverage AI to generate foundational UX flows and content, which are then seamlessly merged with existing, production-ready UI components. This fusion allows for the rapid creation of highly localized and interactive prototypes that are immediately testable. For UX researchers, this presents a significant opportunity to speed up the iterative design and validation process, enabling quicker feedback loops and more agile product development, particularly for complex features.",
+      "category": "AI content generation",
+      "source": {
+        "name": "UXPin Blog",
+        "url": "https://www.uxpin.com/studio/blog/build-ux-claude-opus-4-5-custom-design-systems-uxpin-merge/"
+      },
+      "analysis": "At Nubank, this methodology could significantly streamline our prototyping and testing efforts for new features and improvements. Researchers could utilize Claude Opus 4.5 to generate initial user flows and copy for core functionalities like PIX transfers, loan application steps, or even the card activation process. These AI-generated elements would then be directly integrated into our existing design system components within UXPin Merge. This allows for immediate visual fidelity and interactive realism, facilitating faster internal reviews and user testing sessions.\n\nOur researchers should explore this by initiating a pilot project, perhaps for a feature iteration on our onboarding flow or a new insurance product setup. The key is to view the AI as an assistant, generating a strong starting point that our designers and researchers can then refine. It's crucial to establish guardrails: AI-generated copy must always undergo rigorous human review for tone, accuracy, and compliance with Nubank's brand voice. Similarly, AI-generated flows should be critically assessed for user intuitiveness and adherence to our established UX principles, ensuring the technology augments, rather than dictates, the user experience."
+    },
     {
       "date": "2026-05-25",
       "title": "Being kind to machines, the genius of Claude’s branding, AI UX debt",
