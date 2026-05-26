@@ -1,56 +1,56 @@
 {
   "month": "2026-05",
-  "updated": "2026-05-25",
+  "updated": "2026-05-26",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 86,
-      "description": "Articles discussing AI agents that can autonomously perform research tasks, analyze data, or act as research assistants."
+      "count": 83,
+      "description": "Focuses on AI agents that can perform research tasks autonomously, including planning, execution, and analysis."
     },
     {
       "name": "AI coding assistants",
-      "count": 58,
-      "description": "Content focused on AI tools that help developers write, debug, and understand code, specifically for research purposes."
+      "count": 60,
+      "description": "Covers AI tools and techniques that assist developers and researchers in writing, debugging, and understanding code."
     },
     {
       "name": "AI summarization",
-      "count": 49,
-      "description": "Articles about AI's ability to condense large amounts of text, data, or video into concise summaries for research insights."
+      "count": 53,
+      "description": "Articles discussing the use of AI to condense large amounts of text or data into concise summaries."
     },
     {
       "name": "AI research tools",
-      "count": 44,
-      "description": "Discussions on various AI tools and platforms designed to aid researchers in their work, from data collection to analysis."
+      "count": 45,
+      "description": "Highlights various AI-powered platforms and tools designed to aid researchers in their workflows and discovery processes."
     },
     {
       "name": "AI for design & research",
-      "count": 39,
-      "description": "Content exploring how AI is being integrated into the design process and user research workflows to enhance creativity and efficiency."
-    },
-    {
-      "name": "AI workforce impact",
-      "count": 37,
-      "description": "Articles examining how AI is changing job roles, skill requirements, and the overall employment landscape within research and design fields."
+      "count": 42,
+      "description": "Explores how AI is being integrated into the design process for products, interfaces, and research methodologies."
     },
     {
       "name": "Synthetic users",
-      "count": 33,
-      "description": "Discussions on the creation and use of simulated user data or personas for testing and research purposes."
+      "count": 25,
+      "description": "Discusses the creation and use of synthetic or simulated user data and personas for research and testing."
+    },
+    {
+      "name": "AI workforce impact",
+      "count": 48,
+      "description": "Examines how AI is affecting jobs, skills, recruitment, and the overall labor market."
+    },
+    {
+      "name": "AI chatbot research",
+      "count": 43,
+      "description": "Covers research, use cases, and implications of interacting with AI-powered chatbots."
+    },
+    {
+      "name": "AI customer insights",
+      "count": 37,
+      "description": "Focuses on using AI to analyze customer behavior, preferences, and feedback for business intelligence."
     },
     {
       "name": "AI research tools comparison",
-      "count": 17,
-      "description": "Articles that compare different AI tools and platforms for research, evaluating their features, performance, and suitability."
-    },
-    {
-      "name": "AI qualitative research",
-      "count": 15,
-      "description": "Content focusing on how AI can assist in qualitative data analysis, interviews, and understanding nuanced human behavior."
-    },
-    {
-      "name": "AI sentiment feedback",
-      "count": 15,
-      "description": "Articles discussing the use of AI to analyze and understand user sentiment, emotions, and feedback from various sources."
+      "count": 29,
+      "description": "Articles that compare and evaluate different AI tools for research purposes, often highlighting their strengths and weaknesses."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."

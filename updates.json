@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-05-25T17:49:42.234Z",
+  "lastUpdated": "2026-05-26T04:15:47.902Z",
   "updates": [
     {
       "date": "2026-05-25",
@@ -986,18 +986,6 @@
         "url": "https://cms.greatquestion.co/blog/best-user-research-tools-in-2026-10-platforms-compared"
       },
       "analysis": "This \"Best User Research Tools in 2026\" article directly supports Nubank's ongoing efforts to optimize our research processes, particularly as AI integration becomes more prevalent. Researchers should actively explore the featured tools to identify those that can enhance our existing workflows. For instance, AI-powered recruitment features could expedite finding participants for studies on new product features like insurance claims processing or the card activation flow. Furthermore, AI's role in analyzing qualitative data could help us quickly synthesize feedback from large cohorts interacting with our digital onboarding experience.\n\nWhen evaluating these tools, it's essential to consider their integration with our current Nubank infrastructure and data privacy policies. Researchers should prioritize platforms that offer robust data security and transparency in their AI algorithms, especially when dealing with sensitive user information related to financial products like loans. We must also ensure that any AI-driven insights are critically reviewed and triangulated with other research methods to avoid bias. The goal is to augment, not replace, human judgment in understanding user needs and pain points across all Nubank services."
-    },
-    {
-      "date": "2026-04-26",
-      "title": "How to build UX using GPT-5.2 + Custom Design Systems  –  Use UXPin Merge!",
-      "summary": "Pair GPT-5.2 with UXPin Merge to generate code-backed, production-ready UI prototypes that speed handoffs and enforce design systems. The post How to build UX using GPT-5.2 + Custom Design Systems – Use UXPin Merge! appeared first on Studio by UXPin.",
-      "content": "This article explores the synergy between advanced AI language models like GPT-5.2 and specialized design tools such as UXPin Merge to revolutionize UI prototyping. The core concept is leveraging AI to rapidly generate code-backed design elements that are immediately compatible with existing design systems, thereby streamlining the handoff process between design and development teams. For UX researchers, this innovation promises to accelerate the creation of realistic, testable prototypes, allowing for quicker validation of user flows and interface concepts. The practical implication is a significant reduction in the time and effort required to move from ideation to user testing, ultimately enabling more iterative and data-driven design decisions.",
-      "category": "AI content generation",
-      "source": {
-        "name": "UXPin Blog",
-        "url": "https://www.uxpin.com/studio/blog/build-ux-gpt-5-2-custom-design-systems-uxpin-merge/"
-      },
-      "analysis": "At Nubank, integrating GPT-5.2 with UXPin Merge could significantly enhance our research workflow, particularly in areas like rapid prototyping for new feature ideation or A/B testing variations on existing flows such as the PIX payment experience or our onboarding process. Researchers could use this to quickly generate interactive mockups for testing user comprehension of loan application terms or the clarity of card activation instructions, without needing extensive developer time. This accelerates our ability to gather user feedback on critical touchpoints.\n\nResearchers should approach this tool by focusing on leveraging AI for generating component-based UI elements that align with Nubank's established design system. This means utilizing the AI to produce variations of buttons, forms, or navigation structures that already adhere to our brand guidelines and code standards, then assembling these into user flows for testing. It's crucial to remember that while AI can generate *production-ready* elements, the *researcher's role* remains paramount in defining the user problem, crafting the user journeys, and interpreting the insights derived from testing these AI-assisted prototypes. Guardrails should include rigorous quality checks to ensure the generated UI accurately reflects user needs and doesn't introduce unintended usability issues, and all AI-generated content must be reviewed against our established accessibility standards and brand voice, especially when simulating flows for sensitive products like insurance."
     }
   ]
 }
