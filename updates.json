@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-05-27T11:45:23.243Z",
+  "lastUpdated": "2026-05-27T18:31:39.412Z",
   "updates": [
     {
       "date": "2026-05-27",
@@ -14,6 +14,18 @@
         "url": "https://www.uxpin.com/studio/blog/build-ux-claude-sonnet-4-5-mui-uxpin-merge/"
       },
       "analysis": "At Nubank, this methodology could significantly enhance our ability to rapidly prototype and test new features within existing product lines like PIX transactions or the card activation flow. Researchers could use Claude Sonnet 4.5 within UXPin to generate initial UI mockups and even basic interactive components based on defined user stories and requirements, then refine them with MUI. This would be particularly valuable when exploring new insurance product interfaces or iterating on the onboarding experience for first-time users, allowing for quicker feedback loops with stakeholders and users before extensive engineering investment. \n\nResearchers should approach this by focusing on using the AI for generating foundational elements and code snippets, rather than relying on it for complex strategic decisions or final design polish. The generated output should be treated as a strong starting point, always requiring critical review and refinement by designers and researchers to ensure it aligns with Nubank's brand, accessibility standards, and the specific nuances of our user journeys, such as loan application processes. It's crucial to remember that the AI is a tool to augment, not replace, human expertise in understanding user needs and ethical design considerations."
+    },
+    {
+      "date": "2026-05-27",
+      "title": "Extending Human Intelligence Through AI",
+      "summary": "Understanding AI as an extension of human intelligence—not a replacement for it—offers a more grounded path for building trustworthy AI systems. The post Extending Human Intelligence Through AI appeared first on Microsoft Research.",
+      "content": "This Microsoft Research article frames Artificial Intelligence as a powerful augmentative tool for human capabilities rather than an autonomous replacement.  The core idea is that by viewing AI as an \"extension of human intelligence,\" we can foster more reliable and trustworthy AI development.  For UX researchers, this perspective is crucial because it emphasizes our role in guiding and leveraging AI to enhance our understanding of users, not to abdicate our responsibilities.  Practical implications include using AI to sift through vast datasets more efficiently, identify subtle user patterns, and generate hypotheses, all while human researchers maintain critical oversight and ethical judgment.",
+      "category": "AI ethics in research",
+      "source": {
+        "name": "Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/blog/extending-human-intelligence-through-ai/"
+      },
+      "analysis": "At Nubank, this \"AI as an extension\" philosophy directly impacts our research workflow by empowering us to move beyond tedious data aggregation. For instance, when analyzing feedback on our PIX experience or identifying pain points in the loan application process, AI tools can help surface recurring themes and anomalies within user comments or session recordings much faster than manual review. This allows us to dedicate more time to in-depth qualitative analysis, journey mapping refinement, and strategic problem-solving for features like card activation or insurance onboarding.\n\nResearchers should actively explore and integrate AI-powered tools that assist in tasks such as sentiment analysis of customer support tickets, keyword extraction from user interviews, or even generating preliminary user persona hypotheses based on behavioral data. The key is to treat these AI outputs as starting points, always validating their findings through traditional research methods and our own expert judgment. We must remain vigilant about potential biases inherent in AI models and ensure that our human oversight remains paramount, preventing the AI from dictating research conclusions without critical human interpretation, especially when dealing with sensitive financial data and user trust."
     },
     {
       "date": "2026-05-26",

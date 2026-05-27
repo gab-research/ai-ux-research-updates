@@ -3,54 +3,54 @@
   "updated": "2026-05-27",
   "themes": [
     {
-      "name": "Agentic AI in research",
-      "count": 102,
-      "description": "Articles focusing on AI agents performing research tasks autonomously or assisting researchers in complex research workflows."
+      "name": "Agentic AI",
+      "count": 109,
+      "description": "Articles focusing on AI agents that can perform tasks autonomously or semi-autonomously, often in research, development, or operational contexts."
     },
     {
       "name": "AI coding assistants",
-      "count": 87,
-      "description": "Tools and discussions around AI that helps developers write, debug, and review code."
+      "count": 54,
+      "description": "Content about AI tools that assist developers in writing, reviewing, or debugging code, including code generation and analysis."
     },
     {
       "name": "AI research tools",
-      "count": 69,
-      "description": "Articles discussing platforms and tools that leverage AI to aid in various aspects of research, from discovery to analysis."
-    },
-    {
-      "name": "AI workforce impact",
-      "count": 59,
-      "description": "Content exploring how AI is changing jobs, employment, hiring, and the skills needed for the future workforce."
-    },
-    {
-      "name": "AI summarization",
-      "count": 38,
-      "description": "Tools and techniques that use AI to condense large amounts of text or data into concise summaries."
-    },
-    {
-      "name": "AI-powered data analysis",
-      "count": 36,
-      "description": "AI applications used to analyze qualitative and quantitative data, identify themes, and extract insights."
-    },
-    {
-      "name": "AI for design & research",
-      "count": 30,
-      "description": "AI tools and methodologies specifically applied to enhance the design process and user research activities."
+      "count": 46,
+      "description": "Articles discussing AI-powered platforms and tools designed to accelerate or enhance various stages of the research process, from discovery to analysis."
     },
     {
       "name": "AI chatbot research",
+      "count": 43,
+      "description": "Focuses on the study of AI chatbots, their capabilities, limitations, biases, and impact on user interaction and information seeking."
+    },
+    {
+      "name": "AI research platform",
+      "count": 39,
+      "description": "Covers platforms and systems built to facilitate AI research, development, or the deployment of AI models and agents."
+    },
+    {
+      "name": "AI workforce impact",
+      "count": 37,
+      "description": "Articles exploring how AI is changing the job market, including job displacement, skill requirements, and the future of work."
+    },
+    {
+      "name": "AI design research",
       "count": 28,
-      "description": "Research and discussions on the capabilities, biases, and user interactions with AI-powered chatbots."
+      "description": "Content related to AI's application in the design process, including UX/UI design, generative design, and design system development."
     },
     {
-      "name": "AI customer insights",
-      "count": 26,
-      "description": "How AI is used to gather, analyze, and leverage customer data to understand behavior and preferences."
+      "name": "AI tools comparison",
+      "count": 21,
+      "description": "Articles that evaluate, compare, and rank different AI tools based on features, performance, or specific use cases."
     },
     {
-      "name": "AI tool evaluation",
-      "count": 22,
-      "description": "Articles focused on comparing, reviewing, and assessing the effectiveness of various AI tools."
+      "name": "AI-powered data analysis",
+      "count": 19,
+      "description": "Discussions on using AI for analyzing qualitative and quantitative data, identifying themes, and extracting insights from research."
+    },
+    {
+      "name": "AI usability testing",
+      "count": 19,
+      "description": "Content related to using AI for testing products and interfaces, including automated testing and performance evaluation."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
