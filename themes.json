@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 173,
-      "description": "Focuses on AI agents that can autonomously perform research tasks, analyze data, and generate insights, acting as intelligent assistants or collaborators."
+      "count": 102,
+      "description": "Articles focusing on AI agents performing research tasks autonomously or assisting researchers in complex research workflows."
     },
     {
       "name": "AI coding assistants",
-      "count": 76,
-      "description": "Covers AI tools and research related to generating, assisting with, or analyzing code, including their impact on developer workflows and research."
-    },
-    {
-      "name": "AI workforce impact",
-      "count": 56,
-      "description": "Examines the effects of AI on jobs, hiring, skill requirements, and the overall employment landscape, including studies on job displacement and augmentation."
+      "count": 87,
+      "description": "Tools and discussions around AI that helps developers write, debug, and review code."
     },
     {
       "name": "AI research tools",
-      "count": 50,
-      "description": "Highlights new platforms, tools, and systems designed to accelerate or enhance the research process, from data discovery to analysis and experimentation."
+      "count": 69,
+      "description": "Articles discussing platforms and tools that leverage AI to aid in various aspects of research, from discovery to analysis."
     },
     {
-      "name": "AI for design & research",
-      "count": 37,
-      "description": "Explores AI's application in the design process, from UI/UX design and prototyping to generative design and creating design systems."
+      "name": "AI workforce impact",
+      "count": 59,
+      "description": "Content exploring how AI is changing jobs, employment, hiring, and the skills needed for the future workforce."
     },
     {
       "name": "AI summarization",
-      "count": 24,
-      "description": "Focuses on AI's ability to condense large amounts of text or data into concise summaries, abstracts, or key takeaways for research and analysis."
+      "count": 38,
+      "description": "Tools and techniques that use AI to condense large amounts of text or data into concise summaries."
+    },
+    {
+      "name": "AI-powered data analysis",
+      "count": 36,
+      "description": "AI applications used to analyze qualitative and quantitative data, identify themes, and extract insights."
+    },
+    {
+      "name": "AI for design & research",
+      "count": 30,
+      "description": "AI tools and methodologies specifically applied to enhance the design process and user research activities."
     },
     {
       "name": "AI chatbot research",
-      "count": 23,
-      "description": "Investigates the use, impact, and research surrounding AI-powered chatbots, including their effectiveness, ethical considerations, and user interactions."
+      "count": 28,
+      "description": "Research and discussions on the capabilities, biases, and user interactions with AI-powered chatbots."
     },
     {
-      "name": "Synthetic users",
-      "count": 20,
-      "description": "Covers the creation and use of synthetic data, digital twins, or simulated users for training AI models, testing products, and conducting research without real user data."
-    },
-    {
-      "name": "AI survey tools",
-      "count": 20,
-      "description": "Details AI functionalities integrated into survey platforms for creation, analysis, and optimization of research questionnaires and data collection."
+      "name": "AI customer insights",
+      "count": 26,
+      "description": "How AI is used to gather, analyze, and leverage customer data to understand behavior and preferences."
     },
     {
       "name": "AI tool evaluation",
-      "count": 16,
-      "description": "Focuses on the testing, comparison, and reviews of various AI tools and platforms, assessing their performance, features, and suitability for specific tasks."
+      "count": 22,
+      "description": "Articles focused on comparing, reviewing, and assessing the effectiveness of various AI tools."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
