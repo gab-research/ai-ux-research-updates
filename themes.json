@@ -1,56 +1,56 @@
 {
   "month": "2026-05",
-  "updated": "2026-05-26",
+  "updated": "2026-05-27",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 90,
-      "description": "Articles discussing AI agents designed to autonomously perform research tasks, analyze data, or generate insights."
+      "count": 173,
+      "description": "Focuses on AI agents that can autonomously perform research tasks, analyze data, and generate insights, acting as intelligent assistants or collaborators."
     },
     {
       "name": "AI coding assistants",
-      "count": 37,
-      "description": "Focuses on AI tools that help developers write, review, and debug code, accelerating the software development process."
-    },
-    {
-      "name": "AI research tools",
-      "count": 35,
-      "description": "Covers a broad category of AI-powered platforms and tools designed to aid researchers in various stages of their work."
-    },
-    {
-      "name": "AI for design & research",
-      "count": 31,
-      "description": "Articles exploring how AI is integrated into the design process for UX, UI, and product development, including generative design aspects."
-    },
-    {
-      "name": "AI research platform",
-      "count": 26,
-      "description": "Details on platforms specifically built to host, manage, or facilitate AI research and development activities."
-    },
-    {
-      "name": "AI summarization",
-      "count": 23,
-      "description": "Content related to AI capabilities for condensing large amounts of text, audio, or video into concise summaries."
-    },
-    {
-      "name": "Synthetic users",
-      "count": 14,
-      "description": "Articles discussing the creation and use of simulated user data or personas for testing and research purposes."
+      "count": 76,
+      "description": "Covers AI tools and research related to generating, assisting with, or analyzing code, including their impact on developer workflows and research."
     },
     {
       "name": "AI workforce impact",
-      "count": 34,
-      "description": "Examines the effects of AI on employment, job roles, skill requirements, and the overall labor market."
+      "count": 56,
+      "description": "Examines the effects of AI on jobs, hiring, skill requirements, and the overall employment landscape, including studies on job displacement and augmentation."
     },
     {
-      "name": "AI research tools comparison",
-      "count": 19,
-      "description": "Articles that compare and contrast different AI tools available for research, often including reviews and rankings."
+      "name": "AI research tools",
+      "count": 50,
+      "description": "Highlights new platforms, tools, and systems designed to accelerate or enhance the research process, from data discovery to analysis and experimentation."
     },
     {
-      "name": "Conversational AI in research",
-      "count": 29,
-      "description": "Focuses on AI chatbots and virtual assistants used for user interviews, data collection, or as research participants."
+      "name": "AI for design & research",
+      "count": 37,
+      "description": "Explores AI's application in the design process, from UI/UX design and prototyping to generative design and creating design systems."
+    },
+    {
+      "name": "AI summarization",
+      "count": 24,
+      "description": "Focuses on AI's ability to condense large amounts of text or data into concise summaries, abstracts, or key takeaways for research and analysis."
+    },
+    {
+      "name": "AI chatbot research",
+      "count": 23,
+      "description": "Investigates the use, impact, and research surrounding AI-powered chatbots, including their effectiveness, ethical considerations, and user interactions."
+    },
+    {
+      "name": "Synthetic users",
+      "count": 20,
+      "description": "Covers the creation and use of synthetic data, digital twins, or simulated users for training AI models, testing products, and conducting research without real user data."
+    },
+    {
+      "name": "AI survey tools",
+      "count": 20,
+      "description": "Details AI functionalities integrated into survey platforms for creation, analysis, and optimization of research questionnaires and data collection."
+    },
+    {
+      "name": "AI tool evaluation",
+      "count": 16,
+      "description": "Focuses on the testing, comparison, and reviews of various AI tools and platforms, assessing their performance, features, and suitability for specific tasks."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
