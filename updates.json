@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-05-28T11:46:24.775Z",
+  "lastUpdated": "2026-05-28T18:42:47.390Z",
   "updates": [
     {
       "date": "2026-05-28",
@@ -38,6 +38,18 @@
         "url": "https://www.userresearchstrategist.com/p/building-a-user-research-portfolio"
       },
       "analysis": "At Nubank, Claude Design can be integrated into our existing research workflow to significantly reduce the effort involved in synthesizing and presenting findings from projects like PIX transaction analysis, loan application user journeys, or card activation feedback. Instead of manually structuring reports for internal stakeholders or external portfolio presentations, researchers can feed anonymized research transcripts, interview notes, or key observations into Claude Design. The AI can then assist in generating initial drafts of summaries, identifying recurring themes, and even suggesting visual representations of user pain points or successes.\n\nResearchers should approach this as a powerful assistive tool, not a replacement for human judgment. While Claude Design can quickly generate content, it's crucial for researchers to critically review, edit, and validate the output. This ensures that the synthesized insights accurately reflect the nuances of user behavior and align with Nubank's strategic objectives. Potential limitations include the AI's understanding of specific Nubank product jargon or complex regulatory contexts, requiring careful oversight during the drafting process. For instance, when analyzing feedback on insurance policy wording or onboarding flows, researchers must ensure the AI's interpretations are grounded in actual user sentiment and don't misrepresent critical details."
+    },
+    {
+      "date": "2026-05-28",
+      "title": "Data Formulator 0.7: AI-powered data analytics for enterprise data",
+      "summary": "Data Formulator introduces AI-powered analytics for enterprise data workflows. Data teams can easily bring enterprise data into an AI-ready workspace where users can explore, analyze, and visualize data with AI agents to turn raw data into actionable insights. The post Data Fo...",
+      "content": "Microsoft's Data Formulator 0.7 presents an innovative AI-driven platform designed to streamline enterprise data analysis. Its core innovation lies in its ability to ingest complex datasets and transform them into an \"AI-ready workspace,\" empowering users with intelligent agents to explore, analyze, and visualize the information. For UX researchers at Nubank, this is significant as it promises to accelerate the process of deriving actionable insights from vast amounts of user behavior data. By automating aspects of data exploration and visualization, researchers can potentially dedicate more time to deeper qualitative analysis, hypothesis generation, and strategic recommendations for products like PIX transactions, loan application journeys, or card activation flows.",
+      "category": "Survey optimization",
+      "source": {
+        "name": "Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/blog/data-formulator-0-7-ai-powered-data-analytics-for-enterprise-data/"
+      },
+      "analysis": "At Nubank, Data Formulator 0.7 could be integrated into our existing research workflow to augment our data analysis capabilities. Researchers can leverage this tool to quickly process large volumes of quantitative data related to user interactions across our digital platform, such as onboarding completion rates, the success of PIX transfers, or the efficiency of loan application processes.  Instead of manually sifting through spreadsheets, AI agents within Data Formulator could help identify patterns in user drop-off points during credit card activation, or segment users exhibiting specific behaviors when applying for insurance.\n\nWhile powerful, researchers must approach Data Formulator with critical thinking and ethical considerations. The AI agents are tools to surface potential insights, not definitive answers. Researchers should validate AI-generated findings with qualitative data, user interviews, and contextual inquiry, especially when analyzing sensitive areas like loan eligibility or fraud patterns. Guardrails should include data privacy protocols, ensuring no personally identifiable information is exposed to the AI unless anonymized, and maintaining human oversight to prevent biases inherent in AI models from negatively impacting user experience decisions. For instance, any AI-driven suggestions for optimizing the credit card activation flow must be cross-referenced with direct user feedback to ensure a truly seamless and accessible experience for all Nubank customers."
     },
     {
       "date": "2026-05-27",
