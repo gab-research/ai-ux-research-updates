@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-05-28T04:19:49.902Z",
+  "lastUpdated": "2026-05-28T11:46:24.775Z",
   "updates": [
     {
       "date": "2026-05-28",
@@ -14,6 +14,30 @@
         "url": "https://cms.greatquestion.co/blog/product-release-roundup-march-2026"
       },
       "analysis": "At Nubank, AI-powered study synthesis can be integrated into our post-data collection workflow, particularly after user interviews or usability testing sessions for products like the card activation flow or onboarding experience. Instead of manual transcription and thematic analysis of lengthy interview transcripts, researchers can leverage this AI tool to generate initial summaries, identify recurring pain points, and highlight key user sentiments. This would free up valuable time that can be redirected towards more nuanced analysis, generative research for new product ideas, or deeper dives into complex user journeys.\n\nWhen applying this technology, researchers should treat the AI synthesis as a powerful starting point, not a final output. It's crucial to review and validate the AI-generated insights against the raw data, especially for sensitive areas like fraud detection in insurance claims or the nuances of a new credit product offering. While AI can identify patterns, human judgment is essential for understanding context, cultural specificities relevant to the Brazilian market, and the subtle emotional undertones that might be missed by an algorithm. Over-reliance without human oversight could lead to misinterpretations or overlooking critical edge cases, impacting the effectiveness of our product development for features like managing PIX beneficiaries or understanding user needs for personal loans."
+    },
+    {
+      "date": "2026-05-28",
+      "title": "How to build UX using Claude Sonnet 4.5 + shadcn/ui  –  Use UXPin Merge!",
+      "summary": "Generate production-ready shadcn/ui React components with Claude Sonnet and sync them into UXPin Merge for real-code prototyping. The post How to build UX using Claude Sonnet 4.5 + shadcn/ui – Use UXPin Merge! appeared first on Studio by UXPin.",
+      "content": "This article outlines a novel approach to rapid UX prototyping by integrating Claude Sonnet 4.5, a generative AI, with shadcn/ui, a popular component library. The core idea is to leverage AI to quickly generate production-ready React components based on design specifications. This is significant for UX researchers as it drastically accelerates the creation of functional prototypes, allowing for earlier and more frequent user testing. The practical implication is the ability to translate abstract design concepts into interactive, code-based experiences much faster, bridging the gap between design and development.",
+      "category": "AI coding assistants",
+      "source": {
+        "name": "UXPin Blog",
+        "url": "https://www.uxpin.com/studio/blog/build-ux-claude-sonnet-4-5-shadcn-ui-uxpin-merge/"
+      },
+      "analysis": "At Nubank, this approach could significantly enhance our prototyping capabilities, especially for iterative testing of new features within existing flows like PIX transfers, loan applications, or card activation. Researchers can use Claude Sonnet to generate initial component structures for screens or interactive elements, then import these directly into UXPin Merge. This allows for immediate, code-level fidelity testing, providing more realistic user feedback on navigation, interaction patterns, and visual hierarchy for features like personalized insurance offerings or onboarding sequences. Instead of relying solely on static mockups or limited interactive prototypes, we can now create near-production-ready experiences for testing, leading to more robust and user-centric designs before full development.\n\nTo implement this, researchers would first define the UI elements and interactions needed for a specific user flow. They would then prompt Claude Sonnet to generate the corresponding shadcn/ui React components, detailing desired states and behaviors. These generated components can then be synced into UXPin Merge, allowing researchers to assemble them into interactive prototypes. It's crucial to remember that while this accelerates component generation, it doesn't replace the need for core UX research principles. Researchers must still conduct thorough user interviews, usability testing, and analysis of the generated prototypes. Guardrails should include ensuring the generated code adheres to Nubank's established design system and accessibility standards, and that the AI-generated components are reviewed by development teams for performance and maintainability, especially for complex areas like multi-stage loan application processes."
+    },
+    {
+      "date": "2026-05-28",
+      "title": "Building a user research portfolio using Claude Design",
+      "summary": "A 45-minute experiment in letting a tool do the thing I have been avoiding for years",
+      "content": "Nikki Anderson's experiment with Claude Design highlights a powerful emerging application of AI in UX research: portfolio generation.  The core idea is that AI tools can significantly streamline the time-consuming and often procrastinated task of curating and presenting user research findings. For UX researchers, this matters because it frees up valuable time to focus on higher-level strategic thinking, synthesis, and impactful insights, rather than the mechanical aspects of portfolio building. Practically, this means researchers can leverage Claude Design to quickly transform raw research data and notes into polished, compelling narratives, accelerating career advancement and knowledge sharing within organizations.",
+      "category": "General AI in research",
+      "source": {
+        "name": "Nikki Anderson (User Research Strategist)",
+        "url": "https://www.userresearchstrategist.com/p/building-a-user-research-portfolio"
+      },
+      "analysis": "At Nubank, Claude Design can be integrated into our existing research workflow to significantly reduce the effort involved in synthesizing and presenting findings from projects like PIX transaction analysis, loan application user journeys, or card activation feedback. Instead of manually structuring reports for internal stakeholders or external portfolio presentations, researchers can feed anonymized research transcripts, interview notes, or key observations into Claude Design. The AI can then assist in generating initial drafts of summaries, identifying recurring themes, and even suggesting visual representations of user pain points or successes.\n\nResearchers should approach this as a powerful assistive tool, not a replacement for human judgment. While Claude Design can quickly generate content, it's crucial for researchers to critically review, edit, and validate the output. This ensures that the synthesized insights accurately reflect the nuances of user behavior and align with Nubank's strategic objectives. Potential limitations include the AI's understanding of specific Nubank product jargon or complex regulatory contexts, requiring careful oversight during the drafting process. For instance, when analyzing feedback on insurance policy wording or onboarding flows, researchers must ensure the AI's interpretations are grounded in actual user sentiment and don't misrepresent critical details."
     },
     {
       "date": "2026-05-27",
