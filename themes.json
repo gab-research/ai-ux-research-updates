@@ -3,54 +3,54 @@
   "updated": "2026-05-29",
   "themes": [
     {
-      "name": "AI research tools",
-      "count": 112,
-      "description": "New AI tool launches, reviews, and platforms built for research workflows."
-    },
-    {
-      "name": "Survey optimization",
-      "count": 98,
-      "description": "AI tools for designing better surveys, reducing bias, and analyzing responses."
-    },
-    {
-      "name": "AI-powered data analysis",
-      "count": 74,
-      "description": "Automated data analysis, clustering, segmentation, and pattern detection."
-    },
-    {
-      "name": "Conversational AI in research",
-      "count": 62,
-      "description": "Chatbots, virtual assistants, and voice AI in research contexts."
+      "name": "Agentic AI in research",
+      "count": 237,
+      "description": "Focuses on AI agents that can perform research tasks autonomously or with minimal human intervention, often involving multi-agent systems and complex workflows."
     },
     {
       "name": "AI coding assistants",
-      "count": 59,
-      "description": "Copilot, Claude Code, Cursor, and other AI tools for code generation and development."
+      "count": 154,
+      "description": "Covers AI tools and research that assist in writing, debugging, and refactoring code, improving developer productivity and code quality."
     },
     {
-      "name": "Agentic AI in research",
-      "count": 56,
-      "description": "Autonomous AI agents running research tasks, multi-agent frameworks, and orchestration."
+      "name": "AI research tools",
+      "count": 149,
+      "description": "Encompasses a broad range of AI-powered platforms and tools designed to aid researchers in various stages of their work, from data analysis to literature review."
+    },
+    {
+      "name": "AI research platforms",
+      "count": 140,
+      "description": "Details platforms specifically built to facilitate and accelerate AI research, often offering integrated tools for experimentation, model development, and collaboration."
+    },
+    {
+      "name": "AI testing automation",
+      "count": 92,
+      "description": "Explores the use of AI to automate various aspects of software testing, including test case generation, execution, and analysis of results."
+    },
+    {
+      "name": "AI design & research",
+      "count": 92,
+      "description": "Covers the application of AI in the design process, from ideation and prototyping to generating design assets and informing research strategies."
     },
     {
       "name": "AI workforce impact",
-      "count": 53,
-      "description": "AI replacing roles, future of work, skills gap, reskilling, and organizational change."
+      "count": 84,
+      "description": "Analyzes the effects of AI on employment, including job displacement, creation, skill requirements, and the future of work."
     },
     {
-      "name": "AI tool evaluation",
-      "count": 26,
-      "description": "Comparing, benchmarking, and selecting AI tools and LLMs for specific use cases."
+      "name": "Synthetic users",
+      "count": 47,
+      "description": "Discusses the creation and use of synthetic data or virtual user personas for training AI models and conducting research without relying on real user data."
     },
     {
-      "name": "AI ethics in research",
-      "count": 24,
-      "description": "Bias, fairness, responsible AI, privacy, and trust in research."
+      "name": "AI customer insights",
+      "count": 45,
+      "description": "Focuses on how AI is used to gather, analyze, and interpret customer data to understand behavior, preferences, and sentiment."
     },
     {
       "name": "AI content generation",
-      "count": 22,
-      "description": "AI writing, report generation, UX copy, and content creation."
+      "count": 39,
+      "description": "Covers AI tools and techniques for creating various forms of content, including text, images, and code."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
