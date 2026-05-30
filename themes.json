@@ -3,54 +3,54 @@
   "updated": "2026-05-30",
   "themes": [
     {
-      "name": "AI research tools",
-      "count": 126,
-      "description": "New AI tool launches, reviews, and platforms built for research workflows."
-    },
-    {
-      "name": "Survey optimization",
-      "count": 107,
-      "description": "AI tools for designing better surveys, reducing bias, and analyzing responses."
-    },
-    {
-      "name": "AI-powered data analysis",
-      "count": 71,
-      "description": "Automated data analysis, clustering, segmentation, and pattern detection."
+      "name": "Agentic AI in research",
+      "count": 149,
+      "description": "Articles discussing AI agents that can autonomously perform research tasks, analyze data, or interact with users to achieve research goals."
     },
     {
       "name": "AI coding assistants",
-      "count": 67,
-      "description": "Copilot, Claude Code, Cursor, and other AI tools for code generation and development."
+      "count": 66,
+      "description": "Content focusing on AI tools that assist developers in writing, debugging, and understanding code."
     },
     {
-      "name": "Conversational AI in research",
-      "count": 62,
-      "description": "Chatbots, virtual assistants, and voice AI in research contexts."
+      "name": "AI research tools",
+      "count": 52,
+      "description": "Articles about AI-powered platforms and tools designed to enhance the research process, from data collection to analysis."
     },
     {
-      "name": "Agentic AI in research",
-      "count": 55,
-      "description": "Autonomous AI agents running research tasks, multi-agent frameworks, and orchestration."
-    },
-    {
-      "name": "AI workforce impact",
-      "count": 53,
-      "description": "AI replacing roles, future of work, skills gap, reskilling, and organizational change."
-    },
-    {
-      "name": "AI ethics in research",
-      "count": 29,
-      "description": "Bias, fairness, responsible AI, privacy, and trust in research."
-    },
-    {
-      "name": "AI tool evaluation",
-      "count": 26,
-      "description": "Comparing, benchmarking, and selecting AI tools and LLMs for specific use cases."
+      "name": "AI summarization",
+      "count": 16,
+      "description": "This theme covers AI applications focused on condensing large amounts of text or data into concise summaries."
     },
     {
       "name": "AI content generation",
-      "count": 23,
-      "description": "AI writing, report generation, UX copy, and content creation."
+      "count": 10,
+      "description": "This theme focuses on AI tools and techniques used to create written content, code, or other forms of creative output."
+    },
+    {
+      "name": "Synthetic users",
+      "count": 10,
+      "description": "Articles discussing the use of synthetic data or simulated users for training AI models or conducting research."
+    },
+    {
+      "name": "AI research tools comparison",
+      "count": 10,
+      "description": "This theme covers articles that compare and evaluate various AI tools for research purposes."
+    },
+    {
+      "name": "AI workforce impact",
+      "count": 9,
+      "description": "Research and discussion on how AI is affecting employment, job roles, and the future of work."
+    },
+    {
+      "name": "AI research platform",
+      "count": 9,
+      "description": "Articles about platforms specifically designed to facilitate AI research, development, and deployment."
+    },
+    {
+      "name": "AI for product management",
+      "count": 7,
+      "description": "This theme focuses on how AI is being applied to assist in product management tasks, from ideation to strategy."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
