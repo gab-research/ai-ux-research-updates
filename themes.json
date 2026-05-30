@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 149,
-      "description": "Articles discussing AI agents that can autonomously perform research tasks, analyze data, or interact with users to achieve research goals."
+      "count": 189,
+      "description": "Focuses on AI agents capable of performing research tasks independently, often involving multi-agent systems and research platforms."
     },
     {
       "name": "AI coding assistants",
-      "count": 66,
-      "description": "Content focusing on AI tools that assist developers in writing, debugging, and understanding code."
+      "count": 144,
+      "description": "Covers AI tools that assist developers with writing, debugging, and understanding code, often integrated into IDEs or available as standalone services."
     },
     {
       "name": "AI research tools",
-      "count": 52,
-      "description": "Articles about AI-powered platforms and tools designed to enhance the research process, from data collection to analysis."
+      "count": 134,
+      "description": "Encompasses a broad range of AI-powered tools designed to assist researchers in various aspects of their work, from data analysis to literature review."
+    },
+    {
+      "name": "AI chatbot research",
+      "count": 75,
+      "description": "Articles discussing the behavior, capabilities, limitations, and societal impact of AI chatbots, including their use in research and advice-giving."
+    },
+    {
+      "name": "AI-powered data analysis",
+      "count": 55,
+      "description": "Explores AI applications for analyzing complex datasets, identifying patterns, and extracting insights, often involving tools for data formulation and analytics."
+    },
+    {
+      "name": "AI design research",
+      "count": 48,
+      "description": "Focuses on how AI is being integrated into design processes, tools, and workflows, impacting the creation and user experience of digital products."
     },
     {
       "name": "AI summarization",
-      "count": 16,
-      "description": "This theme covers AI applications focused on condensing large amounts of text or data into concise summaries."
+      "count": 36,
+      "description": "Covers AI capabilities for condensing large amounts of text or data into shorter, digestible summaries, useful for research and information processing."
     },
     {
-      "name": "AI content generation",
-      "count": 10,
-      "description": "This theme focuses on AI tools and techniques used to create written content, code, or other forms of creative output."
-    },
-    {
-      "name": "Synthetic users",
-      "count": 10,
-      "description": "Articles discussing the use of synthetic data or simulated users for training AI models or conducting research."
+      "name": "AI usability testing",
+      "count": 34,
+      "description": "Discusses the application of AI in testing software, products, and user interfaces, including automated testing and AI-driven quality assurance."
     },
     {
       "name": "AI research tools comparison",
-      "count": 10,
-      "description": "This theme covers articles that compare and evaluate various AI tools for research purposes."
+      "count": 32,
+      "description": "Articles that compare, evaluate, and review different AI tools and platforms for research purposes, assessing their effectiveness and features."
     },
     {
       "name": "AI workforce impact",
-      "count": 9,
-      "description": "Research and discussion on how AI is affecting employment, job roles, and the future of work."
-    },
-    {
-      "name": "AI research platform",
-      "count": 9,
-      "description": "Articles about platforms specifically designed to facilitate AI research, development, and deployment."
-    },
-    {
-      "name": "AI for product management",
-      "count": 7,
-      "description": "This theme focuses on how AI is being applied to assist in product management tasks, from ideation to strategy."
+      "count": 25,
+      "description": "Examines the effects of AI on employment, job roles, hiring practices, and the skills required in the modern workforce, often based on survey data."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
