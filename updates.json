@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-05-31T10:21:54.108Z",
+  "lastUpdated": "2026-05-31T17:18:01.309Z",
   "updates": [
     {
       "date": "2026-05-31",
@@ -14,6 +14,30 @@
         "url": "https://www.uxpin.com/studio/blog/build-ux-claude-sonnet-4-5-custom-design-systems-uxpin-merge/"
       },
       "analysis": "At Nubank, this integrated approach can significantly enhance our research workflow for new features and optimizations. For instance, when exploring improvements to the PIX transfer flow or designing the onboarding experience for new customers, researchers could utilize Claude Sonnet 4.5 within UXPin to quickly generate multiple layout options based on our established design system components. This allows us to move beyond static wireframes and test more interactive and visually accurate prototypes with users earlier in the process, reducing the gap between research findings and development implementation.  Imagine testing different card activation flows or insurance product interfaces, quickly iterating on a multitude of visually consistent designs.\n\nResearchers should apply this by starting with well-defined design tokens and components within our existing design system. Claude can then be prompted to generate variations of screens or flows, ensuring adherence to Nubank's brand identity and functional requirements. However, it's crucial to establish clear guardrails. The AI's output should always be reviewed and refined by researchers to ensure it truly addresses user needs and ethical considerations, not just aesthetic or structural ones. We must remember this is a tool to augment, not replace, human judgment and user empathy, especially when dealing with sensitive financial products or complex user journeys like loan applications.  The AI's suggestions should be treated as starting points, with critical evaluation and user feedback being paramount."
+    },
+    {
+      "date": "2026-05-31",
+      "title": "AI Token Scarcity and Arcade Economics",
+      "summary": "The rising cost of computing is prompting a reevaluation of designers' expectations. Continue reading on UX Collective »",
+      "content": "This article highlights a significant shift in the landscape of AI-powered design tools, driven by increasing computational costs. The core idea is that the \"free\" or low-cost access to advanced AI features for designers is becoming unsustainable due to the energy and processing power required. This matters for UX researchers as it implies a potential future where sophisticated AI assistance in areas like generative design, advanced data analysis, or automated user segmentation might come with a tangible price tag. Consequently, UX teams need to anticipate budget adjustments, explore more cost-effective AI solutions, and strategically prioritize which AI applications offer the most significant ROI.",
+      "category": "AI-powered data analysis",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/ai-token-scarcity-and-arcade-economics-5d6c0f2df3b5?source=rss----138adf9c44c---4"
+      },
+      "analysis": "At Nubank, the \"AI Token Scarcity\" concept directly impacts how we leverage AI for research, particularly in areas where large language models or complex simulations are employed.  For instance, when analyzing sentiment from thousands of customer feedback comments about our PIX service or optimizing onboarding flows for new users, the computational cost of AI tools could become a significant factor. Researchers should begin by auditing our current AI tool usage and identifying which processes are most resource-intensive.  We should then explore alternative, potentially more efficient AI models or strategically phase in advanced AI capabilities for critical research questions where the insights justify the cost.\n\nTo apply this practically, our research team should prioritize AI applications that demonstrably increase efficiency and insight generation without prohibitive costs. This could involve using AI for initial data clustering of user survey responses on loan applications or for generating synthetic personas to test card activation scenarios, rather than relying on AI for every minor iterative design change.  Guardrails should include setting clear budget limits for AI tool subscriptions or API calls, focusing on open-source or more specialized, cost-effective AI solutions where feasible, and ensuring that human oversight remains paramount, especially when AI is used for generating user-facing content or making critical recommendations about insurance products.  We must also foster internal knowledge sharing on best practices for cost-conscious AI research to ensure we remain innovative and efficient."
+    },
+    {
+      "date": "2026-05-31",
+      "title": "YouTube is gonna auto-tag AI, and it makes me angry",
+      "summary": "So late to the party, so slimy, so angry. Continue reading on UX Collective »",
+      "content": "This article expresses frustration with YouTube's recent implementation of AI-powered automatic content tagging, arguing that the platform is \"late to the party\" and that its approach feels \"slimy.\" The author believes that while AI can be a powerful tool for content classification, the execution matters. For UX researchers, this highlights the critical importance of understanding user perception and potential negative reactions to AI-driven features, even when the underlying technology is sound. The practical implication is that any AI deployment in a UX research context must be carefully considered not just for its efficiency gains, but also for its potential to alienate or frustrate users, especially if it feels intrusive or lacks transparency.",
+      "category": "AI research tools",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/youtube-is-gonna-auto-tag-ai-and-it-makes-me-angry-598bff827a68?source=rss----138adf9c44c---4"
+      },
+      "analysis": "At Nubank, this article prompts a discussion about how we can leverage AI for content analysis within our research workflows, particularly for large datasets like user feedback from our PIX transactions, loan applications, or card activation processes. Instead of directly deploying automatic tagging without user awareness, our approach should be to use AI as an assistive tool for researchers to quickly surface themes and patterns in qualitative data. For instance, AI could help categorize open-ended feedback related to our onboarding flow or insurance product inquiries, allowing researchers to focus more on synthesizing insights and less on manual categorization. We should always be transparent with our research participants about the methods used, ensuring they feel comfortable and informed, especially when dealing with sensitive data. Furthermore, the \"slimy\" feeling described in the article serves as a crucial guardrail: our AI implementations must be ethical, transparent, and demonstrably beneficial to the user experience, not just an opaque efficiency hack. We need to avoid any perception of surveillance or manipulation, ensuring that AI's role in understanding user sentiment, for example, in analyzing feedback on our digital savings accounts, remains a supportive and empowering element of our research process, not a source of user distrust."
     },
     {
       "date": "2026-05-30",
@@ -329,7 +353,7 @@
     },
     {
       "date": "2026-05-19",
-      "title": "AI Engineering - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "title": "AI Engineering - All Things Product Podcast with Teresa Torres &amp; Petra Wille",
       "summary": "Listen to this episode on: Spotify | Apple Podcasts What happens when a product leader accidentally becomes an AI engineer? In this episode, Teresa Torres shares how she went from occasional tinkerer to spending 60% of her time doing real engineering work — building AI-powered...",
       "content": "This \"All Things Product\" podcast episode features Teresa Torres, a product leader who has unexpectedly found herself deeply involved in AI engineering.  The core of the discussion likely revolves around her journey from a general product background to dedicating a significant portion of her time to building AI-powered features. This shift is highly relevant for UX researchers as it highlights the increasing integration of AI into product development cycles. Understanding how product leaders are navigating and implementing AI can inform how UX researchers can best collaborate with engineering teams and proactively identify opportunities to leverage AI for enhanced user experiences, potentially impacting areas like personalized financial advice or fraud detection in real-time transactions.",
       "category": "AI for product management",
