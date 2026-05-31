@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-05-31T04:41:25.597Z",
+  "lastUpdated": "2026-05-31T10:21:54.108Z",
   "updates": [
+    {
+      "date": "2026-05-31",
+      "title": "How to build UX using Claude Sonnet 4.5 + Custom Design Systems  –  Use UXPin Merge!",
+      "summary": "Combine Claude Sonnet 4.5 and UXPin Merge to generate component-based layouts, enforce tokens, and produce production-ready prototypes. The post How to build UX using Claude Sonnet 4.5 + Custom Design Systems – Use UXPin Merge! appeared first on Studio by UXPin.",
+      "content": "This article introduces a novel approach to UX design by integrating Claude Sonnet 4.5, a powerful AI language model, with UXPin Merge, a tool for design system-driven prototyping. The core idea is to leverage AI for rapid generation of component-based layouts and enforcement of design tokens directly from a custom design system. This is crucial for UX researchers as it promises to accelerate the creation of high-fidelity, production-ready prototypes, thereby streamlining user testing cycles and facilitating faster iteration on product features. The practical implication is the potential for researchers to generate and test more variations of UIs for features like onboarding or loan applications with greater fidelity and adherence to brand guidelines.",
+      "category": "General AI in research",
+      "source": {
+        "name": "UXPin Blog",
+        "url": "https://www.uxpin.com/studio/blog/build-ux-claude-sonnet-4-5-custom-design-systems-uxpin-merge/"
+      },
+      "analysis": "At Nubank, this integrated approach can significantly enhance our research workflow for new features and optimizations. For instance, when exploring improvements to the PIX transfer flow or designing the onboarding experience for new customers, researchers could utilize Claude Sonnet 4.5 within UXPin to quickly generate multiple layout options based on our established design system components. This allows us to move beyond static wireframes and test more interactive and visually accurate prototypes with users earlier in the process, reducing the gap between research findings and development implementation.  Imagine testing different card activation flows or insurance product interfaces, quickly iterating on a multitude of visually consistent designs.\n\nResearchers should apply this by starting with well-defined design tokens and components within our existing design system. Claude can then be prompted to generate variations of screens or flows, ensuring adherence to Nubank's brand identity and functional requirements. However, it's crucial to establish clear guardrails. The AI's output should always be reviewed and refined by researchers to ensure it truly addresses user needs and ethical considerations, not just aesthetic or structural ones. We must remember this is a tool to augment, not replace, human judgment and user empathy, especially when dealing with sensitive financial products or complex user journeys like loan applications.  The AI's suggestions should be treated as starting points, with critical evaluation and user feedback being paramount."
+    },
     {
       "date": "2026-05-30",
       "title": "How to build UX using Claude Sonnet 4.5 + Bootstrap  –  Use UXPin Merge!",
@@ -317,7 +329,7 @@
     },
     {
       "date": "2026-05-19",
-      "title": "AI Engineering - All Things Product Podcast with Teresa Torres &amp; Petra Wille",
+      "title": "AI Engineering - All Things Product Podcast with Teresa Torres & Petra Wille",
       "summary": "Listen to this episode on: Spotify | Apple Podcasts What happens when a product leader accidentally becomes an AI engineer? In this episode, Teresa Torres shares how she went from occasional tinkerer to spending 60% of her time doing real engineering work — building AI-powered...",
       "content": "This \"All Things Product\" podcast episode features Teresa Torres, a product leader who has unexpectedly found herself deeply involved in AI engineering.  The core of the discussion likely revolves around her journey from a general product background to dedicating a significant portion of her time to building AI-powered features. This shift is highly relevant for UX researchers as it highlights the increasing integration of AI into product development cycles. Understanding how product leaders are navigating and implementing AI can inform how UX researchers can best collaborate with engineering teams and proactively identify opportunities to leverage AI for enhanced user experiences, potentially impacting areas like personalized financial advice or fraud detection in real-time transactions.",
       "category": "AI for product management",
