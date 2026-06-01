@@ -1,56 +1,56 @@
 {
-  "month": "2026-05",
-  "updated": "2026-05-31",
+  "month": "2026-06",
+  "updated": "2026-06-01",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 79,
-      "description": "Focuses on AI agents that can perform research tasks autonomously or semi-autonomously, often involving complex workflows and decision-making."
+      "count": 4,
+      "description": "Articles discussing AI agents performing research tasks autonomously, such as hunting bounties or scraping data."
     },
     {
       "name": "AI coding assistants",
-      "count": 37,
-      "description": "Covers AI tools designed to help developers write, debug, and understand code."
+      "count": 3,
+      "description": "Content focused on AI tools that assist in writing, debugging, or understanding code."
+    },
+    {
+      "name": "AI for product management",
+      "count": 3,
+      "description": "Explores AI applications directly relevant to product managers, including feature prioritization and market analysis."
     },
     {
       "name": "AI research tools",
-      "count": 35,
-      "description": "Articles about specific AI tools or platforms designed to aid researchers in various aspects of their work."
-    },
-    {
-      "name": "AI summarization",
-      "count": 23,
-      "description": "Focuses on AI capabilities for condensing large amounts of text or data into concise summaries."
-    },
-    {
-      "name": "AI workforce impact",
-      "count": 30,
-      "description": "Examines the effects of AI on employment, job displacement, skill requirements, and the future of work."
-    },
-    {
-      "name": "Synthetic users",
-      "count": 19,
-      "description": "Discusses the creation and use of synthetic data or simulated users for AI training and research purposes."
-    },
-    {
-      "name": "AI testing automation",
-      "count": 16,
-      "description": "Covers the application of AI to automate software testing processes, improving efficiency and coverage."
-    },
-    {
-      "name": "AI customer insights",
-      "count": 16,
-      "description": "Focuses on how AI is used to gather, analyze, and understand customer behavior and preferences."
-    },
-    {
-      "name": "AI design & research",
-      "count": 16,
-      "description": "Explores how AI is integrated into the design process, from ideation to user interface and experience design research."
+      "count": 3,
+      "description": "Articles detailing specific AI tools and libraries used for conducting research, especially in ML/AI."
     },
     {
       "name": "AI content generation",
-      "count": 14,
-      "description": "Articles about AI's ability to create various forms of content, such as text, images, and code."
+      "count": 2,
+      "description": "Focuses on AI's capability to create content, such as landing pages or marketing materials."
+    },
+    {
+      "name": "AI workforce impact",
+      "count": 2,
+      "description": "Discussions on how AI is changing job roles, automation of tasks, and the human element in AI-assisted work."
+    },
+    {
+      "name": "AI tool evaluation",
+      "count": 2,
+      "description": "Articles that assess the performance, effectiveness, or ethical considerations of specific AI tools."
+    },
+    {
+      "name": "Conversational AI in research",
+      "count": 2,
+      "description": "Content exploring the use of AI chatbots and assistants for research purposes, including user interaction."
+    },
+    {
+      "name": "AI hiring automation ethics",
+      "count": 1,
+      "description": "Examines the ethical implications and practicalities of using AI in recruitment and hiring processes."
+    },
+    {
+      "name": "AI summarization",
+      "count": 1,
+      "description": "Covers the use of AI to condense large amounts of text or data into concise summaries."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."

@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-05-31T17:18:01.309Z",
+  "lastUpdated": "2026-06-01T05:02:53.247Z",
   "updates": [
     {
       "date": "2026-05-31",
@@ -1010,18 +1010,6 @@
         "url": "https://www.uxpin.com/studio/blog/build-ux-gpt-5-mini-shadcn-ui-uxpin-merge/"
       },
       "analysis": "At Nubank, this GPT-5 Mini and shadcn/ui integration through UXPin Merge could revolutionize how researchers build high-fidelity prototypes. Imagine a researcher needing to test a new PIX flow. Instead of manually crafting every button and form field, they could use a prompt like, \"Create a PIX transfer screen with fields for recipient's key, amount, and a confirmation button, using Nubank's primary colors and brand typography.\" This would generate a functional prototype faster than current methods, allowing for earlier user testing. Similarly, for exploring improvements to loan application screens or refining the card activation onboarding experience, this tool could significantly accelerate the creation of realistic, interactive mockups.\n\nResearchers should view this as an augmentation, not a replacement, for their skills. The generated code would serve as a robust starting point for testing hypotheses, especially for common UI patterns. However, critical UX thinking, user empathy, and understanding nuanced user behaviors remain paramount. Guardrails are essential: ensure generated designs adhere strictly to Nubank's design system and accessibility standards. Researchers must validate that the AI-generated output genuinely reflects user needs and doesn't introduce unintended biases or complexities. This could be particularly important when prototyping sensitive flows like insurance claims or complex account management features, where precision and user trust are paramount."
-    },
-    {
-      "date": "2026-05-02",
-      "title": "How to build UX using GPT-5 Mini + MUI  –  Use UXPin Merge!",
-      "summary": "Generate production-ready MUI components with GPT-5 Mini and sync them into UXPin Merge for faster, consistent UX prototypes. The post How to build UX using GPT-5 Mini + MUI – Use UXPin Merge! appeared first on Studio by UXPin.",
-      "content": "This article introduces a workflow for leveraging GPT-5 Mini's generative capabilities with Material UI (MUI) to rapidly create production-ready design components. By integrating these AI-generated components into UXPin Merge, design teams can significantly accelerate the prototyping process, ensuring greater consistency and adherence to established design systems. For UX researchers, this development offers a powerful new tool for quickly iterating on user interfaces, generating realistic mockups that can be tested earlier and more frequently in the development lifecycle, ultimately leading to more data-driven design decisions.",
-      "category": "AI content generation",
-      "source": {
-        "name": "UXPin Blog",
-        "url": "https://www.uxpin.com/studio/blog/build-ux-gpt-5-mini-mui-uxpin-merge/"
-      },
-      "analysis": "At Nubank, this GPT-5 Mini + MUI + UXPin Merge workflow could be integrated into our early-stage ideation and prototyping phases. For instance, when exploring new features for our PIX payment flow or designing an improved loan application interface, researchers could use GPT-5 Mini to generate initial component variations based on natural language prompts describing desired functionality and aesthetics. These components would then be synced to UXPin Merge, allowing for rapid assembly of interactive prototypes that closely resemble our live product, facilitating user testing for features like card activation or onboarding.\n\nResearchers should apply this by using it as a rapid prototyping accelerator. Instead of manually crafting every button, input field, or card for a new feature exploration, they can prompt GPT-5 Mini for MUI-compliant components and immediately see them in a high-fidelity prototype. This allows for faster hypothesis testing and gathering qualitative feedback on user flows before significant engineering investment. However, it's crucial to remember that this is a tool for acceleration, not a replacement for human-centered design. Researchers must still rigorously validate AI-generated designs with real users, and ensure that generated components align with our existing design language and accessibility standards. Over-reliance without user validation could lead to subtle usability issues or inconsistencies that are difficult to catch in automated generation."
     }
   ]
 }
