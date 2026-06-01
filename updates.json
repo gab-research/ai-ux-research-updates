@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-06-01T13:45:34.807Z",
+  "lastUpdated": "2026-06-01T20:22:13.785Z",
   "updates": [
     {
       "date": "2026-06-01",
@@ -26,6 +26,18 @@
         "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260601"
       },
       "analysis": "At Nubank, this roundup's insights on e-commerce usability failures are directly applicable to improving our transactional flows. For instance, understanding conversion killers can help us optimize the PIX payment process or the card activation journey, ensuring fewer drop-offs and a smoother customer experience. Researchers should prioritize identifying and mitigating these friction points through focused usability testing, particularly in high-stakes areas like loan applications or insurance policy purchases.\n\nThe discussion on social media's shift towards less social interaction is less direct for core banking products but informs our understanding of user expectations for digital engagement. While we aim for efficient service, we must also ensure our communication channels and community-building efforts don't inadvertently feel impersonal. The idea of framing the team as video game characters could be a valuable tool for fostering creative problem-solving and team cohesion, especially when tackling complex challenges like improving the onboarding experience for new customers or iterating on the credit limit adjustment flow. This can help us approach design problems with fresh perspectives and encourage cross-functional collaboration in a fun, engaging way."
+    },
+    {
+      "date": "2026-06-01",
+      "title": "How to build UX using Claude Haiku 4.5 + MUI  –  Use UXPin Merge!",
+      "summary": "Combine AI ideation with MUI and UXPin Merge to build production-ready, US-localized prototypes with accessible, code-based components. The post How to build UX using Claude Haiku 4.5 + MUI – Use UXPin Merge! appeared first on Studio by UXPin.",
+      "content": "This article proposes an integrated approach to UX design by combining AI-powered ideation with a robust component library and a prototyping tool.  By leveraging Claude Haiku 4.5 for generating initial UX concepts and ideas, and then utilizing MUI (Material UI) for building code-based, accessible components within UXPin Merge, designers can rapidly create production-ready prototypes. This is highly relevant for UX researchers as it streamlines the ideation and prototyping phases, enabling faster iteration and validation of user experiences, especially when aiming for localized and accessible designs.",
+      "category": "AI for product management",
+      "source": {
+        "name": "UXPin Blog",
+        "url": "https://www.uxpin.com/studio/blog/build-ux-claude-haiku-4-5-mui-uxpin-merge/"
+      },
+      "analysis": "At Nubank, this workflow could significantly accelerate our UX research and design process, particularly for rapid prototyping and testing of new features like PIX integrations or loan application flows. Researchers could use Claude Haiku to brainstorm initial user journeys and UI elements for features such as card activation or new insurance product onboarding, and then have designers translate these into interactive prototypes using MUI components within UXPin Merge. This allows for quicker A/B testing of different UX approaches and more tangible feedback cycles before engineering investment.\n\nTo apply this at Nubank, researchers should collaborate closely with design teams to integrate Claude's ideation capabilities early in the discovery phase. The focus should be on using AI to augment, not replace, human creativity and critical thinking in understanding user needs for products like credit card management or personal account features. Guardrails are essential: AI-generated ideas should always be critically evaluated against established user research insights and business objectives. Furthermore, while UXPin Merge facilitates code-based components, researchers must ensure the final prototypes are rigorously tested for accessibility standards and align with Nubank's brand guidelines and established design system to avoid introducing inconsistencies across our digital products."
     },
     {
       "date": "2026-05-31",

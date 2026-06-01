@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 14,
-      "description": "Articles discussing AI agents performing research tasks, autonomous workflows, or acting as research assistants."
+      "count": 18,
+      "description": "Articles focusing on AI agents that can autonomously perform research tasks, interact with systems, or act as research assistants."
     },
     {
       "name": "AI coding assistants",
-      "count": 7,
-      "description": "Content focused on AI tools that help developers write, debug, or manage code."
+      "count": 17,
+      "description": "Content discussing AI tools that help developers write, review, or debug code, often with a focus on specific models or use cases."
     },
     {
-      "name": "AI summarization insights",
-      "count": 2,
-      "description": "Articles detailing how AI is used to condense and extract key insights from large amounts of data or text."
+      "name": "AI for product management",
+      "count": 12,
+      "description": "Articles exploring how AI is being used by product managers for tasks like research, insights generation, and strategic planning."
+    },
+    {
+      "name": "AI research platforms",
+      "count": 7,
+      "description": "Discussions around platforms or tools designed to facilitate and enhance AI-driven research across various domains."
+    },
+    {
+      "name": "Generative AI design",
+      "count": 5,
+      "description": "Content related to AI's role in generating design assets, blurring lines between design and code, and automating creative processes."
     },
     {
       "name": "AI for design & research",
-      "count": 10,
-      "description": "Content covering AI applications directly impacting the design process, user experience research, or product development."
+      "count": 5,
+      "description": "Articles broadly covering the application of AI in enhancing both the design process and user research methodologies."
+    },
+    {
+      "name": "AI customer insights",
+      "count": 3,
+      "description": "Focuses on how AI is used to analyze customer behavior, feedback, and market trends to derive actionable insights."
     },
     {
       "name": "AI testing automation",
       "count": 3,
-      "description": "Articles about using AI to automate software testing processes, including perception and intent validation."
+      "description": "Articles detailing the use of AI for automating various aspects of software testing, including performance and validation."
     },
     {
-      "name": "AI research tools",
-      "count": 4,
-      "description": "Discussions on platforms, tools, or technologies that facilitate or enhance research activities through AI."
+      "name": "AI research tools broad",
+      "count": 3,
+      "description": "Articles discussing a wide range of AI tools and their impact on research activities, without specifying a narrow application."
     },
     {
       "name": "AI workforce impact",
-      "count": 2,
-      "description": "Articles exploring how AI is changing jobs, roles, and the overall structure of the workforce, particularly in research and development."
-    },
-    {
-      "name": "AI customer insights",
-      "count": 1,
-      "description": "Content focused on AI's role in understanding customer behavior, preferences, and needs."
-    },
-    {
-      "name": "AI research platform",
-      "count": 2,
-      "description": "Articles featuring specific platforms or environments designed for AI-driven research or experimentation."
-    },
-    {
-      "name": "AI summarization",
-      "count": 1,
-      "description": "Articles focused on AI's ability to create concise summaries of lengthy content or data sets."
+      "count": 3,
+      "description": "Content exploring how AI is changing job roles, requiring new skills, and affecting employment in various sectors."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
