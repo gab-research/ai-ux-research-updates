@@ -1,8 +1,32 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-06-01T05:02:53.247Z",
+  "lastUpdated": "2026-06-01T13:45:34.807Z",
   "updates": [
+    {
+      "date": "2026-06-01",
+      "title": "Is your website ready for AI agents?",
+      "summary": "Your website just got ghosted by an AI agent and why accessibility is your new best friend. Continue reading on UX Collective »",
+      "content": "This article highlights a crucial emerging trend: AI agents are increasingly interacting with websites, much like human users.  When an AI agent encounters a poorly designed or inaccessible experience, it might simply disengage, effectively 'ghosting' the site. For UX researchers, this underscores the critical importance of prioritizing accessibility, as it's no longer just about human users but also about ensuring AI can effectively navigate and understand our digital products.  This means proactively testing for AI compatibility and ensuring our interfaces are robust enough to be interpreted correctly by these new agents.",
+      "category": "Automated usability checks",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/is-your-website-ready-for-ai-agents-84272a6a96c1?source=rss----138adf9c44c---4"
+      },
+      "analysis": "At Nubank, this article directly impacts our commitment to a frictionless user experience across all products. We should integrate AI agent readiness into our existing UX research workflows. This means incorporating AI-driven accessibility checks and simulating AI agent interactions during usability testing for key flows like PIX transfers, loan applications, and card activation. Researchers can use AI simulation tools to identify potential 'ghosting' scenarios that might impact user conversion or satisfaction, even before human users encounter them.\n\nWhen applying this, researchers should focus on ensuring that our digital interfaces are semantically rich and clearly structured, making them easily understandable by AI. This includes meticulous attention to alt text for images, logical heading hierarchies, and clear, concise labeling for all interactive elements. For example, during the onboarding flow, we need to ensure an AI agent could accurately parse and understand the steps required to open a new account. While AI agents offer exciting opportunities for proactive problem-solving, we must also be mindful of their current limitations, ensuring that human oversight and traditional usability testing remain central to our research. This approach ensures we are future-proofing our products while maintaining our high standards for human-centered design."
+    },
+    {
+      "date": "2026-06-01",
+      "title": "UX Roundup: Ecommerce Usability Fails | Social Media Less Social | Overseeing Agents | Your Team as Video Game Characters | UX Hero | Seedance",
+      "summary": "Summary: The two most conversion-killing ecommerce usability fails | Social media use remains strong but the platforms are becoming less about connecting with other people | The usability of overseeing AI agents | Team-building image idea: design video game characters | Profes...",
+      "content": "This UX Roundup from Jakob Nielsen highlights several critical areas for UX professionals. It identifies the top two conversion bottlenecks in e-commerce, emphasizing the need for meticulous usability testing to prevent lost sales. The article also points to a concerning trend in social media, where platforms are prioritizing algorithmic engagement over genuine human connection, impacting user experience and community building. Furthermore, it delves into the complex usability of overseeing AI agents, a growing concern as AI integration accelerates. Finally, it offers a creative team-building exercise by framing UX teams as video game characters, encouraging a novel perspective on team dynamics and problem-solving.",
+      "category": "Survey optimization",
+      "source": {
+        "name": "Jakob Nielsen (Substack)",
+        "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260601"
+      },
+      "analysis": "At Nubank, this roundup's insights on e-commerce usability failures are directly applicable to improving our transactional flows. For instance, understanding conversion killers can help us optimize the PIX payment process or the card activation journey, ensuring fewer drop-offs and a smoother customer experience. Researchers should prioritize identifying and mitigating these friction points through focused usability testing, particularly in high-stakes areas like loan applications or insurance policy purchases.\n\nThe discussion on social media's shift towards less social interaction is less direct for core banking products but informs our understanding of user expectations for digital engagement. While we aim for efficient service, we must also ensure our communication channels and community-building efforts don't inadvertently feel impersonal. The idea of framing the team as video game characters could be a valuable tool for fostering creative problem-solving and team cohesion, especially when tackling complex challenges like improving the onboarding experience for new customers or iterating on the credit limit adjustment flow. This can help us approach design problems with fresh perspectives and encourage cross-functional collaboration in a fun, engaging way."
+    },
     {
       "date": "2026-05-31",
       "title": "How to build UX using Claude Sonnet 4.5 + Custom Design Systems  –  Use UXPin Merge!",
