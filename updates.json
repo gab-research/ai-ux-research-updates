@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-06-01T20:22:13.785Z",
+  "lastUpdated": "2026-06-02T04:49:36.561Z",
   "updates": [
     {
       "date": "2026-06-01",
@@ -38,6 +38,18 @@
         "url": "https://www.uxpin.com/studio/blog/build-ux-claude-haiku-4-5-mui-uxpin-merge/"
       },
       "analysis": "At Nubank, this workflow could significantly accelerate our UX research and design process, particularly for rapid prototyping and testing of new features like PIX integrations or loan application flows. Researchers could use Claude Haiku to brainstorm initial user journeys and UI elements for features such as card activation or new insurance product onboarding, and then have designers translate these into interactive prototypes using MUI components within UXPin Merge. This allows for quicker A/B testing of different UX approaches and more tangible feedback cycles before engineering investment.\n\nTo apply this at Nubank, researchers should collaborate closely with design teams to integrate Claude's ideation capabilities early in the discovery phase. The focus should be on using AI to augment, not replace, human creativity and critical thinking in understanding user needs for products like credit card management or personal account features. Guardrails are essential: AI-generated ideas should always be critically evaluated against established user research insights and business objectives. Furthermore, while UXPin Merge facilitates code-based components, researchers must ensure the final prototypes are rigorously tested for accessibility standards and align with Nubank's brand guidelines and established design system to avoid introducing inconsistencies across our digital products."
+    },
+    {
+      "date": "2026-06-01",
+      "title": "AI meets Sturgeon’s Law",
+      "summary": "Why does more content not mean more quality Continue reading on UX Collective »",
+      "content": "This article, \"AI meets Sturgeon’s Law,\" explores the challenge of increasing content volume without a corresponding rise in quality, a phenomenon often referred to as Sturgeon's Law: \"90% of everything is Crap.\"  It posits that as AI tools become more prevalent in content creation and research, there's a risk of inundating users and researchers with a higher volume of mediocre or irrelevant output. For UX researchers at Nubank, this means that while AI can accelerate tasks like synthesizing user feedback or generating survey questions, it's crucial to maintain a critical eye.  Simply generating more insights or more content doesn't guarantee better understanding or decision-making; researchers must actively filter, validate, and curate AI-generated outputs to ensure they are genuinely useful and actionable for improving products like PIX, loan applications, or card activation flows.",
+      "category": "AI research tools",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/ai-meets-sturgeons-law-21d17488fc48?source=rss----138adf9c44c---4"
+      },
+      "analysis": "At Nubank, this article's core idea directly impacts our research workflow by emphasizing the need for human oversight when leveraging AI tools. Instead of blindly accepting AI-generated summaries of user interviews or draft personas, researchers should treat these outputs as a first pass. For instance, after an AI analyzes feedback on a new loan onboarding flow, a researcher must still critically evaluate the themes identified, ensuring they accurately reflect user sentiment and aren't simply statistical noise. This critical approach prevents us from being overwhelmed by AI-generated \"crap\" and keeps our insights grounded in genuine user needs.\n\nTo apply this at Nubank, researchers should integrate a \"validation step\" after any AI-assisted content generation. When using AI to draft survey questions for PIX feature development or to summarize feedback on our insurance product's claims process, always have a human expert review and refine the output. This guardrail ensures that the quality of our research remains high, preventing AI from diluting our understanding of user problems. The limitation is that AI is a tool to augment, not replace, human judgment and domain expertise. Over-reliance without critical evaluation could lead to misguided product decisions on critical flows like initial card activation or onboarding."
     },
     {
       "date": "2026-05-31",
@@ -1034,18 +1046,6 @@
         "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260504"
       },
       "analysis": "At Nubank, we can leverage AI to enhance our user research by exploring the \"UX Roundup's\" ideas in several ways. For instance, AI could power simulated user personas for brainstorming sessions or early concept testing, providing a more dynamic and varied perspective than static profiles. Imagine generating AI-driven user journeys for potential PIX fraud scenarios, or simulating new customer onboarding experiences to identify friction points before live testing. This could supplement our existing qualitative methods by offering novel angles and scaling our understanding of diverse user needs across products like loans, insurance, and credit card activation. We should begin by experimenting with generative AI tools to create these simulated personas and scenarios, starting with low-stakes internal exercises.\n\nWhen applying these AI-driven approaches, researchers must maintain critical oversight. While AI can generate insights, it's crucial to remember these are simulations and not direct user feedback. Any AI-generated personas or scenarios should be validated against real user data and qualitative insights gathered through traditional methods. We need to establish clear guidelines for the ethical use of AI in research, ensuring data privacy and avoiding biases that AI might perpetuate. For example, when simulating user responses to a new loan product or insurance offering, we must ensure the AI doesn't inadvertently favor or disadvantage certain demographics. The goal is to augment, not replace, our deep understanding of Nubank users, ensuring our products and features remain truly customer-centric."
-    },
-    {
-      "date": "2026-05-03",
-      "title": "How to build UX using GPT-5 Mini + shadcn/ui  –  Use UXPin Merge!",
-      "summary": "Design production-ready interfaces from plain language prompts using real code components to cut prototyping time and avoid handoffs. The post How to build UX using GPT-5 Mini + shadcn/ui – Use UXPin Merge! appeared first on Studio by UXPin.",
-      "content": "This UXPin article explores a novel approach to UX design and prototyping by integrating GPT-5 Mini with the shadcn/ui component library. The core idea is to enable designers and researchers to generate functional interface code directly from natural language descriptions, leveraging existing, production-ready UI elements. This innovation significantly streamlines the prototyping process, potentially reducing the need for extensive manual coding and minimizing traditional design-to-development handoffs. For UX researchers, this could translate to faster iteration cycles, allowing for quicker validation of design concepts and a more tangible representation of user flows for testing, particularly when building out prototypes for complex financial features.",
-      "category": "AI for product management",
-      "source": {
-        "name": "UXPin Blog",
-        "url": "https://www.uxpin.com/studio/blog/build-ux-gpt-5-mini-shadcn-ui-uxpin-merge/"
-      },
-      "analysis": "At Nubank, this GPT-5 Mini and shadcn/ui integration through UXPin Merge could revolutionize how researchers build high-fidelity prototypes. Imagine a researcher needing to test a new PIX flow. Instead of manually crafting every button and form field, they could use a prompt like, \"Create a PIX transfer screen with fields for recipient's key, amount, and a confirmation button, using Nubank's primary colors and brand typography.\" This would generate a functional prototype faster than current methods, allowing for earlier user testing. Similarly, for exploring improvements to loan application screens or refining the card activation onboarding experience, this tool could significantly accelerate the creation of realistic, interactive mockups.\n\nResearchers should view this as an augmentation, not a replacement, for their skills. The generated code would serve as a robust starting point for testing hypotheses, especially for common UI patterns. However, critical UX thinking, user empathy, and understanding nuanced user behaviors remain paramount. Guardrails are essential: ensure generated designs adhere strictly to Nubank's design system and accessibility standards. Researchers must validate that the AI-generated output genuinely reflects user needs and doesn't introduce unintended biases or complexities. This could be particularly important when prototyping sensitive flows like insurance claims or complex account management features, where precision and user trust are paramount."
     }
   ]
 }
