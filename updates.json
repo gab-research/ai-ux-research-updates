@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-06-02T12:13:41.242Z",
+  "lastUpdated": "2026-06-02T19:49:48.579Z",
   "updates": [
     {
       "date": "2026-06-02",
@@ -50,6 +50,18 @@
         "url": "https://www.technologyreview.com/2026/06/02/1138227/how-small-businesses-can-leverage-ai/"
       },
       "analysis": "At Nubank, this article's insights can be integrated into our user research workflow by leveraging LLMs for accelerated qualitative data analysis. Imagine feeding transcripts from user interviews about PIX usage or card activation experiences into an LLM to quickly identify recurring pain points, unmet needs, or emerging user behaviors. This would free up researchers' time for deeper synthesis and strategic thinking rather than manual coding. Additionally, LLMs can be used for robust competitor analysis, scanning public forums and app store reviews to understand user sentiment around competitor offerings in areas like personal loans or digital insurance products.\n\nResearchers should approach LLM application with a critical eye, focusing on augmenting, not replacing, human judgment. While LLMs can identify patterns, the interpretation of nuanced user emotions and cultural context remains paramount. When analyzing data related to sensitive financial topics like credit applications or onboarding for new customers, researchers must establish clear guardrails around data privacy and bias detection. The goal is to use AI to uncover insights faster and more comprehensively, but the ultimate validation and strategic recommendations must come from skilled UX researchers who understand the Nubank customer and the Brazilian financial landscape."
+    },
+    {
+      "date": "2026-06-02",
+      "title": "The Download: AI can run your admin department now",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How small businesses can leverage AI From accounting to design to market research and product development, there’s a staggering breadth of...",
+      "content": "This MIT Technology Review \"Download\" newsletter highlights the expanding capabilities of AI beyond creative tasks, specifically its potential to automate administrative functions within businesses.  The article suggests that AI is becoming sophisticated enough to handle tasks ranging from accounting and design to crucial areas like market research and product development. For UX researchers, this signals a significant shift, as AI could liberate us from time-consuming manual processes, allowing for deeper dives into user insights and strategic thinking. Practically, this means we can explore AI-powered tools for tasks like data transcription, initial sentiment analysis, competitor research aggregation, and even generating preliminary user journey maps, thereby accelerating our research cycles and enhancing our output.",
+      "category": "AI for design & research",
+      "source": {
+        "name": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/2026/06/02/1138277/the-download-ai-tips-small-businesses-admin/"
+      },
+      "analysis": "At Nubank, the \"AI can run your admin department\" concept directly impacts our research workflow by offering opportunities to automate tedious, time-consuming tasks. Imagine AI assisting with the initial screening and categorization of feedback from thousands of customer support interactions related to PIX transactions, or even summarizing survey responses for loan applications. This could free up researchers to spend more time on qualitative analysis, generative research, and strategy development, rather than manual data wrangling. For instance, AI tools could pre-process interview transcripts for card activation issues, identifying recurring pain points before we even begin thematic analysis. This allows us to focus on the *why* behind user behaviors, not just the *what*.\n\nTo apply this, researchers should actively explore AI-powered tools for data summarization, transcription, sentiment analysis, and competitor intelligence gathering. For example, when researching improvements to our onboarding flow, AI could help quickly identify common themes in user comments about initial setup difficulties. However, we must proceed with caution. AI should be viewed as an assistant, not a replacement for human judgment. Guardrails are essential: any AI-generated insights or summaries must be critically reviewed and validated by experienced researchers. We should prioritize AI tools that offer transparency in their processes and avoid relying solely on AI for critical decision-making, especially in sensitive areas like insurance product development or assessing user trust during sensitive flows."
     },
     {
       "date": "2026-06-01",
