@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-06-03T12:48:25.182Z",
+  "lastUpdated": "2026-06-03T19:55:37.361Z",
   "updates": [
     {
       "date": "2026-06-03",
@@ -14,6 +14,42 @@
         "url": "https://www.uxpin.com/studio/blog/build-ux-claude-haiku-4-5-ant-design-uxpin-merge/"
       },
       "analysis": "At Nubank, this approach can significantly enhance our ability to iterate on complex flows like the PIX transaction experience or the card activation process. Researchers can leverage Claude Haiku to analyze user feedback from surveys or support tickets related to these features, identifying pain points and generating initial design suggestions for improvements. These AI-driven insights could then be directly translated into interactive prototypes using UXPin Merge and Ant Design, allowing us to quickly test revised UI elements for clarity and usability before committing development resources. This bridges the gap between research findings and tangible design solutions, accelerating our response to user needs."
+    },
+    {
+      "date": "2026-06-03",
+      "title": "How To Make Your Design System AI-Ready",
+      "summary": "Practical guide on how to reduce drifts, minimize mistakes, maintain context, and improve the quality of AI-generated prototypes. Brought to you by Design Patterns For AI Interfaces, **friendly video course on UX** and design patterns by Vitaly.",
+      "content": "This article provides a practical framework for making design systems more intelligent and adaptable to AI-driven design processes. It focuses on proactively preparing design systems to work seamlessly with AI tools, thereby mitigating common issues like inconsistent outputs, context loss, and reduced quality in AI-generated prototypes. For UX researchers, this is crucial as it enables more efficient and reliable use of AI for tasks such as rapid prototyping and exploring design variations, ultimately leading to faster iteration cycles and higher-fidelity user experiences for Nubank's customers. By investing in an AI-ready design system, researchers can leverage AI to accelerate the validation of new features, from a simplified PIX transaction flow to more complex loan application interfaces.",
+      "category": "AI research tools",
+      "source": {
+        "name": "Smashing Magazine",
+        "url": "https://smashingmagazine.com/2026/06/how-make-design-system-ai-ready/"
+      },
+      "analysis": "At Nubank, this article's insights directly inform how we can integrate AI into our design system's evolution, particularly impacting research on features like onboarding new customers or refining the card activation process. Researchers should actively contribute to and leverage the AI-readiness of our design system by ensuring components are well-documented and structured for AI interpretation. This means thinking about how AI can generate variations of UI elements for A/B testing in insurance product discovery, or even draft initial flows for new credit card offerings based on existing patterns.  The guardrail here is to treat AI-generated outputs as a starting point, not a final product, always requiring human oversight and validation. We must ensure that while AI assists in generating prototypes, the core principles of user empathy, accessibility, and Nubank's distinct brand voice remain paramount and are rigorously tested by our researchers before implementation."
+    },
+    {
+      "date": "2026-06-03",
+      "title": "16 Best UX Portfolio Examples That Stand Out to Recruiters (2026)",
+      "summary": "Your UX design portfolio is the single most important asset in your career toolkit. It’s the first thing recruiters and hiring managers evaluate — and it often determines whether you get an interview before anyone reads your resume. But what actually makes a UX portfolio stand...",
+      "content": "This article highlights the critical role of a well-crafted UX portfolio in landing UX research roles. It emphasizes that portfolios are the primary screening tool for recruiters, often preceding resume evaluation, and therefore, they must effectively showcase a researcher's skills and impact.  For UX researchers, this means demonstrating not just design thinking, but also their ability to derive actionable insights from user data and translate them into product improvements, akin to how we iterate on flows like PIX transactions or insurance claims.\n\nThe key takeaway is that an outstanding portfolio goes beyond listing projects; it tells a compelling story about the researcher's process, problem-solving abilities, and the tangible results of their work.  This directly impacts how effectively a researcher can communicate their value proposition to potential employers and internal stakeholders, ultimately influencing hiring decisions and career progression within organizations like Nubank.",
+      "category": "General AI in research",
+      "source": {
+        "name": "UXPin Blog",
+        "url": "https://www.uxpin.com/studio/blog/ux-portfolio-examples/"
+      },
+      "analysis": "This article provides a valuable benchmark for our UX researchers to elevate their personal portfolios, which is crucial for attracting top talent to Nubank. Researchers should use these examples as inspiration to refine their own presentations, focusing on clearly articulating their contributions to key Nubank product flows such as credit card activation, loan application processes, or the initial user onboarding experience.  Emphasize the 'why' behind research decisions, the methodologies employed (e.g., qualitative interviews for understanding PIX user frustrations, quantitative analysis for loan risk), and the measurable impact on user satisfaction or business metrics.\n\nAt Nubank, this article's advice fits into our ongoing efforts to strengthen our research team's visibility and impact. Researchers can apply these principles when documenting their work internally, whether it's for performance reviews, internal mobility applications, or even for presenting case studies to leadership.  Guardrails include ensuring that portfolio examples, even when anonymized for external sharing, accurately reflect the complexity of Nubank's regulated environment and adhere to data privacy policies.  The focus should always remain on showcasing strategic thinking and problem-solving skills relevant to our unique digital banking landscape, rather than solely on visual design aspects."
+    },
+    {
+      "date": "2026-06-03",
+      "title": "Design Strategy: A Practical Framework for UX Leaders (2026)",
+      "summary": "A design strategy is the bridge between what the business needs and what users deserve. Without one, design teams risk producing beautiful work that doesn’t move the needle — or worse, solving problems that don’t align with where the company is heading. In 2026, design strateg...",
+      "content": "This article posits that a robust design strategy is essential for UX leaders to ensure their teams' efforts are both business-aligned and user-centric. It emphasizes that without a clear strategy, design outputs may be aesthetically pleasing but ineffective, or worse, address non-existent user needs while failing to support organizational goals. For UX researchers, this means moving beyond simply understanding user pain points to actively shaping product direction by demonstrating how research insights can strategically drive business value and user satisfaction. The practical implication is a shift towards a more proactive, consultative role for researchers, influencing product roadmaps and fostering a shared understanding of design's purpose.",
+      "category": "General AI in research",
+      "source": {
+        "name": "UXPin Blog",
+        "url": "https://www.uxpin.com/studio/blog/design-strategy/"
+      },
+      "analysis": "At Nubank, this design strategy framework would be instrumental in aligning our extensive user research efforts across product areas like PIX transactions, personal loans, and card activation. Researchers can leverage this by framing their findings not just as user problems, but as strategic opportunities that directly address business objectives outlined in our broader design strategy. For instance, when researching friction points in the onboarding flow, a researcher could present insights not only on user confusion but also on how simplifying onboarding can directly impact conversion rates and reduce support ticket volume, thereby contributing to the business's growth targets.\n\nTo apply this, researchers should proactively engage with product managers and business stakeholders early in the ideation phase, armed with evidence from prior research and market trends. Instead of waiting for research requests, they can propose studies that investigate strategic questions relevant to Nubank's vision, such as how to improve the user experience for our insurance offerings or optimize the process for users managing their credit limits. A key guardrail is to ensure that the \"business needs\" aspect of the strategy doesn't overshadow \"user deserves\"; research must remain grounded in authentic user needs, and the strategy should serve as a lens to prioritize and amplify those needs where they intersect with business goals, rather than as a tool to justify pre-determined outcomes."
     },
     {
       "date": "2026-06-02",
