@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-06-03T04:59:55.658Z",
+  "lastUpdated": "2026-06-03T12:48:25.182Z",
   "updates": [
+    {
+      "date": "2026-06-03",
+      "title": "How to build UX using Claude Haiku 4.5 + Ant Design  –  Use UXPin Merge!",
+      "summary": "Combine AI insights, a production UI library, and code-driven prototypes to speed UX delivery and reduce handoff errors. The post How to build UX using Claude Haiku 4.5 + Ant Design – Use UXPin Merge! appeared first on Studio by UXPin.",
+      "content": "This article explores a novel approach to accelerating UX design and development by integrating advanced AI capabilities with robust UI component libraries. Specifically, it highlights how Large Language Models like Claude Haiku 4.5 can analyze user data and generate design recommendations, which are then seamlessly integrated with a production-ready component library like Ant Design within a code-driven prototyping tool like UXPin Merge.  This synergy promises to significantly speed up the design process, reduce communication overhead between design and engineering teams, and minimize handoff errors by working directly with code-based components. For UX researchers, this means a potential pathway to more data-informed and rapidly prototyped designs, allowing for faster iteration and validation of concepts.",
+      "category": "AI for product management",
+      "source": {
+        "name": "UXPin Blog",
+        "url": "https://www.uxpin.com/studio/blog/build-ux-claude-haiku-4-5-ant-design-uxpin-merge/"
+      },
+      "analysis": "At Nubank, this approach can significantly enhance our ability to iterate on complex flows like the PIX transaction experience or the card activation process. Researchers can leverage Claude Haiku to analyze user feedback from surveys or support tickets related to these features, identifying pain points and generating initial design suggestions for improvements. These AI-driven insights could then be directly translated into interactive prototypes using UXPin Merge and Ant Design, allowing us to quickly test revised UI elements for clarity and usability before committing development resources. This bridges the gap between research findings and tangible design solutions, accelerating our response to user needs."
+    },
     {
       "date": "2026-06-02",
       "title": "How to build UX using Claude Haiku 4.5 + shadcn/ui  –  Use UXPin Merge!",
@@ -461,7 +473,7 @@
     },
     {
       "date": "2026-05-19",
-      "title": "AI Engineering - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "title": "AI Engineering - All Things Product Podcast with Teresa Torres &amp; Petra Wille",
       "summary": "Listen to this episode on: Spotify | Apple Podcasts What happens when a product leader accidentally becomes an AI engineer? In this episode, Teresa Torres shares how she went from occasional tinkerer to spending 60% of her time doing real engineering work — building AI-powered...",
       "content": "This \"All Things Product\" podcast episode features Teresa Torres, a product leader who has unexpectedly found herself deeply involved in AI engineering.  The core of the discussion likely revolves around her journey from a general product background to dedicating a significant portion of her time to building AI-powered features. This shift is highly relevant for UX researchers as it highlights the increasing integration of AI into product development cycles. Understanding how product leaders are navigating and implementing AI can inform how UX researchers can best collaborate with engineering teams and proactively identify opportunities to leverage AI for enhanced user experiences, potentially impacting areas like personalized financial advice or fraud detection in real-time transactions.",
       "category": "AI for product management",
@@ -1046,18 +1058,6 @@
         "url": "https://www.microsoft.com/en-us/research/blog/microsoft-at-nsdi-2026-advances-in-large-scale-networked-systems/"
       },
       "analysis": "This article is relevant to Nubank's research workflow by informing our understanding of the underlying infrastructure that enables cutting-edge digital product features. As Nubank scales its services, particularly those heavily reliant on AI for personalization and efficiency (e.g., fraud detection in card activation, predictive offers in loan pre-approvals), awareness of how these large-scale systems are optimized becomes vital for anticipating potential UX impacts. For example, advancements in network performance could mean quicker onboarding for new users or more seamless PIX transfers during peak times.\n\nResearchers should consider how AI-driven optimizations in these systems might subtly influence user behavior or perception. For instance, if AI algorithms are used to dynamically route user traffic for better performance, it could lead to variations in response times that need to be understood. This knowledge can help us design more robust testing methodologies and interpret user feedback within the context of system-level improvements.  A key guardrail is to remember that while infrastructure improvements are important, they should always be evaluated through the lens of user needs and usability, not just technical performance. The focus must remain on how these advancements translate to tangible improvements in user journeys, such as a more intuitive insurance application process or reduced latency during critical financial operations."
-    },
-    {
-      "date": "2026-05-04",
-      "title": "UX Roundup: User Research Game | AI Photo Recommendations | AI Helps TA | Teaching Metacognition | AI Shorts | 100 TW Compute | Happy Horse",
-      "summary": "User researchers as role-playing game classes | AI posture recommendation feature in Huawei Pura 90 phones | AI helps teaching assistants provide better feedback to students | AI as a metacognitive coach | Recommending an entertaining short AI film | SpaceX’s plan for 100 TW o...",
-      "content": "User researchers as role-playing game classes | AI posture recommendation feature in Huawei Pura 90 phones | AI helps teaching assistants provide better feedback to students | AI as a metacognitive coach | Recommending an entertaining short AI film | SpaceX’s plan for 100 TW orbital compute | New Chinese video model Happy Horse from Alibaba",
-      "category": "Sentiment & feedback analysis",
-      "source": {
-        "name": "Jakob Nielsen (Substack)",
-        "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260504"
-      },
-      "analysis": "At Nubank, we can leverage AI to enhance our user research by exploring the \"UX Roundup's\" ideas in several ways. For instance, AI could power simulated user personas for brainstorming sessions or early concept testing, providing a more dynamic and varied perspective than static profiles. Imagine generating AI-driven user journeys for potential PIX fraud scenarios, or simulating new customer onboarding experiences to identify friction points before live testing. This could supplement our existing qualitative methods by offering novel angles and scaling our understanding of diverse user needs across products like loans, insurance, and credit card activation. We should begin by experimenting with generative AI tools to create these simulated personas and scenarios, starting with low-stakes internal exercises.\n\nWhen applying these AI-driven approaches, researchers must maintain critical oversight. While AI can generate insights, it's crucial to remember these are simulations and not direct user feedback. Any AI-generated personas or scenarios should be validated against real user data and qualitative insights gathered through traditional methods. We need to establish clear guidelines for the ethical use of AI in research, ensuring data privacy and avoiding biases that AI might perpetuate. For example, when simulating user responses to a new loan product or insurance offering, we must ensure the AI doesn't inadvertently favor or disadvantage certain demographics. The goal is to augment, not replace, our deep understanding of Nubank users, ensuring our products and features remain truly customer-centric."
     }
   ]
 }
