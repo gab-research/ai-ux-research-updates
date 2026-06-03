@@ -1,56 +1,56 @@
 {
   "month": "2026-06",
-  "updated": "2026-06-02",
+  "updated": "2026-06-03",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 21,
-      "description": "Articles discussing AI agents performing research tasks, decision-making, and autonomous operations."
+      "count": 23,
+      "description": "Focuses on AI agents performing research tasks, interacting with systems, and acting autonomously within research contexts."
     },
     {
       "name": "AI coding assistants",
-      "count": 17,
-      "description": "Content focused on AI tools that aid in writing, debugging, and understanding code."
-    },
-    {
-      "name": "AI research tools",
-      "count": 16,
-      "description": "Articles about specific AI-powered tools and platforms used for various research purposes."
-    },
-    {
-      "name": "AI usability testing",
-      "count": 13,
-      "description": "Discussions on using AI to automate or enhance the process of testing user interfaces and experiences."
-    },
-    {
-      "name": "AI testing automation",
-      "count": 12,
-      "description": "Articles focused on leveraging AI for automating testing processes, including software and other applications."
+      "count": 23,
+      "description": "Covers AI tools that help developers write, debug, and review code."
     },
     {
       "name": "AI survey tools",
-      "count": 9,
-      "description": "Content related to AI applications for designing, distributing, and analyzing surveys."
+      "count": 13,
+      "description": "Articles discussing AI applications for designing, distributing, and analyzing surveys."
     },
     {
-      "name": "AI product research",
-      "count": 8,
-      "description": "Articles discussing the application of AI in the discovery, development, and enhancement of products."
+      "name": "AI research tools",
+      "count": 12,
+      "description": "Broadly covers various AI-powered tools and platforms used to facilitate and enhance research processes."
     },
     {
-      "name": "AI design and research",
-      "count": 7,
-      "description": "Content that broadly covers the intersection of AI with design principles and research methodologies."
+      "name": "AI sentiment & feedback analysis",
+      "count": 5,
+      "description": "Articles on using AI to understand user emotions and analyze qualitative feedback from various sources."
     },
     {
-      "name": "AI summarization",
-      "count": 6,
-      "description": "Articles focused on AI's capability to condense large amounts of text or data into concise summaries."
+      "name": "AI for product management",
+      "count": 5,
+      "description": "Explores how AI is being integrated into product development, strategy, and execution."
     },
     {
-      "name": "AI chatbot research",
+      "name": "AI customer insights",
       "count": 3,
-      "description": "Research and discussions specifically about the capabilities, limitations, and user interactions with AI chatbots."
+      "description": "Discusses AI applications for gathering, analyzing, and acting upon insights derived from customer interactions."
+    },
+    {
+      "name": "AI research platform",
+      "count": 3,
+      "description": "Focuses on platforms and infrastructure designed to support AI-driven research and development."
+    },
+    {
+      "name": "AI for design & research",
+      "count": 2,
+      "description": "Covers AI applications that directly aid in the design process and research activities."
+    },
+    {
+      "name": "Synthetic users",
+      "count": 2,
+      "description": "Articles about the creation and use of artificial user profiles or data for testing and research."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."

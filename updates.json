@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-06-02T19:49:48.579Z",
+  "lastUpdated": "2026-06-03T04:59:55.658Z",
   "updates": [
     {
       "date": "2026-06-02",
@@ -461,7 +461,7 @@
     },
     {
       "date": "2026-05-19",
-      "title": "AI Engineering - All Things Product Podcast with Teresa Torres &amp; Petra Wille",
+      "title": "AI Engineering - All Things Product Podcast with Teresa Torres & Petra Wille",
       "summary": "Listen to this episode on: Spotify | Apple Podcasts What happens when a product leader accidentally becomes an AI engineer? In this episode, Teresa Torres shares how she went from occasional tinkerer to spending 60% of her time doing real engineering work — building AI-powered...",
       "content": "This \"All Things Product\" podcast episode features Teresa Torres, a product leader who has unexpectedly found herself deeply involved in AI engineering.  The core of the discussion likely revolves around her journey from a general product background to dedicating a significant portion of her time to building AI-powered features. This shift is highly relevant for UX researchers as it highlights the increasing integration of AI into product development cycles. Understanding how product leaders are navigating and implementing AI can inform how UX researchers can best collaborate with engineering teams and proactively identify opportunities to leverage AI for enhanced user experiences, potentially impacting areas like personalized financial advice or fraud detection in real-time transactions.",
       "category": "AI for product management",
@@ -1049,57 +1049,9 @@
     },
     {
       "date": "2026-05-04",
-      "title": "Collected consciousness, exhausting moment, UX Research with AI",
-      "summary": "Collected consciousness, exhausting moment, UX Research with AI",
-      "content": "This article explores the burgeoning integration of AI into UX research, highlighting a critical tension between its potential for efficiency and the risk of a \"collected consciousness.\"  The core idea is that while AI can automate tasks like data synthesis and pattern identification, an over-reliance could lead to homogenized insights, losing the nuanced human understanding crucial for truly innovative user experiences. For UX researchers, this means AI should be viewed as a powerful assistant, augmenting human intuition and empathy rather than replacing it. Practically, this implies researchers must remain vigilant in questioning AI-generated findings, ensuring they still capture the full spectrum of user emotions and behaviors, particularly in complex financial contexts.",
-      "category": "AI research tools",
-      "source": {
-        "name": "UX Collective (Medium)",
-        "url": "https://uxdesign.cc/collected-consciousness-exhausting-moment-ux-research-with-ai-3c94aef9268e?source=rss----138adf9c44c---4"
-      },
-      "analysis": "At Nubank, AI in UX research can significantly accelerate our ability to understand user needs across product lifecycles. For instance, when analyzing feedback on the PIX flow, AI could quickly sift through thousands of customer comments to identify recurring pain points. Researchers can then leverage these AI-generated summaries as a starting point, diving deeper into specific themes to conduct qualitative interviews or usability tests. This allows us to move faster from identifying problems to ideating solutions for features like loan applications or card activation.\n\nTo implement this effectively, researchers should utilize AI tools for initial data processing, such as thematic analysis of open-ended survey responses or sentiment analysis of app reviews. The key guardrail is to treat AI output as a hypothesis, not a definitive answer. For example, if AI flags a trend in onboarding friction, a human researcher must then validate this through direct user observation or targeted qualitative studies to understand *why* that friction exists. This ensures our research remains grounded in authentic user needs, preventing a \"collected consciousness\" that might overlook subtle but critical user frustrations in areas like insurance claims or account management."
-    },
-    {
-      "date": "2026-05-04",
-      "title": "How to build UX using GPT-5 Mini + Ant Design  –  Use UXPin Merge!",
-      "summary": "Use GPT-5 Mini, Ant Design, and UXPin Merge to create production-ready React prototypes faster while keeping designs and code aligned. The post How to build UX using GPT-5 Mini + Ant Design – Use UXPin Merge! appeared first on Studio by UXPin.",
-      "content": "This article introduces a powerful synergy between AI, a popular design system, and a prototyping tool to accelerate the creation of production-ready React prototypes. By integrating GPT-5 Mini for generative capabilities with Ant Design's component library within UXPin Merge, teams can significantly speed up the design-to-development handoff. For UX researchers, this means the potential to rapidly iterate on user interfaces based on early insights, test more variations of concepts, and ensure design fidelity from initial wireframes to functional prototypes, ultimately leading to more efficient product development cycles.",
-      "category": "General AI in research",
-      "source": {
-        "name": "UXPin Blog",
-        "url": "https://www.uxpin.com/studio/blog/build-ux-gpt-5-mini-ant-design-uxpin-merge/"
-      },
-      "analysis": "At Nubank, this approach could be integrated into our rapid prototyping and concept validation phases. For instance, when exploring new features for our PIX experience or refining the onboarding flow for a new loan product, UX researchers could leverage GPT-5 Mini to generate initial UI component suggestions based on user problem statements or design principles. These suggestions could then be directly translated into interactive prototypes using Ant Design components within UXPin Merge, allowing for faster user testing of key flows like card activation or insurance purchase.\n\nResearchers should apply this by focusing on using the AI-generated components as a strong starting point, rather than a final solution. The primary value lies in accelerated iteration and exploration. It's crucial to remember that AI-generated designs still require rigorous qualitative and quantitative validation. We must ensure that these rapid prototypes are aligned with Nubank's brand, accessibility standards, and the core needs of our diverse customer base. Limitations include the AI's potential for generic outputs, requiring expert researcher oversight to ensure innovation and user-centricity, and the need for developers familiar with Ant Design and React to seamlessly integrate the final output."
-    },
-    {
-      "date": "2026-05-04",
-      "title": "How to Make a Web App from Scratch: A Step-by-Step Guide (2026)",
-      "summary": "Learn how to build a web app from scratch in 2026. This step-by-step guide covers research, planning, UI design, front-end and back-end development, testing, deployment, and AI-assisted workflows. The post How to Make a Web App from Scratch: A Step-by-Step Guide (2026) appeare...",
-      "content": "This UXPin article outlines a comprehensive process for developing a web app, specifically anticipating advancements in 2026, and crucially, integrating AI-assisted workflows.  For UX researchers, this means understanding the evolving landscape of app creation and how AI can augment our efforts throughout the entire product lifecycle, from initial research and planning to design, development, and testing.  The practical implication is that researchers will need to leverage AI tools to gain deeper insights faster, optimize design iterations, and ensure a more seamless user experience, ultimately leading to more efficient and effective product development.",
-      "category": "AI research tools",
-      "source": {
-        "name": "UXPin Blog",
-        "url": "https://www.uxpin.com/studio/blog/how-to-make-a-web-app/"
-      },
-      "analysis": "This article's emphasis on AI-assisted workflows is highly relevant to our research practices at Nubank. Researchers can apply this by exploring and integrating AI tools for tasks such as sentiment analysis of user feedback on PIX transactions, identifying patterns in card activation issues, or even generating preliminary user personas for new loan products based on aggregated behavioral data. The goal is to augment, not replace, our human-centric approach, enabling us to process larger datasets and identify opportunities more efficiently.\n\nWhen applying this at Nubank, it's crucial to maintain our core UX principles. AI-generated insights should always be validated through qualitative research methods like user interviews and usability testing, especially when dealing with sensitive areas like onboarding or insurance claims. Researchers should focus on using AI to accelerate hypothesis generation and identify potential pain points, rather than solely relying on its outputs. Establishing clear guidelines on data privacy and ethical AI usage will be paramount to ensure responsible implementation."
-    },
-    {
-      "date": "2026-05-04",
-      "title": "Google Gemini UX Overhaul: Lessons for AI Interface Design in 2026",
-      "summary": "Google's Gemini AI platform received a major UX redesign including a native macOS app and developer tools. Here's what the overhaul means for AI interface design and how to apply these lessons to your own products. The post Google Gemini UX Overhaul: Lessons for AI Interface D...",
-      "content": "Google's recent UX overhaul of its Gemini AI platform, notably with the introduction of a native macOS app and enhanced developer tools, signifies a crucial evolution in how users interact with advanced AI. For UX researchers, this is a wake-up call to re-evaluate interaction paradigms beyond web interfaces, considering the potential for more integrated, desktop-centric AI experiences. The practical implication is the need to explore and design for seamless AI integration into existing user workflows, making complex AI functionalities accessible and intuitive across various device ecosystems, potentially impacting how we design for features like personalized financial advice or simplified onboarding processes.",
-      "category": "Survey optimization",
-      "source": {
-        "name": "UXPin Blog",
-        "url": "https://www.uxpin.com/studio/blog/google-gemini-ai-ux-overhaul-macos-app/"
-      },
-      "analysis": "This article is highly relevant to our ongoing efforts to leverage AI for enhancing user experience at Nubank. Researchers should integrate the learnings from Gemini's overhaul into our design thinking, particularly when exploring AI-powered features for our core products like PIX transactions, loan applications, or card activation. We can draw inspiration for creating more native, desktop-friendly AI interfaces if we consider future integrations for tools supporting our fraud detection teams or customer support agents.\n\nSpecifically, this means our research should actively investigate how users interact with AI when it's not confined to a mobile app. For instance, how could an AI assistant integrated into our internal dashboards provide real-time insights during a loan underwriting process? Or how could a desktop AI tool streamline complex insurance claim submissions for our customers? We need to consider the potential for \"ambient intelligence\" – AI that is present and helpful without being intrusive – and research user needs and preferences for such experiences, ensuring we maintain our commitment to simplicity and ease of use, even with more advanced AI capabilities.  Guardrails would include rigorously testing for privacy concerns, ensuring AI recommendations are unbiased, and validating that these more integrated AI experiences truly simplify user journeys rather than adding complexity, especially in sensitive areas like financial management and onboarding."
-    },
-    {
-      "date": "2026-05-04",
       "title": "UX Roundup: User Research Game | AI Photo Recommendations | AI Helps TA | Teaching Metacognition | AI Shorts | 100 TW Compute | Happy Horse",
       "summary": "User researchers as role-playing game classes | AI posture recommendation feature in Huawei Pura 90 phones | AI helps teaching assistants provide better feedback to students | AI as a metacognitive coach | Recommending an entertaining short AI film | SpaceX’s plan for 100 TW o...",
-      "content": "Jakob Nielsen's UX Roundup highlights the growing integration of AI across various aspects of user experience and research. The piece showcases novel applications like AI-powered user research role-playing game classes, suggesting a more engaging and potentially objective way to simulate user personas.  Furthermore, AI's role in providing personalized feedback, such as posture recommendations on devices or assisting teaching assistants, points to its capability in delivering tailored user guidance.  This collection of insights underscores the expanding utility of AI in understanding users and enhancing their experiences, demanding UX researchers to stay abreast of these evolving tools and methodologies to remain effective.",
+      "content": "User researchers as role-playing game classes | AI posture recommendation feature in Huawei Pura 90 phones | AI helps teaching assistants provide better feedback to students | AI as a metacognitive coach | Recommending an entertaining short AI film | SpaceX’s plan for 100 TW orbital compute | New Chinese video model Happy Horse from Alibaba",
       "category": "Sentiment & feedback analysis",
       "source": {
         "name": "Jakob Nielsen (Substack)",
