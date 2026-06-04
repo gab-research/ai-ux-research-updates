@@ -1,8 +1,32 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-06-04T04:53:00.735Z",
+  "lastUpdated": "2026-06-04T11:22:06.067Z",
   "updates": [
+    {
+      "date": "2026-06-04",
+      "title": "How to build UX using Claude Haiku 4.5 + Bootstrap  –  Use UXPin Merge!",
+      "summary": "Use AI to generate UX flows and UXPin Merge with Bootstrap to build responsive, code-backed prototypes and cleaner handoffs. The post How to build UX using Claude Haiku 4.5 + Bootstrap – Use UXPin Merge! appeared first on Studio by UXPin.",
+      "content": "This article explores a novel approach to accelerating UX design and development by integrating advanced AI like Claude Haiku with established design systems like Bootstrap. The core idea is to leverage AI for rapid ideation and generation of UX flows, significantly reducing the initial conceptualization time. For UX researchers, this is crucial as it frees up cognitive load from manual flow charting to focus on deeper user insights and validation. The practical implication is a more agile and efficient design-to-development pipeline, enabling faster iteration and a smoother handoff process thanks to tools like UXPin Merge, which bridges the gap between design and code.",
+      "category": "AI coding assistants",
+      "source": {
+        "name": "UXPin Blog",
+        "url": "https://www.uxpin.com/studio/blog/build-ux-claude-haiku-4-5-bootstrap-uxpin-merge/"
+      },
+      "analysis": "At Nubank, this approach can revolutionize how we tackle iterative design improvements for products like our PIX transfer flow or the loan application process. UX researchers can utilize Claude Haiku to quickly generate multiple variations of user flows for new features or to explore alternative pathways for existing complex journeys, such as optimizing the card activation or insurance onboarding experience. This AI-assisted ideation would serve as a robust starting point for our subsequent qualitative and quantitative research, enabling us to validate refined concepts much faster than with manual brainstorming alone.\n\nWhen applying this, researchers should treat AI-generated flows as hypotheses rather than final outputs. The generated content needs rigorous user testing to ensure it aligns with Nubank's user-centric principles and addresses actual pain points identified in our research. Furthermore, leveraging UXPin Merge with our existing design system components will ensure consistency and facilitate a seamless handoff to engineering, reducing misinterpretations and speeding up development cycles for features across our banking, credit, and investment products. It's crucial to maintain our ethical research standards, ensuring AI is an augmentative tool and not a replacement for genuine user understanding and empathy."
+    },
+    {
+      "date": "2026-06-04",
+      "title": "Stop re-explaining your frameworks to Claude every morning",
+      "summary": "A walkthrough of what skills are, how to use the Skill Creator, and why feeding it your real work is the difference between a skill that is fine and a skill you would trust in a research moment",
+      "content": "Nikki Anderson's article advocates for proactively training AI models like Claude with domain-specific knowledge, rather than repeatedly explaining established research frameworks each session. This \"Skill Creator\" approach allows researchers to embed their team's unique methodologies, best practices, and even proprietary templates directly into the AI.  For UX researchers, this is crucial for efficient and reliable AI assistance, transforming generic chatbots into trusted research partners that can offer nuanced insights and support across complex user flows, saving valuable time and ensuring consistency in research outputs.",
+      "category": "AI ethics in research",
+      "source": {
+        "name": "Nikki Anderson (User Research Strategist)",
+        "url": "https://www.userresearchstrategist.com/p/stop-re-explaining-your-frameworks"
+      },
+      "analysis": "At Nubank, this 'Skill Creator' concept can be integrated into our existing research workflow by establishing a centralized, version-controlled repository of our core UX research frameworks, templates, and best practices. This repository would serve as the training data for Claude. For instance, when researching a new PIX feature, a researcher could prompt Claude, \"Based on Nubank's established user journey mapping template for financial products, analyze these user interview transcripts for our new credit card activation flow.\" This would bypass the need for detailed explanations of our specific mapping techniques or criteria for success.\n\nResearchers should be empowered to contribute to and utilize this 'Skill Creator' repository. Initial training sessions should focus on how to effectively format existing documentation for AI consumption and how to prompt Claude using these embedded skills. While this can significantly streamline research on areas like onboarding, loan applications, or insurance policy understanding, it's crucial to acknowledge limitations. Claude should be used as an assistant for analysis and initial hypothesis generation, not as a replacement for human judgment, ethical considerations, or direct user interaction, especially for sensitive flows like loan origination or sensitive personal data handling."
+    },
     {
       "date": "2026-06-03",
       "title": "How to build UX using Claude Haiku 4.5 + Ant Design  –  Use UXPin Merge!",
