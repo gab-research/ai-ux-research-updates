@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-06-04T11:22:06.067Z",
+  "lastUpdated": "2026-06-04T18:25:52.433Z",
   "updates": [
     {
       "date": "2026-06-04",
@@ -26,6 +26,18 @@
         "url": "https://www.userresearchstrategist.com/p/stop-re-explaining-your-frameworks"
       },
       "analysis": "At Nubank, this 'Skill Creator' concept can be integrated into our existing research workflow by establishing a centralized, version-controlled repository of our core UX research frameworks, templates, and best practices. This repository would serve as the training data for Claude. For instance, when researching a new PIX feature, a researcher could prompt Claude, \"Based on Nubank's established user journey mapping template for financial products, analyze these user interview transcripts for our new credit card activation flow.\" This would bypass the need for detailed explanations of our specific mapping techniques or criteria for success.\n\nResearchers should be empowered to contribute to and utilize this 'Skill Creator' repository. Initial training sessions should focus on how to effectively format existing documentation for AI consumption and how to prompt Claude using these embedded skills. While this can significantly streamline research on areas like onboarding, loan applications, or insurance policy understanding, it's crucial to acknowledge limitations. Claude should be used as an assistant for analysis and initial hypothesis generation, not as a replacement for human judgment, ethical considerations, or direct user interaction, especially for sensitive flows like loan origination or sensitive personal data handling."
+    },
+    {
+      "date": "2026-06-04",
+      "title": "Intentmaking, Sensemaking, and AI Boundary Objects: How Advanced AI Helps Users Discover What They Want",
+      "summary": "Advanced AI work is not a simple prompt-response loop. Users discover their goals through experimentation, interpret machine output through boundary objects, and refine intent over time. The future of AI-UX is not chat, but structured discovery.",
+      "content": "Nielsen's article reframes advanced AI interactions not as simple question-and-answer sessions, but as dynamic discovery processes. Users begin with nascent goals, experimenting with AI prompts to uncover latent desires and understand the possibilities.  This journey involves \"intentmaking\" (forming goals) and \"sensemaking\" (interpreting AI outputs, often through \"boundary objects\" like visual summaries or generated examples) to progressively refine their objectives. For UX researchers, this understanding is critical because it shifts the focus from designing for explicit user requests to facilitating exploration and helping users articulate needs they might not initially know they have, leading to more intuitive and empowering AI-driven experiences.",
+      "category": "Conversational AI in research",
+      "source": {
+        "name": "Jakob Nielsen (Substack)",
+        "url": "https://jakobnielsenphd.substack.com/p/intentmaking-sensemaking"
+      },
+      "analysis": "At Nubank, this article's insights can be integrated into our research workflow by moving beyond usability testing of fixed flows and towards exploring AI's role in discovery across products like PIX, loans, and insurance. Instead of just testing if a user can successfully complete a loan application, we can explore how AI might help users understand their borrowing needs by generating personalized scenarios or comparing different financial products. This means designing research methods that encourage experimentation with AI, such as simulating AI-powered financial planning tools during qualitative interviews, observing how users iterate on prompts to discover optimal solutions, and analyzing the 'boundary objects' (e.g., generated financial charts, personalized advice summaries) they use to make sense of the AI's output.\n\nFor practical application, researchers should begin by mapping potential AI 'boundary objects' for key Nubank customer journeys. For instance, during onboarding, an AI might generate personalized 'next best action' suggestions presented visually or through interactive simulations, acting as a boundary object for users to explore their potential next steps. When researching PIX usage, AI could generate personalized insights into spending habits, allowing users to explore and refine their financial goals. Guardrails should include ensuring transparency about AI's capabilities and limitations, so users don't form unrealistic expectations, and rigorously testing the clarity and usefulness of these boundary objects to ensure they genuinely aid discovery rather than causing confusion. We must also consider the ethical implications of AI-driven discovery, particularly in sensitive areas like loans and insurance, to ensure fairness and prevent exploitative practices."
     },
     {
       "date": "2026-06-03",
