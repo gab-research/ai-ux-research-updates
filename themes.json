@@ -1,56 +1,56 @@
 {
   "month": "2026-06",
-  "updated": "2026-06-03",
+  "updated": "2026-06-04",
   "themes": [
     {
       "name": "Agentic AI in research",
       "count": 36,
-      "description": "Articles discussing AI agents that can perform research tasks autonomously, interact with systems, and make decisions."
+      "description": "Articles focusing on AI agents designed to perform specific research tasks, act autonomously, or assist in complex research workflows."
     },
     {
       "name": "AI coding assistants",
-      "count": 18,
-      "description": "Content focusing on AI tools that help developers write, review, and manage code."
+      "count": 27,
+      "description": "Content discussing AI tools that help developers write, review, and debug code."
     },
     {
       "name": "AI research tools",
-      "count": 14,
-      "description": "Articles about AI platforms and tools designed to support various stages of the research process."
+      "count": 18,
+      "description": "Articles detailing various AI-powered tools specifically designed to aid in the research process."
     },
     {
       "name": "AI workforce impact",
-      "count": 13,
-      "description": "Discussions on how AI is affecting jobs, hiring, and the skills required in the workforce."
+      "count": 11,
+      "description": "Discussions and studies on how AI is affecting jobs, employment, and the future of work."
     },
     {
-      "name": "AI survey tools",
-      "count": 13,
-      "description": "Content related to AI applications in creating, distributing, and analyzing surveys."
-    },
-    {
-      "name": "AI for product management",
-      "count": 9,
-      "description": "Articles highlighting how AI can assist in product development, strategy, and lifecycle management."
+      "name": "Synthetic users",
+      "count": 10,
+      "description": "Articles related to the creation and use of artificial or synthetic data and user representations in AI development and testing."
     },
     {
       "name": "AI summarization",
-      "count": 6,
-      "description": "Focuses on AI capabilities to condense and extract key information from large volumes of text or data."
+      "count": 7,
+      "description": "Content focusing on AI's ability to condense large amounts of text or data into concise summaries and insights."
     },
     {
-      "name": "AI design research",
+      "name": "AI for design & research",
       "count": 6,
-      "description": "Content exploring how AI is used to inform and enhance the design process, including user interface and experience."
+      "description": "Articles exploring how AI is directly applied to the processes of UX design and user research methodologies."
+    },
+    {
+      "name": "AI survey tools",
+      "count": 6,
+      "description": "Discussions on AI applications for creating, distributing, and analyzing surveys."
     },
     {
       "name": "AI chatbot research",
       "count": 3,
-      "description": "Articles specifically on the research and development of AI-powered chatbots, including their effectiveness and user perception."
+      "description": "Articles specifically investigating the capabilities, limitations, and impact of AI chatbots in various contexts."
     },
     {
-      "name": "AI research platform",
-      "count": 7,
-      "description": "Discussions on integrated platforms and infrastructures that leverage AI for scientific discovery and research."
+      "name": "AI recruitment research",
+      "count": 3,
+      "description": "Research and analysis on the use of AI in hiring processes, job searching, and labor market dynamics."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
