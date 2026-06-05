@@ -1,56 +1,56 @@
 {
   "month": "2026-06",
-  "updated": "2026-06-04",
+  "updated": "2026-06-05",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 34,
-      "description": "Articles discussing AI agents that perform tasks autonomously in research contexts, from data collection to analysis and workflow management."
+      "count": 50,
+      "description": "Covers AI agents performing research tasks, managing workflows, and interacting with data for research purposes."
     },
     {
       "name": "AI coding assistants",
+      "count": 34,
+      "description": "Focuses on AI tools that help developers write, debug, and understand code, and the research surrounding these tools."
+    },
+    {
+      "name": "AI research platforms",
       "count": 22,
-      "description": "Content focusing on AI tools that assist developers and researchers in writing, analyzing, and optimizing code."
-    },
-    {
-      "name": "AI research tools",
-      "count": 20,
-      "description": "Articles about AI-powered platforms and software specifically designed to aid researchers in various stages of their work."
-    },
-    {
-      "name": "AI summarization",
-      "count": 15,
-      "description": "Focuses on AI's ability to condense large amounts of text, research findings, or meeting notes into concise summaries."
-    },
-    {
-      "name": "AI for product management",
-      "count": 13,
-      "description": "Articles detailing how AI is being used to assist in product development, ideation, and strategy."
-    },
-    {
-      "name": "AI customer insights",
-      "count": 11,
-      "description": "Content related to using AI to analyze customer feedback, behavior, and sentiment for deeper understanding."
-    },
-    {
-      "name": "AI usability testing",
-      "count": 10,
-      "description": "Articles exploring AI's role in automating or enhancing the process of testing product usability."
+      "description": "Discusses platforms and tools that integrate AI for various research functionalities, including data analysis and discovery."
     },
     {
       "name": "AI workforce impact",
-      "count": 10,
-      "description": "Discussions on how AI is affecting jobs, skill requirements, and the overall employment landscape."
+      "count": 20,
+      "description": "Explores how AI is affecting jobs, hiring, and the overall labor market, including layoffs and new roles."
+    },
+    {
+      "name": "AI usability testing",
+      "count": 16,
+      "description": "Articles related to AI's application in testing user interfaces, software, and product usability."
+    },
+    {
+      "name": "AI summarization insights",
+      "count": 15,
+      "description": "Covers AI's ability to condense large amounts of text into concise summaries and extract key insights."
+    },
+    {
+      "name": "AI tool evaluation",
+      "count": 13,
+      "description": "Focuses on reviews, comparisons, and assessments of various AI tools and platforms."
+    },
+    {
+      "name": "AI customer insights",
+      "count": 12,
+      "description": "Discusses how AI is used to gather, analyze, and derive actionable insights from customer data and feedback."
     },
     {
       "name": "AI chatbot research",
-      "count": 9,
-      "description": "Articles investigating the capabilities, limitations, and impact of AI chatbots in research and user interaction."
+      "count": 11,
+      "description": "Articles specifically on the research, development, and implications of AI-powered chatbots."
     },
     {
-      "name": "AI sentiment feedback",
-      "count": 6,
-      "description": "Content focused on AI's application in analyzing and understanding user sentiment and feedback across various platforms."
+      "name": "AI for design and research",
+      "count": 11,
+      "description": "Explores the use of AI in creative processes, design systems, and user experience research."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
