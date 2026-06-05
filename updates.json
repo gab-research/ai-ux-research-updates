@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-06-05T11:35:11.104Z",
+  "lastUpdated": "2026-06-05T18:03:32.910Z",
   "updates": [
     {
       "date": "2026-06-05",
@@ -14,6 +14,30 @@
         "url": "https://www.uxpin.com/studio/blog/build-ux-claude-haiku-4-5-custom-design-systems-uxpin-merge/"
       },
       "analysis": "At Nubank, this approach could significantly benefit our research workflow by bridging the gap between research findings and implementation. For instance, after user interviews or usability testing on a new feature like a simplified PIX transfer flow, researchers could use Claude Haiku 4.5 to generate initial UI components or even entire prototype screens based on our existing design system. This allows for rapid visualization of research insights, enabling us to quickly test variations of onboarding experiences or loan application interfaces before handing them off to development.  The key is to treat these AI-generated outputs as a starting point, not a final product, requiring careful review and refinement by designers and researchers to ensure they align with Nubank's brand, accessibility standards, and user needs for complex flows like insurance policy management or card activation.\n\nTo apply this effectively, researchers should integrate this tool into their ideation and early prototyping stages. After defining user needs and generating insights, researchers could prompt Claude Haiku 4.5 to create multiple design variations within our established design system. For example, if research suggests confusion in a particular step of the credit card application process, researchers could ask the AI to generate alternative UI layouts for that step, ensuring adherence to our component library.  However, a crucial guardrail is to never rely solely on AI for the final design or code. All AI-generated assets must be thoroughly reviewed for accuracy, consistency with our design system, and most importantly, user experience and accessibility.  The AI is a powerful assistant, but human oversight and domain expertise remain paramount to ensure we build intuitive and reliable financial products like our digital accounts or investment platforms."
+    },
+    {
+      "date": "2026-06-05",
+      "title": "Dashboard Design Principles: The Definitive Guide (2026)",
+      "summary": "Master the essential dashboard design principles for 2026. Learn about dashboard types, visual hierarchy, accessibility, common mistakes, AI-powered trends, and how to prototype data-rich dashboards with real components. The post Dashboard Design Principles: The Definitive Gui...",
+      "content": "This article from UXPin provides a comprehensive overview of effective dashboard design for 2026, emphasizing core principles like visual hierarchy and accessibility. It highlights the growing importance of AI-powered trends in dashboard creation and management, suggesting a shift towards more intelligent and adaptive interfaces. For UX researchers, understanding these principles is crucial for designing intuitive and data-driven experiences that empower users to make informed decisions, especially within complex financial products. The guide offers practical advice on prototyping data-rich dashboards, enabling researchers to deliver more impactful solutions.",
+      "category": "AI-powered data analysis",
+      "source": {
+        "name": "UXPin Blog",
+        "url": "https://www.uxpin.com/studio/blog/dashboard-design-principles/"
+      },
+      "analysis": "This article is highly relevant to our work at Nubank, particularly when researching and designing interfaces for our data-intensive products like credit card management, loan applications, and investment dashboards. Researchers should leverage the principles outlined to evaluate the effectiveness of current dashboards and inform the design of new features, ensuring clear visual hierarchy and accessibility for diverse users. This is especially critical for complex flows like onboarding or managing PIX transactions, where users need to quickly grasp important financial information.\n\nWhen applying these principles, researchers should focus on how AI-powered trends can enhance user understanding and efficiency. For instance, we can explore how AI can personalize dashboards to highlight relevant information based on user behavior, such as suggesting insurance products based on spending patterns or alerting users to potential overdrafts. However, it's crucial to maintain transparency and user control over AI-driven insights, ensuring that these features augment rather than overwhelm the user experience. Our research should also actively identify potential biases or accessibility issues introduced by AI in dashboard design, ensuring equitable experiences for all Nubank customers."
+    },
+    {
+      "date": "2026-06-05",
+      "title": "Google Gemini UX Redesign: 5 Lessons for AI Interface Design (2026)",
+      "summary": "Analyze Google Gemini's UX 2.0 redesign, its native macOS app, and multimodal input strategy. Learn five practical AI interface design lessons you can apply today — plus how to prototype AI products faster with code-backed components. The post Google Gemini UX Redesign: 5 Less...",
+      "content": "Analyze Google Gemini's UX 2.0 redesign, its native macOS app, and multimodal input strategy. Learn five practical AI interface design lessons you can apply today — plus how to prototype AI products faster with code-backed components. The post Google Gemini UX Redesign: 5 Lessons for AI Interface Design (2026) appeared first on Studio by UXPin.",
+      "category": "AI for product management",
+      "source": {
+        "name": "UXPin Blog",
+        "url": "https://www.uxpin.com/studio/blog/google-gemini-ai-ux-overhaul-macos-app/"
+      },
+      "analysis": "This article is highly relevant to our ongoing efforts to leverage AI for enhancing user experience at Nubank. Researchers should integrate the learnings from Gemini's overhaul into our design thinking, particularly when exploring AI-powered features for our core products like PIX transactions, loan applications, or card activation. We can draw inspiration for creating more native, desktop-friendly AI interfaces if we consider future integrations for tools supporting our fraud detection teams or customer support agents.\n\nSpecifically, this means our research should actively investigate how users interact with AI when it's not confined to a mobile app. For instance, how could an AI assistant integrated into our internal dashboards provide real-time insights during a loan underwriting process? Or how could a desktop AI tool streamline complex insurance claim submissions for our customers? We need to consider the potential for \"ambient intelligence\" – AI that is present and helpful without being intrusive – and research user needs and preferences for such experiences, ensuring we maintain our commitment to simplicity and ease of use, even with more advanced AI capabilities.  Guardrails would include rigorously testing for privacy concerns, ensuring AI recommendations are unbiased, and validating that these more integrated AI experiences truly simplify user journeys rather than adding complexity, especially in sensitive areas like financial management and onboarding."
     },
     {
       "date": "2026-06-04",
