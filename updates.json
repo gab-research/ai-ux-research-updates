@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-06-05T04:27:37.937Z",
+  "lastUpdated": "2026-06-05T11:35:11.104Z",
   "updates": [
+    {
+      "date": "2026-06-05",
+      "title": "How to build UX using Claude Haiku 4.5 + Custom Design Systems  –  Use UXPin Merge!",
+      "summary": "Use AI-generated component-aware UX and code-based Merge prototypes to build consistent, accessible enterprise interfaces faster. The post How to build UX using Claude Haiku 4.5 + Custom Design Systems – Use UXPin Merge! appeared first on Studio by UXPin.",
+      "content": "This UXPin blog post highlights a novel approach to UX development by integrating Claude Haiku 4.5, a powerful AI model, with custom design systems and their Merge technology. The core idea is to leverage AI for generating component-aware UX designs and code-based prototypes, significantly accelerating the creation of consistent and accessible enterprise interfaces. For UX researchers, this is crucial as it promises to streamline the often time-consuming prototyping phase, allowing for faster iteration and more robust validation of design concepts.  Practical implications include the potential for quicker development cycles and enhanced collaboration between design and engineering teams.",
+      "category": "AI coding assistants",
+      "source": {
+        "name": "UXPin Blog",
+        "url": "https://www.uxpin.com/studio/blog/build-ux-claude-haiku-4-5-custom-design-systems-uxpin-merge/"
+      },
+      "analysis": "At Nubank, this approach could significantly benefit our research workflow by bridging the gap between research findings and implementation. For instance, after user interviews or usability testing on a new feature like a simplified PIX transfer flow, researchers could use Claude Haiku 4.5 to generate initial UI components or even entire prototype screens based on our existing design system. This allows for rapid visualization of research insights, enabling us to quickly test variations of onboarding experiences or loan application interfaces before handing them off to development.  The key is to treat these AI-generated outputs as a starting point, not a final product, requiring careful review and refinement by designers and researchers to ensure they align with Nubank's brand, accessibility standards, and user needs for complex flows like insurance policy management or card activation.\n\nTo apply this effectively, researchers should integrate this tool into their ideation and early prototyping stages. After defining user needs and generating insights, researchers could prompt Claude Haiku 4.5 to create multiple design variations within our established design system. For example, if research suggests confusion in a particular step of the credit card application process, researchers could ask the AI to generate alternative UI layouts for that step, ensuring adherence to our component library.  However, a crucial guardrail is to never rely solely on AI for the final design or code. All AI-generated assets must be thoroughly reviewed for accuracy, consistency with our design system, and most importantly, user experience and accessibility.  The AI is a powerful assistant, but human oversight and domain expertise remain paramount to ensure we build intuitive and reliable financial products like our digital accounts or investment platforms."
+    },
     {
       "date": "2026-06-04",
       "title": "How to build UX using Claude Haiku 4.5 + Bootstrap  –  Use UXPin Merge!",
