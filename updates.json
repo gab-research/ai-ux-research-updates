@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-06-06T10:13:34.892Z",
+  "lastUpdated": "2026-06-06T17:21:42.811Z",
   "updates": [
     {
       "date": "2026-06-05",
@@ -1058,18 +1058,6 @@
         "url": "https://www.uxpin.com/studio/blog/build-ux-gpt-4-1-shadcn-ui-uxpin-merge/"
       },
       "analysis": "At Nubank, this approach could be integrated into our prototyping workflow, particularly for validating new features or iterating on existing flows like customer onboarding or card activation. Researchers could utilize GPT-4.1 via UXPin Merge to quickly generate functional prototypes for user testing, simulating interactions within products like our personal loans or insurance offerings. This would move beyond static wireframes or basic interactive prototypes to something closer to the actual user experience, allowing for more realistic feedback.\n\nWhen applying this, researchers should focus on using it for rapid prototyping and concept validation rather than full-fledged feature development. It's crucial to remember that AI-generated code will require rigorous review by our engineering teams to ensure it adheres to Nubank's strict standards for security, performance, and accessibility. The current limitations of AI in understanding nuanced user needs or complex business logic mean that human oversight remains paramount. We should also consider the potential biases inherent in AI models and ensure that the generated designs and code are inclusive and equitable across all our user segments, especially for sensitive flows like managing PIX recipients or understanding loan terms."
-    },
-    {
-      "date": "2026-05-07",
-      "title": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
-      "summary": "OpenAI expands Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber, helping verified defenders accelerate vulnerability research and protect critical infrastructure.",
-      "content": "OpenAI's latest advancements, GPT-5.5 and GPT-5.5-Cyber, represent a significant step in enhancing \"Trusted Access for Cyber.\" This initiative focuses on empowering verified cybersecurity professionals to expedite vulnerability analysis and bolster the security of vital infrastructure. For UX researchers, this means the potential for more robust and secure digital experiences, as AI can proactively identify and address security threats that could impact user trust and data privacy across our financial products like PIX or loan applications. The practical implication is the ability to integrate AI-driven security assessments earlier in the design and development lifecycle, ensuring user journeys for onboarding or card activation are not only intuitive but also inherently protected.",
-      "category": "AI ethics in research",
-      "source": {
-        "name": "OpenAI Blog",
-        "url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber"
-      },
-      "analysis": "At Nubank, GPT-5.5 and GPT-5.5-Cyber can be integrated into our research workflow by augmenting our existing security testing and user privacy evaluation processes. Researchers can leverage these models to proactively identify potential security vulnerabilities within new feature designs, such as those related to sensitive data handling in loan applications or insurance product sign-ups. This would involve feeding design documents, user flow diagrams, and even early prototypes into the AI to simulate potential attack vectors and understand how users might inadvertently expose themselves to risks.\n\nTo apply this practically, UX researchers should collaborate with our cybersecurity and engineering teams. We can utilize GPT-5.5-Cyber to analyze threat models for critical user flows like PIX transfers or the onboarding process, ensuring that security is a foundational element from the outset, not an afterthought. For instance, when designing the card activation flow, researchers could use the AI to scan for potential interception points or social engineering vulnerabilities that could compromise user accounts. It's crucial to remember that these AI tools are assistive; they should not replace human oversight. Researchers must critically evaluate the AI's findings, triangulate with other research methods, and ensure that any proposed security enhancements do not negatively impact usability or create undue friction for our users."
     }
   ]
 }
