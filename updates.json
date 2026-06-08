@@ -1,8 +1,32 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-06-08T04:51:36.329Z",
+  "lastUpdated": "2026-06-08T12:40:41.442Z",
   "updates": [
+    {
+      "date": "2026-06-08",
+      "title": "Exapted for the AI Prompt",
+      "summary": "On prompts, graphic design, and a craft that was quietly about reading the other mind all along Continue reading on UX Collective »",
+      "content": "This article explores how the craft of UX research, traditionally focused on understanding user needs and motivations, can be seen as an 'exaptation' for the emerging field of AI prompting. The core idea is that the skills UX researchers have honed – empathetic listening, critical interpretation of behavior, and the ability to articulate complex needs into actionable insights – are directly transferable to the art of crafting effective prompts for AI models. This is crucial for UX researchers as it empowers them to leverage AI for tasks like synthesizing qualitative data, generating user personas, or even simulating user journeys, thereby accelerating insights and improving the efficiency of research processes. The practical implication is that researchers can now use their deep understanding of human communication to 'speak' to AI, unlocking new avenues for generative research and analysis.",
+      "category": "AI research tools",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/exapted-for-the-ai-prompt-0870f0d8d6f1?source=rss----138adf9c44c---4"
+      },
+      "analysis": "At Nubank, this concept of \"exapted for AI prompting\" can significantly enhance our research workflow. For instance, when conducting generative research for new features, instead of solely relying on human synthesis, researchers can use AI prompts to quickly generate initial variations of user stories or pain points based on existing qualitative data from user interviews or app feedback. This is particularly relevant for complex flows like loan applications or PIX transactions, where understanding diverse user mental models is critical. By framing research questions as well-crafted prompts, we can accelerate the ideation phase and get to more nuanced user understanding faster.\n\nResearchers should begin by experimenting with AI prompting for specific research tasks, such as summarizing large volumes of open-ended survey responses or drafting preliminary user persona descriptions based on observed behaviors in app flows like card activation or onboarding. The key is to treat the AI as a powerful assistant, not a replacement for human critical thinking. For instance, if an AI generates a prompt for a new insurance product feature, a researcher must then validate and refine these ideas through traditional qualitative methods like user interviews to ensure they align with real customer needs and Nubank's strategic goals. Guardrails include the need for rigorous fact-checking of AI-generated content and ensuring prompt engineering skills are developed thoughtfully to avoid biases or misinterpretations of user data."
+    },
+    {
+      "date": "2026-06-08",
+      "title": "Let the AI have the pixels",
+      "summary": "Practical wisdom is the designer’s last and most important advantage Continue reading on UX Collective »",
+      "content": "This article argues that while AI can automate many visual and generative tasks in design, human intuition and \"practical wisdom\" remain the core differentiator for UX professionals. The author suggests that designers should leverage AI for pixel-pushing and repetitive ideation, freeing themselves to focus on deeper strategic thinking, empathy, and understanding complex user needs. For UX researchers, this means AI can assist in summarizing large datasets or generating initial hypotheses, but the critical interpretation of findings, ethical considerations, and the nuanced understanding of user behavior still require human expertise. Embracing this shift allows researchers to move beyond surface-level analysis and drive more impactful design decisions.",
+      "category": "AI research tools",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/let-the-ai-have-the-pixels-1d51eeb4a020?source=rss----138adf9c44c---4"
+      },
+      "analysis": "At Nubank, the 'Let the AI have the pixels' philosophy can be integrated into our existing research workflows by empowering researchers to offload data synthesis and preliminary insight generation to AI tools. For instance, after conducting user interviews for a new PIX feature or analyzing feedback from card activation flows, researchers could use AI to quickly summarize key themes and pain points from transcribed sessions. This would allow us to dedicate more time to in-depth qualitative analysis, triangulation of data across different touchpoints (like loan applications and insurance sign-ups), and validating AI-generated hypotheses with qualitative methods. The goal is to augment, not replace, human critical thinking, ensuring that our research remains grounded in genuine user understanding and drives ethical, user-centric product development."
+    },
     {
       "date": "2026-06-05",
       "title": "How to build UX using Claude Haiku 4.5 + Custom Design Systems  –  Use UXPin Merge!",
