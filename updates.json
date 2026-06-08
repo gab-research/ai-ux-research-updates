@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-06-08T12:40:41.442Z",
+  "lastUpdated": "2026-06-08T18:30:30.603Z",
   "updates": [
     {
       "date": "2026-06-08",
@@ -26,6 +26,18 @@
         "url": "https://uxdesign.cc/let-the-ai-have-the-pixels-1d51eeb4a020?source=rss----138adf9c44c---4"
       },
       "analysis": "At Nubank, the 'Let the AI have the pixels' philosophy can be integrated into our existing research workflows by empowering researchers to offload data synthesis and preliminary insight generation to AI tools. For instance, after conducting user interviews for a new PIX feature or analyzing feedback from card activation flows, researchers could use AI to quickly summarize key themes and pain points from transcribed sessions. This would allow us to dedicate more time to in-depth qualitative analysis, triangulation of data across different touchpoints (like loan applications and insurance sign-ups), and validating AI-generated hypotheses with qualitative methods. The goal is to augment, not replace, human critical thinking, ensuring that our research remains grounded in genuine user understanding and drives ethical, user-centric product development."
+    },
+    {
+      "date": "2026-06-08",
+      "title": "Introducing the OpenAI Economic Research Exchange",
+      "summary": "OpenAI launches the Economic Research Exchange to study AI’s impact on jobs, productivity, and the economy. Applications are now open for selected research projects.",
+      "content": "OpenAI's new Economic Research Exchange is a significant initiative aiming to understand the broad economic ramifications of artificial intelligence. By funding and supporting external research projects focused on AI's influence on employment, efficiency, and economic structures, they're proactively engaging with these transformative forces. For UX researchers, this signifies a growing need to understand how AI integration impacts user behavior, job roles within financial services, and ultimately, the accessibility and effectiveness of digital banking products.  This research could directly inform how we design future interactions for Nubank's PIX transfers, loan applications, or even the onboarding experience, ensuring we anticipate and address potential user challenges arising from AI-driven changes.",
+      "category": "AI workforce impact",
+      "source": {
+        "name": "OpenAI Blog",
+        "url": "https://openai.com/index/economic-research-exchange"
+      },
+      "analysis": "At Nubank, the OpenAI Economic Research Exchange offers a valuable lens for understanding the future of work and its impact on our user base and internal operations. Researchers should actively monitor the projects and findings from this exchange. This could involve integrating AI's economic impact into our ongoing research streams concerning digital inclusion, financial literacy, and the evolving nature of customer support. For instance, when researching improvements to our card activation flow or the accessibility of our insurance products, we can now consider how AI-driven automation might alter user expectations or create new digital divides.\n\nTo apply this, UX researchers can leverage the insights from the Exchange to proactively identify potential friction points and opportunities in our product development lifecycle. This might involve conducting comparative studies on how AI impacts the perceived complexity of our PIX transaction process or how it influences user trust in our loan application procedures. It's crucial to maintain guardrails, ensuring we focus on tangible user experience improvements rather than purely theoretical economic models. The primary application is to inform user-centric design by anticipating how AI might reshape user needs and cognitive loads, thereby enhancing the usability and fairness of our digital banking services."
     },
     {
       "date": "2026-06-05",
@@ -617,7 +629,7 @@
     },
     {
       "date": "2026-05-19",
-      "title": "AI Engineering - All Things Product Podcast with Teresa Torres &amp; Petra Wille",
+      "title": "AI Engineering - All Things Product Podcast with Teresa Torres & Petra Wille",
       "summary": "Listen to this episode on: Spotify | Apple Podcasts What happens when a product leader accidentally becomes an AI engineer? In this episode, Teresa Torres shares how she went from occasional tinkerer to spending 60% of her time doing real engineering work — building AI-powered...",
       "content": "This \"All Things Product\" podcast episode features Teresa Torres, a product leader who has unexpectedly found herself deeply involved in AI engineering.  The core of the discussion likely revolves around her journey from a general product background to dedicating a significant portion of her time to building AI-powered features. This shift is highly relevant for UX researchers as it highlights the increasing integration of AI into product development cycles. Understanding how product leaders are navigating and implementing AI can inform how UX researchers can best collaborate with engineering teams and proactively identify opportunities to leverage AI for enhanced user experiences, potentially impacting areas like personalized financial advice or fraud detection in real-time transactions.",
       "category": "AI for product management",
