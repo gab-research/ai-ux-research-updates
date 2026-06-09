@@ -3,54 +3,54 @@
   "updated": "2026-06-09",
   "themes": [
     {
+      "name": "AI coding assistants",
+      "count": 33,
+      "description": "Articles discussing AI tools that help developers write, debug, and understand code."
+    },
+    {
       "name": "Agentic AI in research",
       "count": 23,
-      "description": "Articles discussing the use of autonomous AI agents to perform research tasks, plan, and execute complex workflows."
-    },
-    {
-      "name": "AI coding assistants",
-      "count": 21,
-      "description": "Content focused on AI tools that help developers write, debug, and optimize code."
-    },
-    {
-      "name": "AI workforce impact",
-      "count": 13,
-      "description": "Articles exploring how AI is changing job roles, leading to layoffs, or creating new positions."
-    },
-    {
-      "name": "AI tool evaluation",
-      "count": 12,
-      "description": "Discussions and comparisons of various AI tools, including their performance, cost, and effectiveness."
-    },
-    {
-      "name": "AI for design & research",
-      "count": 11,
-      "description": "Articles covering AI's application in the creative and analytical processes of design and user research."
-    },
-    {
-      "name": "AI summarization",
-      "count": 9,
-      "description": "Content about AI's ability to condense large amounts of text or data into concise summaries."
-    },
-    {
-      "name": "AI-powered data analysis",
-      "count": 7,
-      "description": "Articles focusing on AI's role in analyzing datasets, uncovering insights, and identifying patterns."
+      "description": "Focuses on AI agents that can autonomously perform research tasks or assist researchers in complex workflows."
     },
     {
       "name": "AI research tools",
-      "count": 6,
-      "description": "Discussions on specific AI tools designed to aid researchers in various stages of their work."
+      "count": 21,
+      "description": "Covers a broad category of AI-powered tools specifically designed to aid in various research processes."
     },
     {
-      "name": "AI ethics in research",
-      "count": 5,
-      "description": "Articles addressing the ethical considerations, biases, and responsible use of AI in research contexts."
+      "name": "AI summarization",
+      "count": 19,
+      "description": "Articles detailing AI's ability to condense large amounts of text or data into concise summaries."
     },
     {
-      "name": "AI for product management",
-      "count": 5,
-      "description": "Content related to how AI can assist product managers in decision-making, strategy, and execution."
+      "name": "AI design & research",
+      "count": 18,
+      "description": "Explores how AI is integrated into the design process, from ideation to prototyping and visual asset creation."
+    },
+    {
+      "name": "AI chatbot research",
+      "count": 17,
+      "description": "Articles focusing on the research, development, and user interactions with AI-powered chatbots."
+    },
+    {
+      "name": "AI testing automation",
+      "count": 15,
+      "description": "Covers AI applications in automating software testing, quality assurance, and performance evaluation."
+    },
+    {
+      "name": "AI workforce impact",
+      "count": 14,
+      "description": "Discusses the effects of AI on jobs, hiring, skills, and the overall evolution of the workforce."
+    },
+    {
+      "name": "Synthetic users",
+      "count": 13,
+      "description": "Articles about the creation and use of simulated users or data for AI training and testing."
+    },
+    {
+      "name": "AI research tools comparison",
+      "count": 9,
+      "description": "Focuses on comparative analyses and evaluations of different AI tools for research purposes."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
