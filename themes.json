@@ -1,56 +1,56 @@
 {
   "month": "2026-06",
-  "updated": "2026-06-08",
+  "updated": "2026-06-09",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 49,
-      "description": "Articles focusing on AI agents designed to perform research tasks, automate workflows, or act as autonomous researchers."
+      "count": 48,
+      "description": "Articles discussing AI agents that can autonomously perform research tasks, analyze data, or interact with systems for research purposes."
     },
     {
       "name": "AI coding assistants",
-      "count": 31,
-      "description": "Content related to AI tools that help developers write, debug, or refactor code, including discussions on their security implications."
-    },
-    {
-      "name": "AI research platforms",
-      "count": 17,
-      "description": "Tools and platforms designed to facilitate AI-driven research across various domains, from scientific discovery to data analysis."
+      "count": 41,
+      "description": "Content focused on AI tools that help developers write, debug, and understand code, including AI-generated code and security implications."
     },
     {
       "name": "AI summarization",
-      "count": 15,
-      "description": "Articles discussing AI's ability to condense large amounts of text, such as transcripts, reports, or earnings calls, into concise summaries."
+      "count": 22,
+      "description": "Articles detailing AI's ability to condense large amounts of text, data, or conversations into concise summaries for easier comprehension and insight extraction."
     },
     {
       "name": "Synthetic users",
-      "count": 14,
-      "description": "Discussions around the creation and use of AI-generated personas or data to simulate user behavior for testing or analysis."
-    },
-    {
-      "name": "AI-powered data analysis",
-      "count": 14,
-      "description": "Content covering the application of AI techniques to analyze datasets, extract insights, and identify patterns."
-    },
-    {
-      "name": "AI tool evaluation",
-      "count": 13,
-      "description": "Articles that compare, benchmark, or review different AI tools and platforms for specific use cases or industries."
-    },
-    {
-      "name": "AI for design & research",
-      "count": 11,
-      "description": "Focuses on AI's role in augmenting or transforming the design and user research processes, including prototyping and system design."
+      "count": 20,
+      "description": "Discussions around AI-generated personas or data that simulate real user behavior for testing, analysis, or content creation."
     },
     {
       "name": "AI chatbot research",
-      "count": 11,
-      "description": "Research and discussion on the capabilities, limitations, and impact of AI chatbots, particularly in information retrieval and advice-giving."
+      "count": 18,
+      "description": "Focuses on the research and analysis of AI chatbots, their capabilities, limitations, and user interactions."
+    },
+    {
+      "name": "AI research tools",
+      "count": 17,
+      "description": "Articles about specific AI-powered tools and platforms designed to assist in various stages of the research process."
+    },
+    {
+      "name": "AI for design & research",
+      "count": 13,
+      "description": "Explores how AI is being integrated into design workflows and research methodologies to enhance creativity, efficiency, and insights."
     },
     {
       "name": "AI workforce impact",
       "count": 11,
-      "description": "Articles examining how AI is affecting jobs, creating new roles, and reshaping the professional landscape."
+      "description": "Content examining how AI is affecting jobs, skills, and the overall structure of the workforce, particularly in research and development roles."
+    },
+    {
+      "name": "AI testing automation",
+      "count": 10,
+      "description": "Articles detailing the use of AI to automate software testing processes, improving efficiency and accuracy."
+    },
+    {
+      "name": "AI survey tools",
+      "count": 10,
+      "description": "Focuses on AI-powered tools designed to streamline the creation, distribution, and analysis of surveys."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
