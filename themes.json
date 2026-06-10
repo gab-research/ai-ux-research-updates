@@ -3,54 +3,54 @@
   "updated": "2026-06-10",
   "themes": [
     {
-      "name": "Agentic AI in research",
-      "count": 125,
-      "description": "Articles discussing AI agents used for conducting, automating, or assisting in various research tasks, including information gathering, analysis, and decision-making."
+      "name": "Agentic AI research",
+      "count": 58,
+      "description": "Focuses on AI agents performing research tasks autonomously, including agents that can interact with systems, gather information, and execute workflows."
     },
     {
       "name": "AI coding assistants",
-      "count": 74,
-      "description": "Content focusing on AI tools and models that aid developers in writing, debugging, and understanding code."
+      "count": 46,
+      "description": "Covers AI tools that assist developers in writing, reviewing, debugging, and understanding code."
     },
     {
       "name": "AI research tools",
-      "count": 48,
-      "description": "Articles that highlight or review specific AI-powered tools designed to facilitate or enhance research processes across various domains."
-    },
-    {
-      "name": "AI for design & research",
-      "count": 38,
-      "description": "Content exploring how AI is being integrated into the design process, including UI/UX design, generative design, and research methodologies."
-    },
-    {
-      "name": "Synthetic users",
-      "count": 26,
-      "description": "Articles related to the creation and use of artificial or simulated users for testing, research, or AI training purposes."
+      "count": 36,
+      "description": "Explores various AI-powered tools used to aid in research processes, from data analysis to discovery and synthesis."
     },
     {
       "name": "AI summarization",
-      "count": 25,
-      "description": "Content focused on AI models and tools that condense large amounts of text or data into concise summaries."
+      "count": 26,
+      "description": "Articles discussing AI's ability to condense large amounts of text or data into concise summaries and extract key insights."
     },
     {
-      "name": "AI survey tools",
-      "count": 20,
-      "description": "Articles detailing AI applications for designing, distributing, analyzing, or optimizing surveys and feedback collection."
+      "name": "AI tool evaluation",
+      "count": 22,
+      "description": "Focuses on comparing, reviewing, and assessing the performance and utility of different AI tools and platforms."
+    },
+    {
+      "name": "AI for design research",
+      "count": 17,
+      "description": "Examines how AI is being integrated into the design process for research purposes, including concept generation and user experience design."
     },
     {
       "name": "AI chatbot research",
-      "count": 19,
-      "description": "Research, studies, and discussions specifically about the capabilities, limitations, and impact of AI chatbots."
+      "count": 16,
+      "description": "Investigates the use of AI chatbots in research, including their capabilities, limitations, and impact on user interaction and information gathering."
     },
     {
-      "name": "AI research tools comparison",
-      "count": 18,
-      "description": "Articles that compare and contrast different AI tools and models used for research purposes."
+      "name": "Synthetic users",
+      "count": 16,
+      "description": "Discusses the creation and use of AI-generated personas or 'synthetic users' for testing and research purposes."
     },
     {
-      "name": "AI workforce impact",
-      "count": 17,
-      "description": "Discussions and research on how AI is affecting employment, job roles, and the overall workforce."
+      "name": "AI for qualitative research",
+      "count": 10,
+      "description": "Covers the application of AI techniques to qualitative research methods, such as analyzing text or identifying themes in user feedback."
+    },
+    {
+      "name": "AI testing automation",
+      "count": 10,
+      "description": "Focuses on AI's role in automating testing processes for software and products, including regression testing and quality assurance."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."

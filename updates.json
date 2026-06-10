@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-06-10T11:44:59.892Z",
+  "lastUpdated": "2026-06-10T18:35:59.174Z",
   "updates": [
     {
       "date": "2026-06-09",
@@ -654,7 +654,7 @@
     {
       "date": "2026-05-20",
       "title": "My Team of Agents: How I Get Claude to Do Tasks While I'm Away from the Computer",
-      "summary": "Audio Version ($) Every morning I wake up and Claude has already added several tasks to my to-do list. If I have a podcast recording on the calendar, my podcast-manager agent (powered by Claude) prepares a podcast-interview-prep task with a summary of who I'm interviewing and...",
+      "summary": "Audio Version ($) Every morning I wake up and Claude has already added several tasks to my to-do list. If I have a podcast recording on the calendar, my podcast-manager agent (powered by Claude) prepares a podcast-interview-prep task with a summary of who I'm interviewing",
       "content": "This article explores the concept of 'agents,' specifically powered by AI like Claude, to automate recurring tasks and augment a researcher's productivity. The core idea is to leverage AI to act as a proactive assistant, handling routine preparatory work and even generating actionable outputs. For UX researchers, this signifies a shift towards a more collaborative AI-human workflow, freeing up valuable time for strategic thinking, deeper analysis, and direct user interaction.  Practically, it means delegating tasks like initial literature reviews, competitive analysis summaries, or even drafting basic interview guides, allowing researchers to focus on higher-value activities.",
       "category": "General AI in research",
       "source": {
@@ -1022,18 +1022,6 @@
         "url": "https://openai.com/index/what-parameter-golf-taught-us"
       },
       "analysis": "At Nubank, \"Parameter Golf\"'s core lesson of achieving maximum impact with minimal resources can be integrated into our existing research workflow. For instance, when faced with tight deadlines for user testing of a new feature like \"Conta PJ\" (Business Account) onboarding, we could experiment with AI tools to quickly synthesize user feedback from initial prototype testing. This might involve using AI to identify recurring pain points in the PIX transfer flow or to flag common usability issues during the card activation process, without requiring extensive model training or custom development. Researchers should be encouraged to explore existing AI-powered summarization and analysis tools, focusing on their ability to extract actionable insights from qualitative data efficiently.\n\nTo apply this practically, we can pilot AI tools for tasks like sentiment analysis of customer support transcripts related to loan applications or to automatically tag and categorize feedback from our app's \"ajuda\" (help) section. The key guardrail is to always validate AI-generated insights with human oversight; AI should augment, not replace, our qualitative judgment. Limitations to consider include potential biases in the AI models themselves and the need for data privacy when processing sensitive customer information. We must ensure any AI tool used adheres to Nubank's strict data security and privacy policies, especially when dealing with personal financial data associated with products like our insurance offerings."
-    },
-    {
-      "date": "2026-05-11",
-      "title": "SocialReasoning-Bench: Measuring whether AI agents act in users’ best interests",
-      "summary": "Using SocialReasoning Bench, we observed a stable pattern across models—agents execute competently, but fail to consistently improve the user’s position, even with explicit instructions to optimize for user interest. The post SocialReasoning-Bench: Measuring whether AI agents...",
-      "content": "Using SocialReasoning Bench, we observed a stable pattern across models—agents execute competently, but fail to consistently improve the user’s position, even with explicit instructions to optimize for user interest. The post SocialReasoning-Bench: Measuring whether AI agents act in users’ best interests appeared first on Microsoft Research.",
-      "category": "Agentic AI in research",
-      "source": {
-        "name": "Microsoft Research",
-        "url": "https://www.microsoft.com/en-us/research/blog/socialreasoning-bench-measuring-whether-ai-agents-act-in-users-best-interests/"
-      },
-      "analysis": "At Nubank, SocialReasoning-Bench can be integrated into our AI-powered feature development lifecycle. For instance, when designing an AI assistant to guide users through loan applications or to suggest personalized insurance plans, researchers should use this benchmark to test the AI's decision-making processes. We should proactively set up scenarios that mimic real-world user dilemmas and evaluate if the AI prioritizes the user's financial health and satisfaction over mere task completion.  This means moving beyond just measuring task success rates for features like card activation or the PIX transfer flow, and instead assessing the *quality* of the outcome for the user, ensuring the AI is actively working in their favor.  A key guardrail is to remember that SocialReasoning-Bench is a tool for *measuring* potential AI misalignment, not a solution in itself. It necessitates human oversight and iterative refinement of AI models to ensure they consistently reflect Nubank's commitment to user advocacy, especially in sensitive financial contexts."
     }
   ]
 }
