@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 22,
-      "description": "This theme covers AI agents that perform research tasks autonomously or semi-autonomously."
+      "count": 125,
+      "description": "Articles discussing AI agents used for conducting, automating, or assisting in various research tasks, including information gathering, analysis, and decision-making."
     },
     {
       "name": "AI coding assistants",
-      "count": 19,
-      "description": "This theme focuses on AI tools that help developers write, debug, and understand code."
-    },
-    {
-      "name": "AI usability testing",
-      "count": 15,
-      "description": "This theme includes articles discussing AI's role in testing and evaluating the usability of products and systems."
+      "count": 74,
+      "description": "Content focusing on AI tools and models that aid developers in writing, debugging, and understanding code."
     },
     {
       "name": "AI research tools",
-      "count": 14,
-      "description": "This theme covers AI tools specifically designed to aid in various stages of the research process, from question formulation to analysis."
+      "count": 48,
+      "description": "Articles that highlight or review specific AI-powered tools designed to facilitate or enhance research processes across various domains."
     },
     {
-      "name": "AI design research",
-      "count": 13,
-      "description": "This theme explores how AI is being used to conduct research related to user interface (UI) and user experience (UX) design."
-    },
-    {
-      "name": "AI for product management",
-      "count": 11,
-      "description": "This theme focuses on AI applications that assist product managers in tasks like research, development, and strategy."
-    },
-    {
-      "name": "AI chatbot research",
-      "count": 11,
-      "description": "This theme covers research into the capabilities, limitations, and impact of AI chatbots, particularly in user interaction and information retrieval."
-    },
-    {
-      "name": "AI testing automation",
-      "count": 10,
-      "description": "This theme discusses the use of AI to automate testing processes in software development and quality assurance."
-    },
-    {
-      "name": "AI workforce impact",
-      "count": 9,
-      "description": "This theme analyzes how AI is affecting jobs, roles, and the overall labor market, including new job creation and displacement."
+      "name": "AI for design & research",
+      "count": 38,
+      "description": "Content exploring how AI is being integrated into the design process, including UI/UX design, generative design, and research methodologies."
     },
     {
       "name": "Synthetic users",
-      "count": 8,
-      "description": "This theme covers the creation and use of artificial user data or personas for testing, training, or research purposes."
+      "count": 26,
+      "description": "Articles related to the creation and use of artificial or simulated users for testing, research, or AI training purposes."
+    },
+    {
+      "name": "AI summarization",
+      "count": 25,
+      "description": "Content focused on AI models and tools that condense large amounts of text or data into concise summaries."
+    },
+    {
+      "name": "AI survey tools",
+      "count": 20,
+      "description": "Articles detailing AI applications for designing, distributing, analyzing, or optimizing surveys and feedback collection."
+    },
+    {
+      "name": "AI chatbot research",
+      "count": 19,
+      "description": "Research, studies, and discussions specifically about the capabilities, limitations, and impact of AI chatbots."
+    },
+    {
+      "name": "AI research tools comparison",
+      "count": 18,
+      "description": "Articles that compare and contrast different AI tools and models used for research purposes."
+    },
+    {
+      "name": "AI workforce impact",
+      "count": 17,
+      "description": "Discussions and research on how AI is affecting employment, job roles, and the overall workforce."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."

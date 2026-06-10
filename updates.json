@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-06-10T04:24:59.625Z",
+  "lastUpdated": "2026-06-10T11:44:59.892Z",
   "updates": [
     {
       "date": "2026-06-09",
@@ -1022,18 +1022,6 @@
         "url": "https://openai.com/index/what-parameter-golf-taught-us"
       },
       "analysis": "At Nubank, \"Parameter Golf\"'s core lesson of achieving maximum impact with minimal resources can be integrated into our existing research workflow. For instance, when faced with tight deadlines for user testing of a new feature like \"Conta PJ\" (Business Account) onboarding, we could experiment with AI tools to quickly synthesize user feedback from initial prototype testing. This might involve using AI to identify recurring pain points in the PIX transfer flow or to flag common usability issues during the card activation process, without requiring extensive model training or custom development. Researchers should be encouraged to explore existing AI-powered summarization and analysis tools, focusing on their ability to extract actionable insights from qualitative data efficiently.\n\nTo apply this practically, we can pilot AI tools for tasks like sentiment analysis of customer support transcripts related to loan applications or to automatically tag and categorize feedback from our app's \"ajuda\" (help) section. The key guardrail is to always validate AI-generated insights with human oversight; AI should augment, not replace, our qualitative judgment. Limitations to consider include potential biases in the AI models themselves and the need for data privacy when processing sensitive customer information. We must ensure any AI tool used adheres to Nubank's strict data security and privacy policies, especially when dealing with personal financial data associated with products like our insurance offerings."
-    },
-    {
-      "date": "2026-05-11",
-      "title": "UX Roundup: Moby Dick | AI Broadens Use Compared to Search | Dashboard Visualization | Tacit Knowledge | Design Engineer Fellowship",
-      "summary": "New music video based on Moby-Dick | AI expands users’ tasks compared with traditional search, but provides narrower information results | AI dashboard visualizations help therapists spot trends hidden in session notes | How to elicit tacit knowledge to build AI workflows | A1...",
-      "content": "New music video based on Moby-Dick | AI expands users’ tasks compared with traditional search, but provides narrower information results | AI dashboard visualizations help therapists spot trends hidden in session notes | How to elicit tacit knowledge to build AI workflows | A16Z awarding fellowships to design engineers",
-      "category": "AI summarization",
-      "source": {
-        "name": "Jakob Nielsen (Substack)",
-        "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260511"
-      },
-      "analysis": "At Nubank, this roundup is highly relevant for our ongoing efforts to leverage AI and advanced analytics.  Researchers can apply the insights on AI expanding user tasks by exploring how generative AI tools could assist in tasks like initial user journey mapping or drafting persona descriptions, moving beyond simple keyword searches. For instance, when researching the PIX transfer experience, AI could help generate initial hypotheses about common pain points or identify unusual user flows by analyzing large datasets of user interactions. The implication of AI providing \"narrower information results\" means we must actively guide these tools to ensure comprehensive data exploration and avoid premature conclusions.\n\nThe most actionable insight is the potential of AI dashboard visualizations for analyzing qualitative data. Our UX researchers could explore using AI tools to sift through interview transcripts, customer support logs, or open-ended survey responses related to credit card activation or loan applications. Imagine an AI dashboard highlighting recurring emotional sentiments or unmet needs expressed by users during the onboarding process, surfacing insights that might be missed through manual analysis.  However, it's crucial to establish guardrails. Researchers must critically evaluate AI-generated insights, understand the underlying data and algorithms, and never replace human empathy and contextual understanding with automated outputs.  The elicitation of tacit knowledge remains paramount; AI can augment, not substitute, our deep understanding of Brazilian consumer financial behaviors."
     },
     {
       "date": "2026-05-11",
