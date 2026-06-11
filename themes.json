@@ -3,54 +3,54 @@
   "updated": "2026-06-11",
   "themes": [
     {
-      "name": "Agentic AI research",
-      "count": 96,
-      "description": "Focuses on AI agents designed to perform research tasks, analyze data, or interact with systems autonomously to achieve research objectives."
+      "name": "Agentic AI in research",
+      "count": 35,
+      "description": "Focuses on AI agents that perform research tasks autonomously or semi-autonomously, often involving complex workflows and decision-making."
     },
     {
       "name": "AI coding assistants",
-      "count": 77,
-      "description": "Covers AI tools designed to help developers write, debug, review, and understand code."
+      "count": 27,
+      "description": "Covers AI tools that assist developers in writing, debugging, and refactoring code, including code generation and analysis."
     },
     {
       "name": "AI research tools",
-      "count": 71,
-      "description": "Highlights AI-powered platforms and applications specifically built to aid researchers in data collection, analysis, and insight generation."
+      "count": 24,
+      "description": "Encompasses a broad category of AI-powered tools designed to facilitate and enhance various aspects of research activities."
     },
     {
-      "name": "Synthetic users",
-      "count": 26,
-      "description": "Discusses the creation and use of artificial or simulated users for testing, research, or content generation."
+      "name": "AI sentiment & feedback analysis",
+      "count": 16,
+      "description": "Articles discussing the use of AI to analyze user sentiment and feedback from various sources like reviews, surveys, and social media."
     },
     {
       "name": "AI summarization",
-      "count": 20,
-      "description": "Focuses on AI capabilities that condense large amounts of text or data into concise summaries or key insights."
-    },
-    {
-      "name": "AI design research",
-      "count": 18,
-      "description": "Explores how AI is used in the design process, from ideation and prototyping to user interface and experience research."
-    },
-    {
-      "name": "AI sentiment feedback",
       "count": 15,
-      "description": "Covers AI's role in analyzing user feedback, emotions, and opinions expressed in text or other forms."
+      "description": "Focuses on AI capabilities that condense large amounts of text or data into concise summaries for quicker understanding."
     },
     {
-      "name": "AI chatbot research",
+      "name": "Synthetic users",
       "count": 15,
-      "description": "Investigates the use of AI chatbots for research purposes, including user interaction, data gathering, and analysis."
+      "description": "Explores the creation and use of artificial users or personas for testing, simulation, and research purposes."
     },
     {
-      "name": "AI product research",
-      "count": 14,
-      "description": "Focuses on AI applications used to understand market needs, analyze product performance, and inform product development."
+      "name": "AI testing automation",
+      "count": 15,
+      "description": "Covers the application of AI to automate various stages of software testing, including test case generation and execution."
+    },
+    {
+      "name": "AI recruitment research",
+      "count": 13,
+      "description": "Examines the impact of AI on recruitment processes, job markets, and workforce dynamics, based on research and studies."
     },
     {
       "name": "AI tool evaluation",
+      "count": 13,
+      "description": "Articles that compare, review, or benchmark different AI tools and platforms, often for specific use cases."
+    },
+    {
+      "name": "AI chatbot research",
       "count": 11,
-      "description": "Articles comparing, reviewing, or assessing the effectiveness and capabilities of various AI tools for research and design."
+      "description": "Focuses on research and studies related to the capabilities, limitations, and user interactions with AI-powered chatbots."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
