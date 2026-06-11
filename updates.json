@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-06-10T18:35:59.174Z",
+  "lastUpdated": "2026-06-11T04:47:31.516Z",
   "updates": [
     {
       "date": "2026-06-09",
@@ -965,63 +965,15 @@
     },
     {
       "date": "2026-05-12",
-      "title": "Be like water: Rethinking the design process with AI",
-      "summary": "What Bruce Lee can teach us about structure, flow, and intention. Continue reading on UX Collective »",
-      "content": "This article draws an analogy between Bruce Lee's philosophy of \"be like water\" and modern UX design, arguing that AI can help us move away from rigid, linear design processes towards a more fluid, adaptable, and intentional approach. For UX researchers, this means leveraging AI to identify emergent patterns in user data and to dynamically adjust research methodologies based on evolving insights, rather than adhering to predetermined frameworks. Practically, this could involve using AI to rapidly synthesize large volumes of qualitative feedback, uncover subtle user needs that might be missed in traditional analysis, and facilitate more agile iteration cycles across product development, from initial concept validation to post-launch optimization for features like PIX transactions or loan applications.",
-      "category": "AI research tools",
-      "source": {
-        "name": "UX Collective (Medium)",
-        "url": "https://uxdesign.cc/be-like-water-rethinking-design-process-and-ai-experimentation-5db3c32eff7a?source=rss----138adf9c44c---4"
-      },
-      "analysis": "At Nubank, the \"be like water\" approach with AI can be integrated into our existing research workflow by augmenting our qualitative analysis capabilities and informing our iterative design sprints. Instead of solely relying on pre-defined interview scripts or surveys for understanding user pain points (e.g., during credit card activation or insurance policy selection), researchers can employ AI tools to analyze verbatim feedback from app reviews, customer support logs, and community forums. This allows for a more organic discovery of user needs and frustrations, mirroring the fluidity of water adapting to its container.\n\nResearchers should proactively explore and pilot AI-powered tools for tasks such as sentiment analysis, thematic clustering of open-ended responses, and even predictive modeling of user behavior during critical flows like onboarding or PIX transfers. The key is to use AI not as a replacement for human judgment, but as a powerful amplifier. Guardrails are essential: ensure data privacy and compliance with Nubank's security protocols. Bias in AI algorithms must be actively monitored and mitigated, and researchers should always maintain a critical perspective, validating AI-generated insights with traditional qualitative methods and user testing, especially for sensitive financial products and services."
-    },
-    {
-      "date": "2026-05-12",
-      "title": "How to build UX using Claude Opus 4.5 + MUI  –  Use UXPin Merge!",
-      "summary": "Design with production-ready MUI components using Claude Opus 4.5 and UXPin Merge; prototype, sync via Git, and export React code. The post How to build UX using Claude Opus 4.5 + MUI – Use UXPin Merge! appeared first on Studio by UXPin.",
-      "content": "This article explores a novel approach to accelerating UX design and development by integrating advanced AI capabilities with design tools. It highlights how Claude Opus 4.5 can be leveraged to generate production-ready MUI components within UXPin, facilitating a more efficient prototyping and syncing process via Git. This integration allows UX researchers to bridge the gap between design conceptualization and developer implementation more seamlessly, leading to faster iteration cycles and potentially more accurate, code-aligned prototypes. The practical implication is the ability to quickly translate research insights into tangible, interactive mockups that closely mirror the final product, reducing handoff friction.",
-      "category": "AI coding assistants",
-      "source": {
-        "name": "UXPin Blog",
-        "url": "https://www.uxpin.com/studio/blog/build-ux-claude-opus-4-5-mui-uxpin-merge/"
-      },
-      "analysis": "At Nubank, this workflow could significantly streamline our design and research processes, particularly for rapidly prototyping new features or iterating on existing ones. For example, when exploring improvements to the PIX transfer flow or the onboarding experience for new customers, researchers could use UXPin with Claude Opus 4.5 to quickly generate interactive prototypes with accurate MUI components. This would allow for faster user testing of different UI variations and ensure that the designed elements are directly implementable by our development teams, saving valuable time in the PIX and onboarding development cycles.\n\nResearchers should leverage this by focusing on rapid ideation and validation. Instead of spending extensive time manually building components, they can use the AI to generate initial UI elements based on research requirements. This allows for more time to be allocated to in-depth user interviews and usability testing, ensuring the core user needs are met before significant development investment. However, it's crucial to establish clear guardrails: researchers must critically review AI-generated components for adherence to Nubank's design system and accessibility standards, especially when designing sensitive flows like loan applications or card activation. The AI should be seen as an accelerator for generating common UI patterns, not a replacement for understanding user context and ensuring a secure and intuitive experience across all Nubank products."
-    },
-    {
-      "date": "2026-05-12",
       "title": "Advancing AI for materials with MatterSim: experimental synthesis, faster simulation, and multi-task models",
       "summary": "MatterSim is expanding what AI can do for materials science—from faster large-scale simulations to MatterSim-MT, a new multi-task model for simulating properties beyond potential energy surfaces alone. The post Advancing AI for materials with MatterSim: experimental synthesis,...",
-      "content": "Microsoft Research's MatterSim initiative is a significant leap in applying AI to materials science, moving beyond traditional simulations to predict a wider range of material properties. By enabling faster, large-scale simulations and introducing multi-task models like MatterSim-MT, this research accelerates the discovery and design of novel materials. For UX researchers, understanding these advancements is crucial as AI's ability to model complex systems can inform the design of increasingly sophisticated and intelligent user interfaces and experiences. This could translate into more personalized financial products, adaptive platform features, and even novel hardware integrations that improve accessibility and utility in ways we haven't yet imagined.",
+      "content": "MatterSim is expanding what AI can do for materials science—from faster large-scale simulations to MatterSim-MT, a new multi-task model for simulating properties beyond potential energy surfaces alone. The post Advancing AI for materials with MatterSim: experimental synthesis, faster simulation, and multi-task models appeared first on Microsoft Research.",
       "category": "AI summarization",
       "source": {
         "name": "Microsoft Research",
         "url": "https://www.microsoft.com/en-us/research/blog/advancing-ai-for-materials-with-mattersim-experimental-synthesis-faster-simulation-and-multi-task-models/"
       },
       "analysis": "At Nubank, MatterSim's principles can be applied to a domain beyond physical materials: the complex, interconnected ecosystem of digital financial services. Instead of simulating molecular interactions, we can adapt the multi-task modeling approach to simulate user behavior across different financial products and touchpoints, such as PIX transactions, loan applications, or card activation flows. This allows us to predict how changes in one area, like a new onboarding feature for insurance, might impact user engagement with other services, optimizing the overall customer journey.\n\nResearchers can leverage this by developing simulations that model not just individual user actions but also the cascading effects of design decisions across our entire product suite. For instance, we could simulate the impact of introducing a simplified PIX onboarding process on the adoption rate of other credit products or the perceived complexity of managing multiple Nubank services. This predictive capability can significantly de-risk new feature rollouts and proactively identify potential friction points before they impact real users. However, we must remember that while powerful, these models are abstractions; qualitative research and user testing remain indispensable for validating AI-driven predictions and understanding the nuances of human financial decision-making."
-    },
-    {
-      "date": "2026-05-12",
-      "title": "How NVIDIA engineers and researchers build with Codex",
-      "summary": "Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments.",
-      "content": "This OpenAI blog post highlights how NVIDIA is leveraging Codex, a powerful AI model, to accelerate their development cycles. By integrating Codex with GPT-5.5, their teams can rapidly prototype and deploy complex systems, bridging the gap between theoretical research and tangible, production-ready solutions. For UX researchers, this signifies a paradigm shift towards AI-assisted experimentation, enabling quicker validation of hypotheses and the exploration of innovative user experiences at an unprecedented pace. The ability to translate research insights into runnable code empowers researchers to move beyond traditional methods and directly influence the implementation of new features and improvements across various product touchpoints.",
-      "category": "General AI in research",
-      "source": {
-        "name": "OpenAI Blog",
-        "url": "https://openai.com/index/nvidia"
-      },
-      "analysis": "At Nubank, this integration of Codex presents an exciting opportunity to inject more agility into our UX research workflow. Imagine a researcher identifying a potential friction point in the PIX transfer flow; instead of waiting for engineering to build a prototype for A/B testing, a researcher, with basic coding knowledge aided by Codex, could generate a functional script for a simulated PIX experience. This would allow for rapid, in-house validation of a proposed solution before committing significant engineering resources. Furthermore, during the onboarding process, we could use Codex to quickly generate variations of interactive tutorials for card activation, testing different user journeys and language more efficiently than manual coding allows."
-    },
-    {
-      "date": "2026-05-12",
-      "title": "What Parameter Golf taught us about AI-assisted research",
-      "summary": "Parameter Golf brought together 1,000+ participants and 2,000+ submissions to explore AI-assisted machine learning research, coding agents, quantization, and novel model design under strict constraints.",
-      "content": "The OpenAI \"Parameter Golf\" event highlights the power of constrained AI research, where participants optimized machine learning models under significant limitations. This concept is highly relevant for UX researchers as it demonstrates how creative problem-solving can emerge even when resources or capabilities are restricted. For us at Nubank, this translates to exploring AI tools that can enhance our research efficiency and output, even with existing infrastructure or specific project scopes.  Understanding these techniques can lead to more innovative and cost-effective ways to leverage AI for user insights, much like optimizing for fewer parameters in AI models.",
-      "category": "AI for design & research",
-      "source": {
-        "name": "OpenAI Blog",
-        "url": "https://openai.com/index/what-parameter-golf-taught-us"
-      },
-      "analysis": "At Nubank, \"Parameter Golf\"'s core lesson of achieving maximum impact with minimal resources can be integrated into our existing research workflow. For instance, when faced with tight deadlines for user testing of a new feature like \"Conta PJ\" (Business Account) onboarding, we could experiment with AI tools to quickly synthesize user feedback from initial prototype testing. This might involve using AI to identify recurring pain points in the PIX transfer flow or to flag common usability issues during the card activation process, without requiring extensive model training or custom development. Researchers should be encouraged to explore existing AI-powered summarization and analysis tools, focusing on their ability to extract actionable insights from qualitative data efficiently.\n\nTo apply this practically, we can pilot AI tools for tasks like sentiment analysis of customer support transcripts related to loan applications or to automatically tag and categorize feedback from our app's \"ajuda\" (help) section. The key guardrail is to always validate AI-generated insights with human oversight; AI should augment, not replace, our qualitative judgment. Limitations to consider include potential biases in the AI models themselves and the need for data privacy when processing sensitive customer information. We must ensure any AI tool used adheres to Nubank's strict data security and privacy policies, especially when dealing with personal financial data associated with products like our insurance offerings."
     }
   ]
 }
