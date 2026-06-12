@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-06-11T18:51:43.099Z",
+  "lastUpdated": "2026-06-12T04:49:45.812Z",
   "updates": [
     {
       "date": "2026-06-11",
@@ -689,7 +689,7 @@
     },
     {
       "date": "2026-05-19",
-      "title": "AI Engineering - All Things Product Podcast with Teresa Torres &amp; Petra Wille",
+      "title": "AI Engineering - All Things Product Podcast with Teresa Torres & Petra Wille",
       "summary": "Listen to this episode on: Spotify | Apple Podcasts What happens when a product leader accidentally becomes an AI engineer? In this episode, Teresa Torres shares how she went from occasional tinkerer to spending 60% of her time doing real engineering work — building AI-powered...",
       "content": "This \"All Things Product\" podcast episode features Teresa Torres, a product leader who has unexpectedly found herself deeply involved in AI engineering.  The core of the discussion likely revolves around her journey from a general product background to dedicating a significant portion of her time to building AI-powered features. This shift is highly relevant for UX researchers as it highlights the increasing integration of AI into product development cycles. Understanding how product leaders are navigating and implementing AI can inform how UX researchers can best collaborate with engineering teams and proactively identify opportunities to leverage AI for enhanced user experiences, potentially impacting areas like personalized financial advice or fraud detection in real-time transactions.",
       "category": "AI for product management",
@@ -962,18 +962,6 @@
         "url": "https://uxdesign.cc/the-one-dimensional-pipe-between-two-high-dimensional-minds-7bc81c49627e?source=rss----138adf9c44c---4"
       },
       "analysis": "At Nubank, this article's insights can be integrated into our early-stage research for new features and product improvements. For instance, when exploring a potential enhancement to our loan application flow, researchers could use AI to quickly surface common pain points from support tickets and app reviews related to existing loan products. By crafting specific prompts, we can ask the AI to \"identify the top 3 usability issues experienced by users during the PIX transfer confirmation step\" or to \"summarize user sentiment regarding the clarity of our insurance policy wording.\" This allows us to quickly gain a broad overview of potential problem areas, accelerating the initial research phase before diving into deeper qualitative methods.\n\nResearchers should apply this by treating AI as a powerful assistant, not a replacement for their expertise. This involves rigorous prompt engineering to ensure the AI provides relevant and nuanced data, followed by critical analysis and validation of the AI's outputs. For example, after using AI to synthesize survey data on card activation experiences, a researcher would then conduct user interviews to probe deeper into the underlying motivations and emotional responses the AI might not capture.  It's crucial to establish guardrails: AI-generated insights should always be cross-referenced with qualitative data and user empathy. We must be mindful of AI's limitations in understanding context specific to Brazilian culture and financial habits, and avoid over-reliance on its outputs for making critical design decisions in sensitive areas like onboarding or investment products."
-    },
-    {
-      "date": "2026-05-13",
-      "title": "UX and SEO: The Complete Guide for Designers in 2026",
-      "summary": "Learn how UX design decisions directly impact SEO rankings. Covers Core Web Vitals, site architecture, mobile-first design, AI search optimization, and actionable best practices for designers. The post UX and SEO: The Complete Guide for Designers in 2026 appeared first on Stud...",
-      "content": "This article explores the symbiotic relationship between UX design and Search Engine Optimization (SEO), particularly as we approach 2026. It emphasizes that user experience is no longer a separate concern from search engine visibility; rather, UX decisions directly influence how well digital products rank. For UX researchers, this means understanding that optimizing for users inherently means optimizing for search engines, impacting discoverability and user acquisition. Practical implications include prioritizing performance metrics like Core Web Vitals and ensuring intuitive site architecture, which directly benefit both user satisfaction and SEO outcomes, ultimately driving more organic traffic to platforms like Nubank.",
-      "category": "AI research tools",
-      "source": {
-        "name": "UXPin Blog",
-        "url": "https://www.uxpin.com/studio/blog/ux-seo-guide/"
-      },
-      "analysis": "This article's focus on the UX/SEO intersection is highly relevant to our research at Nubank. We should integrate this understanding into our discovery and validation phases. For example, when researching improvements to the PIX transfer flow or the onboarding process for new customers, we need to consider how content structure, page load speeds (Core Web Vitals), and mobile responsiveness affect not only user satisfaction but also how easily potential customers can find information about our services via search engines. This is crucial for organic growth, especially for less commonly searched products like specific insurance offerings.\n\nResearchers should actively incorporate SEO considerations into user journey mapping and usability testing scenarios. When testing a new feature for loan applications or card activation, we should also consider how effectively relevant keywords are integrated into the content and if the overall site architecture supports easy navigation and indexing by search bots. This means collaborating more closely with content strategists and SEO specialists within Nubank to ensure our research informs designs that are both user-centric and search-engine friendly. A key guardrail is to always prioritize the core user experience and accessibility; SEO optimizations should enhance, not detract from, the user's primary goals on our platform, ensuring we don't sacrifice usability for ranking."
     }
   ]
 }
