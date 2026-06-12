@@ -3,54 +3,54 @@
   "updated": "2026-06-12",
   "themes": [
     {
-      "name": "Agentic AI research",
-      "count": 73,
-      "description": "Focuses on AI agents that can autonomously perform research tasks, interact with systems, and achieve research objectives."
+      "name": "Agentic AI in research",
+      "count": 80,
+      "description": "Articles focusing on AI agents that can autonomously perform research tasks, manage workflows, and interact with data or systems to achieve research goals."
     },
     {
       "name": "AI coding assistants",
-      "count": 39,
-      "description": "Articles discussing AI tools that help developers write, debug, and understand code, including code generation and review."
-    },
-    {
-      "name": "AI summarization",
-      "count": 24,
-      "description": "Content related to AI's ability to condense large amounts of text, research findings, or data into concise summaries."
+      "count": 55,
+      "description": "Content related to AI tools that assist developers in writing, debugging, and optimizing code, often acting as intelligent coding partners."
     },
     {
       "name": "AI research tools",
-      "count": 24,
-      "description": "Covers various AI-powered tools and platforms designed to assist researchers in their workflows, data analysis, and discovery processes."
+      "count": 53,
+      "description": "Tools and platforms designed to aid researchers in various stages of the research process, from literature review to data analysis and hypothesis generation."
     },
     {
-      "name": "AI workforce impact",
-      "count": 18,
-      "description": "Explores how AI is affecting jobs, employment, skills, and the broader labor market, including research into job displacement and creation."
-    },
-    {
-      "name": "AI chatbot research",
-      "count": 15,
-      "description": "Articles specifically about the research, development, and user interactions with AI-powered chatbots and conversational agents."
+      "name": "AI summarization",
+      "count": 36,
+      "description": "AI applications that condense large amounts of text, such as articles, reports, or user feedback, into concise summaries."
     },
     {
       "name": "Synthetic users",
-      "count": 14,
-      "description": "Focuses on the creation and use of AI-generated or simulated users for testing, research, and product development."
+      "count": 26,
+      "description": "AI-generated personas or simulated users used for testing, training, or research purposes, often replicating human behavior or characteristics."
     },
     {
-      "name": "AI tool evaluation",
-      "count": 13,
-      "description": "Content that compares, reviews, or assesses the effectiveness and performance of different AI tools and platforms."
-    },
-    {
-      "name": "AI for design & research",
-      "count": 11,
-      "description": "Examines how AI is being integrated into design processes, systems, and user research methodologies."
+      "name": "AI recruitment research",
+      "count": 25,
+      "description": "The use of AI in understanding and impacting job markets, hiring processes, and the skills required for future employment."
     },
     {
       "name": "AI customer insights",
-      "count": 11,
-      "description": "Covers AI's role in analyzing customer data, feedback, and behavior to generate actionable insights for businesses."
+      "count": 22,
+      "description": "Leveraging AI to analyze customer data, feedback, and behavior to derive actionable insights for product and service improvement."
+    },
+    {
+      "name": "AI research platform",
+      "count": 21,
+      "description": "Integrated platforms that offer a suite of AI tools and capabilities specifically designed for conducting and managing research."
+    },
+    {
+      "name": "AI for product management",
+      "count": 19,
+      "description": "Applications of AI that assist product managers in tasks such as market analysis, roadmap planning, feature prioritization, and user feedback analysis."
+    },
+    {
+      "name": "AI design research",
+      "count": 19,
+      "description": "The application of AI in understanding design trends, user preferences, and the creation of new design elements and systems."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
