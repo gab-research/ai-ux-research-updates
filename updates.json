@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-06-13T04:38:16.536Z",
+  "lastUpdated": "2026-06-13T10:35:14.058Z",
   "updates": [
+    {
+      "date": "2026-06-13",
+      "title": "“What computers can’t do” — and what designers should",
+      "summary": "Don’t skimp on the creative struggle. Improve your code literacy to elevate agentic execution. Continue reading on UX Collective »",
+      "content": "This article challenges the notion of a rigid boundary between what humans and AI can do, emphasizing that the creative process often involves valuable \"struggle\" that AI currently struggles to replicate. For UX researchers, this highlights the importance of leveraging AI tools to augment, not replace, our critical thinking and creative problem-solving. By improving our understanding of AI's capabilities (code literacy), we can more effectively integrate AI into research workflows, leading to more nuanced insights and innovative design solutions, ultimately impacting how we understand user journeys for products like PIX or loan applications.",
+      "category": "General AI in research",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/what-computers-cant-do-and-what-designers-should-d9d55c4fe2a1?source=rss----138adf9c44c---4"
+      },
+      "analysis": "At Nubank, this article's core message fits squarely into our ongoing efforts to integrate AI responsibly into our research practices, particularly in areas like analyzing qualitative feedback from onboarding or card activation processes. Researchers should view AI not as a black box, but as a powerful assistant. For instance, AI can help us quickly sift through vast amounts of user interview transcripts related to insurance product feedback, identifying recurring themes or sentiment shifts. However, we must remember the \"creative struggle\" – the nuanced understanding that comes from deep empathy and human interpretation. Therefore, AI should be used for initial data synthesis and pattern identification, with human researchers always in the loop for deeper analysis, hypothesis generation, and creative ideation to address complex user needs, ensuring the unique Nubank user experience is preserved."
+    },
     {
       "date": "2026-06-12",
       "title": "Best Strella Alternatives for UX Research in 2026",
@@ -962,18 +974,6 @@
         "url": "https://www.microsoft.com/en-us/research/blog/further-notes-on-our-recent-research-on-ai-delegation-and-long-horizon-reliability/"
       },
       "analysis": "At Nubank, this research directly impacts how we integrate AI into customer-facing flows like onboarding, card activation, and managing financial products. Researchers should view this as a call to rigorously test AI delegation within these journeys. For instance, when designing AI-assisted fraud detection for PIX transfers or AI-powered loan eligibility assessments, we must incorporate explicit user verification steps to catch potential LLM-introduced errors. This means moving beyond simply accepting AI-generated recommendations and instead building UX patterns that empower users to review and confirm AI-driven suggestions.\n\nOur guardrails should prioritize user trust and data integrity above all else. We must avoid fully automating critical decisions or information presentation powered solely by LLMs. Instead, LLMs should augment human capabilities or pre-process information for human review. For example, in the loan application process, an LLM might help pre-fill forms or summarize user provided information, but a human analyst should always conduct the final review. Similarly, for insurance claims, AI can help categorize claims, but the final payout decision should always have human oversight. This approach ensures reliability and maintains Nubank's reputation for secure and dependable financial services."
-    },
-    {
-      "date": "2026-05-14",
-      "title": "11 Claude Skills to Turn AI Into Your UX Research Assistant",
-      "summary": "Install these 11 Claude skills and cut your research workflow in half. Transcript cleaning, synthesis, JTBD analysis, survey design, and more — tested on real projects.",
-      "content": "This article from Great Question Blog introduces eleven specific 'Claude skills' designed to transform Anthropic's Claude AI into a powerful assistant for UX researchers. The core idea is that by leveraging these pre-trained capabilities, researchers can significantly accelerate and improve various stages of their workflow, from the often time-consuming task of cleaning transcribed interviews to the more nuanced analytical processes like Jobs-to-Be-Done (JTBD) analysis and survey design.  This is particularly relevant for UX teams facing high research demands, as it promises to free up valuable researcher time for deeper strategic thinking and ideation, ultimately leading to faster and more impactful product improvements.",
-      "category": "Interview analysis",
-      "source": {
-        "name": "Great Question Blog",
-        "url": "https://cms.greatquestion.co/blog/claude-skills-ux-research-assistant"
-      },
-      "analysis": "At Nubank, these Claude skills can be integrated into our existing research processes, particularly during the analysis phase for customer feedback on products like our credit card activation flow or the PIX transaction experience. Researchers can use Claude for rapid synthesis of user interview transcripts, identifying recurring pain points or unmet needs in areas such as personal loans or insurance onboarding. This can dramatically reduce the time spent on manual transcription cleanup and initial thematic coding.\n\nWhen applying these skills, researchers should treat Claude's outputs as a first draft or an assistant's report, not the final word. It's crucial to maintain a human-in-the-loop approach. For instance, after Claude helps identify potential JTBDs for a new feature in the NuConta app, a researcher must still validate and refine these hypotheses through further qualitative or quantitative methods.  Guardrails include ensuring data privacy by not inputting sensitive PII directly into the AI and recognizing that AI may struggle with highly nuanced cultural contexts or highly specific Brazilian financial regulations, requiring human oversight and domain expertise for accurate interpretation."
     }
   ]
 }
