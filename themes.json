@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 46,
-      "description": "This theme covers AI agents actively performing research tasks, making decisions, and interacting with information systems."
+      "count": 68,
+      "description": "Focuses on AI agents that can autonomously perform research tasks, interact with systems, and generate insights."
     },
     {
       "name": "AI coding assistants",
-      "count": 35,
-      "description": "This theme focuses on AI tools that help developers write, review, and debug code."
+      "count": 38,
+      "description": "Covers AI tools designed to help developers write, debug, and understand code."
     },
     {
       "name": "AI research tools",
-      "count": 34,
-      "description": "This theme includes AI platforms and tools specifically designed to assist with research processes."
+      "count": 37,
+      "description": "Explores AI-powered platforms and tools specifically designed to facilitate research processes."
     },
     {
       "name": "AI workforce impact",
-      "count": 28,
-      "description": "This theme discusses how AI is affecting jobs, employment, and the skills required in the workforce."
-    },
-    {
-      "name": "AI testing automation",
-      "count": 21,
-      "description": "This theme covers AI applications used to automate software testing processes and improve QA efficiency."
-    },
-    {
-      "name": "AI summarization",
-      "count": 17,
-      "description": "This theme focuses on AI tools that condense large amounts of text or data into concise summaries."
+      "count": 33,
+      "description": "Discusses the effects of AI on jobs, employment, and the future of work, including potential job displacement and creation."
     },
     {
       "name": "Synthetic users",
+      "count": 27,
+      "description": "Concerns AI-generated or simulated users for testing, research, or content creation."
+    },
+    {
+      "name": "AI usability testing",
       "count": 17,
-      "description": "This theme deals with AI-generated personas or simulated user data for testing and research purposes."
+      "description": "Focuses on AI applications for evaluating the usability of products and systems."
     },
     {
-      "name": "AI chatbot research",
+      "name": "AI summarization",
       "count": 16,
-      "description": "This theme explores research and findings related to the development, behavior, and impact of AI chatbots."
+      "description": "Covers AI tools that condense large amounts of text into concise summaries."
     },
     {
-      "name": "AI customer insights",
-      "count": 16,
-      "description": "This theme covers AI applications used to gather, analyze, and derive insights from customer data and interactions."
+      "name": "AI survey tools",
+      "count": 15,
+      "description": "Explores AI-powered tools for creating, distributing, and analyzing surveys."
     },
     {
-      "name": "AI research tools comparison",
-      "count": 10,
-      "description": "This theme analyzes and compares the performance and effectiveness of different AI research tools."
+      "name": "AI design research",
+      "count": 14,
+      "description": "Investigates the intersection of AI and design, focusing on how AI influences the design process and outcomes."
+    },
+    {
+      "name": "AI content generation",
+      "count": 13,
+      "description": "Deals with AI systems that create various forms of content, such as text, images, or code."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
