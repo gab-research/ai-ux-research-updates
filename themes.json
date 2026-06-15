@@ -1,56 +1,56 @@
 {
   "month": "2026-06",
-  "updated": "2026-06-14",
+  "updated": "2026-06-15",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 132,
-      "description": "Focuses on AI agents that can perform research tasks autonomously, often involving complex workflows and interactions."
-    },
-    {
-      "name": "AI coding assistants",
-      "count": 78,
-      "description": "Covers AI tools and research that assist developers in writing, debugging, and optimizing code."
+      "count": 59,
+      "description": "Focuses on AI agents that can independently perform research tasks, autonomously explore data, and drive research processes."
     },
     {
       "name": "AI research tools",
-      "count": 67,
-      "description": "Articles discussing AI applications and platforms specifically designed to aid in various research processes."
+      "count": 47,
+      "description": "Covers articles discussing specific AI-powered tools and platforms designed to assist in various research activities."
+    },
+    {
+      "name": "AI coding assistants",
+      "count": 45,
+      "description": "Explores AI tools that help developers write, debug, and optimize code, often integrated into development workflows."
     },
     {
       "name": "AI summarization",
-      "count": 55,
-      "description": "Content related to AI's ability to condense large amounts of text or data into concise summaries and insights."
-    },
-    {
-      "name": "AI summarization insights",
-      "count": 53,
-      "description": "Focuses on AI-generated summaries that provide actionable insights for business and product decisions."
-    },
-    {
-      "name": "Synthetic users",
-      "count": 33,
-      "description": "Explores the creation and use of artificial users or data for testing, research, or simulation purposes."
+      "count": 39,
+      "description": "Features articles on AI capabilities for condensing large volumes of text or data into concise summaries."
     },
     {
       "name": "AI workforce impact",
-      "count": 24,
-      "description": "Articles examining how AI influences jobs, employment, and the skills required in the modern workforce."
+      "count": 34,
+      "description": "Discusses the effects of AI on jobs, employment, and the future of work, including research on displacement and new roles."
     },
     {
-      "name": "AI customer insights",
-      "count": 23,
-      "description": "Covers how AI is used to extract valuable information and understanding from customer data and interactions."
+      "name": "AI research tools comparison",
+      "count": 16,
+      "description": "Articles that compare the performance, features, and effectiveness of different AI tools for research purposes."
     },
     {
-      "name": "AI chatbot research",
-      "count": 22,
-      "description": "Focuses on research into the behavior, impact, and effectiveness of AI-powered chatbots."
+      "name": "AI tool evaluation",
+      "count": 16,
+      "description": "Focuses on the assessment and critique of AI tools, examining their usability, effectiveness, and limitations."
     },
     {
-      "name": "AI design and research",
-      "count": 18,
-      "description": "Discusses the intersection of AI with design principles and user research methodologies."
+      "name": "Synthetic users",
+      "count": 16,
+      "description": "Covers the creation and use of artificial or simulated users for testing, research, or training AI systems."
+    },
+    {
+      "name": "AI research platform",
+      "count": 15,
+      "description": "Articles discussing comprehensive platforms designed to support and facilitate AI-driven research endeavors."
+    },
+    {
+      "name": "AI usability testing",
+      "count": 12,
+      "description": "Examines how AI is used to automate, enhance, or analyze usability testing processes for products and services."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
