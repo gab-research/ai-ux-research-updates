@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-06-15T14:31:50.259Z",
+  "lastUpdated": "2026-06-15T19:53:03.712Z",
   "updates": [
     {
       "date": "2026-06-15",
@@ -26,6 +26,18 @@
         "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260615"
       },
       "analysis": "At Nubank, these insights can significantly enrich our research practices. The concept of 'Sentient Design' encourages us to explore how AI-powered features can proactively understand and adapt to user needs within our app, moving beyond static interfaces. For instance, during the onboarding flow, AI could dynamically tailor educational content based on a user's initial engagement patterns. Similarly, for our loan application process, 'Sentient Design' might enable a more intuitive and personalized experience, offering contextual help or suggesting alternative product options based on real-time user behavior, rather than relying on pre-defined user journeys.\n\nWhen investigating Generation Alpha's future interaction with financial services, we should proactively adapt our persona development and research methodologies. Instead of extrapolating from Gen Z, dedicated research exploring their unique digital literacy and financial expectations will be crucial. This could involve future studies focused on how this generation might interact with features like PIX transfers or digital insurance products, ensuring our offerings remain relevant and intuitive for them as they mature. We must be mindful of the limitations of AI-generated content, such as auto-generated thumbnails, by always prioritizing human oversight and user testing to ensure accuracy, clarity, and ethical considerations, especially when dealing with sensitive financial information or complex product explanations."
+    },
+    {
+      "date": "2026-06-15",
+      "title": "What Is Mobile UI? Principles, Patterns, and Best Practices for Mobile App Design (2026)",
+      "summary": "Learn what mobile UI is, how it differs from mobile UX, and the 10 essential design principles for building effective mobile app interfaces. Covers platform guidelines, common patterns, AI-assisted prototyping, and screen sizes for 2026. The post What Is Mobile UI? Principles,...",
+      "content": "This UXPin Blog article delves into the core concepts of mobile UI design, clarifying its distinction from mobile UX and outlining crucial design principles for effective app interfaces. It emphasizes understanding platform-specific guidelines and prevalent design patterns, essential for creating intuitive user experiences. Notably, the article anticipates future trends by including AI-assisted prototyping and considerations for evolving screen sizes expected by 2026, offering valuable foresight for researchers aiming to design scalable and user-centric mobile solutions.",
+      "category": "General AI in research",
+      "source": {
+        "name": "UXPin Blog",
+        "url": "https://www.uxpin.com/studio/blog/what-is-mobile-ui/"
+      },
+      "analysis": "This article is highly relevant to our work at Nubank, particularly for research teams focused on mobile app development and iteration. The distinction between UI and UX helps us refine our research questions, ensuring we're not just evaluating aesthetics but the underlying usability and effectiveness of our interfaces. Understanding platform guidelines and common patterns will inform our heuristic evaluations and competitive analyses, allowing us to benchmark against best-in-class experiences and identify opportunities for improvement across Nubank's diverse product suite, from PIX transactions to loan applications.\n\nResearchers can apply these principles by integrating them into our usability testing protocols and design critique sessions. When evaluating new features or redesigns for onboarding, card activation, or insurance offerings, we should systematically assess adherence to these principles. The mention of AI-assisted prototyping is a key takeaway; we should proactively explore and pilot AI tools that can accelerate the creation of design variations for testing, thereby improving efficiency and potentially uncovering novel UI solutions that resonate with our Brazilian user base. However, we must maintain guardrails, ensuring AI-generated designs are rigorously validated through user research and align with Nubank's brand identity and accessibility standards, rather than relying solely on AI suggestions."
     },
     {
       "date": "2026-06-13",
@@ -773,7 +785,7 @@
     },
     {
       "date": "2026-05-19",
-      "title": "AI Engineering - All Things Product Podcast with Teresa Torres &amp; Petra Wille",
+      "title": "AI Engineering - All Things Product Podcast with Teresa Torres & Petra Wille",
       "summary": "Listen to this episode on: Spotify | Apple Podcasts What happens when a product leader accidentally becomes an AI engineer? In this episode, Teresa Torres shares how she went from occasional tinkerer to spending 60% of her time doing real engineering work — building AI-powered...",
       "content": "This \"All Things Product\" podcast episode features Teresa Torres, a product leader who has unexpectedly found herself deeply involved in AI engineering.  The core of the discussion likely revolves around her journey from a general product background to dedicating a significant portion of her time to building AI-powered features. This shift is highly relevant for UX researchers as it highlights the increasing integration of AI into product development cycles. Understanding how product leaders are navigating and implementing AI can inform how UX researchers can best collaborate with engineering teams and proactively identify opportunities to leverage AI for enhanced user experiences, potentially impacting areas like personalized financial advice or fraud detection in real-time transactions.",
       "category": "AI for product management",
