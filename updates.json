@@ -1,8 +1,56 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-06-17T12:23:10.942Z",
+  "lastUpdated": "2026-06-17T18:27:54.019Z",
   "updates": [
+    {
+      "date": "2026-06-17",
+      "title": "Interaction Design (IxD): Principles, Process & Checklist — The Complete Guide (2026)",
+      "summary": "What is interaction design? This complete guide covers IxD principles from Don Norman, the difference between interaction design and UX/UI, a practical checklist, career guidance, and AI-era workflows for interaction designers in 2026. The post Interaction Design (IxD): Princi...",
+      "content": "What is interaction design? This complete guide covers IxD principles from Don Norman, the difference between interaction design and UX/UI, a practical checklist, career guidance, and AI-era workflows for interaction designers in 2026. The post Interaction Design (IxD): Principles, Process & Checklist — The Complete Guide (2026) appeared first on Studio by UXPin.",
+      "category": "AI research tools",
+      "source": {
+        "name": "UXPin Blog",
+        "url": "https://www.uxpin.com/studio/blog/interaction-design-its-origin-and-principles/"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-06-17",
+      "title": "WCAG 2.1.1 Keyboard Accessibility: Requirements, Testing & Implementation Guide (2026)",
+      "summary": "Everything you need to know about WCAG 2.1.1 keyboard accessibility — core requirements, focus state design, HTML and ARIA best practices, manual and automated testing methods, and how to build accessible prototypes. Updated for 2026. The post WCAG 2.1.1 Keyboard Accessibility...",
+      "content": "Everything you need to know about WCAG 2.1.1 keyboard accessibility — core requirements, focus state design, HTML and ARIA best practices, manual and automated testing methods, and how to build accessible prototypes. Updated for 2026. The post WCAG 2.1.1 Keyboard Accessibility: Requirements, Testing & Implementation Guide (2026) appeared first on Studio by UXPin.",
+      "category": "General AI in research",
+      "source": {
+        "name": "UXPin Blog",
+        "url": "https://www.uxpin.com/studio/blog/wcag-211-keyboard-accessibility-explained/"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-06-17",
+      "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
+      "summary": "Research in “Nature” shows our conversational AI system matches primary care physicians in complex disease management.",
+      "content": "Google's recent research, published in \"Nature,\" highlights the capabilities of AMIE, a conversational AI designed for medical use. This AI system demonstrates an ability to manage complex health conditions on par with human primary care physicians. For UX researchers, this signifies a leap in AI's potential to understand and interact with users in highly sensitive and knowledge-intensive domains.  The practical implication is that AI-driven conversational agents can now be considered for more sophisticated user support, information retrieval, and even personalized guidance in areas that require deep contextual understanding and empathy, moving beyond simple task completion.",
+      "category": "Conversational AI in research",
+      "source": {
+        "name": "Google AI Blog",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/"
+      },
+      "analysis": "At Nubank, AMIE's capabilities can inform how we leverage AI for more nuanced customer support and personalized financial health guidance. Imagine an AI assistant that, post-loan approval or during the onboarding process, can proactively identify potential financial stressors based on user behavior and offer tailored advice or resources, much like AMIE manages health conditions. This extends beyond basic FAQs; it's about predictive and supportive engagement. Researchers should explore how to design conversational AI interfaces that mimic this empathetic and informed approach for sensitive financial discussions, like explaining complex insurance policies or managing debt concerns related to PIX transactions.\n\nWhen integrating such AI, a crucial guardrail is ensuring data privacy and security, especially given the sensitive nature of financial information. We must also consider the ethical implications of AI providing financial advice, ensuring it doesn't overstep into regulated financial advisory roles without proper human oversight. Researchers should prioritize rigorous testing to ensure the AI's 'understanding' is accurate and unbiased, preventing potential misinterpretations that could negatively impact a customer's financial well-being. The focus should remain on augmenting human support and empowering customers, not replacing critical human judgment or regulatory compliance."
+    },
+    {
+      "date": "2026-06-17",
+      "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
+      "summary": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
+      "content": "This OpenAI blog post details how a sophisticated AI, reportedly a precursor to GPT-5.4, successfully optimized a complex chemical reaction crucial for drug discovery.  The AI acted with a high degree of autonomy, demonstrating the potential for AI to independently perform intricate experimental tasks. For UX researchers, this signifies a future where AI can accelerate the understanding of complex domains, much like medicinal chemistry, which might indirectly inform the design of financial products by uncovering novel solutions or understanding user needs more deeply.  Practically, this could lead to faster prototyping and iterative development cycles across various industries, including financial services, by automating some of the more labor-intensive analytical processes.",
+      "category": "Agentic AI in research",
+      "source": {
+        "name": "OpenAI Blog",
+        "url": "https://openai.com/index/ai-chemist-improves-reaction"
+      },
+      "analysis": "At Nubank, this development presents an opportunity to leverage AI for accelerated understanding in complex user journey analysis. For instance, when researching pain points in the PIX transfer flow or optimizing the onboarding process for new customers, an AI chemist-like system could process vast amounts of qualitative data (e.g., user interview transcripts, support chat logs) to identify subtle patterns and underlying causal relationships that might be missed by human researchers. This AI could assist in hypothesizing about why users struggle with credit card activation or abandonment during loan applications, much like the AI identified improvements in a chemical reaction. Researchers should experiment with AI summarization and thematic analysis tools, feeding them anonymized user feedback to generate initial hypotheses, identify emergent themes, and even propose potential design interventions.\n\nHowever, it's crucial to implement guardrails. The AI's output should always be treated as a powerful assistant, not a definitive answer. Human researchers must validate AI-generated insights through traditional qualitative methods and quantitative data. We must ensure strict adherence to data privacy and anonymization protocols, especially when dealing with sensitive financial data related to loans, insurance, or PIX transactions. The AI should augment, not replace, human empathy and critical thinking. Its limitations lie in understanding nuanced emotional responses and the socio-economic context that heavily influences financial decisions, which remain the domain of skilled UX researchers."
+    },
     {
       "date": "2026-06-16",
       "title": "Designing With Uncertainty: How AI Supercharges Probabilistic Thinking",
