@@ -3,54 +3,54 @@
   "updated": "2026-06-18",
   "themes": [
     {
-      "name": "Agentic AI in research",
-      "count": 51,
-      "description": "Articles discussing AI agents capable of independent action and research tasks, including autonomous agents and agentic workflows."
+      "name": "AI coding assistants",
+      "count": 67,
+      "description": "Focuses on AI tools and research that assist developers in writing, debugging, and understanding code."
     },
     {
-      "name": "AI coding assistants",
-      "count": 39,
-      "description": "Content focused on AI tools that assist developers in writing, debugging, and understanding code, including AI code generation and analysis."
+      "name": "Agentic AI research",
+      "count": 63,
+      "description": "Covers AI agents designed to perform complex research tasks autonomously, including planning and execution."
     },
     {
       "name": "AI research tools",
-      "count": 26,
-      "description": "Articles detailing AI platforms and tools specifically designed to aid in research processes, from data collection to analysis."
+      "count": 47,
+      "description": "Highlights platforms and tools specifically built to aid researchers in data gathering, analysis, and discovery."
     },
     {
       "name": "AI summarization",
-      "count": 20,
-      "description": "Content related to AI's ability to condense large amounts of text or data into concise summaries, saving time and effort."
+      "count": 30,
+      "description": "Articles detailing AI capabilities for condensing large amounts of text into concise summaries."
+    },
+    {
+      "name": "AI sentiment feedback",
+      "count": 24,
+      "description": "Explores the use of AI to analyze and understand user emotions, opinions, and feedback."
+    },
+    {
+      "name": "AI research tools comparison",
+      "count": 22,
+      "description": "Articles comparing the performance, features, and effectiveness of different AI tools for research purposes."
     },
     {
       "name": "AI workforce impact",
+      "count": 20,
+      "description": "Examines how AI influences job roles, skill requirements, and the overall labor market."
+    },
+    {
+      "name": "AI recruitment research",
       "count": 17,
-      "description": "Articles examining how AI is affecting employment, job roles, skills, and the overall workforce, including potential job displacement and creation."
+      "description": "Focuses on AI applications and studies related to the hiring process, job market, and workforce development."
     },
     {
       "name": "AI chatbot research",
       "count": 16,
-      "description": "Content focusing on research and user interactions related to AI chatbots, their capabilities, limitations, and impact on users."
-    },
-    {
-      "name": "AI design and research",
-      "count": 15,
-      "description": "Articles exploring the intersection of AI in the design process and user research, including AI-assisted design tools and methodologies."
+      "description": "Investigates the development, behavior, and user interaction with AI-powered chatbots."
     },
     {
       "name": "AI tool evaluation",
       "count": 15,
-      "description": "Discussions comparing and evaluating different AI tools and platforms, often in the context of specific use cases or market segments."
-    },
-    {
-      "name": "AI content generation",
-      "count": 14,
-      "description": "Articles about AI's ability to create various forms of content, such as text, images, and code."
-    },
-    {
-      "name": "AI recruitment research",
-      "count": 14,
-      "description": "Content specifically addressing AI's role in recruitment processes, including AI's impact on job markets, candidate selection, and applicant experiences."
+      "description": "Articles discussing methods and findings for assessing the quality and utility of AI tools."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
