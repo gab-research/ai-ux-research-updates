@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-06-20T10:38:02.972Z",
+  "lastUpdated": "2026-06-20T17:45:07.953Z",
   "updates": [
     {
       "date": "2026-06-17",
@@ -794,42 +794,6 @@
         "url": "https://www.uxpin.com/studio/blog/ai-personas/"
       },
       "analysis": "At Nubank, AI-powered persona generation can be integrated into our research workflow to accelerate the initial stages of understanding user needs, particularly for new feature development or when exploring underserved segments within our customer base. For instance, after conducting initial qualitative interviews or analyzing feedback on features like PIX transactions or loan applications, researchers can leverage LLMs to synthesize this data into draft personas. This would complement our existing processes for card activation or onboarding flows by providing a richer understanding of the 'why' behind user behaviors, moving beyond surface-level analytics.\n\nWhen applying this at Nubank, researchers should treat AI-generated personas as robust starting points, not final artifacts. The output from tools like Gemini or Claude should be rigorously validated through further qualitative research and A/B testing, especially before influencing critical product decisions related to new insurance products or credit limit adjustments. It's crucial to ensure that the LLM's training data doesn't introduce biases that could misrepresent our diverse Brazilian customer base. Therefore, human oversight and critical evaluation remain paramount to maintain the accuracy and ethical integrity of our personas."
-    },
-    {
-      "date": "2026-05-21",
-      "title": "Design Changing from Artifact-Production to Intent-Shaping",
-      "summary": "AI is not merely making designers faster at producing screens, prototypes, and research summaries. It is changing the object of design itself. The UX profession’s most valuable contribution stops being UI production and becomes the design of intent itself: defining what good m...",
-      "content": "AI is not merely making designers faster at producing screens, prototypes, and research summaries. It is changing the object of design itself. The UX profession’s most valuable contribution stops being UI production and becomes the design of intent itself: defining what good means, encoding judgment into live systems, setting boundaries for agentic behavior, maintaining coherence across many parallel outputs, and preserving human purpose when software starts to act.",
-      "category": "AI for design & research",
-      "source": {
-        "name": "Jakob Nielsen (Substack)",
-        "url": "https://jakobnielsenphd.substack.com/p/artifact-to-intent"
-      },
-      "analysis": "At Nubank, this \"intent-shaping\" paradigm means our UX research efforts must pivot beyond just evaluating existing flows like PIX transfers or credit card activation. Instead, we should proactively identify moments where user intent is unclear or could be optimized. For instance, during onboarding, researchers could leverage AI-assisted analysis of early user interactions to predict potential intent shifts or areas of confusion, allowing us to refine the system's guidance. Similarly, in loan application processes, understanding the user's underlying financial goals, not just their stated needs, can inform how AI-powered nudges or personalized recommendations are designed to better serve them."
-    },
-    {
-      "date": "2026-05-21",
-      "title": "MagenticLite, MagenticBrain, Fara1.5: An agentic experience optimized for small models",
-      "summary": "MagenticLite is an agentic system for small models that works across the browser and local file system in a single workflow. It combines specialized models and orchestration to support efficient agentic performance on everyday tasks. The post MagenticLite, MagenticBrain, Fara1...",
-      "content": "MagenticLite is an agentic system for small models that works across the browser and local file system in a single workflow. It combines specialized models and orchestration to support efficient agentic performance on everyday tasks. The post MagenticLite, MagenticBrain, Fara1.5: An agentic experience optimized for small models appeared first on Microsoft Research.",
-      "category": "Survey optimization",
-      "source": {
-        "name": "Microsoft Research",
-        "url": "https://www.microsoft.com/en-us/research/blog/magenticlite-magenticbrain-fara1-5-an-agentic-experience-optimized-for-small-models/"
-      },
-      "analysis": "At Nubank, MagenticLite's core concept of agentic systems for small models can be integrated into our research workflow for rapid data synthesis. For example, researchers could deploy a MagenticLite-like system to automatically analyze large volumes of user feedback from our app stores or customer support tickets related to loan applications or card activation. This would allow for quicker identification of common pain points and emerging trends.  Furthermore, this technology could assist in generating initial hypotheses for A/B testing onboarding flows or insurance policy comparisons by processing anonymized user session data.\n\nWhen applying this at Nubank, researchers should focus on using these systems for tasks that benefit from efficient information retrieval and summarization, rather than for generative tasks that require high levels of nuance or creativity, such as crafting marketing copy for new features.  Guardrails are crucial: ensure all data processed is anonymized and compliant with our privacy policies, especially when analyzing sensitive information related to PIX transactions or personal loan applications.  Furthermore, always critically review the outputs generated by these agents, as small models may still exhibit biases or inaccuracies.  The focus should be on augmenting researcher capabilities, not replacing human judgment and qualitative depth, especially when understanding complex user journeys for products like our credit cards."
-    },
-    {
-      "date": "2026-05-21",
-      "title": "Vega: Zero-knowledge proofs for digital identity in the age of AI",
-      "summary": "Vega turns a full credential into a single proof, sharing only what is needed and nothing more, with performance that works in real apps. The post Vega: Zero-knowledge proofs for digital identity in the age of AI appeared first on Microsoft Research.",
-      "content": "This Microsoft Research article introduces Vega, a system leveraging zero-knowledge proofs to revolutionize digital identity management.  Vega enables the creation of a single, verifiable proof from a complex set of credentials, allowing users to selectively disclose only the necessary information. This is crucial for UX researchers as it directly impacts user privacy and trust, especially in sensitive financial applications.  The practical implication is the potential for more secure and user-centric onboarding, authentication, and data sharing experiences, reducing friction while enhancing data protection within digital banking platforms.",
-      "category": "Survey optimization",
-      "source": {
-        "name": "Microsoft Research",
-        "url": "https://www.microsoft.com/en-us/research/blog/vega-zero-knowledge-proofs-for-digital-identity-in-the-age-of-ai/"
-      },
-      "analysis": "At Nubank, Vega's concept of selective disclosure of verified information can be integrated into our research for identity verification and secure data handling. For instance, during user research on onboarding flows, we can explore how offering Vega-powered verification might increase trust by assuring users that only essential identity components (like age verification for a loan application, or proof of residency for insurance) are shared, not their entire digital footprint. This could reduce drop-off rates and alleviate user concerns about data privacy.\n\nResearchers should consider using Vega in qualitative studies to gauge user perception of this advanced privacy technology. We could prototype a scenario where a user applying for a PIX limit increase or activating a new credit card only needs to prove their eligibility without revealing extraneous personal data. It's vital to research the mental models users develop around zero-knowledge proofs and ensure our interfaces clearly communicate the benefits and limitations, avoiding over-promising or creating new points of confusion.  Guardrails will include rigorous testing to ensure the cryptographic integrity of Vega proofs and clear communication to users about what data is being verified and why, especially when dealing with sensitive financial products like loans or credit applications."
     }
   ]
 }
