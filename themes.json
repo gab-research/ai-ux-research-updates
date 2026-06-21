@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 68,
-      "description": "Focuses on AI agents that can autonomously perform research tasks, interact with systems, and make decisions within a research context."
+      "count": 65,
+      "description": "Articles discussing AI agents that can perform research tasks autonomously, from data collection to analysis."
     },
     {
       "name": "AI coding assistants",
-      "count": 55,
-      "description": "Covers AI tools that assist developers in writing, debugging, and refactoring code, often integrating with IDEs and version control systems."
+      "count": 59,
+      "description": "Content focused on AI tools that help developers write, debug, and understand code."
     },
     {
       "name": "AI research tools",
-      "count": 52,
-      "description": "Highlights AI-powered platforms and applications specifically designed to aid researchers in tasks like literature review, data analysis, and hypothesis generation."
+      "count": 50,
+      "description": "Articles detailing specific AI tools and platforms designed to aid researchers in various stages of their work."
     },
     {
       "name": "AI summarization",
-      "count": 42,
-      "description": "Encompasses AI applications that condense large volumes of text or data into shorter, digestible summaries for quicker understanding."
+      "count": 43,
+      "description": "Focuses on AI applications that condense large amounts of text, such as research papers, interviews, or articles, into concise summaries."
     },
     {
-      "name": "AI-assisted recruitment",
-      "count": 33,
-      "description": "Details AI tools and processes used in the hiring pipeline, from candidate sourcing and screening to interview analysis and job matching."
+      "name": "AI recruitment research",
+      "count": 34,
+      "description": "Content related to AI's impact on job markets, hiring processes, and the skills required for future employment."
     },
     {
-      "name": "AI workforce impact",
-      "count": 32,
-      "description": "Examines how AI is affecting jobs, skills, and employment trends, including AI's role in job displacement and the creation of new roles."
+      "name": "AI personalization",
+      "count": 16,
+      "description": "Articles exploring how AI is used to tailor experiences, recommendations, or content for individual users."
+    },
+    {
+      "name": "AI for design & research",
+      "count": 15,
+      "description": "Covers AI applications that directly assist designers and researchers in their creative and analytical processes."
+    },
+    {
+      "name": "AI testing automation",
+      "count": 14,
+      "description": "Discussions on using AI to automate software testing, quality assurance, and validation processes."
+    },
+    {
+      "name": "AI summarization insights",
+      "count": 13,
+      "description": "Content that goes beyond simple summarization to extract actionable insights from summarized information."
     },
     {
       "name": "AI research tools comparison",
-      "count": 28,
-      "description": "Articles comparing the effectiveness, features, and performance of different AI tools for research purposes."
-    },
-    {
-      "name": "AI sentiment feedback",
-      "count": 25,
-      "description": "Focuses on AI's ability to analyze and interpret user feedback, reviews, and social media comments to gauge sentiment."
-    },
-    {
-      "name": "AI for product management",
-      "count": 24,
-      "description": "Covers how AI is being integrated into product development workflows, from ideation and feature prioritization to release management."
-    },
-    {
-      "name": "AI chatbot research",
-      "count": 23,
-      "description": "Articles specifically discussing the use, impact, and perception of AI chatbots in various research and user interaction contexts."
+      "count": 12,
+      "description": "Articles that compare and contrast different AI tools for research purposes."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
