@@ -1,56 +1,56 @@
 {
   "month": "2026-06",
-  "updated": "2026-06-21",
+  "updated": "2026-06-22",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 54,
-      "description": "Articles discussing AI agents that can autonomously perform research tasks or assist researchers in complex research workflows."
-    },
-    {
-      "name": "AI summarization",
-      "count": 46,
-      "description": "Content focused on AI's ability to condense large amounts of information into concise summaries for research and analysis."
+      "count": 177,
+      "description": "This theme covers AI agents actively performing research tasks, such as autonomous data gathering, analysis, and interaction with research tools."
     },
     {
       "name": "AI coding assistants",
-      "count": 33,
-      "description": "Focuses on AI tools that assist developers in writing, debugging, and optimizing code."
+      "count": 73,
+      "description": "This theme focuses on AI tools that assist developers in writing, debugging, and optimizing code."
     },
     {
       "name": "AI research tools",
-      "count": 32,
-      "description": "Articles detailing specific AI-powered platforms, software, or methodologies used to conduct research."
+      "count": 65,
+      "description": "This theme encompasses a broad range of AI-powered platforms and applications designed to aid in various research activities."
     },
     {
-      "name": "AI recruitment research",
-      "count": 31,
-      "description": "Content related to AI's impact on job markets, workforce, and the research into AI's role in employment."
-    },
-    {
-      "name": "AI tool evaluation",
-      "count": 28,
-      "description": "Articles that compare, review, or evaluate the performance and utility of various AI tools."
+      "name": "AI summarization",
+      "count": 39,
+      "description": "This theme covers AI applications that condense long texts, articles, or conversations into concise summaries."
     },
     {
       "name": "AI research tools comparison",
-      "count": 26,
-      "description": "Direct comparisons between different AI tools or models for research purposes."
+      "count": 29,
+      "description": "This theme includes articles that compare the features, performance, or effectiveness of different AI research tools."
     },
     {
-      "name": "AI workforce impact",
-      "count": 23,
-      "description": "Discussions on how AI is changing jobs, skills, and the overall labor market."
+      "name": "Synthetic users",
+      "count": 24,
+      "description": "This theme addresses the creation and use of artificial or simulated users for testing and research purposes."
     },
     {
-      "name": "AI ethics in research",
-      "count": 22,
-      "description": "Content addressing the ethical considerations, biases, and responsible use of AI in research and product development."
+      "name": "AI chatbot research",
+      "count": 21,
+      "description": "This theme focuses on research and studies specifically about the use, impact, and behavior of AI chatbots."
+    },
+    {
+      "name": "AI customer insights",
+      "count": 19,
+      "description": "This theme covers AI applications and research focused on understanding customer behavior, preferences, and feedback."
+    },
+    {
+      "name": "AI design research",
+      "count": 14,
+      "description": "This theme explores how AI is used in the design process, including user experience research and generative design."
     },
     {
       "name": "AI research platform",
-      "count": 21,
-      "description": "Focuses on AI platforms designed specifically to facilitate or host research activities."
+      "count": 11,
+      "description": "This theme includes platforms specifically built to facilitate AI research, development, or data management."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."

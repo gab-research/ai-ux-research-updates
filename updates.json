@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-06-21T17:45:41.908Z",
+  "lastUpdated": "2026-06-22T05:15:10.077Z",
   "updates": [
+    {
+      "date": "2026-06-22",
+      "title": "Best research repository for research ops teams 2026",
+      "summary": "The best AI research repositories for research ops in 2026, scored on governance, stakeholder access, AI search and MCP. ServiceNow went from 15 tools to 7.",
+      "content": "This article from Great Question Blog highlights the burgeoning role of AI in research operations, specifically within research repositories.  It identifies top-tier AI-powered platforms designed for research ops teams in 2026, evaluating them on crucial criteria like governance, ease of stakeholder access, and advanced AI search capabilities. The example of ServiceNow consolidating tools illustrates a growing trend towards integrated, intelligent solutions that streamline research processes. For UX researchers at Nubank, this signifies a future where accessing and synthesizing past research will be significantly more efficient, enabling faster iteration and more informed design decisions across products like PIX and our loan applications.",
+      "category": "AI research tools",
+      "source": {
+        "name": "Great Question Blog",
+        "url": "https://cms.greatquestion.co/blog/best-research-repository-research-ops-2026"
+      },
+      "analysis": "At Nubank, this article directly informs our strategy for improving research discoverability and impact. Our research workflow, from initial hypothesis generation for features like card activation or insurance products to post-launch analysis, can benefit immensely from an AI-powered repository. Researchers should leverage these tools to quickly surface relevant past studies, identify knowledge gaps, and avoid redundant work, particularly when designing complex user flows such as onboarding for new customers.  The goal is to democratize research insights, making them readily accessible to designers, product managers, and engineers.\n\nWe need to establish clear governance and ethical guidelines for AI usage within these repositories to ensure data privacy and mitigate potential biases. While AI search can drastically improve efficiency, researchers must still exercise critical judgment, cross-referencing AI-generated summaries with original research findings. Limitations might include the AI's current understanding of nuanced Brazilian cultural contexts or specific regional product nuances, requiring human oversight to ensure accuracy and relevance for all Nubank users, whether they're using PIX for daily transactions or seeking a personal loan."
+    },
     {
       "date": "2026-06-17",
       "title": "Interaction Design (IxD): Principles, Process & Checklist — The Complete Guide (2026)",
@@ -770,18 +782,6 @@
         "url": "https://www.uxpin.com/studio/blog/build-ux-claude-opus-4-5-ant-design-uxpin-merge/"
       },
       "analysis": "At Nubank, this methodology could significantly streamline our prototyping and handoff processes, particularly for features undergoing rapid development or iteration, like PIX transactions or new insurance product flows. Researchers could use Claude Opus 4.5 prompts to generate initial wireframes or user flow diagrams based on defined requirements, then utilize UXPin Merge to populate these with Ant Design components that align with our existing design system. This would allow for faster creation of interactive prototypes for usability testing, for example, in refining the onboarding experience for new customers or testing new features for our loan application process. The output would be more production-ready, reducing friction in the handoff to development teams.\n\nResearchers should consider this as an augmentation tool, not a replacement for core research activities. While AI can generate initial structures and components, it's crucial to apply critical UX thinking to validate the AI-generated designs with users. Guardrails should include ensuring the generated components and flows strictly adhere to Nubank's established design language and accessibility standards. We must also be mindful of the AI's limitations; it may not grasp nuanced user behaviors or complex contextual requirements without significant prompting and iterative refinement. The focus should remain on using this to accelerate the *creation* of testable artifacts, not to bypass user research itself. For instance, when prototyping card activation flows, the AI could generate the sequence of screens, but the researcher's role is to ensure the clarity of instructions and the ease of navigation through user testing."
-    },
-    {
-      "date": "2026-05-23",
-      "title": "How to build UX using Claude Opus 4.5 + shadcn/ui  –  Use UXPin Merge!",
-      "summary": "Plan UX with AI and prototype using code-backed components for consistent, accessible interfaces and faster design-to-development handoffs. The post How to build UX using Claude Opus 4.5 + shadcn/ui – Use UXPin Merge! appeared first on Studio by UXPin.",
-      "content": "This article explores a novel approach to UX development by integrating advanced AI, specifically Claude Opus 4.5, with a component library like shadcn/ui, facilitated by UXPin Merge. The core idea is to leverage AI for the ideation and planning phases of UX, generating design concepts and user flows that are then translated into functional prototypes using pre-built, code-backed components. This methodology aims to significantly accelerate the design-to-development handoff by ensuring consistency, accessibility, and adherence to established design systems. For UX researchers, this presents an opportunity to expedite the prototyping process, allowing for quicker validation of AI-generated ideas and more efficient iteration cycles.",
-      "category": "AI coding assistants",
-      "source": {
-        "name": "UXPin Blog",
-        "url": "https://www.uxpin.com/studio/blog/build-ux-claude-opus-4-5-shadcn-ui-uxpin-merge/"
-      },
-      "analysis": "At Nubank, this approach could be integrated into our early-stage research for new product development or feature enhancements, for example, when exploring improvements to the PIX transfer experience or designing new insurance product onboarding flows. Researchers could use Claude Opus 4.5 to generate initial user journey maps, persona insights, or even low-fidelity wireframe concepts based on defined problem statements. These AI-generated outputs can then be quickly brought to life in UXPin, using our existing shadcn/ui components, enabling rapid prototyping and user testing of these concepts. This would dramatically reduce the time from hypothesis generation to user feedback, particularly useful when iterating on complex flows like loan applications or card activation.\n\nResearchers should be trained to critically evaluate AI-generated outputs, using them as a starting point rather than a final solution. It's crucial to remember that AI might not fully grasp the nuanced cultural context of the Brazilian market or the specific emotional drivers behind user behavior in financial services. Therefore, human oversight, domain expertise, and direct user validation remain paramount. Limitations include potential AI biases and the need for clear, concise prompts to elicit relevant and actionable design ideas, ensuring the AI outputs align with Nubank's brand identity and accessibility standards."
     }
   ]
 }
