@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-06-23T04:11:02.792Z",
+  "lastUpdated": "2026-06-23T11:25:48.904Z",
   "updates": [
     {
       "date": "2026-06-23",
@@ -14,6 +14,30 @@
         "url": "https://cms.greatquestion.co/blog/best-user-research-tools-in-2026-10-platforms-compared"
       },
       "analysis": "This resource is highly valuable for Nubank's UX research team as it directly informs our tool selection process, ensuring we leverage the most advanced and efficient platforms.  When evaluating new or existing tools, researchers should use this comparison as a starting point, prioritizing those with strong AI features that can augment our work. For instance, AI could help us analyze sentiment from feedback on our PIX transaction experience, identify pain points in loan application flows, or even predict user behavior during card activation.  The key is to integrate these AI-enhanced capabilities into our existing workflows, rather than seeing them as standalone solutions.  This could involve using AI to auto-tag open-ended feedback from onboarding surveys or to generate initial themes from user interviews about our insurance products.\n\nOur primary guardrail should be to maintain human oversight and critical thinking, especially when using AI for data analysis or participant screening. While AI can accelerate synthesis, it's essential for researchers to validate findings and ensure the nuances of user behavior and context are not lost.  We must also be mindful of data privacy and security when using third-party platforms with AI features.  Before adopting any new tool, a thorough vetting process, including a review of their AI ethics and data handling practices, is paramount to ensure compliance with Nubank's standards and Brazilian regulations."
+    },
+    {
+      "date": "2026-06-23",
+      "title": "How DesignOps roles are changing with new priorities",
+      "summary": "Design Vision Matters More than Ever, When AI is Integrating with Design Continue reading on UX Collective »",
+      "content": "Design Vision Matters More than Ever, When AI is Integrating with Design Continue reading on UX Collective »",
+      "category": "AI research tools",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/how-designops-roles-are-changing-with-new-priorities-c8db3a5bc1c3?source=rss----138adf9c44c---4"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-06-23",
+      "title": "Your banking app is lying to you",
+      "summary": "It shows you a balance. It doesn’t show you the future. Here’s what happens when AI starts telling the truth. Continue reading on UX Collective »",
+      "content": "It shows you a balance. It doesn’t show you the future. Here’s what happens when AI starts telling the truth. Continue reading on UX Collective »",
+      "category": "AI research tools",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/your-banking-app-is-lying-to-you-52959b075823?source=rss----138adf9c44c---4"
+      },
+      "analysis": ""
     },
     {
       "date": "2026-06-22",
