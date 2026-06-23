@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-06-22T19:36:52.612Z",
+  "lastUpdated": "2026-06-23T04:11:02.792Z",
   "updates": [
+    {
+      "date": "2026-06-23",
+      "title": "Best user research tools in 2026: 10 platforms compared",
+      "summary": "Side-by-side comparison of the top 10 user research platforms — features, pricing, AI capabilities, and who each is best for. Updated quarterly.",
+      "content": "This article from Great Question Blog provides a crucial updated overview of the top ten user research platforms available in 2026. By detailing features, pricing, and importantly, their AI capabilities, it empowers UX researchers to make informed decisions about their tooling.  Understanding which platforms leverage AI for tasks like participant screening, data synthesis, or sentiment analysis can significantly enhance research efficiency and the depth of insights.  This is vital for UX teams aiming to deliver faster, more impactful product improvements, especially in a rapidly evolving digital banking landscape.",
+      "category": "AI tool evaluation",
+      "source": {
+        "name": "Great Question Blog",
+        "url": "https://cms.greatquestion.co/blog/best-user-research-tools-in-2026-10-platforms-compared"
+      },
+      "analysis": "This resource is highly valuable for Nubank's UX research team as it directly informs our tool selection process, ensuring we leverage the most advanced and efficient platforms.  When evaluating new or existing tools, researchers should use this comparison as a starting point, prioritizing those with strong AI features that can augment our work. For instance, AI could help us analyze sentiment from feedback on our PIX transaction experience, identify pain points in loan application flows, or even predict user behavior during card activation.  The key is to integrate these AI-enhanced capabilities into our existing workflows, rather than seeing them as standalone solutions.  This could involve using AI to auto-tag open-ended feedback from onboarding surveys or to generate initial themes from user interviews about our insurance products.\n\nOur primary guardrail should be to maintain human oversight and critical thinking, especially when using AI for data analysis or participant screening. While AI can accelerate synthesis, it's essential for researchers to validate findings and ensure the nuances of user behavior and context are not lost.  We must also be mindful of data privacy and security when using third-party platforms with AI features.  Before adopting any new tool, a thorough vetting process, including a review of their AI ethics and data handling practices, is paramount to ensure compliance with Nubank's standards and Brazilian regulations."
+    },
     {
       "date": "2026-06-22",
       "title": "Best research repository for research ops teams 2026",
@@ -794,18 +806,6 @@
         "url": "https://cms.greatquestion.co/blog/what-ux-researchers-get-wrong-about-ai"
       },
       "analysis": "At Nubank, this article's insights are highly relevant to our ongoing exploration of AI tools for UX research, particularly as we scale our operations and aim for greater efficiency. Researchers should actively question AI-generated summaries of customer feedback on features like PIX transactions or loan applications, cross-referencing them with raw data and their own qualitative understanding.  AI can be a powerful assistant for tasks like initial sentiment analysis of onboarding feedback or identifying patterns in card activation issues, but the nuanced 'why' behind user behavior, especially in sensitive areas like insurance claims or credit decisions, will still require human empathy and critical thinking.\n\nTo apply this at Nubank, we should establish clear guidelines for AI tool usage, emphasizing a 'human-in-the-loop' approach. This means treating AI outputs as preliminary findings that demand validation through traditional research methods. For instance, while AI might flag common complaints about a new credit card feature, researchers must still conduct in-depth interviews to understand the context and emotional drivers behind those complaints. This iterative validation process will prevent us from making premature product decisions based on potentially oversimplified AI interpretations, ensuring our research remains robust and user-centered across all Nubank products."
-    },
-    {
-      "date": "2026-05-24",
-      "title": "How to build UX using Claude Opus 4.5 + Ant Design  –  Use UXPin Merge!",
-      "summary": "Use AI prompts, Ant Design components, and UXPin Merge to create production-ready, consistent UX prototypes and speed handoffs. The post How to build UX using Claude Opus 4.5 + Ant Design – Use UXPin Merge! appeared first on Studio by UXPin.",
-      "content": "This article explores an innovative approach to accelerating UX design and prototyping by integrating advanced AI, specifically Claude Opus 4.5, with the Ant Design component library within the UXPin Merge platform. The core idea is to leverage AI's generative capabilities to quickly create functional UI elements and prototype structures, which are then seamlessly integrated with pre-built, design-system-compliant components from Ant Design. For UX researchers, this means a potential paradigm shift, enabling faster iteration on user flows and more realistic, high-fidelity prototypes that can be directly handed off to development. This can significantly reduce the time spent on manual wireframing and basic prototyping, allowing researchers to focus more on user validation and strategic insights.",
-      "category": "AI research tools",
-      "source": {
-        "name": "UXPin Blog",
-        "url": "https://www.uxpin.com/studio/blog/build-ux-claude-opus-4-5-ant-design-uxpin-merge/"
-      },
-      "analysis": "At Nubank, this methodology could significantly streamline our prototyping and handoff processes, particularly for features undergoing rapid development or iteration, like PIX transactions or new insurance product flows. Researchers could use Claude Opus 4.5 prompts to generate initial wireframes or user flow diagrams based on defined requirements, then utilize UXPin Merge to populate these with Ant Design components that align with our existing design system. This would allow for faster creation of interactive prototypes for usability testing, for example, in refining the onboarding experience for new customers or testing new features for our loan application process. The output would be more production-ready, reducing friction in the handoff to development teams.\n\nResearchers should consider this as an augmentation tool, not a replacement for core research activities. While AI can generate initial structures and components, it's crucial to apply critical UX thinking to validate the AI-generated designs with users. Guardrails should include ensuring the generated components and flows strictly adhere to Nubank's established design language and accessibility standards. We must also be mindful of the AI's limitations; it may not grasp nuanced user behaviors or complex contextual requirements without significant prompting and iterative refinement. The focus should remain on using this to accelerate the *creation* of testable artifacts, not to bypass user research itself. For instance, when prototyping card activation flows, the AI could generate the sequence of screens, but the researcher's role is to ensure the clarity of instructions and the ease of navigation through user testing."
     }
   ]
 }
