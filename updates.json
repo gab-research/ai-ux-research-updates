@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-06-23T11:25:48.904Z",
+  "lastUpdated": "2026-06-23T18:06:15.957Z",
   "updates": [
     {
       "date": "2026-06-23",
@@ -36,6 +36,18 @@
       "source": {
         "name": "UX Collective (Medium)",
         "url": "https://uxdesign.cc/your-banking-app-is-lying-to-you-52959b075823?source=rss----138adf9c44c---4"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-06-23",
+      "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
+      "summary": "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.",
+      "content": "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.",
+      "category": "General AI in research",
+      "source": {
+        "name": "OpenAI Blog",
+        "url": "https://openai.com/index/gpt-5-immunology-mystery"
       },
       "analysis": ""
     },

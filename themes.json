@@ -4,13 +4,18 @@
   "themes": [
     {
       "name": "AI research tools",
-      "count": 108,
+      "count": 117,
       "description": "New AI tool launches, reviews, and platforms built for research workflows."
     },
     {
       "name": "Survey optimization",
-      "count": 100,
+      "count": 102,
       "description": "AI tools for designing better surveys, reducing bias, and analyzing responses."
+    },
+    {
+      "name": "Conversational AI in research",
+      "count": 65,
+      "description": "Chatbots, virtual assistants, and voice AI in research contexts."
     },
     {
       "name": "AI-powered data analysis",
@@ -18,19 +23,14 @@
       "description": "Automated data analysis, clustering, segmentation, and pattern detection."
     },
     {
-      "name": "Conversational AI in research",
-      "count": 56,
-      "description": "Chatbots, virtual assistants, and voice AI in research contexts."
+      "name": "AI coding assistants",
+      "count": 53,
+      "description": "Copilot, Claude Code, Cursor, and other AI tools for code generation and development."
     },
     {
       "name": "AI workforce impact",
-      "count": 49,
+      "count": 51,
       "description": "AI replacing roles, future of work, skills gap, reskilling, and organizational change."
-    },
-    {
-      "name": "AI coding assistants",
-      "count": 44,
-      "description": "Copilot, Claude Code, Cursor, and other AI tools for code generation and development."
     },
     {
       "name": "Agentic AI in research",
@@ -38,19 +38,19 @@
       "description": "Autonomous AI agents running research tasks, multi-agent frameworks, and orchestration."
     },
     {
-      "name": "AI ethics in research",
-      "count": 21,
-      "description": "Bias, fairness, responsible AI, privacy, and trust in research."
-    },
-    {
       "name": "AI for product management",
-      "count": 19,
+      "count": 22,
       "description": "AI in product decisions, discovery, prioritization, and roadmapping."
     },
     {
       "name": "AI tool evaluation",
-      "count": 18,
+      "count": 21,
       "description": "Comparing, benchmarking, and selecting AI tools and LLMs for specific use cases."
+    },
+    {
+      "name": "AI ethics in research",
+      "count": 20,
+      "description": "Bias, fairness, responsible AI, privacy, and trust in research."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
