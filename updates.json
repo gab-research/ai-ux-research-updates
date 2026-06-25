@@ -1,8 +1,32 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-06-25T04:14:45.398Z",
+  "lastUpdated": "2026-06-25T10:50:12.003Z",
   "updates": [
+    {
+      "date": "2026-06-25",
+      "title": "10 ways to make Claude think like a research partner (+ Free lesson sign-up)",
+      "summary": "The cheat codes I run before a study starts and before a readout I'm nervous about",
+      "content": "The cheat codes I run before a study starts and before a readout I'm nervous about",
+      "category": "AI coding assistants",
+      "source": {
+        "name": "Nikki Anderson (User Research Strategist)",
+        "url": "https://www.userresearchstrategist.com/p/10-ways-to-make-claude-think-like"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-06-25",
+      "title": "How agents are transforming work",
+      "summary": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
+      "content": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
+      "category": "Survey optimization",
+      "source": {
+        "name": "OpenAI Blog",
+        "url": "https://openai.com/index/how-agents-are-transforming-work"
+      },
+      "analysis": ""
+    },
     {
       "date": "2026-06-24",
       "title": "Talos: Scaling rare disease diagnosis with automated, iterative genomic reanalysis",
