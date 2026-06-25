@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-06-25T10:50:12.003Z",
+  "lastUpdated": "2026-06-25T18:20:25.471Z",
   "updates": [
     {
       "date": "2026-06-25",
@@ -24,6 +24,18 @@
       "source": {
         "name": "OpenAI Blog",
         "url": "https://openai.com/index/how-agents-are-transforming-work"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-06-25",
+      "title": "Understanding the brain with AI-driven explanations and experiments",
+      "summary": "Researchers introduce generative causal testing, which translates black box models into clear hypotheses and verifies them in the scanner, revealing what specific brain regions respond to in language. The post Understanding the brain with AI-driven explanations and experiments...",
+      "content": "Researchers introduce generative causal testing, which translates black box models into clear hypotheses and verifies them in the scanner, revealing what specific brain regions respond to in language. The post Understanding the brain with AI-driven explanations and experiments appeared first on Microsoft Research.",
+      "category": "AI research tools",
+      "source": {
+        "name": "Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/blog/understanding-the-brain-with-ai-driven-explanations-and-experiments/"
       },
       "analysis": ""
     },
