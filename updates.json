@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-06-26T04:22:04.173Z",
+  "lastUpdated": "2026-06-26T10:58:38.955Z",
   "updates": [
     {
       "date": "2026-06-26",
@@ -43,13 +43,13 @@
       "date": "2026-06-25",
       "title": "Understanding the brain with AI-driven explanations and experiments",
       "summary": "Researchers introduce generative causal testing, which translates black box models into clear hypotheses and verifies them in the scanner, revealing what specific brain regions respond to in language. The post Understanding the brain with AI-driven explanations and experiments...",
-      "content": "Researchers introduce generative causal testing, which translates black box models into clear hypotheses and verifies them in the scanner, revealing what specific brain regions respond to in language. The post Understanding the brain with AI-driven explanations and experiments appeared first on Microsoft Research.",
+      "content": "This Microsoft Research article presents a novel approach called generative causal testing, which leverages AI to demystify complex \"black box\" models, particularly in neuroscience. By translating these models into testable hypotheses, researchers can then experimentally validate them, for instance, using fMRI scans to pinpoint specific brain region responses to language. For UX researchers, this represents a significant advancement in understanding user cognition, moving beyond observed behavior to infer underlying psychological mechanisms.  The practical implication is the potential to design more intuitive and effective user experiences by understanding the \"why\" behind user actions at a deeper, cognitive level, ultimately leading to more robust and user-centered product development.",
       "category": "AI research tools",
       "source": {
         "name": "Microsoft Research",
         "url": "https://www.microsoft.com/en-us/research/blog/understanding-the-brain-with-ai-driven-explanations-and-experiments/"
       },
-      "analysis": ""
+      "analysis": "At Nubank, generative causal testing, while currently focused on neuroscience, offers a forward-thinking framework for understanding user decision-making in critical financial flows. Imagine applying this to the PIX transaction experience: we could develop hypotheses about which visual elements or cognitive load during fund transfer trigger user anxiety or hesitation, then use targeted experiments to validate these in simulated environments. This could inform design iterations for PIX confirmations or fund allocation screens, ensuring maximum clarity and trust. Similarly, during loan application or card activation flows, this approach could help uncover the underlying cognitive barriers preventing users from completing these tasks, leading to more streamlined and accessible onboarding processes."
     },
     {
       "date": "2026-06-24",
@@ -91,13 +91,13 @@
       "date": "2026-06-23",
       "title": "Your banking app is lying to you",
       "summary": "It shows you a balance. It doesn’t show you the future. Here’s what happens when AI starts telling the truth. Continue reading on UX Collective »",
-      "content": "It shows you a balance. It doesn’t show you the future. Here’s what happens when AI starts telling the truth. Continue reading on UX Collective »",
+      "content": "This article challenges the traditional representation of banking app balances, arguing that they present a static, historical view rather than a dynamic, predictive one. It suggests that AI can offer a more truthful experience by forecasting future financial states, considering upcoming bills, income, and spending patterns. For UX researchers, this shift is crucial because it opens up opportunities to design more proactive and empowering financial tools. Practically, this means moving beyond informing users about their past to guiding them towards their future financial well-being, potentially reducing financial anxiety and improving decision-making.",
       "category": "AI research tools",
       "source": {
         "name": "UX Collective (Medium)",
         "url": "https://uxdesign.cc/your-banking-app-is-lying-to-you-52959b075823?source=rss----138adf9c44c---4"
       },
-      "analysis": ""
+      "analysis": "At Nubank, this concept of AI-driven financial truthfulness can be integrated into our existing research workflow, particularly during the ideation and prototyping phases for features related to financial planning and proactive advice. For instance, when researching potential enhancements for our PIX transaction alerts or loan pre-approval features, we should explore how predictive AI can offer users a clearer picture of their immediate and near-future financial capacity, not just their current balance. This could involve simulating the impact of upcoming PIX payments on their available funds or illustrating how taking a loan might affect their ability to meet future obligations.\n\nResearchers should actively explore user needs around financial foresight. This means conducting qualitative studies, such as in-depth interviews and diary studies, to understand how users currently plan for future expenses and what uncertainties they face. We can then prototype AI-powered \"what-if\" scenarios for features like card activation or insurance premium payments, allowing users to visualize the impact of these actions on their projected future balances. It's vital to establish clear guardrails; the AI's predictions must be presented transparently, with explicit disclaimers about their nature as forecasts, not guarantees. We must avoid over-promising or creating undue alarm, focusing instead on empowering users with actionable insights and offering clear pathways for them to influence their financial future, such as personalized saving recommendations or spending optimization tips."
     },
     {
       "date": "2026-06-23",
