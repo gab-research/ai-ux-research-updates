@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-06-26T10:58:38.955Z",
+  "lastUpdated": "2026-06-26T17:58:37.614Z",
   "updates": [
     {
       "date": "2026-06-26",
@@ -19,13 +19,13 @@
       "date": "2026-06-25",
       "title": "10 ways to make Claude think like a research partner (+ Free lesson sign-up)",
       "summary": "The cheat codes I run before a study starts and before a readout I'm nervous about",
-      "content": "The cheat codes I run before a study starts and before a readout I'm nervous about",
+      "content": "Nikki Anderson's article explores how to leverage AI models like Claude as sophisticated research assistants, moving beyond basic task execution to a more collaborative partnership. The core idea is to prompt Claude with specific \"cheat codes\" to elicit deeper, more nuanced insights, particularly before critical research study launches or when presenting findings. This matters for UX researchers because it can significantly enhance efficiency and the quality of research outcomes, enabling quicker analysis of qualitative data and more insightful report generation. Practically, this means crafting prompts that guide the AI to synthesize user feedback, identify patterns, and even simulate user personas, ultimately freeing up researcher time for strategic thinking and deeper interpretation.",
       "category": "AI coding assistants",
       "source": {
         "name": "Nikki Anderson (User Research Strategist)",
         "url": "https://www.userresearchstrategist.com/p/10-ways-to-make-claude-think-like"
       },
-      "analysis": ""
+      "analysis": "At Nubank, this approach can be integrated into our existing research workflow, particularly during the analysis and synthesis phases. Before launching a study on, for instance, the PIX payment flow or a new loan product feature, researchers can use Claude with carefully crafted prompts to brainstorm potential user pain points, suggest relevant interview questions, or even help draft initial hypotheses based on existing product data. Similarly, before a sensitive readout on, say, card activation success rates or the onboarding experience for insurance products, researchers can use Claude to help structure their presentation, identify potential counter-arguments, or summarize complex qualitative feedback from user interviews into concise talking points.\n\nResearchers should approach this as an augmentation tool, not a replacement for human critical thinking. Guardrails are crucial: always fact-check Claude's output against raw data and established UX principles. The AI can assist in identifying themes in user feedback from a beta test of a new credit card feature or in summarizing sentiment from customer support tickets related to account management, but the final interpretation and strategic recommendations must come from the human researcher. Limitations include the AI's potential for bias (inherent in its training data) and its inability to grasp the full contextual nuances of user behavior that seasoned Nubank researchers possess through direct interaction and deep product understanding."
     },
     {
       "date": "2026-06-25",
@@ -55,13 +55,13 @@
       "date": "2026-06-24",
       "title": "Talos: Scaling rare disease diagnosis with automated, iterative genomic reanalysis",
       "summary": "Talos was built to help resolve a major bottleneck in genomic medicine: human review time. The open-source system recovered 90% of in-scope diagnoses while surfacing just 1.3 candidate variants per patient for expert review. The post Talos: Scaling rare disease diagnosis with...",
-      "content": "Talos was built to help resolve a major bottleneck in genomic medicine: human review time. The open-source system recovered 90% of in-scope diagnoses while surfacing just 1.3 candidate variants per patient for expert review. The post Talos: Scaling rare disease diagnosis with automated, iterative genomic reanalysis appeared first on Microsoft Research.",
+      "content": "This Microsoft Research article introduces Talos, an innovative open-source system designed to significantly accelerate rare disease diagnosis by automating the complex process of genomic reanalysis. By reducing the overwhelming volume of potential genetic variations that require human expert attention, Talos streamlines a critical bottleneck in genomic medicine, allowing for faster and more efficient identification of disease-causing factors. For UX researchers, this highlights the potential of AI to transform data-intensive, time-consuming analytical processes, enabling us to focus on higher-level strategic insights and user-centric problem-solving. The practical implication is that similar AI-driven automation could be applied to complex, data-heavy user research scenarios, freeing up researcher time for more impactful qualitative work.",
       "category": "AI-powered data analysis",
       "source": {
         "name": "Microsoft Research",
         "url": "https://www.microsoft.com/en-us/research/blog/talos-scaling-rare-disease-diagnosis-with-automated-iterative-genomic-reanalysis/"
       },
-      "analysis": ""
+      "analysis": "At Nubank, Talos's core principle of automating complex data reanalysis can be applied to optimize our user research workflows, particularly when dealing with large datasets from user testing or feature usage. Imagine analyzing qualitative feedback from thousands of users on a new PIX feature or identifying pain points in the card activation process. Instead of manually sifting through hours of transcribed interviews or extensive survey responses, an AI system like Talos could rapidly identify recurring themes, sentiment shifts, or critical usability issues, presenting researchers with distilled insights and high-priority areas for deeper investigation. This would allow us to move from a reactive, time-intensive analysis phase to a more proactive, insight-driven approach, accelerating our ability to inform product decisions for areas like onboarding, loan applications, or insurance.\n\nResearchers can leverage this by exploring AI-powered tools that can automate the initial sorting and categorization of qualitative data. This could involve training models to recognize common user frustrations, feature requests, or successful interaction patterns across various Nubank products. For instance, after a beta launch of a new savings account feature, AI could flag all mentions of 'confusing terms' or 'difficulty finding information' across user feedback, surfacing these for immediate researcher attention. It's crucial, however, to establish clear guardrails. AI should augment, not replace, human judgment. Researchers must retain oversight to ensure nuanced interpretations are captured, biases are identified, and the AI's output is validated against qualitative understanding, preventing premature conclusions and ensuring the human element remains central to our user-centric design philosophy."
     },
     {
       "date": "2026-06-23",
@@ -782,18 +782,6 @@
         "url": "https://www.microsoft.com/en-us/research/blog/data-formulator-0-7-ai-powered-data-analytics-for-enterprise-data/"
       },
       "analysis": "At Nubank, Data Formulator 0.7 could be integrated into our existing research workflow to augment our data analysis capabilities. Researchers can leverage this tool to quickly process large volumes of quantitative data related to user interactions across our digital platform, such as onboarding completion rates, the success of PIX transfers, or the efficiency of loan application processes.  Instead of manually sifting through spreadsheets, AI agents within Data Formulator could help identify patterns in user drop-off points during credit card activation, or segment users exhibiting specific behaviors when applying for insurance.\n\nWhile powerful, researchers must approach Data Formulator with critical thinking and ethical considerations. The AI agents are tools to surface potential insights, not definitive answers. Researchers should validate AI-generated findings with qualitative data, user interviews, and contextual inquiry, especially when analyzing sensitive areas like loan eligibility or fraud patterns. Guardrails should include data privacy protocols, ensuring no personally identifiable information is exposed to the AI unless anonymized, and maintaining human oversight to prevent biases inherent in AI models from negatively impacting user experience decisions. For instance, any AI-driven suggestions for optimizing the credit card activation flow must be cross-referenced with direct user feedback to ensure a truly seamless and accessible experience for all Nubank customers."
-    },
-    {
-      "date": "2026-05-27",
-      "title": "Extending Human Intelligence Through AI",
-      "summary": "Understanding AI as an extension of human intelligence—not a replacement for it—offers a more grounded path for building trustworthy AI systems. The post Extending Human Intelligence Through AI appeared first on Microsoft Research.",
-      "content": "Understanding AI as an extension of human intelligence—not a replacement for it—offers a more grounded path for building trustworthy AI systems. The post Extending Human Intelligence Through AI appeared first on Microsoft Research.",
-      "category": "AI ethics in research",
-      "source": {
-        "name": "Microsoft Research",
-        "url": "https://www.microsoft.com/en-us/research/blog/extending-human-intelligence-through-ai/"
-      },
-      "analysis": "At Nubank, this \"AI as an extension\" philosophy directly impacts our research workflow by empowering us to move beyond tedious data aggregation. For instance, when analyzing feedback on our PIX experience or identifying pain points in the loan application process, AI tools can help surface recurring themes and anomalies within user comments or session recordings much faster than manual review. This allows us to dedicate more time to in-depth qualitative analysis, journey mapping refinement, and strategic problem-solving for features like card activation or insurance onboarding.\n\nResearchers should actively explore and integrate AI-powered tools that assist in tasks such as sentiment analysis of customer support tickets, keyword extraction from user interviews, or even generating preliminary user persona hypotheses based on behavioral data. The key is to treat these AI outputs as starting points, always validating their findings through traditional research methods and our own expert judgment. We must remain vigilant about potential biases inherent in AI models and ensure that our human oversight remains paramount, preventing the AI from dictating research conclusions without critical human interpretation, especially when dealing with sensitive financial data and user trust."
     }
   ]
 }
