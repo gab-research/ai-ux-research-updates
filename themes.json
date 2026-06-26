@@ -1,30 +1,30 @@
 {
   "month": "2026-06",
-  "updated": "2026-06-25",
+  "updated": "2026-06-26",
   "themes": [
     {
       "name": "AI research tools",
-      "count": 136,
+      "count": 131,
       "description": "New AI tool launches, reviews, and platforms built for research workflows."
     },
     {
       "name": "Survey optimization",
-      "count": 100,
+      "count": 107,
       "description": "AI tools for designing better surveys, reducing bias, and analyzing responses."
     },
     {
       "name": "AI-powered data analysis",
-      "count": 69,
+      "count": 61,
       "description": "Automated data analysis, clustering, segmentation, and pattern detection."
     },
     {
       "name": "AI workforce impact",
-      "count": 61,
+      "count": 60,
       "description": "AI replacing roles, future of work, skills gap, reskilling, and organizational change."
     },
     {
       "name": "Conversational AI in research",
-      "count": 61,
+      "count": 57,
       "description": "Chatbots, virtual assistants, and voice AI in research contexts."
     },
     {
@@ -34,22 +34,22 @@
     },
     {
       "name": "Agentic AI in research",
-      "count": 42,
+      "count": 43,
       "description": "Autonomous AI agents running research tasks, multi-agent frameworks, and orchestration."
     },
     {
       "name": "AI ethics in research",
-      "count": 24,
+      "count": 22,
       "description": "Bias, fairness, responsible AI, privacy, and trust in research."
     },
     {
       "name": "AI for product management",
-      "count": 24,
+      "count": 21,
       "description": "AI in product decisions, discovery, prioritization, and roadmapping."
     },
     {
       "name": "AI tool evaluation",
-      "count": 21,
+      "count": 20,
       "description": "Comparing, benchmarking, and selecting AI tools and LLMs for specific use cases."
     }
   ],
