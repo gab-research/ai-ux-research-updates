@@ -3,54 +3,54 @@
   "updated": "2026-06-27",
   "themes": [
     {
-      "name": "Agentic AI in research",
-      "count": 213,
-      "description": "Focuses on AI agents that can autonomously perform research tasks, make decisions, and interact with systems to achieve research goals."
-    },
-    {
-      "name": "AI coding assistants",
-      "count": 114,
-      "description": "Covers AI tools that help developers write, debug, and optimize code, often by generating code snippets or identifying errors."
-    },
-    {
       "name": "AI research tools",
-      "count": 90,
-      "description": "Articles discussing the development, application, and comparison of AI tools specifically designed for research processes, from data collection to analysis."
+      "count": 122,
+      "description": "New AI tool launches, reviews, and platforms built for research workflows."
     },
     {
-      "name": "AI summarization",
-      "count": 61,
-      "description": "Focuses on AI's ability to condense large amounts of text or data into concise summaries for quicker comprehension."
-    },
-    {
-      "name": "AI chatbot research",
-      "count": 54,
-      "description": "Examines user interactions, behavior, and perceptions related to AI chatbots, including their effectiveness and potential biases."
-    },
-    {
-      "name": "AI research platform",
-      "count": 43,
-      "description": "Covers platforms and ecosystems built to support or facilitate AI-driven research activities, including infrastructure and frameworks."
-    },
-    {
-      "name": "AI for product management",
-      "count": 33,
-      "description": "Details how AI is used in product development, from ideation and user research to feature prioritization and release planning."
-    },
-    {
-      "name": "AI research tools comparison",
-      "count": 31,
-      "description": "Articles that compare and evaluate different AI tools available for research, highlighting their strengths, weaknesses, and best use cases."
-    },
-    {
-      "name": "AI customer insights",
-      "count": 30,
-      "description": "Focuses on AI's role in collecting, analyzing, and deriving actionable insights from customer data to improve products and services."
+      "name": "Survey optimization",
+      "count": 114,
+      "description": "AI tools for designing better surveys, reducing bias, and analyzing responses."
     },
     {
       "name": "AI workforce impact",
-      "count": 26,
-      "description": "Discusses the effects of AI on employment, job roles, skills requirements, and the overall economy."
+      "count": 65,
+      "description": "AI replacing roles, future of work, skills gap, reskilling, and organizational change."
+    },
+    {
+      "name": "AI-powered data analysis",
+      "count": 62,
+      "description": "Automated data analysis, clustering, segmentation, and pattern detection."
+    },
+    {
+      "name": "Conversational AI in research",
+      "count": 62,
+      "description": "Chatbots, virtual assistants, and voice AI in research contexts."
+    },
+    {
+      "name": "AI coding assistants",
+      "count": 55,
+      "description": "Copilot, Claude Code, Cursor, and other AI tools for code generation and development."
+    },
+    {
+      "name": "Agentic AI in research",
+      "count": 41,
+      "description": "Autonomous AI agents running research tasks, multi-agent frameworks, and orchestration."
+    },
+    {
+      "name": "AI ethics in research",
+      "count": 22,
+      "description": "Bias, fairness, responsible AI, privacy, and trust in research."
+    },
+    {
+      "name": "AI for product management",
+      "count": 22,
+      "description": "AI in product decisions, discovery, prioritization, and roadmapping."
+    },
+    {
+      "name": "AI tool evaluation",
+      "count": 20,
+      "description": "Comparing, benchmarking, and selecting AI tools and LLMs for specific use cases."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."

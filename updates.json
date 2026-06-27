@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-06-27T04:07:24.003Z",
+  "lastUpdated": "2026-06-27T10:17:30.442Z",
   "updates": [
     {
       "date": "2026-06-26",
@@ -734,18 +734,6 @@
         "url": "https://www.uxpin.com/studio/blog/build-ux-claude-sonnet-4-5-ant-design-uxpin-merge/"
       },
       "analysis": "At Nubank, this workflow could significantly streamline the creation of design system components for recurring features like PIX transactions, loan applications, or insurance product interfaces. Researchers could prompt Claude Sonnet 4.5 to generate detailed UX specifications for a new feature, including error states, accessibility considerations, and micro-interactions, referencing existing Ant Design patterns. These AI-generated specs would then be imported into UXPin Merge, allowing designers to rapidly assemble interactive prototypes using pre-built Ant Design components, ensuring brand consistency and technical feasibility.  This empowers researchers to iterate on user flows for onboarding or card activation with greater fidelity and speed.\n\nResearchers should approach this by first identifying areas where current design-to-development handoffs are time-consuming or lead to inconsistencies. This method is best suited for features that can leverage established UI patterns from Ant Design, rather than highly novel or experimental interactions. A crucial guardrail is to treat AI-generated specifications as a strong starting point, not a final decree; human oversight is essential to validate the AI's understanding of Nubank's specific user needs, Brazilian market context, and ethical considerations.  The AI's output for complex financial logic or sensitive user data flows, for instance, would require rigorous review and refinement by the research and product teams before implementation."
-    },
-    {
-      "date": "2026-05-28",
-      "title": "Building a user research portfolio using Claude Design",
-      "summary": "A 45-minute experiment in letting a tool do the thing I have been avoiding for years",
-      "content": "Nikki Anderson's experiment with Claude Design highlights a powerful application of AI in accelerating the creation of user research portfolios.  The core idea is to leverage AI to automate or significantly assist with the often time-consuming task of compiling research findings, case studies, and project summaries into a cohesive and compelling portfolio. For UX researchers, this is crucial as a well-crafted portfolio is essential for career advancement, client pitches, and internal advocacy for user-centered design. The practical implication is a potential reduction in manual effort, freeing up researchers to focus on more strategic aspects of their work and present their impact more effectively and efficiently.",
-      "category": "General AI in research",
-      "source": {
-        "name": "Nikki Anderson (User Research Strategist)",
-        "url": "https://www.userresearchstrategist.com/p/building-a-user-research-portfolio"
-      },
-      "analysis": "At Nubank, Claude Design could seamlessly integrate into our existing research workflow, particularly during the post-research analysis and synthesis phases. Researchers could input raw data from recent projects—think qualitative interview transcripts for our loan application process, usability test findings for the PIX flow, or journey map outputs from card activation—into Claude Design. The AI could then assist in structuring these findings into narrative case studies, summarizing key insights, and even suggesting visual elements or data visualizations to represent user pain points and proposed solutions for areas like new customer onboarding or insurance product evaluations.\n\nTo apply this, researchers should treat Claude Design as an intelligent assistant, not a replacement for their critical thinking. The output will require careful review, editing, and human-centric refinement to ensure it accurately reflects the nuance of our user understanding and aligns with Nubank's brand voice. Guardrails should include a mandatory human review of all generated content before final use, particularly for external-facing portfolios or internal stakeholder presentations. We must also be mindful of data privacy and avoid inputting any personally identifiable information or sensitive, proprietary project details that haven't undergone de-identification procedures, especially when working with external AI tools. This empowers our researchers to build impactful portfolios faster, showcasing their invaluable contributions to improving products like the Nubank credit card and our digital banking experience."
     },
     {
       "date": "2026-05-28",
