@@ -1,56 +1,56 @@
 {
   "month": "2026-06",
-  "updated": "2026-06-26",
+  "updated": "2026-06-27",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 59,
-      "description": "Covers AI systems that can autonomously perform research tasks, make decisions, and execute actions within a research context."
+      "count": 213,
+      "description": "Focuses on AI agents that can autonomously perform research tasks, make decisions, and interact with systems to achieve research goals."
     },
     {
       "name": "AI coding assistants",
-      "count": 55,
-      "description": "Focuses on AI tools that help developers write, debug, and refactor code, acting as collaborators in the development process."
+      "count": 114,
+      "description": "Covers AI tools that help developers write, debug, and optimize code, often by generating code snippets or identifying errors."
     },
     {
       "name": "AI research tools",
-      "count": 48,
-      "description": "Encompasses a broad range of AI applications designed to aid in information retrieval, analysis, and synthesis for research purposes."
-    },
-    {
-      "name": "AI for design & research",
-      "count": 43,
-      "description": "Explores how AI tools and techniques are being integrated into the design and user research workflows to enhance creativity, efficiency, and insights."
-    },
-    {
-      "name": "Synthetic users",
-      "count": 39,
-      "description": "Deals with AI-generated or simulated user profiles, data, or interactions used for testing, training, or research purposes."
+      "count": 90,
+      "description": "Articles discussing the development, application, and comparison of AI tools specifically designed for research processes, from data collection to analysis."
     },
     {
       "name": "AI summarization",
-      "count": 36,
-      "description": "Covers AI applications that condense large amounts of text or data into shorter, more digestible summaries."
-    },
-    {
-      "name": "AI research tools comparison",
-      "count": 28,
-      "description": "Focuses on articles that compare and evaluate different AI tools specifically for research-related tasks."
-    },
-    {
-      "name": "AI tool evaluation",
-      "count": 20,
-      "description": "Articles that review, benchmark, or analyze the effectiveness and capabilities of various AI tools."
+      "count": 61,
+      "description": "Focuses on AI's ability to condense large amounts of text or data into concise summaries for quicker comprehension."
     },
     {
       "name": "AI chatbot research",
-      "count": 18,
-      "description": "Investigates the use, impact, and perception of AI chatbots in various contexts, including user interaction and research."
+      "count": 54,
+      "description": "Examines user interactions, behavior, and perceptions related to AI chatbots, including their effectiveness and potential biases."
+    },
+    {
+      "name": "AI research platform",
+      "count": 43,
+      "description": "Covers platforms and ecosystems built to support or facilitate AI-driven research activities, including infrastructure and frameworks."
+    },
+    {
+      "name": "AI for product management",
+      "count": 33,
+      "description": "Details how AI is used in product development, from ideation and user research to feature prioritization and release planning."
+    },
+    {
+      "name": "AI research tools comparison",
+      "count": 31,
+      "description": "Articles that compare and evaluate different AI tools available for research, highlighting their strengths, weaknesses, and best use cases."
+    },
+    {
+      "name": "AI customer insights",
+      "count": 30,
+      "description": "Focuses on AI's role in collecting, analyzing, and deriving actionable insights from customer data to improve products and services."
     },
     {
       "name": "AI workforce impact",
-      "count": 17,
-      "description": "Examines how AI is changing job roles, skill requirements, and employment landscapes within different industries."
+      "count": 26,
+      "description": "Discusses the effects of AI on employment, job roles, skills requirements, and the overall economy."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
