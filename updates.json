@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-06-27T10:17:30.442Z",
+  "lastUpdated": "2026-06-27T17:19:18.828Z",
   "updates": [
+    {
+      "date": "2026-06-27",
+      "title": "Why your Claude Code needs a design stack",
+      "summary": "The setup that makes Claude Code fit into your designer workflow Continue reading on UX Collective »",
+      "content": "This article argues that to effectively leverage AI coding assistants like Claude for UX design, a dedicated 'design stack' is crucial. This isn't just about using the AI for basic coding tasks, but about integrating it into the designer's entire workflow, from ideation and prototyping to iteration and handoff. For UX researchers, this implies a shift in how we can utilize AI to accelerate the development of interactive prototypes, generate code snippets for usability testing, and even help translate research findings into actionable design components, thereby streamlining the path from insight to implementation.",
+      "category": "AI coding assistants",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/why-your-claude-code-needs-a-design-stack-46dccbced6e5?source=rss----138adf9c44c---4"
+      },
+      "analysis": "At Nubank, this concept of a 'Claude Code design stack' can significantly enhance our research-to-design pipeline. For instance, when exploring improvements to the PIX transfer flow, researchers could collaborate with designers to rapidly prototype different layout variations or interaction models. Claude could generate the front-end code for these prototypes, allowing for faster usability testing with real users, and potentially even for A/B testing of micro-interactions within the app, accelerating our iterative design process.\n\nResearchers can also use Claude to build interactive mockups for complex features like loan applications or insurance policy comparisons. Instead of waiting for engineering to build functional prototypes, researchers and designers can use Claude to generate code for key elements, enabling early validation of user flows and information architecture. However, it's crucial to establish guardrails: researchers should focus on using Claude for front-end prototyping and understanding feasibility, rather than relying on it for backend logic or data security considerations, especially for sensitive flows like card activation or onboarding. All generated code must be reviewed by engineering for production readiness and adherence to Nubank's technical standards."
+    },
     {
       "date": "2026-06-26",
       "title": "Building an Insight Ecosystem with AI | Great Question",
@@ -734,18 +746,6 @@
         "url": "https://www.uxpin.com/studio/blog/build-ux-claude-sonnet-4-5-ant-design-uxpin-merge/"
       },
       "analysis": "At Nubank, this workflow could significantly streamline the creation of design system components for recurring features like PIX transactions, loan applications, or insurance product interfaces. Researchers could prompt Claude Sonnet 4.5 to generate detailed UX specifications for a new feature, including error states, accessibility considerations, and micro-interactions, referencing existing Ant Design patterns. These AI-generated specs would then be imported into UXPin Merge, allowing designers to rapidly assemble interactive prototypes using pre-built Ant Design components, ensuring brand consistency and technical feasibility.  This empowers researchers to iterate on user flows for onboarding or card activation with greater fidelity and speed.\n\nResearchers should approach this by first identifying areas where current design-to-development handoffs are time-consuming or lead to inconsistencies. This method is best suited for features that can leverage established UI patterns from Ant Design, rather than highly novel or experimental interactions. A crucial guardrail is to treat AI-generated specifications as a strong starting point, not a final decree; human oversight is essential to validate the AI's understanding of Nubank's specific user needs, Brazilian market context, and ethical considerations.  The AI's output for complex financial logic or sensitive user data flows, for instance, would require rigorous review and refinement by the research and product teams before implementation."
-    },
-    {
-      "date": "2026-05-28",
-      "title": "Data Formulator 0.7: AI-powered data analytics for enterprise data",
-      "summary": "Data Formulator introduces AI-powered analytics for enterprise data workflows. Data teams can easily bring enterprise data into an AI-ready workspace where users can explore, analyze, and visualize data with AI agents to turn raw data into actionable insights. The post Data Fo...",
-      "content": "Data Formulator introduces AI-powered analytics for enterprise data workflows. Data teams can easily bring enterprise data into an AI-ready workspace where users can explore, analyze, and visualize data with AI agents to turn raw data into actionable insights. The post Data Formulator 0.7: AI-powered data analytics for enterprise data appeared first on Microsoft Research.",
-      "category": "Survey optimization",
-      "source": {
-        "name": "Microsoft Research",
-        "url": "https://www.microsoft.com/en-us/research/blog/data-formulator-0-7-ai-powered-data-analytics-for-enterprise-data/"
-      },
-      "analysis": "At Nubank, Data Formulator 0.7 could be integrated into our existing research workflow to augment our data analysis capabilities. Researchers can leverage this tool to quickly process large volumes of quantitative data related to user interactions across our digital platform, such as onboarding completion rates, the success of PIX transfers, or the efficiency of loan application processes.  Instead of manually sifting through spreadsheets, AI agents within Data Formulator could help identify patterns in user drop-off points during credit card activation, or segment users exhibiting specific behaviors when applying for insurance.\n\nWhile powerful, researchers must approach Data Formulator with critical thinking and ethical considerations. The AI agents are tools to surface potential insights, not definitive answers. Researchers should validate AI-generated findings with qualitative data, user interviews, and contextual inquiry, especially when analyzing sensitive areas like loan eligibility or fraud patterns. Guardrails should include data privacy protocols, ensuring no personally identifiable information is exposed to the AI unless anonymized, and maintaining human oversight to prevent biases inherent in AI models from negatively impacting user experience decisions. For instance, any AI-driven suggestions for optimizing the credit card activation flow must be cross-referenced with direct user feedback to ensure a truly seamless and accessible experience for all Nubank customers."
     }
   ]
 }
