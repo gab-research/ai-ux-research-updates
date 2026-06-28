@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-06-27T17:19:18.828Z",
+  "lastUpdated": "2026-06-28T04:40:11.355Z",
   "updates": [
     {
       "date": "2026-06-27",
@@ -734,18 +734,6 @@
         "url": "https://www.uxpin.com/studio/blog/build-ux-claude-sonnet-4-5-bootstrap-uxpin-merge/"
       },
       "analysis": "At Nubank, this approach could significantly accelerate our prototyping and testing cycles, particularly for features like PIX transactions, loan applications, or card activation flows. Instead of building every UI element from scratch in design tools, researchers could use Claude Sonnet 4.5 to generate initial screen layouts based on user needs or functional requirements. These AI-generated wireframes could then be imported into UXPin, where designers or researchers can quickly apply Bootstrap components for a consistent look and feel, and importantly, ensure accessibility standards are met from the outset. This allows for rapid creation of interactive prototypes to test user journeys for onboarding or insurance product exploration, providing tangible feedback to engineers much earlier in the process.\n\nResearchers should consider this as a powerful augmentative tool, not a replacement for core research activities. It's best applied when exploring initial UI concepts or when rapidly iterating on established flows. Guardrails include ensuring the AI-generated layouts are critically reviewed for usability and alignment with Nubank's design system and brand guidelines. We must also train researchers and designers on the effective prompting of Claude Sonnet 4.5 and the nuances of integrating AI outputs with existing UXPin workflows and Bootstrap best practices to maintain the high standards of our products, from the initial customer contact to complex financial services like credit limit adjustments."
-    },
-    {
-      "date": "2026-05-29",
-      "title": "How to build UX using Claude Sonnet 4.5 + Ant Design  –  Use UXPin Merge!",
-      "summary": "Use AI-generated UX specs with Ant Design and UXPin Merge to build production-ready, consistent, US-localized enterprise interfaces. The post How to build UX using Claude Sonnet 4.5 + Ant Design – Use UXPin Merge! appeared first on Studio by UXPin.",
-      "content": "This article explores an innovative approach to UX development by integrating AI, specifically Claude Sonnet 4.5, with a popular UI component library, Ant Design, through the UXPin Merge platform. The core idea is to leverage AI to generate detailed UX specifications, which can then be directly translated into production-ready code within a design tool.  This methodology is crucial for UX researchers as it promises to bridge the gap between design and development, accelerating the creation of consistent, high-quality interfaces.  Its practical implication lies in potentially speeding up prototyping and design system implementation, allowing researchers to test more refined solutions earlier in the product lifecycle.",
-      "category": "AI research tools",
-      "source": {
-        "name": "UXPin Blog",
-        "url": "https://www.uxpin.com/studio/blog/build-ux-claude-sonnet-4-5-ant-design-uxpin-merge/"
-      },
-      "analysis": "At Nubank, this workflow could significantly streamline the creation of design system components for recurring features like PIX transactions, loan applications, or insurance product interfaces. Researchers could prompt Claude Sonnet 4.5 to generate detailed UX specifications for a new feature, including error states, accessibility considerations, and micro-interactions, referencing existing Ant Design patterns. These AI-generated specs would then be imported into UXPin Merge, allowing designers to rapidly assemble interactive prototypes using pre-built Ant Design components, ensuring brand consistency and technical feasibility.  This empowers researchers to iterate on user flows for onboarding or card activation with greater fidelity and speed.\n\nResearchers should approach this by first identifying areas where current design-to-development handoffs are time-consuming or lead to inconsistencies. This method is best suited for features that can leverage established UI patterns from Ant Design, rather than highly novel or experimental interactions. A crucial guardrail is to treat AI-generated specifications as a strong starting point, not a final decree; human oversight is essential to validate the AI's understanding of Nubank's specific user needs, Brazilian market context, and ethical considerations.  The AI's output for complex financial logic or sensitive user data flows, for instance, would require rigorous review and refinement by the research and product teams before implementation."
     }
   ]
 }
