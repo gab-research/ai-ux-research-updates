@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "AI research tools",
-      "count": 124,
+      "count": 121,
       "description": "New AI tool launches, reviews, and platforms built for research workflows."
     },
     {
       "name": "Survey optimization",
-      "count": 111,
+      "count": 109,
       "description": "AI tools for designing better surveys, reducing bias, and analyzing responses."
     },
     {
       "name": "AI workforce impact",
-      "count": 68,
+      "count": 71,
       "description": "AI replacing roles, future of work, skills gap, reskilling, and organizational change."
     },
     {
       "name": "AI-powered data analysis",
-      "count": 68,
+      "count": 67,
       "description": "Automated data analysis, clustering, segmentation, and pattern detection."
     },
     {
-      "name": "Conversational AI in research",
-      "count": 66,
-      "description": "Chatbots, virtual assistants, and voice AI in research contexts."
-    },
-    {
       "name": "AI coding assistants",
-      "count": 60,
+      "count": 66,
       "description": "Copilot, Claude Code, Cursor, and other AI tools for code generation and development."
     },
     {
+      "name": "Conversational AI in research",
+      "count": 63,
+      "description": "Chatbots, virtual assistants, and voice AI in research contexts."
+    },
+    {
       "name": "Agentic AI in research",
-      "count": 39,
+      "count": 42,
       "description": "Autonomous AI agents running research tasks, multi-agent frameworks, and orchestration."
     },
     {
-      "name": "AI for product management",
-      "count": 27,
-      "description": "AI in product decisions, discovery, prioritization, and roadmapping."
-    },
-    {
       "name": "AI ethics in research",
-      "count": 25,
+      "count": 24,
       "description": "Bias, fairness, responsible AI, privacy, and trust in research."
     },
     {
-      "name": "AI content generation",
-      "count": 18,
-      "description": "AI writing, report generation, UX copy, and content creation."
+      "name": "AI for product management",
+      "count": 23,
+      "description": "AI in product decisions, discovery, prioritization, and roadmapping."
+    },
+    {
+      "name": "AI tool evaluation",
+      "count": 20,
+      "description": "Comparing, benchmarking, and selecting AI tools and LLMs for specific use cases."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
