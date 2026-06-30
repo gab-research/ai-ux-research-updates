@@ -1,8 +1,56 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-06-30T11:16:48.918Z",
+  "lastUpdated": "2026-06-30T18:06:36.610Z",
   "updates": [
+    {
+      "date": "2026-06-30",
+      "title": "Time is Money: How Pre-Validated UX Research Protects Your Resources & Budget",
+      "summary": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) When you try to prove the value of your design decisions, you often hit a wall. To back up you...",
+      "content": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) When you try to prove the value of your design decisions, you often hit a wall. To back up your designs confidently, you need robust usability research. But conducting that research yourself for every minor UI change or UX decision is expensive and time-consuming. Baymard’s pre-validated research gives teams like yours access to established UX best practices in an instant, which helps you ship designs faster, more confidently, and protects your costs by reducing the research overheads. To demonstrate that value, we’ve created a calculator that shows how a Baymard subscription helps you move faster and keep your UX research costs down. Note: This calculator demonstrates initial cost savings based on consuming Baymard’s insights versus running new user research yourself. Baymard users typically see further value realizations from implementing those insights and improving website user experience and conversion rates. The Hidden Cost of Your In-House User Research It’s easy to fall into the trap of thin...",
+      "category": "General AI in research",
+      "source": {
+        "name": "Baymard Institute",
+        "url": "https://feeds.baymard.com/link/9825/17370265/ux-research-cost-saving-calculator"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-06-30",
+      "title": "Introducing GeneBench-Pro",
+      "summary": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
+      "content": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
+      "category": "Survey optimization",
+      "source": {
+        "name": "OpenAI Blog",
+        "url": "https://openai.com/index/introducing-genebench-pro"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-06-30",
+      "title": "SkillOpt: Agent skills as trainable parameters",
+      "summary": "AI agents often fail because their instructions, or skills, are manually modified with no guarantee of improvement. Learn how SkillOpt turns skill editing into a training process, making agent behavior more reliable without changing model weights. The post SkillOpt: Agent skil...",
+      "content": "Microsoft Research's SkillOpt proposes a novel approach to enhancing the reliability of AI agents by reframing skill development as a trainable process. Instead of manual, often trial-and-error, adjustments to an agent's instructions, SkillOpt allows these skills to be iteratively refined through a learning mechanism, akin to model training but without altering the underlying large language model weights. This is crucial for UX researchers as it promises more predictable and robust agent behavior, leading to consistently better user experiences. For Nubank, this could translate into more dependable chatbots assisting with PIX transactions, loan applications, or card activation, reducing user frustration and improving task completion rates.",
+      "category": "Session replay + AI",
+      "source": {
+        "name": "Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/blog/skillopt-agent-skills-as-trainable-parameters/"
+      },
+      "analysis": "At Nubank, SkillOpt can significantly enhance our AI-powered customer support and in-app guidance. Imagine our chatbot, currently providing assistance for PIX transfers or loan applications, becoming more efficient and accurate in understanding user intent and providing solutions. Instead of researchers manually tweaking canned responses or flow logic when a specific scenario fails, SkillOpt would allow us to 'train' the agent's understanding of those particular skills, leading to more fluid and successful interactions. This is particularly relevant for complex flows like onboarding or insurance claim processes, where user confusion can lead to drop-offs.\n\nUX researchers should integrate SkillOpt into our post-launch monitoring and iterative improvement cycles. When observing patterns of user struggle or agent misunderstanding in areas like card activation troubleshooting or insurance policy explanations, we can leverage SkillOpt's trainable parameters to refine the agent's 'skill' in handling those specific queries. This shift moves us from reactive manual fixes to a proactive, data-driven approach to agent improvement. However, it's crucial to establish clear metrics for 'skill improvement' and maintain rigorous A/B testing to ensure that trainable skills genuinely enhance user satisfaction and task success, rather than introducing new, unforeseen issues. We must also consider the potential for 'overfitting' skills to specific edge cases, potentially degrading general performance, and establish guardrails to prevent this."
+    },
+    {
+      "date": "2026-06-30",
+      "title": "Agriculture is ready for AI, but its data isn’t",
+      "summary": "Artificial intelligence is transforming what is possible in agriculture, but industry leaders should be wary of investing in AI without first laying the groundwork. The use cases are promising, especially for an industry navigating volatile fertilizer costs, unpredictable weat...",
+      "content": "Artificial intelligence is transforming what is possible in agriculture, but industry leaders should be wary of investing in AI without first laying the groundwork. The use cases are promising, especially for an industry navigating volatile fertilizer costs, unpredictable weather, and margins that leave little room for error. Research shows AI-enabled predictive models can improve crop…",
+      "category": "Survey optimization",
+      "source": {
+        "name": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/2026/06/30/1139513/agriculture-is-ready-for-ai-but-its-data-isnt/"
+      },
+      "analysis": ""
+    },
     {
       "date": "2026-06-29",
       "title": "Best AI research synthesis tools in 2026 (8 compared)",
