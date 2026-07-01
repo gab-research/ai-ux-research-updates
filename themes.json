@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "AI coding assistants",
-      "count": 2,
-      "description": "Articles discussing AI tools that aid developers in writing, debugging, or understanding code."
+      "count": 11,
+      "description": "Copilot, Claude Code, Cursor, and other AI tools for code generation and development."
     },
     {
-      "name": "AI research platform",
-      "count": 2,
-      "description": "Articles about platforms or tools specifically designed to facilitate AI-driven research in scientific or technical domains."
-    },
-    {
-      "name": "AI cost optimization",
-      "count": 2,
-      "description": "Articles detailing strategies and techniques for reducing the costs associated with using AI models and APIs."
-    },
-    {
-      "name": "AI content generation",
-      "count": 1,
-      "description": "Articles exploring the use of AI to create various forms of content, such as fashion photography."
-    },
-    {
-      "name": "Agentic AI in research",
-      "count": 1,
-      "description": "Articles focusing on AI agents that can perform research tasks autonomously, including potential risks."
-    },
-    {
-      "name": "AI workforce impact",
-      "count": 1,
-      "description": "Articles examining how AI adoption affects hiring trends and job markets."
-    },
-    {
-      "name": "AI for design & research",
-      "count": 1,
-      "description": "Articles covering AI applications that assist in the design process and user research activities."
+      "name": "AI research tools",
+      "count": 10,
+      "description": "New AI tool launches, reviews, and platforms built for research workflows."
     },
     {
       "name": "AI-powered data analysis",
-      "count": 1,
-      "description": "Articles about AI techniques used to analyze and extract insights from data, such as relation extraction."
+      "count": 6,
+      "description": "Automated data analysis, clustering, segmentation, and pattern detection."
     },
     {
-      "name": "AI model advancements",
-      "count": 1,
-      "description": "Articles announcing or discussing new AI models and their capabilities across different domains."
+      "name": "AI workforce impact",
+      "count": 4,
+      "description": "AI replacing roles, future of work, skills gap, reskilling, and organizational change."
     },
     {
-      "name": "AI for product management",
-      "count": 1,
-      "description": "Articles focusing on how AI can be utilized to enhance product development and management processes."
+      "name": "Survey optimization",
+      "count": 4,
+      "description": "AI tools for designing better surveys, reducing bias, and analyzing responses."
+    },
+    {
+      "name": "Agentic AI in research",
+      "count": 3,
+      "description": "Autonomous AI agents running research tasks, multi-agent frameworks, and orchestration."
+    },
+    {
+      "name": "AI tool evaluation",
+      "count": 3,
+      "description": "Comparing, benchmarking, and selecting AI tools and LLMs for specific use cases."
+    },
+    {
+      "name": "AI content generation",
+      "count": 2,
+      "description": "AI writing, report generation, UX copy, and content creation."
+    },
+    {
+      "name": "Predictive UX",
+      "count": 2,
+      "description": "Personalization, recommendation engines, and predictive user analytics."
+    },
+    {
+      "name": "Conversational AI in research",
+      "count": 2,
+      "description": "Chatbots, virtual assistants, and voice AI in research contexts."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."

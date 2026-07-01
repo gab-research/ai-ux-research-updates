@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-07-01T04:44:28.137Z",
+  "lastUpdated": "2026-07-01T11:31:30.519Z",
   "updates": [
     {
       "date": "2026-06-30",
@@ -53,18 +53,6 @@
     },
     {
       "date": "2026-06-30",
-      "title": "Time is Money: How Pre-Validated UX Research Protects Your Resources & Budget",
-      "summary": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) When you try to prove the value of your design decisions, you often hit a wall. To back up you...",
-      "content": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) When you try to prove the value of your design decisions, you often hit a wall. To back up your designs confidently, you need robust usability research. But conducting that research yourself for every minor UI change or UX decision is expensive and time-consuming. Baymard’s pre-validated research gives teams like yours access to established UX best practices in an instant, which helps you ship designs faster, more confidently, and protects your costs by reducing the research overheads. To demonstrate that value, we’ve created a calculator that shows how a Baymard subscription helps you move faster and keep your UX research costs down. Note: This calculator demonstrates initial cost savings based on consuming Baymard’s insights versus running new user research yourself. Baymard users typically see further value realizations from implementing those insights and improving website user experience and conversion rates. The Hidden Cost of Your In-House User Research It’s easy to fall into the trap of thin...",
-      "category": "General AI in research",
-      "source": {
-        "name": "Baymard Institute",
-        "url": "https://feeds.baymard.com/link/9825/17370265/ux-research-cost-saving-calculator"
-      },
-      "analysis": ""
-    },
-    {
-      "date": "2026-06-30",
       "title": "Claude Science is Anthropic’s newest flagship product",
       "summary": "At an event for pharmaceutical executives, biotech founders, and researchers on Tuesday, Anthropic announced Claude Science, a major new product intended to support scientific research in the same way that Claude Code supports software engineering. Like Claude Code, Claude Sci...",
       "content": "At an event for pharmaceutical executives, biotech founders, and researchers on Tuesday, Anthropic announced Claude Science, a major new product intended to support scientific research in the same way that Claude Code supports software engineering. Like Claude Code, Claude Science can autonomously carry out meaningful work when given concise, high-level instructions, and it has access…",
@@ -72,6 +60,18 @@
       "source": {
         "name": "MIT Technology Review",
         "url": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-06-30",
+      "title": "Time is Money: How Pre-Validated UX Research Protects Your Resources & Budget",
+      "summary": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) When you try to prove the value of your design decisions, you often hit a wall. To back up you...",
+      "content": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) When you try to prove the value of your design decisions, you often hit a wall. To back up your designs confidently, you need robust usability research. But conducting that research yourself for every minor UI change or UX decision is expensive and time-consuming. Baymard’s pre-validated research gives teams like yours access to established UX best practices in an instant, which helps you ship designs faster, more confidently, and protects your costs by reducing the research overheads. To demonstrate that value, we’ve created a calculator that shows how a Baymard subscription helps you move faster and keep your UX research costs down. Note: This calculator demonstrates initial cost savings based on consuming Baymard’s insights versus running new user research yourself. Baymard users typically see further value realizations from implementing those insights and improving website user experience and conversion rates. The Hidden Cost of Your In-House User Research It’s easy to fall into the trap of thin...",
+      "category": "General AI in research",
+      "source": {
+        "name": "Baymard Institute",
+        "url": "https://feeds.baymard.com/link/9825/17370265/ux-research-cost-saving-calculator"
       },
       "analysis": ""
     },
@@ -746,18 +746,6 @@
         "url": "https://www.technologyreview.com/2026/06/02/1138277/the-download-ai-tips-small-businesses-admin/"
       },
       "analysis": "At Nubank, the \"AI can run your admin department\" concept directly impacts our research workflow by offering opportunities to automate tedious, time-consuming tasks. Imagine AI assisting with the initial screening and categorization of feedback from thousands of customer support interactions related to PIX transactions, or even summarizing survey responses for loan applications. This could free up researchers to spend more time on qualitative analysis, generative research, and strategy development, rather than manual data wrangling. For instance, AI tools could pre-process interview transcripts for card activation issues, identifying recurring pain points before we even begin thematic analysis. This allows us to focus on the *why* behind user behaviors, not just the *what*.\n\nTo apply this, researchers should actively explore AI-powered tools for data summarization, transcription, sentiment analysis, and competitor intelligence gathering. For example, when researching improvements to our onboarding flow, AI could help quickly identify common themes in user comments about initial setup difficulties. However, we must proceed with caution. AI should be viewed as an assistant, not a replacement for human judgment. Guardrails are essential: any AI-generated insights or summaries must be critically reviewed and validated by experienced researchers. We should prioritize AI tools that offer transparency in their processes and avoid relying solely on AI for critical decision-making, especially in sensitive areas like insurance product development or assessing user trust during sensitive flows."
-    },
-    {
-      "date": "2026-06-01",
-      "title": "UX Roundup: Ecommerce Usability Fails | Social Media Less Social | Overseeing Agents | Your Team as Video Game Characters | UX Hero | Seedance",
-      "summary": "Summary: The two most conversion-killing ecommerce usability fails | Social media use remains strong but the platforms are becoming less about connecting with other people | The usability of overseeing AI agents | Team-building image idea: design video game characters | Profes...",
-      "content": "Summary: The two most conversion-killing ecommerce usability fails | Social media use remains strong but the platforms are becoming less about connecting with other people | The usability of overseeing AI agents | Team-building image idea: design video game characters | Professor Ben Shneiderman was one of the greatest early pioneers of user experience | Seedance 2 as PC software concept",
-      "category": "Survey optimization",
-      "source": {
-        "name": "Jakob Nielsen (Substack)",
-        "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260601"
-      },
-      "analysis": "At Nubank, this roundup's insights on e-commerce usability failures are directly applicable to improving our transactional flows. For instance, understanding conversion killers can help us optimize the PIX payment process or the card activation journey, ensuring fewer drop-offs and a smoother customer experience. Researchers should prioritize identifying and mitigating these friction points through focused usability testing, particularly in high-stakes areas like loan applications or insurance policy purchases.\n\nThe discussion on social media's shift towards less social interaction is less direct for core banking products but informs our understanding of user expectations for digital engagement. While we aim for efficient service, we must also ensure our communication channels and community-building efforts don't inadvertently feel impersonal. The idea of framing the team as video game characters could be a valuable tool for fostering creative problem-solving and team cohesion, especially when tackling complex challenges like improving the onboarding experience for new customers or iterating on the credit limit adjustment flow. This can help us approach design problems with fresh perspectives and encourage cross-functional collaboration in a fun, engaging way."
     }
   ]
 }
