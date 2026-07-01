@@ -1,56 +1,56 @@
 {
-  "month": "2026-06",
-  "updated": "2026-06-30",
+  "month": "2026-07",
+  "updated": "2026-07-01",
   "themes": [
     {
-      "name": "Agentic AI in research",
-      "count": 141,
-      "description": "Focuses on AI agents that can autonomously perform research tasks, gather information, and make decisions within research workflows."
-    },
-    {
       "name": "AI coding assistants",
-      "count": 135,
-      "description": "Covers AI tools and techniques that assist developers in writing, debugging, and optimizing code."
+      "count": 2,
+      "description": "Articles discussing AI tools that aid developers in writing, debugging, or understanding code."
     },
     {
-      "name": "AI research tools",
-      "count": 114,
-      "description": "Articles discussing various AI-powered tools designed to aid researchers in data collection, analysis, and insight generation."
+      "name": "AI research platform",
+      "count": 2,
+      "description": "Articles about platforms or tools specifically designed to facilitate AI-driven research in scientific or technical domains."
     },
     {
-      "name": "AI summarization",
-      "count": 86,
-      "description": "Articles that focus on AI's ability to condense large amounts of text or data into concise summaries, highlighting key information."
+      "name": "AI cost optimization",
+      "count": 2,
+      "description": "Articles detailing strategies and techniques for reducing the costs associated with using AI models and APIs."
     },
     {
-      "name": "AI for product management",
-      "count": 59,
-      "description": "Explores how AI is being applied to product management tasks, including feature prioritization, market analysis, and user feedback synthesis."
+      "name": "AI content generation",
+      "count": 1,
+      "description": "Articles exploring the use of AI to create various forms of content, such as fashion photography."
     },
     {
-      "name": "AI chatbot research",
-      "count": 57,
-      "description": "Articles detailing research into the capabilities, limitations, ethical implications, and user interactions with AI chatbots."
+      "name": "Agentic AI in research",
+      "count": 1,
+      "description": "Articles focusing on AI agents that can perform research tasks autonomously, including potential risks."
     },
     {
-      "name": "AI customer insights",
-      "count": 52,
-      "description": "Focuses on how AI is used to analyze customer data and behaviors to generate actionable insights for businesses."
-    },
-    {
-      "name": "AI research tools comparison",
-      "count": 42,
-      "description": "Articles directly comparing the features, performance, and effectiveness of different AI-powered research tools."
+      "name": "AI workforce impact",
+      "count": 1,
+      "description": "Articles examining how AI adoption affects hiring trends and job markets."
     },
     {
       "name": "AI for design & research",
-      "count": 35,
-      "description": "Covers the intersection of AI with design processes, including AI's role in user research, ideation, and design system development."
+      "count": 1,
+      "description": "Articles covering AI applications that assist in the design process and user research activities."
     },
     {
-      "name": "AI tool evaluation",
-      "count": 33,
-      "description": "Articles that assess and review the performance, usability, and value of specific AI tools for research and design."
+      "name": "AI-powered data analysis",
+      "count": 1,
+      "description": "Articles about AI techniques used to analyze and extract insights from data, such as relation extraction."
+    },
+    {
+      "name": "AI model advancements",
+      "count": 1,
+      "description": "Articles announcing or discussing new AI models and their capabilities across different domains."
+    },
+    {
+      "name": "AI for product management",
+      "count": 1,
+      "description": "Articles focusing on how AI can be utilized to enhance product development and management processes."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
