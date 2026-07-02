@@ -1,8 +1,56 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-07-02T04:12:46.241Z",
+  "lastUpdated": "2026-07-02T10:49:58.655Z",
   "updates": [
+    {
+      "date": "2026-07-02",
+      "title": "AI personality is a design problem",
+      "summary": "Right now it’s an accidental byproduct of AI alignment. It could be an interface we build deliberately. Continue reading on UX Collective »",
+      "content": "Right now it’s an accidental byproduct of AI alignment. It could be an interface we build deliberately. Continue reading on UX Collective »",
+      "category": "Synthetic users",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/ai-personality-is-a-design-problem-58fbc7926a3d?source=rss----138adf9c44c---4"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-07-02",
+      "title": "Best AI UX Design Agencies for B2B SaaS (2026) | Parallel",
+      "summary": "Best AI UX Design Agencies for B2B SaaS (2026). Independent, regularly-updated comparison from Parallel.",
+      "content": "Best AI UX Design Agencies for B2B SaaS (2026). Independent, regularly-updated comparison from Parallel.",
+      "category": "AI research tools",
+      "source": {
+        "name": "Parallel Blog",
+        "url": "https://www.parallelhq.com/blog/best-ai-ux-design-agencies-for-b2b-saas-2026"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-07-02",
+      "title": "Best AI UX Design Agencies for AI Startups (2026) | Parallel",
+      "summary": "Best AI UX Design Agencies for AI Startups (2026). Independent, regularly-updated comparison from Parallel.",
+      "content": "Best AI UX Design Agencies for AI Startups (2026). Independent, regularly-updated comparison from Parallel.",
+      "category": "AI research tools",
+      "source": {
+        "name": "Parallel Blog",
+        "url": "https://www.parallelhq.com/blog/best-ai-ux-design-agencies-for-ai-startups-2026"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-07-02",
+      "title": "UX Design Pricing: 2026 Cost Guide | Parallel",
+      "summary": "UX Design Pricing: 2026 Cost Guide. Parallel partners with US AI-native and B2B SaaS teams.",
+      "content": "This article from Parallel offers a glimpse into the projected costs of UX design services by 2026, specifically highlighting their partnerships with US-based AI-native and B2B SaaS companies. For UX researchers, understanding these evolving market rates is crucial for benchmarking internal resource allocation and external vendor selection.  The guide implies that as AI becomes more integrated into design processes, the economics of UX will shift, potentially impacting the perceived value and pricing of human expertise. This foresight allows researchers to anticipate budget adjustments and advocate for necessary investments in tools and talent.",
+      "category": "General AI in research",
+      "source": {
+        "name": "Parallel Blog",
+        "url": "https://www.parallelhq.com/blog/ux-design-cost"
+      },
+      "analysis": "At Nubank, this article's focus on AI-driven UX design pricing can inform our strategic planning for the future of our research operations. Researchers should leverage this insight when evaluating the cost-effectiveness of incorporating AI tools for tasks like sentiment analysis on customer feedback from PIX transactions or automating aspects of user interview transcription for loan product research. This understanding helps us justify investments in new research technologies or specialized training to keep pace with industry trends.\n\nWhen applying this information, researchers should consider it a directional guide for future budgeting, not a rigid benchmark. While the article mentions AI-native companies, Nubank's broad user base, encompassing onboarding new customers, managing card activation, and offering insurance products, presents a unique set of UX challenges. Therefore, we should apply these insights cautiously, focusing on how AI can augment, rather than entirely replace, human-led research, particularly in areas requiring deep empathy and understanding of diverse user needs within the Brazilian market.  It's essential to maintain guardrails that prioritize user privacy and ethical AI use in all our research endeavors."
+    },
     {
       "date": "2026-07-01",
       "title": "Best AI UX Design Agencies for Startups (2026) | Parallel",
@@ -103,7 +151,7 @@
       "date": "2026-06-30",
       "title": "Time is Money: How Pre-Validated UX Research Protects Your Resources & Budget",
       "summary": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) When you try to prove the value of your design decisions, you often hit a wall. To back up you...",
-      "content": "This Baymard Institute article champions the strategic advantage of \"pre-validated\" UX research, arguing that upfront, rigorous validation of design choices significantly safeguards development resources and budgets. The core idea is that by investing in early-stage user testing and data-driven insights, teams can avoid costly mid-project or post-launch redesigns stemming from flawed assumptions. For UX researchers, this means shifting focus from reactive problem-solving to proactive risk mitigation, ensuring that development efforts are aligned with genuine user needs and behaviors from the outset. The practical implication is a more efficient and effective product development lifecycle, ultimately leading to higher user satisfaction and better business outcomes.",
+      "content": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) When you try to prove the value of your design decisions, you often hit a wall. To back up your designs confidently, you need robust usability research. But conducting that research yourself for every minor UI change or UX decision is expensive and time-consuming. Baymard’s pre-validated research gives teams like yours access to established UX best practices in an instant, which helps you ship designs faster, more confidently, and protects your costs by reducing the research overheads. To demonstrate that value, we’ve created a calculator that shows how a Baymard subscription helps you move faster and keep your UX research costs down. Note: This calculator demonstrates initial cost savings based on consuming Baymard’s insights versus running new user research yourself. Baymard users typically see further value realizations from implementing those insights and improving website user experience and conversion rates. The Hidden Cost of Your In-House User Research It’s easy to fall into the trap of thin...",
       "category": "General AI in research",
       "source": {
         "name": "Baymard Institute",
@@ -173,7 +221,7 @@
     },
     {
       "date": "2026-06-25",
-      "title": "10 ways to make Claude think like a research partner (+ Free lesson sign-up)",
+      "title": "10 ways to make Claude think like a research partner",
       "summary": "The cheat codes I run before a study starts and before a readout I'm nervous about",
       "content": "Nikki Anderson's article explores how to leverage AI models like Claude as sophisticated research assistants, moving beyond basic task execution to a more collaborative partnership. The core idea is to prompt Claude with specific \"cheat codes\" to elicit deeper, more nuanced insights, particularly before critical research study launches or when presenting findings. This matters for UX researchers because it can significantly enhance efficiency and the quality of research outcomes, enabling quicker analysis of qualitative data and more insightful report generation. Practically, this means crafting prompts that guide the AI to synthesize user feedback, identify patterns, and even simulate user personas, ultimately freeing up researcher time for strategic thinking and deeper interpretation.",
       "category": "AI coding assistants",
