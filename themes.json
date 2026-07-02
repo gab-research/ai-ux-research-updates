@@ -4,42 +4,42 @@
   "themes": [
     {
       "name": "AI research tools",
-      "count": 23,
+      "count": 28,
       "description": "New AI tool launches, reviews, and platforms built for research workflows."
     },
     {
       "name": "AI coding assistants",
-      "count": 19,
+      "count": 23,
       "description": "Copilot, Claude Code, Cursor, and other AI tools for code generation and development."
     },
     {
-      "name": "Agentic AI in research",
-      "count": 13,
-      "description": "Autonomous AI agents running research tasks, multi-agent frameworks, and orchestration."
+      "name": "AI workforce impact",
+      "count": 16,
+      "description": "AI replacing roles, future of work, skills gap, reskilling, and organizational change."
     },
     {
       "name": "Survey optimization",
-      "count": 12,
+      "count": 13,
       "description": "AI tools for designing better surveys, reducing bias, and analyzing responses."
     },
     {
       "name": "AI content generation",
-      "count": 11,
+      "count": 12,
       "description": "AI writing, report generation, UX copy, and content creation."
     },
     {
-      "name": "AI workforce impact",
-      "count": 9,
-      "description": "AI replacing roles, future of work, skills gap, reskilling, and organizational change."
-    },
-    {
       "name": "Conversational AI in research",
-      "count": 8,
+      "count": 11,
       "description": "Chatbots, virtual assistants, and voice AI in research contexts."
     },
     {
+      "name": "Agentic AI in research",
+      "count": 11,
+      "description": "Autonomous AI agents running research tasks, multi-agent frameworks, and orchestration."
+    },
+    {
       "name": "AI-powered data analysis",
-      "count": 7,
+      "count": 8,
       "description": "Automated data analysis, clustering, segmentation, and pattern detection."
     },
     {
@@ -48,9 +48,9 @@
       "description": "Automated transcript summaries, theme extraction, and affinity mapping."
     },
     {
-      "name": "AI tool evaluation",
+      "name": "AI for product management",
       "count": 5,
-      "description": "Comparing, benchmarking, and selecting AI tools and LLMs for specific use cases."
+      "description": "AI in product decisions, discovery, prioritization, and roadmapping."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
