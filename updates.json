@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-07-03T03:58:08.466Z",
+  "lastUpdated": "2026-07-03T10:46:39.542Z",
   "updates": [
+    {
+      "date": "2026-07-03",
+      "title": "The UK’s generational tobacco ban might not work. I’m supporting it anyway.",
+      "summary": "As the parent of two little girls, I often think about how their childhood is different from mine. The seven-year-old is learning about AI at school. The five-year-old is given internet-based homework every week. And they are both absolutely repulsed by the idea of smoking. Th...",
+      "content": "As the parent of two little girls, I often think about how their childhood is different from mine. The seven-year-old is learning about AI at school. The five-year-old is given internet-based homework every week. And they are both absolutely repulsed by the idea of smoking. That was not the prevailing sentiment when I was young.…",
+      "category": "General AI in research",
+      "source": {
+        "name": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/2026/07/03/1140036/uk-tobacco-ban-might-not-work-children-smoking/"
+      },
+      "analysis": ""
+    },
     {
       "date": "2026-07-02",
       "title": "AI personality is a design problem",
@@ -751,7 +763,7 @@
       "date": "2026-06-03",
       "title": "How To Make Your Design System AI-Ready",
       "summary": "Practical guide on how to reduce drifts, minimize mistakes, maintain context, and improve the quality of AI-generated prototypes. Brought to you by Design Patterns For AI Interfaces, **friendly video course on UX** and design patterns by Vitaly.",
-      "content": "This Smashing Magazine article offers a practical framework for preparing design systems to effectively integrate AI-driven tools. It emphasizes that a well-structured and AI-ready design system is crucial for mitigating common issues like design drift, factual inaccuracies, and loss of contextual understanding when generating AI prototypes. For UX researchers, this is vital as it allows for more reliable and efficient iteration on new product features, from enhancing the PIX experience to streamlining loan applications. By ensuring a consistent and governed design language, researchers can leverage AI to quickly explore and validate design directions, ultimately improving the quality and speed of product development.",
+      "content": "Practical guide on how to reduce drifts, minimize mistakes, maintain context, and improve the quality of AI-generated prototypes. Brought to you by Design Patterns For AI Interfaces, **friendly video course on UX** and design patterns by Vitaly.",
       "category": "AI research tools",
       "source": {
         "name": "Smashing Magazine",
@@ -763,7 +775,7 @@
       "date": "2026-06-03",
       "title": "Introducing new capabilities to GPT-Rosalind",
       "summary": "GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities.",
-      "content": "OpenAI's GPT-Rosalind represents a significant leap in AI's application to complex scientific domains, specifically life sciences. By integrating advanced biological reasoning, medicinal chemistry insights, genomic analysis, and experimental workflow management, it offers a powerful tool for accelerating discovery and innovation. For UX researchers, this signifies the growing maturity of AI in handling specialized knowledge, moving beyond general text generation to specialized domains. This development suggests future AI tools could offer deep, context-aware assistance in understanding user needs within specific industry verticals, potentially streamlining research synthesis and hypothesis generation for complex financial products.",
+      "content": "GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities.",
       "category": "General AI in research",
       "source": {
         "name": "OpenAI Blog",
