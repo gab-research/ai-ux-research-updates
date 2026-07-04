@@ -1,56 +1,56 @@
 {
   "month": "2026-07",
-  "updated": "2026-07-03",
+  "updated": "2026-07-04",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 15,
-      "description": "Focuses on AI agents designed to perform research tasks autonomously or semi-autonomously, including planning, execution, and learning."
+      "count": 26,
+      "description": "Articles discussing AI agents designed to perform research tasks autonomously, often involving multiple steps and decision-making."
     },
     {
       "name": "AI coding assistants",
-      "count": 11,
-      "description": "Articles discussing AI tools that help developers write, debug, and refactor code, speeding up the development process."
-    },
-    {
-      "name": "AI for design & research",
-      "count": 10,
-      "description": "Covers the application of AI in various stages of the design and user research process, from ideation to validation."
+      "count": 20,
+      "description": "Focuses on AI tools that help developers write, review, debug, or understand code."
     },
     {
       "name": "AI research tools",
-      "count": 9,
-      "description": "Highlights AI-powered platforms and software specifically designed to aid researchers in data collection, analysis, and insight generation."
+      "count": 13,
+      "description": "Broad category for AI applications that assist in various aspects of research, from data analysis to literature review."
+    },
+    {
+      "name": "AI design research",
+      "count": 8,
+      "description": "Covers AI applications used specifically in the design process, including generative design, UI generation, and design system support."
     },
     {
       "name": "Synthetic users",
-      "count": 7,
-      "description": "Explores the creation and use of artificial user representations or personas for testing and research purposes."
-    },
-    {
-      "name": "AI summarization",
-      "count": 7,
-      "description": "Focuses on AI's ability to condense large amounts of text, data, or conversations into concise summaries."
-    },
-    {
-      "name": "AI sentiment feedback",
-      "count": 6,
-      "description": "Articles that discuss using AI to analyze user feedback, reviews, and social media to understand sentiment and opinions."
-    },
-    {
-      "name": "AI customer insights",
-      "count": 5,
-      "description": "Covers the use of AI to extract actionable insights from customer data to understand behavior, preferences, and needs."
-    },
-    {
-      "name": "AI workforce impact",
-      "count": 5,
-      "description": "Examines how AI is changing job roles, required skills, and the overall employment landscape."
+      "count": 8,
+      "description": "Articles about AI-generated personas or simulated user behavior used for testing and research."
     },
     {
       "name": "AI research platform",
+      "count": 7,
+      "description": "Discusses AI platforms or workbenches designed to facilitate scientific or broad research activities."
+    },
+    {
+      "name": "AI summarization",
+      "count": 6,
+      "description": "AI capabilities that condense large amounts of text or data into concise summaries for quicker understanding."
+    },
+    {
+      "name": "AI sentiment feedback",
       "count": 5,
-      "description": "Focuses on integrated AI environments or platforms designed to support various aspects of scientific or research work."
+      "description": "Utilizing AI to analyze user feedback, reviews, or comments to gauge sentiment and identify key themes."
+    },
+    {
+      "name": "AI testing automation",
+      "count": 4,
+      "description": "AI applications focused on automating testing processes, including QA and validation."
+    },
+    {
+      "name": "AI workforce impact",
+      "count": 4,
+      "description": "Examines how AI is changing job roles, skill requirements, and the overall employment landscape."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
