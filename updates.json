@@ -1,19 +1,19 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-07-04T03:51:40.644Z",
+  "lastUpdated": "2026-07-04T10:20:02.467Z",
   "updates": [
     {
       "date": "2026-07-03",
       "title": "The UK’s generational tobacco ban might not work. I’m supporting it anyway.",
       "summary": "As the parent of two little girls, I often think about how their childhood is different from mine. The seven-year-old is learning about AI at school. The five-year-old is given internet-based homework every week. And they are both absolutely repulsed by the idea of smoking. Th...",
-      "content": "As the parent of two little girls, I often think about how their childhood is different from mine. The seven-year-old is learning about AI at school. The five-year-old is given internet-based homework every week. And they are both absolutely repulsed by the idea of smoking. That was not the prevailing sentiment when I was young.…",
+      "content": "This article argues for supporting the UK's generational tobacco ban, despite acknowledging potential efficacy challenges. The author uses their children's modern upbringing, exposed to AI in education and digital homework, as a stark contrast to their own past. The core argument is that even if a policy isn't perfectly effective, societal progress and the protection of future generations from harmful products is a worthwhile endeavor. For UX researchers, this highlights the importance of considering long-term societal impact and evolving user expectations in product development. It suggests that even if a feature or product doesn't immediately achieve all its goals, its adoption of forward-thinking principles can contribute to a healthier user ecosystem.",
       "category": "General AI in research",
       "source": {
         "name": "MIT Technology Review",
         "url": "https://www.technologyreview.com/2026/07/03/1140036/uk-tobacco-ban-might-not-work-children-smoking/"
       },
-      "analysis": ""
+      "analysis": "At Nubank, this article's core message about societal progress and future-proofing can inform our approach to new product development, particularly in areas like financial literacy and responsible credit. When researching features for our PIX, loans, or insurance products, we should consider not just immediate user needs but also the long-term financial well-being of our customers, especially younger demographics. This means exploring how to design interfaces and educational components that foster sustainable financial habits, akin to how the author's children are being raised with an awareness of modern challenges.\n\nResearchers should actively seek to understand how emerging technologies and societal shifts, like the increasing digital fluency of younger generations, influence financial behaviors. This could involve qualitative studies on how Gen Z interacts with digital banking for the first time (onboarding) or quantitative analysis of long-term engagement with credit products. When designing for card activation or introducing new insurance offerings, we should ask: \"What future-proofing or preventative measures are we building into this experience to protect users from potential future financial pitfalls?\" This perspective encourages a more proactive and ethically driven UX approach, anticipating future needs and risks rather than solely reacting to present ones. However, we must remain grounded in data and avoid paternalistic design; the goal is empowerment, not restriction, ensuring all customer segments can benefit from Nubank's accessible financial solutions."
     },
     {
       "date": "2026-07-03",
@@ -734,18 +734,6 @@
         "url": "https://www.uxpin.com/studio/blog/google-gemini-ai-ux-overhaul-macos-app/"
       },
       "analysis": "This article is highly relevant to our ongoing efforts to leverage AI for enhancing user experience at Nubank. Researchers should integrate the learnings from Gemini's overhaul into our design thinking, particularly when exploring AI-powered features for our core products like PIX transactions, loan applications, or card activation. We can draw inspiration for creating more native, desktop-friendly AI interfaces if we consider future integrations for tools supporting our fraud detection teams or customer support agents.\n\nSpecifically, this means our research should actively investigate how users interact with AI when it's not confined to a mobile app. For instance, how could an AI assistant integrated into our internal dashboards provide real-time insights during a loan underwriting process? Or how could a desktop AI tool streamline complex insurance claim submissions for our customers? We need to consider the potential for \"ambient intelligence\" – AI that is present and helpful without being intrusive – and research user needs and preferences for such experiences, ensuring we maintain our commitment to simplicity and ease of use, even with more advanced AI capabilities.  Guardrails would include rigorously testing for privacy concerns, ensuring AI recommendations are unbiased, and validating that these more integrated AI experiences truly simplify user journeys rather than adding complexity, especially in sensitive areas like financial management and onboarding."
-    },
-    {
-      "date": "2026-06-04",
-      "title": "Stop re-explaining your frameworks to Claude every morning",
-      "summary": "A walkthrough of what skills are, how to use the Skill Creator, and why feeding it your real work is the difference between a skill that is fine and a skill you would trust in a research moment",
-      "content": "This article advocates for a more efficient and personalized use of AI assistants like Claude in UX research by leveraging a feature called \"Skill Creator.\" Instead of repeatedly briefing the AI on your team's methodologies and context, you can train it to \"know\" your frameworks, terminology, and preferred analysis styles. This custom knowledge base is crucial because it allows the AI to generate more relevant, nuanced, and actionable insights tailored to your specific research needs, transforming it from a generic tool into a trusted research partner.",
-      "category": "AI ethics in research",
-      "source": {
-        "name": "Nikki Anderson (User Research Strategist)",
-        "url": "https://www.userresearchstrategist.com/p/stop-re-explaining-your-frameworks"
-      },
-      "analysis": "At Nubank, this \"Skill Creator\" concept can significantly streamline our research processes, especially when dealing with complex product flows like PIX transfers, loan applications, or onboarding new users. Instead of researchers spending valuable time reiterating our established frameworks for usability testing, sentiment analysis, or competitive benchmarking to an AI each morning, a dedicated \"research skill\" could be built. This skill could encapsulate Nubank's unique UX principles, our internal terminology for user pain points, and even common patterns observed across products like credit card activation or insurance claim processes.\n\nResearchers could then use this specialized skill when interacting with Claude for tasks such as synthesizing interview transcripts for loan applications, generating hypotheses for PIX friction points, or drafting initial usability reports for card activation flows. This means quicker initial drafts, more contextually aware suggestions, and ultimately, more impactful research findings that align with Nubank's strategic objectives. However, guardrails are essential. We must ensure that the training data for these skills remains anonymized and respects user privacy. Furthermore, AI-generated insights should always be treated as a starting point for human critical analysis, not as definitive conclusions. Researchers must retain ownership and apply their expert judgment to validate and refine any AI-generated output, particularly when dealing with sensitive customer data or critical product decisions."
     },
     {
       "date": "2026-06-04",
