@@ -8,8 +8,13 @@
       "description": "New AI tool launches, reviews, and platforms built for research workflows."
     },
     {
+      "name": "AI workforce impact",
+      "count": 20,
+      "description": "AI replacing roles, future of work, skills gap, reskilling, and organizational change."
+    },
+    {
       "name": "Survey optimization",
-      "count": 24,
+      "count": 20,
       "description": "AI tools for designing better surveys, reducing bias, and analyzing responses."
     },
     {
@@ -18,13 +23,8 @@
       "description": "Automated data analysis, clustering, segmentation, and pattern detection."
     },
     {
-      "name": "AI workforce impact",
-      "count": 18,
-      "description": "AI replacing roles, future of work, skills gap, reskilling, and organizational change."
-    },
-    {
       "name": "AI coding assistants",
-      "count": 17,
+      "count": 16,
       "description": "Copilot, Claude Code, Cursor, and other AI tools for code generation and development."
     },
     {
@@ -34,22 +34,22 @@
     },
     {
       "name": "Agentic AI in research",
-      "count": 10,
+      "count": 11,
       "description": "Autonomous AI agents running research tasks, multi-agent frameworks, and orchestration."
     },
     {
-      "name": "AI ethics in research",
-      "count": 9,
-      "description": "Bias, fairness, responsible AI, privacy, and trust in research."
-    },
-    {
       "name": "AI for product management",
-      "count": 7,
+      "count": 8,
       "description": "AI in product decisions, discovery, prioritization, and roadmapping."
     },
     {
+      "name": "AI ethics in research",
+      "count": 8,
+      "description": "Bias, fairness, responsible AI, privacy, and trust in research."
+    },
+    {
       "name": "AI summarization",
-      "count": 5,
+      "count": 7,
       "description": "Automated transcript summaries, theme extraction, and affinity mapping."
     }
   ],
