@@ -1,8 +1,32 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-07-06T04:16:44.975Z",
+  "lastUpdated": "2026-07-06T12:12:35.728Z",
   "updates": [
+    {
+      "date": "2026-07-06",
+      "title": "Design system debt, game UX, 39 principles for AI interaction",
+      "summary": "Design system debt, game UX, 39 principles for AI interaction",
+      "content": "Design system debt, game UX, 39 principles for AI interaction",
+      "category": "AI research tools",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/design-system-debt-game-ux-39-principles-for-ai-interaction-dab9500dc926?source=rss----138adf9c44c---4"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-07-06",
+      "title": "When AI Collapses Research, Design & Engineering",
+      "summary": "Dr. Andrew Muir Wood on what changes when AI collapses research, design, and engineering into one role, and how to prototype, test, and keep judgment sharp.",
+      "content": "Dr. Andrew Muir Wood on what changes when AI collapses research, design, and engineering into one role, and how to prototype, test, and keep judgment sharp.",
+      "category": "AI for design & research",
+      "source": {
+        "name": "Great Question Blog",
+        "url": "https://cms.greatquestion.co/blog/ai-removes-handoff-research-design-engineering"
+      },
+      "analysis": ""
+    },
     {
       "date": "2026-07-03",
       "title": "The UK’s generational tobacco ban might not work. I’m supporting it anyway.",
