@@ -1,19 +1,19 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-07-06T12:12:35.728Z",
+  "lastUpdated": "2026-07-06T18:16:55.276Z",
   "updates": [
     {
       "date": "2026-07-06",
       "title": "Design system debt, game UX, 39 principles for AI interaction",
       "summary": "Design system debt, game UX, 39 principles for AI interaction",
-      "content": "Design system debt, game UX, 39 principles for AI interaction",
+      "content": "This article dives into three critical areas for UX practitioners: the accumulation of \"design system debt,\" the unique challenges and opportunities in \"game UX,\" and a framework of \"39 principles for AI interaction.\"  The concept of design system debt highlights how neglecting maintenance and evolution of design systems can lead to inefficiencies and inconsistencies, impacting long-term product quality.  For UX researchers, understanding these areas is vital as AI becomes increasingly integrated into user experiences, requiring new research methodologies to evaluate usability, ethics, and user delight in AI-driven features. The principles for AI interaction offer a structured approach to designing more intuitive and trustworthy AI experiences.",
       "category": "AI research tools",
       "source": {
         "name": "UX Collective (Medium)",
         "url": "https://uxdesign.cc/design-system-debt-game-ux-39-principles-for-ai-interaction-dab9500dc926?source=rss----138adf9c44c---4"
       },
-      "analysis": ""
+      "analysis": "At Nubank, this article's insights are highly relevant to our ongoing efforts to scale and mature our UX practices, especially as we explore AI integrations. For design system debt, researchers can proactively identify and advocate for the upkeep of our design system during user testing sessions. By observing how users navigate inconsistencies or friction points that stem from an outdated design system across products like PIX or credit card onboarding, we can quantify the impact and justify necessary investments.  This principle encourages us to not only test the usability of new features but also the underlying architectural health of our interfaces.\n\nRegarding AI interaction principles, this framework offers a valuable lens for evaluating our nascent AI-powered features, such as those that might personalize loan offers or assist in insurance claim processes. Researchers should integrate these 39 principles into our existing qualitative research methods. For instance, during usability testing of a new AI chatbot for customer support, we can assess its adherence to principles of transparency, control, and error handling. This allows us to move beyond basic task completion metrics and delve into user trust, comprehension, and overall satisfaction with AI-driven interactions, ensuring we build responsible and delightful experiences that align with Nubank's brand promise."
     },
     {
       "date": "2026-07-06",
@@ -24,6 +24,18 @@
       "source": {
         "name": "Great Question Blog",
         "url": "https://cms.greatquestion.co/blog/ai-removes-handoff-research-design-engineering"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-07-06",
+      "title": "UX Roundup: UX Benchmark | Impact of AI Mentions | Character Design Workflow | AI Maturity | UX Hero: Stu Card | Microsoft FDE",
+      "summary": "UX benchmark for AI | Being mentioned in AI answers drives subsequent user behavior | Cheaper character design workflow for new video | AI maturity model | My hero: Dr. Stuart K. Card of Xerox PARC | Microsoft FDE",
+      "content": "UX benchmark for AI | Being mentioned in AI answers drives subsequent user behavior | Cheaper character design workflow for new video | AI maturity model | My hero: Dr. Stuart K. Card of Xerox PARC | Microsoft FDE",
+      "category": "AI in user testing",
+      "source": {
+        "name": "Jakob Nielsen (Substack)",
+        "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260706"
       },
       "analysis": ""
     },
