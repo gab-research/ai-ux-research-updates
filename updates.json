@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-07-08T10:26:51.645Z",
+  "lastUpdated": "2026-07-08T17:46:20.374Z",
   "updates": [
     {
       "date": "2026-07-08",
@@ -14,6 +14,18 @@
         "url": "https://cms.greatquestion.co/blog/protecting-pii-in-research-ops"
       },
       "analysis": "At Nubank, this article directly impacts our UX research practices across all product lines, from the initial onboarding flow for new customers to the sensitive data involved in loan applications, PIX transactions, and insurance policy management. Researchers must proactively identify and classify any PII collected during user interviews, usability tests, surveys, or even from platform analytics. This involves mapping where this data is stored within our research tools and development environments, ensuring only authorized personnel have access and that data is anonymized or pseudonymized whenever possible.\n\nOur researchers should implement a \"privacy by design\" mindset. This means anonymizing participant data *before* it's fed into AI models for analysis, such as sentiment analysis on customer feedback for our credit card activation flow or predictive modeling for loan default risk. Before sharing any research findings that might inadvertently expose PII, thorough review and sanitization are essential. We need to establish clear data retention policies, ensuring that raw participant data is deleted after a defined period, especially after features like checking account balances or managing investments have been thoroughly tested and iterated upon. This will be incorporated into our existing research project templates and training modules to ensure consistent application."
+    },
+    {
+      "date": "2026-07-08",
+      "title": "Flint: A visualization language for the AI era",
+      "summary": "Short chart specifications are easy to write, but often produce uninspiring results. Flint is an open-source visualization language that offers a middle path, letting AI agents create expressive charts from compact, human-editable specifications. The post Flint: A visualizatio...",
+      "content": "This article introduces Flint, a novel visualization language designed to bridge the gap between simple, yet often uninspired, chart specifications and complex, fully automated visualization generation. Flint empowers AI agents to create visually compelling and informative charts by interpreting compact, human-editable descriptions. This innovation is significant for UX researchers as it promises to democratize data visualization, allowing for rapid iteration and more insightful exploration of user behavior and feedback.  The practical implication is the ability to generate high-quality, tailored visualizations for research reports and dashboards with less manual effort, potentially speeding up the discovery of user pain points in areas like PIX transaction analysis or loan application friction.",
+      "category": "AI-powered data analysis",
+      "source": {
+        "name": "Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/blog/flint-a-visualization-language-for-the-ai-era/"
+      },
+      "analysis": "At Nubank, Flint could be integrated into our data analysis workflow by empowering researchers to quickly generate visualizations for key user journeys. For instance, after analyzing user feedback on the PIX flow, a researcher could use Flint to generate a series of expressive charts depicting transaction success rates, common error points, and user satisfaction metrics, transforming raw data into easily digestible insights for product teams. This could also be applied to understanding user drop-off points during loan applications or identifying areas of confusion during the initial card activation or onboarding processes.\n\nResearchers should experiment with Flint by starting with compact, descriptive specifications for common chart types they need. The goal is to leverage AI's ability to add expressiveness and nuance beyond basic bar or line charts, creating visualizations that better highlight user sentiment or behavioral patterns. It's crucial to remember that Flint is a tool to augment, not replace, critical thinking. Researchers must still define the right questions, interpret the AI-generated visualizations contextually, and validate findings through traditional qualitative methods. Potential limitations include the AI's understanding of highly nuanced qualitative data and the need for clear, unambiguous specifications to avoid misinterpretations in visualizations related to complex products like insurance or investment offerings."
     },
     {
       "date": "2026-07-06",
