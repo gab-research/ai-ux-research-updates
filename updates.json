@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-07-09T11:24:01.352Z",
+  "lastUpdated": "2026-07-09T18:04:43.210Z",
   "updates": [
     {
       "date": "2026-07-09",
@@ -14,6 +14,18 @@
         "url": "https://www.userresearchstrategist.com/p/claude-101-for-user-researchers"
       },
       "analysis": "At Nubank, Claude can be integrated into our research workflow to accelerate discovery and analysis. For instance, during the ideation phase for new features like simplified PIX transfers or improved loan application experiences, researchers could use Claude to brainstorm potential user pain points or generate diverse user personas based on existing research archives.  Post-study, Claude can help draft initial summaries of interview transcripts or survey responses, identifying emergent themes that can then be rigorously validated by the researcher. This allows us to dedicate more time to nuanced qualitative analysis and strategic recommendations for products like our credit card activation flow or customer onboarding.\n\nHowever, it's imperative that researchers treat Claude's outputs as starting points, not final deliverables.  Critical evaluation is paramount; do Claude's insights align with our understanding of the Brazilian user base and their unique financial behaviors?  We must actively scrutinize any AI-generated hypotheses or summaries against our domain expertise and ethical guidelines, especially when dealing with sensitive data related to insurance products or personal financial management.  The \"human in the loop\" remains the most crucial element, ensuring our research remains empathetic, accurate, and aligned with Nubank's commitment to transparency and user trust."
+    },
+    {
+      "date": "2026-07-09",
+      "title": "DesignOps in the age of AI: when governance becomes orchestration",
+      "summary": "DesignOps is shifting from governing human-led process to orchestrating human and AI technology towards ethical, meaningful outcomes. Continue reading on UX Collective »",
+      "content": "DesignOps is shifting from governing human-led process to orchestrating human and AI technology towards ethical, meaningful outcomes. Continue reading on UX Collective »",
+      "category": "AI ethics in research",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/designops-in-the-age-of-ai-when-governance-becomes-orchestration-7b946ceea70f?source=rss----138adf9c44c---4"
+      },
+      "analysis": ""
     },
     {
       "date": "2026-07-08",
@@ -686,18 +698,6 @@
         "url": "https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/"
       },
       "analysis": "This concern about multi-agent AI interactions directly impacts our UX research by prompting us to consider the 'ecosystem' our products operate within, not just isolated user journeys. As Nubank increasingly integrates AI, from the onboarding flow to personalized loan offers and PIX transactions, we must proactively research potential emergent behaviors when these AI systems interact with each other or with external AI agents. This means moving beyond single-user testing to explore simulated environments where multiple AI agents (e.g., a credit scoring AI, a fraud detection AI, and a customer service bot) interact, observing for emergent issues that could impact user trust or security.\n\nResearchers should incorporate agent-based simulation and modeling into their qualitative and quantitative research plans, especially for complex areas like credit risk assessment or the negotiation of insurance policies. For instance, we can run simulations where an AI underwriting loan applications interacts with a separate AI managing fraud alerts, or where a PIX transaction AI encounters a customer service AI handling a dispute. This research will inform our design principles and ethical guidelines, ensuring we build robust guardrails to prevent undesirable collective actions, maintain user agency, and uphold Nubank's commitment to transparency and security across all our offerings, from card activation to post-purchase support."
-    },
-    {
-      "date": "2026-06-09",
-      "title": "Report Builder available for all tools, Richer Reports, and AI-Suggested Highlights",
-      "summary": "Hey UXtweakers, Today we’re sharing another round of updates that make synthesis faster, reports richer, and your research workflow more connected! 🐝 Here’s everything that’s new. Insights editor: now available ... The post Report Builder available for all tools, Richer Repor...",
-      "content": "Hey UXtweakers, Today we’re sharing another round of updates that make synthesis faster, reports richer, and your research workflow more connected! 🐝 Here’s everything that’s new. Insights editor: now available ... The post Report Builder available for all tools, Richer Reports, and AI-Suggested Highlights appeared first on Articles on everything UX: Research, Testing & Design.",
-      "category": "AI summarization",
-      "source": {
-        "name": "UX Tweak Blog",
-        "url": "https://blog.uxtweak.com/report-builder-available-for-all-tools-richer-reports-and-ai-suggested-highlights/"
-      },
-      "analysis": "At Nubank, these UX Tweak updates can be integrated into our post-research synthesis phase, particularly after user testing sessions for new features like PIX transaction improvements, loan application flows, or card activation processes. Researchers can leverage the Report Builder to consolidate qualitative feedback from interviews and quantitative data from surveys into a single, cohesive document. The AI-suggested highlights can act as an initial pass, flagging potential pain points or positive user sentiments within interview transcripts or open-ended survey responses, which researchers can then validate and expand upon.\n\nTo apply this, researchers should utilize the Report Builder to create standardized templates for different research types (e.g., usability testing reports for insurance policy onboarding, feature feedback reports for credit card management). This ensures consistency across projects and makes it easier for product teams to digest information.  When using AI-suggested highlights, researchers must exercise critical judgment; these suggestions are a starting point, not definitive conclusions.  Always cross-reference AI insights with the original data to ensure accuracy and context, especially when presenting findings related to sensitive flows like loan approvals or new customer onboarding."
     }
   ]
 }

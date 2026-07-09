@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 45,
-      "description": "Covers AI agents designed to autonomously perform research tasks, analyze data, or interact with systems for research purposes."
+      "count": 65,
+      "description": "Covers AI agents capable of performing multi-step research tasks, autonomous decision-making, and complex workflows without constant human intervention."
     },
     {
       "name": "AI coding assistants",
-      "count": 37,
-      "description": "Focuses on AI tools that help developers write, debug, and review code, including security aspects and agentic behavior."
+      "count": 29,
+      "description": "Focuses on AI tools designed to help developers write, review, debug, and refactor code, often integrated into IDEs."
+    },
+    {
+      "name": "AI for design & research",
+      "count": 20,
+      "description": "Encompasses AI applications that directly assist in the creative and investigative processes of design and user research, including idea generation and synthesis."
     },
     {
       "name": "AI research tools",
-      "count": 21,
-      "description": "Articles discussing various AI-powered tools specifically for research operations, synthesis, and analysis."
-    },
-    {
-      "name": "AI summarization",
       "count": 19,
-      "description": "Articles on AI's capability to condense large amounts of text or data into concise summaries for insights."
+      "description": "Highlights specific AI-powered platforms and software designed to facilitate and enhance various aspects of the research lifecycle."
     },
     {
       "name": "Synthetic users",
+      "count": 17,
+      "description": "Explores the use of AI to generate synthetic data, personas, or simulated user interactions for testing, analysis, or training."
+    },
+    {
+      "name": "AI summarization",
       "count": 16,
-      "description": "Explores the creation and use of AI-generated personas or data that mimic real users for testing or analysis."
+      "description": "Covers AI's ability to condense large amounts of text, research findings, or data into concise summaries."
     },
     {
-      "name": "AI design research",
+      "name": "AI testing automation",
+      "count": 16,
+      "description": "Focuses on AI applications used to automate the process of software testing, including test case generation, execution, and analysis."
+    },
+    {
+      "name": "AI summarization",
       "count": 14,
-      "description": "Content related to AI's application in the design process, from generation to evaluation and system integration."
+      "description": "Covers AI's ability to condense large amounts of text, research findings, or data into concise summaries."
     },
     {
-      "name": "AI for product management",
-      "count": 11,
-      "description": "Articles on how AI tools and techniques can assist product managers in their workflow, strategy, and decision-making."
+      "name": "AI survey tools",
+      "count": 14,
+      "description": "Focuses on AI applications that assist in the creation, distribution, analysis, and optimization of surveys."
     },
     {
-      "name": "AI sentiment feedback",
-      "count": 11,
-      "description": "Covers the analysis of user opinions, reviews, and feedback using AI to gauge sentiment and inform product development."
-    },
-    {
-      "name": "AI usability testing",
-      "count": 11,
-      "description": "Articles discussing the use of AI to automate or enhance usability testing processes and gather insights."
-    },
-    {
-      "name": "AI qualitative research",
-      "count": 10,
-      "description": "Focuses on AI's role in analyzing and deriving insights from qualitative data, such as interviews and open-ended responses."
+      "name": "AI customer insights",
+      "count": 13,
+      "description": "Details how AI is used to extract, analyze, and derive actionable insights from customer data and interactions."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
