@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-07-09T04:01:28.696Z",
+  "lastUpdated": "2026-07-09T11:24:01.352Z",
   "updates": [
+    {
+      "date": "2026-07-09",
+      "title": "Claude 101 for user researchers",
+      "summary": "What Claude is, how to talk to it, and how to use it for real research work without losing your judgment or trust",
+      "content": "Nikki Anderson's \"Claude 101 for user researchers\" introduces Claude, an AI conversational model, as a powerful tool for enhancing UX research practices. The article emphasizes that Claude can assist researchers with tasks ranging from initial hypothesis generation and prompt engineering to synthesizing qualitative data and drafting reports.  Crucially, it stresses the importance of maintaining human oversight and critical thinking, ensuring that AI acts as a co-pilot rather than a replacement for researcher judgment and ethical considerations.  This is vital for UX researchers seeking to leverage AI for efficiency and deeper insights while upholding the integrity and trustworthiness of their findings.",
+      "category": "General AI in research",
+      "source": {
+        "name": "Nikki Anderson (User Research Strategist)",
+        "url": "https://www.userresearchstrategist.com/p/claude-101-for-user-researchers"
+      },
+      "analysis": "At Nubank, Claude can be integrated into our research workflow to accelerate discovery and analysis. For instance, during the ideation phase for new features like simplified PIX transfers or improved loan application experiences, researchers could use Claude to brainstorm potential user pain points or generate diverse user personas based on existing research archives.  Post-study, Claude can help draft initial summaries of interview transcripts or survey responses, identifying emergent themes that can then be rigorously validated by the researcher. This allows us to dedicate more time to nuanced qualitative analysis and strategic recommendations for products like our credit card activation flow or customer onboarding.\n\nHowever, it's imperative that researchers treat Claude's outputs as starting points, not final deliverables.  Critical evaluation is paramount; do Claude's insights align with our understanding of the Brazilian user base and their unique financial behaviors?  We must actively scrutinize any AI-generated hypotheses or summaries against our domain expertise and ethical guidelines, especially when dealing with sensitive data related to insurance products or personal financial management.  The \"human in the loop\" remains the most crucial element, ensuring our research remains empathetic, accurate, and aligned with Nubank's commitment to transparency and user trust."
+    },
     {
       "date": "2026-07-08",
       "title": "How to protect PII in your UX research operations",
@@ -686,18 +698,6 @@
         "url": "https://blog.uxtweak.com/report-builder-available-for-all-tools-richer-reports-and-ai-suggested-highlights/"
       },
       "analysis": "At Nubank, these UX Tweak updates can be integrated into our post-research synthesis phase, particularly after user testing sessions for new features like PIX transaction improvements, loan application flows, or card activation processes. Researchers can leverage the Report Builder to consolidate qualitative feedback from interviews and quantitative data from surveys into a single, cohesive document. The AI-suggested highlights can act as an initial pass, flagging potential pain points or positive user sentiments within interview transcripts or open-ended survey responses, which researchers can then validate and expand upon.\n\nTo apply this, researchers should utilize the Report Builder to create standardized templates for different research types (e.g., usability testing reports for insurance policy onboarding, feature feedback reports for credit card management). This ensures consistency across projects and makes it easier for product teams to digest information.  When using AI-suggested highlights, researchers must exercise critical judgment; these suggestions are a starting point, not definitive conclusions.  Always cross-reference AI insights with the original data to ensure accuracy and context, especially when presenting findings related to sensitive flows like loan approvals or new customer onboarding."
-    },
-    {
-      "date": "2026-06-09",
-      "title": "Product builder's guide to user interviews with AI",
-      "summary": "You don't need a UX researcher to run good user interviews. Here's how product builders use AI to plan, run, and synthesize interviews without a research background.",
-      "content": "This article proposes that AI tools can democratize user interview processes, enabling product builders without formal UX research training to conduct effective interviews. The core idea is to leverage AI for tasks like interview script generation, participant recruitment suggestions, real-time transcription, and sentiment analysis. This matters for UX researchers as it signals a potential shift in how foundational user insights are gathered, potentially freeing up researchers for more complex, strategic work. Practically, it means product teams might be able to gather initial qualitative data more autonomously, emphasizing the need for UX researchers to focus on higher-level synthesis, strategic guidance, and ensuring the quality and ethical use of AI-driven research outputs.",
-      "category": "Interview analysis",
-      "source": {
-        "name": "Great Question Blog",
-        "url": "https://cms.greatquestion.co/blog/product-builder-user-interviews-ai"
-      },
-      "analysis": "At Nubank, this article's premise can be integrated into our existing research workflow by equipping product teams with AI-assisted tools for initial user interview phases. For instance, when a product manager for our PIX service needs to understand user pain points in a new feature iteration, AI could help generate draft interview guides based on existing user feedback and product goals. Similarly, for a loan product, AI could suggest interview questions targeting specific concerns identified in customer support logs or app usage data. This allows our dedicated UX researchers to focus on deeper dives, complex problem-solving, and synthesizing insights from multiple sources, rather than solely managing basic interview execution.\n\nResearchers should champion the responsible adoption of these AI tools. This involves establishing clear guidelines on AI usage, ensuring data privacy and security remain paramount, and validating AI-generated outputs with human oversight. While AI can streamline the planning and transcription of interviews for onboarding flows or card activation processes, researchers must remain the final arbiters of insight quality and user representation. We should pilot AI-powered interview tools with small, self-contained teams and closely monitor their impact on research efficiency and insight quality before broader adoption. Limitations include potential biases in AI-generated questions or synthesized summaries, and the irreplaceable human empathy and nuanced understanding a trained researcher brings to complex emotional journeys in products like our insurance offerings."
     }
   ]
 }
