@@ -1,56 +1,56 @@
 {
   "month": "2026-07",
-  "updated": "2026-07-09",
+  "updated": "2026-07-10",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 65,
-      "description": "Covers AI agents capable of performing multi-step research tasks, autonomous decision-making, and complex workflows without constant human intervention."
+      "count": 32,
+      "description": "Covers AI agents designed to perform complex research tasks, interact with systems, and execute multi-step workflows autonomously."
     },
     {
       "name": "AI coding assistants",
-      "count": 29,
-      "description": "Focuses on AI tools designed to help developers write, review, debug, and refactor code, often integrated into IDEs."
-    },
-    {
-      "name": "AI for design & research",
-      "count": 20,
-      "description": "Encompasses AI applications that directly assist in the creative and investigative processes of design and user research, including idea generation and synthesis."
+      "count": 30,
+      "description": "Focuses on AI tools that help developers write, debug, review, and understand code, often integrated into IDEs."
     },
     {
       "name": "AI research tools",
-      "count": 19,
-      "description": "Highlights specific AI-powered platforms and software designed to facilitate and enhance various aspects of the research lifecycle."
+      "count": 17,
+      "description": "Encompasses a broad category of AI-powered platforms and applications designed to assist with various aspects of the research process."
     },
     {
       "name": "Synthetic users",
-      "count": 17,
-      "description": "Explores the use of AI to generate synthetic data, personas, or simulated user interactions for testing, analysis, or training."
+      "count": 15,
+      "description": "Explores the creation and use of AI-generated user personas, data, or interactions to simulate real user behavior for testing and analysis."
     },
     {
       "name": "AI summarization",
-      "count": 16,
-      "description": "Covers AI's ability to condense large amounts of text, research findings, or data into concise summaries."
+      "count": 13,
+      "description": "Details AI capabilities for condensing large amounts of text, research findings, or meeting transcripts into concise summaries."
+    },
+    {
+      "name": "AI sentiment feedback",
+      "count": 11,
+      "description": "Covers the use of AI to analyze customer reviews, feedback, and social media to gauge public opinion and sentiment."
+    },
+    {
+      "name": "AI design research",
+      "count": 11,
+      "description": "Focuses on AI applications that directly aid in the design process, from ideation and prototyping to UI generation and system design."
     },
     {
       "name": "AI testing automation",
-      "count": 16,
-      "description": "Focuses on AI applications used to automate the process of software testing, including test case generation, execution, and analysis."
+      "count": 10,
+      "description": "Involves AI tools and techniques for automating software testing, quality assurance, and verification processes."
     },
     {
-      "name": "AI summarization",
-      "count": 14,
-      "description": "Covers AI's ability to condense large amounts of text, research findings, or data into concise summaries."
+      "name": "AI research tools comparison",
+      "count": 8,
+      "description": "Articles that compare, review, and rank different AI-powered research tools and platforms."
     },
     {
-      "name": "AI survey tools",
-      "count": 14,
-      "description": "Focuses on AI applications that assist in the creation, distribution, analysis, and optimization of surveys."
-    },
-    {
-      "name": "AI customer insights",
-      "count": 13,
-      "description": "Details how AI is used to extract, analyze, and derive actionable insights from customer data and interactions."
+      "name": "AI recruitment research",
+      "count": 8,
+      "description": "Examines the impact of AI on job markets, hiring processes, and the skills required for future workforces."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
