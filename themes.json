@@ -1,56 +1,56 @@
 {
   "month": "2026-07",
-  "updated": "2026-07-10",
+  "updated": "2026-07-11",
   "themes": [
     {
-      "name": "Survey optimization",
-      "count": 47,
-      "description": "AI tools for designing better surveys, reducing bias, and analyzing responses."
+      "name": "Agentic AI in research",
+      "count": 45,
+      "description": "Covers AI agents that can perform complex tasks autonomously or semi-autonomously within research workflows."
     },
     {
       "name": "AI coding assistants",
-      "count": 46,
-      "description": "Copilot, Claude Code, Cursor, and other AI tools for code generation and development."
+      "count": 35,
+      "description": "Focuses on AI tools that assist developers in writing, reviewing, and debugging code."
     },
     {
       "name": "AI research tools",
-      "count": 40,
-      "description": "New AI tool launches, reviews, and platforms built for research workflows."
+      "count": 28,
+      "description": "Articles discussing various AI-powered platforms and software used to conduct user research."
     },
     {
-      "name": "Agentic AI in research",
-      "count": 30,
-      "description": "Autonomous AI agents running research tasks, multi-agent frameworks, and orchestration."
-    },
-    {
-      "name": "AI ethics in research",
-      "count": 25,
-      "description": "Bias, fairness, responsible AI, privacy, and trust in research."
-    },
-    {
-      "name": "Conversational AI in research",
-      "count": 24,
-      "description": "Chatbots, virtual assistants, and voice AI in research contexts."
-    },
-    {
-      "name": "AI-powered data analysis",
-      "count": 22,
-      "description": "Automated data analysis, clustering, segmentation, and pattern detection."
-    },
-    {
-      "name": "AI workforce impact",
+      "name": "AI summarization",
       "count": 21,
-      "description": "AI replacing roles, future of work, skills gap, reskilling, and organizational change."
+      "description": "Explores AI's ability to condense large amounts of text or data into concise summaries for easier analysis."
     },
     {
-      "name": "AI content generation",
+      "name": "AI chatbot research",
+      "count": 18,
+      "description": "Examines the use of AI chatbots in research contexts, including their capabilities and limitations."
+    },
+    {
+      "name": "Synthetic users",
+      "count": 18,
+      "description": "Details the creation and use of AI-generated personas or user simulations for testing and research."
+    },
+    {
+      "name": "AI design research",
       "count": 14,
-      "description": "AI writing, report generation, UX copy, and content creation."
+      "description": "Covers the application of AI in the design process, from ideation to generating design elements."
     },
     {
-      "name": "Predictive UX",
-      "count": 9,
-      "description": "Personalization, recommendation engines, and predictive user analytics."
+      "name": "AI product research",
+      "count": 12,
+      "description": "Discusses how AI is used to gather insights, analyze market trends, and inform product development."
+    },
+    {
+      "name": "AI research platform",
+      "count": 12,
+      "description": "Focuses on integrated platforms that leverage AI to streamline and enhance research operations."
+    },
+    {
+      "name": "AI testing automation",
+      "count": 12,
+      "description": "Articles about using AI to automate software testing processes, including UI and performance testing."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."

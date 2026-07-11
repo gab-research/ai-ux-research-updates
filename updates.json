@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-07-10T17:53:03.249Z",
+  "lastUpdated": "2026-07-11T03:27:22.684Z",
   "updates": [
     {
       "date": "2026-07-09",
@@ -686,18 +686,6 @@
         "url": "https://www.uxpin.com/studio/blog/ui-ux-design-trends/"
       },
       "analysis": "This article directly impacts our work at Nubank by highlighting the growing influence of AI in design. For our research workflow, this means exploring AI-powered tools for tasks like sentiment analysis of customer feedback on the PIX or loan application flows, or for generating initial user personas based on large datasets. Researchers should proactively experiment with these tools to understand their capabilities and limitations, focusing on how they can augment, not replace, our qualitative insights. For instance, AI could help identify patterns in user frustration during card activation, allowing us to prioritize areas for deeper qualitative investigation.\n\nWhile AI tools offer exciting possibilities, it's crucial to maintain our human-centered approach. Guardrails should be established to ensure AI-generated insights are rigorously validated through traditional qualitative methods, especially when dealing with sensitive areas like onboarding or insurance. We must also be mindful of potential biases in AI algorithms and ensure that our research remains inclusive and representative of all Nubank users. The goal is to leverage AI to enhance our understanding, not to abdicate our critical thinking and empathy."
-    },
-    {
-      "date": "2026-06-11",
-      "title": "Google DeepMind is worried about what happens when millions of agents start to interact",
-      "summary": "Google DeepMind is funding research into the potential dangers of situations where millions of different AI agents interact with each other online. According to Rohin Shah, who directs the company’s AGI safety and alignment research, the mass-market arrival of agents that can...",
-      "content": "Google DeepMind is investing in research to understand the complex emergent behaviors and potential risks associated with widespread interaction among millions of AI agents online. This concern stems from the unpredictable outcomes that can arise when sophisticated AI systems, capable of independent action and learning, encounter each other at scale. For UX researchers, this is critical as it highlights the need to anticipate how AI-powered features within our digital banking products, like automated chatbots for customer service or AI-driven fraud detection systems, might interact with each other and with user-generated AI agents in the future. Understanding these multi-agent dynamics is crucial for designing safe, reliable, and intuitive user experiences that avoid unintended consequences.",
-      "category": "Agentic AI in research",
-      "source": {
-        "name": "MIT Technology Review",
-        "url": "https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/"
-      },
-      "analysis": "This concern about multi-agent AI interactions directly impacts our UX research by prompting us to consider the 'ecosystem' our products operate within, not just isolated user journeys. As Nubank increasingly integrates AI, from the onboarding flow to personalized loan offers and PIX transactions, we must proactively research potential emergent behaviors when these AI systems interact with each other or with external AI agents. This means moving beyond single-user testing to explore simulated environments where multiple AI agents (e.g., a credit scoring AI, a fraud detection AI, and a customer service bot) interact, observing for emergent issues that could impact user trust or security.\n\nResearchers should incorporate agent-based simulation and modeling into their qualitative and quantitative research plans, especially for complex areas like credit risk assessment or the negotiation of insurance policies. For instance, we can run simulations where an AI underwriting loan applications interacts with a separate AI managing fraud alerts, or where a PIX transaction AI encounters a customer service AI handling a dispute. This research will inform our design principles and ethical guidelines, ensuring we build robust guardrails to prevent undesirable collective actions, maintain user agency, and uphold Nubank's commitment to transparency and security across all our offerings, from card activation to post-purchase support."
     }
   ]
 }
