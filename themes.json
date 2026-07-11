@@ -3,54 +3,54 @@
   "updated": "2026-07-11",
   "themes": [
     {
-      "name": "Agentic AI in research",
-      "count": 45,
-      "description": "Covers AI agents that can perform complex tasks autonomously or semi-autonomously within research workflows."
+      "name": "Agentic AI development",
+      "count": 38,
+      "description": "Articles focusing on the creation, capabilities, and challenges of autonomous AI agents for various tasks, including coding, research, and content generation."
     },
     {
-      "name": "AI coding assistants",
-      "count": 35,
-      "description": "Focuses on AI tools that assist developers in writing, reviewing, and debugging code."
+      "name": "AI-powered coding assistants",
+      "count": 19,
+      "description": "Content discussing AI tools that assist developers with writing, debugging, and optimizing code."
+    },
+    {
+      "name": "AI for UX/UI design tools",
+      "count": 13,
+      "description": "Articles detailing how AI is integrated into design tools for tasks like landing page generation, component design, and workflow enhancement."
     },
     {
       "name": "AI research tools",
-      "count": 28,
-      "description": "Articles discussing various AI-powered platforms and software used to conduct user research."
+      "count": 10,
+      "description": "Focuses on AI platforms and applications specifically designed to aid researchers in data synthesis, analysis, and discovery."
     },
     {
-      "name": "AI summarization",
-      "count": 21,
-      "description": "Explores AI's ability to condense large amounts of text or data into concise summaries for easier analysis."
+      "name": "AI cost optimization",
+      "count": 10,
+      "description": "Articles providing strategies and insights into reducing expenses associated with AI model usage and infrastructure."
     },
     {
-      "name": "AI chatbot research",
-      "count": 18,
-      "description": "Examines the use of AI chatbots in research contexts, including their capabilities and limitations."
+      "name": "AI for product development",
+      "count": 9,
+      "description": "Content exploring how AI is used in product management, design agencies, and startup development for faster and smarter tool creation."
     },
     {
-      "name": "Synthetic users",
-      "count": 18,
-      "description": "Details the creation and use of AI-generated personas or user simulations for testing and research."
+      "name": "AI model performance & comparison",
+      "count": 8,
+      "description": "Articles evaluating, comparing, and benchmarking different AI models, including cost-effectiveness and capabilities."
     },
     {
-      "name": "AI design research",
-      "count": 14,
-      "description": "Covers the application of AI in the design process, from ideation to generating design elements."
+      "name": "AI ethics and safety",
+      "count": 6,
+      "description": "Discussions around ethical considerations, security, governance, and alignment of AI systems."
     },
     {
-      "name": "AI product research",
-      "count": 12,
-      "description": "Discusses how AI is used to gather insights, analyze market trends, and inform product development."
+      "name": "AI in user research",
+      "count": 5,
+      "description": "Articles exploring the direct application of AI in user research processes, from onboarding to analysis."
     },
     {
-      "name": "AI research platform",
-      "count": 12,
-      "description": "Focuses on integrated platforms that leverage AI to streamline and enhance research operations."
-    },
-    {
-      "name": "AI testing automation",
-      "count": 12,
-      "description": "Articles about using AI to automate software testing processes, including UI and performance testing."
+      "name": "AI for data analysis",
+      "count": 5,
+      "description": "Content focused on AI's role in analyzing complex datasets for insights and decision-making."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
