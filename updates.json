@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-07-12T03:39:01.607Z",
+  "lastUpdated": "2026-07-12T09:57:57.107Z",
   "updates": [
     {
       "date": "2026-07-09",
@@ -650,18 +650,6 @@
         "url": "https://uxdesign.cc/what-computers-cant-do-and-what-designers-should-d9d55c4fe2a1?source=rss----138adf9c44c---4"
       },
       "analysis": "At Nubank, this article's core message fits squarely into our ongoing efforts to integrate AI responsibly into our research practices, particularly in areas like analyzing qualitative feedback from onboarding or card activation processes. Researchers should view AI not as a black box, but as a powerful assistant. For instance, AI can help us quickly sift through vast amounts of user interview transcripts related to insurance product feedback, identifying recurring themes or sentiment shifts. However, we must remember the \"creative struggle\" – the nuanced understanding that comes from deep empathy and human interpretation. Therefore, AI should be used for initial data synthesis and pattern identification, with human researchers always in the loop for deeper analysis, hypothesis generation, and creative ideation to address complex user needs, ensuring the unique Nubank user experience is preserved."
-    },
-    {
-      "date": "2026-06-12",
-      "title": "Best Strella Alternatives for UX Research in 2026",
-      "summary": "AI UX research tools like Strella are changing how teams collect and understand user feedback compared to traditional, manual research workflows. However, teams often start looking for Strella alternatives when ... The post Best Strella Alternatives for UX Research in 2026 app...",
-      "content": "AI UX research tools like Strella are changing how teams collect and understand user feedback compared to traditional, manual research workflows. However, teams often start looking for Strella alternatives when ... The post Best Strella Alternatives for UX Research in 2026 appeared first on Articles on everything UX: Research, Testing & Design.",
-      "category": "Sentiment & feedback analysis",
-      "source": {
-        "name": "UX Tweak Blog",
-        "url": "https://blog.uxtweak.com/strella-alternatives/"
-      },
-      "analysis": "At Nubank, the adoption of AI UX research tools, as discussed in this article, aligns with our commitment to data-driven innovation. Researchers can integrate these alternatives into our existing workflows by using them to analyze qualitative feedback from user interviews and usability testing sessions, particularly for features like PIX transactions, loan applications, or new customer onboarding.  Instead of manually sifting through hours of transcripts or survey responses, AI tools can quickly surface recurring themes, sentiment, and pain points, allowing us to focus our efforts on actionable insights.  This can significantly accelerate the research process for validating new features or identifying friction in our existing product flows, such as card activation or insurance policy management.\n\nWhile these AI tools offer immense potential, it's vital to establish guardrails. Researchers should view AI-generated insights as augmentations, not replacements, for human critical thinking and domain expertise.  We must still conduct thorough qualitative validation and ensure the AI models are trained on representative data to avoid biases.  For instance, when analyzing feedback related to sensitive financial products like loans or insurance, human oversight is paramount to ensure nuanced interpretations and ethical considerations are met.  The goal is to enhance our ability to understand users, not to automate judgment, ensuring that Nubank continues to deliver intuitive and trustworthy financial solutions for all Brazilians."
     }
   ]
 }
