@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-07-13T03:41:08.675Z",
+  "lastUpdated": "2026-07-13T11:21:55.462Z",
   "updates": [
+    {
+      "date": "2026-07-13",
+      "title": "When design becomes the organisation, and AI becomes the design",
+      "summary": "What happens when the entity that designs everything is itself being designed by machines? Continue reading on UX Collective »",
+      "content": "What happens when the entity that designs everything is itself being designed by machines? Continue reading on UX Collective »",
+      "category": "AI research tools",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/when-design-becomes-the-organisation-and-ai-becomes-the-design-19185e56319a?source=rss----138adf9c44c---4"
+      },
+      "analysis": ""
+    },
     {
       "date": "2026-07-09",
       "title": "Claude 101 for user researchers",
