@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-07-13T11:21:55.462Z",
+  "lastUpdated": "2026-07-13T18:01:43.496Z",
   "updates": [
     {
       "date": "2026-07-13",
@@ -12,6 +12,18 @@
       "source": {
         "name": "UX Collective (Medium)",
         "url": "https://uxdesign.cc/when-design-becomes-the-organisation-and-ai-becomes-the-design-19185e56319a?source=rss----138adf9c44c---4"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-07-13",
+      "title": "UX Roundup: AI Agents Change Workflows | User Expertise and Agentic AI | Controlling AI Complexity | Constraints | Meta Muse Image | Seedream 5 Pro | Image-Model Shootout | GPT 5.6 Sol",
+      "summary": "AI agents expand user tasks | Agentic AI makes expertise more valuable, not less | Users need control over the complexity of AI results | Constraints help users | Meta launched a new image model, Muse Image | ByteDance upgrades its image model to Seedream 5 Pro | Comparing the...",
+      "content": "AI agents expand user tasks | Agentic AI makes expertise more valuable, not less | Users need control over the complexity of AI results | Constraints help users | Meta launched a new image model, Muse Image | ByteDance upgrades its image model to Seedream 5 Pro | Comparing the leading image models | GPT receives a major upgrade to v. 5.6 Sol",
+      "category": "Agentic AI in research",
+      "source": {
+        "name": "Jakob Nielsen (Substack)",
+        "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260713"
       },
       "analysis": ""
     },
