@@ -1,10 +1,10 @@
 {
   "month": "2026-07",
-  "updated": "2026-07-13",
+  "updated": "2026-07-14",
   "themes": [
     {
       "name": "AI research tools",
-      "count": 58,
+      "count": 64,
       "description": "New AI tool launches, reviews, and platforms built for research workflows."
     },
     {
@@ -14,28 +14,28 @@
     },
     {
       "name": "Survey optimization",
-      "count": 48,
+      "count": 51,
       "description": "AI tools for designing better surveys, reducing bias, and analyzing responses."
     },
     {
       "name": "Agentic AI in research",
-      "count": 30,
+      "count": 31,
       "description": "Autonomous AI agents running research tasks, multi-agent frameworks, and orchestration."
     },
     {
       "name": "Conversational AI in research",
-      "count": 25,
+      "count": 28,
       "description": "Chatbots, virtual assistants, and voice AI in research contexts."
     },
     {
-      "name": "AI-powered data analysis",
+      "name": "AI workforce impact",
       "count": 23,
-      "description": "Automated data analysis, clustering, segmentation, and pattern detection."
+      "description": "AI replacing roles, future of work, skills gap, reskilling, and organizational change."
     },
     {
-      "name": "AI workforce impact",
-      "count": 22,
-      "description": "AI replacing roles, future of work, skills gap, reskilling, and organizational change."
+      "name": "AI-powered data analysis",
+      "count": 21,
+      "description": "Automated data analysis, clustering, segmentation, and pattern detection."
     },
     {
       "name": "AI ethics in research",
@@ -43,14 +43,14 @@
       "description": "Bias, fairness, responsible AI, privacy, and trust in research."
     },
     {
-      "name": "AI content generation",
-      "count": 15,
-      "description": "AI writing, report generation, UX copy, and content creation."
+      "name": "AI tool evaluation",
+      "count": 17,
+      "description": "Comparing, benchmarking, and selecting AI tools and LLMs for specific use cases."
     },
     {
-      "name": "AI tool evaluation",
-      "count": 12,
-      "description": "Comparing, benchmarking, and selecting AI tools and LLMs for specific use cases."
+      "name": "AI content generation",
+      "count": 16,
+      "description": "AI writing, report generation, UX copy, and content creation."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
