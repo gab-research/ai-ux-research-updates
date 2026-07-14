@@ -4,33 +4,33 @@
   "themes": [
     {
       "name": "AI research tools",
-      "count": 64,
+      "count": 62,
       "description": "New AI tool launches, reviews, and platforms built for research workflows."
     },
     {
-      "name": "AI coding assistants",
-      "count": 54,
-      "description": "Copilot, Claude Code, Cursor, and other AI tools for code generation and development."
-    },
-    {
       "name": "Survey optimization",
-      "count": 51,
+      "count": 52,
       "description": "AI tools for designing better surveys, reducing bias, and analyzing responses."
     },
     {
+      "name": "AI coding assistants",
+      "count": 47,
+      "description": "Copilot, Claude Code, Cursor, and other AI tools for code generation and development."
+    },
+    {
       "name": "Agentic AI in research",
-      "count": 31,
+      "count": 32,
       "description": "Autonomous AI agents running research tasks, multi-agent frameworks, and orchestration."
     },
     {
-      "name": "Conversational AI in research",
-      "count": 28,
-      "description": "Chatbots, virtual assistants, and voice AI in research contexts."
+      "name": "AI workforce impact",
+      "count": 24,
+      "description": "AI replacing roles, future of work, skills gap, reskilling, and organizational change."
     },
     {
-      "name": "AI workforce impact",
-      "count": 23,
-      "description": "AI replacing roles, future of work, skills gap, reskilling, and organizational change."
+      "name": "Conversational AI in research",
+      "count": 22,
+      "description": "Chatbots, virtual assistants, and voice AI in research contexts."
     },
     {
       "name": "AI-powered data analysis",
@@ -38,18 +38,18 @@
       "description": "Automated data analysis, clustering, segmentation, and pattern detection."
     },
     {
-      "name": "AI ethics in research",
-      "count": 19,
-      "description": "Bias, fairness, responsible AI, privacy, and trust in research."
-    },
-    {
       "name": "AI tool evaluation",
-      "count": 17,
+      "count": 20,
       "description": "Comparing, benchmarking, and selecting AI tools and LLMs for specific use cases."
     },
     {
+      "name": "AI ethics in research",
+      "count": 20,
+      "description": "Bias, fairness, responsible AI, privacy, and trust in research."
+    },
+    {
       "name": "AI content generation",
-      "count": 16,
+      "count": 17,
       "description": "AI writing, report generation, UX copy, and content creation."
     }
   ],
