@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-07-15T10:09:27.966Z",
+  "lastUpdated": "2026-07-15T17:25:01.608Z",
   "updates": [
+    {
+      "date": "2026-07-15",
+      "title": "No, People Don’t Want More AI In Their Life",
+      "summary": "Many companies assume everyone craves new AI features. But the reality is that most people don't want more AI — at least not in the way most AI leaders envision it. Brought to you by Design Patterns For AI Interfaces, **friendly video courses on UX** and design patterns by Vit...",
+      "content": "Many companies assume everyone craves new AI features. But the reality is that most people don't want more AI — at least not in the way most AI leaders envision it. Brought to you by Design Patterns For AI Interfaces, **friendly video courses on UX** and design patterns by Vitaly.",
+      "category": "AI research tools",
+      "source": {
+        "name": "Smashing Magazine",
+        "url": "https://smashingmagazine.com/2026/07/people-dont-want-more-ai/"
+      },
+      "analysis": ""
+    },
     {
       "date": "2026-07-14",
       "title": "Best AI UX Design Agencies for Enterprises (2026) | Parallel",
@@ -650,18 +662,6 @@
         "url": "https://smashingmagazine.com/2026/06/designing-uncertainty-how-ai-supercharges-probabilistic-thinking/"
       },
       "analysis": "At Nubank, the Probabilistic Design mindset can be integrated into our existing research workflow, particularly during the analysis of AI-powered tools like our customer segmentation engines or predictive churn models. Instead of solely accepting AI-generated segments or churn probabilities as gospel, researchers should treat them as strong hypotheses to be further validated through traditional qualitative methods. For instance, when AI flags a segment with a high propensity for early loan repayment, we should use this insight to inform our qualitative interview guides, probing deeper into their motivations and behaviors, rather than immediately designing a mass-market loan product based solely on the AI's prediction. This helps us understand the nuances behind the AI's output and build more robust solutions.\n\nResearchers should apply this by actively questioning AI outputs, looking for edge cases and potential biases. When using AI for A/B testing variations or for analyzing user behavior during card activation or onboarding flows, we must remember that AI predictions are statistical estimations, not guarantees of future user actions. This means prioritizing user testing and qualitative feedback to contextualize AI insights. Guardrails include ensuring diverse datasets are used to train our AI models to minimize bias, and maintaining a healthy skepticism, always cross-referencing AI findings with direct user observation and feedback. This ensures we don't blindly follow AI predictions when designing features for PIX transactions or refining our insurance product offerings, for example."
-    },
-    {
-      "date": "2026-06-15",
-      "title": "UX Roundup: Generation Alpha UX | Personas | Sentient Design | UX Hero: Tom Landauer | Auto-Generated Thumbnails | AI Shorts | RIP Rufus | Fable",
-      "summary": "Gen Alpha is not mini-Gen-Z | Personas as Packaged Software | Sentient Design is a new book about AI as a design material | My hero: Dr. Thomas K. Landauer of Bell Labs/Bellcore | YouTube’s Thumbnail Generator | Recommended AI short videos | Amazon changes the name of its AI s...",
-      "content": "Gen Alpha is not mini-Gen-Z | Personas as Packaged Software | Sentient Design is a new book about AI as a design material | My hero: Dr. Thomas K. Landauer of Bell Labs/Bellcore | YouTube’s Thumbnail Generator | Recommended AI short videos | Amazon changes the name of its AI shopping assistant from Rufus to Alexa | Claude Fable 5 released",
-      "category": "Predictive UX",
-      "source": {
-        "name": "Jakob Nielsen (Substack)",
-        "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260615"
-      },
-      "analysis": "At Nubank, these insights can significantly enrich our research practices. The concept of 'Sentient Design' encourages us to explore how AI-powered features can proactively understand and adapt to user needs within our app, moving beyond static interfaces. For instance, during the onboarding flow, AI could dynamically tailor educational content based on a user's initial engagement patterns. Similarly, for our loan application process, 'Sentient Design' might enable a more intuitive and personalized experience, offering contextual help or suggesting alternative product options based on real-time user behavior, rather than relying on pre-defined user journeys.\n\nWhen investigating Generation Alpha's future interaction with financial services, we should proactively adapt our persona development and research methodologies. Instead of extrapolating from Gen Z, dedicated research exploring their unique digital literacy and financial expectations will be crucial. This could involve future studies focused on how this generation might interact with features like PIX transfers or digital insurance products, ensuring our offerings remain relevant and intuitive for them as they mature. We must be mindful of the limitations of AI-generated content, such as auto-generated thumbnails, by always prioritizing human oversight and user testing to ensure accuracy, clarity, and ethical considerations, especially when dealing with sensitive financial information or complex product explanations."
     }
   ]
 }
