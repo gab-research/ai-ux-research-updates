@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-07-16T10:18:36.523Z",
+  "lastUpdated": "2026-07-16T17:26:08.682Z",
   "updates": [
     {
       "date": "2026-07-16",
@@ -686,18 +686,6 @@
         "url": "https://openai.com/index/introducing-life-sci-bench"
       },
       "analysis": "LifeSciBench's focus on expert-reviewed, real-world tasks provides a valuable framework for Nubank UX researchers to consider as AI advances. We can leverage this understanding to inform our qualitative research on user trust and understanding of AI-driven features, such as those used in our loan application process or fraud anomaly detection for PIX transactions. By anticipating how AI might be evaluated for accuracy and reliability in complex domains, we can proactively design user experiences that build confidence, even when the underlying AI is sophisticated.\n\nIn our research workflow, this means incorporating discussions about the potential 'explainability' of AI-powered features into our generative research. When exploring new product ideas like insurance or card activation, we should ask users about their comfort levels with AI making decisions or offering recommendations, and how transparent they expect these processes to be. Guardrails are essential: while LifeSciBench tests AI's capabilities, our UX research must focus on the human element. We need to ensure that AI's introduction, even in advanced forms, enhances, rather than hinders, user control, comprehension, and overall satisfaction with Nubank's intuitive digital experience."
-    },
-    {
-      "date": "2026-06-16",
-      "title": "Designing With Uncertainty: How AI Supercharges Probabilistic Thinking",
-      "summary": "In a world where AI is informing more design choices, it’s easy to mistake predictions for certainties. This article introduces Probabilistic Design, a mindset that allows UX and product teams to accept uncertainty, decipher AI outputs with nuance, and make smart, adaptive dec...",
-      "content": "In a world where AI is informing more design choices, it’s easy to mistake predictions for certainties. This article introduces Probabilistic Design, a mindset that allows UX and product teams to accept uncertainty, decipher AI outputs with nuance, and make smart, adaptive decisions.",
-      "category": "Survey optimization",
-      "source": {
-        "name": "Smashing Magazine",
-        "url": "https://smashingmagazine.com/2026/06/designing-uncertainty-how-ai-supercharges-probabilistic-thinking/"
-      },
-      "analysis": "At Nubank, the Probabilistic Design mindset can be integrated into our existing research workflow, particularly during the analysis of AI-powered tools like our customer segmentation engines or predictive churn models. Instead of solely accepting AI-generated segments or churn probabilities as gospel, researchers should treat them as strong hypotheses to be further validated through traditional qualitative methods. For instance, when AI flags a segment with a high propensity for early loan repayment, we should use this insight to inform our qualitative interview guides, probing deeper into their motivations and behaviors, rather than immediately designing a mass-market loan product based solely on the AI's prediction. This helps us understand the nuances behind the AI's output and build more robust solutions.\n\nResearchers should apply this by actively questioning AI outputs, looking for edge cases and potential biases. When using AI for A/B testing variations or for analyzing user behavior during card activation or onboarding flows, we must remember that AI predictions are statistical estimations, not guarantees of future user actions. This means prioritizing user testing and qualitative feedback to contextualize AI insights. Guardrails include ensuring diverse datasets are used to train our AI models to minimize bias, and maintaining a healthy skepticism, always cross-referencing AI findings with direct user observation and feedback. This ensures we don't blindly follow AI predictions when designing features for PIX transactions or refining our insurance product offerings, for example."
     }
   ]
 }
