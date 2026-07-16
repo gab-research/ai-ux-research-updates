@@ -1,19 +1,31 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-07-15T17:25:01.608Z",
+  "lastUpdated": "2026-07-16T03:23:12.102Z",
   "updates": [
+    {
+      "date": "2026-07-16",
+      "title": "17 Claude Skills to Turn AI Into Your UX Research Assistant",
+      "summary": "Install these 17 Claude skills and cut your research workflow in half. Transcript cleaning, synthesis, JTBD analysis, survey design, and more — tested on real projects.",
+      "content": "This article from Great Question introduces 17 practical skills for Anthropic's Claude AI, positioning it as a powerful UX research assistant. The core idea is to leverage AI to automate and accelerate time-consuming research tasks, freeing up researchers to focus on higher-level strategic thinking and deeper insights. For UX researchers, this is significant as it promises to dramatically reduce the manual effort involved in areas like transcript processing, data synthesis, and even initial survey construction. The practical implication is a substantial boost in research efficiency, allowing teams to deliver more insights faster and at potentially lower costs, impacting product development cycles for features like PIX transactions or new insurance offerings.",
+      "category": "Interview analysis",
+      "source": {
+        "name": "Great Question Blog",
+        "url": "https://cms.greatquestion.co/blog/claude-skills-ux-research-assistant"
+      },
+      "analysis": "At Nubank, these Claude skills can be integrated across various stages of our research lifecycle. For instance, instead of manually transcribing and cleaning audio from user interviews about loan applications or card activation, researchers can use Claude to generate summaries and identify key pain points. This saved time can be reallocated to deeper analysis of customer journeys or ideation for new features. Similarly, for onboarding flows, Claude could assist in analyzing open-ended survey responses to quickly gauge user sentiment and identify areas for improvement. \n\nWhen applying these skills, researchers should start with tasks that are highly repetitive and data-intensive, such as transcript summarization and thematic coding. It's crucial to remember that Claude is an assistant, not a replacement for human critical thinking. Researchers must always validate AI-generated outputs, especially for sensitive analyses like Jobs-to-be-Done (JTBD) for complex products like investments or insurance, ensuring that nuance and context are not lost. Guardrails should include maintaining data privacy and security protocols, and clearly documenting when and how AI was used in the research process to maintain transparency and accountability for insights presented to product teams."
+    },
     {
       "date": "2026-07-15",
       "title": "No, People Don’t Want More AI In Their Life",
       "summary": "Many companies assume everyone craves new AI features. But the reality is that most people don't want more AI — at least not in the way most AI leaders envision it. Brought to you by Design Patterns For AI Interfaces, **friendly video courses on UX** and design patterns by Vit...",
-      "content": "Many companies assume everyone craves new AI features. But the reality is that most people don't want more AI — at least not in the way most AI leaders envision it. Brought to you by Design Patterns For AI Interfaces, **friendly video courses on UX** and design patterns by Vitaly.",
+      "content": "This Smashing Magazine article challenges the prevalent industry assumption that users universally desire more AI integration. It argues that while AI can be beneficial, many individuals don't want AI for its own sake, especially when implemented in ways that feel intrusive or overly complex. For UX researchers, this insight is crucial, necessitating a shift from simply 'adding AI' to a more thoughtful, user-centric approach focused on genuine problem-solving and value creation. The practical implication is that we must prioritize understanding user needs and pain points before even considering AI solutions, ensuring any AI integration enhances, rather than detracts from, the user experience.",
       "category": "AI research tools",
       "source": {
         "name": "Smashing Magazine",
         "url": "https://smashingmagazine.com/2026/07/people-dont-want-more-ai/"
       },
-      "analysis": ""
+      "analysis": "At Nubank, this article directly impacts our foundational research. Instead of jumping to AI solutions for features like PIX transactions or loan application processes, we need to rigorously validate the underlying user problem first. Does a user genuinely struggle with the current PIX flow in a way that AI could elegantly solve, or is the issue more about clarity or perceived trust? Our research should begin by asking \"what is the user's core need or frustration?\" before we even contemplate the role AI might play.\n\nWhen applying this, researchers should actively challenge AI-driven hypotheses during planning and discovery. For instance, in refining the card activation flow or optimizing onboarding for new customers, our objective should be to identify genuine friction points. If AI is proposed as a solution, the research must prove its necessity and value proposition against simpler, non-AI alternatives. This means designing research questions that explore user perception of AI, their comfort levels with data sharing for AI personalization (e.g., in insurance product recommendations), and their tolerance for AI-driven nudges versus explicit control. We must avoid building AI features just to 'have AI', focusing instead on demonstrable improvements in user satisfaction, efficiency, and trust across our products and services."
     },
     {
       "date": "2026-07-14",
@@ -655,7 +667,7 @@
       "date": "2026-06-16",
       "title": "Designing With Uncertainty: How AI Supercharges Probabilistic Thinking",
       "summary": "In a world where AI is informing more design choices, it’s easy to mistake predictions for certainties. This article introduces Probabilistic Design, a mindset that allows UX and product teams to accept uncertainty, decipher AI outputs with nuance, and make smart, adaptive dec...",
-      "content": "This Smashing Magazine article argues that as AI becomes more integrated into design processes, it's crucial for UX professionals to embrace \"Probabilistic Design.\" This approach encourages accepting inherent uncertainty in AI-driven insights rather than treating them as definitive truths.  For UX researchers, this is vital for critically evaluating AI outputs, preventing over-reliance on potentially biased or incomplete data, and fostering a more adaptive and resilient design strategy. Practical implications include designing for variability, testing hypotheses with a probabilistic mindset, and building products that can gracefully handle unexpected user behaviors or market shifts, as informed by AI.",
+      "content": "In a world where AI is informing more design choices, it’s easy to mistake predictions for certainties. This article introduces Probabilistic Design, a mindset that allows UX and product teams to accept uncertainty, decipher AI outputs with nuance, and make smart, adaptive decisions.",
       "category": "Survey optimization",
       "source": {
         "name": "Smashing Magazine",
