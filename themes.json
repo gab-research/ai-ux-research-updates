@@ -3,54 +3,54 @@
   "updated": "2026-07-17",
   "themes": [
     {
+      "name": "AI research tools",
+      "count": 87,
+      "description": "New AI tool launches, reviews, and platforms built for research workflows."
+    },
+    {
+      "name": "Survey optimization",
+      "count": 61,
+      "description": "AI tools for designing better surveys, reducing bias, and analyzing responses."
+    },
+    {
       "name": "AI coding assistants",
-      "count": 49,
-      "description": "Articles discussing AI tools that aid in writing, reviewing, or debugging code."
+      "count": 40,
+      "description": "Copilot, Claude Code, Cursor, and other AI tools for code generation and development."
+    },
+    {
+      "name": "Conversational AI in research",
+      "count": 36,
+      "description": "Chatbots, virtual assistants, and voice AI in research contexts."
+    },
+    {
+      "name": "AI-powered data analysis",
+      "count": 27,
+      "description": "Automated data analysis, clustering, segmentation, and pattern detection."
     },
     {
       "name": "Agentic AI in research",
-      "count": 43,
-      "description": "Focuses on AI agents that can independently perform research tasks, make decisions, and execute actions."
+      "count": 26,
+      "description": "Autonomous AI agents running research tasks, multi-agent frameworks, and orchestration."
     },
     {
-      "name": "AI usability testing",
-      "count": 15,
-      "description": "Covers AI's role in automating or enhancing the process of testing product usability."
+      "name": "AI workforce impact",
+      "count": 25,
+      "description": "AI replacing roles, future of work, skills gap, reskilling, and organizational change."
     },
     {
-      "name": "AI research tools",
-      "count": 14,
-      "description": "Articles detailing AI-powered platforms and software designed to assist in various research activities."
+      "name": "AI ethics in research",
+      "count": 22,
+      "description": "Bias, fairness, responsible AI, privacy, and trust in research."
     },
     {
-      "name": "AI design research",
-      "count": 14,
-      "description": "Explores how AI is used in the design process for research, prototyping, and system development."
-    },
-    {
-      "name": "AI chatbot research",
-      "count": 13,
-      "description": "Focuses on the research and development aspects of AI chatbots, including their capabilities and limitations."
-    },
-    {
-      "name": "AI survey tools",
-      "count": 12,
-      "description": "Articles about AI applications in creating, analyzing, or optimizing surveys and user feedback."
-    },
-    {
-      "name": "Agentic AI research",
-      "count": 11,
-      "description": "Research specifically into the development, capabilities, and challenges of agentic AI systems."
+      "name": "AI content generation",
+      "count": 18,
+      "description": "AI writing, report generation, UX copy, and content creation."
     },
     {
       "name": "AI tool evaluation",
-      "count": 10,
-      "description": "Articles that compare, review, or rank different AI tools and platforms for specific applications."
-    },
-    {
-      "name": "AI research platform",
-      "count": 9,
-      "description": "Discusses platforms and environments designed to facilitate AI research and development."
+      "count": 16,
+      "description": "Comparing, benchmarking, and selecting AI tools and LLMs for specific use cases."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
