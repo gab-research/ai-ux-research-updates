@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-07-17T10:06:24.722Z",
+  "lastUpdated": "2026-07-17T17:19:06.390Z",
   "updates": [
+    {
+      "date": "2026-07-17",
+      "title": "UX Roundup: Usability of AI “Skills” | UXR Job Listings | AI Comics Help Learning | Quick View | The AI Economy | Social Learning | Automated Ads",
+      "summary": "How AI “skills” are reused and other usability issues with skills | User research job listings for junior staff dry up, and senior staff need AI experience to be hired | Data comics generated with AI increase student learning | Quick view as a shortcut for seeing product info...",
+      "content": "This UX roundup highlights the evolving landscape of AI's impact on user experience research, focusing on the practical implications for professionals. It discusses the emerging concept of AI 'skills' and their usability, suggesting that reusability and intuitive interaction will be key to their success. The article also points to a significant shift in the job market, with a decline in junior UXR roles and an increasing demand for senior researchers proficient in AI. Furthermore, it explores innovative learning methods like AI-generated data comics and the potential of AI in optimizing product information display, underscoring the broad reach of AI across UX methodologies and professional development.",
+      "category": "Automated usability checks",
+      "source": {
+        "name": "Jakob Nielsen (Substack)",
+        "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260717"
+      },
+      "analysis": "At Nubank, this roundup directly informs our approach to both research execution and talent development. For researchers, understanding the usability of AI 'skills' is crucial as we explore integrating AI-powered tools for tasks like survey analysis or persona generation. We should prioritize evaluating AI tools not just for their output quality, but also for their ease of use and how seamlessly they integrate into our existing workflows. This could involve testing AI features for summarizing customer feedback on PIX transactions or identifying pain points in the credit card activation process.\n\nMoreover, the shift in job market demand means our team must actively upskill in AI. This isn't about replacing human researchers, but augmenting our capabilities. We should allocate time for continuous learning on AI tools and methodologies relevant to banking products like personal loans or insurance applications. For instance, a researcher might use AI to proactively identify emerging trends in customer sentiment around onboarding, or to generate hypotheses for A/B testing new features on the Nubank app. As a guardrail, we must maintain human oversight and ethical considerations, ensuring AI-generated insights are critically evaluated and do not introduce bias into our research findings."
+    },
     {
       "date": "2026-07-16",
       "title": "17 Claude Skills to Turn AI Into Your UX Research Assistant",
@@ -626,30 +638,6 @@
         "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260622"
       },
       "analysis": "This article is highly relevant for Nubank's UX research team, particularly in understanding how AI can augment our work. For instance, in analyzing user behavior on the PIX transfer flow, AI could help identify subtle patterns of friction or confusion that might be missed by manual analysis. Similarly, when designing new features for insurance products, AI's prowess in UI design, as highlighted, suggests we should explore AI-powered design tools to rapidly prototype and test various interface options, potentially speeding up iteration cycles and ensuring optimal user experience. Researchers should actively experiment with AI tools for tasks like competitive analysis, sentiment analysis of user feedback, and even generative design suggestions, always keeping the \"human-in-the-loop\" perspective to ensure ethical and user-centric outcomes.\n\nIt's crucial to maintain a critical perspective, however. While AI can excel in UI design and identifying patterns, the \"dark design\" section serves as a vital reminder of the ethical considerations. We must ensure that any AI application we explore or implement aligns with Nubank's commitment to transparency and user trust, particularly in sensitive areas like loan applications or onboarding processes. Researchers should act as ethical gatekeepers, scrutinizing AI-generated insights and designs to prevent unintended negative consequences or exploitative practices. The goal is to leverage AI to enhance our understanding and efficiency, not to automate away critical human judgment and ethical oversight."
-    },
-    {
-      "date": "2026-06-17",
-      "title": "Interaction Design (IxD): Principles, Process & Checklist — The Complete Guide (2026)",
-      "summary": "What is interaction design? This complete guide covers IxD principles from Don Norman, the difference between interaction design and UX/UI, a practical checklist, career guidance, and AI-era workflows for interaction designers in 2026. The post Interaction Design (IxD): Princi...",
-      "content": "What is interaction design? This complete guide covers IxD principles from Don Norman, the difference between interaction design and UX/UI, a practical checklist, career guidance, and AI-era workflows for interaction designers in 2026. The post Interaction Design (IxD): Principles, Process & Checklist — The Complete Guide (2026) appeared first on Studio by UXPin.",
-      "category": "AI research tools",
-      "source": {
-        "name": "UXPin Blog",
-        "url": "https://www.uxpin.com/studio/blog/interaction-design-its-origin-and-principles/"
-      },
-      "analysis": "At Nubank, this IxD guide is directly relevant to our mission of simplifying financial services. Researchers can leverage the principles outlined, particularly Don Norman's, to critically evaluate existing flows like our PIX transfer or credit card activation process, identifying areas where user interactions might be confusing or inefficient. By understanding the core tenets of IxD, our research team can provide more targeted feedback to design teams, advocating for clearer affordances, better feedback mechanisms, and more intuitive navigation across all our products, from onboarding to loan applications and insurance management.\n\nResearchers should integrate this knowledge by conducting IxD-focused evaluations alongside traditional usability testing. When observing users struggling with a specific feature, such as understanding loan terms or completing the insurance signup, researchers can frame their findings through the lens of interaction design principles. For instance, if a user hesitates during onboarding, we can analyze the interaction design of the step, asking if the affordances are clear or if the feedback provided is immediate and understandable. While AI-era workflows are mentioned, our immediate focus should be on applying established IxD principles to enhance current user experiences. We must also exercise caution, ensuring AI assists rather than dictates our research, and that the human-centered aspect of interaction design remains paramount, preventing over-automation that could alienate users."
-    },
-    {
-      "date": "2026-06-17",
-      "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
-      "summary": "Research in “Nature” shows our conversational AI system matches primary care physicians in complex disease management.",
-      "content": "Research in “Nature” shows our conversational AI system matches primary care physicians in complex disease management.",
-      "category": "Conversational AI in research",
-      "source": {
-        "name": "Google AI Blog",
-        "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/"
-      },
-      "analysis": "At Nubank, AMIE-like AI could be integrated into our research workflow for qualitative data synthesis and participant interaction simulation. Imagine using it to pre-screen potential participants for in-depth interviews on sensitive topics like managing debt or navigating complex loan applications, ensuring we're targeting the right users with precise questions. It could also help us simulate user journeys and identify potential pain points in complex flows like our insurance onboarding or PIX transaction disputes by mimicking varied user comprehension levels and concerns. Researchers could \"interview\" the AI about hypothetical user personas, generating hypotheses about unmet needs before engaging actual customers.\n\nWhile powerful, we must approach this with caution. AMIE's strength lies in information synthesis and structured interaction, not in replicating genuine human empathy or understanding novel, nuanced emotional states. Researchers should use it as a hypothesis-generation and synthesis tool, not a replacement for direct user engagement, especially in high-stakes scenarios like emergency loan support or critical card activation issues. The AI's insights must always be validated through real user testing and qualitative research, recognizing that its understanding is based on its training data and may not capture the full spectrum of unique Nubank customer experiences or the subtle emotional cues vital in financial services."
     }
   ]
 }
