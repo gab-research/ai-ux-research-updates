@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 45,
-      "description": "Focuses on AI agents designed to autonomously perform research tasks, analyze data, and generate insights without constant human intervention."
+      "count": 102,
+      "description": "Articles discussing AI agents that can perform complex research tasks autonomously, interact with tools, and manage workflows."
     },
     {
       "name": "AI coding assistants",
-      "count": 40,
-      "description": "Covers AI tools that assist developers in writing, reviewing, debugging, and understanding code, enhancing productivity and code quality."
+      "count": 47,
+      "description": "Content focusing on AI tools that help developers write, review, and debug code, including security implications."
+    },
+    {
+      "name": "Synthetic users",
+      "count": 32,
+      "description": "Research and discussions about AI-generated personas or data that mimic human users for testing or analysis."
     },
     {
       "name": "AI research tools",
-      "count": 37,
-      "description": "Explores a broad range of AI-powered platforms and applications designed to support various stages of the research process, from data collection to analysis."
+      "count": 31,
+      "description": "Articles that highlight or review specific AI-powered platforms and software designed to aid research processes."
     },
     {
       "name": "AI design research",
-      "count": 32,
-      "description": "Discusses the application of AI in the design process, including AI-assisted design creation, prototyping, and system design."
+      "count": 25,
+      "description": "Content that explores how AI is used in the design process, from generating concepts to refining user interfaces."
     },
     {
       "name": "AI summarization",
-      "count": 22,
-      "description": "Features articles on AI's ability to condense large amounts of text into concise summaries, aiding in information digestion and comprehension."
+      "count": 23,
+      "description": "Articles focusing on AI's ability to condense large amounts of text, data, or research findings into digestible summaries."
+    },
+    {
+      "name": "AI qualitative research",
+      "count": 11,
+      "description": "Discussions on using AI to analyze or assist in qualitative research methods, such as interviews or open-ended feedback."
+    },
+    {
+      "name": "AI chatbot research",
+      "count": 10,
+      "description": "Content related to the research, development, and impact of AI-powered chatbots, including their limitations and ethical considerations."
     },
     {
       "name": "AI testing automation",
-      "count": 19,
-      "description": "Highlights the use of AI to automate software testing processes, including test case generation, execution, and analysis of results."
+      "count": 10,
+      "description": "Articles discussing the use of AI to automate software testing processes, ensuring better quality and efficiency."
     },
     {
-      "name": "AI conversational AI",
-      "count": 18,
-      "description": "Covers AI chatbots and virtual assistants used for customer interaction, research, and providing information in a conversational manner."
-    },
-    {
-      "name": "AI research tools comparison",
-      "count": 15,
-      "description": "Focuses on articles that compare and evaluate different AI tools and platforms based on their features, performance, and suitability for specific research tasks."
-    },
-    {
-      "name": "AI research platforms",
-      "count": 14,
-      "description": "Discusses comprehensive AI platforms designed to facilitate and accelerate scientific discovery, data analysis, and various research domains."
-    },
-    {
-      "name": "AI sentiment feedback analysis",
-      "count": 13,
-      "description": "Explores how AI is used to analyze user feedback, reviews, and social media content to understand sentiment and extract actionable insights."
+      "name": "AI workforce impact",
+      "count": 9,
+      "description": "Research and analysis on how AI is changing job roles, hiring practices, and the skills required in the modern workforce."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
