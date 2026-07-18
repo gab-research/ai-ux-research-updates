@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 55,
-      "description": "Focuses on AI agents designed to perform research tasks autonomously or semi-autonomously, often involving complex workflows and decision-making."
+      "count": 45,
+      "description": "Focuses on AI agents designed to autonomously perform research tasks, analyze data, and generate insights without constant human intervention."
     },
     {
       "name": "AI coding assistants",
-      "count": 37,
-      "description": "Covers AI tools that assist developers in writing, reviewing, and debugging code, including security vulnerabilities and prompt injection research."
+      "count": 40,
+      "description": "Covers AI tools that assist developers in writing, reviewing, debugging, and understanding code, enhancing productivity and code quality."
     },
     {
       "name": "AI research tools",
-      "count": 36,
-      "description": "Articles discussing a broad range of AI-powered platforms and software used for research purposes, including exploration and foundational learning."
+      "count": 37,
+      "description": "Explores a broad range of AI-powered platforms and applications designed to support various stages of the research process, from data collection to analysis."
     },
     {
-      "name": "AI for design & research",
+      "name": "AI design research",
       "count": 32,
-      "description": "Explores how AI is integrated into design workflows and research processes, aiming to augment human capabilities in creative and analytical tasks."
-    },
-    {
-      "name": "AI recruitment research",
-      "count": 25,
-      "description": "Investigates the impact of AI on job markets, hiring practices, and the reskilling of the workforce, often through surveys and studies."
+      "description": "Discusses the application of AI in the design process, including AI-assisted design creation, prototyping, and system design."
     },
     {
       "name": "AI summarization",
-      "count": 21,
-      "description": "Focuses on AI's ability to condense large amounts of text or data into concise summaries, aiding in information processing and understanding."
-    },
-    {
-      "name": "AI chatbot research",
-      "count": 20,
-      "description": "Examines the research and development of AI chatbots, including their use in various applications, ethical considerations, and potential risks."
+      "count": 22,
+      "description": "Features articles on AI's ability to condense large amounts of text into concise summaries, aiding in information digestion and comprehension."
     },
     {
       "name": "AI testing automation",
-      "count": 20,
-      "description": "Covers the use of AI in automating testing processes for software and applications, improving efficiency and identifying defects."
-    },
-    {
-      "name": "AI survey tools",
       "count": 19,
-      "description": "Discusses the application of AI in designing, deploying, and analyzing surveys to gather insights and understand user preferences."
+      "description": "Highlights the use of AI to automate software testing processes, including test case generation, execution, and analysis of results."
     },
     {
-      "name": "AI customer insights",
+      "name": "AI conversational AI",
+      "count": 18,
+      "description": "Covers AI chatbots and virtual assistants used for customer interaction, research, and providing information in a conversational manner."
+    },
+    {
+      "name": "AI research tools comparison",
       "count": 15,
-      "description": "Focuses on how AI is used to analyze customer data and behavior to generate actionable insights for businesses and product development."
+      "description": "Focuses on articles that compare and evaluate different AI tools and platforms based on their features, performance, and suitability for specific research tasks."
+    },
+    {
+      "name": "AI research platforms",
+      "count": 14,
+      "description": "Discusses comprehensive AI platforms designed to facilitate and accelerate scientific discovery, data analysis, and various research domains."
+    },
+    {
+      "name": "AI sentiment feedback analysis",
+      "count": 13,
+      "description": "Explores how AI is used to analyze user feedback, reviews, and social media content to understand sentiment and extract actionable insights."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
