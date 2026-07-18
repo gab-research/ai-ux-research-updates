@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-07-17T17:19:06.390Z",
+  "lastUpdated": "2026-07-18T03:15:22.292Z",
   "updates": [
     {
       "date": "2026-07-17",
@@ -14,6 +14,18 @@
         "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260717"
       },
       "analysis": "At Nubank, this roundup directly informs our approach to both research execution and talent development. For researchers, understanding the usability of AI 'skills' is crucial as we explore integrating AI-powered tools for tasks like survey analysis or persona generation. We should prioritize evaluating AI tools not just for their output quality, but also for their ease of use and how seamlessly they integrate into our existing workflows. This could involve testing AI features for summarizing customer feedback on PIX transactions or identifying pain points in the credit card activation process.\n\nMoreover, the shift in job market demand means our team must actively upskill in AI. This isn't about replacing human researchers, but augmenting our capabilities. We should allocate time for continuous learning on AI tools and methodologies relevant to banking products like personal loans or insurance applications. For instance, a researcher might use AI to proactively identify emerging trends in customer sentiment around onboarding, or to generate hypotheses for A/B testing new features on the Nubank app. As a guardrail, we must maintain human oversight and ethical considerations, ensuring AI-generated insights are critically evaluated and do not introduce bias into our research findings."
+    },
+    {
+      "date": "2026-07-17",
+      "title": "Don’t Outsource the Learning: Why Human-Led Research Still Matters in the Age of AI",
+      "summary": "Even if AI matches researcher-output quality, human-led research will remain essential — the team learning from observing users can't be outsourced.",
+      "content": "This Nielsen Norman Group article argues that even as AI capabilities in UX research advance, the irreplaceable value of human observation and interpretation remains. The core idea is that the nuanced understanding and collective learning derived from directly observing user behavior during research sessions cannot be replicated by AI, no matter how sophisticated. For UX researchers, this underscores the importance of maintaining direct engagement with users to foster deeper empathy and uncover latent needs. Practically, it implies that AI should be viewed as a powerful tool to augment, not replace, human researchers, freeing them to focus on higher-level synthesis and strategic insights.",
+      "category": "AI workforce impact",
+      "source": {
+        "name": "Nielsen Norman Group",
+        "url": "https://www.nngroup.com/articles/human-led-research-still-matters/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication"
+      },
+      "analysis": "At Nubank, the principle of \"Don’t Outsource the Learning\" should be integrated into our existing research workflows by ensuring that AI-generated insights are always validated and enriched through human interpretation. For instance, when using AI to analyze large datasets from PIX transactions or loan applications, researchers must still conduct qualitative studies and user interviews to understand the 'why' behind observed patterns, especially in complex flows like card activation or onboarding. This human-led validation is crucial to avoid superficial conclusions and ensure our product decisions for services like Nubank Seguros are truly user-centric.\n\nResearchers should leverage AI for tasks like initial data aggregation, thematic coding of open-ended survey responses, or even generating preliminary hypotheses, but the critical synthesis and understanding of user emotions, hesitations, and unmet needs must come from direct observation and debriefings within the research team. Guardrails should include mandatory human review of all AI-generated findings, particularly for sensitive user journeys, ensuring that the nuances of Brazilian user behavior, which can be highly contextual, are not lost. The focus should remain on augmenting our ability to empathize and learn collectively, rather than outsourcing that fundamental human connection."
     },
     {
       "date": "2026-07-16",

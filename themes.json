@@ -1,56 +1,56 @@
 {
   "month": "2026-07",
-  "updated": "2026-07-17",
+  "updated": "2026-07-18",
   "themes": [
     {
-      "name": "Agentic AI research",
-      "count": 52,
-      "description": "Articles discussing AI agents that can perform research tasks autonomously, including their capabilities, limitations, and development."
+      "name": "Agentic AI in research",
+      "count": 55,
+      "description": "Focuses on AI agents designed to perform research tasks autonomously or semi-autonomously, often involving complex workflows and decision-making."
     },
     {
       "name": "AI coding assistants",
-      "count": 43,
-      "description": "Focuses on AI tools that assist developers in writing, reviewing, and debugging code, including their security implications and effectiveness."
+      "count": 37,
+      "description": "Covers AI tools that assist developers in writing, reviewing, and debugging code, including security vulnerabilities and prompt injection research."
     },
     {
       "name": "AI research tools",
       "count": 36,
-      "description": "Covers a broad range of AI tools designed to aid in various research processes, from data collection to analysis and insight generation."
-    },
-    {
-      "name": "AI summarization",
-      "count": 23,
-      "description": "Articles about AI's ability to condense large amounts of text or data into concise summaries and extract key insights."
+      "description": "Articles discussing a broad range of AI-powered platforms and software used for research purposes, including exploration and foundational learning."
     },
     {
       "name": "AI for design & research",
-      "count": 18,
-      "description": "Explores how AI is integrated into the design process and user research workflows to enhance creativity, efficiency, and outcomes."
+      "count": 32,
+      "description": "Explores how AI is integrated into design workflows and research processes, aiming to augment human capabilities in creative and analytical tasks."
     },
     {
-      "name": "Synthetic users",
-      "count": 18,
-      "description": "Content related to AI-generated content, fake profiles, or simulated interactions that can be used for testing or research purposes."
+      "name": "AI recruitment research",
+      "count": 25,
+      "description": "Investigates the impact of AI on job markets, hiring practices, and the reskilling of the workforce, often through surveys and studies."
+    },
+    {
+      "name": "AI summarization",
+      "count": 21,
+      "description": "Focuses on AI's ability to condense large amounts of text or data into concise summaries, aiding in information processing and understanding."
     },
     {
       "name": "AI chatbot research",
-      "count": 17,
-      "description": "Articles specifically examining the research and development of AI chatbots, their behaviors, and their impact on users."
+      "count": 20,
+      "description": "Examines the research and development of AI chatbots, including their use in various applications, ethical considerations, and potential risks."
     },
     {
       "name": "AI testing automation",
-      "count": 16,
-      "description": "Discusses the use of AI in automating various aspects of software testing, including UI, performance, and functional testing."
-    },
-    {
-      "name": "AI workforce impact",
-      "count": 15,
-      "description": "Examines how AI is changing job roles, requiring new skills, and impacting hiring and employment landscapes."
+      "count": 20,
+      "description": "Covers the use of AI in automating testing processes for software and applications, improving efficiency and identifying defects."
     },
     {
       "name": "AI survey tools",
+      "count": 19,
+      "description": "Discusses the application of AI in designing, deploying, and analyzing surveys to gather insights and understand user preferences."
+    },
+    {
+      "name": "AI customer insights",
       "count": 15,
-      "description": "Articles focusing on AI applications in survey design, distribution, analysis, and generating actionable insights from survey data."
+      "description": "Focuses on how AI is used to analyze customer data and behavior to generate actionable insights for businesses and product development."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
