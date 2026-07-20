@@ -3,54 +3,54 @@
   "updated": "2026-07-20",
   "themes": [
     {
-      "name": "AI research tools",
-      "count": 14,
-      "description": "New AI tool launches, reviews, and platforms built for research workflows."
-    },
-    {
-      "name": "Agentic AI in research",
-      "count": 11,
-      "description": "Autonomous AI agents running research tasks, multi-agent frameworks, and orchestration."
+      "name": "Agentic AI research",
+      "count": 74,
+      "description": "Covers AI agents that perform research tasks autonomously, such as browsing, data collection, or analysis."
     },
     {
       "name": "AI coding assistants",
-      "count": 11,
-      "description": "Copilot, Claude Code, Cursor, and other AI tools for code generation and development."
+      "count": 38,
+      "description": "Focuses on AI tools that assist developers with writing, debugging, and reviewing code."
     },
     {
-      "name": "Conversational AI in research",
-      "count": 9,
-      "description": "Chatbots, virtual assistants, and voice AI in research contexts."
-    },
-    {
-      "name": "AI-powered data analysis",
-      "count": 7,
-      "description": "Automated data analysis, clustering, segmentation, and pattern detection."
-    },
-    {
-      "name": "Survey optimization",
-      "count": 7,
-      "description": "AI tools for designing better surveys, reducing bias, and analyzing responses."
+      "name": "AI research tools",
+      "count": 35,
+      "description": "Articles discussing platforms, frameworks, and software that aid researchers in various aspects of their work."
     },
     {
       "name": "AI workforce impact",
-      "count": 3,
-      "description": "AI replacing roles, future of work, skills gap, reskilling, and organizational change."
+      "count": 31,
+      "description": "Examines how AI is changing job roles, creating new positions, or impacting employment trends."
+    },
+    {
+      "name": "AI design research",
+      "count": 30,
+      "description": "Articles that delve into how AI is applied within the design process, including concept generation and system design."
+    },
+    {
+      "name": "AI research platform",
+      "count": 27,
+      "description": "Covers platforms specifically built to facilitate AI research, development, and experimentation."
     },
     {
       "name": "AI summarization",
-      "count": 3,
-      "description": "Automated transcript summaries, theme extraction, and affinity mapping."
+      "count": 20,
+      "description": "Focuses on AI applications that condense large amounts of text into shorter summaries."
     },
     {
-      "name": "Interview analysis",
-      "count": 2,
-      "description": "AI-assisted interview transcription, coding, and qualitative analysis."
+      "name": "AI testing automation",
+      "count": 18,
+      "description": "Articles discussing the use of AI to automate various forms of testing, from software to user experience."
     },
     {
-      "name": "AI tool evaluation",
-      "count": 2,
-      "description": "Comparing, benchmarking, and selecting AI tools and LLMs for specific use cases."
+      "name": "AI survey tools",
+      "count": 18,
+      "description": "Covers the use of AI in creating, distributing, and analyzing surveys."
+    },
+    {
+      "name": "AI research tools comparison",
+      "count": 15,
+      "description": "Articles that compare and contrast different AI tools available for research purposes."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."

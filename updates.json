@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-07-20T03:52:55.679Z",
+  "lastUpdated": "2026-07-20T11:09:00.020Z",
   "updates": [
+    {
+      "date": "2026-07-20",
+      "title": "AI is more likely than humans to form biases when hiring",
+      "summary": "The next time you apply for a job, AI may screen your résumé before any human sees it. But there’s good reason to question whether AI will judge you fairly. Researchers already know that LLMs pick up human biases from their training data. New research suggests that LLMs can al...",
+      "content": "The next time you apply for a job, AI may screen your résumé before any human sees it. But there’s good reason to question whether AI will judge you fairly. Researchers already know that LLMs pick up human biases from their training data. New research suggests that LLMs can also develop their own biases from…",
+      "category": "Survey optimization",
+      "source": {
+        "name": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/"
+      },
+      "analysis": ""
+    },
     {
       "date": "2026-07-17",
       "title": "UX Roundup: Usability of AI “Skills” | UXR Job Listings | AI Comics Help Learning | Quick View | The AI Economy | Social Learning | Automated Ads",
