@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-07-20T11:09:00.020Z",
+  "lastUpdated": "2026-07-20T18:12:13.618Z",
   "updates": [
     {
       "date": "2026-07-20",
@@ -14,6 +14,18 @@
         "url": "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/"
       },
       "analysis": ""
+    },
+    {
+      "date": "2026-07-20",
+      "title": "UX Roundup: Local-Language AI Use | AI &amp; Jobs | Great AI Films | Hypertext Hero Ted Nelson | User Errors | AI Helps Rainforests | Annotation UI | Token Spend",
+      "summary": "AI use becoming more localized, according to Gemini data from Southeast Asia | Heavy AI use in a company increases hiring, not layoffs | Winners of the AI Film Festival awards | The inventor of hypertext, Ted Nelson | Helping users recover from errors | AI drones help replant...",
+      "content": "This UX Roundup highlights several emerging trends where AI intersects with user experience and research. A key takeaway is the growing localization of AI, with Gemini data indicating a significant adoption of AI in Southeast Asian languages, underscoring the need for culturally relevant AI tools.  Furthermore, contrary to fears of job displacement, the article suggests heavy AI integration actually fuels job growth, a vital insight for understanding organizational impact. The inclusion of AI in areas like rainforest restoration and user error recovery demonstrates AI's expanding potential to address complex societal and usability challenges, offering inspiration for innovative UX solutions.",
+      "category": "AI-powered data analysis",
+      "source": {
+        "name": "Jakob Nielsen (Substack)",
+        "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260720"
+      },
+      "analysis": "At Nubank, this Roundup reinforces the urgency of developing and evaluating AI-powered features with a keen eye on local Brazilian nuances. For instance, when designing AI-assisted onboarding flows for new customers, or refining the PIX transaction experience, we must ensure AI models are trained on and understand Brazilian Portuguese dialects and cultural context, avoiding a one-size-fits-all approach. Researchers should actively seek out and evaluate AI tools that support multilingual research and analysis, especially for understanding feedback from diverse customer segments across Brazil.\n\nPractically, this means integrating AI tools that can analyze qualitative data from customer interviews and support tickets in local dialects, aiding in faster identification of pain points in services like loan applications or insurance claims. When testing AI-driven chatbots for card activation or customer service, researchers need to assess their ability to handle colloquial language and local idioms effectively.  A crucial guardrail is to avoid relying solely on AI for cultural interpretation; human oversight and ethnographic understanding remain paramount to ensure genuine empathy and user-centricity in all AI applications, preventing unintended biases or misunderstandings in critical financial interactions."
     },
     {
       "date": "2026-07-17",
