@@ -1,19 +1,19 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-07-20T18:12:13.618Z",
+  "lastUpdated": "2026-07-21T03:29:30.501Z",
   "updates": [
     {
       "date": "2026-07-20",
       "title": "AI is more likely than humans to form biases when hiring",
       "summary": "The next time you apply for a job, AI may screen your résumé before any human sees it. But there’s good reason to question whether AI will judge you fairly. Researchers already know that LLMs pick up human biases from their training data. New research suggests that LLMs can al...",
-      "content": "The next time you apply for a job, AI may screen your résumé before any human sees it. But there’s good reason to question whether AI will judge you fairly. Researchers already know that LLMs pick up human biases from their training data. New research suggests that LLMs can also develop their own biases from…",
+      "content": "This MIT Technology Review article highlights a critical paradox: while AI is often touted for its objectivity, research indicates that Large Language Models (LLMs) are, in fact, more prone to developing and perpetuating biases than humans in hiring processes. This stems from their reliance on vast datasets, which inherently contain societal biases present in human language and historical decisions. For UX researchers, this is a significant concern, especially as AI is increasingly integrated into user-facing applications and internal decision-making tools. The practical implication is that we must proactively identify and mitigate these embedded biases to ensure fair and equitable experiences for all Nubank users, whether they are applying for a loan, activating a new credit card, or onboarding onto our platform.",
       "category": "Survey optimization",
       "source": {
         "name": "MIT Technology Review",
         "url": "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/"
       },
-      "analysis": ""
+      "analysis": "At Nubank, this research directly impacts our efforts to build fair and inclusive digital banking experiences. Within our research workflow, this insight is crucial when evaluating AI-powered tools we might use for candidate screening in recruitment, or even in analyzing user feedback for themes related to fairness and accessibility across products like PIX transactions, loan applications, or insurance sign-ups. Researchers should actively scrutinize any AI models used for user segmentation, sentiment analysis, or predictive modeling to identify potential sources of bias. This means going beyond superficial performance metrics and digging into the training data and algorithmic logic for discriminatory patterns.\n\nTo operationalize this, our UX research team should implement a 'Bias Audit' checklist for any AI-driven UX initiatives. This checklist would prompt questions about the diversity of training data, potential proxy variables that could lead to discriminatory outcomes (e.g., zip codes correlating with socioeconomic status for loan risk assessment), and methods for ongoing monitoring and debiasing. For instance, when designing new features for onboarding or exploring personalized financial advice, we need to ensure the AI doesn't inadvertently disadvantage specific user demographics. Establishing clear guardrails against deploying biased AI systems is paramount, emphasizing human oversight and validation before any AI-driven recommendation or decision is implemented, especially in high-stakes scenarios like credit limit decisions or fraud detection."
     },
     {
       "date": "2026-07-20",
@@ -26,6 +26,18 @@
         "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260720"
       },
       "analysis": "At Nubank, this Roundup reinforces the urgency of developing and evaluating AI-powered features with a keen eye on local Brazilian nuances. For instance, when designing AI-assisted onboarding flows for new customers, or refining the PIX transaction experience, we must ensure AI models are trained on and understand Brazilian Portuguese dialects and cultural context, avoiding a one-size-fits-all approach. Researchers should actively seek out and evaluate AI tools that support multilingual research and analysis, especially for understanding feedback from diverse customer segments across Brazil.\n\nPractically, this means integrating AI tools that can analyze qualitative data from customer interviews and support tickets in local dialects, aiding in faster identification of pain points in services like loan applications or insurance claims. When testing AI-driven chatbots for card activation or customer service, researchers need to assess their ability to handle colloquial language and local idioms effectively.  A crucial guardrail is to avoid relying solely on AI for cultural interpretation; human oversight and ethnographic understanding remain paramount to ensure genuine empathy and user-centricity in all AI applications, preventing unintended biases or misunderstandings in critical financial interactions."
+    },
+    {
+      "date": "2026-07-20",
+      "title": "Research shouldn’t end in a deck",
+      "summary": "How I use Claude Code to challenge assumptions and turn research into a living artifact Continue reading on UX Collective »",
+      "content": "This article proposes a shift from viewing research findings as static deliverables like presentations to treating them as dynamic, living artifacts. By leveraging AI tools like Claude Code, researchers can effectively challenge initial assumptions and continuously refine insights. This approach is crucial for UX researchers as it fosters a more iterative and adaptable research process, enabling teams to derive ongoing value from their work. The practical implication is the creation of research outputs that can evolve alongside product development, rather than becoming quickly outdated.",
+      "category": "AI coding assistants",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/research-shouldnt-end-in-a-deck-fe7c1d4fe1af?source=rss----138adf9c44c---4"
+      },
+      "analysis": "At Nubank, this philosophy of research as a living artifact fits perfectly into our agile development cycles, especially when iterating on core products like the Nubank card activation flow or the PIX transaction experience. Instead of producing a single research deck after user interviews, researchers can use Claude Code to process raw interview transcripts, identify emerging themes, and even draft initial hypotheses for A/B testing on the onboarding journey. This allows the insights to be directly translated into actionable user stories for product teams, rather than sitting in a repository.\n\nResearchers should integrate Claude Code early in the discovery phase, using it to rapidly synthesize qualitative data and surface potential biases in their own thinking. For instance, while researching customer concerns around loan applications, AI could help identify patterns that might be overlooked in manual analysis. However, it's crucial to establish guardrails: AI outputs should always be critically reviewed by human researchers for nuance, context, and to ensure they align with our ethical guidelines and deep understanding of the Brazilian user. The AI should augment, not replace, the researcher's judgment, particularly when dealing with sensitive financial products like insurance or credit limit adjustments."
     },
     {
       "date": "2026-07-17",

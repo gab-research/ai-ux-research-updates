@@ -1,56 +1,56 @@
 {
   "month": "2026-07",
-  "updated": "2026-07-20",
+  "updated": "2026-07-21",
   "themes": [
     {
-      "name": "AI research tools",
-      "count": 71,
-      "description": "New AI tool launches, reviews, and platforms built for research workflows."
-    },
-    {
-      "name": "Survey optimization",
-      "count": 68,
-      "description": "AI tools for designing better surveys, reducing bias, and analyzing responses."
-    },
-    {
-      "name": "Conversational AI in research",
-      "count": 40,
-      "description": "Chatbots, virtual assistants, and voice AI in research contexts."
-    },
-    {
-      "name": "AI workforce impact",
-      "count": 37,
-      "description": "AI replacing roles, future of work, skills gap, reskilling, and organizational change."
+      "name": "Agentic AI in research",
+      "count": 125,
+      "description": "This theme covers AI agents and autonomous systems being used to conduct, assist, or transform research processes."
     },
     {
       "name": "AI coding assistants",
+      "count": 73,
+      "description": "This theme focuses on AI tools that help developers write, debug, review, and optimize code."
+    },
+    {
+      "name": "AI summarization",
+      "count": 44,
+      "description": "This theme pertains to AI applications that condense large amounts of text or data into concise summaries."
+    },
+    {
+      "name": "AI research tools",
+      "count": 43,
+      "description": "This theme encompasses a broad range of AI-powered tools and platforms specifically designed for research activities."
+    },
+    {
+      "name": "AI workforce impact",
+      "count": 42,
+      "description": "This theme examines how AI affects jobs, hiring, skills, and the overall workforce landscape."
+    },
+    {
+      "name": "AI design research",
       "count": 34,
-      "description": "Copilot, Claude Code, Cursor, and other AI tools for code generation and development."
+      "description": "This theme covers AI applications and techniques used to assist or automate aspects of the design process."
+    },
+    {
+      "name": "AI chatbot research",
+      "count": 34,
+      "description": "This theme focuses on the research, development, and implications of conversational AI and chatbots."
     },
     {
       "name": "AI-powered data analysis",
-      "count": 34,
-      "description": "Automated data analysis, clustering, segmentation, and pattern detection."
-    },
-    {
-      "name": "Agentic AI in research",
-      "count": 31,
-      "description": "Autonomous AI agents running research tasks, multi-agent frameworks, and orchestration."
-    },
-    {
-      "name": "AI ethics in research",
       "count": 26,
-      "description": "Bias, fairness, responsible AI, privacy, and trust in research."
+      "description": "This theme includes AI applications for analyzing, interpreting, and extracting insights from data."
     },
     {
-      "name": "AI content generation",
-      "count": 18,
-      "description": "AI writing, report generation, UX copy, and content creation."
+      "name": "AI research platform",
+      "count": 24,
+      "description": "This theme refers to dedicated platforms and environments built to facilitate AI research and development."
     },
     {
-      "name": "AI tool evaluation",
-      "count": 14,
-      "description": "Comparing, benchmarking, and selecting AI tools and LLMs for specific use cases."
+      "name": "AI recruitment research",
+      "count": 23,
+      "description": "This theme covers AI's influence on recruitment processes, including bias, efficiency, and candidate selection."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
