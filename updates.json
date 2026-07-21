@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-07-21T10:31:42.126Z",
+  "lastUpdated": "2026-07-21T17:37:26.518Z",
   "updates": [
+    {
+      "date": "2026-07-21",
+      "title": "AI-Assisted UX Research: Tools, Limits, and Workflow",
+      "summary": "AI-Assisted UX Research: Tools, Limits, and Workflow. Founder-friendly guide from ParallelHQ.",
+      "content": "This article from Parallel Blog explores the burgeoning field of AI-assisted UX research, highlighting how artificial intelligence can augment traditional research methodologies.  It emphasizes that AI tools can automate repetitive tasks, extract deeper insights from large datasets, and accelerate the research process, thereby freeing up researchers to focus on more strategic and creative aspects of their work. For UX researchers at a company like Nubank, this means the potential to gain a more nuanced understanding of user behavior across complex financial products, leading to more efficient and impactful product improvements.",
+      "category": "AI research tools",
+      "source": {
+        "name": "Parallel Blog",
+        "url": "https://www.parallelhq.com/blog/ai-assisted-ux-research-workflow"
+      },
+      "analysis": "At Nubank, AI-assisted UX research can be integrated at multiple stages of our product development lifecycle. For instance, analyzing customer feedback from our PIX transaction flows or loan applications could be significantly enhanced by AI sentiment analysis and topic modeling, identifying recurring pain points or emerging user needs at scale. Similarly, during the onboarding process for new customers or the activation of our credit cards, AI can help sift through qualitative feedback to pinpoint friction points that might be missed by manual review, allowing for quicker iteration and optimization. Researchers should approach these tools as powerful assistants, not replacements, focusing on prompt engineering and critically evaluating AI-generated insights.\n\nKey guardrails for using AI at Nubank involve data privacy and ethical considerations, especially when dealing with sensitive financial information. Researchers must ensure that any AI tools used comply with LGPD regulations and company data policies. While AI can accelerate discovery, human oversight remains critical for nuanced interpretation, contextual understanding of user behavior, and ensuring that the AI's output doesn't introduce bias or overlook unique edge cases. We must also acknowledge the current limitations of AI in understanding deeply emotional or culturally specific nuances inherent in Brazilian financial behaviors, which still require the empathy and intuition of a human researcher, particularly in areas like insurance or complex investment products."
+    },
     {
       "date": "2026-07-20",
       "title": "AI is more likely than humans to form biases when hiring",
