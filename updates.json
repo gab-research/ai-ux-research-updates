@@ -1,8 +1,32 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-07-22T03:28:32.747Z",
+  "lastUpdated": "2026-07-22T10:32:13.686Z",
   "updates": [
+    {
+      "date": "2026-07-22",
+      "title": "New AI user research tools & features (2026)",
+      "summary": "A running log of the latest AI user research tools and features in 2026: new launches, AI updates from every major platform, and what actually matters about each. Updated monthly.",
+      "content": "The 'New AI user research tools & features (2026)' article from Great Question Blog serves as a vital, continuously updated resource for UX researchers navigating the rapidly evolving AI landscape.  It tracks emerging AI applications specifically designed to enhance user research processes, from new platform launches to significant feature updates from established players.  Understanding these advancements is crucial for UX professionals aiming to improve efficiency, uncover deeper user insights, and ultimately deliver more effective and personalized digital banking experiences for customers like those using Nubank's PIX, loan applications, or card activation features.",
+      "category": "AI in user testing",
+      "source": {
+        "name": "Great Question Blog",
+        "url": "https://cms.greatquestion.co/blog/new-ai-user-research-tools"
+      },
+      "analysis": "This monthly updated resource will be invaluable for our Nubank UX research team. We can integrate it into our regular knowledge-sharing sessions to identify AI tools that can automate repetitive tasks, such as sentiment analysis of customer feedback from our app reviews or initial transcription and summarization of user interviews for features like insurance onboarding.  Researchers can proactively test and pilot these new AI capabilities to see how they can augment our existing qualitative and quantitative methodologies, potentially speeding up the analysis phase of our research cycles for products ranging from credit card activation to personal loan applications.  We should maintain a central repository of promising AI tools and establish a clear process for evaluating their effectiveness and ethical implications before widespread adoption, ensuring they align with Nubank's commitment to data privacy and user trust, especially when dealing with sensitive financial information related to PIX transactions or loan eligibility."
+    },
+    {
+      "date": "2026-07-22",
+      "title": "MCP for user research: connect AI to your research data",
+      "summary": "Great Question now has a native MCP server. Connect Claude or Cursor to your research repository and ask questions across years of sessions and insights.",
+      "content": "This article introduces \"MCP\" (likely meaning \"Multi-modal Conversational Processing\") as a new capability for user research platforms, enabling direct integration with AI models like Claude or Cursor.  Essentially, it allows researchers to query vast archives of past user research sessions and existing insights using natural language. This is significant because it democratizes access to deep historical user knowledge, moving beyond manual review of individual sessions.  The practical implication is a drastically accelerated discovery process, enabling researchers to quickly uncover trends, identify pain points, and inform product decisions across multiple Nubank products and customer journeys, from onboarding to complex loan applications.",
+      "category": "Survey optimization",
+      "source": {
+        "name": "Great Question Blog",
+        "url": "https://cms.greatquestion.co/blog/mcp-for-user-research"
+      },
+      "analysis": "At Nubank, integrating this \"MCP\" functionality would significantly enhance our existing research workflow, particularly in how we leverage our extensive historical data. Imagine a researcher investigating a persistent friction point in the PIX transfer flow. Instead of manually sifting through years of usability tests and feedback, they could use the AI to ask, \"What were the most common usability issues reported by users during PIX transfers between 2022 and 2023?\" or \"Show me all user feedback related to loan application clarity in onboarding.\" This direct querying of our research repository would save considerable time and surface previously buried insights, informing iterative improvements for products like our credit card activation process or insurance onboarding.\n\nTo apply this at Nubank, researchers should first familiarize themselves with the connected AI's capabilities and limitations, understanding that it's a powerful tool for discovery but not a replacement for critical thinking and qualitative synthesis. Guardrails are crucial: sensitive PII should remain anonymized or abstracted before being ingested into the AI's accessible repository to maintain user privacy. Furthermore, while the AI can identify patterns, human researchers must still validate and contextualize these findings, ensuring that the generated insights are truly representative and actionable for our diverse customer base, from first-time digital banking users to those managing multiple Nubank financial products."
+    },
     {
       "date": "2026-07-21",
       "title": "AI-Assisted UX Research: Tools, Limits, and Workflow",
