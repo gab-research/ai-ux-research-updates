@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 106,
-      "description": "Articles focusing on AI agents that can independently perform research tasks, analyze data, and generate insights."
-    },
-    {
-      "name": "AI coding assistants",
-      "count": 97,
-      "description": "Discussions around AI tools that help developers write, review, and debug code."
-    },
-    {
-      "name": "AI research tools",
-      "count": 72,
-      "description": "Content related to platforms and software designed to aid researchers in data collection, analysis, and insight generation."
+      "count": 96,
+      "description": "Covers AI agents that can autonomously perform research tasks, analyze data, and generate insights."
     },
     {
       "name": "AI summarization",
-      "count": 59,
-      "description": "Articles detailing the use of AI to condense long texts, documents, or conversations into concise summaries."
+      "count": 47,
+      "description": "Focuses on AI tools and techniques for condensing large amounts of text, such as research findings or meeting transcripts, into concise summaries."
+    },
+    {
+      "name": "AI coding assistants",
+      "count": 38,
+      "description": "Articles about AI tools that help developers write, review, and debug code, including specific research on their security and efficacy."
+    },
+    {
+      "name": "AI research tools",
+      "count": 37,
+      "description": "Discusses specific AI-powered tools designed to aid researchers in various stages of their work, from data collection to analysis."
+    },
+    {
+      "name": "AI research platforms",
+      "count": 24,
+      "description": "Covers dedicated platforms or environments designed to facilitate AI-driven research, offering integrated tools and capabilities."
+    },
+    {
+      "name": "AI tool evaluation",
+      "count": 22,
+      "description": "Articles that compare, review, or assess the performance and usability of various AI tools for UX and research."
     },
     {
       "name": "AI workforce impact",
-      "count": 45,
-      "description": "Research and analysis on how AI is affecting job roles, hiring practices, and the overall labor market."
+      "count": 19,
+      "description": "Examines how AI is changing job roles, hiring practices, and the skills required for the future workforce in design and research."
     },
     {
       "name": "AI design research",
-      "count": 41,
-      "description": "Explores AI applications in the design process, including generative design, AI-assisted prototyping, and design system integration."
+      "count": 18,
+      "description": "Focuses on how AI is applied to the design process itself, including generative design, AI-assisted prototyping, and design system integration."
     },
     {
-      "name": "AI chatbot research",
-      "count": 38,
-      "description": "Focuses on the research and development of AI-powered chatbots, including their capabilities, limitations, and user interactions."
+      "name": "AI sentiment & feedback analysis",
+      "count": 16,
+      "description": "Covers the use of AI to analyze user feedback, reviews, and sentiment to derive actionable insights."
     },
     {
-      "name": "AI research tools comparison",
-      "count": 37,
-      "description": "Articles that compare different AI tools, platforms, or models for research purposes."
-    },
-    {
-      "name": "AI sentiment feedback analysis",
-      "count": 30,
-      "description": "Content related to AI's ability to analyze user feedback, reviews, and social media to understand sentiment."
-    },
-    {
-      "name": "AI for product management",
-      "count": 27,
-      "description": "Discussions on how AI can be applied to various aspects of product management, from feature development to market analysis."
+      "name": "AI testing automation",
+      "count": 14,
+      "description": "Discusses AI's role in automating testing processes, particularly in software development and UI/UX quality assurance."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
