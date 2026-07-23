@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 96,
-      "description": "Covers AI agents that can autonomously perform research tasks, analyze data, and generate insights."
-    },
-    {
-      "name": "AI summarization",
-      "count": 47,
-      "description": "Focuses on AI tools and techniques for condensing large amounts of text, such as research findings or meeting transcripts, into concise summaries."
+      "count": 71,
+      "description": "Covers AI agents that can autonomously perform research tasks, analyze data, and make decisions in research workflows."
     },
     {
       "name": "AI coding assistants",
-      "count": 38,
-      "description": "Articles about AI tools that help developers write, review, and debug code, including specific research on their security and efficacy."
+      "count": 49,
+      "description": "Focuses on AI tools that help developers write, debug, and refactor code, often integrated into development environments."
     },
     {
       "name": "AI research tools",
-      "count": 37,
-      "description": "Discusses specific AI-powered tools designed to aid researchers in various stages of their work, from data collection to analysis."
+      "count": 46,
+      "description": "Encompasses a broad range of AI-powered software and platforms designed to aid researchers in various stages of their work."
     },
     {
-      "name": "AI research platforms",
-      "count": 24,
-      "description": "Covers dedicated platforms or environments designed to facilitate AI-driven research, offering integrated tools and capabilities."
-    },
-    {
-      "name": "AI tool evaluation",
-      "count": 22,
-      "description": "Articles that compare, review, or assess the performance and usability of various AI tools for UX and research."
+      "name": "AI summarization",
+      "count": 25,
+      "description": "Articles discussing AI's ability to condense long texts, transcripts, or data into concise summaries for easier comprehension."
     },
     {
       "name": "AI workforce impact",
-      "count": 19,
-      "description": "Examines how AI is changing job roles, hiring practices, and the skills required for the future workforce in design and research."
+      "count": 25,
+      "description": "Examines how AI is affecting jobs, hiring, reskilling, and the overall human workforce."
+    },
+    {
+      "name": "AI chatbot research",
+      "count": 23,
+      "description": "Deals with the research, capabilities, limitations, and ethical implications of conversational AI agents."
     },
     {
       "name": "AI design research",
-      "count": 18,
-      "description": "Focuses on how AI is applied to the design process itself, including generative design, AI-assisted prototyping, and design system integration."
+      "count": 19,
+      "description": "Explores AI's role in the design process, from conceptualization and prototyping to generating design elements."
     },
     {
-      "name": "AI sentiment & feedback analysis",
-      "count": 16,
-      "description": "Covers the use of AI to analyze user feedback, reviews, and sentiment to derive actionable insights."
+      "name": "AI research platform",
+      "count": 19,
+      "description": "Covers platforms and environments specifically built to facilitate AI research and development."
+    },
+    {
+      "name": "AI sentiment feedback",
+      "count": 17,
+      "description": "Focuses on using AI to analyze user feedback, reviews, and social media sentiment."
     },
     {
       "name": "AI testing automation",
-      "count": 14,
-      "description": "Discusses AI's role in automating testing processes, particularly in software development and UI/UX quality assurance."
+      "count": 17,
+      "description": "Discusses the application of AI in automating software testing, quality assurance, and other validation processes."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
