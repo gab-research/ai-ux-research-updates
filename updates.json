@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-07-24T10:25:54.162Z",
+  "lastUpdated": "2026-07-24T17:45:18.908Z",
   "updates": [
+    {
+      "date": "2026-07-24",
+      "title": "The aggressively mediocre fight",
+      "summary": "The battle we have with AI and something we can do about it. Continue reading on UX Collective »",
+      "content": "This article frames the current AI landscape as an \"aggressively mediocre fight,\" suggesting that while AI offers immense potential, much of its current application in UX research is producing only incremental, rather than transformative, improvements. The key idea is that we are settling for \"good enough\" AI tools rather than pushing for truly innovative solutions that could revolutionize how we understand users. For UX researchers, this matters because a passive approach risks underutilizing AI's capabilities, potentially leading to inefficient processes and a missed opportunity to gain deeper, more nuanced user insights. Practically, this calls for a more critical and experimental mindset, encouraging researchers to not just adopt existing AI tools but to actively explore and advocate for the development of more sophisticated applications that can truly elevate our research practice.",
+      "category": "AI research tools",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/the-aggressively-mediocre-fight-ed47b3f9f8f4?source=rss----138adf9c44c---4"
+      },
+      "analysis": "At Nubank, this article's message encourages us to move beyond simply using AI for basic transcription or sentiment analysis on customer feedback for PIX transactions or loan applications. Instead, we should explore how AI can help us identify emergent user needs and pain points across complex flows like credit card activation or new customer onboarding that current methods might miss. For instance, imagine an AI that can proactively flag subtle shifts in user behavior during the insurance application process, allowing us to conduct more targeted, qualitative research before issues escalate.\n\nTo apply this at Nubank, researchers should actively experiment with emerging AI capabilities that go beyond descriptive analytics. This means leveraging AI for more sophisticated predictive modeling of user journeys, identifying potential friction points in feature adoption (like new credit card perks), or even generating hypothetical user personas based on large-scale behavioral data. Our guardrail should be to always treat AI outputs as hypotheses, not definitive truths. Human oversight and qualitative validation remain paramount. We must ensure that AI enhancements augment, rather than replace, our deep understanding of the Nubank customer's needs and context, particularly as we expand our product suite."
+    },
     {
       "date": "2026-07-23",
       "title": "Who Owns AI Governance in User Research?",
@@ -674,18 +686,6 @@
         "url": "https://www.microsoft.com/en-us/research/blog/understanding-the-brain-with-ai-driven-explanations-and-experiments/"
       },
       "analysis": "At Nubank, generative causal testing, while currently focused on neuroscience, offers a forward-thinking framework for understanding user decision-making in critical financial flows. Imagine applying this to the PIX transaction experience: we could develop hypotheses about which visual elements or cognitive load during fund transfer trigger user anxiety or hesitation, then use targeted experiments to validate these in simulated environments. This could inform design iterations for PIX confirmations or fund allocation screens, ensuring maximum clarity and trust. Similarly, during loan application or card activation flows, this approach could help uncover the underlying cognitive barriers preventing users from completing these tasks, leading to more streamlined and accessible onboarding processes."
-    },
-    {
-      "date": "2026-06-24",
-      "title": "Talos: Scaling rare disease diagnosis with automated, iterative genomic reanalysis",
-      "summary": "Talos was built to help resolve a major bottleneck in genomic medicine: human review time. The open-source system recovered 90% of in-scope diagnoses while surfacing just 1.3 candidate variants per patient for expert review. The post Talos: Scaling rare disease diagnosis with...",
-      "content": "Talos was built to help resolve a major bottleneck in genomic medicine: human review time. The open-source system recovered 90% of in-scope diagnoses while surfacing just 1.3 candidate variants per patient for expert review. The post Talos: Scaling rare disease diagnosis with automated, iterative genomic reanalysis appeared first on Microsoft Research.",
-      "category": "AI-powered data analysis",
-      "source": {
-        "name": "Microsoft Research",
-        "url": "https://www.microsoft.com/en-us/research/blog/talos-scaling-rare-disease-diagnosis-with-automated-iterative-genomic-reanalysis/"
-      },
-      "analysis": "At Nubank, Talos's core principle of automating complex data reanalysis can be applied to optimize our user research workflows, particularly when dealing with large datasets from user testing or feature usage. Imagine analyzing qualitative feedback from thousands of users on a new PIX feature or identifying pain points in the card activation process. Instead of manually sifting through hours of transcribed interviews or extensive survey responses, an AI system like Talos could rapidly identify recurring themes, sentiment shifts, or critical usability issues, presenting researchers with distilled insights and high-priority areas for deeper investigation. This would allow us to move from a reactive, time-intensive analysis phase to a more proactive, insight-driven approach, accelerating our ability to inform product decisions for areas like onboarding, loan applications, or insurance.\n\nResearchers can leverage this by exploring AI-powered tools that can automate the initial sorting and categorization of qualitative data. This could involve training models to recognize common user frustrations, feature requests, or successful interaction patterns across various Nubank products. For instance, after a beta launch of a new savings account feature, AI could flag all mentions of 'confusing terms' or 'difficulty finding information' across user feedback, surfacing these for immediate researcher attention. It's crucial, however, to establish clear guardrails. AI should augment, not replace, human judgment. Researchers must retain oversight to ensure nuanced interpretations are captured, biases are identified, and the AI's output is validated against qualitative understanding, preventing premature conclusions and ensuring the human element remains central to our user-centric design philosophy."
     }
   ]
 }
