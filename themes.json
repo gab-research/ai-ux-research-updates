@@ -3,54 +3,54 @@
   "updated": "2026-07-24",
   "themes": [
     {
-      "name": "Agentic AI in research",
-      "count": 65,
-      "description": "This theme covers AI agents that can autonomously perform research tasks, analyze data, and generate insights with minimal human intervention."
+      "name": "AI research tools",
+      "count": 83,
+      "description": "New AI tool launches, reviews, and platforms built for research workflows."
+    },
+    {
+      "name": "Survey optimization",
+      "count": 76,
+      "description": "AI tools for designing better surveys, reducing bias, and analyzing responses."
+    },
+    {
+      "name": "AI-powered data analysis",
+      "count": 52,
+      "description": "Automated data analysis, clustering, segmentation, and pattern detection."
+    },
+    {
+      "name": "AI workforce impact",
+      "count": 51,
+      "description": "AI replacing roles, future of work, skills gap, reskilling, and organizational change."
     },
     {
       "name": "AI coding assistants",
-      "count": 42,
-      "description": "This theme focuses on AI tools that help developers write, debug, and refactor code, including research on their effectiveness and security."
+      "count": 51,
+      "description": "Copilot, Claude Code, Cursor, and other AI tools for code generation and development."
     },
     {
-      "name": "AI research tools",
-      "count": 34,
-      "description": "This theme encompasses a broad range of AI-powered tools designed to assist in various aspects of research, from data collection to analysis."
+      "name": "Conversational AI in research",
+      "count": 48,
+      "description": "Chatbots, virtual assistants, and voice AI in research contexts."
     },
     {
-      "name": "AI summarization",
-      "count": 24,
-      "description": "This theme covers AI applications that condense large amounts of text, such as articles, transcripts, or research papers, into concise summaries."
+      "name": "Agentic AI in research",
+      "count": 36,
+      "description": "Autonomous AI agents running research tasks, multi-agent frameworks, and orchestration."
     },
     {
-      "name": "AI for design & research",
-      "count": 19,
-      "description": "This theme explores how AI is being integrated into design workflows and research processes to enhance creativity, efficiency, and user understanding."
+      "name": "AI ethics in research",
+      "count": 33,
+      "description": "Bias, fairness, responsible AI, privacy, and trust in research."
     },
     {
-      "name": "Synthetic users",
+      "name": "AI content generation",
       "count": 18,
-      "description": "This theme examines the creation and use of AI-generated personas or simulated user data for testing and research purposes."
+      "description": "AI writing, report generation, UX copy, and content creation."
     },
     {
-      "name": "AI testing automation",
-      "count": 18,
-      "description": "This theme focuses on AI tools and techniques used to automate software testing, including UI testing, performance testing, and quality assurance."
-    },
-    {
-      "name": "AI chatbot research",
-      "count": 18,
-      "description": "This theme delves into the research and development of AI chatbots, their capabilities, limitations, and impact on user interaction and understanding."
-    },
-    {
-      "name": "AI customer insights",
+      "name": "AI for product management",
       "count": 16,
-      "description": "This theme covers how AI is used to analyze customer data and feedback to generate actionable insights for product development and marketing."
-    },
-    {
-      "name": "AI research platform",
-      "count": 13,
-      "description": "This theme addresses platforms and environments specifically designed to facilitate AI research, development, and experimentation."
+      "description": "AI in product decisions, discovery, prioritization, and roadmapping."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
