@@ -1,56 +1,56 @@
 {
   "month": "2026-07",
-  "updated": "2026-07-23",
+  "updated": "2026-07-24",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 71,
-      "description": "Covers AI agents that can autonomously perform research tasks, analyze data, and make decisions in research workflows."
+      "count": 65,
+      "description": "This theme covers AI agents that can autonomously perform research tasks, analyze data, and generate insights with minimal human intervention."
     },
     {
       "name": "AI coding assistants",
-      "count": 49,
-      "description": "Focuses on AI tools that help developers write, debug, and refactor code, often integrated into development environments."
+      "count": 42,
+      "description": "This theme focuses on AI tools that help developers write, debug, and refactor code, including research on their effectiveness and security."
     },
     {
       "name": "AI research tools",
-      "count": 46,
-      "description": "Encompasses a broad range of AI-powered software and platforms designed to aid researchers in various stages of their work."
+      "count": 34,
+      "description": "This theme encompasses a broad range of AI-powered tools designed to assist in various aspects of research, from data collection to analysis."
     },
     {
       "name": "AI summarization",
-      "count": 25,
-      "description": "Articles discussing AI's ability to condense long texts, transcripts, or data into concise summaries for easier comprehension."
+      "count": 24,
+      "description": "This theme covers AI applications that condense large amounts of text, such as articles, transcripts, or research papers, into concise summaries."
     },
     {
-      "name": "AI workforce impact",
-      "count": 25,
-      "description": "Examines how AI is affecting jobs, hiring, reskilling, and the overall human workforce."
-    },
-    {
-      "name": "AI chatbot research",
-      "count": 23,
-      "description": "Deals with the research, capabilities, limitations, and ethical implications of conversational AI agents."
-    },
-    {
-      "name": "AI design research",
+      "name": "AI for design & research",
       "count": 19,
-      "description": "Explores AI's role in the design process, from conceptualization and prototyping to generating design elements."
+      "description": "This theme explores how AI is being integrated into design workflows and research processes to enhance creativity, efficiency, and user understanding."
     },
     {
-      "name": "AI research platform",
-      "count": 19,
-      "description": "Covers platforms and environments specifically built to facilitate AI research and development."
-    },
-    {
-      "name": "AI sentiment feedback",
-      "count": 17,
-      "description": "Focuses on using AI to analyze user feedback, reviews, and social media sentiment."
+      "name": "Synthetic users",
+      "count": 18,
+      "description": "This theme examines the creation and use of AI-generated personas or simulated user data for testing and research purposes."
     },
     {
       "name": "AI testing automation",
-      "count": 17,
-      "description": "Discusses the application of AI in automating software testing, quality assurance, and other validation processes."
+      "count": 18,
+      "description": "This theme focuses on AI tools and techniques used to automate software testing, including UI testing, performance testing, and quality assurance."
+    },
+    {
+      "name": "AI chatbot research",
+      "count": 18,
+      "description": "This theme delves into the research and development of AI chatbots, their capabilities, limitations, and impact on user interaction and understanding."
+    },
+    {
+      "name": "AI customer insights",
+      "count": 16,
+      "description": "This theme covers how AI is used to analyze customer data and feedback to generate actionable insights for product development and marketing."
+    },
+    {
+      "name": "AI research platform",
+      "count": 13,
+      "description": "This theme addresses platforms and environments specifically designed to facilitate AI research, development, and experimentation."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
