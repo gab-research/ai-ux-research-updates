@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-07-25T09:55:57.162Z",
+  "lastUpdated": "2026-07-25T17:08:58.444Z",
   "updates": [
     {
       "date": "2026-07-24",
@@ -674,18 +674,6 @@
         "url": "https://cms.greatquestion.co/blog/building-an-insight-ecosystem"
       },
       "analysis": "At Nubank, this insight ecosystem concept directly complements our existing data infrastructure and product lifecycle. Researchers can integrate AI-powered analysis into their workflow to process vast amounts of qualitative data generated from customer interactions across products like PIX transfers, loan applications, and card activation flows. Instead of manually sifting through thousands of support tickets or survey responses, AI can identify emerging themes and sentiment shifts related to, for example, a new insurance product feature or a common friction point in the onboarding process. This allows us to proactively identify and address issues that might impact user satisfaction and retention.\n\nTo implement this at Nubank, researchers should work with engineering and data science teams to establish AI models that can ingest and analyze data from sources like our customer service chat logs, in-app feedback modules, and app store reviews. The AI could then surface potential insights related to specific product areas, such as identifying recurring usability issues with a particular loan offer or unexpected user behaviors during the initial setup of a new credit card. However, it's vital to maintain human oversight; AI should be viewed as an augmentation tool, not a replacement. Researchers must critically evaluate AI-generated insights, validating them with qualitative methods and considering the nuances of Brazilian cultural context and user behavior that AI might miss, ensuring our understanding remains deeply human-centered."
-    },
-    {
-      "date": "2026-06-25",
-      "title": "Understanding the brain with AI-driven explanations and experiments",
-      "summary": "Researchers introduce generative causal testing, which translates black box models into clear hypotheses and verifies them in the scanner, revealing what specific brain regions respond to in language. The post Understanding the brain with AI-driven explanations and experiments...",
-      "content": "Researchers introduce generative causal testing, which translates black box models into clear hypotheses and verifies them in the scanner, revealing what specific brain regions respond to in language. The post Understanding the brain with AI-driven explanations and experiments appeared first on Microsoft Research.",
-      "category": "AI research tools",
-      "source": {
-        "name": "Microsoft Research",
-        "url": "https://www.microsoft.com/en-us/research/blog/understanding-the-brain-with-ai-driven-explanations-and-experiments/"
-      },
-      "analysis": "At Nubank, generative causal testing, while currently focused on neuroscience, offers a forward-thinking framework for understanding user decision-making in critical financial flows. Imagine applying this to the PIX transaction experience: we could develop hypotheses about which visual elements or cognitive load during fund transfer trigger user anxiety or hesitation, then use targeted experiments to validate these in simulated environments. This could inform design iterations for PIX confirmations or fund allocation screens, ensuring maximum clarity and trust. Similarly, during loan application or card activation flows, this approach could help uncover the underlying cognitive barriers preventing users from completing these tasks, leading to more streamlined and accessible onboarding processes."
     }
   ]
 }

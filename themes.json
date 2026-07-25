@@ -3,54 +3,54 @@
   "updated": "2026-07-25",
   "themes": [
     {
+      "name": "AI coding assistants",
+      "count": 50,
+      "description": "Articles discussing AI tools that help developers write, review, or debug code, including their capabilities and security implications."
+    },
+    {
       "name": "Agentic AI in research",
-      "count": 78,
-      "description": "Articles discussing AI agents that can perform research tasks autonomously or semi-autonomously, including data analysis, information retrieval, and task execution."
+      "count": 44,
+      "description": "Content focused on AI agents performing research tasks autonomously, including their applications in various fields and governance challenges."
     },
     {
       "name": "AI summarization",
-      "count": 47,
-      "description": "Content focused on AI's ability to condense large amounts of text, such as meeting transcripts, research papers, or earnings calls, into concise summaries."
-    },
-    {
-      "name": "AI coding assistants",
-      "count": 40,
-      "description": "Articles detailing AI tools that assist developers with writing, debugging, and reviewing code, and the associated security implications."
+      "count": 37,
+      "description": "Articles about AI tools that generate summaries of text, data, or conversations, and their impact on workflows and information consumption."
     },
     {
       "name": "AI research tools",
       "count": 31,
-      "description": "Discussions about specific AI-powered tools and platforms designed to aid in various aspects of user research, data analysis, and insight generation."
-    },
-    {
-      "name": "AI workforce impact",
-      "count": 30,
-      "description": "Research and analysis on how AI is affecting jobs, hiring, reskilling needs, and the overall labor market."
-    },
-    {
-      "name": "AI for design & research",
-      "count": 29,
-      "description": "Content exploring AI applications that directly assist in the UX design process, from idea generation and prototyping to user interface creation."
-    },
-    {
-      "name": "AI sentiment & feedback analysis",
-      "count": 20,
-      "description": "Articles focusing on how AI is used to analyze customer feedback, reviews, and sentiment to derive insights."
-    },
-    {
-      "name": "AI-powered data analysis",
-      "count": 19,
-      "description": "Content related to using AI to analyze and derive insights from research data, user behavior, and market trends."
-    },
-    {
-      "name": "AI research platform",
-      "count": 17,
-      "description": "Discussions about platforms and ecosystems that provide a suite of AI tools and capabilities for research purposes."
+      "description": "Discussions on platforms and tools designed to assist researchers in various aspects of their work, from data analysis to literature review."
     },
     {
       "name": "AI chatbot research",
-      "count": 16,
-      "description": "Articles focusing on the research, capabilities, limitations, and ethical considerations of AI-powered chatbots."
+      "count": 30,
+      "description": "Articles exploring the research and development of AI chatbots, their capabilities, limitations, and societal impacts."
+    },
+    {
+      "name": "AI design research",
+      "count": 28,
+      "description": "Content focusing on how AI is used to inform, assist, or automate aspects of the design process, from ideation to system design."
+    },
+    {
+      "name": "AI workforce impact",
+      "count": 24,
+      "description": "Articles analyzing how AI affects jobs, hiring, reskilling, and the overall workforce landscape."
+    },
+    {
+      "name": "AI tool evaluation",
+      "count": 22,
+      "description": "Discussions on comparing, reviewing, and recommending various AI tools for specific purposes, often in a comparative format."
+    },
+    {
+      "name": "AI customer insights",
+      "count": 21,
+      "description": "Content related to using AI to analyze customer feedback, behavior, and sentiment to derive actionable business insights."
+    },
+    {
+      "name": "AI testing automation",
+      "count": 19,
+      "description": "Articles focusing on AI's role in automating software testing, quality assurance, and development workflows."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
