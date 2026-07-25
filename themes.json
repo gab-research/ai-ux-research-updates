@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 57,
-      "description": "Covers AI agents that perform research tasks autonomously, including data analysis, problem-solving, and executing complex workflows."
-    },
-    {
-      "name": "AI coding assistants",
-      "count": 42,
-      "description": "Focuses on AI tools that assist developers in writing, reviewing, and debugging code, often through natural language interaction."
-    },
-    {
-      "name": "AI research tools",
-      "count": 36,
-      "description": "Encompasses a broad range of AI-powered tools designed to aid researchers in various aspects of their work, from data collection to analysis."
+      "count": 78,
+      "description": "Articles discussing AI agents that can perform research tasks autonomously or semi-autonomously, including data analysis, information retrieval, and task execution."
     },
     {
       "name": "AI summarization",
-      "count": 34,
-      "description": "Articles detailing AI's ability to condense large amounts of text, such as articles, reports, or transcripts, into concise summaries."
+      "count": 47,
+      "description": "Content focused on AI's ability to condense large amounts of text, such as meeting transcripts, research papers, or earnings calls, into concise summaries."
+    },
+    {
+      "name": "AI coding assistants",
+      "count": 40,
+      "description": "Articles detailing AI tools that assist developers with writing, debugging, and reviewing code, and the associated security implications."
+    },
+    {
+      "name": "AI research tools",
+      "count": 31,
+      "description": "Discussions about specific AI-powered tools and platforms designed to aid in various aspects of user research, data analysis, and insight generation."
+    },
+    {
+      "name": "AI workforce impact",
+      "count": 30,
+      "description": "Research and analysis on how AI is affecting jobs, hiring, reskilling needs, and the overall labor market."
     },
     {
       "name": "AI for design & research",
-      "count": 33,
-      "description": "Explores how AI is integrated into the design process for research tools, platforms, and interfaces, impacting UX and research workflows."
+      "count": 29,
+      "description": "Content exploring AI applications that directly assist in the UX design process, from idea generation and prototyping to user interface creation."
+    },
+    {
+      "name": "AI sentiment & feedback analysis",
+      "count": 20,
+      "description": "Articles focusing on how AI is used to analyze customer feedback, reviews, and sentiment to derive insights."
+    },
+    {
+      "name": "AI-powered data analysis",
+      "count": 19,
+      "description": "Content related to using AI to analyze and derive insights from research data, user behavior, and market trends."
     },
     {
       "name": "AI research platform",
-      "count": 27,
-      "description": "Discusses platforms and marketplaces dedicated to discovering, comparing, and deploying various AI tools and solutions for research."
+      "count": 17,
+      "description": "Discussions about platforms and ecosystems that provide a suite of AI tools and capabilities for research purposes."
     },
     {
       "name": "AI chatbot research",
-      "count": 24,
-      "description": "Covers research and analysis specifically on the behavior, capabilities, limitations, and societal impact of AI chatbots."
-    },
-    {
-      "name": "AI recruitment research",
-      "count": 23,
-      "description": "Focuses on AI's role in the recruitment process, including its impact on hiring, job displacement, and candidate screening."
-    },
-    {
-      "name": "AI tool evaluation",
-      "count": 19,
-      "description": "Articles that compare, review, or rank different AI tools and platforms, often in the context of specific use cases or industries."
-    },
-    {
-      "name": "AI customer insights",
-      "count": 17,
-      "description": "Covers how AI is used to gather, analyze, and act upon customer data to understand preferences, behavior, and sentiment."
+      "count": 16,
+      "description": "Articles focusing on the research, capabilities, limitations, and ethical considerations of AI-powered chatbots."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."

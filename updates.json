@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-07-25T03:27:16.516Z",
+  "lastUpdated": "2026-07-25T09:55:57.162Z",
   "updates": [
     {
       "date": "2026-07-24",
@@ -674,18 +674,6 @@
         "url": "https://cms.greatquestion.co/blog/building-an-insight-ecosystem"
       },
       "analysis": "At Nubank, this insight ecosystem concept directly complements our existing data infrastructure and product lifecycle. Researchers can integrate AI-powered analysis into their workflow to process vast amounts of qualitative data generated from customer interactions across products like PIX transfers, loan applications, and card activation flows. Instead of manually sifting through thousands of support tickets or survey responses, AI can identify emerging themes and sentiment shifts related to, for example, a new insurance product feature or a common friction point in the onboarding process. This allows us to proactively identify and address issues that might impact user satisfaction and retention.\n\nTo implement this at Nubank, researchers should work with engineering and data science teams to establish AI models that can ingest and analyze data from sources like our customer service chat logs, in-app feedback modules, and app store reviews. The AI could then surface potential insights related to specific product areas, such as identifying recurring usability issues with a particular loan offer or unexpected user behaviors during the initial setup of a new credit card. However, it's vital to maintain human oversight; AI should be viewed as an augmentation tool, not a replacement. Researchers must critically evaluate AI-generated insights, validating them with qualitative methods and considering the nuances of Brazilian cultural context and user behavior that AI might miss, ensuring our understanding remains deeply human-centered."
-    },
-    {
-      "date": "2026-06-25",
-      "title": "10 ways to make Claude think like a research partner",
-      "summary": "The cheat codes I run before a study starts and before a readout I'm nervous about",
-      "content": "Nikki Anderson's article outlines practical strategies for leveraging AI, specifically Claude, as an active research partner rather than a passive tool. The core idea is to \"prompt engineer\" Claude with specific context and constraints to elicit more insightful and research-aligned outputs, effectively mimicking a seasoned human collaborator. This is crucial for UX researchers as it can significantly enhance efficiency and the quality of insights, especially when facing complex studies or high-stakes presentations. The practical implication is the ability to generate hypotheses, refine research questions, brainstorm methodologies, and even draft preliminary findings, saving valuable researcher time and potentially uncovering blind spots.",
-      "category": "AI coding assistants",
-      "source": {
-        "name": "Nikki Anderson (User Research Strategist)",
-        "url": "https://www.userresearchstrategist.com/p/10-ways-to-make-claude-think-like"
-      },
-      "analysis": "At Nubank, we can integrate Nikki Anderson's approach into our existing UX research workflows. Before initiating a study, such as one exploring user pain points with PIX transactions or optimizing the onboarding flow for new insurance customers, researchers can use Claude as a \"sparring partner.\" This involves prompting Claude with detailed study goals, target user segments, and known hypotheses. Claude can then help refine research questions, suggest appropriate qualitative and quantitative methodologies, and even draft initial user journey maps or competitor analyses. For instance, when designing a new feature for loan applications, Claude could assist in brainstorming potential user concerns and ethical considerations before primary research begins.\n\nPost-study, during the readout phase, Claude can act as a \"sounding board\" for nervous researchers preparing to present findings on complex areas like credit card activation or multi-product user engagement. Researchers can feed anonymized data summaries and key observations to Claude, prompting it to identify patterns, suggest potential explanations, or even generate hypotheses for further investigation. For example, after gathering feedback on our personal loan application process, a researcher could ask Claude to highlight recurring themes related to perceived risk or ease of use and propose potential underlying causes. This can build confidence and ensure a more robust and well-reasoned presentation to stakeholders. However, it's vital to remember that Claude is a tool, not a replacement for human judgment. Researchers must critically evaluate all AI-generated outputs, ensuring they align with Nubank's ethical guidelines, data privacy policies, and the nuanced understanding of our Brazilian user base. The final interpretation and strategic recommendations must always stem from the researcher's expertise and direct user engagement."
     },
     {
       "date": "2026-06-25",
