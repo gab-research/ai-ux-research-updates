@@ -1,56 +1,56 @@
 {
   "month": "2026-07",
-  "updated": "2026-07-25",
+  "updated": "2026-07-26",
   "themes": [
     {
       "name": "AI coding assistants",
-      "count": 50,
-      "description": "Articles discussing AI tools that help developers write, review, or debug code, including their capabilities and security implications."
+      "count": 61,
+      "description": "Articles discussing AI tools that help developers write, debug, and refactor code."
     },
     {
-      "name": "Agentic AI in research",
+      "name": "Agentic AI research",
       "count": 44,
-      "description": "Content focused on AI agents performing research tasks autonomously, including their applications in various fields and governance challenges."
+      "description": "Research and development focusing on AI agents that can autonomously perform complex tasks and research."
     },
     {
       "name": "AI summarization",
-      "count": 37,
-      "description": "Articles about AI tools that generate summaries of text, data, or conversations, and their impact on workflows and information consumption."
+      "count": 35,
+      "description": "AI applications for condensing long texts, meetings, or research findings into concise summaries."
     },
     {
       "name": "AI research tools",
-      "count": 31,
-      "description": "Discussions on platforms and tools designed to assist researchers in various aspects of their work, from data analysis to literature review."
+      "count": 29,
+      "description": "Tools and platforms designed to assist researchers in data collection, analysis, and discovery."
     },
     {
-      "name": "AI chatbot research",
-      "count": 30,
-      "description": "Articles exploring the research and development of AI chatbots, their capabilities, limitations, and societal impacts."
-    },
-    {
-      "name": "AI design research",
+      "name": "AI for design research",
       "count": 28,
-      "description": "Content focusing on how AI is used to inform, assist, or automate aspects of the design process, from ideation to system design."
+      "description": "AI applications focused on aiding designers in research processes, ideation, and design generation."
     },
     {
       "name": "AI workforce impact",
       "count": 24,
-      "description": "Articles analyzing how AI affects jobs, hiring, reskilling, and the overall workforce landscape."
+      "description": "The effects of AI on jobs, hiring, reskilling, and the overall workforce landscape."
     },
     {
-      "name": "AI tool evaluation",
-      "count": 22,
-      "description": "Discussions on comparing, reviewing, and recommending various AI tools for specific purposes, often in a comparative format."
-    },
-    {
-      "name": "AI customer insights",
+      "name": "AI research platform",
       "count": 21,
-      "description": "Content related to using AI to analyze customer feedback, behavior, and sentiment to derive actionable business insights."
+      "description": "Platforms and environments built to facilitate and accelerate AI research and development."
+    },
+    {
+      "name": "AI research tools comparison",
+      "count": 17,
+      "description": "Articles comparing different AI tools and platforms for research purposes."
+    },
+    {
+      "name": "AI survey tools",
+      "count": 17,
+      "description": "AI applications that help in the creation, distribution, and analysis of surveys."
     },
     {
       "name": "AI testing automation",
-      "count": 19,
-      "description": "Articles focusing on AI's role in automating software testing, quality assurance, and development workflows."
+      "count": 16,
+      "description": "AI-powered tools and techniques for automating software testing processes."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
