@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-07-26T17:10:42.288Z",
+  "lastUpdated": "2026-07-27T03:49:33.911Z",
   "updates": [
     {
       "date": "2026-07-24",
@@ -662,18 +662,6 @@
         "url": "https://cms.greatquestion.co/blog/building-an-insight-ecosystem"
       },
       "analysis": "At Nubank, this \"insight ecosystem\" concept can significantly enhance our research workflow, particularly for understanding user journeys across critical touchpoints like PIX transactions, loan applications, and card activation. Currently, insights might be scattered across different teams (Support, Product, Marketing) and tools. By implementing an AI-powered ecosystem, we can create a centralized repository that surfaces recurring themes from chat logs about PIX issues, feedback on loan approval timelines, or challenges during onboarding, allowing us to see cross-product patterns. Researchers should actively contribute data from their studies and learn to query this ecosystem for pre-existing knowledge, thus avoiding redundant research and identifying deeper, interconnected user needs.\n\nApplying this at Nubank involves integrating AI tools that can process and tag large volumes of unstructured data from our various channels. For instance, when researching a new feature for insurance, we could leverage the ecosystem to see if similar pain points have been raised in relation to other financial products. However, crucial guardrails are necessary. We must ensure data privacy and security are paramount, anonymizing sensitive customer information. Furthermore, researchers must critically evaluate AI-generated insights, using them as a starting point for deeper qualitative investigation rather than a definitive answer, remembering that AI might miss nuanced contextual details present in direct user interaction."
-    },
-    {
-      "date": "2026-06-27",
-      "title": "Why your Claude Code needs a design stack",
-      "summary": "The setup that makes Claude Code fit into your designer workflow Continue reading on UX Collective »",
-      "content": "This article argues that to effectively leverage AI coding assistants like Claude for UX design, a dedicated 'design stack' is crucial. This isn't just about using the AI for basic coding tasks, but about integrating it into the designer's entire workflow, from ideation and prototyping to iteration and handoff. For UX researchers, this implies a shift in how we can utilize AI to accelerate the development of interactive prototypes, generate code snippets for usability testing, and even help translate research findings into actionable design components, thereby streamlining the path from insight to implementation.",
-      "category": "AI coding assistants",
-      "source": {
-        "name": "UX Collective (Medium)",
-        "url": "https://uxdesign.cc/why-your-claude-code-needs-a-design-stack-46dccbced6e5?source=rss----138adf9c44c---4"
-      },
-      "analysis": "At Nubank, this concept of a 'Claude Code design stack' can significantly enhance our research-to-design pipeline. For instance, when exploring improvements to the PIX transfer flow, researchers could collaborate with designers to rapidly prototype different layout variations or interaction models. Claude could generate the front-end code for these prototypes, allowing for faster usability testing with real users, and potentially even for A/B testing of micro-interactions within the app, accelerating our iterative design process.\n\nResearchers can also use Claude to build interactive mockups for complex features like loan applications or insurance policy comparisons. Instead of waiting for engineering to build functional prototypes, researchers and designers can use Claude to generate code for key elements, enabling early validation of user flows and information architecture. However, it's crucial to establish guardrails: researchers should focus on using Claude for front-end prototyping and understanding feasibility, rather than relying on it for backend logic or data security considerations, especially for sensitive flows like card activation or onboarding. All generated code must be reviewed by engineering for production readiness and adherence to Nubank's technical standards."
     }
   ]
 }

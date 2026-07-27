@@ -1,56 +1,56 @@
 {
   "month": "2026-07",
-  "updated": "2026-07-26",
+  "updated": "2026-07-27",
   "themes": [
     {
-      "name": "Agentic AI research",
-      "count": 78,
-      "description": "Focuses on AI agents actively performing research tasks, making decisions, and executing complex research workflows autonomously."
+      "name": "Agentic AI in research",
+      "count": 68,
+      "description": "Articles focusing on AI agents designed to autonomously perform research tasks, analyze data, or conduct complex inquiries."
     },
     {
       "name": "AI coding assistants",
-      "count": 70,
-      "description": "Covers AI tools that assist developers in writing, debugging, and optimizing code, including security implications."
-    },
-    {
-      "name": "AI research platforms",
-      "count": 43,
-      "description": "Highlights platforms and tools specifically designed to facilitate and accelerate various types of AI-driven research."
+      "count": 63,
+      "description": "Content discussing AI tools that assist developers in writing, debugging, reviewing, and securing code."
     },
     {
       "name": "AI summarization",
-      "count": 24,
-      "description": "Articles discussing AI's ability to condense large amounts of text or data into concise summaries."
-    },
-    {
-      "name": "AI design research",
-      "count": 23,
-      "description": "Examines how AI is used in the design process, from concept generation to interface creation and system design."
-    },
-    {
-      "name": "AI chatbot research",
-      "count": 23,
-      "description": "Focuses on the research, capabilities, limitations, and societal impact of conversational AI agents."
+      "count": 52,
+      "description": "Articles about AI capabilities to condense large amounts of text, such as meeting transcripts, research papers, or articles, into concise summaries."
     },
     {
       "name": "AI research tools",
-      "count": 22,
-      "description": "Covers a broad range of AI-powered tools and features designed to aid researchers in their work."
+      "count": 45,
+      "description": "Discussion of specific AI platforms and functionalities designed to aid in various forms of research, from academic to market analysis."
     },
     {
-      "name": "AI workforce impact",
-      "count": 19,
-      "description": "Discusses how AI affects jobs, hiring, skills, and the overall labor market."
+      "name": "AI-powered data analysis",
+      "count": 44,
+      "description": "Content focused on how AI tools are used to analyze, interpret, and extract insights from datasets."
+    },
+    {
+      "name": "AI for design & research",
+      "count": 42,
+      "description": "Articles exploring how AI is integrated into the design process, from ideation and UI generation to design system integration."
+    },
+    {
+      "name": "AI chatbot research",
+      "count": 40,
+      "description": "Content delving into the research, development, and implications of conversational AI agents, including their use in various domains like healthcare and mental health."
     },
     {
       "name": "AI survey tools",
-      "count": 19,
-      "description": "Covers AI applications in creating, distributing, analyzing, and optimizing surveys and market research."
+      "count": 37,
+      "description": "Articles discussing AI applications in creating, distributing, and analyzing survey data to gather user or market insights."
     },
     {
-      "name": "AI sentiment feedback",
-      "count": 17,
-      "description": "Articles focused on using AI to analyze customer sentiment, reviews, and feedback across various platforms."
+      "name": "AI content generation",
+      "count": 30,
+      "description": "Focuses on AI's ability to create various forms of content, including text, video, and design assets."
+    },
+    {
+      "name": "AI workforce impact",
+      "count": 30,
+      "description": "Research and discussion on how AI is affecting jobs, hiring practices, required skills, and the overall employment landscape."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
