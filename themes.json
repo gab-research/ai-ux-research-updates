@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 62,
-      "description": "Focuses on AI agents performing autonomous research tasks and complex analytical workflows."
+      "count": 71,
+      "description": "Articles focusing on AI agents that can perform research tasks autonomously or semi-autonomously."
     },
     {
       "name": "AI coding assistants",
-      "count": 46,
-      "description": "Covers AI tools that assist developers in writing, reviewing, and debugging code."
-    },
-    {
-      "name": "AI research tools",
-      "count": 45,
-      "description": "Encompasses AI platforms and tools designed to aid in academic, scientific, and market research."
+      "count": 37,
+      "description": "Content discussing AI tools that assist developers in writing, reviewing, or debugging code."
     },
     {
       "name": "AI summarization",
-      "count": 33,
-      "description": "Articles related to AI's ability to condense large amounts of text into concise summaries and extract key insights."
+      "count": 25,
+      "description": "Articles about AI's ability to condense large amounts of text, data, or conversations into concise summaries."
     },
     {
-      "name": "AI research platform",
-      "count": 32,
-      "description": "Discusses dedicated platforms and environments built for AI-driven research and development."
+      "name": "AI research tools",
+      "count": 20,
+      "description": "Discussions about specific AI-powered platforms and software designed to aid in various research activities."
     },
     {
-      "name": "AI survey tools",
-      "count": 31,
-      "description": "Focuses on AI applications that assist in the creation, distribution, and analysis of surveys."
+      "name": "AI-powered data analysis",
+      "count": 19,
+      "description": "Focuses on AI applications for analyzing datasets to extract insights and patterns."
     },
     {
       "name": "AI-assisted recruitment",
-      "count": 28,
-      "description": "Covers AI tools and strategies used to streamline and improve the hiring process."
+      "count": 19,
+      "description": "Content related to AI tools and techniques used in hiring, candidate screening, and talent acquisition."
     },
     {
       "name": "AI design research",
-      "count": 22,
-      "description": "Explores how AI is used to inform, generate, and optimize design processes and outcomes."
+      "count": 16,
+      "description": "Articles exploring how AI is used in the design process, from ideation to generating design elements."
     },
     {
       "name": "AI chatbot research",
-      "count": 21,
-      "description": "Details research into the capabilities, limitations, and impact of AI chatbots."
+      "count": 15,
+      "description": "Focuses on the research and development of AI chatbots, including their capabilities, limitations, and user interactions."
     },
     {
-      "name": "AI product research",
-      "count": 20,
-      "description": "Focuses on AI applications used for market analysis, feature prioritization, and product development insights."
+      "name": "AI tool evaluation",
+      "count": 11,
+      "description": "Articles that review, compare, or assess the effectiveness and usability of various AI tools."
+    },
+    {
+      "name": "AI content generation",
+      "count": 10,
+      "description": "Content discussing AI's role in creating text, images, video, or other forms of content."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
