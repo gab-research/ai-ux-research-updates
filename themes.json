@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 44,
-      "description": "Focuses on AI agents capable of independent research, analysis, and task execution within research contexts."
+      "count": 120,
+      "description": "Focuses on AI agents performing autonomous research tasks, data analysis, and complex problem-solving across various domains."
     },
     {
       "name": "AI research tools",
-      "count": 43,
-      "description": "Covers a broad spectrum of AI-powered tools designed to assist in various stages of research, from data collection to analysis."
+      "count": 75,
+      "description": "Covers a broad spectrum of AI tools designed to assist in the research process, from data collection to analysis and insight generation."
     },
     {
       "name": "AI coding assistants",
-      "count": 41,
-      "description": "Articles discussing AI tools that help developers write, review, debug, and optimize code."
+      "count": 57,
+      "description": "Details the use of AI in assisting developers with writing, debugging, and analyzing code, including security vulnerabilities introduced by AI."
     },
     {
       "name": "AI summarization",
-      "count": 15,
-      "description": "AI applications focused on condensing large amounts of text, such as meeting notes, research papers, or articles, into concise summaries."
+      "count": 35,
+      "description": "Explores AI's capability to condense large amounts of text, such as meeting notes, articles, or research papers, into concise summaries."
     },
     {
-      "name": "AI for design & research",
-      "count": 14,
-      "description": "Examines how AI is integrated into the design process and supports user research activities."
+      "name": "AI usability testing",
+      "count": 25,
+      "description": "Discusses how AI is being integrated into the testing and validation of AI-powered products and features for user-friendliness."
     },
     {
       "name": "AI workforce impact",
-      "count": 13,
-      "description": "Explores how AI is changing job roles, skill requirements, hiring, and the overall employment landscape."
-    },
-    {
-      "name": "AI chatbot research",
-      "count": 12,
-      "description": "Focuses on the use, capabilities, and implications of AI chatbots specifically within research and user interaction."
-    },
-    {
-      "name": "AI tool evaluation",
-      "count": 11,
-      "description": "Articles that review, compare, or assess the usability and effectiveness of various AI tools."
+      "count": 59,
+      "description": "Analyzes how AI is affecting job roles, hiring practices, reskilling needs, and overall employment trends across industries."
     },
     {
       "name": "AI research platform",
-      "count": 11,
-      "description": "Details platforms and systems built to facilitate and manage AI-driven research processes."
+      "count": 32,
+      "description": "Focuses on AI platforms specifically built to facilitate and accelerate scientific and academic research processes."
     },
     {
-      "name": "AI sentiment & feedback",
-      "count": 9,
-      "description": "Covers the use of AI to analyze customer sentiment, reviews, and feedback to derive actionable insights."
+      "name": "AI customer insights",
+      "count": 33,
+      "description": "Covers the application of AI in analyzing customer data to derive actionable insights for marketing, sales, and product development."
+    },
+    {
+      "name": "Synthetic users",
+      "count": 19,
+      "description": "Examines the creation and use of simulated users or personas for testing, research, or understanding user behavior."
+    },
+    {
+      "name": "AI tool evaluation",
+      "count": 30,
+      "description": "Covers the assessment and comparison of various AI tools, often with a focus on specific use cases or industries."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."

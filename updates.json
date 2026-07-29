@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-07-29T03:22:08.331Z",
+  "lastUpdated": "2026-07-29T10:46:24.769Z",
   "updates": [
     {
       "date": "2026-07-28",
@@ -19,13 +19,13 @@
       "date": "2026-07-28",
       "title": "AI Agent UX: Designing for Autonomy and Oversight | ParallelHQ",
       "summary": "AI Agent UX: Designing for Autonomy and Oversight. Founder-friendly guide from ParallelHQ.",
-      "content": "AI Agent UX: Designing for Autonomy and Oversight. Founder-friendly guide from ParallelHQ.",
+      "content": "This article from ParallelHQ delves into the critical aspects of designing user experiences for AI agents, emphasizing the delicate balance between granting them autonomy and maintaining human oversight. The core idea is that as AI agents become more capable and independent, our design strategies must evolve to ensure users feel in control and trust the system's decisions. For UX researchers, this means shifting from designing static interfaces to dynamic interactions where transparency and intervention points are paramount. Understanding this is crucial for building user confidence and mitigating risks, especially in sensitive financial applications like handling PIX transactions or managing loan applications, where errors can have significant consequences.",
       "category": "Agentic AI in research",
       "source": {
         "name": "Parallel Blog",
         "url": "https://www.parallelhq.com/blog/ai-agent-ux-design"
       },
-      "analysis": ""
+      "analysis": "At Nubank, the concepts of AI Agent UX – autonomy and oversight – will deeply inform our research into new AI-powered features. This article's principles should be integrated into our existing research workflow, particularly during generative research for features like AI-assisted loan pre-approval, proactive fraud detection for card activation, or personalized insurance policy recommendations. Researchers should focus on understanding user mental models around AI decision-making and designing for clarity on *why* an AI agent made a specific suggestion or took a particular action. This involves crafting clear explanations for AI-driven insights and providing intuitive mechanisms for users to override or provide feedback.\n\nWhen researching AI agent interactions, we must establish clear guardrails. For Nubank products and flows, such as guiding a customer through a complex PIX dispute resolution or during the onboarding process, the AI agent's autonomy should be limited to tasks where the stakes are lower or where human review is inherently built-in. Researchers should probe for user comfort levels with AI making decisions in high-impact areas like loan origination or significant account changes. Any AI agent designed to operate autonomously should have easily accessible 'undo' or 'request human review' options, ensuring that the user never feels trapped or unable to correct an AI's mistake, maintaining our commitment to customer trust and security."
     },
     {
       "date": "2026-07-28",
