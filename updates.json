@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-07-30T02:55:35.279Z",
+  "lastUpdated": "2026-07-30T10:32:15.796Z",
   "updates": [
     {
       "date": "2026-07-29",
@@ -19,13 +19,13 @@
       "date": "2026-07-29",
       "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
       "summary": "How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.",
-      "content": "How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.",
+      "content": "This OpenAI blog post details how subtle adjustments to API settings significantly boosted GPT-5.6's performance on the challenging ARC-AGI-3 benchmark. By retaining reasoning capabilities and enabling a form of information compaction, the model achieved a substantial performance increase. For UX researchers, this is significant because it suggests that even with advanced AI models, understanding and optimizing their internal mechanics can unlock substantial gains in analytical power. This has practical implications for tasks like synthesizing qualitative data, generating hypothesis, and even prototyping user interfaces, potentially leading to more efficient and insightful research outcomes.",
       "category": "General AI in research",
       "source": {
         "name": "OpenAI Blog",
         "url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores"
       },
-      "analysis": ""
+      "analysis": "At Nubank, this breakthrough offers a tangible way to enhance our AI-assisted research capabilities. Within our existing research workflow, particularly during qualitative analysis of user interviews or survey responses for products like PIX or loan applications, researchers can leverage these findings. By exploring API configurations that prioritize \"reasoning retention\" and \"compaction,\" we can potentially improve the depth and accuracy of AI-generated summaries, thematic analysis, or even initial user persona drafts. For instance, when analyzing feedback on card activation flows or insurance onboarding, optimizing these settings could lead to richer insights that better capture nuanced user sentiments.\n\nResearchers should experiment with these advanced settings when using AI tools for tasks requiring complex interpretation, such as identifying underlying user needs or potential friction points in a new feature. It's crucial to approach this with a \"test and validate\" mindset. While these settings promise improved performance, researchers must remain critical, cross-referencing AI outputs with original data and their own expertise. Limitations include the potential for increased computational cost or complexity in configuration, and the need for ongoing validation to ensure the AI's output remains aligned with Nubank's user-centric principles and data privacy standards."
     },
     {
       "date": "2026-07-28",
