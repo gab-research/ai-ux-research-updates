@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 67,
-      "description": "Focuses on AI agents that can independently conduct research, analyze data, and make decisions within a research context."
+      "count": 107,
+      "description": "Focuses on AI agents that can autonomously perform research tasks, analyze data, and interact with systems to achieve research objectives."
     },
     {
       "name": "AI coding assistants",
-      "count": 39,
-      "description": "Covers AI tools that help developers write, review, debug, and optimize code."
+      "count": 92,
+      "description": "Covers AI tools that assist developers in writing, debugging, and understanding code, often by suggesting code snippets or explanations."
     },
     {
       "name": "AI research tools",
-      "count": 30,
-      "description": "Encompasses a broad range of AI tools designed to assist with various aspects of the research process."
+      "count": 74,
+      "description": "Encompasses a broad category of AI-powered platforms and software designed to aid researchers in various stages of their work, from data collection to analysis."
     },
     {
       "name": "AI summarization",
-      "count": 28,
-      "description": "Articles discussing AI's ability to condense large amounts of text, such as research papers, meeting notes, or transcripts, into concise summaries."
-    },
-    {
-      "name": "AI-powered data analysis",
-      "count": 25,
-      "description": "Focuses on AI applications for analyzing datasets to extract insights, identify patterns, and support decision-making."
-    },
-    {
-      "name": "AI tool evaluation",
-      "count": 24,
-      "description": "Articles that review, compare, and assess the effectiveness of various AI tools for specific tasks or industries."
-    },
-    {
-      "name": "Synthetic users",
-      "count": 24,
-      "description": "Explores the creation and use of artificial user representations for testing and research purposes."
+      "count": 44,
+      "description": "Deals with AI applications that condense large amounts of text or data into concise summaries, making information more digestible."
     },
     {
       "name": "AI workforce impact",
-      "count": 23,
-      "description": "Examines how AI affects jobs, hiring, reskilling, and the overall nature of work."
+      "count": 42,
+      "description": "Examines how AI is affecting job roles, recruitment, reskilling needs, and the overall nature of work."
     },
     {
-      "name": "AI chatbot research",
-      "count": 21,
-      "description": "Investigates the use, capabilities, limitations, and user interactions with AI-powered chatbots."
+      "name": "Synthetic users",
+      "count": 33,
+      "description": "Focuses on the creation and use of artificial user representations or data to simulate user behavior for testing or research."
     },
     {
-      "name": "AI for design & research",
-      "count": 18,
-      "description": "Covers AI applications that directly assist or augment the design and user research processes, including ideation and prototyping."
+      "name": "AI tool evaluation",
+      "count": 30,
+      "description": "Concerns the assessment, comparison, and review of various AI tools and platforms available in the market."
+    },
+    {
+      "name": "AI usability testing",
+      "count": 26,
+      "description": "Explores how AI is used to automate or enhance the process of testing the usability of products and systems."
+    },
+    {
+      "name": "AI research platform",
+      "count": 25,
+      "description": "Covers dedicated platforms designed to facilitate and accelerate scientific and academic research using AI capabilities."
+    },
+    {
+      "name": "AI content generation",
+      "count": 19,
+      "description": "Focuses on AI systems that create text, images, video, or other media content."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."

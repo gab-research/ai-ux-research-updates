@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-07-31T03:38:22.438Z",
+  "lastUpdated": "2026-07-31T10:47:35.393Z",
   "updates": [
+    {
+      "date": "2026-07-31",
+      "title": "How to build a landing page using Claude Haiku 4.5 + Custom Design Systems  –  Use UXPin Merge!",
+      "summary": "Use AI to draft structure and copy, build with UXPin Merge's code-backed React components, and validate accessibility and U.S. formats. The post How to build a landing page using Claude Haiku 4.5 + Custom Design Systems – Use UXPin Merge! appeared first on Studio by UXPin.",
+      "content": "This article outlines a novel approach to rapid landing page creation by integrating AI-powered content generation with a robust design system. By leveraging Claude Haiku 4.5, UX designers and researchers can quickly prototype structures and draft copy, significantly accelerating the ideation phase. The integration with UXPin Merge's code-backed React components ensures that these AI-generated designs are not just visually appealing but also technically sound and ready for development. This methodology is crucial for UX researchers as it allows for faster iteration on messaging and visual presentation for new product launches or feature announcements, directly impacting the speed at which we can test user comprehension and desirability of new offerings.",
+      "category": "Automated usability checks",
+      "source": {
+        "name": "UXPin Blog",
+        "url": "https://www.uxpin.com/studio/blog/build-landing-page-claude-haiku-4-5-custom-design-systems-uxpin-merge/"
+      },
+      "analysis": "At Nubank, this approach can be integrated into our early-stage product validation and concept testing phases. For example, when exploring a new insurance product or a revamped PIX experience, researchers can use Claude Haiku to generate initial landing page copy and structural frameworks, quickly creating variations to test user understanding and appeal. This allows us to gather qualitative feedback on messaging and information hierarchy much faster than traditional methods, informing iterative design improvements before substantial engineering investment.\n\nResearchers should employ this tool primarily for rapid prototyping and concept validation, focusing on areas like card activation flows or onboarding tutorials where clear communication is paramount. It's crucial to remember that AI-generated content and structures are starting points, not final products. Human oversight and critical evaluation are essential. We must ensure that all generated content aligns with Nubank's brand voice, cultural nuances, and legal requirements, and that the designs remain accessible and user-friendly for the diverse Brazilian audience, especially for sensitive financial products like loans or credit card applications. Avoid using this for highly complex, regulated flows without rigorous human review."
+    },
     {
       "date": "2026-07-30",
       "title": "Echoverse: Deep, evolving environments for computer-use agents",
