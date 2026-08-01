@@ -1,56 +1,56 @@
 {
-  "month": "2026-07",
-  "updated": "2026-07-31",
+  "month": "2026-08",
+  "updated": "2026-08-01",
   "themes": [
     {
-      "name": "Agentic AI in research",
-      "count": 125,
-      "description": "Articles discussing AI agents that can autonomously conduct research, analyze data, and make decisions within a research context."
-    },
-    {
       "name": "AI coding assistants",
-      "count": 115,
-      "description": "Content focusing on AI tools that assist developers in writing, reviewing, and debugging code."
+      "count": 3,
+      "description": "Focuses on AI tools that aid developers in writing, debugging, and optimizing code, including potential vulnerabilities."
     },
     {
-      "name": "AI research platforms",
-      "count": 109,
-      "description": "Discussions about platforms and tools designed to facilitate and accelerate various stages of AI research and development."
+      "name": "Agentic AI in research",
+      "count": 3,
+      "description": "Explores the use of autonomous AI agents that can perform research tasks, interact with systems, and manage their own processes."
     },
     {
       "name": "AI research tools",
-      "count": 90,
-      "description": "Articles detailing specific AI tools and software used by researchers to gather, analyze, or generate insights."
+      "count": 2,
+      "description": "Covers platforms and tools specifically designed to enhance and accelerate research workflows through AI capabilities."
     },
     {
-      "name": "AI usability testing",
-      "count": 59,
-      "description": "Content related to using AI for testing user interfaces, user flows, and overall product usability."
+      "name": "AI for design & research",
+      "count": 2,
+      "description": "Highlights AI applications that directly support the design and user research process, from ideation to execution."
     },
     {
-      "name": "AI survey tools",
-      "count": 54,
-      "description": "Articles focusing on AI applications for creating, distributing, and analyzing surveys."
-    },
-    {
-      "name": "Synthetic users",
-      "count": 48,
-      "description": "Discussions around the creation and use of simulated users for testing and research purposes."
-    },
-    {
-      "name": "AI research tools comparison",
-      "count": 43,
-      "description": "Articles that compare different AI tools available for research, highlighting their features, pros, and cons."
+      "name": "Session replay + AI",
+      "count": 1,
+      "description": "Details how AI is being integrated with session replay tools to analyze user behavior and identify patterns."
     },
     {
       "name": "AI-powered data analysis",
-      "count": 42,
-      "description": "Content on leveraging AI for analyzing datasets, identifying patterns, and deriving insights."
+      "count": 1,
+      "description": "Examines the application of AI in analyzing large datasets to derive insights, including uncertainty in infrastructure costs."
     },
     {
-      "name": "AI design research",
-      "count": 41,
-      "description": "Articles exploring how AI is applied to the design process, from ideation to user experience research."
+      "name": "AI for product management",
+      "count": 1,
+      "description": "Discusses AI's role in managing and advancing product development, including rapid prototyping."
+    },
+    {
+      "name": "AI ethics in research",
+      "count": 1,
+      "description": "Addresses concerns regarding the ethical implications of AI, particularly its potential for hidden vulnerabilities and unreliable outputs."
+    },
+    {
+      "name": "AI for robotics",
+      "count": 1,
+      "description": "Focuses on advancements in AI for robotics, enabling more sophisticated physical interactions and understanding."
+    },
+    {
+      "name": "AI for reasoning",
+      "count": 1,
+      "description": "Explores AI's capability to perform complex reasoning, especially in sensitive domains like medicine, and how to make it more robust."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
