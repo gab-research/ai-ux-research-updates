@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "AI coding assistants",
-      "count": 3,
-      "description": "Focuses on AI tools that aid developers in writing, debugging, and optimizing code, including potential vulnerabilities."
+      "count": 7,
+      "description": "Articles discussing AI tools that help with writing, debugging, and understanding code, including their benefits and potential pitfalls."
     },
     {
       "name": "Agentic AI in research",
-      "count": 3,
-      "description": "Explores the use of autonomous AI agents that can perform research tasks, interact with systems, and manage their own processes."
+      "count": 6,
+      "description": "Content focusing on AI agents that can perform research tasks autonomously, test products, or manage workflows."
     },
     {
       "name": "AI research tools",
-      "count": 2,
-      "description": "Covers platforms and tools specifically designed to enhance and accelerate research workflows through AI capabilities."
-    },
-    {
-      "name": "AI for design & research",
-      "count": 2,
-      "description": "Highlights AI applications that directly support the design and user research process, from ideation to execution."
-    },
-    {
-      "name": "Session replay + AI",
-      "count": 1,
-      "description": "Details how AI is being integrated with session replay tools to analyze user behavior and identify patterns."
-    },
-    {
-      "name": "AI-powered data analysis",
-      "count": 1,
-      "description": "Examines the application of AI in analyzing large datasets to derive insights, including uncertainty in infrastructure costs."
+      "count": 3,
+      "description": "Discussions around platforms and software that leverage AI to aid in various aspects of research processes."
     },
     {
       "name": "AI for product management",
-      "count": 1,
-      "description": "Discusses AI's role in managing and advancing product development, including rapid prototyping."
+      "count": 2,
+      "description": "Articles related to AI applications that assist product managers in areas like innovation, supply chain optimization, or testing."
     },
     {
       "name": "AI ethics in research",
-      "count": 1,
-      "description": "Addresses concerns regarding the ethical implications of AI, particularly its potential for hidden vulnerabilities and unreliable outputs."
+      "count": 2,
+      "description": "Content highlighting ethical considerations, biases, and potential harms associated with AI in research and design, such as ignorance or hidden vulnerabilities."
     },
     {
-      "name": "AI for robotics",
-      "count": 1,
-      "description": "Focuses on advancements in AI for robotics, enabling more sophisticated physical interactions and understanding."
+      "name": "AI tool evaluation",
+      "count": 2,
+      "description": "Articles that compare, analyze, or review the capabilities and limitations of different AI tools, particularly in the context of research and development."
     },
     {
-      "name": "AI for reasoning",
+      "name": "AI workforce impact",
+      "count": 2,
+      "description": "Discussions on how AI is changing the skills required and the nature of work in fields like engineering and research."
+    },
+    {
+      "name": "AI-powered data analysis",
+      "count": 2,
+      "description": "Articles detailing the use of AI for analyzing research data, including challenges with data extraction and citation consistency."
+    },
+    {
+      "name": "AI content generation",
+      "count": 2,
+      "description": "Focuses on AI's ability to create content, such as code, documentation, or visualizations, and the quality or issues associated with it."
+    },
+    {
+      "name": "AI for design & research",
       "count": 1,
-      "description": "Explores AI's capability to perform complex reasoning, especially in sensitive domains like medicine, and how to make it more robust."
+      "description": "Articles specifically addressing AI applications that aid in the design process and inform research methodologies."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."

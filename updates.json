@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-08-01T03:37:40.908Z",
+  "lastUpdated": "2026-08-01T10:05:50.073Z",
   "updates": [
     {
       "date": "2026-08-01",
@@ -794,18 +794,6 @@
         "url": "https://smashingmagazine.com/2026/07/users-dont-need-more-tools-need-seamless-integrations/"
       },
       "analysis": "At Nubank, this article's principle directly informs how we should approach feature development and research. When exploring AI applications, our research should focus on how these capabilities can be *integrated* into existing, well-loved flows like card activation, loan applications, or onboarding, rather than proposing standalone AI tools. For instance, instead of a separate AI chatbot for loan inquiries, we should research how AI can proactively offer relevant guidance or personalized loan options directly within the loan application journey.\n\nOur researchers should adopt a mindset of 'integrated intelligence' when designing and testing new features. This means conducting research that maps users' current mental models for tasks such as managing insurance or making PIX transfers, and then identifying opportunities for AI to enhance these experiences *without* disrupting established patterns. Guardrails should include ensuring AI interventions are contextually relevant and provide clear value, avoiding 'AI for AI's sake,' and rigorously testing for usability to prevent new friction points. Any AI enhancement should feel like a natural evolution of the existing Nubank experience."
-    },
-    {
-      "date": "2026-07-02",
-      "title": "Matching AI Modality To User Intent: Designing The Right Interface",
-      "summary": "We’ve fallen into conversational tunnel vision, defaulting every AI capability into a chat-based interface simply because LLMs are trained on dialogue data. But great UX is about matching modality to users’ context, intent, and cognitive load, so the interface adapts to the us...",
-      "content": "We’ve fallen into conversational tunnel vision, defaulting every AI capability into a chat-based interface simply because LLMs are trained on dialogue data. But great UX is about matching modality to users’ context, intent, and cognitive load, so the interface adapts to the user, not the other way around.",
-      "category": "Conversational AI in research",
-      "source": {
-        "name": "Smashing Magazine",
-        "url": "https://smashingmagazine.com/2026/07/matching-ai-modality-user-intent-designing-right-interface/"
-      },
-      "analysis": "At Nubank, this article's core principle directly impacts our approach to integrating AI across various user journeys, from onboarding to managing complex financial products like PIX or loan applications. Instead of defaulting to a chatbot for every AI-driven feature, researchers should actively consider the user's intent in specific flows. For instance, during card activation, a visual, step-by-step guided interface might be more effective than a chat. For managing insurance claims, a structured form with AI-powered suggestions for required documents could reduce cognitive load significantly.\n\nTo apply this at Nubank, researchers should initiate a 'Modality Mapping' exercise during the ideation phase of any AI-powered feature. This involves asking: What is the user trying to achieve? What information do they need? What is their likely mental state (e.g., urgent, complex, routine)? Based on these answers, we can then select the most appropriate AI interface – be it a conversational agent, a data visualization, a predictive form, or even a discreet background process. We must also establish guardrails to ensure user privacy and data security are paramount, and that AI-driven interfaces remain transparent and explainable, especially in sensitive areas like credit assessments or loan approvals, ensuring users understand how AI is assisting them and not acting as an opaque decision-maker."
     }
   ]
 }
