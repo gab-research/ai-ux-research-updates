@@ -3,54 +3,54 @@
   "updated": "2026-08-01",
   "themes": [
     {
-      "name": "AI coding assistants",
-      "count": 7,
-      "description": "Articles discussing AI tools that help with writing, debugging, and understanding code, including their benefits and potential pitfalls."
-    },
-    {
       "name": "Agentic AI in research",
-      "count": 6,
-      "description": "Content focusing on AI agents that can perform research tasks autonomously, test products, or manage workflows."
+      "count": 16,
+      "description": "Articles focusing on AI agents that can perform tasks, make decisions, and execute workflows within research and product development processes."
     },
     {
-      "name": "AI research tools",
-      "count": 3,
-      "description": "Discussions around platforms and software that leverage AI to aid in various aspects of research processes."
+      "name": "AI coding assistants",
+      "count": 13,
+      "description": "Content detailing the use of AI to generate, debug, and assist with writing code for various applications and research purposes."
     },
     {
       "name": "AI for product management",
-      "count": 2,
-      "description": "Articles related to AI applications that assist product managers in areas like innovation, supply chain optimization, or testing."
-    },
-    {
-      "name": "AI ethics in research",
-      "count": 2,
-      "description": "Content highlighting ethical considerations, biases, and potential harms associated with AI in research and design, such as ignorance or hidden vulnerabilities."
+      "count": 9,
+      "description": "Articles that explore how AI is used to improve product research, development, insights, and operational automation."
     },
     {
       "name": "AI tool evaluation",
-      "count": 2,
-      "description": "Articles that compare, analyze, or review the capabilities and limitations of different AI tools, particularly in the context of research and development."
-    },
-    {
-      "name": "AI workforce impact",
-      "count": 2,
-      "description": "Discussions on how AI is changing the skills required and the nature of work in fields like engineering and research."
-    },
-    {
-      "name": "AI-powered data analysis",
-      "count": 2,
-      "description": "Articles detailing the use of AI for analyzing research data, including challenges with data extraction and citation consistency."
+      "count": 7,
+      "description": "Discussions and guides on how to assess, compare, and test the effectiveness of various AI tools and platforms."
     },
     {
       "name": "AI content generation",
-      "count": 2,
-      "description": "Focuses on AI's ability to create content, such as code, documentation, or visualizations, and the quality or issues associated with it."
+      "count": 6,
+      "description": "Articles that discuss the creation of various forms of content, including text, images, and code, using AI."
+    },
+    {
+      "name": "AI ethics in research",
+      "count": 5,
+      "description": "Topics related to the ethical considerations, limitations, and potential pitfalls of using AI in research and user studies."
+    },
+    {
+      "name": "AI video generation",
+      "count": 5,
+      "description": "Content focused on AI tools and techniques for creating or analyzing video content."
+    },
+    {
+      "name": "AI research platforms",
+      "count": 5,
+      "description": "Discussions about platforms and tools designed to facilitate and enhance AI-driven research processes."
+    },
+    {
+      "name": "AI data analysis",
+      "count": 4,
+      "description": "Articles covering the application of AI for analyzing datasets, extracting insights, and supporting business intelligence."
     },
     {
       "name": "AI for design & research",
-      "count": 1,
-      "description": "Articles specifically addressing AI applications that aid in the design process and inform research methodologies."
+      "count": 4,
+      "description": "Content that broadly addresses the integration of AI into the fields of user experience design and qualitative research."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
