@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-08-01T17:08:24.160Z",
+  "lastUpdated": "2026-08-02T03:37:28.357Z",
   "updates": [
     {
       "date": "2026-08-01",
@@ -773,21 +773,9 @@
     },
     {
       "date": "2026-07-03",
-      "title": "The UK’s generational tobacco ban might not work. I’m supporting it anyway.",
-      "summary": "As the parent of two little girls, I often think about how their childhood is different from mine. The seven-year-old is learning about AI at school. The five-year-old is given internet-based homework every week. And they are both absolutely repulsed by the idea of smoking. Th...",
-      "content": "This article argues for supporting the UK's generational tobacco ban, despite acknowledging potential efficacy challenges. The author uses their children's modern upbringing, exposed to AI in education and digital homework, as a stark contrast to their own past. The core argument is that even if a policy isn't perfectly effective, societal progress and the protection of future generations from harmful products is a worthwhile endeavor. For UX researchers, this highlights the importance of considering long-term societal impact and evolving user expectations in product development. It suggests that even if a feature or product doesn't immediately achieve all its goals, its adoption of forward-thinking principles can contribute to a healthier user ecosystem.",
-      "category": "General AI in research",
-      "source": {
-        "name": "MIT Technology Review",
-        "url": "https://www.technologyreview.com/2026/07/03/1140036/uk-tobacco-ban-might-not-work-children-smoking/"
-      },
-      "analysis": "At Nubank, this article's core message about societal progress and future-proofing can inform our approach to new product development, particularly in areas like financial literacy and responsible credit. When researching features for our PIX, loans, or insurance products, we should consider not just immediate user needs but also the long-term financial well-being of our customers, especially younger demographics. This means exploring how to design interfaces and educational components that foster sustainable financial habits, akin to how the author's children are being raised with an awareness of modern challenges.\n\nResearchers should actively seek to understand how emerging technologies and societal shifts, like the increasing digital fluency of younger generations, influence financial behaviors. This could involve qualitative studies on how Gen Z interacts with digital banking for the first time (onboarding) or quantitative analysis of long-term engagement with credit products. When designing for card activation or introducing new insurance offerings, we should ask: \"What future-proofing or preventative measures are we building into this experience to protect users from potential future financial pitfalls?\" This perspective encourages a more proactive and ethically driven UX approach, anticipating future needs and risks rather than solely reacting to present ones. However, we must remain grounded in data and avoid paternalistic design; the goal is empowerment, not restriction, ensuring all customer segments can benefit from Nubank's accessible financial solutions."
-    },
-    {
-      "date": "2026-07-03",
       "title": "Users Don’t Need More Tools: They Need Seamless Integrations",
       "summary": "A closer look at why users don’t need more tools in their daily lives. What they need are seamless integrations of useful features to match already existing, established mental models. Brought to you by Design Patterns For AI Interfaces, **friendly video course on UX** and des...",
-      "content": "This article argues that the proliferation of specialized tools often leads to user friction rather than empowerment. The core insight is that users are not looking for more standalone solutions, but rather for the intelligent integration of functionalities into existing workflows and mental models. For UX researchers, this underscores the importance of understanding users' established habits and cognitive frameworks. Practically, this means prioritizing the seamless embedding of new features within familiar interfaces, like extending PIX functionality within the main Nubank app, rather than demanding users learn entirely new platforms.",
+      "content": "A closer look at why users don’t need more tools in their daily lives. What they need are seamless integrations of useful features to match already existing, established mental models. Brought to you by Design Patterns For AI Interfaces, **friendly video course on UX** and design patterns by Vitaly.",
       "category": "AI research tools",
       "source": {
         "name": "Smashing Magazine",

@@ -1,56 +1,56 @@
 {
   "month": "2026-08",
-  "updated": "2026-08-01",
+  "updated": "2026-08-02",
   "themes": [
     {
-      "name": "Agentic AI in research",
-      "count": 16,
-      "description": "Articles focusing on AI agents that can perform tasks, make decisions, and execute workflows within research and product development processes."
-    },
-    {
       "name": "AI coding assistants",
+      "count": 16,
+      "description": "Articles discussing AI tools and agents that help developers write, review, and debug code."
+    },
+    {
+      "name": "Agentic AI in product work",
       "count": 13,
-      "description": "Content detailing the use of AI to generate, debug, and assist with writing code for various applications and research purposes."
+      "description": "Content focused on AI agents performing tasks related to product development, testing, and operations."
     },
     {
-      "name": "AI for product management",
-      "count": 9,
-      "description": "Articles that explore how AI is used to improve product research, development, insights, and operational automation."
-    },
-    {
-      "name": "AI tool evaluation",
-      "count": 7,
-      "description": "Discussions and guides on how to assess, compare, and test the effectiveness of various AI tools and platforms."
-    },
-    {
-      "name": "AI content generation",
-      "count": 6,
-      "description": "Articles that discuss the creation of various forms of content, including text, images, and code, using AI."
-    },
-    {
-      "name": "AI ethics in research",
-      "count": 5,
-      "description": "Topics related to the ethical considerations, limitations, and potential pitfalls of using AI in research and user studies."
-    },
-    {
-      "name": "AI video generation",
-      "count": 5,
-      "description": "Content focused on AI tools and techniques for creating or analyzing video content."
-    },
-    {
-      "name": "AI research platforms",
-      "count": 5,
-      "description": "Discussions about platforms and tools designed to facilitate and enhance AI-driven research processes."
-    },
-    {
-      "name": "AI data analysis",
-      "count": 4,
-      "description": "Articles covering the application of AI for analyzing datasets, extracting insights, and supporting business intelligence."
+      "name": "AI customer insights",
+      "count": 3,
+      "description": "Articles detailing AI platforms and tools that gather and analyze customer feedback and data."
     },
     {
       "name": "AI for design & research",
-      "count": 4,
-      "description": "Content that broadly addresses the integration of AI into the fields of user experience design and qualitative research."
+      "count": 3,
+      "description": "Content on AI applications that assist in the visual design process and user research workflows."
+    },
+    {
+      "name": "AI research platforms",
+      "count": 2,
+      "description": "Discussions around integrated AI platforms designed to support various research activities."
+    },
+    {
+      "name": "AI summarization",
+      "count": 1,
+      "description": "Articles focused on AI capabilities for condensing and extracting key information from text."
+    },
+    {
+      "name": "Synthetic users",
+      "count": 1,
+      "description": "Exploration of AI-generated user data or personas for testing and research purposes."
+    },
+    {
+      "name": "AI tool evaluation",
+      "count": 1,
+      "description": "Content that reviews and compares the effectiveness and performance of different AI tools."
+    },
+    {
+      "name": "AI workforce impact",
+      "count": 1,
+      "description": "Articles examining how AI affects jobs, skills, and employment models in the tech industry."
+    },
+    {
+      "name": "AI-powered data analysis",
+      "count": 1,
+      "description": "Discussions on using AI to process, analyze, and derive insights from complex datasets."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
