@@ -3,54 +3,54 @@
   "updated": "2026-08-02",
   "themes": [
     {
-      "name": "AI coding assistants",
-      "count": 16,
-      "description": "Articles discussing AI tools and agents that help developers write, review, and debug code."
+      "name": "Agentic AI for Development",
+      "count": 40,
+      "description": "Articles discussing AI agents used for coding, development workflows, testing, and infrastructure management, including their capabilities, limitations, and security implications."
     },
     {
-      "name": "Agentic AI in product work",
-      "count": 13,
-      "description": "Content focused on AI agents performing tasks related to product development, testing, and operations."
+      "name": "AI Coding Assistants",
+      "count": 14,
+      "description": "Focuses on AI tools that assist developers in writing, auditing, and debugging code, including their effectiveness and potential vulnerabilities."
     },
     {
-      "name": "AI customer insights",
+      "name": "AI Customer Insights",
       "count": 3,
-      "description": "Articles detailing AI platforms and tools that gather and analyze customer feedback and data."
+      "description": "Covers AI platforms and tools specifically designed to gather and analyze customer data for better engagement and understanding."
     },
     {
-      "name": "AI for design & research",
-      "count": 3,
-      "description": "Content on AI applications that assist in the visual design process and user research workflows."
-    },
-    {
-      "name": "AI research platforms",
+      "name": "AI for Product Research",
       "count": 2,
-      "description": "Discussions around integrated AI platforms designed to support various research activities."
+      "description": "Articles that explore how AI is being applied to the processes of product research and development, including supply chain automation."
     },
     {
-      "name": "AI summarization",
-      "count": 1,
-      "description": "Articles focused on AI capabilities for condensing and extracting key information from text."
+      "name": "Synthetic Users",
+      "count": 2,
+      "description": "Discussions around the use of AI-generated users or data for testing and research, particularly in contexts where real-time data is restricted."
     },
     {
-      "name": "Synthetic users",
-      "count": 1,
-      "description": "Exploration of AI-generated user data or personas for testing and research purposes."
+      "name": "AI Research Platforms",
+      "count": 3,
+      "description": "Articles detailing AI tools and platforms used for various research purposes, including image analysis and general research operations."
     },
     {
-      "name": "AI tool evaluation",
-      "count": 1,
-      "description": "Content that reviews and compares the effectiveness and performance of different AI tools."
+      "name": "AI Workforce Impact",
+      "count": 4,
+      "description": "Examines the influence of AI on job roles, skills required, and employment models within the tech industry, particularly in AI engineering."
     },
     {
-      "name": "AI workforce impact",
-      "count": 1,
-      "description": "Articles examining how AI affects jobs, skills, and employment models in the tech industry."
+      "name": "AI for Design & Research",
+      "count": 2,
+      "description": "Covers AI applications that directly assist in the design process or enhance traditional UX research methodologies."
     },
     {
-      "name": "AI-powered data analysis",
+      "name": "AI Chatbot Research",
       "count": 1,
-      "description": "Discussions on using AI to process, analyze, and derive insights from complex datasets."
+      "description": "Focuses on research and user feedback regarding the capabilities and limitations of AI chatbots."
+    },
+    {
+      "name": "AI Summarization",
+      "count": 1,
+      "description": "Articles related to AI tools that condense large amounts of text or data into concise summaries for insights."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
