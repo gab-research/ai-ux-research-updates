@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-08-03T11:36:05.267Z",
+  "lastUpdated": "2026-08-03T17:59:13.108Z",
   "updates": [
     {
       "date": "2026-08-03",
@@ -19,13 +19,13 @@
       "date": "2026-08-03",
       "title": "Chat is the wrong interface for AI",
       "summary": "The problem with over-simplification of AI Agents’ interfaces. Continue reading on UX Collective »",
-      "content": "The problem with over-simplification of AI Agents’ interfaces. Continue reading on UX Collective »",
+      "content": "This article argues that while chatbots are a common entry point for AI, they often lead to an oversimplified user experience, failing to leverage the full potential of AI agents. The core issue is that chat interfaces can constrain AI's ability to present complex information, facilitate nuanced interactions, or guide users through sophisticated tasks. For UX researchers, this is critical because it highlights the need to think beyond simple conversational interfaces for AI-powered products, ensuring that the chosen interface truly serves the user's goals and the AI's capabilities. Practically, this means we should explore and advocate for richer, multi-modal interfaces that can better surface AI's intelligence and guide users effectively, rather than relying solely on text-based dialogues.",
       "category": "Agentic AI in research",
       "source": {
         "name": "UX Collective (Medium)",
         "url": "https://uxdesign.cc/chat-is-the-wrong-interface-for-ai-de14d352de1b?source=rss----138adf9c44c---4"
       },
-      "analysis": ""
+      "analysis": "At Nubank, this article's premise encourages us to critically evaluate our AI integrations, especially within existing product flows. Instead of defaulting to chat for every AI-powered feature, we should consider more appropriate interfaces for specific use cases. For instance, during PIX transactions, instead of a chatbot asking for every detail, an AI agent could intelligently pre-fill information or offer proactive suggestions within the existing transaction screen. Similarly, for complex processes like loan applications or insurance policy management, a multi-modal interface that combines conversational elements with visual aids, interactive forms, and clear progress indicators could significantly enhance user understanding and trust, moving beyond a simple chat window."
     },
     {
       "date": "2026-08-03",
@@ -38,6 +38,18 @@
         "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260803"
       },
       "analysis": "At Nubank, this article directly informs our ongoing efforts to integrate AI responsibly across our product suite, from enhancing PIX transactions to personalizing loan offers and optimizing card activation flows. Our UX researchers should prioritize understanding the 'AI anxiety' phenomenon. When designing AI-powered features, such as conversational assistants within the app or personalized financial advice, we need to proactively identify and address user concerns.  This might involve implementing clear explanations of AI functionality, offering transparent data usage policies, and providing control mechanisms that reduce perceived unpredictability.  For instance, in loan applications, instead of a purely AI-driven decision, we could integrate AI-powered risk assessment with clear user-facing explanations, allowing for more informed decision-making.\n\nFurthermore, the article's point about toggle switches being a 'light switch, not a form field' is crucial for our onboarding and insurance product flows.  We must ensure that AI-driven toggles for features like automated savings or personalized insurance recommendations are designed for clear on/off states and immediate impact, rather than implying complex data input.  When evaluating existing or new AI features, researchers should be mindful of hedonic adaptation; a design that scores well initially might become less impactful over time.  This necessitates a shift towards continuous A/B testing and longitudinal user studies for AI-driven features, ensuring sustained user satisfaction beyond the initial novelty."
+    },
+    {
+      "date": "2026-08-03",
+      "title": "Orchard: An open framework for scalable agentic AI",
+      "summary": "Orchard is an open-source framework for the research community to train and evaluate AI agents across task types. It reduces complexity while supporting strong performance from smaller models by enabling researchers to reuse the same infrastructure. The post Orchard: An open f...",
+      "content": "Microsoft Research's Orchard framework addresses the growing need for efficient and reproducible AI agent development and evaluation. By providing a unified, open-source infrastructure, Orchard allows researchers to train and test AI agents across diverse tasks without reinventing the wheel, promoting collaboration and faster innovation.  For UX researchers, this means a more accessible pathway to leverage sophisticated AI models for understanding user behavior, generating synthetic user data for testing, or even building AI-powered research tools.  The ability to achieve strong performance with smaller, more manageable models democratizes access to advanced AI capabilities, making it practical for UX teams to explore and implement AI solutions for tasks like automating survey analysis or simulating user journeys.",
+      "category": "Survey optimization",
+      "source": {
+        "name": "Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/blog/orchard-an-open-framework-for-scalable-agentic-ai/"
+      },
+      "analysis": "At Nubank, Orchard could significantly accelerate our ability to integrate AI into UX research. Imagine using Orchard to train agents that can analyze thousands of user feedback submissions from our PIX or loan application flows, identifying recurring pain points and sentiments far faster than manual review. Researchers could leverage the framework to develop agents that simulate user interactions with our onboarding or card activation processes, allowing us to proactively identify usability issues before they impact real customers. This could also extend to testing hypothetical features or policy changes by simulating user responses.\n\nResearchers should start by exploring Orchard's capabilities for specific research challenges, such as synthesizing user personas for qualitative studies or automating the categorization of open-ended survey responses. We can begin by experimenting with smaller, well-defined use cases, perhaps analyzing customer support transcripts for insurance inquiries to identify common questions or friction points. It's crucial to establish clear ethical guidelines and data privacy protocols, ensuring any AI-generated data or insights align with Nubank's commitment to customer trust. While Orchard promises efficiency, we must remember it's a tool to augment, not replace, human judgment and empathy in our research process, especially when dealing with sensitive financial products and customer data."
     },
     {
       "date": "2026-08-02",
