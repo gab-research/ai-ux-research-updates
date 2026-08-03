@@ -3,54 +3,54 @@
   "updated": "2026-08-03",
   "themes": [
     {
-      "name": "Agentic AI research",
-      "count": 10,
-      "description": "Articles focusing on AI agents and their application in research tasks, encompassing automation, orchestration, and agentic workflows."
+      "name": "Survey optimization",
+      "count": 19,
+      "description": "AI tools for designing better surveys, reducing bias, and analyzing responses."
     },
     {
       "name": "AI coding assistants",
-      "count": 9,
-      "description": "Content discussing AI tools that assist developers with writing, debugging, and understanding code, including code generation and vulnerability detection."
+      "count": 17,
+      "description": "Copilot, Claude Code, Cursor, and other AI tools for code generation and development."
     },
     {
-      "name": "AI customer insights",
-      "count": 6,
-      "description": "Articles detailing how AI is used to analyze customer data, identify trends, and automate engagement for businesses."
+      "name": "AI research tools",
+      "count": 16,
+      "description": "New AI tool launches, reviews, and platforms built for research workflows."
     },
     {
-      "name": "AI for design & research",
+      "name": "AI-powered data analysis",
+      "count": 11,
+      "description": "Automated data analysis, clustering, segmentation, and pattern detection."
+    },
+    {
+      "name": "Conversational AI in research",
+      "count": 10,
+      "description": "Chatbots, virtual assistants, and voice AI in research contexts."
+    },
+    {
+      "name": "Agentic AI in research",
+      "count": 5,
+      "description": "Autonomous AI agents running research tasks, multi-agent frameworks, and orchestration."
+    },
+    {
+      "name": "AI summarization",
       "count": 4,
-      "description": "Covers AI's role in the creative process of design and research, including AI-generated design and research platform functionalities."
+      "description": "Automated transcript summaries, theme extraction, and affinity mapping."
     },
     {
-      "name": "AI sentiment feedback",
+      "name": "AI content generation",
       "count": 3,
-      "description": "Articles focusing on AI's ability to analyze user sentiment from feedback, reviews, and social media."
+      "description": "AI writing, report generation, UX copy, and content creation."
     },
     {
-      "name": "AI summarization insights",
+      "name": "AI tool evaluation",
       "count": 3,
-      "description": "Content that uses AI to condense and extract key insights from large volumes of text, such as research findings or user feedback."
+      "description": "Comparing, benchmarking, and selecting AI tools and LLMs for specific use cases."
     },
     {
-      "name": "AI research platform",
+      "name": "AI workforce impact",
       "count": 3,
-      "description": "Discussions about platforms that leverage AI to facilitate or enhance research processes, including data analysis and tool integration."
-    },
-    {
-      "name": "Synthetic users",
-      "count": 2,
-      "description": "Articles exploring the creation and use of artificial user data or personas for AI training, testing, or privacy-preserving research."
-    },
-    {
-      "name": "AI product research",
-      "count": 2,
-      "description": "Focuses on AI applications in understanding market needs, validating product ideas, and guiding product development."
-    },
-    {
-      "name": "AI UX tools",
-      "count": 2,
-      "description": "Content related to AI-powered tools specifically designed to enhance the user experience design and research process."
+      "description": "AI replacing roles, future of work, skills gap, reskilling, and organizational change."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."

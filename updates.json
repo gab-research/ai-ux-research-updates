@@ -1,8 +1,44 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-08-03T03:39:40.664Z",
+  "lastUpdated": "2026-08-03T11:36:05.267Z",
   "updates": [
+    {
+      "date": "2026-08-03",
+      "title": "IA for AI, The UX of contrast, Battling AI fatigue",
+      "summary": "IA for AI, The UX of contrast, Battling AI fatigue",
+      "content": "This article explores the evolving landscape of AI within UX research, highlighting three crucial themes. First, it delves into \"IA for AI,\" suggesting how AI can be leveraged to improve AI-driven user experiences themselves. Second, it examines the \"UX of contrast,\" emphasizing the importance of carefully designing user interfaces and interactions that differentiate between AI-generated content and human-crafted elements to avoid confusion. Finally, it addresses the growing challenge of \"battling AI fatigue,\" advocating for strategies that maintain user engagement and trust in AI-powered features by ensuring transparency and perceived value. For UX researchers, understanding these concepts is vital to designing effective and user-centric AI integrations that enhance, rather than detract from, the overall digital banking experience.",
+      "category": "AI research tools",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/ia-for-ai-the-ux-of-contrast-battling-ai-fatigue-4f623495bed8?source=rss----138adf9c44c---4"
+      },
+      "analysis": "At Nubank, this article's themes are highly relevant to our ongoing efforts to integrate AI across various product flows. For instance, when refining our AI-powered chatbots for customer support or personalizing financial advice for PIX transactions, we can apply the \"IA for AI\" principle by using AI to analyze user sentiment and predict common pain points, then use those insights to improve the AI's conversational design and accuracy. The \"UX of contrast\" is crucial for features like our AI-driven loan pre-approval summaries or insurance recommendations; we need to clearly demarcate what is AI-generated information versus what is a human-vetted option to build trust, especially during sensitive processes like onboarding or card activation.  We should also consider this when developing new AI features, ensuring users understand when they are interacting with an AI versus a human agent.\n\nTo practically apply this, researchers should incorporate \"AI UX audits\" into their workflow, specifically looking for points of potential confusion between AI and human interaction. During generative AI testing for new features, we must prioritize evaluating user comprehension of AI-generated output and their comfort level with AI-driven suggestions, whether it's for budgeting assistance or investment insights.  Guardrails should include explicit user notifications about AI involvement and clear pathways to human support for complex or sensitive issues, preventing AI fatigue and ensuring we maintain Nubank's reputation for transparency and customer focus, especially for critical features like credit limit adjustments or fraud detection alerts."
+    },
+    {
+      "date": "2026-08-03",
+      "title": "Chat is the wrong interface for AI",
+      "summary": "The problem with over-simplification of AI Agents’ interfaces. Continue reading on UX Collective »",
+      "content": "The problem with over-simplification of AI Agents’ interfaces. Continue reading on UX Collective »",
+      "category": "Agentic AI in research",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/chat-is-the-wrong-interface-for-ai-de14d352de1b?source=rss----138adf9c44c---4"
+      },
+      "analysis": ""
+    },
+    {
+      "date": "2026-08-03",
+      "title": "UX Roundup: Design Guidelines Changing for AI | AI Anxiety | Toggle Switches | Hedonic Adaptation | Erdős Problems | Glanceable Monitoring",
+      "summary": "Design guidelines held steady for 30 years but are shifting with AI | Users who are anxious about AI use it more, not less | A toggle is a light switch, not a form field | The same design scores lower every year | What are the Erdős problems and why are they relevant for AI? |...",
+      "content": "Jakob Nielsen's latest UX roundup highlights a significant shift in design principles, primarily driven by the burgeoning integration of Artificial Intelligence.  The traditional, long-standing design guidelines are now evolving to accommodate AI's unique characteristics, impacting how we create user experiences.  Importantly, the research suggests a counter-intuitive finding: users experiencing anxiety around AI are paradoxically more likely to engage with it, a trend that demands careful consideration for product adoption and feature rollout.  Furthermore, Nielsen emphasizes the importance of understanding fundamental UI elements like toggle switches and the phenomenon of hedonic adaptation, both of which become more complex in an AI-augmented environment, requiring UX researchers to adapt their evaluation metrics and qualitative approaches.",
+      "category": "Survey optimization",
+      "source": {
+        "name": "Jakob Nielsen (Substack)",
+        "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260803"
+      },
+      "analysis": "At Nubank, this article directly informs our ongoing efforts to integrate AI responsibly across our product suite, from enhancing PIX transactions to personalizing loan offers and optimizing card activation flows. Our UX researchers should prioritize understanding the 'AI anxiety' phenomenon. When designing AI-powered features, such as conversational assistants within the app or personalized financial advice, we need to proactively identify and address user concerns.  This might involve implementing clear explanations of AI functionality, offering transparent data usage policies, and providing control mechanisms that reduce perceived unpredictability.  For instance, in loan applications, instead of a purely AI-driven decision, we could integrate AI-powered risk assessment with clear user-facing explanations, allowing for more informed decision-making.\n\nFurthermore, the article's point about toggle switches being a 'light switch, not a form field' is crucial for our onboarding and insurance product flows.  We must ensure that AI-driven toggles for features like automated savings or personalized insurance recommendations are designed for clear on/off states and immediate impact, rather than implying complex data input.  When evaluating existing or new AI features, researchers should be mindful of hedonic adaptation; a design that scores well initially might become less impactful over time.  This necessitates a shift towards continuous A/B testing and longitudinal user studies for AI-driven features, ensuring sustained user satisfaction beyond the initial novelty."
+    },
     {
       "date": "2026-08-02",
       "title": "The architecture of watching work",
@@ -245,10 +281,10 @@
     },
     {
       "date": "2026-07-27",
-      "title": "When Participants Aren't Who They Say: Fraud in Online UXR",
-      "summary": "Maria Panagiotidi on the rise of participant fraud in online qualitative UX research studies, and how to recognize, prevent, and respond to it in the AI era.",
+      "title": "Participant fraud in online UX research: spot and stop it",
+      "summary": "How to recognise, prevent and respond to participant fraud in online qualitative UX research, including AI-generated, bot and deepfake participants.",
       "content": "This article highlights a growing concern in online qualitative UX research: participant fraud.  It delves into how individuals may misrepresent themselves to gain incentives or for other malicious purposes, undermining the integrity of research findings. For UX researchers, this means that data collected from these fraudulent participants can lead to inaccurate insights and misguided product decisions, impacting everything from onboarding flows to the development of new financial products.  The piece emphasizes the need for researchers to adopt proactive strategies to identify, mitigate, and address these fraudulent activities, especially as AI tools become more prevalent in research processes.",
-      "category": "AI workforce impact",
+      "category": "General AI in research",
       "source": {
         "name": "Great Question Blog",
         "url": "https://cms.greatquestion.co/blog/participant-fraud-in-online-qualitative-ux-research"
