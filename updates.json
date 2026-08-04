@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-08-03T17:59:13.108Z",
+  "lastUpdated": "2026-08-04T03:23:42.956Z",
   "updates": [
     {
       "date": "2026-08-03",
@@ -50,6 +50,18 @@
         "url": "https://www.microsoft.com/en-us/research/blog/orchard-an-open-framework-for-scalable-agentic-ai/"
       },
       "analysis": "At Nubank, Orchard could significantly accelerate our ability to integrate AI into UX research. Imagine using Orchard to train agents that can analyze thousands of user feedback submissions from our PIX or loan application flows, identifying recurring pain points and sentiments far faster than manual review. Researchers could leverage the framework to develop agents that simulate user interactions with our onboarding or card activation processes, allowing us to proactively identify usability issues before they impact real customers. This could also extend to testing hypothetical features or policy changes by simulating user responses.\n\nResearchers should start by exploring Orchard's capabilities for specific research challenges, such as synthesizing user personas for qualitative studies or automating the categorization of open-ended survey responses. We can begin by experimenting with smaller, well-defined use cases, perhaps analyzing customer support transcripts for insurance inquiries to identify common questions or friction points. It's crucial to establish clear ethical guidelines and data privacy protocols, ensuring any AI-generated data or insights align with Nubank's commitment to customer trust. While Orchard promises efficiency, we must remember it's a tool to augment, not replace, human judgment and empathy in our research process, especially when dealing with sensitive financial products and customer data."
+    },
+    {
+      "date": "2026-08-03",
+      "title": "Product feedback tools: 9 platforms compared in 2026",
+      "summary": "Compare the 9 best product feedback tools for 2026, from AI-powered analysis to feature voting, and see how teams like ServiceNow consolidate feedback.",
+      "content": "This article, \"Product feedback tools: 9 platforms compared in 2026,\" explores the evolving landscape of tools designed to gather and analyze user sentiment. It highlights how advanced platforms are integrating AI for deeper insights, moving beyond simple surveys to offer sophisticated analysis of qualitative data and enabling features like direct feature voting. For UX researchers at Nubank, understanding these tools is crucial as they offer the potential to significantly accelerate the feedback synthesis process, allowing us to identify emerging trends and pain points in user journeys for products like PIX transactions or loan applications more efficiently, ultimately informing product development with greater speed and accuracy.",
+      "category": "Sentiment & feedback analysis",
+      "source": {
+        "name": "Great Question Blog",
+        "url": "https://cms.greatquestion.co/blog/product-feedback-tools"
+      },
+      "analysis": "At Nubank, this article's insights can directly enhance our existing research workflows. We can leverage AI-powered feedback analysis tools to process large volumes of unstructured data from customer service interactions, app reviews, and in-app surveys related to onboarding, card activation, or insurance claims. This would complement our qualitative methods by providing quantitative signals on common friction points, allowing researchers to prioritize deeper dives into specific user flows or product features.\n\nWhen applying these tools, researchers should focus on how AI can augment, not replace, human understanding. For example, AI could flag recurring themes in customer feedback about the PIX experience, enabling a UX researcher to then conduct targeted usability testing to validate the root cause. It's crucial to maintain a critical eye, as AI interpretations might miss nuanced user needs or cultural context specific to Brazil. Therefore, these tools should be used as a starting point for investigation, with human oversight and qualitative validation remaining paramount to ensure our product decisions are truly user-centric."
     },
     {
       "date": "2026-08-02",
