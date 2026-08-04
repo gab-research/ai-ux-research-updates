@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-08-04T03:23:42.956Z",
+  "lastUpdated": "2026-08-04T10:47:23.405Z",
   "updates": [
+    {
+      "date": "2026-08-04",
+      "title": "NinaNews #165: Onde o UX começa",
+      "summary": "🤝 Nvidia cria aliança para segurança de IAs abertas sem ChatGPT e Claude.",
+      "content": "Nvidia's initiative to form an alliance focused on securing open-source AI models, distinct from proprietary ones like ChatGPT and Claude, addresses a critical emerging concern in the AI landscape.  This development is significant for UX researchers as it highlights the growing importance of trust and safety in AI deployments.  For us at Nubank, this means exploring how we can leverage secure, auditable open-source AI for user-facing features, ensuring data privacy and model integrity, especially when dealing with sensitive financial transactions and personal data.",
+      "category": "General AI in research",
+      "source": {
+        "name": "Nina News (Nina Talks)",
+        "url": "https://ninatalks.substack.com/p/ninanews-165-onde-o-ux-comeca"
+      },
+      "analysis": "This alliance directly impacts our research by encouraging the exploration and adoption of secure, transparent open-source AI models for various Nubank products.  For instance, when researching improvements to our PIX experience or exploring AI-powered personalized loan offers, we should prioritize investigating open-source alternatives that align with Nvidia's security focus.  This approach allows for greater control and understanding of the AI's inner workings, which is crucial for building user trust in areas like card activation, onboarding, and insurance claims.\n\nWhen applying this at Nubank, researchers should actively seek out and evaluate open-source AI models that have strong community support and demonstrable security protocols.  This means integrating security assessments into our AI research sprints, alongside traditional usability testing and user feedback.  Guardrails are essential: we must ensure that any open-source AI solutions are thoroughly vetted for bias, fairness, and compliance with Brazilian data privacy regulations (LGPD) before they are integrated into user-facing flows.  The focus should remain on augmenting human oversight and ensuring ethical AI practices, rather than fully automating critical decision-making processes."
+    },
     {
       "date": "2026-08-03",
       "title": "IA for AI, The UX of contrast, Battling AI fatigue",
