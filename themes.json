@@ -3,54 +3,54 @@
   "updated": "2026-08-04",
   "themes": [
     {
-      "name": "Agentic AI development",
-      "count": 34,
-      "description": "Articles discussing the creation, capabilities, and challenges of AI agents that can perform tasks autonomously and interact with systems."
+      "name": "AI coding assistants",
+      "count": 24,
+      "description": "Copilot, Claude Code, Cursor, and other AI tools for code generation and development."
     },
     {
-      "name": "AI for coding assistance",
-      "count": 14,
-      "description": "Content focused on AI tools and techniques that aid developers in writing, reviewing, and debugging code."
+      "name": "AI research tools",
+      "count": 21,
+      "description": "New AI tool launches, reviews, and platforms built for research workflows."
     },
     {
-      "name": "AI for UX design",
-      "count": 13,
-      "description": "Articles exploring how AI is being applied to various aspects of user experience design, including ideation and interface generation."
+      "name": "Survey optimization",
+      "count": 19,
+      "description": "AI tools for designing better surveys, reducing bias, and analyzing responses."
     },
     {
-      "name": "AI in research workflows",
-      "count": 12,
-      "description": "Content detailing how AI is integrated into research processes, including AI-powered research assistants and platforms."
+      "name": "AI-powered data analysis",
+      "count": 18,
+      "description": "Automated data analysis, clustering, segmentation, and pattern detection."
     },
     {
-      "name": "AI for sentiment analysis",
+      "name": "Conversational AI in research",
+      "count": 17,
+      "description": "Chatbots, virtual assistants, and voice AI in research contexts."
+    },
+    {
+      "name": "AI ethics in research",
+      "count": 11,
+      "description": "Bias, fairness, responsible AI, privacy, and trust in research."
+    },
+    {
+      "name": "Agentic AI in research",
       "count": 8,
-      "description": "Articles focused on using AI to analyze and understand user sentiment from feedback, reviews, and conversations."
+      "description": "Autonomous AI agents running research tasks, multi-agent frameworks, and orchestration."
     },
     {
-      "name": "AI chatbot research",
+      "name": "AI summarization",
+      "count": 8,
+      "description": "Automated transcript summaries, theme extraction, and affinity mapping."
+    },
+    {
+      "name": "AI tool evaluation",
       "count": 7,
-      "description": "Content specifically about the research and development of AI chatbots, their capabilities, limitations, and user impact."
+      "description": "Comparing, benchmarking, and selecting AI tools and LLMs for specific use cases."
     },
     {
-      "name": "AI for qualitative research",
-      "count": 6,
-      "description": "Articles that cover AI applications in gathering and analyzing qualitative data, including expert insights and mapping research."
-    },
-    {
-      "name": "AI for customer insights",
-      "count": 6,
-      "description": "Content related to AI tools and platforms designed to extract actionable insights from customer data to improve engagement and business operations."
-    },
-    {
-      "name": "AI for product research",
-      "count": 5,
-      "description": "Articles discussing the application of AI in understanding market needs, identifying opportunities, and informing product development strategies."
-    },
-    {
-      "name": "AI ethics and governance",
-      "count": 5,
-      "description": "Content addressing the ethical considerations, regulatory frameworks, and governance challenges associated with AI development and deployment."
+      "name": "AI workforce impact",
+      "count": 7,
+      "description": "AI replacing roles, future of work, skills gap, reskilling, and organizational change."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
