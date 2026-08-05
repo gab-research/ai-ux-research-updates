@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-08-05T03:19:27.309Z",
+  "lastUpdated": "2026-08-05T10:43:47.894Z",
   "updates": [
+    {
+      "date": "2026-08-05",
+      "title": "76 Open Research Questions in AI Usability",
+      "summary": "AI is the biggest change to UX design in 60 years, yet we know embarrassingly little about how people actually use it. Here are 76 open research questions, organized into 7 lists sized for everyone from high school students to the big AI labs. Students who complete a research...",
+      "content": "Jakob Nielsen's \"76 Open Research Questions in AI Usability\" highlights the significant but underdeveloped understanding of human interaction with AI. The core idea is that despite AI's transformative potential for UX design, empirical research into user behavior with AI is severely lacking. For UX researchers, this presents a critical imperative to proactively investigate how users navigate, trust, and effectively utilize AI-powered features. Practically, this means we must pivot research efforts to address these knowledge gaps, ensuring our AI implementations are not only functional but truly user-centered, impacting everything from our onboarding flows to the personalized advice offered within our app.",
+      "category": "AI for design & research",
+      "source": {
+        "name": "Jakob Nielsen (Substack)",
+        "url": "https://jakobnielsenphd.substack.com/p/ai-ux-research"
+      },
+      "analysis": "This resource is invaluable for framing our future research agenda at Nubank. It directly informs our approach to understanding user interaction with AI features across our product suite. For instance, as we explore AI-driven personalized financial advice for loans or optimize fraud detection for PIX transactions, Nielsen's questions can guide our qualitative interviews and usability studies. Researchers should actively consult the list when designing studies, using it as a checklist to ensure we're covering critical, yet often overlooked, aspects of AI usability, from prompt engineering nuances to the uncanny valley effect in conversational AI. \n\nWhen applying these questions, it's crucial to tailor them to Nubank's context. Instead of a generic study on AI chatbots, we might focus on how AI assists users during card activation troubleshooting or if AI-generated summaries of insurance policy details are truly understood. We must also be mindful of limitations; not all 76 questions will be immediately relevant or feasible for every project. Prioritization based on impact to user experience and business goals, alongside our existing research roadmap, will be key. For example, while understanding AI's impact on \"creative work\" might be less relevant to our current banking operations, questions around \"explainability and transparency\" are paramount for building trust in our AI-powered financial recommendations."
+    },
     {
       "date": "2026-08-04",
       "title": "NinaNews #165: Onde o UX começa",
