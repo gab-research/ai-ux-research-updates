@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-08-05T17:49:13.491Z",
+  "lastUpdated": "2026-08-06T03:23:45.482Z",
   "updates": [
     {
       "date": "2026-08-05",
@@ -38,6 +38,18 @@
         "url": "https://www.parallelhq.com/blog/what-is-ai-ux-design"
       },
       "analysis": "At Nubank, AI UX Design principles can be woven into our existing research workflows to amplify our understanding of customer needs across various products and features. For instance, when analyzing feedback for our PIX payment system or the onboarding flow for new users, AI can rapidly sift through thousands of customer comments, identifying emerging pain points or popular suggestions that might be missed in manual review. This allows researchers to dedicate more time to in-depth qualitative studies, such as usability tests on new loan application features or card activation processes, armed with pre-analyzed quantitative data.\n\nResearchers should actively explore and pilot AI-powered tools for tasks like affinity mapping, generative design ideation for personalized user interfaces, and predictive analytics on user churn for our insurance products. However, it's crucial to establish guardrails. AI should augment, not replace, human empathy and critical thinking. We must ensure algorithmic bias is mitigated, especially in sensitive areas like loan applications or credit card approvals, and that AI-generated insights are always validated through traditional qualitative methods. The focus remains on building trust and delivering a seamless, human-centered experience for all Nubank customers, whether they are making a PIX transfer or managing their investments."
+    },
+    {
+      "date": "2026-08-05",
+      "title": "AI UX Best Practices: 15 Patterns with Examples | ParallelHQ",
+      "summary": "AI UX Best Practices: 15 Patterns with Examples. Independent, regularly-updated comparison from ParallelHQ.",
+      "content": "This article from Parallel Blog outlines 15 established patterns for designing user experiences with AI, offering practical examples to illustrate each. The core idea is that effective AI UX isn't just about the technology, but about carefully considering how users interact with and understand AI systems. For UX researchers, this is crucial as AI integration becomes ubiquitous; understanding these patterns helps us proactively design transparent, trustworthy, and beneficial AI-powered features. The practical implication is the ability to move beyond simply implementing AI, towards intentionally crafting AI experiences that truly enhance user journeys in areas like personalization, assistance, and automation.",
+      "category": "AI research tools",
+      "source": {
+        "name": "Parallel Blog",
+        "url": "https://www.parallelhq.com/blog/ai-ux-best-practices"
+      },
+      "analysis": "This article directly supports our mission at Nubank to innovate user-centric financial services with AI. For our UX research workflow, these 15 patterns can serve as a framework for evaluating and designing new AI features across products like PIX, loan applications, card activation, and onboarding. Researchers should integrate these patterns into generative and evaluative research by developing hypotheses around specific patterns when exploring AI-driven personalization for credit card offers or automated customer support within the app. We can also use them as a checklist during usability testing of AI components, ensuring clarity in AI-driven recommendations or explanations.\n\nGuardrails are essential. While AI can personalize the PIX experience or streamline loan pre-approval, we must prioritize transparency and user control. Researchers need to ensure that AI-driven insights or actions are explainable, especially in sensitive areas like insurance policy recommendations. Over-reliance on AI without clear user understanding could lead to confusion or distrust, undermining the trust Nubank has built. Therefore, a key limitation to consider is the ethical implication of AI bias and ensuring fairness in its application across all customer segments, particularly in credit assessment or fraud detection."
     },
     {
       "date": "2026-08-04",
