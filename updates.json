@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-08-07T09:08:18.528Z",
+  "lastUpdated": "2026-08-07T17:00:01.448Z",
   "updates": [
     {
       "date": "2026-08-05",
@@ -854,42 +854,6 @@
         "url": "https://uxdesign.cc/designops-in-the-age-of-ai-when-governance-becomes-orchestration-7b946ceea70f?source=rss----138adf9c44c---4"
       },
       "analysis": "At Nubank, this evolving DesignOps approach will integrate directly into our research workflows, particularly as we explore AI for tasks like analyzing qualitative feedback from our 70 million+ customers or generating initial UI variations for new features.  For instance, when researching improvements for the PIX transfer flow, AI could help identify common pain points from thousands of user reviews, freeing up researchers to focus on deeper ethnographic studies or usability testing of potential solutions.  Our researchers should leverage AI as an assistive tool, always critically evaluating its outputs and ensuring they align with our \"less is more\" design philosophy and commitment to user privacy and security.\n\nImplementing this requires clear guidelines. When using AI for tasks like generating initial onboarding flows or assisting with loan application explanations, researchers must actively \"orchestrate\" the AI by providing specific prompts and constraints.  This includes defining ethical boundaries, ensuring fairness and transparency in AI-generated content, and rigorously validating its accuracy and relevance. For example, AI might suggest variations for card activation instructions, but human researchers must verify clarity, accessibility, and adherence to brand voice before implementation, especially considering the diverse user base engaging with our products like NuConta or insurance offerings."
-    },
-    {
-      "date": "2026-07-08",
-      "title": "How to protect PII in your UX research operations",
-      "summary": "What PII is, where it hides in your research stack, who should see it, and when to delete it, plus how to govern participant data as AI enters research.",
-      "content": "This article provides a comprehensive guide to safeguarding Personally Identifiable Information (PII) within UX research processes. It emphasizes the critical need for researchers to understand what constitutes PII, identify its presence across their entire research tech stack, and implement strict access controls and deletion protocols.  With the growing integration of AI in research, the article highlights the increased importance of robust data governance to ensure participant privacy and maintain trust. For UX researchers, proactively managing PII is paramount for ethical practice, compliance with regulations like LGPD, and preserving the integrity of user feedback, especially as AI tools may inadvertently process or store sensitive data.",
-      "category": "AI-powered data analysis",
-      "source": {
-        "name": "Great Question Blog",
-        "url": "https://cms.greatquestion.co/blog/protecting-pii-in-research-ops"
-      },
-      "analysis": "At Nubank, protecting PII is non-negotiable, especially given the sensitive financial data our users entrust us with for products like PIX, loans, and insurance. This article reinforces our existing commitment and provides a framework for enhancing our practices as AI becomes more prevalent in research tools. Researchers should proactively identify where PII might be captured during studies involving sensitive flows like card activation, onboarding, or when discussing specific financial behaviors. This includes reviewing data collected via surveys, interview recordings, and even AI-powered transcription or analysis tools.\n\nOur researchers must apply the article's principles by meticulously documenting PII handling in their research plans, establishing clear data retention policies, and ensuring all tools used comply with Nubank's data privacy guidelines. Before leveraging any new AI-powered research assistant or analysis platform, a thorough vetting process is required to confirm its PII handling capabilities and compliance. Any AI tool that could inadvertently store or process participant-level PII needs explicit consent mechanisms and robust anonymization strategies. Ultimately, this is about embedding privacy-by-design into every research initiative, safeguarding our users and maintaining the trust that is core to Nubank's mission."
-    },
-    {
-      "date": "2026-07-08",
-      "title": "Separating signal from noise in coding evaluations",
-      "summary": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
-      "content": "OpenAI's recent analysis of SWE-Bench Pro, a benchmark for evaluating AI coding capabilities, has uncovered significant issues with its reliability and accuracy. The findings highlight that the benchmark may be \"noisy,\" meaning it struggles to reliably distinguish between true coding ability and other factors, leading to potentially misleading assessments of AI models. This is crucial for UX researchers as we increasingly leverage AI tools for tasks like code generation and analysis; inaccurate evaluations can lead to suboptimal tool selection and implementation, impacting the efficiency and quality of our research outputs and, ultimately, the user experience of Nubank products like PIX or loan applications.",
-      "category": "AI coding assistants",
-      "source": {
-        "name": "OpenAI Blog",
-        "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations"
-      },
-      "analysis": "At Nubank, this insight about \"signal from noise\" in AI coding evaluations directly impacts our adoption of AI-assisted tools for research operations. When considering AI-powered code generation for prototyping user interfaces, analyzing user feedback logs, or even developing internal research tools, we must be vigilant about the benchmarks used to assess these AI models' performance. Researchers should prioritize evaluating the underlying methodologies and validation processes of any AI tool before integrating it into workflows for features like card activation or insurance policy management. This means looking beyond headline accuracy scores and probing for evidence of robustness and genuine problem-solving capabilities.\n\nTo apply this at Nubank, researchers should actively seek information on the evaluation datasets and methodologies behind AI coding assistants. Before relying on AI-generated code for quick prototypes or data analysis scripts for onboarding flow improvements, consider conducting small, controlled experiments comparing AI output against human-generated equivalents. This will help us build confidence in the AI's reliability. It's important to establish guardrails: AI-generated code should always undergo thorough human review, especially when directly impacting user-facing features or sensitive data handling in areas like loan processing. The \"noise\" in benchmarks means we shouldn't blindly trust AI output; our UX expertise remains the critical filter."
-    },
-    {
-      "date": "2026-07-08",
-      "title": "Flint: A visualization language for the AI era",
-      "summary": "Short chart specifications are easy to write, but often produce uninspiring results. Flint is an open-source visualization language that offers a middle path, letting AI agents create expressive charts from compact, human-editable specifications. The post Flint: A visualizatio...",
-      "content": "Short chart specifications are easy to write, but often produce uninspiring results. Flint is an open-source visualization language that offers a middle path, letting AI agents create expressive charts from compact, human-editable specifications. The post Flint: A visualization language for the AI era appeared first on Microsoft Research.",
-      "category": "AI-powered data analysis",
-      "source": {
-        "name": "Microsoft Research",
-        "url": "https://www.microsoft.com/en-us/research/blog/flint-a-visualization-language-for-the-ai-era/"
-      },
-      "analysis": "At Nubank, Flint could be integrated into our data analysis workflow by empowering researchers to quickly generate visualizations for key user journeys. For instance, after analyzing user feedback on the PIX flow, a researcher could use Flint to generate a series of expressive charts depicting transaction success rates, common error points, and user satisfaction metrics, transforming raw data into easily digestible insights for product teams. This could also be applied to understanding user drop-off points during loan applications or identifying areas of confusion during the initial card activation or onboarding processes.\n\nResearchers should experiment with Flint by starting with compact, descriptive specifications for common chart types they need. The goal is to leverage AI's ability to add expressiveness and nuance beyond basic bar or line charts, creating visualizations that better highlight user sentiment or behavioral patterns. It's crucial to remember that Flint is a tool to augment, not replace, critical thinking. Researchers must still define the right questions, interpret the AI-generated visualizations contextually, and validate findings through traditional qualitative methods. Potential limitations include the AI's understanding of highly nuanced qualitative data and the need for clear, unambiguous specifications to avoid misinterpretations in visualizations related to complex products like insurance or investment offerings."
     }
   ]
 }
