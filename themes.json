@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 36,
-      "description": "Focuses on AI agents that can perform research tasks autonomously or semi-autonomously, including their development, capabilities, and limitations."
+      "count": 58,
+      "description": "This theme covers AI agents designed to autonomously perform research tasks, make decisions, and interact with data or systems to achieve research objectives."
     },
     {
       "name": "AI coding assistants",
-      "count": 26,
-      "description": "Covers AI tools that assist developers in writing, debugging, and optimizing code, as well as the security implications of AI-generated code."
-    },
-    {
-      "name": "AI research tools",
-      "count": 24,
-      "description": "Encompasses various AI-powered tools and platforms designed to aid researchers in data analysis, literature review, and scientific discovery."
-    },
-    {
-      "name": "AI summarization",
-      "count": 19,
-      "description": "Explores the use of AI to condense large amounts of text, data, or conversations into concise summaries for quicker understanding."
+      "count": 51,
+      "description": "This theme focuses on AI tools that assist developers in writing, debugging, and understanding code, often by generating code snippets or offering suggestions."
     },
     {
       "name": "Synthetic users",
-      "count": 16,
-      "description": "Discusses the creation and use of artificial users or data for testing, training, or simulation purposes in AI and product development."
+      "count": 17,
+      "description": "This theme explores the use of AI to create simulated users for testing, training, or data generation purposes, particularly in scenarios like testing AI models or marketing campaigns."
     },
     {
       "name": "AI for product management",
-      "count": 15,
-      "description": "Highlights how AI tools are being used to support product managers in areas like ideation, feature development, and market analysis."
+      "count": 14,
+      "description": "This theme addresses how AI tools are being used by product managers for tasks such as ideation, feature development, and understanding user needs."
     },
     {
-      "name": "Sentiment & feedback analysis",
-      "count": 14,
-      "description": "Covers AI applications for analyzing customer feedback, reviews, and social media sentiment to understand user opinions and emotions."
+      "name": "AI research tools",
+      "count": 12,
+      "description": "This theme covers a broad range of AI-powered tools designed to facilitate research activities, from data analysis to literature review and experimental design."
+    },
+    {
+      "name": "AI sentiment feedback",
+      "count": 12,
+      "description": "This theme focuses on AI's role in analyzing customer feedback, reviews, and social media to gauge sentiment and extract actionable insights."
+    },
+    {
+      "name": "AI summarization",
+      "count": 11,
+      "description": "This theme addresses AI's capability to condense large amounts of text, such as meeting notes, research papers, or customer feedback, into concise summaries."
+    },
+    {
+      "name": "AI design research",
+      "count": 10,
+      "description": "This theme covers AI applications in the design process, including generative design, AI-assisted ideation, and research into AI's impact on design."
+    },
+    {
+      "name": "AI usability testing",
+      "count": 9,
+      "description": "This theme pertains to the use of AI in evaluating the usability of products and interfaces, including automated testing and analysis of user interactions."
     },
     {
       "name": "AI for design & research",
-      "count": 13,
-      "description": "Focuses on AI tools and techniques used to enhance the design process, including generative design and AI-assisted ideation."
-    },
-    {
-      "name": "AI survey tools",
-      "count": 11,
-      "description": "Examines the use of AI in creating, distributing, and analyzing surveys to gather insights from user populations."
-    },
-    {
-      "name": "AI testing automation",
-      "count": 11,
-      "description": "Discusses how AI is used to automate various testing processes in software development and quality assurance."
+      "count": 8,
+      "description": "This theme covers AI tools and techniques that directly support and enhance the processes of design and research, bridging the gap between the two."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."

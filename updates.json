@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-08-08T02:06:23.365Z",
+  "lastUpdated": "2026-08-08T08:51:30.503Z",
   "updates": [
     {
       "date": "2026-08-07",
@@ -842,18 +842,6 @@
         "url": "https://www.technologyreview.com/2026/07/13/1140343/what-anthropics-latest-ai-discovery-does-and-doesnt-show/"
       },
       "analysis": "At Nubank, Anthropic's advancements can be integrated into our existing research workflow by leveraging AI for tasks like qualitative data analysis. Imagine using an AI tool to summarize interview transcripts for loan applications, identify emerging themes in user feedback for card activation, or even flag potential usability issues in the onboarding process. Researchers can prompt these AI systems to explain *why* they identified certain patterns, allowing for deeper validation and ensuring our insights are grounded and actionable, rather than purely automated output. This could significantly accelerate our understanding of user needs across various product areas.\n\nHowever, it's critical to establish clear guardrails. We must ensure that AI-generated insights are always critically reviewed by human researchers, especially when informing decisions about sensitive products like insurance or PIX. Over-reliance on AI without human oversight could introduce or amplify biases, potentially leading to unfair user experiences. For instance, if an AI flags certain user demographics as higher risk for loans based on historical data, we need to scrutinize the AI's reasoning to ensure it doesn't perpetuate discriminatory practices, and explore alternative data points or explanations. The focus on 'explainable AI' from companies like Anthropic is a positive step, but our internal validation processes remain paramount."
-    },
-    {
-      "date": "2026-07-09",
-      "title": "Claude 101 for user researchers",
-      "summary": "What Claude is, how to talk to it, and how to use it for real research work without losing your judgment or trust",
-      "content": "This article introduces Claude, a large language model, as a powerful new tool for UX researchers. It emphasizes understanding Claude's capabilities and limitations, focusing on how to \"talk\" to it effectively to elicit valuable insights. The core message is that while AI like Claude can significantly augment research processes, maintaining researcher judgment and ethical considerations is paramount. Practical implications include streamlining tasks like synthesis, idea generation, and even early-stage hypothesis formulation, thereby freeing up researchers to focus on higher-level strategic thinking and human-centered design.",
-      "category": "General AI in research",
-      "source": {
-        "name": "Nikki Anderson (User Research Strategist)",
-        "url": "https://www.userresearchstrategist.com/p/claude-101-for-user-researchers"
-      },
-      "analysis": "At Nubank, Claude can be integrated into our research workflow by assisting with the initial phases of understanding user pain points and generating research questions. For example, after observing user struggles with the PIX transfer flow, a researcher could prompt Claude with anonymized verbatim feedback to identify recurring themes or potential usability issues. This AI-powered synthesis can then inform the development of more targeted interview guides or survey questions for features like loan applications or card activation.\n\nResearchers should leverage Claude as a co-pilot, not a replacement for critical thinking. When exploring user needs for new insurance products or refining the onboarding experience, Claude can quickly surface potential user segments or brainstorm feature ideas based on provided context. However, it's crucial to remember that Claude's outputs are generated based on its training data and require rigorous validation. All insights derived from Claude must be cross-referenced with qualitative data, user interviews, and quantitative analytics to ensure they accurately reflect Nubank's users' realities and avoid introducing bias or misinformation."
     }
   ]
 }
