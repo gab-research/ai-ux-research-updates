@@ -1,56 +1,56 @@
 {
   "month": "2026-08",
-  "updated": "2026-08-07",
+  "updated": "2026-08-08",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 45,
-      "description": "Articles discussing AI agents specifically designed for conducting research, making decisions, and performing tasks autonomously within research workflows."
+      "count": 36,
+      "description": "Focuses on AI agents that can perform research tasks autonomously or semi-autonomously, including their development, capabilities, and limitations."
     },
     {
       "name": "AI coding assistants",
-      "count": 29,
-      "description": "Content focusing on AI tools that help developers write, review, debug, and refactor code."
+      "count": 26,
+      "description": "Covers AI tools that assist developers in writing, debugging, and optimizing code, as well as the security implications of AI-generated code."
     },
     {
       "name": "AI research tools",
-      "count": 26,
-      "description": "Articles highlighting or comparing various AI-powered tools and platforms used for different research activities."
+      "count": 24,
+      "description": "Encompasses various AI-powered tools and platforms designed to aid researchers in data analysis, literature review, and scientific discovery."
     },
     {
       "name": "AI summarization",
-      "count": 24,
-      "description": "Covers AI applications that condense large amounts of text, data, or conversations into concise summaries."
-    },
-    {
-      "name": "AI sentiment feedback",
-      "count": 18,
-      "description": "Articles about using AI to analyze and understand customer emotions, opinions, and feedback from various sources."
-    },
-    {
-      "name": "AI survey tools",
-      "count": 18,
-      "description": "Focuses on AI applications that assist in the creation, distribution, analysis, or optimization of surveys."
+      "count": 19,
+      "description": "Explores the use of AI to condense large amounts of text, data, or conversations into concise summaries for quicker understanding."
     },
     {
       "name": "Synthetic users",
-      "count": 13,
-      "description": "Explores the use of AI to generate synthetic data, media, or user personas for testing and research."
+      "count": 16,
+      "description": "Discusses the creation and use of artificial users or data for testing, training, or simulation purposes in AI and product development."
     },
     {
       "name": "AI for product management",
-      "count": 11,
-      "description": "Content related to how AI tools and techniques can assist product managers in their daily tasks and decision-making."
+      "count": 15,
+      "description": "Highlights how AI tools are being used to support product managers in areas like ideation, feature development, and market analysis."
     },
     {
-      "name": "AI-assisted recruitment",
-      "count": 11,
-      "description": "Articles detailing the use of AI in hiring processes, from sourcing candidates to screening and interviewing."
+      "name": "Sentiment & feedback analysis",
+      "count": 14,
+      "description": "Covers AI applications for analyzing customer feedback, reviews, and social media sentiment to understand user opinions and emotions."
     },
     {
       "name": "AI for design & research",
-      "count": 10,
-      "description": "Covers AI's role in the design process and its integration with user research methodologies."
+      "count": 13,
+      "description": "Focuses on AI tools and techniques used to enhance the design process, including generative design and AI-assisted ideation."
+    },
+    {
+      "name": "AI survey tools",
+      "count": 11,
+      "description": "Examines the use of AI in creating, distributing, and analyzing surveys to gather insights from user populations."
+    },
+    {
+      "name": "AI testing automation",
+      "count": 11,
+      "description": "Discusses how AI is used to automate various testing processes in software development and quality assurance."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
