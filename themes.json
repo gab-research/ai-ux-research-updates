@@ -1,56 +1,56 @@
 {
   "month": "2026-08",
-  "updated": "2026-08-08",
+  "updated": "2026-08-09",
   "themes": [
     {
-      "name": "Agentic AI research",
-      "count": 36,
-      "description": "Focuses on research and applications of AI agents that can autonomously perform tasks within research workflows."
-    },
-    {
-      "name": "AI coding assistants",
-      "count": 35,
-      "description": "Covers AI tools that assist developers in writing, reviewing, and debugging code."
-    },
-    {
-      "name": "AI research tools",
-      "count": 27,
-      "description": "Articles discussing platforms, software, and frameworks designed to aid researchers in various aspects of their work."
-    },
-    {
-      "name": "AI sentiment feedback",
-      "count": 10,
-      "description": "Explores the use of AI to analyze and understand user sentiment from feedback sources."
+      "name": "Agentic AI in research",
+      "count": 42,
+      "description": "Articles focusing on AI agents capable of autonomous action and decision-making within research contexts, including their capabilities, limitations, and applications."
     },
     {
       "name": "AI summarization",
-      "count": 9,
-      "description": "Details the application of AI to condense large amounts of text into concise summaries."
+      "count": 21,
+      "description": "Content related to AI's ability to condense large amounts of text or data into concise summaries for research and analysis."
     },
     {
-      "name": "AI survey tools",
+      "name": "AI research tools",
+      "count": 20,
+      "description": "Articles discussing specific AI-powered tools designed to assist researchers in various stages of their work, from data collection to analysis."
+    },
+    {
+      "name": "AI coding assistants",
       "count": 18,
-      "description": "Focuses on AI applications that enhance the creation, distribution, and analysis of surveys."
+      "description": "Focuses on AI tools that help developers write, debug, and understand code, including their security implications and effectiveness."
     },
     {
-      "name": "AI for product management",
-      "count": 7,
-      "description": "Articles on how AI is integrated into product management workflows, including ideation, development, and strategy."
+      "name": "AI recruitment research",
+      "count": 18,
+      "description": "Explores the impact of AI on recruitment processes, including hiring gains, workload for HR professionals, and the value of AI skills."
     },
     {
-      "name": "AI customer insights",
-      "count": 12,
-      "description": "Covers how AI is used to extract and analyze data for a deeper understanding of customer behavior and needs."
+      "name": "AI sentiment feedback",
+      "count": 13,
+      "description": "Covers AI applications for analyzing and understanding customer sentiment from feedback, reviews, and social media."
     },
     {
       "name": "Synthetic users",
-      "count": 11,
-      "description": "Discusses the creation and use of artificial user data or personas for testing and research."
+      "count": 13,
+      "description": "Articles discussing the creation and use of simulated users or data for testing AI systems, research, and content generation."
+    },
+    {
+      "name": "AI for design & research",
+      "count": 12,
+      "description": "Articles examining how AI is integrated into the design process and used to support user research activities."
+    },
+    {
+      "name": "AI product research",
+      "count": 12,
+      "description": "Focuses on how AI is used in the research and development of new products, including market analysis and feature ideation."
     },
     {
       "name": "AI usability testing",
-      "count": 5,
-      "description": "Focuses on AI-driven methods and tools for evaluating the usability of products and interfaces."
+      "count": 7,
+      "description": "Content related to the use of AI in testing the usability of products and systems, and the implications for user experience."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
