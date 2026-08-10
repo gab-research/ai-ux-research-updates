@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-08-10T09:40:47.547Z",
+  "lastUpdated": "2026-08-10T17:01:04.623Z",
   "updates": [
     {
       "date": "2026-08-10",
@@ -14,6 +14,42 @@
         "url": "https://cms.greatquestion.co/blog/introducing-great-question-ai"
       },
       "analysis": "At Nubank, Great Question AI can be integrated into our post-discovery phase, particularly after user interviews, usability testing sessions, or analysis of support tickets. Researchers can feed anonymized transcripts and open-ended survey responses into the AI to generate preliminary themes, sentiment analysis, and user journey pain points. This would be invaluable for understanding friction in complex flows like loan origination or identifying areas for improvement in our onboarding experience for new customers.\n\nWhen applying this tool, researchers should treat the AI's output as a robust starting point, not a final deliverable. Rigorous human oversight is paramount. Researchers must validate the generated insights against the original data and apply their domain expertise and understanding of Nubank's specific user base and strategic goals. Key guardrails include ensuring strict adherence to our data anonymization policies before inputting any sensitive user information, and recognizing the AI's limitations in understanding nuanced cultural context or highly specialized financial jargon that might be critical for understanding user behavior around products like insurance."
+    },
+    {
+      "date": "2026-08-10",
+      "title": "The side of the egg",
+      "summary": "On the next hack for us, in the age of AI Continue reading on UX Collective »",
+      "content": "The article \"The side of the egg\" likely explores the nuanced and often overlooked aspects of AI's impact on UX research, moving beyond the obvious efficiencies. It probably argues that while AI excels at automating tasks like data synthesis and initial pattern identification, true UX insight still hinges on human empathy, critical thinking, and understanding the 'why' behind user behavior. For UX researchers, this means embracing AI as a powerful assistant rather than a replacement, leveraging its capabilities to free up time for deeper qualitative exploration and more strategic decision-making. Practically, this could involve using AI to pre-process large datasets from user surveys for PIX usage or loan applications, allowing researchers to focus their efforts on interview analysis and ideation for new features.",
+      "category": "AI workforce impact",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/the-side-of-the-egg-8c1a6737fad2?source=rss----138adf9c44c---4"
+      },
+      "analysis": "At Nubank, \"The side of the egg\" concept can be integrated into our existing research workflow by framing AI tools as augmentative rather than fully autonomous. For instance, when analyzing feedback from our onboarding flow or card activation process, AI can quickly identify recurring themes or sentiment across thousands of user comments. Researchers should then proactively dive deeper into these AI-generated insights, conducting follow-up qualitative interviews to understand the underlying motivations and context, especially for complex products like personal loans or insurance offerings.\n\nThis approach requires careful consideration of guardrails. Researchers must critically evaluate AI outputs, recognizing that AI may miss subtle cultural nuances or emotional depth crucial to understanding the Brazilian user base. We should avoid over-reliance on AI for final recommendations, instead using it to accelerate hypothesis generation. For example, AI might flag an issue in our credit card application flow, but human researchers must then determine if it's a genuine usability problem or a perceived one that doesn't require immediate intervention, always prioritizing user safety and trust in financial products like PIX."
+    },
+    {
+      "date": "2026-08-10",
+      "title": "UX Roundup: AI Diffusion Speed | Progress Bars | Synthetic Personas | AI Learning | Brad Myers | Agatha Christie | Mental Accounting | Grok Imagine 2",
+      "summary": "AI technical capabilities are exploding, but sophisticated use crawls | Progress bars make waits bearable | Synthetic personas exaggerate demographics | AI hurts education when used wrong | Professor Brad Myers is a UX hero | In the future, we’ll all be Agatha Christie | Menta...",
+      "content": "Jakob Nielsen's latest UX Roundup highlights the rapid advancement of AI's technical potential, contrasting it with the slower adoption of its sophisticated application in practice. This disparity is critical for UX researchers, as it means we are entering an era where powerful AI tools exist, but understanding how to ethically and effectively integrate them into our workflows requires careful consideration. While Nielsen touches on various topics, the underlying theme emphasizes that the true value of AI in UX lies not just in its capabilities, but in our ability to leverage them strategically to improve user experiences, such as by making processes like loan applications feel more intuitive or improving the onboarding flow for new Nubank customers.",
+      "category": "Synthetic users",
+      "source": {
+        "name": "Jakob Nielsen (Substack)",
+        "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260810"
+      },
+      "analysis": "At Nubank, this AI-driven shift means our UX research team needs to proactively explore and pilot AI tools for various stages of our research process. For instance, instead of solely relying on existing user data, we can experiment with AI-generated synthetic personas to explore niche user segments or test early-stage designs against a broader demographic range than our current qualitative studies might easily reach, potentially informing improvements to features like PIX transfers or insurance policy onboarding. This allows for more hypothesis generation and validation before investing heavily in traditional methods.\n\nHowever, it's crucial to establish guardrails. Researchers must rigorously scrutinize synthetic personas, understanding their inherent biases and potential for exaggeration, and never use them as a sole representation of our diverse Brazilian user base. Similarly, when leveraging AI for tasks like summarizing user interview transcripts or generating preliminary user journey maps for card activation, we must treat these outputs as starting points, always validating findings with direct user interaction and qualitative insights. Our focus should remain on augmenting human judgment and empathy, not replacing it, ensuring AI supports our deep understanding of Nubank's users across all product lines."
+    },
+    {
+      "date": "2026-08-10",
+      "title": "Model ML completes finance work more efficiently with GPT-5.6 Sol",
+      "summary": "Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks and Excel workbooks.",
+      "content": "This OpenAI blog post highlights how a hypothetical \"Model ML\" is leveraging GPT-5.6 Sol, a new AI model, to significantly streamline financial workflows.  The key takeaway is the AI's ability to automate complex tasks from initial research and analysis all the way to generating polished, editable presentation materials like PowerPoint decks and Excel spreadsheets. For UX researchers, this signifies a powerful opportunity to accelerate data synthesis, report generation, and communication of findings, allowing for more time dedicated to strategic insights and user empathy.  Practically, this could mean faster turnaround times for research reports informing product decisions on areas like PIX transaction flows or loan application processes.",
+      "category": "General AI in research",
+      "source": {
+        "name": "OpenAI Blog",
+        "url": "https://openai.com/index/model-ml"
+      },
+      "analysis": "At Nubank, this AI capability can be integrated into our existing research workflow to expedite post-research synthesis and reporting. Imagine feeding raw interview transcripts or survey data from customer onboarding or card activation studies into GPT-5.6 Sol. The AI could then generate initial thematic summaries, identify key pain points, and even draft sections of reports, saving researchers considerable time on manual data crunching and initial write-ups. This allows researchers to focus more on deeper interpretation, cross-referencing with other data sources, and crafting strategic recommendations for products like our insurance offerings or the PIX experience.\n\nResearchers should approach this tool as an intelligent assistant, not a replacement for their critical thinking. While GPT-5.6 Sol can generate initial drafts for things like loan application usability findings or insurance claim process analysis, it's crucial for researchers to meticulously review and validate all AI-generated content. Guardrails must be in place to ensure data privacy and security, especially when dealing with sensitive user information.  Furthermore, the AI's output for complex, nuanced user behaviors or highly subjective feedback might require significant human refinement, ensuring that our unique Nubank customer understanding remains central to our research."
     },
     {
       "date": "2026-08-07",
