@@ -1,56 +1,56 @@
 {
   "month": "2026-08",
-  "updated": "2026-08-09",
+  "updated": "2026-08-10",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 33,
-      "description": "Focuses on AI agents that can autonomously perform research tasks, gather information, and make decisions with minimal human intervention."
+      "count": 34,
+      "description": "Articles discussing AI agents that can autonomously perform research tasks, plan, and execute actions."
     },
     {
       "name": "AI coding assistants",
       "count": 26,
-      "description": "Covers AI tools that help developers write, debug, and optimize code, acting as collaborators in the software development process."
+      "description": "Content focused on AI tools that help developers write, debug, and review code."
     },
     {
       "name": "AI research tools",
-      "count": 23,
-      "description": "Details specific AI-powered platforms and software designed to aid researchers in various stages of their work, from data collection to analysis."
+      "count": 22,
+      "description": "Discussions about various AI-powered platforms and software designed to aid in research workflows."
     },
     {
       "name": "AI summarization",
-      "count": 17,
-      "description": "Articles discussing AI's ability to condense large amounts of text or data into concise summaries for faster comprehension and insight extraction."
-    },
-    {
-      "name": "AI sentiment & feedback analysis",
-      "count": 16,
-      "description": "Explores how AI is used to analyze customer feedback, reviews, and social media to understand sentiment, identify trends, and gauge user opinions."
-    },
-    {
-      "name": "AI for product management",
-      "count": 15,
-      "description": "Covers AI applications that assist product managers in tasks such as market research, feature prioritization, and product development lifecycle management."
-    },
-    {
-      "name": "AI survey tools",
-      "count": 15,
-      "description": "Focuses on AI-driven tools and platforms that enhance survey design, distribution, analysis, and the generation of actionable insights from survey data."
-    },
-    {
-      "name": "AI for design & research",
-      "count": 13,
-      "description": "Highlights the application of AI in the early stages of design and research, including ideation, concept generation, and user experience exploration."
-    },
-    {
-      "name": "AI customer insights",
-      "count": 12,
-      "description": "Details how AI is leveraged to extract deep understanding and actionable intelligence from customer data to inform business decisions."
+      "count": 22,
+      "description": "Articles detailing AI's ability to condense large amounts of text or data into concise summaries."
     },
     {
       "name": "Synthetic users",
-      "count": 12,
-      "description": "Discusses the creation and use of AI-generated user profiles or data to simulate user behavior for testing, training, or research purposes."
+      "count": 19,
+      "description": "Content concerning AI-generated content, images, or data that mimics human-created output."
+    },
+    {
+      "name": "AI tool evaluation",
+      "count": 17,
+      "description": "Articles that compare, review, or assess the effectiveness and value of AI tools."
+    },
+    {
+      "name": "AI sentiment feedback",
+      "count": 11,
+      "description": "Focuses on AI's application in analyzing and understanding user opinions and emotions from feedback."
+    },
+    {
+      "name": "AI for product management",
+      "count": 10,
+      "description": "Articles covering how AI can be leveraged by product managers for decision-making and workflow enhancement."
+    },
+    {
+      "name": "AI workforce impact",
+      "count": 9,
+      "description": "Discussions on how AI is changing jobs, skills, and the overall employment landscape."
+    },
+    {
+      "name": "AI design research",
+      "count": 9,
+      "description": "Content exploring the use of AI in the process of designing and researching user experiences."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."

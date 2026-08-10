@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-08-09T16:44:24.853Z",
+  "lastUpdated": "2026-08-10T02:22:36.638Z",
   "updates": [
+    {
+      "date": "2026-08-10",
+      "title": "Great Question AI: run research from Claude or ChatGPT",
+      "summary": "Great Question AI is a GPT-4-powered assistant that helps level up your research synthesis and streamline your research operations. Try it free for 30 days.",
+      "content": "This article introduces Great Question AI, a new GPT-4 powered tool designed to significantly enhance UX research capabilities. Its core function is to assist researchers in synthesizing vast amounts of qualitative data, such as interview transcripts and user feedback, into actionable insights. For UX researchers at Nubank, this is crucial as it can dramatically reduce the time spent on manual analysis, allowing for faster iteration cycles and more impactful product decisions. Practically, it means researchers can quickly identify trends, pain points, and opportunities within user data, directly informing improvements to features like the PIX flow, loan application process, or card activation experience.",
+      "category": "Survey optimization",
+      "source": {
+        "name": "Great Question Blog",
+        "url": "https://cms.greatquestion.co/blog/introducing-great-question-ai"
+      },
+      "analysis": "At Nubank, Great Question AI can be integrated into our post-discovery phase, particularly after user interviews, usability testing sessions, or analysis of support tickets. Researchers can feed anonymized transcripts and open-ended survey responses into the AI to generate preliminary themes, sentiment analysis, and user journey pain points. This would be invaluable for understanding friction in complex flows like loan origination or identifying areas for improvement in our onboarding experience for new customers.\n\nWhen applying this tool, researchers should treat the AI's output as a robust starting point, not a final deliverable. Rigorous human oversight is paramount. Researchers must validate the generated insights against the original data and apply their domain expertise and understanding of Nubank's specific user base and strategic goals. Key guardrails include ensuring strict adherence to our data anonymization policies before inputting any sensitive user information, and recognizing the AI's limitations in understanding nuanced cultural context or highly specialized financial jargon that might be critical for understanding user behavior around products like insurance."
+    },
     {
       "date": "2026-08-07",
       "title": "UX Roundup: Simplicity | Fact Flooding | AI Integration | AI Adoption Personas | Framing | Tone of Voice | Timelines | Cybersecurity | Agentic E-commerce",
@@ -545,8 +557,8 @@
     },
     {
       "date": "2026-07-27",
-      "title": "Best user research tools in 2026: 10 platforms compared",
-      "summary": "Side-by-side comparison of the top 10 user research platforms — features, pricing, AI capabilities, and who each is best for. Updated quarterly.",
+      "title": "Best user research tools in 2026: 22 platforms compared",
+      "summary": "Compare 22 user research platforms in 2026 on research methods, AI features, recruitment, and security. Ten in-depth profiles plus a buyer's checklist. Updated quarterly.",
       "content": "This article from Great Question Blog offers a timely review of the leading user research platforms for 2026, providing a comprehensive comparison of their features, pricing structures, and increasingly important AI functionalities. For UX researchers, staying abreast of these evolving tools is crucial for optimizing research efficiency and effectiveness, especially as AI integration promises to automate repetitive tasks and surface deeper insights. The practical implication is that by understanding these platforms, researchers can make informed decisions about technology investments, ensuring Nubank leverages the most powerful and suitable tools to enhance our understanding of user needs across various product lines like PIX transactions, loan applications, and card activation flows.",
       "category": "AI tool evaluation",
       "source": {
