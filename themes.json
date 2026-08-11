@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 57,
-      "description": "Covers AI agents designed to perform research tasks autonomously or semi-autonomously, including their development, capabilities, and limitations."
+      "count": 61,
+      "description": "This theme covers AI agents performing autonomous tasks, making decisions, and executing actions within research workflows."
     },
     {
       "name": "AI research tools",
-      "count": 35,
-      "description": "Focuses on specific AI-powered tools and platforms designed to assist researchers in various aspects of their work, from data collection to analysis."
+      "count": 46,
+      "description": "Articles focusing on specific software, platforms, or frameworks designed to aid researchers in their work."
     },
     {
       "name": "AI coding assistants",
-      "count": 31,
-      "description": "Articles discussing AI tools that help developers write, debug, and review code, including their security implications and effectiveness."
+      "count": 30,
+      "description": "This theme encompasses AI tools that assist developers in writing, reviewing, and debugging code."
     },
     {
       "name": "Synthetic users",
-      "count": 23,
-      "description": "Explores the creation and use of synthetic data or personas for AI training, testing, and simulation purposes, especially in UX and research contexts."
+      "count": 26,
+      "description": "Content related to AI-generated personas or data used to simulate user behavior for testing and research."
     },
     {
       "name": "AI summarization",
-      "count": 17,
-      "description": "Articles related to AI's ability to condense large amounts of text or data into concise summaries, aiding in information digestion and insight extraction."
-    },
-    {
-      "name": "AI for product management",
-      "count": 14,
-      "description": "Covers how AI tools and techniques are being used to assist product managers in their decision-making, strategy, and execution."
-    },
-    {
-      "name": "AI usability testing",
-      "count": 11,
-      "description": "Focuses on AI applications in testing the usability of AI systems themselves, as well as AI tools for traditional usability testing."
-    },
-    {
-      "name": "AI sentiment feedback",
-      "count": 10,
-      "description": "Discusses the use of AI to analyze and interpret user sentiment from various feedback sources, such as reviews, surveys, and social media."
+      "count": 24,
+      "description": "This theme covers AI's ability to condense large amounts of text or data into concise summaries and insights."
     },
     {
       "name": "AI tool evaluation",
-      "count": 9,
-      "description": "Articles that compare, review, and assess the effectiveness and value of different AI tools available for UX and research professionals."
+      "count": 24,
+      "description": "Articles that compare, review, or assess the effectiveness and features of various AI tools."
+    },
+    {
+      "name": "AI sentiment feedback",
+      "count": 19,
+      "description": "Focuses on AI's application in analyzing user sentiment and feedback from various sources."
+    },
+    {
+      "name": "AI for product management",
+      "count": 18,
+      "description": "Articles detailing how AI is used to support product managers in their roles, from ideation to iteration."
     },
     {
       "name": "AI workforce impact",
-      "count": 9,
-      "description": "Examines how AI is affecting jobs, skills, recruitment, and the overall structure of the workforce, particularly in research and design fields."
+      "count": 16,
+      "description": "Covers the effects of AI on jobs, skills, and the overall professional landscape."
+    },
+    {
+      "name": "AI for design & research",
+      "count": 13,
+      "description": "This theme explores AI's direct application in the design process and user research methodologies."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
