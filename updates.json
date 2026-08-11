@@ -1,8 +1,44 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-08-11T09:06:51.730Z",
+  "lastUpdated": "2026-08-11T17:05:04.336Z",
   "updates": [
+    {
+      "date": "2026-08-11",
+      "title": "AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.",
+      "summary": "Google introduces AMIE for real-time clinical video consultations in simulated settings.",
+      "content": "Google's AMIE system marks a significant advancement in AI's role within healthcare research, enabling real-time clinical video consultations in simulated environments. This development is crucial for UX researchers as it offers a potential avenue for observing user interactions with medical services and interfaces in a controlled yet realistic setting.  The practical implications are substantial, paving the way for more efficient and in-depth qualitative data collection in health-related product development, allowing for rapid iteration and improvement of user experiences in critical areas.",
+      "category": "General AI in research",
+      "source": {
+        "name": "Google AI Blog",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/"
+      },
+      "analysis": "At Nubank, AMIE's capabilities could be leveraged to simulate and research user experiences for our health insurance products or for features related to personalized financial advice that touches upon sensitive financial well-being. Researchers could utilize a simulated AMIE environment to observe how users interact with a digital interface designed to guide them through complex health decisions or to understand their comfort levels when discussing financial anxieties that might impact their ability to manage PIX transfers, loans, or card activation.\n\nResearchers should approach this by first identifying specific user journeys within our financial services that involve sensitive personal information or require a high degree of trust and clarity, such as the onboarding process for new customers or the application for a new credit product. By setting up simulated consultations, we can observe user behavior and gather rich qualitative data on their understanding, emotional responses, and decision-making processes, providing insights that might be harder to capture in traditional usability testing. It's crucial to remember that AMIE is currently a research tool for simulated settings, meaning direct application to live customer interactions requires extensive ethical review, data privacy considerations, and validation against real-world user behavior. This technology should be viewed as a powerful supplement to existing research methods, not a replacement for direct user interviews or field studies, particularly when dealing with sensitive financial products."
+    },
+    {
+      "date": "2026-08-11",
+      "title": "Introducing CARE-X: Towards Clinically Useful Radiology VLMs with Auxiliary Supervision, Reward-Aligned Learning, and Tool-Augmented Measurement",
+      "summary": "Radiology AI is evolving beyond report generation. CARE-X explores a unified approach that combines flexible reasoning, calibrated predictions, and measurement-based tools for chest X-ray interpretation. The post Introducing CARE-X: Towards Clinically Useful Radiology VLMs wit...",
+      "content": "This Microsoft Research article introduces CARE-X, a novel framework for developing more clinically valuable Visual Language Models (VLMs) in radiology. Instead of just generating reports, CARE-X focuses on enhancing diagnostic reasoning through auxiliary supervision, ensuring predictions are aligned with clinical rewards, and integrating tool-augmented measurement capabilities. For UX researchers, this signifies a shift towards AI that can go beyond simple pattern recognition to perform more complex, context-aware analysis, ultimately leading to more reliable and actionable insights from complex data like medical images. The practical implication is the potential for AI to assist in highly specialized decision-making, requiring deep understanding of the domain and user needs, mirroring the complexity faced in financial services.",
+      "category": "AI content generation",
+      "source": {
+        "name": "Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/blog/introducing-care-x-towards-clinically-useful-radiology-vlms-with-auxiliary-supervision-reward-aligned-learning-and-tool-augmented-measurement/"
+      },
+      "analysis": "At Nubank, CARE-X's principles can inform how we approach AI for understanding user behavior within complex financial flows. Imagine applying this to analyzing customer interactions during PIX transfers or loan applications. Instead of just detecting anomalies, we could train models to \"reason\" about the user's intent and \"reward\" successful outcomes (e.g., completing a transaction smoothly). This could help identify subtle friction points in our onboarding or insurance claim processes that current methods miss, leading to more empathetic and effective product design.\n\nResearchers could adapt CARE-X's methodology by focusing on \"auxiliary supervision\" derived from qualitative research and \"reward-aligned learning\" based on user satisfaction metrics and conversion rates. For instance, when analyzing customer feedback for credit card activation, we could use sentiment analysis and common pain points as auxiliary signals. The \"tool-augmented measurement\" aspect could translate to developing AI-powered tools that automatically quantify user effort or frustration levels during complex tasks. Key guardrails would include ensuring data privacy and ethical AI development, and rigorously validating AI-driven insights with traditional qualitative and quantitative research methods, especially in sensitive areas like fraud detection or lending."
+    },
+    {
+      "date": "2026-08-11",
+      "title": "The Download: the next big thing in LLMs and how AI academic research is shifting",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. These startups are chasing the next big thing in LLMs Nine years after Google researchers introduced the transformer, this family of neural...",
+      "content": "This MIT Technology Review article discusses the evolving landscape of Large Language Models (LLMs), highlighting the ongoing innovation nine years after the introduction of the transformer architecture.  It points to startups actively pursuing the next significant advancements in LLM capabilities, signaling a shift in academic research focus. For UX researchers, understanding these emerging LLM trends is crucial as they offer new avenues for analyzing user feedback, generating synthetic data, and even augmenting qualitative research synthesis. The practical implications lie in potentially accelerating research cycles and uncovering deeper user insights through more sophisticated AI-powered analysis tools.",
+      "category": "Survey optimization",
+      "source": {
+        "name": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/2026/08/11/1141610/the-download-next-big-thing-llms-ai-academic-research-shifting/"
+      },
+      "analysis": "At Nubank, the advancements in LLMs discussed in this article can be integrated into our existing user research workflow, particularly in the synthesis and analysis phases. For instance, when analyzing open-ended feedback from customer support tickets related to PIX transactions or loan applications, LLMs could help quickly identify recurring themes, sentiment, and pain points.  Researchers could also leverage LLMs to summarize long interview transcripts from user testing sessions for features like card activation or insurance onboarding, freeing up time for deeper interpretation.\n\nTo apply this, researchers should explore tools that integrate LLMs for text analysis and summarization. We can pilot these tools on anonymized datasets from existing research studies, comparing their output to manual analysis to assess accuracy and efficiency. It's crucial to establish guardrails: LLMs should augment, not replace, human judgment. We must ensure data privacy and security, especially with sensitive customer information.  Their outputs should be treated as hypotheses to be validated, not definitive truths, particularly when informing critical product decisions for flows like onboarding or managing personal finance."
+    },
     {
       "date": "2026-08-10",
       "title": "Great Question AI: run research from Claude or ChatGPT",
