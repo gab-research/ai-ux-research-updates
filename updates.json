@@ -1,8 +1,32 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-08-12T09:18:29.846Z",
+  "lastUpdated": "2026-08-12T17:03:59.653Z",
   "updates": [
+    {
+      "date": "2026-08-12",
+      "title": "From assistance to execution: How enterprises put AI to work",
+      "summary": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
+      "content": "This OpenAI blog post highlights the accelerating trend of enterprises leveraging agentic AI, powered by models like ChatGPT and Codex, to move beyond simple assistance and towards autonomous task execution. For UX researchers, this signifies a critical shift: AI is no longer just a tool for generating ideas or summarizing existing data, but a potential partner in actively shaping and even automating parts of the user experience design and research process. Understanding this evolution is crucial for staying ahead, as frontier firms are demonstrating how these advanced AI capabilities can drive significant efficiencies and innovation in product development and user engagement.",
+      "category": "Conversational AI in research",
+      "source": {
+        "name": "OpenAI Blog",
+        "url": "https://openai.com/index/how-enterprises-put-ai-to-work"
+      },
+      "analysis": "At Nubank, this article directly impacts our research workflow by suggesting opportunities to integrate agentic AI for more advanced tasks. Instead of just using ChatGPT for drafting survey questions or summarizing interview transcripts, we can explore using it for tasks like generating initial user personas based on anonymized data, simulating user interactions with a new feature during ideation (e.g., predicting potential friction points in a PIX transfer flow), or even automatically flagging patterns in large-scale qualitative data that would be time-consuming to identify manually. This could free up researcher time to focus on deeper, strategic insights and complex problem-solving.\n\nResearchers should approach this with a 'human-in-the-loop' mindset. For instance, when using AI to draft onboarding flows for a new insurance product, a researcher would still critically review and refine the AI's output, ensuring it aligns with Nubank's brand voice and genuinely addresses user needs identified through traditional methods. Similarly, AI-generated user journeys for loan applications should be validated against real user feedback and behavioural data. Crucially, we must establish clear guardrails around data privacy and security, ensuring any anonymized data fed into these models is compliant with Nubank's policies and Brazilian regulations, and that AI-generated content is always fact-checked and ethically sound before implementation, especially concerning sensitive financial products."
+    },
+    {
+      "date": "2026-08-12",
+      "title": "MindTopo reveals VLMs’ spatial reasoning abilities",
+      "summary": "A path, a fence, a knot. MindTopo sets a new benchmark for testing how AI understands topological relationships and highlights new opportunities to strengthen spatial reasoning and planning. The post MindTopo reveals VLMs’ spatial reasoning abilities appeared first on Microsof...",
+      "content": "Microsoft's MindTopo offers a novel framework for assessing the spatial reasoning capabilities of Vision-Language Models (VLMs). It introduces a benchmark designed to evaluate an AI's understanding of topological relationships, moving beyond simple object recognition to how objects relate to each other in space and sequence. For UX researchers, this is crucial as it allows us to gauge how effectively VLMs can interpret visual user flows and intricate interface layouts, thereby understanding user journeys and potential friction points in complex digital product environments. The implications are practical: improved AI assistance in mapping user journeys, identifying usability issues in visual design, and even generating more contextually relevant design suggestions for products like Nubank's app.",
+      "category": "General AI in research",
+      "source": {
+        "name": "Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/blog/mindtopo-reveals-vlms-spatial-reasoning-abilities/"
+      },
+      "analysis": "At Nubank, MindTopo's methodology can be integrated into our early-stage generative research and concept testing. When exploring new features or redesigning existing flows (e.g., a more intuitive PIX transfer process or a streamlined loan application), researchers can leverage VLMs assessed by MindTopo to analyze visual prototypes or even user-created diagrams of desired functionalities. This allows us to quickly identify potential spatial or sequential misunderstandings within a visual concept before significant development resources are committed. For instance, we could present a VLM with a series of wireframes for a new credit card activation flow and ask it to identify illogical steps or missing visual cues based on its topological understanding.\n\nWhen applying this, researchers should focus on how the VLM interprets spatial relationships in user interface elements and narrative sequences. This could involve feeding the VLM screenshots of different screens in the onboarding process or visualizing the steps involved in purchasing insurance. The output can then highlight areas where visual hierarchy might be confusing or where a user might logically expect to find certain controls. However, it's vital to remember MindTopo is a benchmark for VLM *abilities*, not a direct user testing tool. The insights derived from VLM analysis should be treated as hypotheses to be validated through traditional user research methods, particularly for nuanced emotional or behavioral aspects of the user experience with products like Nubank's digital account or investment platforms."
+    },
     {
       "date": "2026-08-11",
       "title": "AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.",
@@ -402,9 +426,9 @@
     {
       "date": "2026-07-28",
       "title": "Internet Service Providers UX Benchmark: 1,700+ Performance Scores and 1,100+ Best Practice Examples",
-      "summary": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) Get Premium access to review your own site or have it audited by Baymard researchers. These ar...",
+      "summary": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) At Baymard, we’ve just released a new UX benchmark with 7 “Internet Service Providers (ISP)” U...",
       "content": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) Get Premium access to review your own site or have it audited by Baymard researchers. These are the 7 in-depth ISP UX case studies. The 7 ISP sites have been manually assessed across 280+ research-based UX parameters relevant to Internet Service Providers, resulting in 1,700+ weighted UX performance scores and 1,100+ best practice examples from these desktop and mobile sites. Each of the 1,700+ UX performance scores from the 7 ISP case studies is summarized in the interactive scatterplot below — showing you how they perform collectively and individually: {{ scatterplot-graph: size=big + habitat=public + base-sites=collection:internet-service-providers + view-structure-id=gemini-st_9en1b7zd }} The overall UX performance of the ISP sites is “mediocre,” with 1 site just on the border of “poor”. ISP sites typically offer a narrow set of services, but these services come with complex eligibility rules and layered cost structures — placing added pressure on clarity and structure throughout the user journe...",
-      "category": "Automated usability checks",
+      "category": "AI in user testing",
       "source": {
         "name": "Baymard Institute",
         "url": "https://feeds.baymard.com/link/9825/17390037/internet-service-providers-ux-benchmark-2026"
