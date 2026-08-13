@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 69,
-      "description": "Focuses on AI agents performing research tasks autonomously, including data collection, analysis, and exploration."
+      "count": 103,
+      "description": "Articles focusing on AI agents that can autonomously perform research tasks, make decisions, and interact with systems."
     },
     {
       "name": "AI coding assistants",
-      "count": 47,
-      "description": "Covers AI tools and research related to generating, assisting, and analyzing code."
+      "count": 42,
+      "description": "Content related to AI tools that assist developers in writing, debugging, and refactoring code."
     },
     {
       "name": "AI research tools",
-      "count": 37,
-      "description": "Encompasses articles about platforms, frameworks, and tools that facilitate AI-driven research processes."
+      "count": 41,
+      "description": "Discussions and comparisons of AI-powered platforms and software designed to facilitate research processes."
     },
     {
-      "name": "AI survey tools",
-      "count": 30,
-      "description": "Highlights the use of AI in designing, distributing, and analyzing surveys for research and insights."
+      "name": "AI summarization",
+      "count": 35,
+      "description": "Articles detailing AI capabilities in condensing large amounts of text or data into concise summaries."
     },
     {
-      "name": "AI recruitment research",
-      "count": 30,
-      "description": "Details the application of AI in research related to hiring, talent acquisition, and workforce dynamics."
+      "name": "AI sentiment & feedback analysis",
+      "count": 33,
+      "description": "Content focused on using AI to analyze user feedback, reviews, and social media to gauge sentiment."
     },
     {
-      "name": "AI for design and research",
+      "name": "AI for product management",
+      "count": 31,
+      "description": "Articles discussing how AI tools can aid product managers in areas like strategy, roadmapping, and feature prioritization."
+    },
+    {
+      "name": "AI-powered data analysis",
+      "count": 29,
+      "description": "Content that explores the use of AI in extracting insights, patterns, and trends from various datasets."
+    },
+    {
+      "name": "AI workforce impact",
+      "count": 28,
+      "description": "Research and discussions on how AI is affecting jobs, skills, and the nature of work."
+    },
+    {
+      "name": "AI for design & research",
       "count": 27,
-      "description": "Explores how AI is integrated into the design process and assists in user research activities."
-    },
-    {
-      "name": "AI sentiment and feedback analysis",
-      "count": 21,
-      "description": "Focuses on using AI to understand and analyze user sentiment, feedback, and opinions."
-    },
-    {
-      "name": "AI summarization insights",
-      "count": 19,
-      "description": "Covers AI's ability to condense information and extract key insights from various text sources."
-    },
-    {
-      "name": "AI customer insights",
-      "count": 18,
-      "description": "Details the use of AI to gather and interpret data for understanding customer behavior and preferences."
+      "description": "Articles focusing on AI applications that assist in the creative and analytical aspects of design and research workflows."
     },
     {
       "name": "Synthetic users",
-      "count": 15,
-      "description": "Explores the creation and use of artificial users or datasets for testing and research purposes."
+      "count": 25,
+      "description": "Content about the creation and use of artificial user profiles or data for testing and simulation purposes."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
