@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-08-13T02:32:12.674Z",
+  "lastUpdated": "2026-08-13T09:19:39.204Z",
   "updates": [
+    {
+      "date": "2026-08-13",
+      "title": "Food Delivery & Takeout UX Benchmark: 3,100+ Performance Scores and 1,900+ Best Practice Examples",
+      "summary": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) At Baymard, we’ve just released a new UX benchmark with 8 “Food Delivery & Takeout” UX case st...",
+      "content": "This new Baymard Institute UX benchmark dives deep into the performance and best practices of the food delivery and takeout industry, analyzing over 3,100 performance scores and 1,900 real-world examples.  The core idea is to provide a comprehensive understanding of what constitutes excellent user experience in this competitive digital space, offering actionable insights for designers and researchers. For UX researchers, this benchmark is invaluable as it highlights proven patterns and potential pitfalls, enabling them to identify opportunities for improvement in similar service-oriented digital products, potentially informing strategies for Nubank's broader ecosystem.",
+      "category": "AI in user testing",
+      "source": {
+        "name": "Baymard Institute",
+        "url": "https://feeds.baymard.com/link/9825/17417083/food-delivery-and-takeout-ux-benchmark-2026"
+      },
+      "analysis": "At Nubank, this Baymard benchmark can serve as a foundational reference point for evaluating the user experience of our service-oriented features beyond core banking. Researchers can leverage its methodologies and identified best practices to inform usability testing plans for features like our customer support chat, onboarding flows for new products (e.g., insurance or loans), or even the PIX transfer experience.  By comparing our current performance against the benchmark's criteria, we can identify specific areas where our user journeys might be optimized for greater efficiency and user satisfaction, drawing parallels between the decision-making and task completion in food delivery and complex financial interactions.\n\nWhen applying this benchmark, researchers should focus on adapting the principles to Nubank's specific context. While the food delivery context is different, the underlying user needs for clarity, ease of navigation, trust, and efficient task completion are universal. For instance, the benchmark's insights on clear pricing and order status updates could inform how we communicate transaction details in PIX, or how we present loan terms and repayment schedules. However, it's crucial to remember that financial products carry higher stakes and require a greater emphasis on security and transparency, so direct application of every food delivery best practice might not be suitable without careful consideration and adaptation to our regulatory environment and user trust paradigms."
+    },
     {
       "date": "2026-08-12",
       "title": "From assistance to execution: How enterprises put AI to work",
