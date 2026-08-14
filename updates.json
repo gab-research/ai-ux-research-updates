@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-08-14T09:16:45.059Z",
+  "lastUpdated": "2026-08-14T17:00:43.897Z",
   "updates": [
+    {
+      "date": "2026-08-14",
+      "title": "UX Roundup: Hedonic Adaptation | Knowledge Worker AI | AI Sensemaking | Delegating Agent Actions | Branching UI vs. Linear Chat | Base-Rate Neglect | Rating Controls | Animated Prompt Understanding",
+      "summary": "New music video about hedonic adaptation | AI better at some forms of knowledge work than at others | AI increasingly used for sensemaking among corporate users | Users want to approve certain autonomous actions | For exploratory creation, a branching UI beat the traditional l...",
+      "content": "This UX Roundup highlights emerging trends and cognitive principles relevant to user experience design and research. The inclusion of hedonic adaptation, a psychological phenomenon where repeated exposure leads to diminished emotional response, underscores the importance of sustained novelty and engagement in product design.  The article further delves into the evolving capabilities of AI in knowledge work and sensemaking, suggesting that AI tools can augment, but not entirely replace, human analytical processes.  This is crucial for UX researchers as it points to potential efficiencies in data analysis and understanding complex user behaviors, while also emphasizing the need to design AI-integrated experiences that manage user expectations regarding autonomy and control, particularly in critical financial flows.",
+      "category": "Survey optimization",
+      "source": {
+        "name": "Jakob Nielsen (Substack)",
+        "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260814"
+      },
+      "analysis": "At Nubank, the insights from this roundup can significantly enhance our research and product development. For instance, understanding hedonic adaptation can inform strategies for maintaining user engagement with new features, such as our recently launched investment products or iterative improvements to the PIX experience.  We can explore how to introduce fresh elements or pathways to prevent users from becoming desensitized to valuable functionalities over time.  The discussion on AI in knowledge work and sensemaking is particularly relevant for our data science and research teams. Researchers can leverage AI tools for preliminary analysis of large datasets from customer feedback on loans, insurance applications, or card activation processes, identifying patterns that might be missed by manual review.  This can free up researcher time for deeper qualitative exploration and strategic thinking.\n\nWhen applying AI for sensemaking, it's crucial to establish clear guardrails. AI should be viewed as a co-pilot, not an autopilot, for our research insights. Researchers must retain critical oversight and apply their domain expertise to validate AI-generated hypotheses, especially in sensitive areas like fraud detection within our banking app or personalization of credit card offers.  The reminder about users wanting to approve autonomous actions is paramount for all Nubank flows.  We must ensure that any AI-driven actions, such as automated loan pre-approvals or proactive fraud alerts, are presented transparently to the user, with clear options for review and explicit user consent before execution, aligning with our commitment to user control and trust.  This is critical for onboarding new customers and managing existing relationships in areas like international money transfers."
+    },
     {
       "date": "2026-08-13",
       "title": "New EU Guidelines For AI Labelling",
@@ -914,18 +926,6 @@
         "url": "https://www.parallelhq.com/blog/best-ai-ux-design-agencies"
       },
       "analysis": "This article provides a valuable lens for identifying external AI UX design expertise that could augment Nubank's internal capabilities. Researchers can leverage this information to understand benchmark practices for AI integration, especially when considering how to design intuitive AI-powered features within complex flows like loan applications or card activation. It helps us assess potential vendor partnerships or identify emerging methodologies we might adopt to enhance user experiences for features like personalized investment recommendations or the onboarding process.\n\nWhile this article focuses on startups, the underlying principles of designing for AI remain relevant. At Nubank, researchers should use this to inform discussions about how AI's role in areas like automated customer support for insurance claims or proactive fraud alerts for PIX transactions impacts user trust and usability. It's essential to remember that AI in our context must always prioritize user security, transparency, and ethical considerations, acting as a tool to empower, not overwhelm, our users."
-    },
-    {
-      "date": "2026-07-15",
-      "title": "No, People Don’t Want More AI In Their Life",
-      "summary": "Many companies assume everyone craves new AI features. But the reality is that most people don't want more AI — at least not in the way most AI leaders envision it. Brought to you by Design Patterns For AI Interfaces, **friendly video courses on UX** and design patterns by Vit...",
-      "content": "Many companies assume everyone craves new AI features. But the reality is that most people don't want more AI — at least not in the way most AI leaders envision it. Brought to you by Design Patterns For AI Interfaces, **friendly video courses on UX** and design patterns by Vitaly.",
-      "category": "AI research tools",
-      "source": {
-        "name": "Smashing Magazine",
-        "url": "https://smashingmagazine.com/2026/07/people-dont-want-more-ai/"
-      },
-      "analysis": "At Nubank, this article directly impacts our foundational research. Instead of jumping to AI solutions for features like PIX transactions or loan application processes, we need to rigorously validate the underlying user problem first. Does a user genuinely struggle with the current PIX flow in a way that AI could elegantly solve, or is the issue more about clarity or perceived trust? Our research should begin by asking \"what is the user's core need or frustration?\" before we even contemplate the role AI might play.\n\nWhen applying this, researchers should actively challenge AI-driven hypotheses during planning and discovery. For instance, in refining the card activation flow or optimizing onboarding for new customers, our objective should be to identify genuine friction points. If AI is proposed as a solution, the research must prove its necessity and value proposition against simpler, non-AI alternatives. This means designing research questions that explore user perception of AI, their comfort levels with data sharing for AI personalization (e.g., in insurance product recommendations), and their tolerance for AI-driven nudges versus explicit control. We must avoid building AI features just to 'have AI', focusing instead on demonstrable improvements in user satisfaction, efficiency, and trust across our products and services."
     }
   ]
 }
