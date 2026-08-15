@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-08-15T08:37:43.942Z",
+  "lastUpdated": "2026-08-15T16:33:12.783Z",
   "updates": [
+    {
+      "date": "2026-08-15",
+      "title": "Who gets the meter?",
+      "summary": "We’ve spent 180 years trying not to feel the cost of the machine. AI just turned the meter back on. Continue reading on UX Collective »",
+      "content": "The article \"Who gets the meter?\" argues that for over a century, technology has strived to abstract away the \"cost\" or effort associated with its use, aiming for seamless user experiences. Artificial intelligence, however, is reversing this trend by making users more aware of the computational resources and costs involved in its operation. For UX researchers, this shift is critical as it necessitates a new approach to designing for transparency and user understanding. Instead of hiding complexity, we may need to expose it judiciously to foster trust and informed decision-making, particularly in sensitive financial contexts.",
+      "category": "AI research tools",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/who-gets-the-meter-7cd1cd1ad5e4?source=rss----138adf9c44c---4"
+      },
+      "analysis": "This concept of the \"meter turning back on\" is highly relevant to Nubank's mission of democratizing financial services. In our research, we should explore how users perceive the \"cost\" of AI-driven features. For example, during PIX transactions, could an AI-powered fraud detection system's computational intensity be subtly communicated to assure users of its vigilance? Similarly, for loan applications, if AI is assessing risk, understanding user comprehension of this process is key. We must investigate how to make these underlying processes transparent without overwhelming or alienating users.\n\nPractically, this means incorporating \"cost awareness\" into our usability testing and concept validation. When testing new features like AI-enhanced card activation suggestions or personalized insurance recommendations, we should ask users about their understanding of the underlying AI's work and any perceived effort or resource use. Guardrails are crucial: we should avoid overly technical jargon and focus on communicating value and security derived from AI, rather than its sheer complexity. The goal is to build trust through informed consent and clarity, especially in sensitive flows like onboarding and credit assessment, where user anxiety can be high."
+    },
     {
       "date": "2026-08-14",
       "title": "UX Roundup: Hedonic Adaptation | Knowledge Worker AI | AI Sensemaking | Delegating Agent Actions | Branching UI vs. Linear Chat | Base-Rate Neglect | Rating Controls | Animated Prompt Understanding",
