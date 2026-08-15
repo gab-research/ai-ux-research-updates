@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-08-15T01:43:27.627Z",
+  "lastUpdated": "2026-08-15T08:37:43.942Z",
   "updates": [
     {
       "date": "2026-08-14",
@@ -902,18 +902,6 @@
         "url": "https://www.nngroup.com/articles/human-led-research-still-matters/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication"
       },
       "analysis": "At Nubank, the principle of \"Don’t Outsource the Learning\" should be integrated into our existing research workflows by ensuring that AI-generated insights are always validated and enriched through human interpretation. For instance, when using AI to analyze large datasets from PIX transactions or loan applications, researchers must still conduct qualitative studies and user interviews to understand the 'why' behind observed patterns, especially in complex flows like card activation or onboarding. This human-led validation is crucial to avoid superficial conclusions and ensure our product decisions for services like Nubank Seguros are truly user-centric.\n\nResearchers should leverage AI for tasks like initial data aggregation, thematic coding of open-ended survey responses, or even generating preliminary hypotheses, but the critical synthesis and understanding of user emotions, hesitations, and unmet needs must come from direct observation and debriefings within the research team. Guardrails should include mandatory human review of all AI-generated findings, particularly for sensitive user journeys, ensuring that the nuances of Brazilian user behavior, which can be highly contextual, are not lost. The focus should remain on augmenting our ability to empathize and learn collectively, rather than outsourcing that fundamental human connection."
-    },
-    {
-      "date": "2026-07-16",
-      "title": "Why your research projects need their own Claude project",
-      "summary": "Listen now | A complete guide on why and how to set up your next research project in Claude projects",
-      "content": "This article by Nikki Anderson advocates for a dedicated AI project, specifically using Claude, for each UX research initiative. The core idea is to leverage AI as a personalized research assistant, going beyond simple data analysis to actively contribute to project success. For UX researchers, this means enhanced efficiency, deeper insights, and a more strategic approach to understanding user needs, particularly when dealing with large datasets or complex qualitative feedback. Practical implications include faster synthesis of findings, improved hypothesis generation, and even assistance in crafting research instruments, ultimately leading to more impactful product development and iteration for Nubank's customer base.",
-      "category": "General AI in research",
-      "source": {
-        "name": "Nikki Anderson (User Research Strategist)",
-        "url": "https://www.userresearchstrategist.com/p/why-your-research-projects-need-their"
-      },
-      "analysis": "At Nubank, integrating a dedicated Claude project per research initiative can significantly enhance our efficiency, especially when tackling complex areas like user feedback on our PIX, loan, or insurance products. Researchers can establish a Claude project to process interview transcripts, survey responses, and usability testing notes, asking targeted questions about pain points in the card activation flow or barriers during onboarding. This AI assistant can help synthesize themes, identify emerging patterns, and even draft initial summaries of findings, freeing up valuable researcher time for deeper analysis and strategic recommendations. For instance, a Claude project focused on loan application feedback could quickly surface common frustrations related to documentation requirements or understanding loan terms, providing actionable insights for product managers.\n\nWhen applying this at Nubank, researchers should treat their Claude project as a co-pilot, not a replacement for human judgment. It's crucial to define clear objectives for the AI within each research project. For example, when investigating user retention for our credit card products, a researcher might task Claude with identifying the top three reasons for churn based on a dataset of support tickets. However, it's essential to remember Claude's limitations; it cannot replicate nuanced empathy or fully grasp the socio-cultural context that is critical to our Brazilian user base. Therefore, researchers must critically review and validate all AI-generated insights, ensuring they align with our understanding of Nubank's diverse customer segments and adhere to our strict data privacy and security protocols."
     }
   ]
 }
