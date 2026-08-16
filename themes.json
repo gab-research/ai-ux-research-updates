@@ -4,7 +4,7 @@
   "themes": [
     {
       "name": "Survey optimization",
-      "count": 74,
+      "count": 70,
       "description": "AI tools for designing better surveys, reducing bias, and analyzing responses."
     },
     {
@@ -14,13 +14,8 @@
     },
     {
       "name": "Conversational AI in research",
-      "count": 49,
+      "count": 38,
       "description": "Chatbots, virtual assistants, and voice AI in research contexts."
-    },
-    {
-      "name": "AI coding assistants",
-      "count": 33,
-      "description": "Copilot, Claude Code, Cursor, and other AI tools for code generation and development."
     },
     {
       "name": "AI-powered data analysis",
@@ -28,29 +23,34 @@
       "description": "Automated data analysis, clustering, segmentation, and pattern detection."
     },
     {
-      "name": "Agentic AI in research",
+      "name": "AI coding assistants",
       "count": 28,
+      "description": "Copilot, Claude Code, Cursor, and other AI tools for code generation and development."
+    },
+    {
+      "name": "Agentic AI in research",
+      "count": 26,
       "description": "Autonomous AI agents running research tasks, multi-agent frameworks, and orchestration."
     },
     {
       "name": "AI workforce impact",
-      "count": 20,
+      "count": 21,
       "description": "AI replacing roles, future of work, skills gap, reskilling, and organizational change."
     },
     {
-      "name": "AI ethics in research",
-      "count": 17,
-      "description": "Bias, fairness, responsible AI, privacy, and trust in research."
-    },
-    {
       "name": "AI content generation",
-      "count": 16,
+      "count": 15,
       "description": "AI writing, report generation, UX copy, and content creation."
     },
     {
-      "name": "AI tool evaluation",
-      "count": 13,
-      "description": "Comparing, benchmarking, and selecting AI tools and LLMs for specific use cases."
+      "name": "AI ethics in research",
+      "count": 15,
+      "description": "Bias, fairness, responsible AI, privacy, and trust in research."
+    },
+    {
+      "name": "AI summarization",
+      "count": 15,
+      "description": "Automated transcript summaries, theme extraction, and affinity mapping."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
