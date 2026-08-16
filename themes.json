@@ -1,56 +1,56 @@
 {
   "month": "2026-08",
-  "updated": "2026-08-15",
+  "updated": "2026-08-16",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 51,
-      "description": "Articles discussing AI agents performing research tasks, automating workflows, and acting autonomously in research contexts."
+      "count": 44,
+      "description": "Focuses on AI systems capable of autonomous decision-making and execution within research workflows, including agentic workflows and research agents."
     },
     {
       "name": "AI coding assistants",
-      "count": 36,
-      "description": "Content focusing on AI tools that assist developers in writing, debugging, and analyzing code."
+      "count": 30,
+      "description": "Covers AI tools that assist developers in writing, debugging, and optimizing code, including AI agents for coding and code generation."
     },
     {
       "name": "AI research tools",
-      "count": 31,
-      "description": "Articles detailing AI platforms, frameworks, and specific tools used for conducting research across various domains."
+      "count": 24,
+      "description": "Highlights AI-powered platforms and applications designed to facilitate various stages of the research process, from data collection to analysis."
     },
     {
       "name": "AI summarization",
       "count": 19,
-      "description": "Focuses on AI's ability to condense large amounts of text, such as articles, reports, and transcripts, into concise summaries."
-    },
-    {
-      "name": "AI customer insights",
-      "count": 17,
-      "description": "Explores how AI is used to analyze customer data, feedback, and behavior to generate actionable business insights."
-    },
-    {
-      "name": "AI for design & research",
-      "count": 14,
-      "description": "Articles highlighting AI applications specifically within the UX design and user research processes, including prototyping and ideation."
-    },
-    {
-      "name": "Synthetic users",
-      "count": 13,
-      "description": "Content related to the creation and use of artificial user representations for testing and research purposes."
-    },
-    {
-      "name": "AI workforce impact",
-      "count": 12,
-      "description": "Discussions on how AI is affecting job roles, recruitment processes, and the overall nature of work."
+      "description": "Features articles discussing AI's ability to condense large amounts of text into concise summaries, aiding in information processing and comprehension."
     },
     {
       "name": "AI chatbot research",
+      "count": 15,
+      "description": "Examines the use of AI chatbots for research purposes, including their capabilities, limitations, and impact on user interactions and insights."
+    },
+    {
+      "name": "AI workforce impact",
+      "count": 13,
+      "description": "Discusses how AI is affecting jobs, employment, and the skills required in the workforce, including automation and job displacement."
+    },
+    {
+      "name": "AI tool evaluation",
       "count": 12,
-      "description": "Articles focusing on research into the capabilities, limitations, and societal impact of AI chatbots."
+      "description": "Focuses on comparative analyses, reviews, and benchmarks of various AI tools and platforms, assessing their performance and suitability."
     },
     {
       "name": "AI sentiment feedback",
+      "count": 12,
+      "description": "Covers the use of AI to analyze and interpret user sentiment and feedback from various sources, such as reviews and social media."
+    },
+    {
+      "name": "AI customer insights",
       "count": 11,
-      "description": "Covers AI's use in analyzing sentiment from customer feedback, reviews, and social media."
+      "description": "Explores how AI is used to extract actionable insights from customer data, improving understanding of customer behavior and preferences."
+    },
+    {
+      "name": "AI research platform",
+      "count": 11,
+      "description": "Features AI platforms designed to support and enhance research activities, providing specialized tools for data exploration and analysis."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
