@@ -3,54 +3,54 @@
   "updated": "2026-08-16",
   "themes": [
     {
-      "name": "Agentic AI in research",
-      "count": 44,
-      "description": "Focuses on AI systems capable of autonomous decision-making and execution within research workflows, including agentic workflows and research agents."
-    },
-    {
-      "name": "AI coding assistants",
-      "count": 30,
-      "description": "Covers AI tools that assist developers in writing, debugging, and optimizing code, including AI agents for coding and code generation."
+      "name": "Survey optimization",
+      "count": 74,
+      "description": "AI tools for designing better surveys, reducing bias, and analyzing responses."
     },
     {
       "name": "AI research tools",
-      "count": 24,
-      "description": "Highlights AI-powered platforms and applications designed to facilitate various stages of the research process, from data collection to analysis."
+      "count": 58,
+      "description": "New AI tool launches, reviews, and platforms built for research workflows."
     },
     {
-      "name": "AI summarization",
-      "count": 19,
-      "description": "Features articles discussing AI's ability to condense large amounts of text into concise summaries, aiding in information processing and comprehension."
+      "name": "Conversational AI in research",
+      "count": 49,
+      "description": "Chatbots, virtual assistants, and voice AI in research contexts."
     },
     {
-      "name": "AI chatbot research",
-      "count": 15,
-      "description": "Examines the use of AI chatbots for research purposes, including their capabilities, limitations, and impact on user interactions and insights."
+      "name": "AI coding assistants",
+      "count": 33,
+      "description": "Copilot, Claude Code, Cursor, and other AI tools for code generation and development."
+    },
+    {
+      "name": "AI-powered data analysis",
+      "count": 32,
+      "description": "Automated data analysis, clustering, segmentation, and pattern detection."
+    },
+    {
+      "name": "Agentic AI in research",
+      "count": 28,
+      "description": "Autonomous AI agents running research tasks, multi-agent frameworks, and orchestration."
     },
     {
       "name": "AI workforce impact",
-      "count": 13,
-      "description": "Discusses how AI is affecting jobs, employment, and the skills required in the workforce, including automation and job displacement."
+      "count": 20,
+      "description": "AI replacing roles, future of work, skills gap, reskilling, and organizational change."
+    },
+    {
+      "name": "AI ethics in research",
+      "count": 17,
+      "description": "Bias, fairness, responsible AI, privacy, and trust in research."
+    },
+    {
+      "name": "AI content generation",
+      "count": 16,
+      "description": "AI writing, report generation, UX copy, and content creation."
     },
     {
       "name": "AI tool evaluation",
-      "count": 12,
-      "description": "Focuses on comparative analyses, reviews, and benchmarks of various AI tools and platforms, assessing their performance and suitability."
-    },
-    {
-      "name": "AI sentiment feedback",
-      "count": 12,
-      "description": "Covers the use of AI to analyze and interpret user sentiment and feedback from various sources, such as reviews and social media."
-    },
-    {
-      "name": "AI customer insights",
-      "count": 11,
-      "description": "Explores how AI is used to extract actionable insights from customer data, improving understanding of customer behavior and preferences."
-    },
-    {
-      "name": "AI research platform",
-      "count": 11,
-      "description": "Features AI platforms designed to support and enhance research activities, providing specialized tools for data exploration and analysis."
+      "count": 13,
+      "description": "Comparing, benchmarking, and selecting AI tools and LLMs for specific use cases."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
