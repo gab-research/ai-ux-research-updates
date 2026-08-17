@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-08-17T08:52:31.472Z",
+  "lastUpdated": "2026-08-17T16:36:02.769Z",
   "updates": [
+    {
+      "date": "2026-08-17",
+      "title": "UX Roundup: AI Spending Up | Adversarial AI Helps Designers | Design Hypotheses | Generative Accessibility | Skeleton Screens | Pain of Paying",
+      "summary": "AI spending growing 75% per year at the median firm | An AI agent that argued back against design ideas helped designers improve | A design is a hypothesis: try to defeat it | AI can generate superior accessibility when it prioritizes communication density over narrative compl...",
+      "content": "This UX roundup highlights a significant surge in AI adoption within design and research, with a projected 75% annual growth in AI spending.  A particularly intriguing application is adversarial AI, where AI agents challenge design proposals, leading to more robust and improved solutions.  This approach, along with AI's potential to generate superior accessibility by optimizing communication density, underscores AI's growing role in enhancing the efficiency and effectiveness of UX practices. For UX researchers, this signals a need to embrace and integrate AI tools to stay competitive and deliver better user experiences.",
+      "category": "Automated usability checks",
+      "source": {
+        "name": "Jakob Nielsen (Substack)",
+        "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260817"
+      },
+      "analysis": "At Nubank, this AI trend can be integrated into our research workflow to proactively identify potential design flaws and enhance accessibility across our products. For instance, during the development of new features for our PIX transfer system or during the loan application process, we could employ adversarial AI to challenge proposed user flows. This would involve having an AI agent 'critique' our designs, highlighting potential points of confusion or usability issues before user testing, potentially saving us valuable time and resources.  Researchers can leverage AI to generate initial hypotheses for design improvements, especially concerning communication density in areas like insurance policy explanations or onboarding guides for new users, ensuring clarity and accessibility for a broader customer base.  We can also explore AI-generated accessibility audits on existing flows like card activation, identifying areas for improvement and suggesting alternative communication strategies.\n\nWhen implementing these AI tools, it's crucial to maintain human oversight and a critical perspective. AI should serve as a powerful co-pilot, not a replacement for human judgment and empathy. Researchers must actively interpret AI's output, ensuring that generated insights align with Nubank's brand values and user needs. Guardrails should be in place to prevent over-reliance on AI for sensitive areas like financial advice within our app or for subjective user sentiment analysis. Furthermore, continuous evaluation of the AI models' performance and bias is essential to ensure equitable and effective UX research outcomes."
+    },
     {
       "date": "2026-08-15",
       "title": "Who gets the meter?",
