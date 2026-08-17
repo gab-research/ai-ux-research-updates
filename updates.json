@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-08-16T16:33:56.351Z",
+  "lastUpdated": "2026-08-17T01:45:44.356Z",
   "updates": [
     {
       "date": "2026-08-15",
@@ -890,18 +890,6 @@
         "url": "https://uxdesign.cc/research-shouldnt-end-in-a-deck-fe7c1d4fe1af?source=rss----138adf9c44c---4"
       },
       "analysis": "At Nubank, this philosophy of research as a living artifact fits perfectly into our agile development cycles, especially when iterating on core products like the Nubank card activation flow or the PIX transaction experience. Instead of producing a single research deck after user interviews, researchers can use Claude Code to process raw interview transcripts, identify emerging themes, and even draft initial hypotheses for A/B testing on the onboarding journey. This allows the insights to be directly translated into actionable user stories for product teams, rather than sitting in a repository.\n\nResearchers should integrate Claude Code early in the discovery phase, using it to rapidly synthesize qualitative data and surface potential biases in their own thinking. For instance, while researching customer concerns around loan applications, AI could help identify patterns that might be overlooked in manual analysis. However, it's crucial to establish guardrails: AI outputs should always be critically reviewed by human researchers for nuance, context, and to ensure they align with our ethical guidelines and deep understanding of the Brazilian user. The AI should augment, not replace, the researcher's judgment, particularly when dealing with sensitive financial products like insurance or credit limit adjustments."
-    },
-    {
-      "date": "2026-07-17",
-      "title": "Don’t Outsource the Learning: Why Human-Led Research Still Matters in the Age of AI",
-      "summary": "Even if AI matches researcher-output quality, human-led research will remain essential — the team learning from observing users can't be outsourced.",
-      "content": "This Nielsen Norman Group article argues that despite the rising capabilities of AI in UX research, human observation and interpretation remain irreplaceable. The core message is that the deep, nuanced understanding gained from directly witnessing user interactions, including their hesitations, body language, and unarticulated needs, creates a unique form of \"team learning\" that AI cannot replicate. For UX researchers, this underscores the continued value of qualitative methods and empathetic engagement, reminding us that AI should augment, not replace, our role in uncovering the 'why' behind user behavior. This perspective highlights the need to strategically integrate AI tools while prioritizing the essential human element in uncovering actionable insights.",
-      "category": "AI workforce impact",
-      "source": {
-        "name": "Nielsen Norman Group",
-        "url": "https://www.nngroup.com/articles/human-led-research-still-matters/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication"
-      },
-      "analysis": "At Nubank, the principle of \"don't outsource the learning\" translates to leveraging AI tools for efficiency, but never at the expense of direct user observation. For instance, when analyzing user feedback for our PIX transfer flow or the onboarding process for new accounts, AI can quickly categorize common pain points. However, the subtle frustrations a user experiences during card activation or when applying for a loan, evident in their tone of voice or facial expressions during a usability test, will be missed by AI alone. Our researchers must continue to conduct and analyze these qualitative sessions, using AI as a supplement to identify patterns, but retaining the human capacity to empathize and uncover the deeper contextual drivers of behavior.\n\nResearchers should actively engage with AI tools like automated transcription, sentiment analysis of interview data, or even AI-generated personas, but always with a critical human lens. The 'team learning' mentioned in the article applies to how our research teams synthesize findings – the collective 'aha!' moments that arise from discussing observed user struggles during a session for our insurance products. Therefore, AI should be used to accelerate the preparation and initial analysis of data, freeing up researcher time for deeper qualitative synthesis, strategy development, and the crucial interpretation of nuanced user feedback that drives truly impactful product decisions at Nubank."
     }
   ]
 }
