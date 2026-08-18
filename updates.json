@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-08-18T08:45:57.020Z",
+  "lastUpdated": "2026-08-18T16:39:18.754Z",
   "updates": [
+    {
+      "date": "2026-08-18",
+      "title": "We still don’t know how people are really using AI",
+      "summary": "AI companies like Anthropic and OpenAI regularly publish reports on how people are using products like Claude and ChatGPT, but they only release the data they want us to see, AI researchers say. “There is no independent source to corroborate it,” says Anka Reuel, a computer sc...",
+      "content": "This MIT Technology Review article highlights a critical blind spot in our understanding of AI adoption: the lack of transparent, independently verified data on how individuals truly interact with AI tools like ChatGPT and Claude. While AI developers offer curated insights, the absence of unbiased data makes it difficult to gauge real-world usage patterns, potential biases, and unintended consequences. For UX researchers, this lack of transparency poses a significant challenge, as it impedes our ability to design effective, ethical, and user-centric AI-powered experiences. Without genuine insights into user behavior, we risk building products that fail to meet genuine needs or inadvertently create new problems.",
+      "category": "Conversational AI in research",
+      "source": {
+        "name": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/2026/08/18/1142226/how-people-use-ai/"
+      },
+      "analysis": "At Nubank, this article underscores the imperative to move beyond vendor-provided AI usage reports and actively seek our own empirical data. When integrating AI into customer-facing features, such as AI-powered chatbots for PIX transactions or personalized loan offer generation, our UX researchers must prioritize robust, internal user testing and data analysis. We should not solely rely on the AI provider's claims about user engagement or effectiveness. Instead, we need to instrument our own Nubank products with analytics to track how customers interact with AI elements, collect qualitative feedback through surveys and interviews, and conduct A/B testing to validate performance in our specific Brazilian context. This approach will ensure our AI implementations are genuinely beneficial and align with the unique needs of our users during flows like onboarding, card activation, or even when managing insurance policies.\n\nGuardrails are essential. We must be mindful of the \"black box\" nature of some AI models and the potential for biases to be amplified. Researchers should actively look for edge cases and unexpected user behaviors that might not be surfaced by generic AI usage data. Furthermore, any AI-driven feature should have clear opt-out mechanisms and human oversight where appropriate, especially for sensitive financial decisions or complex customer support scenarios. Our responsibility extends to understanding the *why* behind user interactions with AI, not just the *what*, ensuring we are building trust and delivering tangible value across all Nubank services."
+    },
     {
       "date": "2026-08-17",
       "title": "UX Roundup: AI Spending Up | Adversarial AI Helps Designers | Design Hypotheses | Generative Accessibility | Skeleton Screens | Pain of Paying",
