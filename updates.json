@@ -1,13 +1,13 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-08-19T08:46:57.498Z",
+  "lastUpdated": "2026-08-19T16:38:37.218Z",
   "updates": [
     {
       "date": "2026-08-19",
       "title": "The Hidden Cost of Bad UX: How Much Revenue Are You Leaving on the Table?",
       "summary": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) How much revenue is your site losing each month because of unnecessary UX friction? If you are...",
-      "content": "This Baymard Institute article highlights the significant, often overlooked, financial impact of poor user experience (UX) on e-commerce revenue. It emphasizes that even minor points of friction in a digital product can lead to substantial revenue loss through abandoned carts, decreased conversion rates, and reduced customer lifetime value. For UX researchers, this underscores the critical need to quantify the business impact of our findings, moving beyond anecdotal evidence to demonstrate clear ROI for UX improvements.  Understanding these 'hidden costs' allows us to advocate more effectively for user-centered design by framing recommendations in terms of direct revenue generation and loss prevention.",
+      "content": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) How much revenue is your site losing each month because of unnecessary UX friction? If you are like most ecommerce leaders or UX managers, you know that friction points across checkout, product pages, and navigation cause shoppers to abandon. Yet, when competing for roadmap resources or budget approvals, UX research is often categorized as an internal software or subscription expense rather than a top-line revenue driver. Without concrete financial estimates to back up your design priorities, critical usability improvements often get pushed aside. To help you translate UX friction into clear commercial impact, Baymard has developed an Opportunity Sizing Calculator. This tool converts Baymard’s actionable user research into quantifiable projections, showing you the exact revenue you can unlock by systematically applying proven UX best practices to your site. Moving from Opinions to Research-Backed Forecasting Prioritizing a product roadmap often turns into a debate of subjective opinions, where the l...",
       "category": "General AI in research",
       "source": {
         "name": "Baymard Institute",
