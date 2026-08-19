@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-08-19T01:43:17.570Z",
+  "lastUpdated": "2026-08-19T08:46:57.498Z",
   "updates": [
+    {
+      "date": "2026-08-19",
+      "title": "The Hidden Cost of Bad UX: How Much Revenue Are You Leaving on the Table?",
+      "summary": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) How much revenue is your site losing each month because of unnecessary UX friction? If you are...",
+      "content": "This Baymard Institute article highlights the significant, often overlooked, financial impact of poor user experience (UX) on e-commerce revenue. It emphasizes that even minor points of friction in a digital product can lead to substantial revenue loss through abandoned carts, decreased conversion rates, and reduced customer lifetime value. For UX researchers, this underscores the critical need to quantify the business impact of our findings, moving beyond anecdotal evidence to demonstrate clear ROI for UX improvements.  Understanding these 'hidden costs' allows us to advocate more effectively for user-centered design by framing recommendations in terms of direct revenue generation and loss prevention.",
+      "category": "General AI in research",
+      "source": {
+        "name": "Baymard Institute",
+        "url": "https://feeds.baymard.com/link/9825/17422770/hidden-cost-bad-ux-revenue-calculator"
+      },
+      "analysis": "This article is highly relevant to our ongoing work at Nubank, particularly in understanding the direct financial implications of UX issues across key customer journeys. Researchers can leverage this framework to quantify the cost of friction in flows like PIX transactions, loan applications, or card activation. By conducting targeted usability tests and analyzing drop-off points with a revenue lens, we can present data-backed arguments for design improvements, such as simplifying onboarding or clarifying insurance policy details, directly to product and business stakeholders.  For example, we could estimate the monthly revenue lost due to confusion during the initial account setup or the potential increase in loan uptake if the application process were more streamlined. This approach will elevate our research from identifying problems to proposing solutions with demonstrable financial benefits."
+    },
     {
       "date": "2026-08-18",
       "title": "We still don’t know how people are really using AI",
