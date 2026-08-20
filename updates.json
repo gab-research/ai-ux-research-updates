@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-08-19T16:38:37.218Z",
+  "lastUpdated": "2026-08-20T01:41:54.274Z",
   "updates": [
     {
       "date": "2026-08-19",
@@ -857,39 +857,15 @@
     },
     {
       "date": "2026-07-21",
-      "title": "AI-Assisted UX Research: Tools, Limits, and Workflow",
-      "summary": "AI-Assisted UX Research: Tools, Limits, and Workflow. Founder-friendly guide from ParallelHQ.",
-      "content": "This article from Parallel Blog explores the burgeoning field of AI-assisted UX research, highlighting how artificial intelligence can augment traditional research methodologies.  It emphasizes that AI tools can automate repetitive tasks, extract deeper insights from large datasets, and accelerate the research process, thereby freeing up researchers to focus on more strategic and creative aspects of their work. For UX researchers at a company like Nubank, this means the potential to gain a more nuanced understanding of user behavior across complex financial products, leading to more efficient and impactful product improvements.",
-      "category": "AI research tools",
-      "source": {
-        "name": "Parallel Blog",
-        "url": "https://www.parallelhq.com/blog/ai-assisted-ux-research-workflow"
-      },
-      "analysis": "At Nubank, AI-assisted UX research can be integrated at multiple stages of our product development lifecycle. For instance, analyzing customer feedback from our PIX transaction flows or loan applications could be significantly enhanced by AI sentiment analysis and topic modeling, identifying recurring pain points or emerging user needs at scale. Similarly, during the onboarding process for new customers or the activation of our credit cards, AI can help sift through qualitative feedback to pinpoint friction points that might be missed by manual review, allowing for quicker iteration and optimization. Researchers should approach these tools as powerful assistants, not replacements, focusing on prompt engineering and critically evaluating AI-generated insights.\n\nKey guardrails for using AI at Nubank involve data privacy and ethical considerations, especially when dealing with sensitive financial information. Researchers must ensure that any AI tools used comply with LGPD regulations and company data policies. While AI can accelerate discovery, human oversight remains critical for nuanced interpretation, contextual understanding of user behavior, and ensuring that the AI's output doesn't introduce bias or overlook unique edge cases. We must also acknowledge the current limitations of AI in understanding deeply emotional or culturally specific nuances inherent in Brazilian financial behaviors, which still require the empathy and intuition of a human researcher, particularly in areas like insurance or complex investment products."
-    },
-    {
-      "date": "2026-07-21",
-      "title": "I handed a UX review over to AI. Here’s what happened.",
-      "summary": "I handed a UX review over to AI. Here’s what happened.",
-      "content": "This article explores a UX researcher's experiment in leveraging AI, specifically large language models, to conduct a comprehensive UX review of a product. The core idea is to assess how effectively AI can analyze user flows, identify pain points, and suggest improvements, akin to a human expert. This is significant for UX researchers as it presents a potential avenue for augmenting their capabilities, speeding up iterative processes, and uncovering insights that might be overlooked.  Practical implications include the possibility of using AI for initial heuristic evaluations, competitive analysis, or even drafting early-stage user journey maps, freeing up researchers for more complex, qualitative tasks.",
-      "category": "AI research tools",
-      "source": {
-        "name": "UX Collective (Medium)",
-        "url": "https://uxdesign.cc/i-handed-a-ux-review-over-to-ai-heres-what-happened-0511e73e4ffe?source=rss----138adf9c44c---4"
-      },
-      "analysis": "At Nubank, this AI-driven UX review can be integrated into our existing research workflow to accelerate initial discovery and analysis phases. For instance, during the research for a new feature within the PIX flow or a potential improvement to our loan application process, AI could be used to analyze existing user feedback, support tickets, and even competitor app reviews to quickly surface common issues or user expectations. Researchers can then use these AI-generated insights as a starting point for their own deeper investigations, using qualitative methods like user interviews or usability testing to validate and expand upon the AI's findings.\n\nWhen applying this at Nubank, researchers should treat AI outputs as hypotheses rather than definitive conclusions. For example, while AI might identify potential friction points in the card activation flow based on analyzing numerous data points, it cannot replicate the empathy and nuanced understanding gained from observing a user in real-time or conducting in-depth interviews about their emotional journey during onboarding. Researchers must critically evaluate the AI's suggestions, validate them with qualitative data, and ensure that the AI is not introducing biases or overlooking critical contextual factors unique to the Brazilian market or specific Nubank user segments, especially when dealing with sensitive products like insurance or complex credit decisions."
-    },
-    {
-      "date": "2026-07-21",
       "title": "17 Claude Skills to Turn AI Into Your UX Research Assistant",
       "summary": "Install these 17 Claude skills and cut your research workflow in half. Transcript cleaning, synthesis, JTBD analysis, survey design, and more — tested on real projects.",
-      "content": "This article from Great Question introduces 17 specific skills for Claude, an AI assistant, designed to significantly streamline UX research processes. The core idea is that by leveraging these pre-built capabilities, researchers can automate time-consuming tasks, freeing up valuable time for more strategic activities. This is crucial for UX researchers as it allows for faster iteration, deeper insights, and a more efficient overall research operation. Practical implications include drastically reducing the manual effort involved in tasks like transcribing interviews, synthesizing large amounts of qualitative data, and even assisting with the design of research instruments like surveys.",
+      "content": "This article from Great Question Blog introduces 17 \"skills\" for Claude, an AI chatbot, designed to significantly streamline UX research processes. The core idea is to leverage AI for time-consuming tasks such as transcribing interviews, synthesizing qualitative data, performing Jobs-to-be-Done (JTBD) analysis, and even aiding in survey design. For UX researchers, this is crucial as it allows for a substantial reduction in manual effort, freeing up valuable time for more strategic activities like deeper analysis, stakeholder communication, and generative ideation. The practical implication is the potential to drastically accelerate research cycles, leading to faster product iteration and more responsive user-centered design, ultimately benefiting users and business objectives.",
       "category": "Interview analysis",
       "source": {
         "name": "Great Question Blog",
         "url": "https://cms.greatquestion.co/blog/claude-skills-ux-research-assistant"
       },
-      "analysis": "At Nubank, these Claude skills can be integrated across several research touchpoints. For instance, after conducting user interviews for our PIX feature enhancements or loan application flows, researchers could use Claude's transcript cleaning and synthesis skills to rapidly distill key pain points and user needs. This would expedite the process of identifying areas for improvement, directly impacting our ability to iterate on product development for features like card activation or onboarding.\n\nResearchers should experiment with these skills by first using them on anonymized data from past projects. For example, to generate user story hypotheses for potential new insurance products, Claude's JTBD analysis skill could be employed to parse existing feedback. It's vital to remember that AI is an assistant, not a replacement; all AI-generated insights must be critically reviewed and validated by human researchers. Over-reliance on AI for tasks like survey design could lead to biased questions or a lack of nuanced understanding, so human oversight remains paramount."
+      "analysis": "At Nubank, these Claude skills can be integrated into various stages of our research workflow, particularly in the analysis and synthesis phases. For instance, after conducting user interviews for a new feature in our PIX flow or for a prospective loan product, researchers could use Claude to clean and transcribe recordings, then prompt it to identify recurring themes, pain points, and JTBDs from the transcripts. This could significantly expedite the process of extracting actionable insights from large volumes of qualitative data, which is common when researching complex areas like insurance policy understanding or credit card activation.\n\nResearchers should approach these tools as powerful assistants, not replacements for critical thinking. When analyzing survey data for a new onboarding flow, for example, Claude can help identify initial patterns, but the researcher must then validate these findings with domain expertise and deeper statistical analysis. It's vital to establish clear prompting guidelines and to always critically review Claude's outputs, especially when dealing with sensitive user data or making recommendations for core products like personal accounts or credit offerings. Ensuring data privacy and the ethical use of AI in research will be paramount, aligning with Nubank's commitment to security and trust."
     }
   ]
 }

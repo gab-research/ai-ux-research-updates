@@ -1,56 +1,56 @@
 {
   "month": "2026-08",
-  "updated": "2026-08-19",
+  "updated": "2026-08-20",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 102,
-      "description": "Covers AI agents performing research tasks autonomously or with minimal human intervention, including exploration, data analysis, and task execution."
+      "count": 34,
+      "description": "Covers AI agents capable of performing multi-step research tasks autonomously, interacting with tools, and making decisions."
     },
     {
       "name": "AI coding assistants",
-      "count": 50,
-      "description": "Focuses on AI tools that assist in writing, debugging, and generating code, impacting software development and research workflows."
+      "count": 29,
+      "description": "Focuses on AI tools that assist developers in writing, debugging, reviewing, and understanding code."
     },
     {
       "name": "AI research tools",
-      "count": 49,
-      "description": "Encompasses a broad range of AI-powered platforms and software designed to aid researchers in various aspects of their work."
+      "count": 24,
+      "description": "Encompasses AI-powered platforms and applications designed to assist researchers in various stages of the research process, from data collection to analysis."
     },
     {
       "name": "AI summarization",
-      "count": 39,
-      "description": "Articles related to AI's ability to condense large amounts of text or data into concise summaries, aiding comprehension and efficiency."
-    },
-    {
-      "name": "AI sentiment feedback",
-      "count": 36,
-      "description": "Covers the use of AI to analyze and interpret user feedback, comments, and reviews to gauge sentiment and identify user needs."
-    },
-    {
-      "name": "AI research platform",
-      "count": 35,
-      "description": "Describes comprehensive AI systems and environments built to facilitate and manage research activities, often integrating multiple AI capabilities."
+      "count": 19,
+      "description": "Articles discussing AI's ability to condense large amounts of text or data into concise summaries."
     },
     {
       "name": "AI for design & research",
-      "count": 26,
-      "description": "Articles focused on how AI is specifically applied to enhance or transform the processes within design and research disciplines."
+      "count": 17,
+      "description": "Articles on AI applications directly supporting the design and user research processes, including idea generation and hypothesis testing."
     },
     {
       "name": "AI tool evaluation",
-      "count": 23,
-      "description": "Covers articles that compare, review, or evaluate the effectiveness and usefulness of various AI tools in UX and research contexts."
+      "count": 17,
+      "description": "Content focused on assessing the utility, effectiveness, and suitability of AI tools for specific UX and research tasks."
     },
     {
-      "name": "AI research tools comparison",
-      "count": 18,
-      "description": "Articles that directly compare and contrast different AI research tools based on features, performance, or usability."
+      "name": "Synthetic users",
+      "count": 15,
+      "description": "Discussions around AI-generated personas or data that simulate user behavior for research and testing purposes."
+    },
+    {
+      "name": "AI-powered data analysis",
+      "count": 15,
+      "description": "Articles detailing how AI is used to analyze user data, extract insights, and identify patterns."
     },
     {
       "name": "AI workforce impact",
-      "count": 17,
-      "description": "Focuses on how AI is changing job roles, skill requirements, and the overall employment landscape within research and related fields."
+      "count": 13,
+      "description": "Explores how AI is changing job roles, creating new opportunities, and impacting employment in research and design fields."
+    },
+    {
+      "name": "AI content generation",
+      "count": 11,
+      "description": "Articles focused on AI's capability to create various forms of content, such as text, images, or code."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
