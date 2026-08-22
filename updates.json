@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-08-22T01:40:14.971Z",
+  "lastUpdated": "2026-08-22T08:38:11.389Z",
   "updates": [
     {
       "date": "2026-08-21",
@@ -866,18 +866,6 @@
         "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260724"
       },
       "analysis": "At Nubank, the 'L-pattern' observation for carousels can directly inform how we structure information within our app, particularly for product discovery or feature highlights. Instead of relying solely on F-pattern thinking, researchers should advocate for placing the most crucial information or call-to-action within the top-left and extending downwards in the initial few items of a carousel, especially in areas like the main dashboard for viewing loan options or insurance policies. This ensures key information doesn't get lost if users don't scan the entire component.\n\nThe broader trend of AI in design and research, as hinted by the AI film win, presents an opportunity for us to explore AI-powered tools for qualitative data analysis or even generative design concepts for new features. However, our primary guardrail should be user-centricity; AI should augment, not replace, human understanding of user needs. For instance, while AI could help summarize user interview transcripts related to PIX transactions, the nuanced emotional context and qualitative insights must still be interpreted by experienced researchers. Similarly, when considering AI for card activation flows or onboarding, we must rigorously test for usability, bias, and overall user delight, ensuring the technology serves our customers, not the other way around."
-    },
-    {
-      "date": "2026-07-23",
-      "title": "Who Owns AI Governance in User Research?",
-      "summary": "What AI governance for user research means, what the law now requires, where the real risks hide, what to do when you have no authority to fix any of it, and how to build a practice that hold",
-      "content": "This article tackles the critical and often overlooked question of who is responsible for the ethical and legal implications of using AI in user research. It highlights that as AI tools become more integrated into our workflows, understanding AI governance is no longer optional but a legal necessity, especially concerning data privacy and bias.  For UX researchers, this means proactively identifying and mitigating potential risks, such as algorithmic discrimination in user segmentation or biased insights from AI-generated summaries, to ensure fair and inclusive product development.  The piece also addresses the common challenge of researchers lacking direct authority over AI tools, advocating for building internal practices and frameworks to manage these risks effectively, even when direct control is limited.",
-      "category": "AI ethics in research",
-      "source": {
-        "name": "Nikki Anderson (User Research Strategist)",
-        "url": "https://www.userresearchstrategist.com/p/who-owns-ai-governance-in-user-research"
-      },
-      "analysis": "At Nubank, this article's focus on AI governance directly impacts our research processes across all product areas, from PIX transactions to loan applications and onboarding flows. Researchers should proactively assess any AI tools they use for generating insights, summarizing interviews, or even creating synthetic user personas. This means asking critical questions about data sources, potential biases, and how user data is handled by these AI systems. For instance, when analyzing feedback for our credit card activation process or assessing user sentiment around new insurance offerings, we must ensure any AI-driven analysis doesn't inadvertently reinforce existing societal biases or compromise user privacy, aligning with our commitment to data security and fair treatment for all Nubank customers.\n\nPractically, this translates to incorporating AI governance checkpoints into our existing research lifecycle. Before deploying an AI tool, researchers should document its intended use, data requirements, and potential ethical considerations. This documentation should be shared with relevant teams (e.g., Data Science, Legal, Compliance) to ensure alignment and gain necessary approvals. Where researchers lack direct control over tool implementation, they should advocate for clear guidelines and best practices within the research team, focusing on transparent reporting of AI-assisted findings and rigorous human oversight. This proactive approach ensures that even as we leverage AI to accelerate insights, we uphold Nubank's core values of transparency, fairness, and customer trust in every aspect of our research."
     }
   ]
 }
