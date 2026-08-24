@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-08-23T16:34:05.041Z",
+  "lastUpdated": "2026-08-24T01:47:39.320Z",
   "updates": [
     {
       "date": "2026-08-23",
@@ -842,18 +842,6 @@
         "url": "https://cms.greatquestion.co/blog/mcp-for-user-research"
       },
       "analysis": "At Nubank, this \"MCP server\" capability could profoundly enhance our research workflow by allowing researchers to query our vast repository of insights from diverse product areas like PIX, personal loans, and credit card activation. Imagine a researcher needing to understand user pain points related to onboarding for new Nubank customers or the evolution of concerns regarding insurance policies over the past three years. Instead of manually reviewing hundreds of transcripts, they could simply ask the AI, \"What are the most common friction points users experience during the Nubank onboarding process over the last two years?\" or \"Show me trends in user feedback regarding credit card insurance claims.\"\n\nTo apply this, researchers would integrate their project repositories with the Great Question platform, ensuring data is properly tagged and organized. The guardrails are crucial: while AI can synthesize information, it's not a replacement for critical thinking. Researchers must validate AI-generated insights against original qualitative data and consider potential biases in the AI model or the training data. For sensitive customer data, especially concerning financial information in areas like loan applications or PIX transactions, strict data anonymization and access controls will be paramount, ensuring compliance with Nubank's robust privacy policies before any AI analysis is performed."
-    },
-    {
-      "date": "2026-07-24",
-      "title": "UX-Context Design: Using UX Knowledge to Inform AI-Generated Design",
-      "summary": "As more interface work is AI-generated, the output of research and design shifts from documents written for humans to curated context that guides AI.",
-      "content": "The Nielsen Norman Group article \"UX-Context Design\" argues that as AI increasingly handles design generation, UX research's primary output must evolve. Instead of producing extensive reports for human consumption, researchers need to focus on creating rich, structured \"UX-context\" that effectively guides and constrains AI tools. This shift is crucial for ensuring that AI-generated designs align with user needs, business goals, and established UX principles. By providing precise, contextual input, UX researchers can ensure AI acts as a powerful amplifier of their expertise, rather than an uncontrolled generative force, leading to more consistent and user-centric digital experiences.",
-      "category": "AI for design & research",
-      "source": {
-        "name": "Nielsen Norman Group",
-        "url": "https://www.nngroup.com/articles/ux-context-design/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication"
-      },
-      "analysis": "At Nubank, this \"UX-Context Design\" approach fits directly into our existing research workflow, particularly during the ideation and prototyping phases for new features or improvements across products like PIX, personal loans, or card activation. Researchers should actively translate their user insights and heuristic evaluations into structured \"prompts\" or \"constraints\" for AI design tools. For instance, when exploring new onboarding flows, instead of just sharing a user journey map, a researcher could feed the AI specific data points about common pain points identified during user interviews, preferred visual styles for Brazilian users, and mandatory regulatory disclosures, ensuring the AI-generated interfaces are relevant and compliant. This means investing in developing standardized templates or frameworks for packaging research findings into actionable AI inputs. Guardrails are essential: AI outputs should always undergo rigorous human review and usability testing, especially for critical flows like loan applications or insurance policy presentations. We must avoid an over-reliance on AI and maintain our core UX principles, using AI as a tool to accelerate and enhance, not replace, our deep understanding of the Nubank user."
     }
   ]
 }
