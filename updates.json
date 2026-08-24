@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-08-24T08:59:16.527Z",
+  "lastUpdated": "2026-08-24T16:47:30.735Z",
   "updates": [
+    {
+      "date": "2026-08-24",
+      "title": "UX Roundup: Benchmarking Office Work | AI Undermines Billable Hours | AI as Delegate | Error Recovery | Pareto Frontier | Left-Digit Effect | Empty States | AI Use Differences | Educational Video",
+      "summary": "Chinese AI models deliver 64% of entry-level human office-work quality in new benchmark | AI breaks the billable-hours model for consulting and shifts it to outcome-based pricing | Workers delegate whole tasks to AI but rarely review the output | Turning error messages into re...",
+      "content": "Jakob Nielsen's latest UX Roundup highlights the burgeoning impact of AI on professional work, particularly in office settings. A key takeaway is the significant capability of AI models to perform tasks at a level comparable to entry-level human workers, demonstrated by a benchmark of Chinese AI. This development has profound implications for service industries, as AI's efficiency threatens to disrupt traditional billable-hour models, pushing for a shift towards outcome-based pricing in areas like consulting. For UX researchers, understanding AI's current performance and its potential to automate tasks is crucial, as it may influence how we design and evaluate user experiences, especially concerning error handling and the delegation of work.",
+      "category": "AI tool evaluation",
+      "source": {
+        "name": "Jakob Nielsen (Substack)",
+        "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260824"
+      },
+      "analysis": "This article is highly relevant for Nubank UX researchers as AI's increasing capabilities directly affect our operational efficiency and the user experiences we design. For example, AI's ability to generate content or summarize information could be leveraged to accelerate the creation of initial user journey maps or competitive analysis reports for new product features like a potential micro-loan application flow or the onboarding process for new insurance products. Researchers could use AI to draft initial versions of error messages for the PIX transaction confirmation screen or card activation process, allowing them to focus on refining the human-centric aspects and user testing. \n\nWhen applying this, researchers should treat AI-generated output as a starting point, not a final product. Thorough human review and validation are essential, especially for customer-facing communications and critical decision-making processes. We must be mindful of potential biases in AI models and ensure that our research remains grounded in genuine user needs and ethical considerations. For instance, while AI might suggest error recovery steps for a failed loan application, a UX researcher's role is to ensure those steps are empathetic, clear, and genuinely help the user resolve the issue, avoiding a purely technical or automated response that could alienate customers."
+    },
     {
       "date": "2026-08-23",
       "title": "Sterling Cooper built your UX process. We need to redefine it in the age of AI and systems.",
