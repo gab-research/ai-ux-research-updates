@@ -1,56 +1,56 @@
 {
   "month": "2026-08",
-  "updated": "2026-08-25",
+  "updated": "2026-08-26",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 144,
-      "description": "Covers AI agents and systems designed to autonomously perform research tasks, from data collection to analysis and execution."
+      "count": 95,
+      "description": "Articles discussing AI agents that can perform research tasks autonomously, make decisions, and execute actions independently."
     },
     {
       "name": "AI coding assistants",
-      "count": 117,
-      "description": "Focuses on AI tools that help developers write, debug, refactor, and understand code."
+      "count": 75,
+      "description": "Content focused on AI tools that help developers write, debug, and optimize code."
     },
     {
       "name": "AI research tools",
-      "count": 98,
-      "description": "Encompasses articles discussing the landscape, comparison, and impact of AI tools specifically designed for research purposes."
-    },
-    {
-      "name": "AI chatbot research",
-      "count": 69,
-      "description": "Articles detailing research into the use, behavior, and impact of AI chatbots, particularly in user interaction and support contexts."
-    },
-    {
-      "name": "AI for design & research",
-      "count": 66,
-      "description": "Explores how AI is being applied to aid in the design process and enhance UX research methodologies."
+      "count": 61,
+      "description": "Articles covering a broad range of AI-powered platforms and software designed to assist researchers in various aspects of their work."
     },
     {
       "name": "AI summarization",
-      "count": 53,
-      "description": "Covers AI's ability to condense large amounts of text into concise summaries for research and information consumption."
+      "count": 35,
+      "description": "Content about AI's ability to condense large amounts of text, audio, or video into concise summaries."
+    },
+    {
+      "name": "AI for design & research",
+      "count": 29,
+      "description": "Articles exploring how AI is being integrated into the design process and tools used by UX and product designers."
+    },
+    {
+      "name": "AI chatbot research",
+      "count": 28,
+      "description": "Focuses on the use and implications of AI chatbots in various research contexts, including user studies and therapeutic applications."
+    },
+    {
+      "name": "AI tool evaluation",
+      "count": 27,
+      "description": "Articles discussing the assessment, comparison, and selection of AI tools for UX and research purposes."
     },
     {
       "name": "AI research tools comparison",
-      "count": 41,
-      "description": "Focuses on articles that directly compare different AI tools for research tasks, evaluating their performance and features."
+      "count": 22,
+      "description": "Content that directly compares different AI tools and platforms for research and analysis."
     },
     {
       "name": "AI workforce impact",
-      "count": 37,
-      "description": "Examines how AI is affecting jobs, skills, hiring, and overall workforce dynamics."
+      "count": 17,
+      "description": "Articles examining how AI is affecting jobs, skills, and the overall workforce, particularly in research and development roles."
     },
     {
-      "name": "AI assisted recruitment",
-      "count": 35,
-      "description": "Details the use of AI in hiring processes, from sourcing candidates to interview analysis and selection."
-    },
-    {
-      "name": "AI ethics in research",
-      "count": 24,
-      "description": "Addresses the ethical considerations and challenges of using AI in research and product development."
+      "name": "AI-assisted recruitment",
+      "count": 14,
+      "description": "Content related to AI tools and strategies used in the hiring and recruitment process."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
