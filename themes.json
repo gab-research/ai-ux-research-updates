@@ -1,56 +1,56 @@
 {
   "month": "2026-08",
-  "updated": "2026-08-26",
+  "updated": "2026-08-27",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 75,
-      "description": "Articles discussing AI agents capable of performing complex, autonomous tasks in research settings, from data analysis to conducting interviews."
-    },
-    {
-      "name": "AI research tools",
-      "count": 70,
-      "description": "Content focusing on specific AI-powered tools and platforms designed to aid researchers in various stages of their work, such as data collection, analysis, and synthesis."
+      "count": 69,
+      "description": "Articles discussing AI agents that can independently perform research tasks, analyze data, and make decisions without constant human input."
     },
     {
       "name": "AI coding assistants",
-      "count": 51,
-      "description": "Articles detailing AI tools that assist developers in writing, reviewing, debugging, and optimizing code."
-    },
-    {
-      "name": "AI for design & research",
-      "count": 49,
-      "description": "Discussions on how AI is being applied to creative processes in design and user research, including image generation, UI design, and concept generation."
-    },
-    {
-      "name": "AI chatbot research",
       "count": 42,
-      "description": "Explores the use of AI chatbots for research purposes, including their capabilities, limitations, and impact on user interactions and mental health."
+      "description": "Tools and research focused on AI that assists developers in writing, debugging, and optimizing code."
+    },
+    {
+      "name": "AI research tools",
+      "count": 38,
+      "description": "Platforms, software, and frameworks specifically designed to aid researchers in various stages of their work."
     },
     {
       "name": "AI summarization",
-      "count": 37,
-      "description": "Content related to AI's ability to condense large amounts of text into concise summaries, aiding in information processing and research."
+      "count": 32,
+      "description": "Content related to AI's ability to condense large amounts of text into concise summaries, useful for research and content consumption."
+    },
+    {
+      "name": "AI for design & research",
+      "count": 30,
+      "description": "Applications of AI directly supporting the UX design process, from ideation to prototyping and iteration."
+    },
+    {
+      "name": "Conversational AI in research",
+      "count": 28,
+      "description": "Focuses on AI chatbots and conversational agents used for qualitative data collection, user interviews, and feedback."
+    },
+    {
+      "name": "AI tool evaluation",
+      "count": 27,
+      "description": "Articles that compare, review, or benchmark different AI tools and platforms available for UX and research."
+    },
+    {
+      "name": "Synthetic users",
+      "count": 23,
+      "description": "Content discussing the creation and use of artificial user representations for testing and research purposes."
     },
     {
       "name": "AI workforce impact",
-      "count": 35,
-      "description": "Articles examining how AI is affecting jobs, skills requirements, and the overall employment landscape, with a focus on research and development roles."
+      "count": 19,
+      "description": "Research and discussions on how AI is affecting jobs, employment, skills, and the overall professional landscape."
     },
     {
-      "name": "AI usability testing",
-      "count": 25,
-      "description": "Focuses on AI's role in automating, augmenting, or analyzing usability testing processes and results."
-    },
-    {
-      "name": "AI customer insights",
-      "count": 25,
-      "description": "Articles discussing how AI is used to extract, analyze, and interpret customer data to derive actionable insights."
-    },
-    {
-      "name": "AI research platform",
-      "count": 24,
-      "description": "Covers platforms and ecosystems built around AI that facilitate various aspects of scientific and market research."
+      "name": "AI-powered data analysis",
+      "count": 17,
+      "description": "The application of AI techniques to analyze research data, extract insights, and identify patterns."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
