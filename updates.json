@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-08-28T00:50:20.323Z",
+  "lastUpdated": "2026-08-28T20:09:34.396Z",
   "updates": [
+    {
+      "date": "2026-08-28",
+      "title": "UX Roundup: UX Slogans | Improve Google Search Results | Outdated Academic Research | Staff vs. Executive AI Use | Free AI | Bosses Decide AI Culture | Technology Acceptance Model | Getting AI Accepte",
+      "summary": "Summary: Top 10 UX slogans explained by Greek gods | Improve your Google search results by boosting the sites you like | Academic research on AI user experience uses outdated models | Worker bees send 13 more AI messages per week than their executives | Free AI accounts domina...",
+      "content": "Summary: Top 10 UX slogans explained by Greek gods | Improve your Google search results by boosting the sites you like | Academic research on AI user experience uses outdated models | Worker bees send 13 more AI messages per week than their executives | Free AI accounts dominate even in the enterprise | AI splits company culture down the middle, and managers are the tiebreaker | The Unified Theory of Acceptance and Use of Technology: the 4 forces that decide whether users adopt | 7-step action plan to reduce AI stigma | Too many systems stack setup barriers in front of new users | Design guidelines for sliders: the analog knob of the GUI | Testing with 5 users is cheaper than failure",
+      "category": "AI research tools",
+      "source": {
+        "name": "Jakob Nielsen (Substack)",
+        "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260828"
+      },
+      "analysis": ""
+    },
     {
       "date": "2026-08-24",
       "title": "UX Roundup: Benchmarking Office Work | AI Undermines Billable Hours | AI as Delegate | Error Recovery | Pareto Frontier | Left-Digit Effect | Empty States | AI Use Differences | Educational Video",
@@ -542,30 +554,6 @@
         "url": "https://openai.com/index/avatarin"
       },
       "analysis": "At Nubank, this GPT-Realtime application could be integrated into our customer support flows, particularly for high-volume inquiries. Imagine an AI agent assisting users with common questions related to PIX transactions, loan eligibility, or card activation, freeing up human agents for more complex issues. This could be deployed on our app's help section or even proactively pop up during specific onboarding or account management tasks.  Researchers could analyze the transcripts of these AI interactions to identify pain points and emerging user needs across various product lines like insurance or credit.\n\nTo apply this, we'd need to define clear use cases and train the AI on Nubank-specific language, product details, and common user journeys.  Guardrails are crucial: the AI should be designed to escalate to human agents for sensitive financial advice, complex troubleshooting, or when a user expresses significant frustration.  We must also ensure data privacy and security are paramount, with robust anonymization and ethical AI principles guiding its implementation. Initial deployment could focus on informational queries before expanding to more interactive assistance."
-    },
-    {
-      "date": "2026-07-29",
-      "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
-      "summary": "How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.",
-      "content": "This OpenAI blog post details how optimizing two specific API settings significantly improved GPT-5.6's performance on the ARC-AGI-3 benchmark, a challenging test of reasoning capabilities. By implementing 'retain reasoning' and 'enable compaction,' the model demonstrated a substantial increase in its ability to solve complex problems and maintain contextual coherence. For UX researchers, this signifies the potential for AI assistants to offer more sophisticated and reliable assistance in tasks like synthesizing qualitative data, generating user journey maps, or even simulating user behavior, ultimately leading to deeper insights and more efficient research processes.",
-      "category": "General AI in research",
-      "source": {
-        "name": "OpenAI Blog",
-        "url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores"
-      },
-      "analysis": "At Nubank, this breakthrough offers a direct opportunity to enhance our AI-powered research tools. For instance, when analyzing feedback from PIX transactions or loan applications, researchers could leverage models tuned with these settings to better grasp nuanced customer pain points and underlying reasoning behind their decisions. This could lead to more accurate identification of friction points in the onboarding flow or insurance policy comparisons.\n\nTo implement this, our AI research enablement team should investigate integrating these optimized API settings into our internal LLM-powered research platforms. UX researchers should then be trained on how to prompt these enhanced models for tasks like qualitative data summarization, persona development, and even generating initial hypotheses for user testing. It's crucial to remember that while these settings improve performance, they are still AI. Researchers must maintain critical oversight, validating AI-generated insights against raw data and their own domain expertise, especially when dealing with sensitive areas like card activation or sensitive financial advice."
-    },
-    {
-      "date": "2026-07-29",
-      "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
-      "summary": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
-      "content": "OpenAI's initiative to provide advanced ChatGPT models to 100,000 academic researchers signifies a broader trend towards leveraging AI for complex tasks. This move aims to expedite the process of scientific discovery, foster greater collaboration among researchers, and unlock new avenues of knowledge. For UX researchers, this presents an opportunity to explore how similar advanced AI capabilities can be integrated into our own workflows, potentially accelerating insight generation from user data and improving the speed and quality of our research outputs.",
-      "category": "Conversational AI in research",
-      "source": {
-        "name": "OpenAI Blog",
-        "url": "https://openai.com/index/chatgpt-for-academic-researchers"
-      },
-      "analysis": "At Nubank, this initiative highlights how advanced AI can augment our research capabilities, not replace them. For instance, when analyzing qualitative data from user interviews about our PIX transfer experience or loan application process, ChatGPT could help us quickly identify recurring themes, sentiment shifts, or emerging pain points that might be time-consuming to spot manually. This could allow us to dedicate more time to deeper analysis, synthesizing findings, and strategizing based on richer insights, rather than getting bogged down in initial data triage. Similarly, when exploring user feedback on our card activation flow or onboarding for insurance products, AI could surface patterns that inform iterative design improvements faster.\n\nResearchers should approach this by viewing ChatGPT as a powerful co-pilot. It can be used to brainstorm research questions, generate initial hypotheses based on existing literature or anonymized user feedback summaries, or even draft preliminary user personas. However, it's crucial to remember that AI models, while advanced, can hallucinate or present biased information. All outputs must be critically reviewed, validated against our own research data, and filtered through the lens of Nubank's specific user needs and business objectives. We must maintain our human-centric approach, ensuring that AI assists in uncovering user truths, not dictating them. Ethical considerations and data privacy will also remain paramount; any use cases must strictly adhere to Nubank's data governance policies."
     }
   ]
 }
