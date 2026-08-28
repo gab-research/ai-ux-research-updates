@@ -1,56 +1,56 @@
 {
   "month": "2026-08",
-  "updated": "2026-08-27",
+  "updated": "2026-08-28",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 69,
-      "description": "Articles discussing AI agents that can independently perform research tasks, analyze data, and make decisions without constant human input."
+      "count": 47,
+      "description": "This theme covers AI agents designed to perform research tasks autonomously or with minimal human intervention, including agents for data analysis, discovery, and execution of research workflows."
     },
     {
       "name": "AI coding assistants",
-      "count": 42,
-      "description": "Tools and research focused on AI that assists developers in writing, debugging, and optimizing code."
+      "count": 43,
+      "description": "This theme focuses on AI tools and research that assist developers in writing, debugging, and understanding code, including discussions on security vulnerabilities and effectiveness."
     },
     {
       "name": "AI research tools",
-      "count": 38,
-      "description": "Platforms, software, and frameworks specifically designed to aid researchers in various stages of their work."
-    },
-    {
-      "name": "AI summarization",
-      "count": 32,
-      "description": "Content related to AI's ability to condense large amounts of text into concise summaries, useful for research and content consumption."
-    },
-    {
-      "name": "AI for design & research",
-      "count": 30,
-      "description": "Applications of AI directly supporting the UX design process, from ideation to prototyping and iteration."
+      "count": 39,
+      "description": "This theme encompasses a broad range of AI-powered platforms and tools specifically designed to aid researchers in various aspects of their work, from data collection to analysis and synthesis."
     },
     {
       "name": "Conversational AI in research",
-      "count": 28,
-      "description": "Focuses on AI chatbots and conversational agents used for qualitative data collection, user interviews, and feedback."
+      "count": 34,
+      "description": "This theme covers AI chatbots and conversational agents used to interact with users, gather information, provide support, or conduct research dialogues."
+    },
+    {
+      "name": "AI for design & research",
+      "count": 27,
+      "description": "This theme explores the intersection of AI with user experience (UX) and product design, focusing on AI's role in informing design decisions and enhancing the research process."
+    },
+    {
+      "name": "AI summarization",
+      "count": 18,
+      "description": "This theme covers AI tools and techniques used to condense large amounts of text or data into concise summaries, aiding in efficient information processing."
     },
     {
       "name": "AI tool evaluation",
-      "count": 27,
-      "description": "Articles that compare, review, or benchmark different AI tools and platforms available for UX and research."
-    },
-    {
-      "name": "Synthetic users",
-      "count": 23,
-      "description": "Content discussing the creation and use of artificial user representations for testing and research purposes."
+      "count": 17,
+      "description": "This theme focuses on reviews, comparisons, and analyses of various AI tools, assessing their performance, usability, and effectiveness for specific tasks."
     },
     {
       "name": "AI workforce impact",
-      "count": 19,
-      "description": "Research and discussions on how AI is affecting jobs, employment, skills, and the overall professional landscape."
+      "count": 15,
+      "description": "This theme examines the effects of AI on employment, job displacement, skill requirements, and the evolving nature of work across different industries."
     },
     {
-      "name": "AI-powered data analysis",
-      "count": 17,
-      "description": "The application of AI techniques to analyze research data, extract insights, and identify patterns."
+      "name": "AI recruitment research",
+      "count": 15,
+      "description": "This theme focuses on AI's application in hiring processes, including AI tools for candidate sourcing, screening, bias detection, and assessing AI skills."
+    },
+    {
+      "name": "Synthetic users",
+      "count": 13,
+      "description": "This theme covers the creation and use of artificial or simulated users for testing and research purposes, including discussions on synthetic data and focus groups."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
