@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 94,
-      "description": "Focuses on AI systems that can autonomously plan, execute, and adapt research tasks."
+      "count": 122,
+      "description": "Focuses on AI systems designed to autonomously perform research tasks and workflows with minimal human intervention."
     },
     {
       "name": "AI coding assistants",
-      "count": 42,
-      "description": "Explores AI tools that help developers write, debug, and optimize code."
+      "count": 110,
+      "description": "Covers AI tools that assist developers in writing, debugging, and optimizing code."
     },
     {
       "name": "AI research tools",
-      "count": 37,
-      "description": "Covers various AI applications designed to assist in the research process, from data collection to analysis."
-    },
-    {
-      "name": "AI usability testing",
-      "count": 26,
-      "description": "Discusses AI applications for evaluating and improving the usability of products and systems."
+      "count": 98,
+      "description": "Articles detailing specific software and platforms designed to aid researchers in various aspects of their work."
     },
     {
       "name": "AI summarization",
-      "count": 24,
-      "description": "Highlights AI's ability to condense large amounts of text or data into concise summaries."
-    },
-    {
-      "name": "AI-assisted recruitment",
-      "count": 22,
-      "description": "Focuses on AI tools and strategies used to streamline and improve the hiring process."
-    },
-    {
-      "name": "AI qualitative research",
-      "count": 20,
-      "description": "Explores AI applications in understanding nuanced human experiences, opinions, and behaviors."
-    },
-    {
-      "name": "AI design research",
-      "count": 19,
-      "description": "Covers AI's role in informing and enhancing the design process for products and interfaces."
-    },
-    {
-      "name": "AI workforce impact",
-      "count": 17,
-      "description": "Examines how AI is changing job roles, skill requirements, and employment landscapes."
+      "count": 77,
+      "description": "Explores AI's capability to condense large amounts of text, such as meeting transcripts or research papers, into concise summaries."
     },
     {
       "name": "AI chatbot research",
-      "count": 16,
-      "description": "Investigates user interactions, behaviors, and impacts related to AI-powered conversational agents."
+      "count": 69,
+      "description": "Focuses on the use and impact of AI chatbots in various contexts, including mental health, companionship, and information retrieval."
+    },
+    {
+      "name": "AI workforce impact",
+      "count": 66,
+      "description": "Examines how AI is changing job roles, employment rates, and the skills required in the workforce."
+    },
+    {
+      "name": "AI design research",
+      "count": 61,
+      "description": "Discusses how AI is being applied to enhance the design process, from user interface generation to design system management."
+    },
+    {
+      "name": "AI tool evaluation",
+      "count": 59,
+      "description": "Articles that compare, review, and rank different AI tools and platforms based on their features and performance."
+    },
+    {
+      "name": "AI recruitment research",
+      "count": 57,
+      "description": "Covers the use of AI in hiring processes, including talent acquisition, candidate screening, and job market analysis."
+    },
+    {
+      "name": "AI customer insights",
+      "count": 54,
+      "description": "Focuses on how AI is used to gather, analyze, and derive actionable insights from customer data and behavior."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
