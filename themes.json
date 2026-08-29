@@ -1,56 +1,56 @@
 {
   "month": "2026-08",
-  "updated": "2026-08-28",
+  "updated": "2026-08-29",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 103,
-      "description": "Articles focusing on AI agents that can perform research tasks autonomously, taking initiative and executing complex workflows."
-    },
-    {
-      "name": "AI research tools",
-      "count": 88,
-      "description": "Tools and platforms that leverage AI to assist researchers in various aspects of their work, from data collection to analysis."
-    },
-    {
-      "name": "AI summarization",
-      "count": 50,
-      "description": "Applications of AI that condense large amounts of text, research papers, or meeting transcripts into concise summaries."
+      "count": 94,
+      "description": "Focuses on AI systems that can autonomously plan, execute, and adapt research tasks."
     },
     {
       "name": "AI coding assistants",
-      "count": 46,
-      "description": "AI tools designed to help developers write, debug, and optimize code, often integrating with IDEs or code editors."
+      "count": 42,
+      "description": "Explores AI tools that help developers write, debug, and optimize code."
     },
     {
-      "name": "AI workforce impact",
-      "count": 33,
-      "description": "Research and discussions on how AI is affecting jobs, employment, skill requirements, and the overall labor market."
-    },
-    {
-      "name": "AI chatbot research",
-      "count": 33,
-      "description": "Studies and analyses of user interactions with AI chatbots, including their impact on mental health, decision-making, and companionship."
-    },
-    {
-      "name": "AI for design & research",
-      "count": 29,
-      "description": "AI applications specifically for enhancing the design process and user research activities, including ideation and prototyping."
+      "name": "AI research tools",
+      "count": 37,
+      "description": "Covers various AI applications designed to assist in the research process, from data collection to analysis."
     },
     {
       "name": "AI usability testing",
-      "count": 17,
-      "description": "The use of AI to automate, enhance, or analyze usability testing processes for products and services."
+      "count": 26,
+      "description": "Discusses AI applications for evaluating and improving the usability of products and systems."
     },
     {
-      "name": "AI customer insights",
+      "name": "AI summarization",
+      "count": 24,
+      "description": "Highlights AI's ability to condense large amounts of text or data into concise summaries."
+    },
+    {
+      "name": "AI-assisted recruitment",
+      "count": 22,
+      "description": "Focuses on AI tools and strategies used to streamline and improve the hiring process."
+    },
+    {
+      "name": "AI qualitative research",
       "count": 20,
-      "description": "Leveraging AI to analyze customer data and feedback to derive actionable insights for business and product development."
+      "description": "Explores AI applications in understanding nuanced human experiences, opinions, and behaviors."
     },
     {
-      "name": "AI sentiment & feedback analysis",
-      "count": 14,
-      "description": "Using AI to automatically process and understand the sentiment and opinions expressed in text or voice data."
+      "name": "AI design research",
+      "count": 19,
+      "description": "Covers AI's role in informing and enhancing the design process for products and interfaces."
+    },
+    {
+      "name": "AI workforce impact",
+      "count": 17,
+      "description": "Examines how AI is changing job roles, skill requirements, and employment landscapes."
+    },
+    {
+      "name": "AI chatbot research",
+      "count": 16,
+      "description": "Investigates user interactions, behaviors, and impacts related to AI-powered conversational agents."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
