@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-08-30T05:03:42.315Z",
+  "lastUpdated": "2026-08-30T13:46:03.820Z",
   "updates": [
     {
       "date": "2026-08-28",
@@ -530,18 +530,6 @@
         "url": "https://uxdesign.cc/perplexity-diverges-with-color-cad28cbe7bad?source=rss----138adf9c44c---4"
       },
       "analysis": "At Nubank, this AI-driven approach to color schemes can be integrated into our data visualization workflows for product analytics and customer journey mapping. For instance, when analyzing PIX transaction patterns or loan default probabilities, researchers can utilize Generative AI to create intuitive color palettes that make complex datasets instantly digestible. This would empower us to more quickly identify user pain points in flows like card activation or insurance claims.\n\nResearchers should actively experiment with these AI tools when designing dashboards for A/B testing results or performance reviews of new features. The AI can generate options based on specific data types and desired outcomes, reducing the time spent on subjective color selection. It's important to establish guardrails: always validate AI-generated palettes with user testing to ensure they truly reduce perplexity and don't introduce new biases or accessibility issues, especially for visually impaired users. These palettes should complement, not dictate, our existing design language for consistency across all Nubank products."
-    },
-    {
-      "date": "2026-07-31",
-      "title": "How to build a landing page using Claude Haiku 4.5 + Custom Design Systems  –  Use UXPin Merge!",
-      "summary": "Use AI to draft structure and copy, build with UXPin Merge's code-backed React components, and validate accessibility and U.S. formats. The post How to build a landing page using Claude Haiku 4.5 + Custom Design Systems – Use UXPin Merge! appeared first on Studio by UXPin.",
-      "content": "Use AI to draft structure and copy, build with UXPin Merge's code-backed React components, and validate accessibility and U.S. formats. The post How to build a landing page using Claude Haiku 4.5 + Custom Design Systems – Use UXPin Merge! appeared first on Studio by UXPin.",
-      "category": "Automated usability checks",
-      "source": {
-        "name": "UXPin Blog",
-        "url": "https://www.uxpin.com/studio/blog/build-landing-page-claude-haiku-4-5-custom-design-systems-uxpin-merge/"
-      },
-      "analysis": "At Nubank, this approach can be integrated into our early-stage product validation and concept testing phases. For example, when exploring a new insurance product or a revamped PIX experience, researchers can use Claude Haiku to generate initial landing page copy and structural frameworks, quickly creating variations to test user understanding and appeal. This allows us to gather qualitative feedback on messaging and information hierarchy much faster than traditional methods, informing iterative design improvements before substantial engineering investment.\n\nResearchers should employ this tool primarily for rapid prototyping and concept validation, focusing on areas like card activation flows or onboarding tutorials where clear communication is paramount. It's crucial to remember that AI-generated content and structures are starting points, not final products. Human oversight and critical evaluation are essential. We must ensure that all generated content aligns with Nubank's brand voice, cultural nuances, and legal requirements, and that the designs remain accessible and user-friendly for the diverse Brazilian audience, especially for sensitive financial products like loans or credit card applications. Avoid using this for highly complex, regulated flows without rigorous human review."
     }
   ]
 }

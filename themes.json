@@ -3,29 +3,34 @@
   "updated": "2026-08-30",
   "themes": [
     {
-      "name": "Survey optimization",
-      "count": 96,
-      "description": "AI tools for designing better surveys, reducing bias, and analyzing responses."
-    },
-    {
       "name": "AI research tools",
-      "count": 95,
+      "count": 115,
       "description": "New AI tool launches, reviews, and platforms built for research workflows."
     },
     {
+      "name": "Survey optimization",
+      "count": 98,
+      "description": "AI tools for designing better surveys, reducing bias, and analyzing responses."
+    },
+    {
       "name": "Conversational AI in research",
-      "count": 57,
+      "count": 59,
       "description": "Chatbots, virtual assistants, and voice AI in research contexts."
     },
     {
       "name": "AI-powered data analysis",
-      "count": 51,
+      "count": 56,
       "description": "Automated data analysis, clustering, segmentation, and pattern detection."
     },
     {
       "name": "AI coding assistants",
-      "count": 48,
+      "count": 50,
       "description": "Copilot, Claude Code, Cursor, and other AI tools for code generation and development."
+    },
+    {
+      "name": "Agentic AI in research",
+      "count": 43,
+      "description": "Autonomous AI agents running research tasks, multi-agent frameworks, and orchestration."
     },
     {
       "name": "AI workforce impact",
@@ -33,24 +38,19 @@
       "description": "AI replacing roles, future of work, skills gap, reskilling, and organizational change."
     },
     {
-      "name": "Agentic AI in research",
-      "count": 36,
-      "description": "Autonomous AI agents running research tasks, multi-agent frameworks, and orchestration."
-    },
-    {
       "name": "AI tool evaluation",
-      "count": 25,
+      "count": 26,
       "description": "Comparing, benchmarking, and selecting AI tools and LLMs for specific use cases."
     },
     {
       "name": "AI ethics in research",
-      "count": 20,
+      "count": 21,
       "description": "Bias, fairness, responsible AI, privacy, and trust in research."
     },
     {
-      "name": "AI content generation",
+      "name": "AI summarization",
       "count": 15,
-      "description": "AI writing, report generation, UX copy, and content creation."
+      "description": "Automated transcript summaries, theme extraction, and affinity mapping."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
