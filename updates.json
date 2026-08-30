@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-08-29T19:21:22.107Z",
+  "lastUpdated": "2026-08-30T05:03:42.315Z",
   "updates": [
     {
       "date": "2026-08-28",
@@ -535,25 +535,13 @@
       "date": "2026-07-31",
       "title": "How to build a landing page using Claude Haiku 4.5 + Custom Design Systems  –  Use UXPin Merge!",
       "summary": "Use AI to draft structure and copy, build with UXPin Merge's code-backed React components, and validate accessibility and U.S. formats. The post How to build a landing page using Claude Haiku 4.5 + Custom Design Systems – Use UXPin Merge! appeared first on Studio by UXPin.",
-      "content": "This article outlines a novel approach to rapid landing page creation by integrating AI-powered content generation with a robust design system. By leveraging Claude Haiku 4.5, UX designers and researchers can quickly prototype structures and draft copy, significantly accelerating the ideation phase. The integration with UXPin Merge's code-backed React components ensures that these AI-generated designs are not just visually appealing but also technically sound and ready for development. This methodology is crucial for UX researchers as it allows for faster iteration on messaging and visual presentation for new product launches or feature announcements, directly impacting the speed at which we can test user comprehension and desirability of new offerings.",
+      "content": "Use AI to draft structure and copy, build with UXPin Merge's code-backed React components, and validate accessibility and U.S. formats. The post How to build a landing page using Claude Haiku 4.5 + Custom Design Systems – Use UXPin Merge! appeared first on Studio by UXPin.",
       "category": "Automated usability checks",
       "source": {
         "name": "UXPin Blog",
         "url": "https://www.uxpin.com/studio/blog/build-landing-page-claude-haiku-4-5-custom-design-systems-uxpin-merge/"
       },
       "analysis": "At Nubank, this approach can be integrated into our early-stage product validation and concept testing phases. For example, when exploring a new insurance product or a revamped PIX experience, researchers can use Claude Haiku to generate initial landing page copy and structural frameworks, quickly creating variations to test user understanding and appeal. This allows us to gather qualitative feedback on messaging and information hierarchy much faster than traditional methods, informing iterative design improvements before substantial engineering investment.\n\nResearchers should employ this tool primarily for rapid prototyping and concept validation, focusing on areas like card activation flows or onboarding tutorials where clear communication is paramount. It's crucial to remember that AI-generated content and structures are starting points, not final products. Human oversight and critical evaluation are essential. We must ensure that all generated content aligns with Nubank's brand voice, cultural nuances, and legal requirements, and that the designs remain accessible and user-friendly for the diverse Brazilian audience, especially for sensitive financial products like loans or credit card applications. Avoid using this for highly complex, regulated flows without rigorous human review."
-    },
-    {
-      "date": "2026-07-31",
-      "title": "UX Roundup: Web Design for AI Agents | AI Assistants Beat Brand Websites | Ship, Learn, Iterate | AI as Business Strategist | AI-Assisted Creativity for Children | Infinite Canvas | Scott McCloud",
-      "summary": "Agent-ready web design lifts AI task success | Shoppers now pick AI assistants over brand websites, 41% to 38% | Learn from reality: build and iterate | AI getting better at business strategy, but still not good enough to run your company | AI raised the floor but lowered the...",
-      "content": "Jakob Nielsen's latest UX Roundup highlights a significant shift in how users interact with information online, driven by the rise of AI agents. The article emphasizes that websites need to be designed with AI agents in mind, as users are increasingly turning to these assistants for information, even surpassing direct brand website engagement for certain tasks like shopping. This underscores a critical need for UX researchers to understand and adapt to AI-driven user journeys, as failing to do so could lead to reduced task success rates and diminished brand visibility. The core takeaway is the imperative to design for an AI-mediated future, ensuring our digital products are discoverable and effective through these new interfaces.",
-      "category": "Agentic AI in research",
-      "source": {
-        "name": "Jakob Nielsen (Substack)",
-        "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260731"
-      },
-      "analysis": "This article is highly relevant to Nubank's research workflow, particularly in understanding evolving user interaction patterns. We should integrate \"AI agent readiness\" as a key consideration in our research planning for new features and redesigns. For instance, when researching the PIX transfer flow, we need to explore how users might initiate or inquire about transfers via AI assistants and ensure our underlying data and service endpoints are easily accessible and interpretable by them. Similarly, for loan applications or card activation, understanding how AI assistants might guide users or provide initial information is crucial for designing a seamless, albeit indirectly mediated, experience.\n\nResearchers should proactively explore how users are currently using AI assistants for financial queries and tasks. This could involve qualitative studies observing users interacting with AI tools for banking-related needs or analyzing search trends. Practically, this means not only optimizing our web interfaces for human users but also ensuring our backend systems and content are structured in a way that AI agents can effectively parse and utilize. For example, clear, concise, and well-structured FAQ sections or API documentation could be vital for AI assistant integration. We must also establish guardrails, recognizing that AI assistants are not yet perfect for complex or sensitive financial advice. Our research should focus on how AI can facilitate initial steps or information gathering, while clearly maintaining Nubank's role as the secure and reliable provider for actual transactions and critical decision-making in areas like insurance or investment products."
     }
   ]
 }
