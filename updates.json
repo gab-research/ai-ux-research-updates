@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-08-30T19:15:26.616Z",
+  "lastUpdated": "2026-08-31T05:11:21.284Z",
   "updates": [
     {
       "date": "2026-08-28",
@@ -518,18 +518,6 @@
         "url": "https://uxdesign.cc/the-architecture-of-watching-work-dcc521fcad1c?source=rss----138adf9c44c---4"
       },
       "analysis": "At Nubank, the \"architecture of watching work\" through AI can be integrated into our existing research workflows to gain deeper insights into user engagement with our products. For instance, when researching the PIX flow, AI could analyze interaction patterns to identify friction points that go unnoticed through traditional usability testing. Similarly, for loan applications or card activation, AI-driven analysis of user journeys could reveal subtle usability issues that impact completion rates or customer satisfaction. Researchers should leverage AI tools to automate the analysis of large datasets of user interactions, focusing on identifying behavioral anomalies and trends that inform design improvements.\n\nWhen applying this at Nubank, we must establish clear guardrails. The focus should remain on understanding and improving user experience, not on intrusive surveillance. AI analysis should be anonymized and aggregated to protect user privacy, aligning with our commitment to data security. Limitations include the potential for AI to misinterpret context or introduce bias, so human oversight and qualitative validation remain essential. This approach can enhance our understanding of complex flows like insurance claim submissions or the onboarding process, identifying areas for optimization before they become significant user pain points."
-    },
-    {
-      "date": "2026-08-01",
-      "title": "Perplexity diverges with color",
-      "summary": "Building data color schemes with Generative AI. Continue reading on UX Collective »",
-      "content": "This article explores the innovative use of Generative AI to create data color schemes, addressing the challenge of \"perplexity\" – the cognitive load associated with interpreting complex data visualizations. By leveraging AI, researchers can move beyond subjective choices to generate color palettes that are demonstrably more effective in highlighting patterns and reducing user confusion. This is crucial for UX researchers as it directly impacts the clarity and usability of data-driven dashboards and reports, ultimately leading to better-informed decision-making for both internal teams and our customers interacting with financial data. The practical implication is the potential to significantly improve the comprehension of performance metrics, risk assessments, or even personalized financial insights presented to Nubank users.",
-      "category": "AI-powered data analysis",
-      "source": {
-        "name": "UX Collective (Medium)",
-        "url": "https://uxdesign.cc/perplexity-diverges-with-color-cad28cbe7bad?source=rss----138adf9c44c---4"
-      },
-      "analysis": "At Nubank, this AI-driven approach to color schemes can be integrated into our data visualization workflows for product analytics and customer journey mapping. For instance, when analyzing PIX transaction patterns or loan default probabilities, researchers can utilize Generative AI to create intuitive color palettes that make complex datasets instantly digestible. This would empower us to more quickly identify user pain points in flows like card activation or insurance claims.\n\nResearchers should actively experiment with these AI tools when designing dashboards for A/B testing results or performance reviews of new features. The AI can generate options based on specific data types and desired outcomes, reducing the time spent on subjective color selection. It's important to establish guardrails: always validate AI-generated palettes with user testing to ensure they truly reduce perplexity and don't introduce new biases or accessibility issues, especially for visually impaired users. These palettes should complement, not dictate, our existing design language for consistency across all Nubank products."
     }
   ]
 }
