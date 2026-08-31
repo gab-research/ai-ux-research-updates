@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-08-31T05:11:21.284Z",
+  "lastUpdated": "2026-08-31T16:05:47.279Z",
   "updates": [
+    {
+      "date": "2026-08-31",
+      "title": "UX Roundup: Usability Still Improves | AI Persuasiveness | Featuritis | Fitts’s Law | AI Fiction Wins | Stepper Controls",
+      "summary": "A better design system improved usability | AI persuades even when people know it’s AI | Fewer features = better usability | Fitts’s Law: Big and near beats small and far | Readers prefer AI stories if they don’t know it’s AI | The stepper design pattern for adjusting numeric...",
+      "content": "This UX Roundup from Jakob Nielsen highlights several critical areas impacting user experience.  The piece emphasizes that foundational design system improvements remain paramount for usability, even as AI gains traction.  Nielsen notes AI's persuasive power, even when users are aware they are interacting with it, suggesting a need to understand user perception and trust in AI-driven features.  Furthermore, the article advocates for a \"less is more\" approach, demonstrating that reducing feature complexity can significantly enhance usability, a principle that has enduring relevance for product design.",
+      "category": "General AI in research",
+      "source": {
+        "name": "Jakob Nielsen (Substack)",
+        "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260831"
+      },
+      "analysis": "This article offers valuable insights for Nubank UX researchers, particularly concerning the integration of AI and the enduring principles of usability. The observation that AI can persuade users even when its nature is known is crucial for our ongoing AI development, especially in areas like customer support bots or personalized financial advice. We should investigate how users perceive and trust AI features within existing Nubank flows, such as the PIX transfer confirmation screen or loan application assistant, to ensure we're building confidence and not inadvertently creating friction.  Researchers should actively explore user mental models around AI interactions across our digital banking platform.\n\nThe \"fewer features = better usability\" takeaway reinforces the importance of rigorous feature prioritization and simplification, a constant challenge with our expansive product suite. When researching new features for products like our credit card activation process or insurance onboarding, we should actively test hypotheses that reducing complexity and focusing on core tasks leads to improved completion rates and satisfaction.  This also means questioning \"featuritis\" and advocating for streamlined, intuitive user journeys that align with Nielsen's Fitts's Law principle of \"big and near beats small and far\" by ensuring key interactive elements are easily accessible and prominent within our app."
+    },
     {
       "date": "2026-08-28",
       "title": "UX Roundup: UX Slogans | Improve Google Search Results | Outdated Academic Research | Staff vs. Executive AI Use | Free AI | Bosses Decide AI Culture | Technology Acceptance Model | Getting AI Accepte",

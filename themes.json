@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 103,
-      "description": "Articles focusing on AI agents that can autonomously perform research tasks, plan, and execute complex workflows."
+      "count": 75,
+      "description": "Articles focusing on AI agents capable of performing research tasks autonomously, making decisions, and executing complex workflows."
     },
     {
       "name": "AI coding assistants",
-      "count": 80,
-      "description": "Content discussing AI tools and platforms that assist developers with writing, debugging, and optimizing code."
+      "count": 58,
+      "description": "Content related to AI tools and research that assist developers in writing, debugging, and understanding code."
     },
     {
       "name": "AI research tools",
-      "count": 70,
-      "description": "Articles that review, compare, or announce specific AI-powered tools designed for various research activities."
+      "count": 55,
+      "description": "Articles about specific AI tools designed to aid in various aspects of research, from data collection to analysis."
+    },
+    {
+      "name": "AI survey tools",
+      "count": 36,
+      "description": "Focuses on AI applications and platforms that assist in the creation, distribution, and analysis of surveys."
     },
     {
       "name": "AI summarization",
-      "count": 39,
-      "description": "Focuses on AI's ability to condense large amounts of text, audio, or video into concise summaries and key insights."
+      "count": 26,
+      "description": "Articles discussing AI's ability to condense large amounts of text, audio, or video into concise summaries."
     },
     {
       "name": "AI for product management",
-      "count": 33,
-      "description": "Explores how AI can be utilized by product managers for tasks such as ideation, feature planning, and market analysis."
+      "count": 25,
+      "description": "Content on how AI is being applied to aid product managers in areas like ideation, roadmapping, and feature prioritization."
+    },
+    {
+      "name": "AI content generation",
+      "count": 24,
+      "description": "Articles about AI tools and techniques used to create various forms of content, including text, images, and video."
     },
     {
       "name": "AI workforce impact",
-      "count": 31,
-      "description": "Articles examining how AI is affecting employment, job roles, skills required, and potential displacement in the workforce."
-    },
-    {
-      "name": "AI design research",
-      "count": 29,
-      "description": "Covers AI applications specifically in the design process, including UI/UX design, generative design, and design systems."
-    },
-    {
-      "name": "Synthetic users",
-      "count": 29,
-      "description": "Discusses the creation and use of AI-generated or simulated users and content for research and testing purposes."
+      "count": 24,
+      "description": "Research and discussions on how AI is affecting jobs, skills, recruitment, and the overall labor market."
     },
     {
       "name": "AI-assisted recruitment",
-      "count": 25,
-      "description": "Articles detailing the use of AI in hiring processes, candidate sourcing, screening, and assessment."
+      "count": 22,
+      "description": "Focuses on AI tools and processes used in hiring, candidate sourcing, screening, and onboarding."
     },
     {
-      "name": "AI chatbot research",
-      "count": 24,
-      "description": "Focuses on research into the behavior, impact, and ethical considerations of AI-powered chatbots, especially in personal and therapeutic contexts."
+      "name": "AI ethics in research",
+      "count": 21,
+      "description": "Content addressing the ethical considerations, biases, and responsible use of AI within research practices."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
