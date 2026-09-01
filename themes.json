@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 4,
-      "description": "Focuses on AI agents performing research tasks autonomously, including their capabilities, limitations, and potential risks."
+      "count": 10,
+      "description": "Articles focusing on AI agents that can perform research tasks autonomously or semi-autonomously."
     },
     {
-      "name": "AI summarization insights",
-      "count": 2,
-      "description": "Covers AI's ability to condense large amounts of text or data into concise summaries for quicker insight extraction."
+      "name": "AI coding assistants",
+      "count": 6,
+      "description": "Tools and techniques that use AI to help developers write, debug, or understand code."
     },
     {
-      "name": "AI research platform",
-      "count": 1,
-      "description": "Discusses AI-powered systems designed to facilitate and enhance various stages of the research process."
-    },
-    {
-      "name": "AI customer insights",
-      "count": 1,
-      "description": "Explores how AI can be used to analyze customer data and extract actionable insights for business decisions."
-    },
-    {
-      "name": "AI session replay",
-      "count": 1,
-      "description": "Details the application of AI in analyzing user session replays to understand user behavior and identify UX issues."
-    },
-    {
-      "name": "AI for product management",
-      "count": 1,
-      "description": "Covers the use of AI in supporting product managers with tasks such as feature prioritization, roadmap planning, and market analysis."
+      "name": "AI research tools",
+      "count": 5,
+      "description": "AI-powered platforms and software designed to assist in various stages of the research process."
     },
     {
       "name": "AI for design & research",
-      "count": 1,
-      "description": "Examines AI's role in augmenting the capabilities of designers and researchers in their creative and analytical processes."
+      "count": 4,
+      "description": "Applications of AI that directly support or enhance the creative and analytical aspects of UX and product design."
     },
     {
-      "name": "AI content generation",
-      "count": 1,
-      "description": "Focuses on AI's ability to create various forms of content, including text, music, and visual assets."
+      "name": "AI survey optimization",
+      "count": 3,
+      "description": "AI techniques applied to the creation, distribution, and analysis of surveys to improve response rates and data quality."
     },
     {
-      "name": "AI tool evaluation",
-      "count": 1,
-      "description": "Addresses the challenges and best practices for managing and integrating multiple AI API keys and tools effectively."
+      "name": "AI summarization insights",
+      "count": 3,
+      "description": "AI capabilities focused on condensing large amounts of text or data into key insights and summaries."
     },
     {
-      "name": "AI ethics in research",
-      "count": 1,
-      "description": "Investigates the ethical considerations and potential misalignments when training AI agents, particularly in research contexts."
+      "name": "AI for writing research papers",
+      "count": 3,
+      "description": "AI tools and workflows specifically designed to assist in the process of writing academic or technical research papers."
+    },
+    {
+      "name": "AI-powered data analysis",
+      "count": 2,
+      "description": "AI techniques used to process, analyze, and extract meaningful patterns from complex datasets."
+    },
+    {
+      "name": "AI for product management",
+      "count": 2,
+      "description": "How AI is being used to support product managers in decision-making, strategy, and execution."
+    },
+    {
+      "name": "AI infrastructure",
+      "count": 2,
+      "description": "Discussions around the underlying technology, costs, and management of AI systems and their deployment."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
