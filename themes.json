@@ -1,56 +1,56 @@
 {
-  "month": "2026-08",
-  "updated": "2026-08-31",
+  "month": "2026-09",
+  "updated": "2026-09-01",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 75,
-      "description": "Articles focusing on AI agents capable of performing research tasks autonomously, making decisions, and executing complex workflows."
+      "count": 4,
+      "description": "Focuses on AI agents performing research tasks autonomously, including their capabilities, limitations, and potential risks."
     },
     {
-      "name": "AI coding assistants",
-      "count": 58,
-      "description": "Content related to AI tools and research that assist developers in writing, debugging, and understanding code."
+      "name": "AI summarization insights",
+      "count": 2,
+      "description": "Covers AI's ability to condense large amounts of text or data into concise summaries for quicker insight extraction."
     },
     {
-      "name": "AI research tools",
-      "count": 55,
-      "description": "Articles about specific AI tools designed to aid in various aspects of research, from data collection to analysis."
+      "name": "AI research platform",
+      "count": 1,
+      "description": "Discusses AI-powered systems designed to facilitate and enhance various stages of the research process."
     },
     {
-      "name": "AI survey tools",
-      "count": 36,
-      "description": "Focuses on AI applications and platforms that assist in the creation, distribution, and analysis of surveys."
+      "name": "AI customer insights",
+      "count": 1,
+      "description": "Explores how AI can be used to analyze customer data and extract actionable insights for business decisions."
     },
     {
-      "name": "AI summarization",
-      "count": 26,
-      "description": "Articles discussing AI's ability to condense large amounts of text, audio, or video into concise summaries."
+      "name": "AI session replay",
+      "count": 1,
+      "description": "Details the application of AI in analyzing user session replays to understand user behavior and identify UX issues."
     },
     {
       "name": "AI for product management",
-      "count": 25,
-      "description": "Content on how AI is being applied to aid product managers in areas like ideation, roadmapping, and feature prioritization."
+      "count": 1,
+      "description": "Covers the use of AI in supporting product managers with tasks such as feature prioritization, roadmap planning, and market analysis."
+    },
+    {
+      "name": "AI for design & research",
+      "count": 1,
+      "description": "Examines AI's role in augmenting the capabilities of designers and researchers in their creative and analytical processes."
     },
     {
       "name": "AI content generation",
-      "count": 24,
-      "description": "Articles about AI tools and techniques used to create various forms of content, including text, images, and video."
+      "count": 1,
+      "description": "Focuses on AI's ability to create various forms of content, including text, music, and visual assets."
     },
     {
-      "name": "AI workforce impact",
-      "count": 24,
-      "description": "Research and discussions on how AI is affecting jobs, skills, recruitment, and the overall labor market."
-    },
-    {
-      "name": "AI-assisted recruitment",
-      "count": 22,
-      "description": "Focuses on AI tools and processes used in hiring, candidate sourcing, screening, and onboarding."
+      "name": "AI tool evaluation",
+      "count": 1,
+      "description": "Addresses the challenges and best practices for managing and integrating multiple AI API keys and tools effectively."
     },
     {
       "name": "AI ethics in research",
-      "count": 21,
-      "description": "Content addressing the ethical considerations, biases, and responsible use of AI within research practices."
+      "count": 1,
+      "description": "Investigates the ethical considerations and potential misalignments when training AI agents, particularly in research contexts."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."

@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-08-31T16:05:47.279Z",
+  "lastUpdated": "2026-09-01T04:47:24.425Z",
   "updates": [
     {
       "date": "2026-08-31",
@@ -518,18 +518,6 @@
         "url": "https://cms.greatquestion.co/blog/product-feedback-tools"
       },
       "analysis": "At Nubank, this article's insights can directly enhance our existing research workflows. We can leverage AI-powered feedback analysis tools to process large volumes of unstructured data from customer service interactions, app reviews, and in-app surveys related to onboarding, card activation, or insurance claims. This would complement our qualitative methods by providing quantitative signals on common friction points, allowing researchers to prioritize deeper dives into specific user flows or product features.\n\nWhen applying these tools, researchers should focus on how AI can augment, not replace, human understanding. For example, AI could flag recurring themes in customer feedback about the PIX experience, enabling a UX researcher to then conduct targeted usability testing to validate the root cause. It's crucial to maintain a critical eye, as AI interpretations might miss nuanced user needs or cultural context specific to Brazil. Therefore, these tools should be used as a starting point for investigation, with human oversight and qualitative validation remaining paramount to ensure our product decisions are truly user-centric."
-    },
-    {
-      "date": "2026-08-02",
-      "title": "The architecture of watching work",
-      "summary": "For a century we designed the office around a single question — how do we see work? AI is quietly changing the question. Continue reading on UX Collective »",
-      "content": "This article argues that the traditional office design has historically prioritized visual oversight – the ability to 'see' employees working.  However, the rise of AI is fundamentally shifting this paradigm, enabling new ways of understanding and measuring productivity that extend beyond mere observation. For UX researchers, this is crucial as it signifies a move towards more data-driven and nuanced insights into user behavior and operational efficiency, potentially impacting how we design and evaluate digital experiences.  The practical implication is that AI can help us move from subjective assumptions about 'seeing work' to objective analysis of task completion, collaboration patterns, and even the quality of outcomes across digital product flows like onboarding or PIX transactions.",
-      "category": "Survey optimization",
-      "source": {
-        "name": "UX Collective (Medium)",
-        "url": "https://uxdesign.cc/the-architecture-of-watching-work-dcc521fcad1c?source=rss----138adf9c44c---4"
-      },
-      "analysis": "At Nubank, the \"architecture of watching work\" through AI can be integrated into our existing research workflows to gain deeper insights into user engagement with our products. For instance, when researching the PIX flow, AI could analyze interaction patterns to identify friction points that go unnoticed through traditional usability testing. Similarly, for loan applications or card activation, AI-driven analysis of user journeys could reveal subtle usability issues that impact completion rates or customer satisfaction. Researchers should leverage AI tools to automate the analysis of large datasets of user interactions, focusing on identifying behavioral anomalies and trends that inform design improvements.\n\nWhen applying this at Nubank, we must establish clear guardrails. The focus should remain on understanding and improving user experience, not on intrusive surveillance. AI analysis should be anonymized and aggregated to protect user privacy, aligning with our commitment to data security. Limitations include the potential for AI to misinterpret context or introduce bias, so human oversight and qualitative validation remain essential. This approach can enhance our understanding of complex flows like insurance claim submissions or the onboarding process, identifying areas for optimization before they become significant user pain points."
     }
   ]
 }
