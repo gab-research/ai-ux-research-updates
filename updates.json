@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-09-02T12:43:06.304Z",
+  "lastUpdated": "2026-09-02T19:20:30.160Z",
   "updates": [
     {
       "date": "2026-09-02",
@@ -518,18 +518,6 @@
         "url": "https://cms.greatquestion.co/blog/product-feedback-tools"
       },
       "analysis": "This article directly addresses how Nubank UX researchers can elevate their practice by integrating advanced AI-powered feedback tools into our existing workflows.  Instead of manually sifting through vast amounts of qualitative data from our app (e.g., comments on card activation, loan application issues, or insurance claim feedback), these platforms can automate sentiment analysis and theme identification.  This allows us to spend more time synthesizing insights and less time on tedious data processing, directly impacting our ability to iterate on user flows for products like onboarding or PIX transfers more rapidly.\n\nWhen applying these tools, researchers should focus on integrating them into the post-launch analysis phase of our product development lifecycle. For instance, after releasing an update to our credit card management or insurance policy features, we can feed user feedback directly into these AI platforms to quickly gauge public reception and pinpoint areas for immediate improvement. It's important to establish clear guardrails: while AI can identify patterns, human oversight remains critical for nuanced interpretation, especially when dealing with culturally specific feedback relevant to the Brazilian market. We must also consider data privacy and security protocols before integrating any new platform, ensuring compliance with Nubank's stringent standards."
-    },
-    {
-      "date": "2026-08-03",
-      "title": "Orchard: An open framework for scalable agentic AI",
-      "summary": "Orchard is an open-source framework for the research community to train and evaluate AI agents across task types. It reduces complexity while supporting strong performance from smaller models by enabling researchers to reuse the same infrastructure. The post Orchard: An open f...",
-      "content": "Orchard is an open-source framework for the research community to train and evaluate AI agents across task types. It reduces complexity while supporting strong performance from smaller models by enabling researchers to reuse the same infrastructure. The post Orchard: An open framework for scalable agentic AI appeared first on Microsoft Research.",
-      "category": "Survey optimization",
-      "source": {
-        "name": "Microsoft Research",
-        "url": "https://www.microsoft.com/en-us/research/blog/orchard-an-open-framework-for-scalable-agentic-ai/"
-      },
-      "analysis": "At Nubank, Orchard could significantly accelerate our ability to integrate AI into UX research. Imagine using Orchard to train agents that can analyze thousands of user feedback submissions from our PIX or loan application flows, identifying recurring pain points and sentiments far faster than manual review. Researchers could leverage the framework to develop agents that simulate user interactions with our onboarding or card activation processes, allowing us to proactively identify usability issues before they impact real customers. This could also extend to testing hypothetical features or policy changes by simulating user responses.\n\nResearchers should start by exploring Orchard's capabilities for specific research challenges, such as synthesizing user personas for qualitative studies or automating the categorization of open-ended survey responses. We can begin by experimenting with smaller, well-defined use cases, perhaps analyzing customer support transcripts for insurance inquiries to identify common questions or friction points. It's crucial to establish clear ethical guidelines and data privacy protocols, ensuring any AI-generated data or insights align with Nubank's commitment to customer trust. While Orchard promises efficiency, we must remember it's a tool to augment, not replace, human judgment and empathy in our research process, especially when dealing with sensitive financial products and customer data."
     }
   ]
 }
