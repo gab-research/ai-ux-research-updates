@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 18,
-      "description": "Articles focusing on AI agents that can perform research tasks autonomously or assist researchers in complex workflows."
+      "count": 20,
+      "description": "This theme covers AI agents that can autonomously perform research tasks, make decisions, and interact with systems."
     },
     {
       "name": "AI coding assistants",
-      "count": 15,
-      "description": "Content discussing AI tools designed to help developers write, debug, and optimize code."
+      "count": 16,
+      "description": "This theme focuses on AI tools that assist developers and researchers in writing, debugging, and understanding code."
     },
     {
       "name": "AI research tools",
-      "count": 11,
-      "description": "Articles about AI-powered platforms and tools specifically built to aid in research processes, data analysis, and discovery."
-    },
-    {
-      "name": "AI product research",
-      "count": 9,
-      "description": "This theme covers AI applications in the discovery, development, and analysis of new products."
-    },
-    {
-      "name": "AI chatbot research",
-      "count": 8,
-      "description": "Focuses on research and development related to AI chatbots, their capabilities, and their impact on users."
-    },
-    {
-      "name": "AI survey tools",
-      "count": 7,
-      "description": "Articles discussing AI integration within survey platforms and tools for enhanced data collection and analysis."
-    },
-    {
-      "name": "AI design research",
-      "count": 5,
-      "description": "Explores how AI is being used in the research phase of design, including user experience and interface design."
-    },
-    {
-      "name": "AI summarization insights",
-      "count": 5,
-      "description": "Content related to AI's ability to condense large amounts of information into actionable insights and summaries."
-    },
-    {
-      "name": "Synthetic users",
-      "count": 3,
-      "description": "Articles discussing the creation and use of artificial or synthetic user personas and data for research and testing."
+      "count": 13,
+      "description": "This theme encompasses AI-powered platforms and tools designed to facilitate and enhance various research methodologies."
     },
     {
       "name": "AI for product management",
-      "count": 3,
-      "description": "Covers AI applications and tools that assist product managers in decision-making, strategy, and execution."
+      "count": 11,
+      "description": "This theme includes AI applications that aid in product strategy, development, and management."
+    },
+    {
+      "name": "AI summarization",
+      "count": 10,
+      "description": "This theme covers AI capabilities used to condense large amounts of text or data into concise summaries and insights."
+    },
+    {
+      "name": "Synthetic users",
+      "count": 6,
+      "description": "This theme addresses the creation and use of AI-generated user personas or entities for testing and research purposes."
+    },
+    {
+      "name": "AI survey tools",
+      "count": 6,
+      "description": "This theme focuses on AI applications that assist in the creation, analysis, and optimization of surveys."
+    },
+    {
+      "name": "AI for design & research",
+      "count": 6,
+      "description": "This theme covers AI tools and techniques that directly assist in the user experience design and research processes."
+    },
+    {
+      "name": "AI conversational agents",
+      "count": 5,
+      "description": "This theme includes AI chatbots and virtual assistants designed for interaction, information retrieval, and task completion."
+    },
+    {
+      "name": "AI workforce impact",
+      "count": 5,
+      "description": "This theme explores how AI is changing job roles, skill requirements, and the overall dynamics of the workforce."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."

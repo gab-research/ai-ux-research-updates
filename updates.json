@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-09-02T04:08:50.155Z",
+  "lastUpdated": "2026-09-02T12:43:06.304Z",
   "updates": [
+    {
+      "date": "2026-09-02",
+      "title": "Making kyōwa possible with AI",
+      "summary": "On unbundling the Send button, so that words can work as sketches Continue reading on UX Collective »",
+      "content": "This article explores how AI can revolutionize the way we approach the \"send\" functionality, moving beyond a simple button press to enabling richer, more expressive communication within digital products. By \"unbundling\" the send button, the authors envision a future where user input can be interpreted not just as literal commands, but as nascent ideas or sketches that AI can then help refine and transform. For UX researchers, this shift is crucial as it opens up new avenues for understanding user intent and providing more intelligent, adaptive assistance. Practically, this could lead to more intuitive interfaces where AI actively participates in the creative process, making complex tasks feel more collaborative and less transactional.",
+      "category": "AI research tools",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/making-ky%C5%8Dwa-possible-with-ai-9f4bf8fae315?source=rss----138adf9c44c---4"
+      },
+      "analysis": "At Nubank, this concept of \"unbundling the send button\" can be integrated into our research on evolving user interactions, particularly within flows like PIX transfers or loan applications. Instead of just observing how users fill out forms, we can research how AI could interpret incomplete or draft inputs. For instance, during a PIX transfer, could AI offer suggestions for amounts or recipients based on partial typing or contextual cues, effectively treating early input as a sketch of intent? This research would inform how we design future AI-powered features for card activation or onboarding, where users might express needs more fluidly.\n\nResearchers should focus on identifying moments in critical user journeys where ambiguity or iterative refinement is common. This might involve observing users struggling with complex insurance policy choices or trying to articulate specific needs in loan applications. The goal is to explore how AI can act as a helpful co-pilot, inferring intent from less structured input, thereby reducing cognitive load and increasing user confidence. Guardrails are essential: we must ensure AI suggestions are always clearly distinguishable from user input, provide easy ways to correct AI interpretations, and prioritize data privacy, especially with sensitive financial information. The focus should always remain on augmenting user agency, not replacing it."
+    },
     {
       "date": "2026-09-01",
       "title": "Color scheming with Perplexity tetrads",
