@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 37,
-      "description": "Focuses on AI agents that can perform complex tasks autonomously within research workflows, analyze data, and even conduct research independently."
-    },
-    {
-      "name": "AI research tools",
-      "count": 22,
-      "description": "Covers tools and platforms that leverage AI to assist in various aspects of research, from data collection and analysis to insight generation."
+      "count": 49,
+      "description": "Focuses on AI agents that can autonomously perform research tasks, make decisions, and interact with systems to achieve research goals."
     },
     {
       "name": "AI coding assistants",
-      "count": 17,
-      "description": "Articles discussing AI tools designed to help developers write, debug, and optimize code, often acting as collaborators in the development process."
+      "count": 34,
+      "description": "Covers AI tools that assist developers in writing, debugging, reviewing, and understanding code."
     },
     {
-      "name": "Synthetic users",
-      "count": 7,
-      "description": "Explores the creation and use of AI-generated personas or users for simulating user behavior and testing products."
+      "name": "AI testing automation",
+      "count": 24,
+      "description": "Highlights AI applications for automating various aspects of software testing, including test generation, execution, and analysis."
     },
     {
-      "name": "AI for design & research",
-      "count": 7,
-      "description": "Discusses how AI is integrated into the design and research process to enhance creativity, efficiency, and user understanding."
+      "name": "AI research tools",
+      "count": 21,
+      "description": "Encompasses a broad range of AI-powered tools designed to assist researchers across various disciplines."
     },
     {
       "name": "AI summarization",
-      "count": 6,
-      "description": "Focuses on AI capabilities that condense large amounts of text or data into concise summaries and insights."
+      "count": 16,
+      "description": "Covers AI capabilities for condensing large amounts of text or data into concise summaries, extracting key insights."
     },
     {
-      "name": "AI for product management",
-      "count": 5,
-      "description": "Covers AI applications specifically aimed at supporting product managers in areas like roadmap planning, feature prioritization, and market analysis."
+      "name": "Synthetic users",
+      "count": 14,
+      "description": "Discusses the creation and use of AI-generated user profiles or personas for testing and research purposes."
     },
     {
       "name": "AI workforce impact",
-      "count": 4,
-      "description": "Examines how AI is changing job roles, skill requirements, and the overall structure of the workforce."
-    },
-    {
-      "name": "AI chatbot research",
-      "count": 4,
-      "description": "Articles detailing research into the effectiveness, user experience, and societal impact of AI-powered chatbots."
+      "count": 14,
+      "description": "Examines how AI is changing jobs, skills requirements, and the overall nature of work for professionals."
     },
     {
       "name": "AI sentiment feedback",
-      "count": 3,
-      "description": "Covers the use of AI to analyze user feedback, comments, and reviews to gauge sentiment and identify key themes."
+      "count": 11,
+      "description": "Focuses on AI's ability to analyze and interpret user sentiment from various feedback channels."
+    },
+    {
+      "name": "AI for product management",
+      "count": 11,
+      "description": "Details how AI is being applied to assist product managers in tasks like feature prioritization, roadmap planning, and user insights."
+    },
+    {
+      "name": "AI recruitment research",
+      "count": 11,
+      "description": "Covers the use of AI in analyzing job markets, candidate sourcing, and understanding the impact of AI on career paths."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
