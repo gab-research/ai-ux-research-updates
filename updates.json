@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-09-06T12:05:00.242Z",
+  "lastUpdated": "2026-09-06T18:12:05.514Z",
   "updates": [
+    {
+      "date": "2026-09-06",
+      "title": "Research acceleration: The view inside OpenAI",
+      "summary": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
+      "content": "OpenAI's internal exploration of coding agents reveals a significant shift in their AI research methodology. These agents are not just tools for generating code; they are actively participating in the research process, accelerating experimentation, handling complex tasks, and enabling faster iteration. For UX researchers, this signifies a potential paradigm shift, moving beyond manual data analysis and prototyping towards automated, agent-assisted workflows. Understanding these advancements is crucial for anticipating how AI can augment research velocity and efficiency, ultimately leading to quicker insights and improved product development for customers using Nubank's offerings like PIX or credit card applications.",
+      "category": "AI coding assistants",
+      "source": {
+        "name": "OpenAI Blog",
+        "url": "https://openai.com/index/research-acceleration-view-inside-openai"
+      },
+      "analysis": "At Nubank, these AI coding agents can be integrated into our research workflow to significantly speed up tasks that are currently manual and time-consuming. For example, researchers could leverage agents to automate the generation of user journey maps for complex flows like the insurance onboarding process, or to quickly prototype different UI variations for loan application screens. Instead of spending hours writing scripts for data extraction from user interviews or survey responses related to card activation, agents could assist in pre-processing and summarizing this data, allowing researchers to focus on deeper qualitative analysis and strategic recommendations. This would free up valuable researcher time, enabling us to conduct more studies or delve deeper into the nuances of user behavior across products like PIX.\n\nTo apply this, researchers should begin by identifying repetitive or code-heavy tasks within their current processes. This could involve setting up A/B testing scripts, generating synthetic user data for early-stage hypothesis testing, or even building initial versions of interactive prototypes. Collaboration with engineering teams will be key to understanding the capabilities of these agents and integrating them safely. However, it's crucial to maintain human oversight. Agents should be viewed as powerful assistants, not replacements for human judgment and empathy. Researchers must still validate agent-generated code and insights, ensuring they align with our ethical guidelines and do not introduce biases. Limitations include the current stage of development, potential inaccuracies, and the need for clear prompt engineering to ensure the agents understand our specific UX research objectives for products like personal loans or the initial onboarding experience."
+    },
     {
       "date": "2026-09-04",
       "title": "UX Roundup: Make It Easy | AI Traffic = Best Customers | AI Visibility | Hidden Team Disagreement | AI Attitude Questions | Sunk Costs | Tools Palette",
