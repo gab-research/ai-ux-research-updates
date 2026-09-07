@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-09-07T04:13:59.085Z",
+  "lastUpdated": "2026-09-07T14:11:33.916Z",
   "updates": [
+    {
+      "date": "2026-09-07",
+      "title": "UX Roundup: Graph UI vs. Chat | Linear UI for Stories | Reusing Past Alternatives | Fast Wins | Mental Models | AI as Tool or Coworker | Sticky Navigation",
+      "summary": "Graph-based UI for AI is better than linear chat for design tasks | Storytelling improves with a keyframing UI | With a better history UI, clients reused a designer’s past alternatives 2.6× as often as they generated new material | Fast wins make users stay | Mental models: th...",
+      "content": "This UX Roundup by Jakob Nielsen highlights emerging trends in user interface design and research methodology. A key takeaway is the superiority of graph-based user interfaces over traditional linear chat for complex design tasks, suggesting a shift towards more interconnected and visual ways of interacting with AI tools. For UX researchers, this implies a need to explore and evaluate these novel UI paradigms for AI-assisted design workflows, potentially leading to more efficient ideation and problem-solving. The article also touches upon the importance of effective history UIs for reusing design alternatives, the impact of 'fast wins' on user retention, and the foundational role of mental models in user experience, all of which offer actionable insights for improving product development and user satisfaction.",
+      "category": "Conversational AI in research",
+      "source": {
+        "name": "Jakob Nielsen (Substack)",
+        "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260907"
+      },
+      "analysis": "This article's emphasis on graph UI for AI and improved history UIs directly impacts how Nubank researchers can leverage AI tools. Instead of relying solely on AI chatbots for generating copy or initial design concepts for features like PIX transactions or loan applications, researchers can explore visual, graph-based AI interfaces. This could enable more dynamic brainstorming sessions where complex relationships between features, user needs, and potential solutions are visually mapped out and iteratively refined. For example, when developing new insurance product flows, a graph UI could help visualize the interconnectedness of policy options, user preferences, and regulatory requirements.\n\nFurthermore, the idea of a better history UI for reusing past alternatives is highly relevant for our design iterations. Currently, our researchers and designers might manually sift through previous versions of onboarding flows or card activation processes. Implementing a more intelligent history UI, potentially powered by AI that understands the context of past design decisions, could dramatically improve efficiency. This would allow us to quickly surface and adapt successful elements from previous projects, rather than generating entirely new material, accelerating our ability to deliver 'fast wins' and demonstrate value. We should pilot tools that offer robust version control and intelligent suggestion capabilities for design artifacts, ensuring that previous learning is easily accessible and actionable for current projects."
+    },
     {
       "date": "2026-09-06",
       "title": "Research acceleration: The view inside OpenAI",
