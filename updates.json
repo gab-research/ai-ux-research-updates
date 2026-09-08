@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-09-07T19:48:52.623Z",
+  "lastUpdated": "2026-09-08T04:15:00.477Z",
   "updates": [
     {
       "date": "2026-09-07",
@@ -14,6 +14,18 @@
         "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260907"
       },
       "analysis": "This article's emphasis on graph UI for AI and improved history UIs directly impacts how Nubank researchers can leverage AI tools. Instead of relying solely on AI chatbots for generating copy or initial design concepts for features like PIX transactions or loan applications, researchers can explore visual, graph-based AI interfaces. This could enable more dynamic brainstorming sessions where complex relationships between features, user needs, and potential solutions are visually mapped out and iteratively refined. For example, when developing new insurance product flows, a graph UI could help visualize the interconnectedness of policy options, user preferences, and regulatory requirements.\n\nFurthermore, the idea of a better history UI for reusing past alternatives is highly relevant for our design iterations. Currently, our researchers and designers might manually sift through previous versions of onboarding flows or card activation processes. Implementing a more intelligent history UI, potentially powered by AI that understands the context of past design decisions, could dramatically improve efficiency. This would allow us to quickly surface and adapt successful elements from previous projects, rather than generating entirely new material, accelerating our ability to deliver 'fast wins' and demonstrate value. We should pilot tools that offer robust version control and intelligent suggestion capabilities for design artifacts, ensuring that previous learning is easily accessible and actionable for current projects."
+    },
+    {
+      "date": "2026-09-07",
+      "title": "The model is behaving impeccably. Your information architecture isn’t.",
+      "summary": "What a 1960 study of city maps explains about AI context. Continue reading on UX Collective »",
+      "content": "This article argues that while AI models can process and present information with remarkable accuracy, their effectiveness is fundamentally limited by the underlying information architecture (IA). Drawing parallels to historical studies of city maps, it highlights that a poorly structured or illogical IA can lead to AI providing technically correct but contextually irrelevant or unhelpful outputs. For UX researchers, this underscores the critical importance of robust IA design as a prerequisite for successful AI integration, ensuring that AI tools can truly enhance user understanding and task completion, rather than just generating sophisticated noise. The practical implication is that investing in and refining IA is paramount before or alongside deploying AI solutions.",
+      "category": "AI research tools",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/the-model-is-behaving-impeccably-your-information-architecture-isnt-bfe8881da3c2?source=rss----138adf9c44c---4"
+      },
+      "analysis": "At Nubank, this article's core message directly impacts our approach to integrating AI within research and product development. When exploring AI-powered tools for qualitative data analysis, content summarization for customer feedback, or even AI-assisted journey mapping, we must first rigorously assess and, if necessary, refine the information architecture of the data sources these tools will ingest. For instance, when using AI to analyze PIX transaction data for fraud detection patterns, the way we categorize and structure metadata about transactions (e.g., merchant type, location, time) becomes as crucial as the AI algorithm itself. A messy IA could lead the AI to surface spurious correlations.\n\nOur UX researchers should therefore proactively advocate for and participate in IA reviews and improvements across all product areas, from the onboarding flow to the card activation process, and even within the complex web of insurance policy information. This means treating IA not as a siloed task for IA specialists, but as a collaborative effort where researchers provide crucial user-centric input. Before launching any AI-driven research insight generation tool, we need to ensure the underlying data is well-organized, logically structured, and easily navigable, much like ensuring a user can intuitively find information on our app's help section or understand the terms of a personal loan. The guardrail is that AI is an amplifier; if the foundational structure is flawed, the AI will amplify those flaws, leading to misleading insights or poor user experiences."
     },
     {
       "date": "2026-09-06",
