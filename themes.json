@@ -4,42 +4,42 @@
   "themes": [
     {
       "name": "AI research tools",
-      "count": 46,
+      "count": 48,
       "description": "New AI tool launches, reviews, and platforms built for research workflows."
     },
     {
       "name": "Survey optimization",
-      "count": 34,
+      "count": 35,
       "description": "AI tools for designing better surveys, reducing bias, and analyzing responses."
     },
     {
       "name": "AI coding assistants",
-      "count": 31,
+      "count": 32,
       "description": "Copilot, Claude Code, Cursor, and other AI tools for code generation and development."
     },
     {
-      "name": "AI-powered data analysis",
-      "count": 21,
-      "description": "Automated data analysis, clustering, segmentation, and pattern detection."
-    },
-    {
       "name": "Conversational AI in research",
-      "count": 20,
+      "count": 23,
       "description": "Chatbots, virtual assistants, and voice AI in research contexts."
     },
     {
-      "name": "Agentic AI in research",
-      "count": 16,
-      "description": "Autonomous AI agents running research tasks, multi-agent frameworks, and orchestration."
-    },
-    {
       "name": "AI workforce impact",
-      "count": 15,
+      "count": 20,
       "description": "AI replacing roles, future of work, skills gap, reskilling, and organizational change."
     },
     {
+      "name": "AI-powered data analysis",
+      "count": 20,
+      "description": "Automated data analysis, clustering, segmentation, and pattern detection."
+    },
+    {
+      "name": "Agentic AI in research",
+      "count": 18,
+      "description": "Autonomous AI agents running research tasks, multi-agent frameworks, and orchestration."
+    },
+    {
       "name": "AI content generation",
-      "count": 14,
+      "count": 16,
       "description": "AI writing, report generation, UX copy, and content creation."
     },
     {
@@ -49,7 +49,7 @@
     },
     {
       "name": "AI for product management",
-      "count": 9,
+      "count": 7,
       "description": "AI in product decisions, discovery, prioritization, and roadmapping."
     }
   ],

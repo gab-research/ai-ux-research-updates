@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-09-08T12:48:36.391Z",
+  "lastUpdated": "2026-09-08T19:23:02.312Z",
   "updates": [
+    {
+      "date": "2026-09-08",
+      "title": "Funding grants for new research into AI and teen development",
+      "summary": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
+      "content": "OpenAI is initiating a significant $5 million grant program to foster independent research into the complex interplay between generative AI and adolescent development. This initiative seeks to understand the multifaceted impacts of these powerful AI tools on teenagers' well-being, safety, and overall developmental trajectories. For UX researchers, this is a critical area of inquiry as generative AI becomes increasingly integrated into platforms and services used by younger demographics, from educational tools to social media applications. Understanding these effects is paramount for designing responsible, ethical, and beneficial digital experiences for this vulnerable user group.",
+      "category": "AI coding assistants",
+      "source": {
+        "name": "OpenAI Blog",
+        "url": "https://openai.com/index/teen-development-research-grants"
+      },
+      "analysis": "This OpenAI grant directly aligns with Nubank's commitment to user safety and ethical product development, particularly for our younger users and those new to digital finance.  Our UX research team should actively explore potential grant applications, focusing on how generative AI influences teen comprehension of financial concepts, their susceptibility to scams or predatory offers related to PIX transactions or loan applications, and their experience with early-stage onboarding and card activation flows.  This research could inform the design of more intuitive and secure financial education modules or identify AI-driven risks within our digital products.\n\nResearchers should consider how this grant can support deep ethnographic studies or longitudinal surveys examining teen interactions with AI-powered financial literacy tools or even simulated advisory bots.  The insights gained could help us proactively build guardrails against AI-driven misinformation or manipulative content that might affect a teen's decision-making process regarding credit card limits, insurance purchases, or even their initial understanding of how Nubank operates. This proactive approach will strengthen our user-centric design principles and ensure we are building a trustworthy financial ecosystem for all ages."
+    },
     {
       "date": "2026-09-07",
       "title": "UX Roundup: Graph UI vs. Chat | Linear UI for Stories | Reusing Past Alternatives | Fast Wins | Mental Models | AI as Tool or Coworker | Sticky Navigation",
