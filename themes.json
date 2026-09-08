@@ -4,28 +4,33 @@
   "themes": [
     {
       "name": "AI research tools",
-      "count": 44,
+      "count": 46,
       "description": "New AI tool launches, reviews, and platforms built for research workflows."
     },
     {
       "name": "Survey optimization",
-      "count": 32,
+      "count": 34,
       "description": "AI tools for designing better surveys, reducing bias, and analyzing responses."
     },
     {
       "name": "AI coding assistants",
-      "count": 29,
+      "count": 31,
       "description": "Copilot, Claude Code, Cursor, and other AI tools for code generation and development."
     },
     {
+      "name": "AI-powered data analysis",
+      "count": 21,
+      "description": "Automated data analysis, clustering, segmentation, and pattern detection."
+    },
+    {
       "name": "Conversational AI in research",
-      "count": 24,
+      "count": 20,
       "description": "Chatbots, virtual assistants, and voice AI in research contexts."
     },
     {
-      "name": "AI-powered data analysis",
-      "count": 17,
-      "description": "Automated data analysis, clustering, segmentation, and pattern detection."
+      "name": "Agentic AI in research",
+      "count": 16,
+      "description": "Autonomous AI agents running research tasks, multi-agent frameworks, and orchestration."
     },
     {
       "name": "AI workforce impact",
@@ -33,24 +38,19 @@
       "description": "AI replacing roles, future of work, skills gap, reskilling, and organizational change."
     },
     {
-      "name": "AI ethics in research",
-      "count": 15,
-      "description": "Bias, fairness, responsible AI, privacy, and trust in research."
-    },
-    {
       "name": "AI content generation",
-      "count": 11,
+      "count": 14,
       "description": "AI writing, report generation, UX copy, and content creation."
     },
     {
-      "name": "AI for product management",
-      "count": 10,
-      "description": "AI in product decisions, discovery, prioritization, and roadmapping."
+      "name": "AI ethics in research",
+      "count": 14,
+      "description": "Bias, fairness, responsible AI, privacy, and trust in research."
     },
     {
-      "name": "Agentic AI in research",
-      "count": 10,
-      "description": "Autonomous AI agents running research tasks, multi-agent frameworks, and orchestration."
+      "name": "AI for product management",
+      "count": 9,
+      "description": "AI in product decisions, discovery, prioritization, and roadmapping."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
