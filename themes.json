@@ -3,54 +3,54 @@
   "updated": "2026-09-09",
   "themes": [
     {
-      "name": "AI research tools",
-      "count": 43,
-      "description": "New AI tool launches, reviews, and platforms built for research workflows."
-    },
-    {
-      "name": "Survey optimization",
-      "count": 37,
-      "description": "AI tools for designing better surveys, reducing bias, and analyzing responses."
+      "name": "Agentic AI in research",
+      "count": 60,
+      "description": "Focuses on AI agents performing research tasks autonomously, including planning, execution, and interaction with research environments."
     },
     {
       "name": "AI coding assistants",
-      "count": 35,
-      "description": "Copilot, Claude Code, Cursor, and other AI tools for code generation and development."
-    },
-    {
-      "name": "Conversational AI in research",
-      "count": 23,
-      "description": "Chatbots, virtual assistants, and voice AI in research contexts."
-    },
-    {
-      "name": "AI-powered data analysis",
-      "count": 22,
-      "description": "Automated data analysis, clustering, segmentation, and pattern detection."
-    },
-    {
-      "name": "Agentic AI in research",
-      "count": 21,
-      "description": "Autonomous AI agents running research tasks, multi-agent frameworks, and orchestration."
-    },
-    {
-      "name": "AI workforce impact",
-      "count": 18,
-      "description": "AI replacing roles, future of work, skills gap, reskilling, and organizational change."
-    },
-    {
-      "name": "AI content generation",
-      "count": 17,
-      "description": "AI writing, report generation, UX copy, and content creation."
-    },
-    {
-      "name": "AI ethics in research",
-      "count": 12,
-      "description": "Bias, fairness, responsible AI, privacy, and trust in research."
+      "count": 47,
+      "description": "Covers AI tools that assist developers in writing, reviewing, debugging, and understanding code, often integrating with IDEs or specific platforms."
     },
     {
       "name": "AI for product management",
-      "count": 7,
-      "description": "AI in product decisions, discovery, prioritization, and roadmapping."
+      "count": 39,
+      "description": "Examines how AI is integrated into product development workflows, from ideation and research to feature prioritization and roadmap planning."
+    },
+    {
+      "name": "AI research tools",
+      "count": 33,
+      "description": "Highlights AI-powered platforms and applications designed to facilitate and accelerate various stages of the research process."
+    },
+    {
+      "name": "Synthetic users",
+      "count": 16,
+      "description": "Discusses the creation and use of artificial user profiles or personas to simulate real user behavior for testing and research."
+    },
+    {
+      "name": "AI for design & research",
+      "count": 15,
+      "description": "Explores AI applications that directly aid in the design process or bridge the gap between design and user research insights."
+    },
+    {
+      "name": "AI-powered data analysis",
+      "count": 15,
+      "description": "Details how AI is used to process, analyze, and extract insights from large datasets, often for user behavior or market research."
+    },
+    {
+      "name": "AI sentiment & feedback analysis",
+      "count": 14,
+      "description": "Focuses on AI's ability to analyze user feedback, reviews, and social media to understand sentiment and extract qualitative insights."
+    },
+    {
+      "name": "AI usability testing",
+      "count": 13,
+      "description": "Covers AI applications for automating or enhancing usability testing processes, including evaluation and report generation."
+    },
+    {
+      "name": "AI workforce impact",
+      "count": 13,
+      "description": "Investigates how AI is changing job roles, skills requirements, and employment landscapes within various industries."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
