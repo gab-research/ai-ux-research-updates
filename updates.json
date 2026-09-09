@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-09-09T12:53:55.277Z",
+  "lastUpdated": "2026-09-09T19:12:44.996Z",
   "updates": [
     {
       "date": "2026-09-09",
@@ -398,18 +398,6 @@
         "url": "https://www.technologyreview.com/2026/08/11/1141610/the-download-next-big-thing-llms-ai-academic-research-shifting/"
       },
       "analysis": "At Nubank, the advancements in LLMs discussed in this article can be integrated into our existing user research workflow, particularly in the synthesis and analysis phases. For instance, when analyzing open-ended feedback from customer support tickets related to PIX transactions or loan applications, LLMs could help quickly identify recurring themes, sentiment, and pain points.  Researchers could also leverage LLMs to summarize long interview transcripts from user testing sessions for features like card activation or insurance onboarding, freeing up time for deeper interpretation.\n\nTo apply this, researchers should explore tools that integrate LLMs for text analysis and summarization. We can pilot these tools on anonymized datasets from existing research studies, comparing their output to manual analysis to assess accuracy and efficiency. It's crucial to establish guardrails: LLMs should augment, not replace, human judgment. We must ensure data privacy and security, especially with sensitive customer information.  Their outputs should be treated as hypotheses to be validated, not definitive truths, particularly when informing critical product decisions for flows like onboarding or managing personal finance."
-    },
-    {
-      "date": "2026-08-10",
-      "title": "Great Question AI: run research from Claude or ChatGPT",
-      "summary": "Great Question AI is a GPT-4-powered assistant that helps level up your research synthesis and streamline your research operations. Try it free for 30 days.",
-      "content": "This article introduces Great Question AI, a new GPT-4 powered tool designed to significantly enhance UX research processes.  Its core function is to assist researchers with complex tasks like synthesizing large volumes of qualitative data, thereby saving valuable time and improving the depth of insights.  For UX researchers at Nubank, this translates to faster turnaround times for research findings, allowing for more agile product development cycles and quicker identification of user pain points within features like PIX transactions or loan applications. The practical implication is the potential to scale research efforts without proportional increases in human resources.",
-      "category": "Survey optimization",
-      "source": {
-        "name": "Great Question Blog",
-        "url": "https://cms.greatquestion.co/blog/introducing-great-question-ai"
-      },
-      "analysis": "At Nubank, Great Question AI can be integrated into our existing research workflow, particularly during the synthesis phase of qualitative studies. Researchers examining user feedback on our card activation flow or the onboarding experience could feed interview transcripts and survey responses into the AI to identify recurring themes, extract key pain points, and even generate initial hypotheses. This would accelerate the process of translating raw data into actionable insights for product teams working on improving these critical user journeys.\n\nWhen applying Great Question AI, researchers should focus on leveraging it for summarization and theme extraction, not for generating entirely new research questions or making critical product decisions independently. It's crucial to remember that AI outputs are a starting point, requiring human validation and critical interpretation, especially when dealing with sensitive data related to financial products like insurance claims or loan applications. Guardrails should include treating all user data with the highest level of privacy and security, ensuring no personally identifiable information (PII) is exposed to the AI unless properly anonymized and pseudonymized, and always cross-referencing AI-generated insights with other research methodologies."
     }
   ]
 }
