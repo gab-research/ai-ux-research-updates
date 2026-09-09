@@ -1,20 +1,20 @@
 {
   "month": "2026-09",
-  "updated": "2026-09-08",
+  "updated": "2026-09-09",
   "themes": [
     {
       "name": "AI research tools",
-      "count": 48,
+      "count": 43,
       "description": "New AI tool launches, reviews, and platforms built for research workflows."
     },
     {
       "name": "Survey optimization",
-      "count": 35,
+      "count": 37,
       "description": "AI tools for designing better surveys, reducing bias, and analyzing responses."
     },
     {
       "name": "AI coding assistants",
-      "count": 32,
+      "count": 35,
       "description": "Copilot, Claude Code, Cursor, and other AI tools for code generation and development."
     },
     {
@@ -23,28 +23,28 @@
       "description": "Chatbots, virtual assistants, and voice AI in research contexts."
     },
     {
-      "name": "AI workforce impact",
-      "count": 20,
-      "description": "AI replacing roles, future of work, skills gap, reskilling, and organizational change."
-    },
-    {
       "name": "AI-powered data analysis",
-      "count": 20,
+      "count": 22,
       "description": "Automated data analysis, clustering, segmentation, and pattern detection."
     },
     {
       "name": "Agentic AI in research",
-      "count": 18,
+      "count": 21,
       "description": "Autonomous AI agents running research tasks, multi-agent frameworks, and orchestration."
     },
     {
+      "name": "AI workforce impact",
+      "count": 18,
+      "description": "AI replacing roles, future of work, skills gap, reskilling, and organizational change."
+    },
+    {
       "name": "AI content generation",
-      "count": 16,
+      "count": 17,
       "description": "AI writing, report generation, UX copy, and content creation."
     },
     {
       "name": "AI ethics in research",
-      "count": 14,
+      "count": 12,
       "description": "Bias, fairness, responsible AI, privacy, and trust in research."
     },
     {
