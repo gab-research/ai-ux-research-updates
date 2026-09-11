@@ -1,19 +1,19 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-09-11T12:46:29.770Z",
+  "lastUpdated": "2026-09-11T19:06:26.454Z",
   "updates": [
     {
       "date": "2026-09-11",
       "title": "UX Roundup: Employers Value Experience Over Skills | Exponential Growth in AI Use | AI Dependence | Undo | Disappointing Suno | AI’s Economic Scenarios | Reflective Design | Mini Maps | GPT Image 2.5",
       "summary": "Since January 2025, tech job postings have asked for 25% fewer skills but 5% more experience | AI spending among OpenAI’s heaviest research users is growing at 129% per month | 26% of young-adult chatbot users say they feel dependent on AI, but the addiction scales disagree |...",
-      "content": "Since January 2025, tech job postings have asked for 25% fewer skills but 5% more experience | AI spending among OpenAI’s heaviest research users is growing at 129% per month | 26% of young-adult chatbot users say they feel dependent on AI, but the addiction scales disagree | Undo = the user’s escape hatch | Suno 6 sounds worse than Suno 5 | Anthropic’s 3 scenarios for how AI will transform the economy forget the robots | Sometimes you should make users stop and think | Mini maps provide an overview of large navigation spaces | New and slightly improved image model from OpenAI",
+      "content": "This UX roundup from Jakob Nielsen highlights significant shifts in the tech industry and user behavior driven by AI. Notably, employers are increasingly prioritizing hands-on experience over specific skill sets in job postings, suggesting a move towards valuing adaptability and practical problem-solving. Simultaneously, there's an exponential rise in AI adoption and spending among heavy research users, alongside emerging concerns about user dependency on AI chatbots, particularly among younger demographics. These trends underscore the evolving landscape of tech talent acquisition and the critical need for UX professionals to understand and address the ethical and practical implications of AI integration.",
       "category": "AI for design & research",
       "source": {
         "name": "Jakob Nielsen (Substack)",
         "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260911"
       },
-      "analysis": ""
+      "analysis": "This information directly impacts Nubank's UX research by signaling a shift in how we should scout and evaluate talent within the research team, potentially favoring candidates with proven experience in navigating complex digital product landscapes, like our PIX, loan application, or onboarding flows, over niche tool proficiencies. For ongoing research, we must actively investigate user dependency on our AI-powered features, such as those assisting in card activation or insurance claims, to ensure we're designing for healthy engagement rather than unhealthy reliance. This requires incorporating specific qualitative and quantitative measures into our studies to gauge perceived dependency and its impact on user satisfaction and goal completion."
     },
     {
       "date": "2026-09-10",
@@ -386,18 +386,6 @@
         "url": "https://feeds.baymard.com/link/9825/17417083/food-delivery-and-takeout-ux-benchmark-2026"
       },
       "analysis": "At Nubank, this Baymard benchmark can serve as a foundational reference point for evaluating the user experience of our service-oriented features beyond core banking. Researchers can leverage its methodologies and identified best practices to inform usability testing plans for features like our customer support chat, onboarding flows for new products (e.g., insurance or loans), or even the PIX transfer experience.  By comparing our current performance against the benchmark's criteria, we can identify specific areas where our user journeys might be optimized for greater efficiency and user satisfaction, drawing parallels between the decision-making and task completion in food delivery and complex financial interactions.\n\nWhen applying this benchmark, researchers should focus on adapting the principles to Nubank's specific context. While the food delivery context is different, the underlying user needs for clarity, ease of navigation, trust, and efficient task completion are universal. For instance, the benchmark's insights on clear pricing and order status updates could inform how we communicate transaction details in PIX, or how we present loan terms and repayment schedules. However, it's crucial to remember that financial products carry higher stakes and require a greater emphasis on security and transparency, so direct application of every food delivery best practice might not be suitable without careful consideration and adaptation to our regulatory environment and user trust paradigms."
-    },
-    {
-      "date": "2026-08-12",
-      "title": "MindTopo reveals VLMs’ spatial reasoning abilities",
-      "summary": "A path, a fence, a knot. MindTopo sets a new benchmark for testing how AI understands topological relationships and highlights new opportunities to strengthen spatial reasoning and planning. The post MindTopo reveals VLMs’ spatial reasoning abilities appeared first on Microsof...",
-      "content": "A path, a fence, a knot. MindTopo sets a new benchmark for testing how AI understands topological relationships and highlights new opportunities to strengthen spatial reasoning and planning. The post MindTopo reveals VLMs’ spatial reasoning abilities appeared first on Microsoft Research.",
-      "category": "General AI in research",
-      "source": {
-        "name": "Microsoft Research",
-        "url": "https://www.microsoft.com/en-us/research/blog/mindtopo-reveals-vlms-spatial-reasoning-abilities/"
-      },
-      "analysis": "At Nubank, MindTopo's methodology can be integrated into our early-stage generative research and concept testing. When exploring new features or redesigning existing flows (e.g., a more intuitive PIX transfer process or a streamlined loan application), researchers can leverage VLMs assessed by MindTopo to analyze visual prototypes or even user-created diagrams of desired functionalities. This allows us to quickly identify potential spatial or sequential misunderstandings within a visual concept before significant development resources are committed. For instance, we could present a VLM with a series of wireframes for a new credit card activation flow and ask it to identify illogical steps or missing visual cues based on its topological understanding.\n\nWhen applying this, researchers should focus on how the VLM interprets spatial relationships in user interface elements and narrative sequences. This could involve feeding the VLM screenshots of different screens in the onboarding process or visualizing the steps involved in purchasing insurance. The output can then highlight areas where visual hierarchy might be confusing or where a user might logically expect to find certain controls. However, it's vital to remember MindTopo is a benchmark for VLM *abilities*, not a direct user testing tool. The insights derived from VLM analysis should be treated as hypotheses to be validated through traditional user research methods, particularly for nuanced emotional or behavioral aspects of the user experience with products like Nubank's digital account or investment platforms."
     }
   ]
 }
