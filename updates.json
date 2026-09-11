@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-09-11T04:18:09.643Z",
+  "lastUpdated": "2026-09-11T12:46:29.770Z",
   "updates": [
+    {
+      "date": "2026-09-11",
+      "title": "UX Roundup: Employers Value Experience Over Skills | Exponential Growth in AI Use | AI Dependence | Undo | Disappointing Suno | AI’s Economic Scenarios | Reflective Design | Mini Maps | GPT Image 2.5",
+      "summary": "Since January 2025, tech job postings have asked for 25% fewer skills but 5% more experience | AI spending among OpenAI’s heaviest research users is growing at 129% per month | 26% of young-adult chatbot users say they feel dependent on AI, but the addiction scales disagree |...",
+      "content": "Since January 2025, tech job postings have asked for 25% fewer skills but 5% more experience | AI spending among OpenAI’s heaviest research users is growing at 129% per month | 26% of young-adult chatbot users say they feel dependent on AI, but the addiction scales disagree | Undo = the user’s escape hatch | Suno 6 sounds worse than Suno 5 | Anthropic’s 3 scenarios for how AI will transform the economy forget the robots | Sometimes you should make users stop and think | Mini maps provide an overview of large navigation spaces | New and slightly improved image model from OpenAI",
+      "category": "AI for design & research",
+      "source": {
+        "name": "Jakob Nielsen (Substack)",
+        "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260911"
+      },
+      "analysis": ""
+    },
     {
       "date": "2026-09-10",
       "title": "The research work you should hand to AI, and the work it should never touch",
@@ -374,18 +386,6 @@
         "url": "https://feeds.baymard.com/link/9825/17417083/food-delivery-and-takeout-ux-benchmark-2026"
       },
       "analysis": "At Nubank, this Baymard benchmark can serve as a foundational reference point for evaluating the user experience of our service-oriented features beyond core banking. Researchers can leverage its methodologies and identified best practices to inform usability testing plans for features like our customer support chat, onboarding flows for new products (e.g., insurance or loans), or even the PIX transfer experience.  By comparing our current performance against the benchmark's criteria, we can identify specific areas where our user journeys might be optimized for greater efficiency and user satisfaction, drawing parallels between the decision-making and task completion in food delivery and complex financial interactions.\n\nWhen applying this benchmark, researchers should focus on adapting the principles to Nubank's specific context. While the food delivery context is different, the underlying user needs for clarity, ease of navigation, trust, and efficient task completion are universal. For instance, the benchmark's insights on clear pricing and order status updates could inform how we communicate transaction details in PIX, or how we present loan terms and repayment schedules. However, it's crucial to remember that financial products carry higher stakes and require a greater emphasis on security and transparency, so direct application of every food delivery best practice might not be suitable without careful consideration and adaptation to our regulatory environment and user trust paradigms."
-    },
-    {
-      "date": "2026-08-12",
-      "title": "From assistance to execution: How enterprises put AI to work",
-      "summary": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
-      "content": "This OpenAI blog post explores the evolving role of AI in enterprise settings, moving beyond simple assistance to direct task execution.  It highlights how companies are leveraging agentic AI, powered by models like ChatGPT and Codex, to automate complex workflows and gain a competitive edge. For UX researchers, understanding this shift is crucial as it signals a future where AI can directly assist in, or even perform, research tasks. This means researchers need to explore how to integrate these AI capabilities into their own processes, potentially accelerating insights generation and freeing up time for more strategic thinking, impacting areas like user journey mapping or persona development.",
-      "category": "Conversational AI in research",
-      "source": {
-        "name": "OpenAI Blog",
-        "url": "https://openai.com/index/how-enterprises-put-ai-to-work"
-      },
-      "analysis": "At Nubank, this trend towards agentic AI can be integrated into our research workflow by first identifying research tasks that can be augmented or automated. For instance, instead of manually synthesizing large volumes of open-ended survey responses on loan applications or PIX transactions, ChatGPT could generate initial thematic summaries. Similarly, Codex could assist in generating code snippets for data analysis or even prototyping UI elements based on descriptive research findings for features like card activation.\n\nResearchers should experiment with these tools for tasks such as drafting interview scripts for new customer onboarding flows, generating initial hypotheses for A/B tests on insurance product messaging, or even summarizing competitive analysis reports. However, it's crucial to maintain human oversight and critical evaluation. AI-generated insights should be treated as a starting point, not a final answer, and validated through traditional qualitative methods and user testing. Guardrails must include data privacy considerations, ensuring sensitive customer information from flows like personal loan applications is handled securely and ethically, and avoiding over-reliance on AI for nuanced qualitative understanding."
     },
     {
       "date": "2026-08-12",
