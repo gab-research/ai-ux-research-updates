@@ -1,56 +1,56 @@
 {
   "month": "2026-09",
-  "updated": "2026-09-10",
+  "updated": "2026-09-11",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 48,
-      "description": "This theme covers AI agents that can perform research tasks autonomously, interact with systems, and drive research workflows."
+      "count": 47,
+      "description": "Articles discussing AI agents that can autonomously perform research tasks, from data analysis to discovery."
     },
     {
       "name": "AI coding assistants",
-      "count": 29,
-      "description": "This theme focuses on AI tools that assist developers and researchers in writing, debugging, and understanding code."
+      "count": 37,
+      "description": "Content focused on AI tools that help developers write, debug, and optimize code."
     },
     {
       "name": "AI research tools",
-      "count": 24,
-      "description": "This theme encompasses a broad range of AI-powered tools designed to aid researchers in various aspects of their work, from data analysis to content summarization."
+      "count": 22,
+      "description": "Articles highlighting AI tools specifically designed to aid researchers in various disciplines."
     },
     {
       "name": "Synthetic users",
-      "count": 17,
-      "description": "This theme covers the use of AI-generated user personas and data to simulate user behavior and conduct research without real participants."
+      "count": 19,
+      "description": "Discussions around AI-generated user personas or data that mimic real users for research and testing."
     },
     {
-      "name": "AI summarization",
+      "name": "AI for product management",
       "count": 13,
-      "description": "This theme focuses on AI tools that condense large volumes of text, research papers, or conversations into concise summaries."
-    },
-    {
-      "name": "AI sentiment feedback",
-      "count": 11,
-      "description": "This theme addresses the application of AI to analyze and understand user sentiment expressed in reviews, feedback, and social media."
-    },
-    {
-      "name": "AI usability testing",
-      "count": 8,
-      "description": "This theme covers AI's role in automating or augmenting usability testing processes, identifying usability issues, and analyzing test results."
+      "description": "Articles exploring how AI is being used to assist product managers in tasks like strategy, roadmapping, and decision-making."
     },
     {
       "name": "AI for design & research",
-      "count": 8,
-      "description": "This theme explores how AI is being integrated into the design process and research activities to enhance creativity, efficiency, and insights."
+      "count": 12,
+      "description": "Content focusing on AI's role in augmenting or transforming the design and research processes."
+    },
+    {
+      "name": "AI summarization",
+      "count": 11,
+      "description": "Articles detailing AI capabilities for condensing large amounts of text, data, or research into concise summaries."
     },
     {
       "name": "AI workforce impact",
-      "count": 8,
-      "description": "This theme examines how AI is affecting jobs, skill requirements, and the overall structure of the workforce."
+      "count": 10,
+      "description": "Discussions on how AI is affecting jobs, roles, and the skills required in the workforce."
     },
     {
-      "name": "AI chatbot research",
-      "count": 7,
-      "description": "This theme focuses on research into the behavior, capabilities, and impact of AI chatbots on users and society."
+      "name": "AI usability testing",
+      "count": 10,
+      "description": "Articles about using AI to automate or enhance usability testing processes and gather feedback."
+    },
+    {
+      "name": "AI sentiment feedback",
+      "count": 9,
+      "description": "Content related to AI's ability to analyze and interpret user sentiment from various feedback channels."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
