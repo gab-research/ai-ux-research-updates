@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-09-11T19:06:26.454Z",
+  "lastUpdated": "2026-09-12T04:17:06.197Z",
   "updates": [
     {
       "date": "2026-09-11",
@@ -362,18 +362,6 @@
         "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260814"
       },
       "analysis": "At Nubank, the insights from this roundup can significantly enhance our research and product development. For instance, understanding hedonic adaptation can inform strategies for maintaining user engagement with new features, such as our recently launched investment products or iterative improvements to the PIX experience.  We can explore how to introduce fresh elements or pathways to prevent users from becoming desensitized to valuable functionalities over time.  The discussion on AI in knowledge work and sensemaking is particularly relevant for our data science and research teams. Researchers can leverage AI tools for preliminary analysis of large datasets from customer feedback on loans, insurance applications, or card activation processes, identifying patterns that might be missed by manual review.  This can free up researcher time for deeper qualitative exploration and strategic thinking.\n\nWhen applying AI for sensemaking, it's crucial to establish clear guardrails. AI should be viewed as a co-pilot, not an autopilot, for our research insights. Researchers must retain critical oversight and apply their domain expertise to validate AI-generated hypotheses, especially in sensitive areas like fraud detection within our banking app or personalization of credit card offers.  The reminder about users wanting to approve autonomous actions is paramount for all Nubank flows.  We must ensure that any AI-driven actions, such as automated loan pre-approvals or proactive fraud alerts, are presented transparently to the user, with clear options for review and explicit user consent before execution, aligning with our commitment to user control and trust.  This is critical for onboarding new customers and managing existing relationships in areas like international money transfers."
-    },
-    {
-      "date": "2026-08-13",
-      "title": "New EU Guidelines For AI Labelling",
-      "summary": "New EU guidelines, why AI sparkles aren’t enough, when AI labels are required, and what the rules mean for AI-powered features and products. Brought to you by Design Patterns For AI Interfaces, **friendly video courses on UX** and design patterns by Vitaly.",
-      "content": "The European Union is introducing new guidelines that go beyond superficial \"AI sparkles\" to mandate clear and informative labeling for AI-powered features and products. This development is crucial for UX researchers as it necessitates transparency and user understanding regarding how AI influences their digital banking experience. Practically, this means designers and researchers must actively work to disclose when AI is involved in features like personalized loan offers, PIX transaction fraud detection, or even the automated nudges in our onboarding flow, ensuring users are aware and can make informed decisions.",
-      "category": "AI for product management",
-      "source": {
-        "name": "Smashing Magazine",
-        "url": "https://smashingmagazine.com/2026/08/eu-guidelines-ai-labelling/"
-      },
-      "analysis": "At Nubank, these EU guidelines should be integrated into our product development lifecycle, specifically during the discovery and design phases of any AI-enhanced feature. UX researchers need to collaborate with product and engineering teams to identify instances where AI significantly impacts user experience, such as in the automated decision-making for credit card approvals or the personalized recommendations within the app. This information should then inform our user testing protocols, ensuring we assess user comprehension of AI's role and their trust in these systems.\n\nWhen designing interfaces, researchers and designers should advocate for clear, accessible labels and explanations that go beyond mere icons. For example, when PIX transactions are flagged for potential fraud by an AI system, the notification should clearly state that AI has identified a potential risk and briefly explain why, rather than just presenting a generic \"suspicious activity\" alert. This applies to other areas like the automated insurance policy recommendations or the dynamic adjustments to loan repayment plans, ensuring users feel empowered and not manipulated by unseen algorithmic processes."
     },
     {
       "date": "2026-08-13",
