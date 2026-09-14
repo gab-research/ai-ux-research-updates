@@ -1,19 +1,43 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-09-14T14:57:24.696Z",
+  "lastUpdated": "2026-09-14T20:16:00.338Z",
   "updates": [
     {
       "date": "2026-09-14",
       "title": "UX Roundup: AI Codes Survey Responses | Agents Disregard Ranking | Half of AI Use Needs Recovery | AI Context | AI Agents | Emotional Attachment to AI | Cost of Extra Steps | Feedback During Creation",
       "summary": "AI is good at coding open-ended survey answers | AI agents shop without Google Gullibility | Half of AI conversations include a breakdown, so the recovery experience deserves more attention | AI needs context to suit the task | Field reports from projects that implement AI age...",
-      "content": "AI is good at coding open-ended survey answers | AI agents shop without Google Gullibility | Half of AI conversations include a breakdown, so the recovery experience deserves more attention | AI needs context to suit the task | Field reports from projects that implement AI agents | People develop feelings for their AI | Respect users’ time: every extra step carries a cost for them and for you | AI can make users feel they’re creating for an audience | The ends of names and labels often get cut off, so start with the text that distinguishes each item | Previews that appear on hover strengthen information scent without consuming extra screen space | Anchoring: The first number users see wins | Users give up after a few failures | AI improves design through live experiments, retuning a recommender every 3 days",
+      "content": "This UX Roundup from Jakob Nielsen highlights several critical AI advancements and their implications for user experience research. A key takeaway is AI's growing proficiency in coding open-ended survey responses, a task that traditionally consumes significant researcher time. This efficiency gain allows researchers to dedicate more resources to in-depth analysis and strategy.  Furthermore, the article underscores the current limitations of AI, particularly the frequent breakdowns in AI conversations, emphasizing the need for robust recovery mechanisms.  The importance of providing AI with sufficient context for task completion and the burgeoning emotional attachment users can develop towards AI are also significant considerations for how we design and evaluate AI-powered experiences.",
       "category": "Survey optimization",
       "source": {
         "name": "Jakob Nielsen (Substack)",
         "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260914"
       },
-      "analysis": ""
+      "analysis": "At Nubank, this AI roundup offers immediate opportunities to optimize our research processes. For instance, when analyzing qualitative feedback from loan applications or PIX transaction disputes, AI can now significantly expedite the coding of open-ended comments, freeing up researchers to focus on identifying emerging trends and pain points within the user journey. This can directly inform improvements to our onboarding flow for new customers or the card activation process, making them more intuitive and efficient.\n\nOur researchers should actively explore and pilot AI tools for qualitative data analysis, treating AI-generated codes as a strong starting point that requires human validation and refinement. Crucially, when designing AI-powered features, such as conversational assistants for insurance claims or personalized financial advice, we must prioritize a seamless recovery experience. This means anticipating and planning for AI 'breakdowns,' ensuring users can easily re-establish context and achieve their goals without undue frustration. We need to establish clear guardrails around data privacy and the ethical use of AI in research, ensuring user trust remains paramount."
+    },
+    {
+      "date": "2026-09-14",
+      "title": "The UX Double Diamond is dead, and in AI only one survives for software",
+      "summary": "The UX Double Diamond is dead, and in AI only one survives for software",
+      "content": "This article argues that the traditional Double Diamond UX design process is becoming obsolete in the age of AI-powered software development.  The core idea is that AI's ability to rapidly iterate and personalize user experiences necessitates a more agile and iterative research approach, moving away from distinct 'diverge/converge' phases.  This shift matters for UX researchers as it challenges established methodologies and requires us to embrace continuous learning and adaptation. Practically, it implies a greater emphasis on real-time data analysis, predictive user modeling, and ongoing experimentation to optimize user journeys, rather than relying solely on upfront, linear research sprints.",
+      "category": "AI research tools",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/the-ux-double-diamond-is-dead-and-in-ai-only-one-survives-for-software-heres-how-to-adapt-f63b57c524ed?source=rss----138adf9c44c---4"
+      },
+      "analysis": "At Nubank, this concept of a 'single diamond' for AI-driven software suggests a pivot towards more integrated and continuous research loops within our existing product development cycles. Instead of viewing research as a distinct pre-design phase, we should embed it directly into the development and iteration of AI features across products like PIX, loan applications, or even the card activation flow. This means researchers should be actively involved in defining and monitoring AI model performance metrics related to user satisfaction and task completion, using this data to inform rapid adjustments to user interfaces and AI logic in near real-time.\n\nTo apply this, researchers can leverage AI tools to analyze vast datasets of user interactions (e.g., app usage logs for insurance products, loan application abandonment rates) and proactively identify areas for improvement. This AI-driven insight then directly informs iterative design changes, which are immediately tested and refined. Guardrails are crucial: we must maintain rigorous ethical considerations, ensuring AI personalization doesn't lead to discriminatory practices or an erosion of user control, particularly in sensitive areas like credit decisions or onboarding processes. Transparency about AI's role and its limitations will remain paramount for building and maintaining user trust."
+    },
+    {
+      "date": "2026-09-14",
+      "title": "How Fyxer built an AI executive assistant people trust",
+      "summary": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
+      "content": "This OpenAI blog post highlights Fyxer's successful development of an AI executive assistant that users trust, a significant achievement given the common skepticism around AI.  Fyxer achieved this by leveraging OpenAI's models, enhancing them with fine-tuning for specific user needs and incorporating memory to recall past interactions. Crucially, they integrated real user feedback throughout the development process, allowing the AI to accurately mimic individual communication styles for tasks like inbox organization and email drafting. This demonstrates a powerful approach to building AI tools that feel personal and reliable, which is highly relevant for UX researchers looking to understand and improve human-AI collaboration.",
+      "category": "Sentiment & feedback analysis",
+      "source": {
+        "name": "OpenAI Blog",
+        "url": "https://openai.com/index/fyxer"
+      },
+      "analysis": "At Nubank, Fyxer's approach can be integrated into our research workflow for improving user-facing AI features, such as the personalized AI agent suggestions within our app or the automated responses in customer support. Researchers can use fine-tuning techniques with anonymized user interaction data to train models that understand and respond to common customer queries about PIX transfers, loan applications, or card activation in a more natural and empathetic tone, aligning with Nubank's brand voice.  This can streamline research on user expectations for AI interactions, allowing us to gather feedback on AI 'personality' and effectiveness during onboarding or when users are navigating complex insurance claims.\n\nWhen applying this, it's essential to establish strict guardrails around data privacy and security, especially with sensitive financial information. Researchers must prioritize anonymization and aggregation of user feedback, ensuring that any AI training data cannot be linked back to individuals. We should also implement robust A/B testing and user testing phases to validate the AI's performance and trust metrics, comparing AI-generated responses against human agent responses to identify potential biases or areas where the AI fails to replicate genuine human understanding. This iterative feedback loop, similar to Fyxer's, will be crucial for building trust in Nubank's AI-powered features across all our product lines."
     },
     {
       "date": "2026-09-12",
