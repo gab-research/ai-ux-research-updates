@@ -1,56 +1,56 @@
 {
   "month": "2026-09",
-  "updated": "2026-09-13",
+  "updated": "2026-09-14",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 89,
-      "description": "Covers AI agents performing research tasks autonomously, from data analysis to report generation, often involving interaction and decision-making."
-    },
-    {
-      "name": "AI coding assistants",
-      "count": 45,
-      "description": "Focuses on AI tools that assist developers with writing, debugging, and optimizing code, including code generation and review."
+      "count": 58,
+      "description": "Focuses on AI agents capable of performing research tasks autonomously, including complex analysis, data gathering, and hypothesis generation."
     },
     {
       "name": "AI research tools",
-      "count": 31,
-      "description": "Encompasses a broad range of AI applications designed to aid researchers in various stages of their work, from data collection to analysis."
+      "count": 41,
+      "description": "Covers a broad range of AI-powered tools and platforms designed to assist researchers in various stages of the research process, from data collection to analysis."
     },
     {
-      "name": "Synthetic users",
-      "count": 23,
-      "description": "Articles discussing the creation and use of artificial users or personas for testing, simulation, and research purposes."
-    },
-    {
-      "name": "AI chatbot research",
-      "count": 22,
-      "description": "Explores the research surrounding AI chatbots, their capabilities, limitations, user interactions, and psychological impacts."
-    },
-    {
-      "name": "AI summarization",
-      "count": 21,
-      "description": "Covers AI capabilities for condensing large amounts of text or data into concise summaries, aiding in information extraction."
-    },
-    {
-      "name": "AI for design & research",
-      "count": 19,
-      "description": "Focuses on AI applications specifically designed to enhance UX design processes, prototyping, and user research methodologies."
+      "name": "AI coding assistants",
+      "count": 33,
+      "description": "Explores AI tools that assist developers in writing, debugging, and understanding code, often acting as collaborative partners in the development process."
     },
     {
       "name": "AI sentiment & feedback analysis",
-      "count": 19,
-      "description": "Articles detailing how AI is used to analyze user feedback, reviews, and sentiment to extract insights."
+      "count": 25,
+      "description": "Articles discussing the use of AI to analyze and interpret user sentiment, feedback, and reviews from various sources to gain qualitative insights."
     },
     {
-      "name": "AI survey tools",
-      "count": 19,
-      "description": "Covers AI applications that aid in the creation, distribution, and analysis of surveys to gather user data."
+      "name": "AI for product management",
+      "count": 25,
+      "description": "Focuses on how AI is being integrated into product management workflows, including idea generation, prioritization, and market analysis."
     },
     {
-      "name": "AI recruitment research",
+      "name": "AI chatbot research",
+      "count": 24,
+      "description": "Examines the research and development of AI chatbots, including their capabilities, limitations, and impact on user interactions."
+    },
+    {
+      "name": "Synthetic users",
+      "count": 19,
+      "description": "Covers the creation and use of AI-generated user personas or data for testing and research purposes."
+    },
+    {
+      "name": "AI-powered data analysis",
       "count": 18,
-      "description": "Examines the impact of AI on job markets, recruitment processes, and workforce dynamics, including job displacement and skill shifts."
+      "description": "Highlights the application of AI techniques for analyzing large datasets, identifying patterns, and extracting meaningful insights."
+    },
+    {
+      "name": "AI usability testing",
+      "count": 12,
+      "description": "Focuses on AI applications for conducting and analyzing usability tests, aiming to identify design flaws and areas for improvement."
+    },
+    {
+      "name": "AI design research",
+      "count": 12,
+      "description": "Explores how AI is being used in the design process, from concept generation to prototyping and user interface refinement."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
