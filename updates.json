@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-09-14T04:35:29.637Z",
+  "lastUpdated": "2026-09-14T14:57:24.696Z",
   "updates": [
+    {
+      "date": "2026-09-14",
+      "title": "UX Roundup: AI Codes Survey Responses | Agents Disregard Ranking | Half of AI Use Needs Recovery | AI Context | AI Agents | Emotional Attachment to AI | Cost of Extra Steps | Feedback During Creation",
+      "summary": "AI is good at coding open-ended survey answers | AI agents shop without Google Gullibility | Half of AI conversations include a breakdown, so the recovery experience deserves more attention | AI needs context to suit the task | Field reports from projects that implement AI age...",
+      "content": "AI is good at coding open-ended survey answers | AI agents shop without Google Gullibility | Half of AI conversations include a breakdown, so the recovery experience deserves more attention | AI needs context to suit the task | Field reports from projects that implement AI agents | People develop feelings for their AI | Respect users’ time: every extra step carries a cost for them and for you | AI can make users feel they’re creating for an audience | The ends of names and labels often get cut off, so start with the text that distinguishes each item | Previews that appear on hover strengthen information scent without consuming extra screen space | Anchoring: The first number users see wins | Users give up after a few failures | AI improves design through live experiments, retuning a recommender every 3 days",
+      "category": "Survey optimization",
+      "source": {
+        "name": "Jakob Nielsen (Substack)",
+        "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260914"
+      },
+      "analysis": ""
+    },
     {
       "date": "2026-09-12",
       "title": "The real reason everyone hates the viral AI food slop images",
