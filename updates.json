@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-09-15T13:24:57.213Z",
+  "lastUpdated": "2026-09-15T19:38:53.910Z",
   "updates": [
     {
       "date": "2026-09-15",
@@ -31,7 +31,7 @@
       "date": "2026-09-15",
       "title": "B2B Medical & Pharma UX Benchmark: 3,400+ Performance Scores and 2,600+ Best Practice Examples",
       "summary": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) At Baymard, we’ve just released a new UX benchmark with 10 “B2B Medical & Pharma” UX case stud...",
-      "content": "This Baymard Institute benchmark offers an in-depth analysis of B2B UX within the medical and pharmaceutical sectors, presenting over 3,400 performance scores and more than 2,600 best practice examples. The report delves into the nuances of designing user experiences for business customers in these highly regulated industries, focusing on aspects like information architecture, navigation, and content clarity. For UX researchers, this benchmark is invaluable as it provides concrete data and actionable insights into what constitutes effective B2B UX, enabling them to identify areas for improvement and benchmark their own designs against industry leaders. The practical implications lie in improving efficiency, user satisfaction, and ultimately, business outcomes for clients interacting with digital platforms in these specialized fields.",
+      "content": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) At Baymard, we’ve just released a new UX benchmark with 10 “B2B Medical & Pharma” UX case studies. This follows from our large-scale user testing and adds to our existing ecommerce UX benchmark. In this article, we give you a snapshot of the overall UX performance. 10 B2B Medical & Pharma UX Case Studies and the Overall Performance Get Premium access to review your own site or have it audited by Baymard researchers. These are the 10 in-depth B2B Medical & Pharma UX case studies. The 10 sites have been manually assessed across 400+ research-based UX parameters relevant to B2B Medical & Pharma, resulting in 3,400+ weighted UX performance scores and 2,600+ best practice examples from these desktop and mobile sites. Each of the 3,400+ UX performance scores from the 10 B2B Medical & Pharma case studies is summarized in the interactive scatterplot below — showing you how they perform collectively and individually: {{ scatterplot-graph: size=big + habitat=public + base-sites=collection:medical-pharma + vie...",
       "category": "AI in user testing",
       "source": {
         "name": "Baymard Institute",
