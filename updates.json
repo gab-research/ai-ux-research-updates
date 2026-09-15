@@ -1,8 +1,44 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-09-15T04:35:41.526Z",
+  "lastUpdated": "2026-09-15T13:24:57.213Z",
   "updates": [
+    {
+      "date": "2026-09-15",
+      "title": "The hidden culture of AI",
+      "summary": "AI isn’t culturally neutral. Whose culture are you designing for? Continue reading on UX Collective »",
+      "content": "The article \"The Hidden Culture of AI\" argues that artificial intelligence is not a neutral technology, but rather a reflection of the biases and cultural assumptions of its creators and the data it's trained on. This is crucial for UX researchers as it means AI-powered tools and features can inadvertently perpetuate existing societal inequalities and exclude specific user groups. For Nubank, understanding this cultural embeddedness is vital to ensure our AI applications, whether for fraud detection in PIX transactions or personalizing loan offerings, are inclusive and serve the diverse needs of our Brazilian customer base.",
+      "category": "AI research tools",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/ai-culture-ux-design-36c7d410cd1f?source=rss----138adf9c44c---4"
+      },
+      "analysis": "This article directly impacts how we approach user research at Nubank, especially as we integrate AI into our product development. When conducting research for new features, such as those involving AI-driven personalization in our credit card activation flow or the AI-assisted onboarding process, researchers should actively probe for cultural nuances in user expectations and potential biases. This means going beyond standard usability questions to explore how different cultural backgrounds might interpret AI-generated recommendations, warnings, or assistance, and whether these are perceived as helpful or intrusive.\n\nPractically, this means supplementing our existing research methodologies. For instance, when gathering feedback on our AI-powered insurance product recommendations, we should consider stratified sampling to ensure representation across diverse socio-economic and regional groups within Brazil. Researchers should also actively document and flag any instances where AI interactions might alienate or confuse users due to cultural differences, feeding this back into AI model training and design iterations. The core guardrail is to always prioritize user understanding and ethical considerations, ensuring our AI serves all Nubank customers equitably and doesn't introduce new barriers, especially in sensitive areas like loan applications or dispute resolution for PIX payments."
+    },
+    {
+      "date": "2026-09-15",
+      "title": "The death of the deliverable",
+      "summary": "AI didn’t kill the wireframe; it exposed that the wireframe was never really the point Continue reading on UX Collective »",
+      "content": "This article argues that the rise of AI in design tools doesn't signal the obsolescence of traditional deliverables like wireframes. Instead, it highlights a fundamental misunderstanding of their purpose. Wireframes were always a means to an end – facilitating communication and idea validation, not the final product themselves. For UX researchers, this means a continued emphasis on understanding user needs and behaviors, leveraging AI to accelerate the creation of tangible outputs while focusing our human expertise on deeper insights and strategic recommendations. The practical implication is a shift from meticulously crafting static artifacts to using AI-generated prototypes and mockups as springboards for richer, more impactful user testing and collaboration.",
+      "category": "AI research tools",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/the-death-of-the-deliverable-cbaea0123895?source=rss----138adf9c44c---4"
+      },
+      "analysis": "At Nubank, this article's premise can significantly influence how we integrate AI into our research workflow, particularly around feature development for products like PIX or loan applications. Instead of solely focusing on generating perfect wireframes or detailed user flow diagrams manually, researchers can leverage AI tools to quickly produce multiple iterative design concepts. These AI-generated outputs can then serve as the basis for early-stage user validation, saving valuable researcher time for more critical tasks like in-depth qualitative interviews or complex survey design. For instance, AI could rapidly generate variations of a new feature for our card activation flow, allowing us to test core usability principles with users much earlier in the cycle.\n\nResearchers should embrace AI as an accelerator for ideation and prototyping, but critically evaluate its outputs. The \"deliverable\" now becomes less about the polished visual and more about the validated hypothesis. When using AI for generating concepts for insurance policy explanation or the onboarding process, researchers must meticulously scrutinize the AI's suggestions for logical fallacies, potential biases, or misalignment with Nubank's core principles and Brazilian user context. Our role remains to champion the user, ensuring AI-assisted designs truly solve problems and create delightful experiences, rather than just generating aesthetically pleasing but functionally flawed interfaces. Guardrails should include human oversight at every stage, focusing AI on repetitive tasks while reserving complex problem-solving and strategic interpretation for experienced researchers."
+    },
+    {
+      "date": "2026-09-15",
+      "title": "B2B Medical & Pharma UX Benchmark: 3,400+ Performance Scores and 2,600+ Best Practice Examples",
+      "summary": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) At Baymard, we’ve just released a new UX benchmark with 10 “B2B Medical & Pharma” UX case stud...",
+      "content": "This Baymard Institute benchmark offers an in-depth analysis of B2B UX within the medical and pharmaceutical sectors, presenting over 3,400 performance scores and more than 2,600 best practice examples. The report delves into the nuances of designing user experiences for business customers in these highly regulated industries, focusing on aspects like information architecture, navigation, and content clarity. For UX researchers, this benchmark is invaluable as it provides concrete data and actionable insights into what constitutes effective B2B UX, enabling them to identify areas for improvement and benchmark their own designs against industry leaders. The practical implications lie in improving efficiency, user satisfaction, and ultimately, business outcomes for clients interacting with digital platforms in these specialized fields.",
+      "category": "AI in user testing",
+      "source": {
+        "name": "Baymard Institute",
+        "url": "https://feeds.baymard.com/link/9825/17462397/b2b-medical-pharma-ux-benchmark-2026"
+      },
+      "analysis": "This Baymard Institute report provides a rich source of comparative data and best practices for B2B UX, which can significantly inform Nubank's own research and design efforts. We should integrate this benchmark into our competitive analysis phase for any B2B-facing products or features, such as our offerings for small businesses or institutional clients. Researchers can use the performance scores as a baseline to evaluate the effectiveness of current Nubank flows, like the onboarding process for business accounts or the user experience of our business lending platform, identifying specific areas where we lag behind or excel.\n\nWhen applying this benchmark, researchers should focus on the B2B elements that are transferable to our context, even if the specific industry differs. For instance, principles of clear information hierarchy, trust-building mechanisms, and efficient task completion are universally important for business users. While Nubank's core user base is primarily B2C, understanding B2B UX excellence can inspire improvements in our business-focused products. We must be mindful that direct comparison to medical/pharma UX might not be entirely applicable due to regulatory differences; however, the *principles* of designing for complex workflows, professional users, and high-stakes transactions are highly relevant. This can help refine user journeys for features beyond PIX or card activation, extending to areas like business insurance applications or enterprise account management."
+    },
     {
       "date": "2026-09-14",
       "title": "UX Roundup: AI Codes Survey Responses | Agents Disregard Ranking | Half of AI Use Needs Recovery | AI Context | AI Agents | Emotional Attachment to AI | Cost of Extra Steps | Feedback During Creation",
