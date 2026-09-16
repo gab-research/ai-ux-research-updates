@@ -1,56 +1,56 @@
 {
   "month": "2026-09",
-  "updated": "2026-09-15",
+  "updated": "2026-09-16",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 107,
-      "description": "Covers AI agents capable of performing complex, multi-step research tasks autonomously or with minimal human intervention."
+      "count": 78,
+      "description": "Focuses on AI agents that can autonomously perform research tasks, conduct experiments, and generate insights without constant human oversight."
     },
     {
       "name": "AI coding assistants",
-      "count": 56,
-      "description": "Focuses on AI tools that help developers write, debug, and refactor code, acting as intelligent coding partners."
-    },
-    {
-      "name": "AI research platforms",
-      "count": 33,
-      "description": "Encompasses platforms designed to facilitate, organize, and accelerate various types of research activities using AI."
+      "count": 48,
+      "description": "Explores AI tools that help developers write, debug, and refactor code, accelerating the software development lifecycle."
     },
     {
       "name": "AI summarization",
+      "count": 34,
+      "description": "Covers AI capabilities that condense large amounts of text, such as articles, reports, or user feedback, into concise summaries."
+    },
+    {
+      "name": "AI research tools",
+      "count": 34,
+      "description": "Highlights AI-powered platforms and software designed to assist researchers in various stages of their work, from data collection to analysis."
+    },
+    {
+      "name": "AI sentiment feedback",
+      "count": 24,
+      "description": "Focuses on AI's ability to analyze user reviews, social media posts, and other forms of feedback to gauge sentiment and identify trends."
+    },
+    {
+      "name": "AI workforce impact",
       "count": 22,
-      "description": "Articles discussing AI's ability to condense large amounts of text or data into concise summaries for quicker understanding."
+      "description": "Examines how AI is affecting jobs, skills, and the overall nature of work across different industries."
     },
     {
-      "name": "AI sentiment & feedback analysis",
-      "count": 20,
-      "description": "Covers the use of AI to analyze user feedback, reviews, and sentiment to extract insights and understand opinions."
+      "name": "AI usability testing",
+      "count": 19,
+      "description": "Discusses AI applications in streamlining and enhancing the process of testing product usability and user experience."
     },
     {
-      "name": "AI for product management",
+      "name": "AI chatbot research",
+      "count": 19,
+      "description": "Investigates the behavior, capabilities, and user interactions with AI-powered chatbots, including their impact on user well-being and trust."
+    },
+    {
+      "name": "AI for design and research",
       "count": 18,
-      "description": "Highlights how AI is being applied to various aspects of product management, from development to market analysis."
-    },
-    {
-      "name": "AI survey tools",
-      "count": 18,
-      "description": "Articles detailing AI applications in the creation, distribution, and analysis of surveys for research purposes."
-    },
-    {
-      "name": "AI testing automation",
-      "count": 18,
-      "description": "Focuses on AI's role in automating testing processes across software development, quality assurance, and AI systems themselves."
-    },
-    {
-      "name": "AI design & research",
-      "count": 16,
-      "description": "Covers AI's application in the creative process of design, including ideation, prototyping, and visual generation."
+      "description": "Covers AI tools and techniques that directly assist in the design process, from ideation and prototyping to generating design assets."
     },
     {
       "name": "Synthetic users",
-      "count": 15,
-      "description": "Explores the use of AI-generated personas or simulated users for testing and research purposes."
+      "count": 18,
+      "description": "Focuses on the creation and use of artificial user profiles or simulations for testing and research purposes."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
