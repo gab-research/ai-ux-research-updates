@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-09-16T04:31:11.590Z",
+  "lastUpdated": "2026-09-16T13:23:41.426Z",
   "updates": [
+    {
+      "date": "2026-09-16",
+      "title": "4 New Evals and 16 Experiment Variants to Fix 1 Customer Complaint",
+      "summary": "\"That is a lot of first layer opportunities there. I wish I could click on this card and be like, 'Clean this up.'\" This was a Vistaly customer reviewing her first AI-generated opportunity solution tree. Up until this point, the feedback was extremely positive. But",
+      "content": "Teresa Torres's article highlights a common challenge when leveraging AI for product improvement: the potential for overwhelming users with too many, albeit AI-generated, \"opportunities.\" The core issue is that while AI can rapidly surface numerous potential solutions, the sheer volume and the need for manual refinement can negate the intended efficiency. For UX researchers, this underscores the critical need to not only embrace AI for hypothesis generation but also to develop robust frameworks for filtering, prioritizing, and validating these AI-driven insights. The practical implication is that AI tools are powerful assistants, not replacements, and human judgment remains paramount in transforming raw data into actionable, user-centric product improvements.",
+      "category": "AI summarization",
+      "source": {
+        "name": "Teresa Torres (Product Talk)",
+        "url": "https://www.producttalk.org/4-new-evals-and-16-experiment-variants/"
+      },
+      "analysis": "At Nubank, this approach to AI-generated opportunities can be integrated into our existing research workflow, particularly during the ideation and synthesis phases. For instance, after analyzing customer feedback on a feature like PIX instant transfers or our loan application process, AI could be used to generate a broad spectrum of potential improvements. Instead of researchers spending hours manually sifting through every piece of feedback for minor issues, AI can surface \"opportunity trees.\" Researchers would then be tasked with critically evaluating these trees, identifying redundancy, assessing feasibility, and prioritizing the most impactful variants for experimentation.\n\nOur researchers should apply this by treating AI-generated opportunities as hypotheses to be tested, not definitive solutions. This means focusing on the \"why\" behind the AI's suggestion, aligning it with known user needs and business goals, and then designing experiments to validate or invalidate. For example, if AI suggests numerous small tweaks to the card activation flow, researchers should group similar suggestions, hypothesize the underlying user pain point (e.g., confusion during setup), and then test a consolidated solution. It's crucial to remember that AI can miss nuanced qualitative insights or context specific to the Brazilian market; therefore, human interpretation and qualitative research remain indispensable. Guardrails include ensuring AI outputs are cross-referenced with our existing user research, avoiding over-reliance on AI for complex decision-making, and maintaining transparency about AI's role in the research process."
+    },
     {
       "date": "2026-09-15",
       "title": "The hidden culture layer in AI",
