@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-09-18T12:55:08.122Z",
+  "lastUpdated": "2026-09-18T18:58:37.059Z",
   "updates": [
     {
       "date": "2026-09-18",
@@ -67,7 +67,7 @@
       "date": "2026-09-15",
       "title": "B2B Medical & Pharma UX Benchmark: 3,400+ Performance Scores and 2,600+ Best Practice Examples",
       "summary": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) At Baymard, we’ve just released a new UX benchmark with 10 “B2B Medical & Pharma” UX case stud...",
-      "content": "This Baymard Institute UX benchmark offers a comprehensive analysis of user experience within the B2B Medical & Pharma sectors, featuring over 3,400 performance scores and more than 2,600 best practice examples.  The key idea is to provide a data-driven understanding of what constitutes effective UX in this complex and regulated industry. For UX researchers, this matters immensely as it highlights industry-specific patterns and pitfalls that can inform design and strategy, potentially improving user satisfaction and operational efficiency for B2B clients interacting with digital platforms.",
+      "content": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) At Baymard, we’ve just released a new UX benchmark with 10 “B2B Medical & Pharma” UX case studies. This follows from our large-scale user testing and adds to our existing ecommerce UX benchmark. In this article, we give you a snapshot of the overall UX performance. 10 B2B Medical & Pharma UX Case Studies and the Overall Performance Get Premium access to review your own site or have it audited by Baymard researchers. These are the 10 in-depth B2B Medical & Pharma UX case studies. The 10 sites have been manually assessed across 400+ research-based UX parameters relevant to B2B Medical & Pharma, resulting in 3,400+ weighted UX performance scores and 2,600+ best practice examples from these desktop and mobile sites. Each of the 3,400+ UX performance scores from the 10 B2B Medical & Pharma case studies is summarized in the interactive scatterplot below — showing you how they perform collectively and individually: {{ scatterplot-graph: size=big + habitat=public + base-sites=collection:medical-pharma + vie...",
       "category": "AI in user testing",
       "source": {
         "name": "Baymard Institute",
@@ -319,7 +319,7 @@
       "date": "2026-09-01",
       "title": "Telco UX Benchmark: 3,100+ Performance Scores and 2,400+ Best Practice Examples",
       "summary": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) At Baymard, we’ve just released a new UX benchmark with 7 “Telco” UX case studies. This follow...",
-      "content": "The Baymard Institute's latest UX benchmark delves into the intricacies of user experience within the telecommunications sector, analyzing over 3,100 performance scores and identifying more than 2,400 best practice examples across seven distinct case studies. This comprehensive research highlights critical areas where telcos excel or fall short in delivering user-centric digital experiences, offering valuable insights into common pain points and successful design patterns. For UX researchers, this benchmark serves as a powerful tool to identify industry-leading UX principles and benchmark current performance against established standards, ultimately informing strategic improvements in product design and user journeys.",
+      "content": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) At Baymard, we’ve just released a new UX benchmark with 7 “Telco” UX case studies. This follows from our large-scale user testing on Telco UX and adds to our existing ecommerce UX benchmark. In this article, we give you a snapshot of the overall UX performance. 7 Telco UX Case Studies and the Overall Performance Get Premium access to review your own site or have it audited by Baymard researchers. These are the 7 in-depth Telco UX case studies. The 7 Telco sites have been manually assessed across 500+ research-based UX parameters relevant to Telco providers, resulting in 3,100+ weighted UX performance scores and 2,400+ best practice examples from these desktop and mobile sites. Each of the 3,100+ UX performance scores from the 7 Telco case studies is summarized in the interactive scatterplot below — showing you how they perform collectively and individually: {{ scatterplot-graph: size=big + habitat=public + base-sites=collection:telco + view-structure-id=gemini-st_47eezi8l }} The overall UX performan...",
       "category": "AI in user testing",
       "source": {
         "name": "Baymard Institute",
