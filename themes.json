@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 67,
-      "description": "Focuses on AI agents that can independently perform research tasks, make decisions, and execute actions within research workflows."
-    },
-    {
-      "name": "AI summarization",
-      "count": 30,
-      "description": "Covers AI's ability to condense large amounts of text, data, or conversations into concise summaries, providing key insights."
+      "count": 101,
+      "description": "This theme covers research conducted by or with autonomous AI agents designed to perform tasks independently or collaboratively."
     },
     {
       "name": "AI coding assistants",
-      "count": 25,
-      "description": "Encompasses AI tools that help developers write, debug, and optimize code, accelerating the software development lifecycle."
+      "count": 76,
+      "description": "Articles discussing AI tools that help developers write, debug, and refactor code."
+    },
+    {
+      "name": "AI summarization",
+      "count": 28,
+      "description": "Focuses on AI applications for condensing large amounts of text or data into concise summaries."
+    },
+    {
+      "name": "AI workforce impact",
+      "count": 38,
+      "description": "Covers research and discussions on how AI affects jobs, skills, and employment trends."
     },
     {
       "name": "AI research tools",
-      "count": 21,
-      "description": "Highlights AI-powered platforms and software designed to assist researchers in various stages of their work, from data collection to analysis."
+      "count": 44,
+      "description": "Articles about specific AI-powered platforms, software, or suites designed to aid research processes."
     },
     {
-      "name": "Synthetic users",
-      "count": 18,
-      "description": "Focuses on AI-generated user personas or data that mimic real user behavior for testing and research purposes."
-    },
-    {
-      "name": "AI for product management",
-      "count": 15,
-      "description": "Covers AI applications specifically aimed at aiding product managers in tasks like prioritization, strategy, and roadmap development."
-    },
-    {
-      "name": "AI sentiment feedback",
+      "name": "AI-powered data analysis",
       "count": 12,
-      "description": "Deals with AI's capability to analyze text or speech to gauge emotional tone, opinions, and overall sentiment from users."
+      "description": "This theme includes AI applications for analyzing datasets to derive insights, identify patterns, and inform decisions."
     },
     {
-      "name": "AI research tools comparison",
-      "count": 10,
-      "description": "Involves comparisons and reviews of different AI tools and platforms available for research and analytical tasks."
+      "name": "AI testing automation",
+      "count": 23,
+      "description": "Focuses on AI tools and techniques used to automate the testing of software, systems, or AI models themselves."
     },
     {
-      "name": "AI usability testing",
-      "count": 8,
-      "description": "Explores the use of AI in automating or enhancing the process of testing the usability of products and interfaces."
+      "name": "AI customer insights",
+      "count": 18,
+      "description": "Articles detailing how AI is used to understand customer behavior, preferences, and feedback."
     },
     {
-      "name": "AI design research",
-      "count": 7,
-      "description": "Focuses on how AI is applied to inform and enhance the design process, from ideation to the creation of user interfaces."
+      "name": "AI research platform",
+      "count": 19,
+      "description": "Covers platforms specifically designed to support AI research, development, and experimentation."
+    },
+    {
+      "name": "AI tool evaluation",
+      "count": 9,
+      "description": "Articles that compare, benchmark, or review different AI tools for specific applications."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
