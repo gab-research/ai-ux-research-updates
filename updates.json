@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-09-18T18:58:37.059Z",
+  "lastUpdated": "2026-09-19T04:19:00.150Z",
   "updates": [
     {
       "date": "2026-09-18",
@@ -422,18 +422,6 @@
         "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260821"
       },
       "analysis": "At Nubank, we can leverage this article's insights to temper our expectations and approach AI tools critically within our research workflow. For instance, when exploring AI for interview transcription analysis or initial sentiment detection for customer feedback on PIX transactions, researchers should be aware of AI's current limitations in deep probing. Instead of relying solely on AI-generated interview summaries, our researchers should use these as a starting point for their own qualitative analysis, identifying potential biases or missed opportunities. Similarly, for AI-powered UI design suggestions for new product flows like insurance onboarding, we must rigorously validate these recommendations against our understanding of Brazilian user needs and our brand guidelines, rather than accepting them as definitive solutions. This ensures that AI augments, rather than dictates, our human-centered design process, preventing potential \"design theater\" where AI-generated outputs appear sophisticated but lack practical user value."
-    },
-    {
-      "date": "2026-08-20",
-      "title": "What nobody tells you about AI ethics",
-      "summary": "Why making the human behind the machine visible changes what we call morally right, and its effect on the alignment of AI with human values. Continue reading on UX Collective »",
-      "content": "This article dives into the often overlooked ethical considerations of AI, particularly focusing on the importance of human transparency in AI systems.  It argues that understanding the human creators and decision-makers behind an AI fundamentally alters our perception of what is morally acceptable when that AI operates. For UX researchers, this highlights the crucial need to design AI experiences that don't just function efficiently, but also reflect and uphold human values, preventing a disconnect between user expectations and AI behavior.  This has practical implications for building trust and ensuring user safety, especially in sensitive financial contexts where ethical AI is paramount.",
-      "category": "AI ethics in research",
-      "source": {
-        "name": "UX Collective (Medium)",
-        "url": "https://uxdesign.cc/ai-ethics-ux-accountability-gradient-56094d538453?source=rss----138adf9c44c---4"
-      },
-      "analysis": "This article's emphasis on human visibility in AI ethics is directly relevant to Nubank's core mission of building trust and transparency. Our researchers should integrate this concept into our existing qualitative and quantitative research methodologies. For example, when researching the AI used in PIX transaction dispute resolution, we should investigate user perceptions of the AI's fairness and whether they understand the human oversight involved. Similarly, during the AI-driven loan eligibility assessment process, understanding how users perceive the 'black box' nature of AI and its potential biases is critical. We should advocate for clear communication about AI's role and limitations, particularly in sensitive areas like insurance claims processing or card fraud detection, ensuring users feel empowered and understood rather than subjected to an opaque system."
     }
   ]
 }
