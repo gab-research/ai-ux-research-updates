@@ -1,56 +1,56 @@
 {
   "month": "2026-09",
-  "updated": "2026-09-19",
+  "updated": "2026-09-20",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 100,
-      "description": "Articles discussing AI agents capable of independent research, analysis, and task execution, often involving autonomous workflows and decision-making."
+      "count": 56,
+      "description": "Articles discussing AI agents that can autonomously perform research tasks, interact with systems, and make decisions within a research context."
     },
     {
       "name": "AI coding assistants",
-      "count": 94,
-      "description": "Focuses on AI tools that aid developers in writing, debugging, and understanding code, including code generation and review."
+      "count": 42,
+      "description": "Content focused on AI tools that assist developers in writing, debugging, and refactoring code, including AI agents dedicated to coding tasks."
     },
     {
       "name": "AI research tools",
-      "count": 73,
-      "description": "Covers a broad range of AI-powered tools designed to assist researchers in various stages of their work, from data analysis to literature review."
+      "count": 39,
+      "description": "Articles about platforms, software, and services that leverage AI to aid researchers in various stages of their work, from data analysis to discovery."
     },
     {
       "name": "AI workforce impact",
-      "count": 45,
-      "description": "Articles exploring how AI is changing jobs, skills requirements, and the overall employment landscape, including fears of job displacement and new opportunities."
-    },
-    {
-      "name": "AI research platform",
-      "count": 37,
-      "description": "Details on platforms and systems built to support AI development, research, and deployment, often with specialized features for data management and model training."
-    },
-    {
-      "name": "AI chatbot research",
-      "count": 36,
-      "description": "Examines the use of AI chatbots for research purposes, including their capabilities, limitations, and impact on users, particularly in areas like mental health and information retrieval."
-    },
-    {
-      "name": "AI design research",
-      "count": 23,
-      "description": "Focuses on AI's application in the design process, from concept generation and prototyping to user interface design and iterating on product features."
-    },
-    {
-      "name": "Synthetic users",
-      "count": 21,
-      "description": "Discusses the creation and use of AI-generated user personas or data to simulate user behavior for testing and research purposes."
+      "count": 33,
+      "description": "Discussions on how AI affects jobs, employment, skills, and the overall labor market, including concerns about job displacement and AI-driven role changes."
     },
     {
       "name": "AI summarization",
-      "count": 18,
-      "description": "Articles on AI capabilities for condensing large amounts of text, such as research papers, articles, or customer feedback, into concise summaries."
+      "count": 25,
+      "description": "Content related to AI's ability to condense large amounts of text, data, or conversations into concise summaries, aiding in efficient information processing."
     },
     {
-      "name": "AI sentiment feedback",
-      "count": 17,
-      "description": "Covers AI's ability to analyze text data, like reviews or social media posts, to understand and quantify user sentiment and opinions."
+      "name": "AI research tools comparison",
+      "count": 15,
+      "description": "Articles that compare, review, or benchmark different AI tools and platforms available for research purposes."
+    },
+    {
+      "name": "AI testing automation",
+      "count": 14,
+      "description": "Focuses on AI's role in automating software testing processes, including test case generation, execution, and result analysis."
+    },
+    {
+      "name": "AI content generation",
+      "count": 13,
+      "description": "Articles about AI systems that create various forms of content, such as text, images, code, or marketing materials."
+    },
+    {
+      "name": "AI research platform",
+      "count": 11,
+      "description": "Discussions about dedicated platforms designed to facilitate and manage AI-driven research activities."
+    },
+    {
+      "name": "AI for design & research",
+      "count": 10,
+      "description": "Articles exploring the application of AI in the design process and user research, from ideation to analysis."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."

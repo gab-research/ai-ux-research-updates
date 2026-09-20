@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-09-19T18:32:59.422Z",
+  "lastUpdated": "2026-09-20T04:37:32.985Z",
   "updates": [
     {
       "date": "2026-09-18",
@@ -398,30 +398,6 @@
         "url": "https://uxdesign.cc/sterling-cooper-built-your-ux-process-we-need-to-redefine-it-in-the-age-of-ai-and-systems-520a2d3b2a60?source=rss----138adf9c44c---4"
       },
       "analysis": "At Nubank, this article's message directly challenges our current research workflows, particularly in areas like analyzing vast amounts of user interaction data for PIX transactions or loan applications. We can integrate AI tools to help identify patterns and anomalies in these large datasets that might be missed by manual review, freeing up researchers to focus on deeper qualitative insights. For instance, AI could flag unusual drop-off points in the credit card activation flow or identify friction in the onboarding process for new insurance customers, allowing us to proactively address these issues with targeted research.\n\nTo apply this, researchers should explore AI-powered tools for qualitative data analysis (e.g., sentiment analysis on customer feedback) and quantitative pattern recognition. This doesn't mean outsourcing critical thinking; instead, AI should act as a co-pilot. We need to establish clear guardrails: AI-generated insights must always be validated through traditional qualitative methods and contextualized with human understanding of Nubank's unique user base. Over-reliance on AI without critical oversight could lead to misinterpretations or overlooking nuanced user needs, especially concerning sensitive financial products where trust and clarity are paramount."
-    },
-    {
-      "date": "2026-08-21",
-      "title": "IA Generativa no Agile UX: o novo papel do Product Designer",
-      "summary": "A IA não vai substituir os Product Designers. Ela vai mudar o que significa ser um. Continue reading on UX Collective »",
-      "content": "This article from UX Collective Brasil posits that generative AI will not displace Product Designers but rather redefine their role.  The key idea is that AI tools can augment, not replace, human creativity and strategic thinking. For UX researchers, this means a shift towards leveraging AI for accelerated ideation, content generation, and initial hypothesis testing, freeing up valuable time for deeper, more nuanced user understanding. Practical implications include faster iteration cycles and the potential to explore a wider range of design solutions previously unfeasible due to time constraints.",
-      "category": "AI for product management",
-      "source": {
-        "name": "UX Collective Brasil",
-        "url": "https://brasil.uxdesign.cc/a-ia-generativa-n%C3%A3o-vai-substituir-os-product-designers-ela-vai-mudar-o-que-significa-ser-um-8fc08d38d4bd?source=rss----6f71781500a4---4"
-      },
-      "analysis": "At Nubank, generative AI can be integrated into our existing research workflow to boost efficiency and expand our exploratory capabilities. For instance, during the early stages of research for a new feature like enhanced loan repayment options or simplifying the PIX transfer experience, researchers could use AI to quickly generate diverse user persona sketches or draft initial sets of interview questions based on research goals. This would significantly shorten the time spent on foundational tasks, allowing us to move to user interviews and qualitative analysis sooner.\n\nWhen applying AI, researchers should view it as a powerful assistant, not a replacement for critical thinking and human empathy. While AI can help draft onboarding flows or suggest variations for card activation microsurveys, the final output must always be rigorously validated through user testing and informed by our deep understanding of the Brazilian user context. Guardrails include ensuring data privacy when using AI tools, especially with sensitive customer information, and maintaining a critical perspective on AI-generated content, always prioritizing user needs and ethical considerations over automated suggestions.  For example, AI might suggest a new insurance product feature, but the researcher must confirm its actual value and usability through direct user feedback."
-    },
-    {
-      "date": "2026-08-21",
-      "title": "UX Roundup: AI as Interviewer | Design Theater | The Planning Fallacy | Card Design Pattern | Humans as Middleware | Long-Horizon Tasks | Good Videos",
-      "summary": "Summary: AI conducting user interviews mostly failed to probe deeply | AI UI tools break 1/4 of their design promises | The planning fallacy makes us believe more in schedules than they deserve | Cards as a UI element | Humans are middleware for AI | How to make AI support ext...",
-      "content": "Jakob Nielsen's UX Roundup highlights the nascent and often flawed integration of AI into UX research and design practices.  A significant finding is that current AI models struggle to conduct truly insightful user interviews, often lacking the nuanced probing necessary to uncover deep user needs.  While AI tools promise enhanced design capabilities, they frequently fall short, breaking a quarter of their stated objectives, emphasizing the need for human oversight.  Furthermore, the article touches upon the 'planning fallacy,' suggesting a common human tendency to be overly optimistic about project timelines, a relevant consideration for research team efficiency.  The implications for UX researchers are clear: while AI can automate certain tasks, it cannot yet replace the critical thinking and empathy required for effective user understanding, nor should we blindly trust AI-generated timelines.",
-      "category": "Interview analysis",
-      "source": {
-        "name": "Jakob Nielsen (Substack)",
-        "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260821"
-      },
-      "analysis": "At Nubank, we can leverage this article's insights to temper our expectations and approach AI tools critically within our research workflow. For instance, when exploring AI for interview transcription analysis or initial sentiment detection for customer feedback on PIX transactions, researchers should be aware of AI's current limitations in deep probing. Instead of relying solely on AI-generated interview summaries, our researchers should use these as a starting point for their own qualitative analysis, identifying potential biases or missed opportunities. Similarly, for AI-powered UI design suggestions for new product flows like insurance onboarding, we must rigorously validate these recommendations against our understanding of Brazilian user needs and our brand guidelines, rather than accepting them as definitive solutions. This ensures that AI augments, rather than dictates, our human-centered design process, preventing potential \"design theater\" where AI-generated outputs appear sophisticated but lack practical user value."
     }
   ]
 }
