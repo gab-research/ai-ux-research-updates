@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 149,
-      "description": "Articles discussing AI agents designed to autonomously conduct research, perform tasks, and generate insights with minimal human intervention."
+      "count": 106,
+      "description": "Articles discussing AI agents that can autonomously conduct research, discover information, or perform research tasks."
     },
     {
       "name": "AI coding assistants",
-      "count": 78,
-      "description": "Content focused on AI tools that help developers write, debug, and refactor code, acting as assistants in the software development process."
+      "count": 75,
+      "description": "Focuses on AI tools that help developers write, debug, and optimize code."
     },
     {
       "name": "AI research tools",
-      "count": 70,
-      "description": "Articles detailing specific AI-powered platforms, software, and frameworks designed to facilitate and accelerate various research activities."
+      "count": 50,
+      "description": "Covers AI platforms, suites, and tools specifically designed to aid in various research processes."
     },
     {
       "name": "AI workforce impact",
-      "count": 62,
-      "description": "Discussions on how AI is affecting jobs, roles, skills, and the overall labor market, including concerns about displacement and augmentation."
+      "count": 44,
+      "description": "Examines how AI is changing jobs, employment prospects, and the skills required in the workforce."
     },
     {
       "name": "AI summarization",
-      "count": 39,
-      "description": "Content related to AI's ability to condense large amounts of text or data into concise summaries, extract key information, and generate reports."
+      "count": 26,
+      "description": "Articles about AI's capability to condense large amounts of text into concise summaries, insights, or reports."
     },
     {
-      "name": "AI research tools comparison",
-      "count": 36,
-      "description": "Articles that compare and evaluate different AI tools for research purposes, highlighting their features, performance, and suitability for specific tasks."
+      "name": "AI testing automation",
+      "count": 25,
+      "description": "Discusses AI's role in automating software testing, quality assurance, and verification processes."
     },
     {
       "name": "AI for design & research",
-      "count": 32,
-      "description": "Explores how AI is integrated into the design process, from conceptualization to prototyping and user experience enhancement."
-    },
-    {
-      "name": "Synthetic users",
-      "count": 25,
-      "description": "Articles discussing the creation and use of artificial or simulated user data and personas for research and testing purposes."
-    },
-    {
-      "name": "AI sentiment & feedback analysis",
-      "count": 24,
-      "description": "Content focusing on AI's capability to analyze user feedback, reviews, and sentiment to extract opinions, emotions, and actionable insights."
+      "count": 22,
+      "description": "Explores AI applications directly aiding in the design process or informing design decisions through research."
     },
     {
       "name": "AI chatbot research",
-      "count": 30,
-      "description": "Articles specifically exploring the research, development, and implications of conversational AI, including their capabilities and limitations."
+      "count": 20,
+      "description": "Focuses on research into the behavior, capabilities, and impact of AI chatbots."
+    },
+    {
+      "name": "AI research tools comparison",
+      "count": 15,
+      "description": "Articles comparing different AI tools and platforms for research purposes."
+    },
+    {
+      "name": "AI sentiment feedback",
+      "count": 14,
+      "description": "Covers AI's ability to analyze and interpret sentiment from customer reviews, feedback, and social media."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
