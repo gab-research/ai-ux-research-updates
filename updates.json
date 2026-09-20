@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-09-20T04:37:32.985Z",
+  "lastUpdated": "2026-09-20T13:01:06.169Z",
   "updates": [
+    {
+      "date": "2026-09-20",
+      "title": "AI nutrition facts",
+      "summary": "Designing an interface between writers, readers, and AI Continue reading on UX Collective »",
+      "content": "This article introduces the concept of \"AI nutrition facts\" as a framework for understanding and evaluating the inputs and outputs of AI systems in design. It argues that just as food labels inform consumers about ingredients and nutritional value, AI nutrition facts should provide transparency about the data used to train AI models and the potential biases or limitations of their outputs. For UX researchers, this is crucial for ensuring ethical AI development and building user trust, especially in sensitive financial contexts. Practical implications include developing checklists for AI data sourcing, output analysis, and user communication to mitigate risks and promote responsible AI integration in products like Nubank's loan applications or onboarding flows.",
+      "category": "AI content generation",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/ai-nutrition-facts-cbfa8f9874e8?source=rss----138adf9c44c---4"
+      },
+      "analysis": "At Nubank, the \"AI nutrition facts\" concept can be integrated into our early-stage design and discovery phases when considering AI-powered features. For instance, when exploring AI for fraud detection in PIX transactions or for personalized loan offers, researchers should proactively question the data sources, their representativeness, and potential biases. This involves collaborating with data science and engineering teams to understand the \"ingredients\" of the AI model, much like we'd scrutinize user data for privacy in our app.\n\nResearchers can apply this by developing internal \"AI fact sheets\" for new AI features. These would detail the training data demographics, known biases, and confidence levels of AI predictions. This framework is particularly relevant for high-impact user flows like credit card activation or insurance claim processing, where fairness and accuracy are paramount. Guardrails include a strict emphasis on user consent for data usage, ongoing bias monitoring, and clear communication to users about the AI's role and limitations. We must avoid presenting AI outputs as infallible, ensuring transparency and empowering users to understand how decisions are made, especially when they impact financial well-being."
+    },
     {
       "date": "2026-09-18",
       "title": "UX Roundup: Adapting AI to Users | What Characteristics of Profitable AI Use? | Integrated AI Design Advice | Progress Visibility | Agent Delegation | AI Must Show Its Work | Free | What Happens Next",
