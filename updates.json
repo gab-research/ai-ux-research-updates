@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-09-21T04:35:51.248Z",
+  "lastUpdated": "2026-09-21T15:02:06.746Z",
   "updates": [
+    {
+      "date": "2026-09-21",
+      "title": "UX Roundup: People Tell AI Their Secrets | Employment &amp; AI | Long Forms | Two Ways of Using AI | Flow | Funny AI | Triangulation | IKEA Effect | Comparison Tables | Focus",
+      "summary": "Users say they don’t trust AI, but they tell it their secrets anyway | More people have gained jobs because of AI than have lost them | Every form field you cut increases conversion | The two main ways users direct AI: specify upfront or correct as you go | Keep users in the f...",
+      "content": "Users say they don’t trust AI, but they tell it their secrets anyway | More people have gained jobs because of AI than have lost them | Every form field you cut increases conversion | The two main ways users direct AI: specify upfront or correct as you go | Keep users in the flow | How to use humor in AI | Combine insights from multiple research methods | The IKEA effect increases the perceived value of something you built yourself | Comparison tables do the remembering, freeing working memory for the decision | Protect users’ focus by limiting distractions",
+      "category": "Survey optimization",
+      "source": {
+        "name": "Jakob Nielsen (Substack)",
+        "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260921"
+      },
+      "analysis": ""
+    },
     {
       "date": "2026-09-20",
       "title": "AI nutrition facts",
