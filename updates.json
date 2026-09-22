@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-09-21T20:22:28.469Z",
+  "lastUpdated": "2026-09-22T04:31:52.101Z",
   "updates": [
     {
       "date": "2026-09-21",
@@ -14,6 +14,18 @@
         "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260921"
       },
       "analysis": "This roundup directly impacts Nubank's approach to AI integration across our product suite, from PIX transactions to loan applications and card activation.  Researchers should explore how users interact with AI assistants or chatbots within these flows.  For instance, during onboarding or when a customer needs help with a disputed PIX transaction, we can observe if users are hesitant to share details initially and how they self-correct the AI's responses. This understanding can inform the design of AI prompts and feedback mechanisms to build implicit trust and guide users more effectively, similar to how we've optimized form field reduction for conversion.\n\nWe should proactively research user behavior with generative AI tools outside of Nubank's direct ecosystem to anticipate how these external experiences will shape expectations. For example, if users become accustomed to detailed prompt engineering for creative tasks, they might expect similar, albeit more focused, control when interacting with AI for financial advice or insurance claims.  A key limitation to consider is data privacy; while users might share 'secrets' with general AI, Nubank must ensure robust security and transparency protocols are in place, clearly communicating what data is used and why, especially when dealing with sensitive financial information related to loans or account management."
+    },
+    {
+      "date": "2026-09-21",
+      "title": "Should the job of a UX designer be reserved for humans?",
+      "summary": "Should some jobs stay human even when AI does them better? Continue reading on UX Collective »",
+      "content": "This article from UX Collective probes the complex question of whether certain roles, particularly UX design, should remain exclusively human even if AI capabilities surpass them. It delves into the inherent value of human empathy, intuition, and ethical judgment in understanding user needs and crafting experiences that resonate on a deeper emotional level, beyond mere functional efficiency.  For UX researchers at Nubank, this is critical as it highlights the potential pitfalls of over-reliance on AI for tasks like persona generation or usability testing analysis if it bypasses nuanced qualitative insights.  The practical implication is a need to critically evaluate AI tools, ensuring they augment rather than replace the human-centric core of our research process, particularly when designing for sensitive financial products like loans or PIX transactions.",
+      "category": "AI research tools",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/should-ux-design-be-reserved-for-humans-and-the-future-of-work-9afae1265578?source=rss----138adf9c44c---4"
+      },
+      "analysis": "At Nubank, this article's core question directly impacts how we integrate AI into our research workflow, especially for sensitive areas like PIX, loan applications, or even the initial card activation and onboarding process. Instead of having AI autonomously generate user personas or synthesize interview transcripts, researchers should leverage AI as a powerful assistant. For instance, AI can quickly analyze vast amounts of user feedback from different channels to identify emerging trends or pain points in our credit card application flow, but a human researcher must then conduct qualitative deep-dives to understand the 'why' behind these trends. \n\nThis means researchers should actively use AI to augment, not automate, critical decision-making. For instance, AI can help identify potential edge cases in a new insurance product's onboarding flow by analyzing simulated user journeys, but a human researcher must validate these through actual user testing and ethical considerations. The key guardrail is maintaining human oversight and judgment, ensuring that AI-driven insights are always filtered through our understanding of user needs, ethical implications, and Nubank's brand promise of simplicity and trust. We must ensure AI tools enhance our ability to empathize with users, not diminish it, especially when designing for financial well-being."
     },
     {
       "date": "2026-09-20",
@@ -410,18 +422,6 @@
         "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260824"
       },
       "analysis": "This article is highly relevant for Nubank UX researchers as AI's increasing capabilities directly affect our operational efficiency and the user experiences we design. For example, AI's ability to generate content or summarize information could be leveraged to accelerate the creation of initial user journey maps or competitive analysis reports for new product features like a potential micro-loan application flow or the onboarding process for new insurance products. Researchers could use AI to draft initial versions of error messages for the PIX transaction confirmation screen or card activation process, allowing them to focus on refining the human-centric aspects and user testing. \n\nWhen applying this, researchers should treat AI-generated output as a starting point, not a final product. Thorough human review and validation are essential, especially for customer-facing communications and critical decision-making processes. We must be mindful of potential biases in AI models and ensure that our research remains grounded in genuine user needs and ethical considerations. For instance, while AI might suggest error recovery steps for a failed loan application, a UX researcher's role is to ensure those steps are empathetic, clear, and genuinely help the user resolve the issue, avoiding a purely technical or automated response that could alienate customers."
-    },
-    {
-      "date": "2026-08-23",
-      "title": "Sterling Cooper built your UX process. We need to redefine it in the age of AI and systems.",
-      "summary": "Sterling Cooper built your UX process. We need to redefine it in the age of AI and systems.",
-      "content": "This article argues that traditional UX processes, often rooted in older advertising agency models exemplified by Sterling Cooper, are no longer sufficient in the era of AI and complex systems.  It posits that AI's capabilities necessitate a fundamental shift, moving from individual user-centric methods to a more holistic, systems-thinking approach that accounts for emergent behaviors and data-driven insights. For UX researchers, this means embracing AI as a tool to augment, not replace, human intuition, leading to more efficient discovery, analysis, and even design iteration, ultimately enabling us to build more robust and intelligent digital experiences.",
-      "category": "AI workforce impact",
-      "source": {
-        "name": "UX Collective (Medium)",
-        "url": "https://uxdesign.cc/sterling-cooper-built-your-ux-process-we-need-to-redefine-it-in-the-age-of-ai-and-systems-520a2d3b2a60?source=rss----138adf9c44c---4"
-      },
-      "analysis": "At Nubank, this article's message directly challenges our current research workflows, particularly in areas like analyzing vast amounts of user interaction data for PIX transactions or loan applications. We can integrate AI tools to help identify patterns and anomalies in these large datasets that might be missed by manual review, freeing up researchers to focus on deeper qualitative insights. For instance, AI could flag unusual drop-off points in the credit card activation flow or identify friction in the onboarding process for new insurance customers, allowing us to proactively address these issues with targeted research.\n\nTo apply this, researchers should explore AI-powered tools for qualitative data analysis (e.g., sentiment analysis on customer feedback) and quantitative pattern recognition. This doesn't mean outsourcing critical thinking; instead, AI should act as a co-pilot. We need to establish clear guardrails: AI-generated insights must always be validated through traditional qualitative methods and contextualized with human understanding of Nubank's unique user base. Over-reliance on AI without critical oversight could lead to misinterpretations or overlooking nuanced user needs, especially concerning sensitive financial products where trust and clarity are paramount."
     }
   ]
 }
