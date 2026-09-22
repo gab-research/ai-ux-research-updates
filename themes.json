@@ -4,23 +4,33 @@
   "themes": [
     {
       "name": "AI research tools",
-      "count": 98,
+      "count": 99,
       "description": "New AI tool launches, reviews, and platforms built for research workflows."
     },
     {
       "name": "Survey optimization",
-      "count": 76,
+      "count": 82,
       "description": "AI tools for designing better surveys, reducing bias, and analyzing responses."
     },
     {
       "name": "Conversational AI in research",
-      "count": 50,
+      "count": 49,
       "description": "Chatbots, virtual assistants, and voice AI in research contexts."
     },
     {
       "name": "AI coding assistants",
-      "count": 44,
+      "count": 45,
       "description": "Copilot, Claude Code, Cursor, and other AI tools for code generation and development."
+    },
+    {
+      "name": "AI workforce impact",
+      "count": 41,
+      "description": "AI replacing roles, future of work, skills gap, reskilling, and organizational change."
+    },
+    {
+      "name": "Agentic AI in research",
+      "count": 36,
+      "description": "Autonomous AI agents running research tasks, multi-agent frameworks, and orchestration."
     },
     {
       "name": "AI-powered data analysis",
@@ -28,28 +38,18 @@
       "description": "Automated data analysis, clustering, segmentation, and pattern detection."
     },
     {
-      "name": "AI workforce impact",
-      "count": 35,
-      "description": "AI replacing roles, future of work, skills gap, reskilling, and organizational change."
-    },
-    {
-      "name": "Agentic AI in research",
-      "count": 30,
-      "description": "Autonomous AI agents running research tasks, multi-agent frameworks, and orchestration."
-    },
-    {
       "name": "AI ethics in research",
-      "count": 21,
+      "count": 19,
       "description": "Bias, fairness, responsible AI, privacy, and trust in research."
     },
     {
       "name": "AI for product management",
-      "count": 16,
+      "count": 15,
       "description": "AI in product decisions, discovery, prioritization, and roadmapping."
     },
     {
       "name": "AI content generation",
-      "count": 11,
+      "count": 15,
       "description": "AI writing, report generation, UX copy, and content creation."
     }
   ],
