@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-09-23T13:33:40.095Z",
+  "lastUpdated": "2026-09-23T19:37:16.646Z",
   "updates": [
+    {
+      "date": "2026-09-23",
+      "title": "Offloaded inference for real-world physical AI robotics",
+      "summary": "Robots are getting smarter, but how can their hardware match that growth? New Microsoft Research findings show that moving AI inference beyond the robot can improve task success, boost efficiency, and support more advanced physical AI workloads. The post Offloaded inference fo...",
+      "content": "This Microsoft Research article explores a critical challenge in physical AI: the computational limitations of on-board robot hardware. The core idea is to \"offload\" AI inference, meaning the complex calculations needed for a robot to understand its environment and make decisions are performed on more powerful, external servers rather than within the robot itself.  For UX researchers, this means that future physical interactions with AI systems, potentially in customer service or operational roles at Nubank, could be more responsive, capable of handling more intricate tasks, and exhibit greater intelligence. This could lead to more seamless and effective user experiences, as the \"brain\" of the robot isn't constrained by its physical form factor, enabling richer human-robot collaboration.",
+      "category": "AI research tools",
+      "source": {
+        "name": "Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/blog/offloaded-inference-for-real-world-physical-ai-robotics/"
+      },
+      "analysis": "At Nubank, this research has direct implications for how we design and test experiences involving AI-powered physical touchpoints, even if not literal robots. Consider how a smarter, more responsive AI could enhance our physical ATM interactions for PIX transactions or cash withdrawals, making them faster and more intuitive. For new customers onboarding, offloaded inference could power more sophisticated visual recognition for ID verification or personalized guidance, improving efficiency. Similarly, imagine AI assistants in physical branches (if we expand to them) or even smart devices in a customer's home that leverage this for loan application assistance or insurance claim processing, offering richer, more context-aware support.\n\nWhen applying this, researchers should think about the 'intelligence' layer of any physical AI interface. This might involve designing for scenarios where the AI needs to interpret complex real-world inputs, like recognizing physical documents during card activation or understanding a user's gestures during a troubleshooting session. We should simulate or anticipate the latency and responsiveness benefits of offloaded inference in our prototypes and user tests, focusing on how improved AI capabilities translate to user delight and task success. Key limitations to consider include the need for reliable connectivity between the physical device and the inference servers, data privacy concerns when sensitive information is processed externally, and the ethical implications of increasingly intelligent physical AI agents interacting with our users."
+    },
     {
       "date": "2026-09-22",
       "title": "The Download: why AI’s latest breakthroughs and fears may be more hype than reality",
