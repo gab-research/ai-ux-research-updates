@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 68,
-      "description": "Covers research leveraging AI agents that can autonomously perform tasks, make decisions, and conduct complex workflows."
+      "count": 133,
+      "description": "Focuses on AI agents capable of performing complex research tasks autonomously, often involving multi-step processes and decision-making."
     },
     {
       "name": "AI coding assistants",
-      "count": 63,
-      "description": "Focuses on AI tools that help developers write, debug, review, and generate code."
+      "count": 54,
+      "description": "Covers AI tools and techniques designed to assist developers and researchers in writing, reviewing, and debugging code."
     },
     {
       "name": "AI research tools",
-      "count": 49,
-      "description": "Articles about AI-powered platforms and tools specifically designed to aid in research processes."
-    },
-    {
-      "name": "AI sentiment & feedback analysis",
-      "count": 41,
-      "description": "Articles analyzing user sentiment, reviews, and feedback using AI techniques."
-    },
-    {
-      "name": "AI chatbot research",
-      "count": 38,
-      "description": "Explores research into the behavior, impact, and development of AI chatbots."
-    },
-    {
-      "name": "AI research platform",
-      "count": 33,
-      "description": "Features AI platforms designed to facilitate and enhance various types of research."
+      "count": 48,
+      "description": "Encompasses a broad range of AI-powered platforms and software designed to aid researchers in various stages of their work, from data collection to analysis."
     },
     {
       "name": "AI workforce impact",
-      "count": 30,
-      "description": "Discusses the effects of AI on jobs, skills, hiring, and the overall workforce."
+      "count": 41,
+      "description": "Examines how AI is changing job roles, skill requirements, hiring, and the overall structure of the workforce."
     },
     {
-      "name": "AI for product management",
-      "count": 27,
-      "description": "Covers how AI is applied to product management tasks like ideation, roadmapping, and feature development."
+      "name": "AI testing automation",
+      "count": 38,
+      "description": "Articles discussing the use of AI to automate software testing processes, including functional, performance, and security testing."
     },
     {
-      "name": "AI design & research",
-      "count": 22,
-      "description": "Articles on AI applications in the fields of UX/UI design and product research processes."
+      "name": "AI chatbot research",
+      "count": 32,
+      "description": "Investigates the research and development surrounding AI-powered chatbots, including their capabilities, limitations, and user interactions."
     },
     {
-      "name": "AI research tools comparison",
-      "count": 19,
-      "description": "Compares different AI tools and models based on their features, performance, and applicability in research."
+      "name": "AI sentiment feedback",
+      "count": 24,
+      "description": "Focuses on using AI to analyze and understand user sentiment from reviews, feedback, and other qualitative data sources."
+    },
+    {
+      "name": "AI research platform",
+      "count": 23,
+      "description": "Covers platforms specifically built to facilitate AI research, often integrating various tools and data sources for advanced analysis."
+    },
+    {
+      "name": "AI product research",
+      "count": 18,
+      "description": "Discusses the application of AI in understanding product markets, user needs, and competitive landscapes to inform product development."
+    },
+    {
+      "name": "AI design research",
+      "count": 18,
+      "description": "Explores how AI is used in the design process, from generating design concepts to evaluating design effectiveness."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
