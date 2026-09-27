@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 168,
-      "description": "Covers AI agents performing research tasks, planning, and executing workflows autonomously."
+      "count": 96,
+      "description": "Focuses on AI agents that can autonomously conduct research tasks, analyze data, and generate insights, often mimicking human research workflows."
     },
     {
       "name": "AI coding assistants",
-      "count": 122,
-      "description": "Focuses on AI tools that assist with writing, reviewing, and generating code for research and development."
+      "count": 54,
+      "description": "Covers AI tools and models designed to help researchers and developers write, debug, and optimize code."
     },
     {
       "name": "AI research tools",
-      "count": 101,
-      "description": "Encompasses a broad range of AI-powered platforms and software designed to aid researchers in various capacities."
-    },
-    {
-      "name": "AI workforce impact",
-      "count": 96,
-      "description": "Examines how AI is changing job roles, hiring, and the skills required in the workforce."
-    },
-    {
-      "name": "Synthetic users",
-      "count": 50,
-      "description": "Articles discussing the use of AI-generated personas or simulated users for research and testing."
-    },
-    {
-      "name": "AI summarization",
       "count": 45,
-      "description": "Focuses on AI's ability to condense large amounts of text or data into concise summaries and insights."
+      "description": "Encompasses a broad range of AI-powered platforms, software, and utilities designed to assist in various stages of research, from data collection to analysis."
     },
     {
-      "name": "AI for design & research",
-      "count": 44,
-      "description": "Covers AI applications specifically for enhancing the design process and research methodologies."
+      "name": "AI usability testing",
+      "count": 33,
+      "description": "Explores AI applications in automating and enhancing usability testing processes, including test generation and analysis."
+    },
+    {
+      "name": "AI sentiment feedback",
+      "count": 31,
+      "description": "Covers the use of AI to analyze and understand user sentiment from various feedback sources, such as reviews, surveys, and social media."
     },
     {
       "name": "AI testing automation",
-      "count": 40,
-      "description": "Articles about AI's role in automating software testing, quality assurance, and verification processes."
+      "count": 31,
+      "description": "Focuses on AI's role in automating testing processes across software development, cybersecurity, and product quality assurance."
     },
     {
-      "name": "AI research platform",
-      "count": 36,
-      "description": "Discusses platforms designed to facilitate and manage AI-driven research activities."
+      "name": "AI product research",
+      "count": 27,
+      "description": "Details how AI is applied to understand market needs, identify product opportunities, and inform product development strategies."
     },
     {
-      "name": "AI qualitative research",
-      "count": 32,
-      "description": "Focuses on AI applications for conducting and analyzing qualitative research, such as interviews and open-ended feedback."
+      "name": "Synthetic users",
+      "count": 24,
+      "description": "Investigates the creation and use of AI-generated user personas or simulated users for testing and research purposes."
+    },
+    {
+      "name": "AI workforce impact",
+      "count": 23,
+      "description": "Examines how AI is affecting jobs, skills, hiring, and the overall structure of the workforce."
+    },
+    {
+      "name": "AI summarization",
+      "count": 19,
+      "description": "Covers AI tools and techniques that condense large amounts of text or data into concise summaries."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
