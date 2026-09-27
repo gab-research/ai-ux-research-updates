@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-09-27T13:48:31.444Z",
+  "lastUpdated": "2026-09-27T19:42:32.141Z",
   "updates": [
     {
       "date": "2026-09-25",
@@ -446,30 +446,6 @@
         "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260831"
       },
       "analysis": "This article offers valuable insights for Nubank UX researchers, particularly concerning the integration of AI and the enduring principles of usability. The observation that AI can persuade users even when its nature is known is crucial for our ongoing AI development, especially in areas like customer support bots or personalized financial advice. We should investigate how users perceive and trust AI features within existing Nubank flows, such as the PIX transfer confirmation screen or loan application assistant, to ensure we're building confidence and not inadvertently creating friction.  Researchers should actively explore user mental models around AI interactions across our digital banking platform.\n\nThe \"fewer features = better usability\" takeaway reinforces the importance of rigorous feature prioritization and simplification, a constant challenge with our expansive product suite. When researching new features for products like our credit card activation process or insurance onboarding, we should actively test hypotheses that reducing complexity and focusing on core tasks leads to improved completion rates and satisfaction.  This also means questioning \"featuritis\" and advocating for streamlined, intuitive user journeys that align with Nielsen's Fitts's Law principle of \"big and near beats small and far\" by ensuring key interactive elements are easily accessible and prominent within our app."
-    },
-    {
-      "date": "2026-08-28",
-      "title": "AI Can't Replace Real Research in Empathy Mapping",
-      "summary": "AI can help you organize research you’ve already collected, but it can’t create research evidence about the specific, messy experience of real users.",
-      "content": "This Nielsen Norman Group article emphasizes that while AI tools offer significant potential for augmenting UX research processes, they cannot replicate the core of human-centered discovery. The key takeaway is that AI excels at synthesizing and organizing existing data, but it lacks the capacity to generate genuine research insights derived from direct interaction with users. For UX researchers, this distinction is crucial for maintaining the integrity of their findings and ensuring that design decisions are grounded in authentic user understanding, not just AI-generated patterns. This means researchers must prioritize direct user engagement for foundational insights, using AI as a powerful assistant for analysis rather than a replacement for empathy.",
-      "category": "AI workforce impact",
-      "source": {
-        "name": "Nielsen Norman Group",
-        "url": "https://www.nngroup.com/articles/ai-empathy-mapping/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication"
-      },
-      "analysis": "At Nubank, this article's guidance is paramount for our continuous pursuit of user empathy.  When researching critical flows like **PIX transfers** or the **onboarding process**, AI can efficiently help us cluster interview transcripts or survey responses to identify common pain points. However, the initial deep dives, user interviews, and contextual inquiries to understand the nuanced emotional journey of a user struggling with a **loan application** or the anxiety of a first-time **card activation** must remain human-led. AI should be a tool for accelerating synthesis after these qualitative sessions, not a substitute for conducting them.\n\nOur researchers should leverage AI for tasks such as identifying emerging themes in usability test videos or summarizing sentiment from customer support logs related to our **insurance products**. The critical guardrail is to remember that AI's output is only as good as the data it's fed and its ability to interpret context. Researchers must always critically evaluate AI-generated insights, cross-referencing them with their own qualitative observations and employing their domain expertise to discern true user needs from mere statistical correlations. This ensures our AI-assisted research remains grounded in genuine user empathy and actionable, not just efficient."
-    },
-    {
-      "date": "2026-08-28",
-      "title": "The Custodial Era of UX: Cleaning Up After AI",
-      "summary": "AI lets teams build faster than UX can evaluate. UX can adapt by building shared judgment, accelerating evaluation, and guiding AI-generated designs.",
-      "content": "The \"Custodial Era of UX\" highlights a fundamental challenge emerging from the rapid advancement of AI in product development.  AI's ability to generate design elements and even entire interfaces at an unprecedented pace is outstripping the capacity of traditional UX research methods to adequately review and validate these outputs. This shift necessitates a proactive approach from UX teams, moving from a purely evaluative role to one that actively stewards the AI's design process.  For UX researchers, this means developing new strategies to ensure AI-generated designs align with user needs, business goals, and ethical considerations, ultimately guiding the AI's output rather than just reacting to it.",
-      "category": "Automated usability checks",
-      "source": {
-        "name": "Nielsen Norman Group",
-        "url": "https://www.nngroup.com/articles/ai-ux-debt/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication"
-      },
-      "analysis": "At Nubank, this \"Custodial Era\" concept requires integrating AI-driven design generation into our existing research workflows, particularly for high-velocity product iterations like new features for PIX transfers or streamlining the loan application process.  Instead of solely conducting post-design user testing, our researchers should proactively collaborate with AI tools, providing structured feedback and defining clear user-centric guardrails for AI-generated wireframes or copy.  This might involve establishing a \"golden dataset\" of approved user flows for card activation or onboarding, which the AI can then leverage and be audited against.\n\nTo apply this, researchers can leverage AI for initial concept exploration and content generation, but must then act as critical \"custodians.\" This means establishing evaluation frameworks that can rapidly assess AI outputs against our established user experience principles and brand voice, especially crucial for sensitive areas like insurance product descriptions.  Guardrails are essential: researchers must ensure AI-generated designs don't inadvertently create accessibility barriers or introduce biases, and that all AI-assisted flows are rigorously validated through mixed-methods research before deployment.  The focus shifts from discovering problems in finished designs to preemptively guiding the AI to avoid them."
     }
   ]
 }
