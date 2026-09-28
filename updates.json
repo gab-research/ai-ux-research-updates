@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-09-27T19:42:32.141Z",
+  "lastUpdated": "2026-09-28T05:02:15.719Z",
   "updates": [
+    {
+      "date": "2026-09-27",
+      "title": "How we save entry-level UX work that teaches craft in the time of AI. Our field depends on this.",
+      "summary": "How we save entry-level UX work that teaches craft in the time of AI. Our field depends on this.",
+      "content": "This UX Collective article addresses the potential displacement of entry-level UX roles due to AI's increasing capabilities in performing foundational research tasks.  It argues that these junior positions are crucial for cultivating essential research \"craft\" – the nuanced understanding, critical thinking, and empathy developed through hands-on experience.  Failing to preserve these learning opportunities risks a future shortage of skilled senior UX researchers, impacting the overall quality and human-centeredness of our work.  The core message is a call to action to proactively rethink how we integrate AI without sacrificing the development of future UX talent.",
+      "category": "AI research tools",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/how-we-save-entry-level-ux-work-that-teaches-craft-in-the-time-of-ai-our-field-depends-on-this-e1684a0d67eb?source=rss----138adf9c44c---4"
+      },
+      "analysis": "At Nubank, this article prompts us to consider how AI tools can augment, rather than fully replace, entry-level research tasks within our existing workflows. For instance, when researching the PIX transfer experience or the card activation flow, junior researchers might leverage AI for initial data synthesis from customer support logs or sentiment analysis of social media mentions. This frees them to focus on the more qualitative aspects, such as conducting in-depth interviews with users to understand their emotional journey during loan application or insurance onboarding, and developing hypotheses from these richer interactions. The goal is to use AI to accelerate the initial data processing, allowing junior researchers more time to hone their qualitative inquiry and synthesis skills.\n\nWhen applying AI-assisted research, it's crucial to establish clear guardrails. AI should be seen as a co-pilot, not the pilot. Researchers, especially those new to the field, must critically evaluate AI outputs, cross-reference findings with direct user observation, and avoid over-reliance on AI-generated insights, particularly for complex or sensitive flows like understanding user anxieties during the onboarding process for new financial products. The \"craft\" of UX research lies in asking the right questions, interpreting subtle cues, and building empathy – skills that AI can support but not fully replicate. We must ensure that even when AI is employed, junior researchers are still deeply involved in direct user engagement and the subsequent interpretation of raw qualitative data."
+    },
     {
       "date": "2026-09-25",
       "title": "UX Roundup: AI Agents Help Blind Users | Style Exploration | Recognition: Show Options | Synthetic Users Help Designers Reflect | Local Optimization | Fail Early | Before–After Sliders | Error Message",
