@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-09-28T05:02:15.719Z",
+  "lastUpdated": "2026-09-28T16:41:53.077Z",
   "updates": [
+    {
+      "date": "2026-09-28",
+      "title": "UX Roundup: Bogus Deskilling Research | Jargon Alienates | AI Exposure Improves AI Attitudes | Interruptions | Prioritizing &gt; Everything | Paper Prototyping | Satisficing | Resizable Panes",
+      "summary": "Most deskilling research studies the wrong condition | Speak the user’s language | Using AI increases people’s preference for AI | Interruptions cause stress | Experienced UXers give the most important findings the most attention | Keep paper prototyping for team building | Sa...",
+      "content": "Jakob Nielsen's UX Roundup highlights several critical insights for user experience professionals.  A key takeaway is that \"deskilling\" research often misidentifies the true culprit behind user difficulties, suggesting a need for more nuanced investigations into how technology impacts user capabilities.  The article also emphasizes the importance of clear, jargon-free communication in user research, advocating for language that resonates with users themselves.  Furthermore, it presents a compelling finding that exposure to AI, even in simple ways, can foster more positive attitudes towards its adoption, a crucial point for financial institutions integrating AI features into their services. Finally, the piece stresses the detrimental impact of interruptions on user focus and productivity, and advocates for prioritizing critical findings over exhaustive detail.",
+      "category": "AI research tools",
+      "source": {
+        "name": "Jakob Nielsen (Substack)",
+        "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260928"
+      },
+      "analysis": "This article offers valuable perspectives for Nubank researchers, particularly regarding the AI and communication points. For AI, instead of solely focusing on user struggles with AI features in products like our digital assistant or fraud detection, we should consider how positive, introductory AI experiences can shape user perception. Researchers could design studies that expose participants to controlled AI interactions (e.g., a simulated AI chat during onboarding or a brief demo of a predictive feature for PIX) to gauge shifts in their overall AI attitudes before full product integration.  Regarding jargon, our researchers must consistently strive to use language that mirrors how our customers talk about their financial lives, especially when researching complex areas like loan applications or insurance claims. This means actively avoiding internal banking terminology and instead using relatable terms identified through qualitative research or customer support logs, ensuring our research questions and subsequent insights are universally understood."
+    },
     {
       "date": "2026-09-27",
       "title": "How we save entry-level UX work that teaches craft in the time of AI. Our field depends on this.",

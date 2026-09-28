@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 109,
-      "description": "Focuses on AI agents capable of performing complex research tasks autonomously, often described as acting independently or with minimal human oversight."
+      "count": 152,
+      "description": "Articles discussing AI agents that can autonomously perform research tasks, including data collection, analysis, and synthesis."
     },
     {
       "name": "AI coding assistants",
-      "count": 79,
-      "description": "Covers AI tools and techniques designed to help developers write, debug, and optimize code, often functioning as intelligent co-pilots."
+      "count": 128,
+      "description": "Content focusing on AI tools that assist developers in writing, debugging, and reviewing code."
     },
     {
       "name": "AI research tools",
-      "count": 66,
-      "description": "Articles discussing AI-powered platforms, software, and suites specifically built to aid in various research activities, from data analysis to literature review."
+      "count": 111,
+      "description": "Articles that review, compare, or announce specific AI-powered tools used for research purposes across various domains."
     },
     {
-      "name": "AI chatbot research",
-      "count": 53,
-      "description": "Explores the development, capabilities, limitations, and impact of AI chatbots, particularly in conversational and interactive contexts."
-    },
-    {
-      "name": "AI testing automation",
-      "count": 49,
-      "description": "Covers the application of AI in automating various testing processes, including software quality assurance, security testing, and operational validation."
+      "name": "AI for product management",
+      "count": 72,
+      "description": "Discussions on how AI is applied to product management activities, including strategy, roadmap planning, and feature development."
     },
     {
       "name": "AI workforce impact",
-      "count": 48,
-      "description": "Examines how AI is affecting jobs, skills, hiring, and the overall labor market, including concerns about job displacement and the emergence of new roles."
+      "count": 68,
+      "description": "Articles exploring how AI is changing job roles, skills requirements, and the overall employment landscape."
     },
     {
-      "name": "AI research platform",
-      "count": 34,
-      "description": "Focuses on AI platforms designed to integrate various research functionalities, enabling more efficient and comprehensive research workflows."
+      "name": "Synthetic users",
+      "count": 54,
+      "description": "Content related to the creation and use of simulated users for testing and research purposes."
     },
     {
-      "name": "AI design research",
-      "count": 25,
-      "description": "Discusses how AI is being used in the design process, from generating design concepts to aiding in user interface and product design research."
+      "name": "AI chatbot research",
+      "count": 46,
+      "description": "Articles focusing on the research, development, and implications of AI chatbots, including their interactions and limitations."
+    },
+    {
+      "name": "AI testing automation",
+      "count": 41,
+      "description": "Discussions on how AI is used to automate software testing processes, including test case generation and execution."
+    },
+    {
+      "name": "AI research tools comparison",
+      "count": 36,
+      "description": "Articles that directly compare the capabilities and performance of different AI research tools."
     },
     {
       "name": "AI sentiment feedback",
-      "count": 17,
-      "description": "Covers the use of AI to analyze and interpret user sentiment from reviews, feedback, and other textual data."
-    },
-    {
-      "name": "AI product research",
-      "count": 16,
-      "description": "Focuses on AI applications for market research, understanding product performance, identifying opportunities, and informing product development."
+      "count": 29,
+      "description": "Content about using AI to analyze and understand user sentiment from feedback, reviews, and social media."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
