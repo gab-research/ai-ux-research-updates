@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 82,
-      "description": "Articles discussing AI agents that can independently conduct research tasks, make decisions, and take actions within a research context."
+      "count": 114,
+      "description": "Covers AI agents that can autonomously perform research tasks, make decisions, and interact with systems."
     },
     {
       "name": "AI coding assistants",
-      "count": 70,
-      "description": "Content focused on AI tools and techniques that assist developers in writing, reviewing, and debugging code."
+      "count": 74,
+      "description": "Focuses on AI tools that help developers write, review, debug, and refactor code."
     },
     {
       "name": "AI research tools",
-      "count": 65,
-      "description": "Articles highlighting specific AI applications and platforms designed to aid in various research activities, from data analysis to literature review."
-    },
-    {
-      "name": "Synthetic users",
-      "count": 36,
-      "description": "Focuses on AI-generated or simulated users used for testing, research, or creating content in a UX and product development context."
+      "count": 67,
+      "description": "Encompasses a wide array of AI-powered tools and platforms designed to aid in various research processes."
     },
     {
       "name": "AI summarization",
-      "count": 30,
-      "description": "Articles that explore AI's capability to condense large amounts of text, such as research papers or interview transcripts, into concise summaries."
+      "count": 40,
+      "description": "Articles discussing AI's ability to condense large amounts of text into concise summaries and extract key insights."
     },
     {
-      "name": "AI qualitative research",
-      "count": 24,
-      "description": "Content discussing the application of AI in qualitative research methods, such as analyzing interviews, focus groups, or open-ended feedback."
-    },
-    {
-      "name": "AI testing automation",
-      "count": 21,
-      "description": "Articles detailing AI's role in automating software testing processes, including test generation, execution, and analysis."
-    },
-    {
-      "name": "AI customer insights",
-      "count": 21,
-      "description": "Focuses on how AI is used to extract, analyze, and leverage insights from customer data and interactions."
+      "name": "AI tool evaluation",
+      "count": 27,
+      "description": "Covers the assessment, comparison, and benchmarking of different AI tools and their capabilities."
     },
     {
       "name": "AI workforce impact",
-      "count": 21,
-      "description": "Content examining how AI affects jobs, employment, skill requirements, and the overall structure of the workforce."
+      "count": 24,
+      "description": "Examines how AI is affecting jobs, hiring, skills requirements, and the overall labor market."
     },
     {
-      "name": "AI design and research",
+      "name": "Synthetic users",
       "count": 19,
-      "description": "Articles covering the use of AI specifically within the design process and its intersection with user research methodologies."
+      "description": "Focuses on the creation and use of AI-generated personas or simulated users for testing and research."
+    },
+    {
+      "name": "AI sentiment feedback",
+      "count": 18,
+      "description": "Articles detailing the use of AI to analyze and understand user sentiment from reviews, feedback, and other text data."
+    },
+    {
+      "name": "AI research platform",
+      "count": 17,
+      "description": "Discusses platforms and infrastructure specifically built to facilitate AI research and development."
+    },
+    {
+      "name": "AI qualitative research",
+      "count": 13,
+      "description": "Covers AI applications in conducting and analyzing qualitative research, such as interviews and focus groups."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
