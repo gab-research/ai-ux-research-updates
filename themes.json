@@ -1,56 +1,56 @@
 {
-  "month": "2026-09",
-  "updated": "2026-09-30",
+  "month": "2026-10",
+  "updated": "2026-10-01",
   "themes": [
     {
-      "name": "Agentic AI in research",
-      "count": 114,
-      "description": "Covers AI agents that can autonomously perform research tasks, make decisions, and interact with systems."
+      "name": "AI coding assistants",
+      "count": 2,
+      "description": "Focuses on AI tools that help researchers and developers write, debug, and understand code."
     },
     {
-      "name": "AI coding assistants",
-      "count": 74,
-      "description": "Focuses on AI tools that help developers write, review, debug, and refactor code."
+      "name": "AI content generation",
+      "count": 2,
+      "description": "Covers AI's capability to create various forms of content, from videos to code-related explanations."
     },
     {
       "name": "AI research tools",
-      "count": 67,
-      "description": "Encompasses a wide array of AI-powered tools and platforms designed to aid in various research processes."
-    },
-    {
-      "name": "AI summarization",
-      "count": 40,
-      "description": "Articles discussing AI's ability to condense large amounts of text into concise summaries and extract key insights."
-    },
-    {
-      "name": "AI tool evaluation",
-      "count": 27,
-      "description": "Covers the assessment, comparison, and benchmarking of different AI tools and their capabilities."
-    },
-    {
-      "name": "AI workforce impact",
-      "count": 24,
-      "description": "Examines how AI is affecting jobs, hiring, skills requirements, and the overall labor market."
+      "count": 2,
+      "description": "Explores AI applications specifically designed to aid in the research process."
     },
     {
       "name": "Synthetic users",
-      "count": 19,
-      "description": "Focuses on the creation and use of AI-generated personas or simulated users for testing and research."
+      "count": 1,
+      "description": "Discusses the use of AI-generated personas or users for testing and research purposes."
     },
     {
-      "name": "AI sentiment feedback",
-      "count": 18,
-      "description": "Articles detailing the use of AI to analyze and understand user sentiment from reviews, feedback, and other text data."
+      "name": "Conversational AI in research",
+      "count": 1,
+      "description": "Highlights the use of AI in conversational interfaces for qualitative research and data collection."
     },
     {
-      "name": "AI research platform",
-      "count": 17,
-      "description": "Discusses platforms and infrastructure specifically built to facilitate AI research and development."
+      "name": "AI workforce impact",
+      "count": 1,
+      "description": "Examines how AI is changing the job market and creating new divides or opportunities for workers."
     },
     {
-      "name": "AI qualitative research",
-      "count": 13,
-      "description": "Covers AI applications in conducting and analyzing qualitative research, such as interviews and focus groups."
+      "name": "AI tool evaluation",
+      "count": 1,
+      "description": "Focuses on benchmarking and assessing the performance and capabilities of AI models and tools."
+    },
+    {
+      "name": "Agentic AI in research",
+      "count": 1,
+      "description": "Covers AI agents that can perform tasks autonomously to support research and development workflows."
+    },
+    {
+      "name": "AI for design & research",
+      "count": 1,
+      "description": "Details AI applications that directly assist in the design and creative process, including editing."
+    },
+    {
+      "name": "AI for product management",
+      "count": 1,
+      "description": "Explores how AI can be applied to product development and management tasks, including testing prompts."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
