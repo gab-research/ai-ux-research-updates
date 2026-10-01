@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 7,
-      "description": "Focuses on AI agents capable of autonomous action and decision-making within research contexts, including their development, application, and potential risks."
+      "count": 11,
+      "description": "Focuses on AI agents that can independently perform research tasks, interact with systems, and make decisions."
     },
     {
       "name": "AI coding assistants",
       "count": 6,
-      "description": "Covers AI tools that assist developers in writing, debugging, and optimizing code, as well as their impact on the development workflow."
-    },
-    {
-      "name": "AI for product management",
-      "count": 6,
-      "description": "Highlights AI applications that aid in product development, including opportunity solution trees, synthesis, evaluation, and continuous learning loops."
-    },
-    {
-      "name": "AI research tools",
-      "count": 6,
-      "description": "Discusses various AI-powered tools and platforms used for conducting research, including comparisons and evaluations of their effectiveness."
-    },
-    {
-      "name": "AI-assisted content generation",
-      "count": 6,
-      "description": "Explores the use of AI to create various forms of content, from marketing emails to illustrations and videos, and the impact on creative workflows."
-    },
-    {
-      "name": "AI-powered data analysis",
-      "count": 6,
-      "description": "Covers AI techniques and tools for analyzing large datasets, extracting insights, and identifying patterns, including specific algorithms and their applications."
-    },
-    {
-      "name": "AI-driven UX benchmarks",
-      "count": 4,
-      "description": "Focuses on AI's role in analyzing and generating benchmarks for user experience, including performance scores and best practice examples."
+      "description": "Covers AI tools that assist developers in writing, debugging, and understanding code."
     },
     {
       "name": "Synthetic users",
       "count": 3,
-      "description": "Examines the creation and use of artificial users or survey stand-ins in research, and their accuracy compared to real users."
+      "description": "Explores the use of AI-generated personas or simulated users for testing and research."
+    },
+    {
+      "name": "AI research tools",
+      "count": 3,
+      "description": "Highlights specific AI-powered tools and platforms designed to aid researchers in various aspects of their work."
+    },
+    {
+      "name": "Interview analysis",
+      "count": 2,
+      "description": "Addresses AI applications for synthesizing, analyzing, and extracting insights from user interviews."
+    },
+    {
+      "name": "AI for product management",
+      "count": 2,
+      "description": "Discusses how AI is being applied to product development, strategy, and roadmap planning."
+    },
+    {
+      "name": "AI tool evaluation",
+      "count": 2,
+      "description": "Focuses on articles that compare, benchmark, or evaluate the performance of different AI tools."
+    },
+    {
+      "name": "AI summarization",
+      "count": 1,
+      "description": "Covers the use of AI to condense large amounts of text or data into concise summaries."
+    },
+    {
+      "name": "AI content generation",
+      "count": 1,
+      "description": "Explores AI's role in creating various forms of content, such as text, code, or design assets."
     },
     {
       "name": "Sentiment & feedback analysis",
-      "count": 3,
-      "description": "Details the use of AI for analyzing user sentiment and feedback from various sources, including social media and direct communication channels."
-    },
-    {
-      "name": "AI ethics in research",
-      "count": 3,
-      "description": "Addresses the ethical considerations and responsibilities associated with AI in research, including data privacy, accountability, and potential misuse."
+      "count": 1,
+      "description": "Focuses on AI techniques for understanding user emotions, opinions, and feedback from various sources."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
