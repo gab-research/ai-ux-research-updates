@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-10-02T05:17:40.344Z",
+  "lastUpdated": "2026-10-02T14:39:45.268Z",
   "updates": [
+    {
+      "date": "2026-10-02",
+      "title": "UX Roundup: Vigilance Fatigue | Adaptive Authoring | UI Clutter | Scenarios vs. Surveys for User Preferences | Measure Outcomes | Satisfaction vs. Expectations | Spotlight Features | Allow Paste",
+      "summary": "Asking users to watch AI carefully is doomed to failure | Adaptive authoring of content that changes depending on the reader | A cluttered experience kills user focus | To predict patients’ treatment preferences, discussing medical dilemmas beat both survey responses and the p...",
+      "content": "This UX roundup by Jakob Nielsen highlights critical considerations for modern product design and research.  A key takeaway is the challenge of \"vigilance fatigue,\" suggesting that relying on users to constantly monitor AI outputs is unsustainable, pointing towards designing systems that inherently minimize the need for such oversight.  The article also champions the power of \"scenarios vs. surveys\" for understanding user preferences, particularly in complex decision-making contexts like healthcare, indicating that qualitative, story-based approaches can yield deeper insights than quantitative methods alone. For UX researchers, these points underscore the importance of designing for human limitations and employing diverse research methodologies to capture nuanced user needs.",
+      "category": "Survey optimization",
+      "source": {
+        "name": "Jakob Nielsen (Substack)",
+        "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20261002"
+      },
+      "analysis": "At Nubank, these insights are highly relevant to our ongoing efforts to refine user experiences across our product suite.  For \"vigilance fatigue,\" when designing features involving AI recommendations or automated processes like loan eligibility checks, we must prioritize robust error detection and clear feedback mechanisms rather than expecting users to actively scrutinize every AI decision. This means building in fail-safes and providing transparent explanations for AI-driven outcomes, for instance, when a PIX transaction requires extra verification or when a credit limit is adjusted.  Researchers should actively advocate for designing AI systems that are inherently trustworthy and require minimal user intervention.\n\nRegarding \"scenarios vs. surveys,\" this principle can significantly enhance our understanding of user preferences for complex financial products. Instead of solely relying on Likert scale questions in surveys for insurance product features or new credit card benefits, we should incorporate qualitative methods like in-depth interviews and scenario-based exercises. For example, when exploring user needs for a new investment product, presenting users with hypothetical financial situations and asking them to articulate their choices and reasoning will likely reveal more nuanced preferences than a standardized questionnaire. This approach is crucial for understanding how users navigate trade-offs, similar to how they might evaluate different loan repayment options or prioritize features during card activation onboarding. Researchers should champion the use of qualitative methods to supplement quantitative data when exploring user decision-making in critical flows."
+    },
     {
       "date": "2026-10-01",
       "title": "Generating Opportunity Solution Trees with AI: How Vistaly Rebuilt Its Product Around Interview Synthesis, Evals, and Repair Loops",
@@ -30,7 +42,7 @@
     {
       "date": "2026-10-01",
       "title": "Design’s consensus was AI’s first casualty",
-      "summary": "The same evidence about AI is being read two opposite ways, and designers are left choosing between them without a clear consensus to lean… Continue reading on UX Collective »",
+      "summary": "The same evidence about AI is being read two opposite ways, leaving designers to choose without a clear consensus to lean on. Continue reading on UX Collective »",
       "content": "This UX Collective article highlights the emerging paradox in design discussions surrounding Artificial Intelligence: the same AI advancements are being interpreted through vastly different, often contradictory, lenses. Designers are struggling to navigate this lack of a unified perspective, making it challenging to establish best practices or form a consensus on AI's role in design. For UX researchers, this ambiguity underscores the critical need to develop frameworks for evaluating AI's impact on user experience, ensuring we can guide product development responsibly rather than being swept up in conflicting narratives. This means focusing on user-centric outcomes, like improved accessibility in the PIX transfer flow or clearer communication during loan applications, even as AI capabilities evolve.",
       "category": "AI research tools",
       "source": {
