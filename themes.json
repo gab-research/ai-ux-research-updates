@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 11,
-      "description": "Articles discussing AI agents performing research tasks, synthesizing information, or acting as research companions."
+      "count": 22,
+      "description": "Articles focusing on AI agents that can autonomously perform research tasks, make decisions, and interact with systems or users."
     },
     {
       "name": "AI coding assistants",
-      "count": 10,
-      "description": "Content focusing on AI tools that assist with writing, debugging, and refactoring code, and their impact on development workflows."
-    },
-    {
-      "name": "AI tool evaluation",
-      "count": 7,
-      "description": "Articles that benchmark, compare, or assess the performance and capabilities of various AI models and tools."
-    },
-    {
-      "name": "AI for product management",
-      "count": 6,
-      "description": "Discussions on how AI is being used to support product strategy, iteration, and development processes."
-    },
-    {
-      "name": "Interview analysis",
-      "count": 3,
-      "description": "Articles detailing the use of AI to process, synthesize, and extract insights from user interviews."
-    },
-    {
-      "name": "AI-powered data analysis",
-      "count": 3,
-      "description": "Content covering AI's role in analyzing data, identifying patterns, and extracting meaningful insights for decision-making."
-    },
-    {
-      "name": "AI for design & research",
-      "count": 3,
-      "description": "Articles broadly exploring AI's application in both the design and user research fields."
+      "count": 16,
+      "description": "Content specifically about AI tools that assist developers with writing, debugging, and understanding code."
     },
     {
       "name": "AI research tools",
-      "count": 2,
-      "description": "Focuses on specific AI-powered tools designed to aid in academic or scientific research."
-    },
-    {
-      "name": "Automated usability checks",
-      "count": 1,
-      "description": "Articles discussing AI's ability to automatically identify usability issues or defects in software."
+      "count": 13,
+      "description": "Articles discussing various AI-powered tools and platforms designed to aid in research activities, from data analysis to discovery."
     },
     {
       "name": "AI summarization",
-      "count": 1,
-      "description": "Content related to AI's capability to condense large amounts of text or information into shorter summaries."
+      "count": 10,
+      "description": "This theme covers AI applications focused on condensing large amounts of text, such as articles, user feedback, or research findings, into concise summaries."
+    },
+    {
+      "name": "AI usability testing",
+      "count": 8,
+      "description": "Articles related to using AI to automate, enhance, or analyze aspects of usability testing processes."
+    },
+    {
+      "name": "AI sentiment feedback",
+      "count": 5,
+      "description": "Content analyzing user emotions, opinions, and attitudes expressed in text or other forms of feedback, using AI."
+    },
+    {
+      "name": "Synthetic users",
+      "count": 5,
+      "description": "Research and discussions around the use of AI-generated user personas or data to simulate real user behavior and feedback."
+    },
+    {
+      "name": "AI for product management",
+      "count": 4,
+      "description": "Articles detailing how AI is being integrated into product management workflows, decision-making, and strategy."
+    },
+    {
+      "name": "AI tool evaluation",
+      "count": 4,
+      "description": "Discussions and comparisons of different AI tools, models, or platforms based on their performance, features, or effectiveness."
+    },
+    {
+      "name": "AI testing automation",
+      "count": 4,
+      "description": "Focuses on the use of AI to automate various stages of software testing and quality assurance processes."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
