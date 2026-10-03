@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 22,
-      "description": "Articles focusing on AI agents that can autonomously perform research tasks, make decisions, and interact with systems or users."
+      "count": 17,
+      "description": "Articles discussing AI agents performing research tasks, acting autonomously, or assisting researchers in workflows."
     },
     {
       "name": "AI coding assistants",
       "count": 16,
-      "description": "Content specifically about AI tools that assist developers with writing, debugging, and understanding code."
+      "description": "Content focused on AI tools that help developers write, debug, or refactor code."
     },
     {
       "name": "AI research tools",
-      "count": 13,
-      "description": "Articles discussing various AI-powered tools and platforms designed to aid in research activities, from data analysis to discovery."
+      "count": 11,
+      "description": "Articles about a broad range of AI tools used for various research purposes, from data analysis to synthesis."
     },
     {
       "name": "AI summarization",
-      "count": 10,
-      "description": "This theme covers AI applications focused on condensing large amounts of text, such as articles, user feedback, or research findings, into concise summaries."
-    },
-    {
-      "name": "AI usability testing",
-      "count": 8,
-      "description": "Articles related to using AI to automate, enhance, or analyze aspects of usability testing processes."
-    },
-    {
-      "name": "AI sentiment feedback",
-      "count": 5,
-      "description": "Content analyzing user emotions, opinions, and attitudes expressed in text or other forms of feedback, using AI."
-    },
-    {
-      "name": "Synthetic users",
-      "count": 5,
-      "description": "Research and discussions around the use of AI-generated user personas or data to simulate real user behavior and feedback."
-    },
-    {
-      "name": "AI for product management",
       "count": 4,
-      "description": "Articles detailing how AI is being integrated into product management workflows, decision-making, and strategy."
+      "description": "Content related to AI's ability to condense large amounts of text or data into concise summaries."
     },
     {
       "name": "AI tool evaluation",
+      "count": 12,
+      "description": "Articles comparing, reviewing, or benchmarking different AI tools and models."
+    },
+    {
+      "name": "AI-powered data analysis",
+      "count": 3,
+      "description": "Focuses on AI applications used for analyzing datasets, uncovering insights, and identifying patterns."
+    },
+    {
+      "name": "AI sentiment feedback",
       "count": 4,
-      "description": "Discussions and comparisons of different AI tools, models, or platforms based on their performance, features, or effectiveness."
+      "description": "Content related to AI's use in analyzing user sentiment, feedback, and opinions."
+    },
+    {
+      "name": "AI for product management",
+      "count": 3,
+      "description": "Articles discussing how AI is applied to product development, feature prioritization, and roadmap planning."
+    },
+    {
+      "name": "AI for design & research",
+      "count": 3,
+      "description": "Content exploring AI's role in assisting with creative design processes and user research activities."
     },
     {
       "name": "AI testing automation",
-      "count": 4,
-      "description": "Focuses on the use of AI to automate various stages of software testing and quality assurance processes."
+      "count": 7,
+      "description": "Articles about using AI to automate software testing processes, including test generation and execution."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
