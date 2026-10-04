@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-10-04T13:53:10.530Z",
+  "lastUpdated": "2026-10-04T19:28:58.227Z",
   "updates": [
     {
       "date": "2026-10-02",
@@ -554,18 +554,6 @@
         "url": "https://openai.com/index/research-acceleration-view-inside-openai"
       },
       "analysis": "At Nubank, these AI coding agents can be integrated into our research workflow to significantly speed up tasks that are currently manual and time-consuming. For example, researchers could leverage agents to automate the generation of user journey maps for complex flows like the insurance onboarding process, or to quickly prototype different UI variations for loan application screens. Instead of spending hours writing scripts for data extraction from user interviews or survey responses related to card activation, agents could assist in pre-processing and summarizing this data, allowing researchers to focus on deeper qualitative analysis and strategic recommendations. This would free up valuable researcher time, enabling us to conduct more studies or delve deeper into the nuances of user behavior across products like PIX.\n\nTo apply this, researchers should begin by identifying repetitive or code-heavy tasks within their current processes. This could involve setting up A/B testing scripts, generating synthetic user data for early-stage hypothesis testing, or even building initial versions of interactive prototypes. Collaboration with engineering teams will be key to understanding the capabilities of these agents and integrating them safely. However, it's crucial to maintain human oversight. Agents should be viewed as powerful assistants, not replacements for human judgment and empathy. Researchers must still validate agent-generated code and insights, ensuring they align with our ethical guidelines and do not introduce biases. Limitations include the current stage of development, potential inaccuracies, and the need for clear prompt engineering to ensure the agents understand our specific UX research objectives for products like personal loans or the initial onboarding experience."
-    },
-    {
-      "date": "2026-09-04",
-      "title": "Using AI for UX Work: Study Guide",
-      "summary": "Unsure where to start? Use this collection of links to our articles and videos to learn about the best ways to use artificial intelligence for UX work.",
-      "content": "This Nielsen Norman Group study guide offers a curated pathway for UX professionals to integrate Artificial Intelligence into their daily practice.  It addresses the burgeoning need for researchers to leverage AI tools to enhance efficiency and uncover deeper insights from user data. The core idea is that AI can automate time-consuming tasks, personalize user experiences, and accelerate the research process, ultimately leading to more impactful design decisions. For UX researchers at organizations like Nubank, this translates to quicker analysis of qualitative feedback from customer support logs, more sophisticated segmentation of user behavior during onboarding, and even the potential for AI-assisted journey mapping.",
-      "category": "AI research tools",
-      "source": {
-        "name": "Nielsen Norman Group",
-        "url": "https://www.nngroup.com/articles/ai-work-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication"
-      },
-      "analysis": "At Nubank, this AI study guide directly supports our mission to democratize financial services through exceptional user experiences. Researchers can integrate AI tools to analyze vast datasets generated from interactions with our products like PIX transactions, loan applications, and card activation flows. For instance, AI could help identify common pain points in our digital onboarding process by analyzing open-ended feedback from new customers, flagging recurring themes faster than manual review. This allows us to prioritize improvements and iterate on designs more rapidly.\n\nResearchers should approach AI adoption incrementally. Start by exploring AI tools for summarizing interview transcripts, analyzing survey responses, or even generating initial hypotheses based on user behavior patterns observed in our app. For example, AI could help us understand sentiment shifts in customer feedback related to our insurance offerings. It's crucial to remember that AI is a co-pilot, not a replacement for human judgment. Researchers must maintain critical oversight, ensuring that AI-generated insights are validated with qualitative methods and align with Nubank's ethical guidelines. We must also be mindful of data privacy and security when employing any AI tools, ensuring compliance with all relevant regulations."
     }
   ]
 }
