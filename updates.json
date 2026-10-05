@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-10-05T05:16:21.264Z",
+  "lastUpdated": "2026-10-05T17:03:39.694Z",
   "updates": [
     {
       "date": "2026-10-05",
@@ -14,6 +14,18 @@
         "url": "https://www.technologyreview.com/2026/10/05/1145413/emtech-future-2026-when-ai-meets-everything/"
       },
       "analysis": "This article's emphasis on AI intersecting with various fields is highly relevant to Nubank's mission of simplifying financial lives. In our research workflow, this foresight allows us to move beyond optimizing existing digital flows (like PIX transfers or card activation) and start exploring how AI's integration into infrastructure or even personal health could indirectly influence financial needs and behaviors. Researchers should proactively identify potential intersection points – for example, how AI-driven personalized health insights might influence demand for health insurance products or how smart home technology could impact loan applications for renovations. This requires cross-functional collaboration with product teams focusing on emerging technologies and a willingness to explore speculative user scenarios.\n\nWhen applying this at Nubank, researchers should prioritize understanding user needs and pain points within these emerging AI-enhanced environments. For instance, when exploring potential AI integrations for our onboarding process, we should consider how users might expect AI-powered financial guidance to be seamlessly embedded. Guardrails are crucial: we must remain user-centric, ensuring AI augmentations enhance, rather than complicate, user journeys, and that privacy and data security are paramount. We should avoid designing AI features for the sake of it, and instead focus on solving real user problems, even if those problems arise in contexts that currently seem outside the traditional banking scope, preparing us for future financial ecosystems."
+    },
+    {
+      "date": "2026-10-05",
+      "title": "UX Roundup: AI Errors Halve Every 5 Months | Muse Charm | Synthetic Users in Exploratory Design | Context | AI-Simulated Users Are Biased | Price Comparisons | Perceived Affordance | Consistency | Tab",
+      "summary": "AI errors halve every 5 months on accounting tasks | Meta’s AI appliance, the Muse Charm | Synthetic users can revive participatory design and drive divergence in the exploratory design phase | Context changes what counts as usable, so test where the work happens | Synthetic u...",
+      "content": "AI errors halve every 5 months on accounting tasks | Meta’s AI appliance, the Muse Charm | Synthetic users can revive participatory design and drive divergence in the exploratory design phase | Context changes what counts as usable, so test where the work happens | Synthetic users give too-nice feedback | Make pricing plans easy to compare | Looking clickable and being clickable should be the same | Consistency facilitates transfer of learning | A table of contents lets users skip to the point | Interrupting users doesn’t count as engaging them | If one thing stands out, users remember it; if everything stands out, nothing does | A call to action must answer three questions | Old people talk to AI differently than young people do, so test with them",
+      "category": "Synthetic users",
+      "source": {
+        "name": "Jakob Nielsen (Substack)",
+        "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20261005"
+      },
+      "analysis": ""
     },
     {
       "date": "2026-10-02",
