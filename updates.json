@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-10-04T19:28:58.227Z",
+  "lastUpdated": "2026-10-05T05:16:21.264Z",
   "updates": [
+    {
+      "date": "2026-10-05",
+      "title": "EmTech Future 2026: When AI Meets Everything",
+      "summary": "Yossi Matias, Vice President & Head of Google Research, explores how AI is beginning to reshape biology, infrastructure, manufacturing, and science, and why its greatest impact may come when it intersects with other fields. Step inside the newsroom with our MIT Technology Revi...",
+      "content": "The MIT Technology Review article \"EmTech Future 2026: When AI Meets Everything\" highlights Yossi Matias's perspective that AI's most profound impact will emerge not in isolation, but through its convergence with diverse disciplines like biology, infrastructure, and science. This broader integration signifies a paradigm shift, moving AI from a specialized tool to an embedded intelligence layer across all aspects of innovation. For UX researchers, this means understanding how AI will transform user experiences not just within digital products, but in the physical and biological worlds users inhabit.  The practical implication is the need for UX research to expand its scope, anticipating how users will interact with AI-infused systems in everyday life, from managing their health to navigating smart cities, and how Nubank can proactively design for these emergent interactions.",
+      "category": "AI research tools",
+      "source": {
+        "name": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/2026/10/05/1145413/emtech-future-2026-when-ai-meets-everything/"
+      },
+      "analysis": "This article's emphasis on AI intersecting with various fields is highly relevant to Nubank's mission of simplifying financial lives. In our research workflow, this foresight allows us to move beyond optimizing existing digital flows (like PIX transfers or card activation) and start exploring how AI's integration into infrastructure or even personal health could indirectly influence financial needs and behaviors. Researchers should proactively identify potential intersection points – for example, how AI-driven personalized health insights might influence demand for health insurance products or how smart home technology could impact loan applications for renovations. This requires cross-functional collaboration with product teams focusing on emerging technologies and a willingness to explore speculative user scenarios.\n\nWhen applying this at Nubank, researchers should prioritize understanding user needs and pain points within these emerging AI-enhanced environments. For instance, when exploring potential AI integrations for our onboarding process, we should consider how users might expect AI-powered financial guidance to be seamlessly embedded. Guardrails are crucial: we must remain user-centric, ensuring AI augmentations enhance, rather than complicate, user journeys, and that privacy and data security are paramount. We should avoid designing AI features for the sake of it, and instead focus on solving real user problems, even if those problems arise in contexts that currently seem outside the traditional banking scope, preparing us for future financial ecosystems."
+    },
     {
       "date": "2026-10-02",
       "title": "UX Roundup: Vigilance Fatigue | Adaptive Authoring | UI Clutter | Scenarios vs. Surveys for User Preferences | Measure Outcomes | Satisfaction vs. Expectations | Spotlight Features | Allow Paste",
