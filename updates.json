@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-10-06T14:59:35.334Z",
+  "lastUpdated": "2026-10-06T20:53:30.083Z",
   "updates": [
     {
       "date": "2026-10-06",
@@ -14,6 +14,18 @@
         "url": "https://ninatalks.substack.com/p/ninanews-169-design-e-uma-forma-de"
       },
       "analysis": "At Nubank, \"Dots\" AI agents can be integrated into our research workflow to monitor user interactions across critical journeys such as onboarding, PIX transactions, loan applications, or card activation. Instead of relying solely on post-task surveys or session recordings, researchers can leverage these agents to observe users engaging with our products in their natural environment, identifying subtle pain points or moments of confusion as they happen. This could offer richer qualitative data for features like insurance policy adjustments or even proactive identification of issues during the account opening process.\n\nResearchers should deploy \"Dots\" to observe specific, complex user flows where continuous context is paramount. For instance, when testing a new loan application feature, a \"Dot\" could follow a user from initial interest through to submission, flagging unexpected deviations or hesitations. It's crucial, however, to establish clear ethical guidelines and privacy guardrails. Users must be informed and consent to this continuous monitoring, and data anonymization must be rigorously applied. We also need to consider the computational resources required and ensure the \"Dots\" are trained on representative user segments to avoid biased observations and ensure the insights are broadly applicable to our diverse Nubank customer base."
+    },
+    {
+      "date": "2026-10-06",
+      "title": "What AI gets wrong and what failure teaches us",
+      "summary": "Jennifer Neville did not want to go into computer science—but that’s exactly where she landed. Neville discusses the starts and stops that led to her professional sweet spot and her work identifying “surprising failures” making it hard for AI to handle complexity. The post Wha...",
+      "content": "This article delves into the inherent challenges AI faces when encountering complex, real-world scenarios, drawing insights from Jennifer Neville's work on identifying \"surprising failures.\"  These failures often arise from AI's difficulty in grasping nuanced human behavior, contextual understanding, and emergent situations not present in its training data. For UX researchers, this highlights the critical need to move beyond AI's current capabilities and proactively consider its limitations when designing user experiences. Understanding these failure points allows us to build more robust and human-centered systems, especially in high-stakes financial applications where trust and accuracy are paramount.",
+      "category": "General AI in research",
+      "source": {
+        "name": "Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/podcast/what-ai-gets-wrong-and-what-failure-teaches-us/"
+      },
+      "analysis": "This article's focus on \"surprising failures\" of AI is directly relevant to our research at Nubank, particularly as we integrate AI for personalization and automation in areas like PIX transactions, loan recommendations, and fraud detection. Our UX researchers should actively look for instances where AI-driven features might fail due to unexpected user behaviors or edge cases. For example, when analyzing user journeys for credit card activation, we should anticipate scenarios where a user might not follow the expected flow due to a unique device issue or external factor, and ensure our AI models are robust enough to handle such deviations or provide graceful fallback mechanisms. \n\nWhen applying this, researchers should actively design \"failure probes\" in their studies, deliberately introducing complex or ambiguous scenarios to observe AI's response and user interaction. This means not just testing for the happy path, but actively seeking out and documenting edge cases that might trip up AI systems, whether it's in onboarding new customers or the unexpected ways users interact with our insurance products.  A key guardrail is to remember that AI is a tool, not a replacement for human empathy and contextual understanding.  We must avoid over-reliance on AI-driven insights without critical human validation, ensuring that our research always prioritizes understanding the 'why' behind user actions, especially in complex financial decisions, rather than simply accepting AI-generated outputs as truth."
     },
     {
       "date": "2026-10-05",
