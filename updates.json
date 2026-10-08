@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-10-08T15:29:12.673Z",
+  "lastUpdated": "2026-10-08T21:14:12.665Z",
   "updates": [
     {
       "date": "2026-10-08",
@@ -17,7 +17,7 @@
     },
     {
       "date": "2026-10-07",
-      "title": "Beyond streaks and nudges: ethical gamification &amp; AI design",
+      "title": "Beyond streaks and nudges: ethical gamification & AI design",
       "summary": "Part 1 of 3 on designing systems that inspire rather than manipulate. Continue reading on UX Collective »",
       "content": "This article challenges the conventional, often manipulative, use of gamification in digital products, arguing for a shift towards ethical design principles powered by AI. It posits that instead of relying on simple reward systems like streaks or nudges, designers should leverage AI to understand user motivations deeply and create engaging experiences that genuinely inspire intrinsic value. This is crucial for UX researchers as it moves beyond superficial engagement metrics to foster long-term user loyalty and trust. Practically, this means re-evaluating existing gamified features and exploring AI-driven personalization to ensure interactions are empowering and aligned with user goals, rather than feeling coercive.",
       "category": "AI research tools",

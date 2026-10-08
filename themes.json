@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 60,
-      "description": "Focuses on AI systems designed to act autonomously to perform research tasks, from data gathering to analysis and decision-making."
+      "count": 71,
+      "description": "Focuses on AI agents that can autonomously perform research tasks, make decisions, and interact with systems to achieve research objectives."
     },
     {
       "name": "AI coding assistants",
       "count": 41,
-      "description": "Covers AI tools that help developers write, debug, refactor, and review code."
+      "description": "Covers AI tools that help developers write, debug, refactor, and analyze code, enhancing productivity and efficiency in software development."
     },
     {
-      "name": "AI research tools",
-      "count": 29,
-      "description": "Encompasses a broad range of AI-powered platforms and applications designed to facilitate and enhance research processes."
+      "name": "AI for product management",
+      "count": 24,
+      "description": "Explores how AI is being used to enhance product development workflows, from idea generation and market analysis to feature prioritization and user feedback processing."
     },
     {
-      "name": "AI survey tools",
-      "count": 28,
-      "description": "Details AI applications used for creating, distributing, analyzing, and optimizing surveys."
+      "name": "AI summarization",
+      "count": 18,
+      "description": "Concerns AI's ability to condense large amounts of text, audio, or video into concise summaries, aiding in quick comprehension and insight extraction."
     },
     {
-      "name": "AI customer insights",
-      "count": 19,
-      "description": "Explores how AI is used to analyze customer data and provide actionable insights for businesses."
-    },
-    {
-      "name": "AI product research",
+      "name": "AI recruitment research",
       "count": 17,
-      "description": "Covers the application of AI in understanding market needs, user preferences, and competitive landscapes for product development."
+      "description": "Investigates how AI is applied to recruitment processes, including talent sourcing, candidate screening, and analyzing the impact of AI on employment and workforce dynamics."
     },
     {
       "name": "AI for design & research",
       "count": 16,
-      "description": "Focuses on AI tools and methodologies that directly assist in the design process and user research activities."
+      "description": "Highlights AI applications directly supporting design workflows, such as generating design assets, ideation, and streamlining the creative process."
     },
     {
-      "name": "AI chatbot research",
-      "count": 16,
-      "description": "Examines research related to the capabilities, limitations, and impacts of AI-powered chatbots."
-    },
-    {
-      "name": "AI sentiment & feedback analysis",
-      "count": 14,
-      "description": "Covers AI applications for understanding and analyzing user opinions, emotions, and feedback from various sources."
+      "name": "AI tool evaluation",
+      "count": 15,
+      "description": "Focuses on comparing, benchmarking, and reviewing various AI tools and platforms for their effectiveness, features, and suitability for specific tasks."
     },
     {
       "name": "Synthetic users",
       "count": 14,
-      "description": "Involves the creation and use of artificial users for testing and research purposes."
+      "description": "Examines the use of AI-generated or simulated users for testing, research, and design validation, exploring their benefits and limitations."
+    },
+    {
+      "name": "AI coding assistants researchers",
+      "count": 13,
+      "description": "Specifically looks at how researchers are studying and developing AI coding assistants, including their security implications and impact on software engineering practices."
+    },
+    {
+      "name": "AI chatbot research",
+      "count": 13,
+      "description": "Covers research and analysis of AI chatbots, including their capabilities, limitations, user interactions, and potential harms or benefits."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
