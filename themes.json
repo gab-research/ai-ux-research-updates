@@ -1,56 +1,56 @@
 {
   "month": "2026-10",
-  "updated": "2026-10-07",
+  "updated": "2026-10-08",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 38,
-      "description": "Covers articles discussing AI agents that perform research tasks autonomously, manage workflows, and interact with systems."
+      "count": 35,
+      "description": "Covers AI systems designed to operate autonomously or with delegated authority to perform research tasks, plan, and execute actions."
     },
     {
       "name": "AI coding assistants",
-      "count": 25,
-      "description": "Focuses on AI tools that assist in writing, debugging, and reviewing code, as well as related security implications."
+      "count": 32,
+      "description": "Focuses on AI tools that help developers write, debug, review, and refactor code."
     },
     {
       "name": "AI research tools",
-      "count": 23,
-      "description": "Encompasses a broad range of AI-powered platforms and tools designed to aid researchers in various stages of their work."
+      "count": 26,
+      "description": "Encompasses a broad category of AI applications and platforms specifically built to aid researchers in various stages of their work."
     },
     {
       "name": "AI survey tools",
+      "count": 25,
+      "description": "Articles related to using AI for creating, distributing, analyzing, or optimizing surveys and gathering user feedback."
+    },
+    {
+      "name": "AI research platform",
       "count": 18,
-      "description": "Highlights the use of AI in designing, distributing, and analyzing surveys, including new innovations in survey research."
+      "description": "Highlights integrated platforms and ecosystems that leverage AI to facilitate and streamline research processes."
     },
     {
       "name": "AI chatbot research",
-      "count": 16,
-      "description": "Explores research and applications involving AI chatbots, including their capabilities, limitations, and impact on users."
+      "count": 17,
+      "description": "Explores the capabilities, limitations, and impact of AI chatbots in providing information, answering questions, and interacting with users."
     },
     {
       "name": "AI customer insights",
       "count": 15,
-      "description": "Focuses on how AI is used to gather, analyze, and leverage customer data to drive business decisions and improve experiences."
-    },
-    {
-      "name": "AI research platform",
-      "count": 15,
-      "description": "Covers integrated platforms and ecosystems that utilize AI to streamline and enhance research processes across different domains."
+      "description": "Covers the application of AI in gathering, analyzing, and understanding customer behavior, preferences, and feedback."
     },
     {
       "name": "AI for design & research",
-      "count": 11,
-      "description": "Explores the application of AI specifically within UX/UI design processes and user research methodologies."
+      "count": 14,
+      "description": "Examines how AI is applied to enhance or automate aspects of the design and research lifecycle."
     },
     {
-      "name": "AI sentiment feedback",
-      "count": 10,
-      "description": "Articles focusing on AI's ability to analyze and interpret user sentiment from various feedback channels."
+      "name": "AI tool evaluation",
+      "count": 12,
+      "description": "Focuses on reviews, comparisons, and assessments of various AI tools and their effectiveness."
     },
     {
       "name": "AI workforce impact",
-      "count": 9,
-      "description": "Discusses how AI is changing job roles, skills requirements, and the overall structure of the workforce."
+      "count": 12,
+      "description": "Addresses how AI is changing job roles, skills, employment, and the overall professional landscape."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
