@@ -1,56 +1,56 @@
 {
   "month": "2026-10",
-  "updated": "2026-10-08",
+  "updated": "2026-10-09",
   "themes": [
     {
-      "name": "Agentic AI in research",
-      "count": 71,
-      "description": "Focuses on AI agents that can autonomously perform research tasks, make decisions, and interact with systems to achieve research objectives."
+      "name": "Agentic AI research",
+      "count": 70,
+      "description": "Focuses on AI agents capable of performing complex research tasks autonomously, often with limited human intervention."
     },
     {
       "name": "AI coding assistants",
-      "count": 41,
-      "description": "Covers AI tools that help developers write, debug, refactor, and analyze code, enhancing productivity and efficiency in software development."
-    },
-    {
-      "name": "AI for product management",
-      "count": 24,
-      "description": "Explores how AI is being used to enhance product development workflows, from idea generation and market analysis to feature prioritization and user feedback processing."
-    },
-    {
-      "name": "AI summarization",
-      "count": 18,
-      "description": "Concerns AI's ability to condense large amounts of text, audio, or video into concise summaries, aiding in quick comprehension and insight extraction."
-    },
-    {
-      "name": "AI recruitment research",
-      "count": 17,
-      "description": "Investigates how AI is applied to recruitment processes, including talent sourcing, candidate screening, and analyzing the impact of AI on employment and workforce dynamics."
-    },
-    {
-      "name": "AI for design & research",
-      "count": 16,
-      "description": "Highlights AI applications directly supporting design workflows, such as generating design assets, ideation, and streamlining the creative process."
-    },
-    {
-      "name": "AI tool evaluation",
-      "count": 15,
-      "description": "Focuses on comparing, benchmarking, and reviewing various AI tools and platforms for their effectiveness, features, and suitability for specific tasks."
-    },
-    {
-      "name": "Synthetic users",
-      "count": 14,
-      "description": "Examines the use of AI-generated or simulated users for testing, research, and design validation, exploring their benefits and limitations."
-    },
-    {
-      "name": "AI coding assistants researchers",
-      "count": 13,
-      "description": "Specifically looks at how researchers are studying and developing AI coding assistants, including their security implications and impact on software engineering practices."
+      "count": 32,
+      "description": "Covers AI tools that assist developers in writing, debugging, and reviewing code."
     },
     {
       "name": "AI chatbot research",
-      "count": 13,
-      "description": "Covers research and analysis of AI chatbots, including their capabilities, limitations, user interactions, and potential harms or benefits."
+      "count": 23,
+      "description": "Explores the capabilities, limitations, and impacts of AI chatbots in various research and user interaction contexts."
+    },
+    {
+      "name": "AI research tools",
+      "count": 19,
+      "description": "Highlights AI-powered platforms and tools designed to aid researchers in data analysis, insight generation, and literature review."
+    },
+    {
+      "name": "AI survey tools",
+      "count": 18,
+      "description": "Features AI applications for designing, distributing, and analyzing surveys to gather user feedback and data."
+    },
+    {
+      "name": "AI qualitative research",
+      "count": 11,
+      "description": "Covers the use of AI in understanding user experiences, opinions, and behaviors through qualitative methods."
+    },
+    {
+      "name": "AI customer insights",
+      "count": 11,
+      "description": "Focuses on leveraging AI to extract, analyze, and act upon insights from customer data and interactions."
+    },
+    {
+      "name": "AI design research",
+      "count": 9,
+      "description": "Examines how AI is being applied to assist in the design process, from ideation to prototyping and UI generation."
+    },
+    {
+      "name": "AI research platform",
+      "count": 9,
+      "description": "Details platforms that integrate various AI functionalities to support research workflows and discoveries."
+    },
+    {
+      "name": "AI workforce impact",
+      "count": 9,
+      "description": "Discusses the effects of AI on employment, job roles, and the skills required in the modern workforce."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
