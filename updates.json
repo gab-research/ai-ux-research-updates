@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-10-09T05:48:21.808Z",
+  "lastUpdated": "2026-10-09T15:11:38.014Z",
   "updates": [
     {
       "date": "2026-10-08",
@@ -30,7 +30,7 @@
     {
       "date": "2026-10-07",
       "title": "Beyond streaks and nudges: ethical gamification & AI design",
-      "summary": "Part 1 of 3 on designing systems that inspire rather than manipulate. Continue reading on UX Collective »",
+      "summary": "On designing systems that inspire rather than manipulate. Continue reading on UX Collective »",
       "content": "This article challenges the conventional, often manipulative, use of gamification in digital products, arguing for a shift towards ethical design principles powered by AI. It posits that instead of relying on simple reward systems like streaks or nudges, designers should leverage AI to understand user motivations deeply and create engaging experiences that genuinely inspire intrinsic value. This is crucial for UX researchers as it moves beyond superficial engagement metrics to foster long-term user loyalty and trust. Practically, this means re-evaluating existing gamified features and exploring AI-driven personalization to ensure interactions are empowering and aligned with user goals, rather than feeling coercive.",
       "category": "AI research tools",
       "source": {
@@ -674,18 +674,6 @@
         "url": "https://userresearchacademy.substack.com/p/the-research-work-you-should-hand"
       },
       "analysis": "At Nubank, this framework provides a timely approach to integrating AI into our research operations, particularly as we scale. Researchers should proactively use the task-by-task exercise to identify opportunities for AI assistance in areas like initial thematic analysis of open-ended survey responses for credit card applications or summarizing early usability testing feedback on our insurance products. This allows us to move faster on data crunching, enabling deeper dives into user motivations behind loan decisions or card activation issues.\n\nHowever, it's imperative to establish clear guardrails. AI should never be used for final interpretation of sensitive qualitative data, direct user interaction, or making final recommendations that impact core product strategy without human oversight. For example, while AI could help draft initial interview questions for onboarding flow refinement, a senior researcher must review and refine them to ensure cultural nuances and empathy are captured. Similarly, AI can summarize customer feedback on PIX features, but understanding the emotional context of transaction failures requires human analysis. This ensures we maintain the human-centric core of Nubank's UX research."
-    },
-    {
-      "date": "2026-09-09",
-      "title": "The Death Of The Button: Why The Best Interface Is No Interface",
-      "summary": "TThe web is evolving beyond menus, forms, and endless clicks toward experiences shaped around human intent. For UX designers, understanding this shift means re-evaluating their role, moving from designing visible interfaces to guiding transparent, intent-driven AI experiences.",
-      "content": "TThe web is evolving beyond menus, forms, and endless clicks toward experiences shaped around human intent. For UX designers, understanding this shift means re-evaluating their role, moving from designing visible interfaces to guiding transparent, intent-driven AI experiences.",
-      "category": "General AI in research",
-      "source": {
-        "name": "Smashing Magazine",
-        "url": "https://smashingmagazine.com/2026/09/death-button-why-best-interface-is-no-interface/"
-      },
-      "analysis": "At Nubank, this \"death of the button\" concept perfectly aligns with our mission to simplify financial life.  In our research workflow, we should prioritize understanding user intent at every stage, from initial onboarding and PIX transfers to applying for loans or activating new cards. Instead of solely asking \"How do you use this feature?\", we should explore \"What is the user trying to achieve?\" and how can AI proactively assist them. For example, when a user is about to make a PIX payment, an AI-driven interface could proactively suggest recipients based on past behavior or even pre-fill transaction details based on contextual cues, reducing the need for manual input.\n\nTo apply this, researchers should incorporate generative AI tools into their ideation and synthesis processes to explore hypothetical intent-driven flows.  For instance, when researching loan applications, we could use AI to simulate how a user's financial goals might automatically trigger relevant loan product suggestions without them explicitly searching.  However, crucial guardrails must be in place.  Transparency and user control are paramount; users must always understand *why* an AI is suggesting something and have the option to override or provide explicit input. We must also rigorously test these AI-driven experiences for bias, accuracy, and potential misunderstandings, especially in sensitive areas like insurance or credit decisions, ensuring they enhance, not detract from, the user's financial well-being and trust in Nubank."
     }
   ]
 }
