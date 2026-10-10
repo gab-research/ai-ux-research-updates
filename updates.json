@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-10-10T05:31:27.501Z",
+  "lastUpdated": "2026-10-10T14:24:37.674Z",
   "updates": [
     {
       "date": "2026-10-09",
@@ -638,18 +638,6 @@
         "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260911"
       },
       "analysis": "This information directly impacts Nubank's UX research by signaling a shift in how we should scout and evaluate talent within the research team, potentially favoring candidates with proven experience in navigating complex digital product landscapes, like our PIX, loan application, or onboarding flows, over niche tool proficiencies. For ongoing research, we must actively investigate user dependency on our AI-powered features, such as those assisting in card activation or insurance claims, to ensure we're designing for healthy engagement rather than unhealthy reliance. This requires incorporating specific qualitative and quantitative measures into our studies to gauge perceived dependency and its impact on user satisfaction and goal completion."
-    },
-    {
-      "date": "2026-09-10",
-      "title": "Introducing ChatGPT for Financial Services",
-      "summary": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
-      "content": "This OpenAI blog post announces a specialized version of ChatGPT tailored for the financial services industry.  By integrating proprietary financial data with its advanced GPT-6 Astra model, this tool can significantly augment research, financial modeling, and the creation of client-facing documents. For UX researchers in finance, this represents a powerful new ally, capable of accelerating insights generation from complex datasets and streamlining the production of user-centric reports and communication materials, ultimately leading to more efficient and informed product development.",
-      "category": "General AI in research",
-      "source": {
-        "name": "OpenAI Blog",
-        "url": "https://openai.com/index/introducing-chatgpt-financial-services"
-      },
-      "analysis": "At Nubank, this ChatGPT integration can be a game-changer for our UX research workflow. Imagine accelerating the analysis of customer feedback for PIX transactions or loan applications. Researchers could leverage it to quickly synthesize qualitative data from user interviews regarding card activation pain points or even to draft initial personas based on aggregated user behavior data.  This frees up valuable researcher time for higher-level strategic thinking and direct user interaction.\n\nWhen applying this, think of it as an advanced assistant, not a replacement. For example, after a usability study on our onboarding flow, researchers could feed anonymized transcripts into ChatGPT to identify recurring themes and sentiment patterns, helping to prioritize areas for improvement.  Crucially, we must establish strict guardrails around data privacy and anonymization, especially when dealing with sensitive financial information.  Any output needs rigorous human review, particularly for client-ready materials or policy recommendations related to insurance or credit offerings, ensuring accuracy and ethical compliance."
     }
   ]
 }
