@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-10-10T19:58:40.906Z",
+  "lastUpdated": "2026-10-11T05:26:27.029Z",
   "updates": [
     {
       "date": "2026-10-09",
@@ -41,7 +41,7 @@
     },
     {
       "date": "2026-10-07",
-      "title": "Beyond streaks and nudges: ethical gamification & AI design",
+      "title": "Beyond streaks and nudges: ethical gamification &amp; AI design",
       "summary": "On designing systems that inspire rather than manipulate. Continue reading on UX Collective »",
       "content": "This article challenges the conventional, often manipulative, use of gamification in digital products, arguing for a shift towards ethical design principles powered by AI. It posits that instead of relying on simple reward systems like streaks or nudges, designers should leverage AI to understand user motivations deeply and create engaging experiences that genuinely inspire intrinsic value. This is crucial for UX researchers as it moves beyond superficial engagement metrics to foster long-term user loyalty and trust. Practically, this means re-evaluating existing gamified features and exploring AI-driven personalization to ensure interactions are empowering and aligned with user goals, rather than feeling coercive.",
       "category": "AI research tools",
@@ -626,18 +626,6 @@
         "url": "https://uxdesign.cc/why-people-hate-viral-ai-food-posters-db2b4329ae11?source=rss----138adf9c44c---4"
       },
       "analysis": "This article provides a valuable lens for understanding user reactions to AI-generated content, which is increasingly relevant across Nubank's product suite. In our research workflow, this insight should inform studies evaluating AI-powered features like personalized financial advice, fraud detection notifications, or even content within the app's educational sections. Researchers should actively probe user sentiment around the *source* and *verisimilitude* of AI-generated content, not just its functionality. For instance, when testing a new AI feature that generates investment portfolio recommendations, we should ask users how they feel about the AI's \"presentation\" and whether it feels \"real\" or trustworthy, similar to the food slop analogy.\n\nWhen applying this, researchers should consider the context of Nubank's products. For a PIX transaction confirmation that utilizes AI-generated visuals, we need to ensure the visual cues are not only informative but also instill confidence. Similarly, for AI-driven onboarding flows or personalized loan offers, users need to feel the system understands them authentically, not like a generic algorithm producing plausible but ultimately hollow interactions. Guardrails are essential: we must avoid using AI for sensitive or highly personal financial advice without robust human oversight and clearly communicating the AI's role. The primary limitation is that while AI can mimic aesthetics, it lacks true understanding and empathy, which are paramount in financial services. Therefore, our research should focus on how AI *augments* human-centric design, rather than replacing it, ensuring user trust remains the top priority, especially in areas like insurance or credit card activation."
-    },
-    {
-      "date": "2026-09-11",
-      "title": "UX Roundup: Employers Value Experience Over Skills | Exponential Growth in AI Use | AI Dependence | Undo | Disappointing Suno | AI’s Economic Scenarios | Reflective Design | Mini Maps | GPT Image 2.5",
-      "summary": "Since January 2025, tech job postings have asked for 25% fewer skills but 5% more experience | AI spending among OpenAI’s heaviest research users is growing at 129% per month | 26% of young-adult chatbot users say they feel dependent on AI, but the addiction scales disagree |...",
-      "content": "This UX roundup from Jakob Nielsen highlights significant shifts in the tech industry and user behavior driven by AI. Notably, employers are increasingly prioritizing hands-on experience over specific skill sets in job postings, suggesting a move towards valuing adaptability and practical problem-solving. Simultaneously, there's an exponential rise in AI adoption and spending among heavy research users, alongside emerging concerns about user dependency on AI chatbots, particularly among younger demographics. These trends underscore the evolving landscape of tech talent acquisition and the critical need for UX professionals to understand and address the ethical and practical implications of AI integration.",
-      "category": "AI for design & research",
-      "source": {
-        "name": "Jakob Nielsen (Substack)",
-        "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260911"
-      },
-      "analysis": "This information directly impacts Nubank's UX research by signaling a shift in how we should scout and evaluate talent within the research team, potentially favoring candidates with proven experience in navigating complex digital product landscapes, like our PIX, loan application, or onboarding flows, over niche tool proficiencies. For ongoing research, we must actively investigate user dependency on our AI-powered features, such as those assisting in card activation or insurance claims, to ensure we're designing for healthy engagement rather than unhealthy reliance. This requires incorporating specific qualitative and quantitative measures into our studies to gauge perceived dependency and its impact on user satisfaction and goal completion."
     }
   ]
 }
