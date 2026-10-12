@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-10-11T20:08:27.278Z",
+  "lastUpdated": "2026-10-12T05:37:08.236Z",
   "updates": [
     {
       "date": "2026-10-09",
@@ -614,18 +614,6 @@
         "url": "https://openai.com/index/fyxer"
       },
       "analysis": "At Nubank, Fyxer's approach can be integrated into our research workflow for improving user-facing AI features, such as the personalized AI agent suggestions within our app or the automated responses in customer support. Researchers can use fine-tuning techniques with anonymized user interaction data to train models that understand and respond to common customer queries about PIX transfers, loan applications, or card activation in a more natural and empathetic tone, aligning with Nubank's brand voice.  This can streamline research on user expectations for AI interactions, allowing us to gather feedback on AI 'personality' and effectiveness during onboarding or when users are navigating complex insurance claims.\n\nWhen applying this, it's essential to establish strict guardrails around data privacy and security, especially with sensitive financial information. Researchers must prioritize anonymization and aggregation of user feedback, ensuring that any AI training data cannot be linked back to individuals. We should also implement robust A/B testing and user testing phases to validate the AI's performance and trust metrics, comparing AI-generated responses against human agent responses to identify potential biases or areas where the AI fails to replicate genuine human understanding. This iterative feedback loop, similar to Fyxer's, will be crucial for building trust in Nubank's AI-powered features across all our product lines."
-    },
-    {
-      "date": "2026-09-12",
-      "title": "The real reason everyone hates the viral AI food slop images",
-      "summary": "We’ve always made food look better than it is. So why does it feel different when AI does it? Continue reading on UX Collective »",
-      "content": "The article explores the unsettling nature of AI-generated \"food slop\" images, contrasting them with traditional food photography that has always idealized dishes. It posits that while we accept human artifice in marketing, AI's ability to create hyper-realistic yet fundamentally nonsensical visuals triggers a different kind of discomfort. This distinction is crucial for UX researchers as it highlights a potential disconnect between AI's output and user perception, especially when dealing with AI-driven features or content generation. Understanding this phenomenon can inform how we design and present AI-assisted experiences, ensuring they feel authentic and trustworthy, rather than uncanny and off-putting, potentially impacting user adoption of AI features within financial products.",
-      "category": "AI research tools",
-      "source": {
-        "name": "UX Collective (Medium)",
-        "url": "https://uxdesign.cc/why-people-hate-viral-ai-food-posters-db2b4329ae11?source=rss----138adf9c44c---4"
-      },
-      "analysis": "This article provides a valuable lens for understanding user reactions to AI-generated content, which is increasingly relevant across Nubank's product suite. In our research workflow, this insight should inform studies evaluating AI-powered features like personalized financial advice, fraud detection notifications, or even content within the app's educational sections. Researchers should actively probe user sentiment around the *source* and *verisimilitude* of AI-generated content, not just its functionality. For instance, when testing a new AI feature that generates investment portfolio recommendations, we should ask users how they feel about the AI's \"presentation\" and whether it feels \"real\" or trustworthy, similar to the food slop analogy.\n\nWhen applying this, researchers should consider the context of Nubank's products. For a PIX transaction confirmation that utilizes AI-generated visuals, we need to ensure the visual cues are not only informative but also instill confidence. Similarly, for AI-driven onboarding flows or personalized loan offers, users need to feel the system understands them authentically, not like a generic algorithm producing plausible but ultimately hollow interactions. Guardrails are essential: we must avoid using AI for sensitive or highly personal financial advice without robust human oversight and clearly communicating the AI's role. The primary limitation is that while AI can mimic aesthetics, it lacks true understanding and empathy, which are paramount in financial services. Therefore, our research should focus on how AI *augments* human-centric design, rather than replacing it, ensuring user trust remains the top priority, especially in areas like insurance or credit card activation."
     }
   ]
 }
