@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-10-12T17:42:18.842Z",
+  "lastUpdated": "2026-10-13T06:33:34.797Z",
   "updates": [
     {
       "date": "2026-10-12",
@@ -26,6 +26,18 @@
         "url": "https://www.microsoft.com/en-us/research/blog/simulating-student-learning-for-better-ai-tutoring/"
       },
       "analysis": "At Nubank, StudentSim's concept can be integrated into our existing AI development pipeline for educational features or personalized guidance within our app. For instance, before launching new interactive educational modules designed to explain complex financial concepts related to PIX transactions, credit card benefits, or loan terms, we could employ a simulated user environment. This would allow us to test the AI's ability to adapt its explanations, pacing, and feedback based on simulated 'learner' profiles, mirroring how a new user might engage with our onboarding flow or learn about insurance products. This proactive simulation phase would significantly de-risk the rollout of these features and improve user comprehension.\n\nTo apply this, researchers would collaborate with AI engineers to define diverse simulated learner personas representing different user segments (e.g., digitally native younger users, those less familiar with financial products, or those with specific learning needs). These personas would inform the parameters of the simulation, allowing us to observe how the AI tutor responds to varied interaction styles and knowledge gaps. Key metrics to track would include simulated engagement time, task completion rates on financial literacy exercises, and the AI's effectiveness in providing clear, actionable guidance, analogous to how we currently measure success in our card activation or account opening flows. However, a crucial guardrail is recognizing that simulations are abstractions; they cannot fully replicate the nuanced emotional and contextual factors of real human interaction, necessitating thorough A/B testing and qualitative user feedback post-launch to validate findings and uncover unforeseen issues."
+    },
+    {
+      "date": "2026-10-12",
+      "title": "AI is hollowing out the middle of design, leaving an hourglass behind",
+      "summary": "For fifteen years, the design process kept growing while the time left for making the product kept shrinking. Continue reading on UX Collective »",
+      "content": "This article argues that AI is fundamentally reshaping the design process, pushing specialized middle-ground tasks towards either extreme automation or advanced human oversight.  The 'hollowing out' implies a reduction in the need for intermediate design skills, potentially bifurcating roles into highly strategic AI wranglers and highly craft-focused human artisans. For UX researchers, this signifies a critical need to adapt our skillsets.  Understanding how AI tools are augmenting or replacing traditional research methodologies is paramount to maintaining our value and effectiveness in delivering user-centric solutions for products like Nubank's PIX or loan applications.",
+      "category": "AI research tools",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/ai-is-hollowing-out-the-middle-of-design-leaving-an-hourglass-behind-b7069db250fd?source=rss----138adf9c44c---4"
+      },
+      "analysis": "At Nubank, this article's premise highlights a shift in how we can leverage AI within our UX research workflow. Instead of using AI solely for data analysis, we should explore its potential to automate or augment routine tasks within research studies. For instance, AI could assist in generating initial user personas based on aggregated data for onboarding flows, drafting preliminary survey questions for card activation feedback, or even summarizing large volumes of customer feedback from insurance inquiries. This frees up researchers to focus on higher-value activities like generative research, complex problem framing for new product development, and deep qualitative insights.\n\nResearchers should proactively experiment with AI tools for tasks such as sentiment analysis of customer support logs, keyword extraction from user interviews about loan applications, or generating synthetic user journeys to test early-stage prototypes. However, it's crucial to maintain human oversight and critical judgment. AI-generated insights should always be validated with qualitative data and human interpretation. We must avoid over-reliance, ensuring that our understanding of Nubank's users remains nuanced and empathetic, especially when dealing with sensitive flows like PIX transactions or the complexities of new customer onboarding. Establishing clear guidelines on AI tool usage and data privacy will be essential guardrails."
     },
     {
       "date": "2026-10-09",
