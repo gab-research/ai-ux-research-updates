@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 54,
-      "description": "Focuses on AI agents that can autonomously perform research tasks, interact with systems, and make decisions."
+      "count": 88,
+      "description": "Covers AI agents that autonomously perform research tasks, interact with users, or manage research processes."
     },
     {
       "name": "AI research tools",
-      "count": 43,
-      "description": "Covers tools and platforms designed to assist researchers in various aspects of their work, from data analysis to discovery."
+      "count": 75,
+      "description": "Focuses on various AI-powered tools and platforms used for research, analysis, and insight generation."
     },
     {
       "name": "AI coding assistants",
-      "count": 42,
-      "description": "Explores AI tools that help developers write, debug, and optimize code, often acting as intelligent pair programmers."
+      "count": 67,
+      "description": "Articles about AI tools that help developers write, debug, and review code."
     },
     {
       "name": "AI chatbot research",
-      "count": 37,
-      "description": "Investigates the behavior, capabilities, limitations, and user interactions with AI-powered conversational agents."
-    },
-    {
-      "name": "AI tool evaluation",
-      "count": 29,
-      "description": "Articles that compare, review, or benchmark different AI tools and their performance for specific tasks."
-    },
-    {
-      "name": "AI workforce impact",
-      "count": 25,
-      "description": "Examines how AI is changing job roles, required skills, and the overall structure of the workforce."
+      "count": 39,
+      "description": "Examines research and findings related to the capabilities, limitations, and user experiences of AI chatbots."
     },
     {
       "name": "AI for design & research",
-      "count": 24,
-      "description": "Focuses on AI applications directly supporting creative and investigative processes in design and user research."
+      "count": 34,
+      "description": "Explores AI applications that assist in the design process, from concept generation to UI/UX elements."
+    },
+    {
+      "name": "AI testing automation",
+      "count": 31,
+      "description": "Focuses on the use of AI to automate testing processes in software development and other technical fields."
     },
     {
       "name": "Synthetic users",
+      "count": 16,
+      "description": "Discusses the creation and use of artificial users or data for testing and training AI models."
+    },
+    {
+      "name": "AI content generation",
+      "count": 14,
+      "description": "Covers AI tools and techniques used to generate various forms of content, including text, code, and creative assets."
+    },
+    {
+      "name": "AI workforce impact",
       "count": 13,
-      "description": "Discusses the creation and use of artificial user representations for testing, simulation, and data generation."
+      "description": "Analyzes how AI influences job roles, skill requirements, and employment trends across industries."
     },
     {
-      "name": "AI summarization",
-      "count": 11,
-      "description": "Covers AI's ability to condense large amounts of text or data into concise summaries and extract key insights."
-    },
-    {
-      "name": "AI customer insights",
-      "count": 11,
-      "description": "Focuses on how AI is used to gather, analyze, and derive actionable understanding from customer data and behavior."
+      "name": "AI research tools comparison",
+      "count": 13,
+      "description": "Articles that compare and evaluate the performance and features of different AI research tools."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
