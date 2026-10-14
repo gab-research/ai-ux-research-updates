@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-10-14T13:34:53.852Z",
+  "lastUpdated": "2026-10-14T20:07:13.093Z",
   "updates": [
+    {
+      "date": "2026-10-14",
+      "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
+      "summary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
+      "content": "The OpenAI blog post highlights Third Moment Research's innovative use of advanced AI models, specifically GPT-6 Astra and GPT-6.1 Sol, to create sophisticated agents capable of sustained, focused work. These agents can operate for extended periods, like 36+ hours, and demonstrate continuous improvement over time, which is particularly relevant for complex tasks such as cybersecurity analysis. For UX researchers, this signifies a paradigm shift towards AI-powered tools that can handle intricate, long-duration research activities, potentially augmenting human capacity for deeper insights and more comprehensive data synthesis.",
+      "category": "General AI in research",
+      "source": {
+        "name": "OpenAI Blog",
+        "url": "https://openai.com/index/third-moment-research"
+      },
+      "analysis": "At Nubank, these advanced AI agents could revolutionize our research workflows. Imagine deploying an agent to analyze thousands of user feedback entries for our PIX service or conduct a comprehensive sentiment analysis of app reviews over a multi-week period, identifying subtle trends in loan application rejections or card activation issues. Researchers could leverage these agents to process vast datasets that are currently time-prohibitive for manual analysis, freeing them up for strategic interpretation and hypothesis generation. This technology could also be applied to monitor long-term user behavior post-onboarding, detecting early signs of churn or satisfaction dips that might otherwise go unnoticed.\n\nWhen applying these AI agents, researchers should prioritize clear, well-defined research questions and objectives. For instance, when studying user pain points in our insurance claims process, an agent could be tasked with identifying recurring themes across customer support logs and app feedback. It's crucial to establish robust validation protocols, ensuring the AI's findings are triangulated with qualitative user interviews or existing quantitative data. Guardrails should include data privacy considerations, particularly when dealing with sensitive customer information, and a human-in-the-loop approach to review and refine the AI's outputs, preventing any misinterpretation or biased conclusions. Researchers must also be mindful of the AI's limitations; while powerful, it's a tool to augment, not replace, human empathy and critical thinking in understanding user needs and motivations."
+    },
     {
       "date": "2026-10-12",
       "title": "AI-generated UI, What the AI era owes you, Amazing Glass, Jev for UX",
