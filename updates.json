@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-10-14T04:34:39.000Z",
+  "lastUpdated": "2026-10-14T13:34:53.852Z",
   "updates": [
     {
       "date": "2026-10-12",
@@ -614,18 +614,6 @@
         "url": "https://feeds.baymard.com/link/9825/17465879/b2b-medical-pharma-ux-benchmark-2026"
       },
       "analysis": "This Baymard report, while focused on B2B Medical & Pharma, offers valuable transferable insights for our work at Nubank. Researchers can leverage the benchmark's performance scores and best practice examples to critically evaluate existing Nubank flows, such as onboarding for new business clients or the management of PIX transactions.  By identifying common UX issues and effective solutions in a regulated B2B context, we can proactively address potential friction points in our own digital products, even if the specific domain differs.\n\nWhen applying this to Nubank's research workflow, researchers should use the benchmark as a reference point for hypothesis generation and validation during qualitative studies. For instance, if we observe user hesitation during the loan application process for small business owners, we can cross-reference with Baymard's findings on data input and form design in their benchmark to explore potential improvements.  However, a key guardrail is to recognize the distinct regulatory and user needs of the financial sector compared to medical/pharma; direct feature parity might not be applicable, but the underlying UX principles of clarity, trust, and efficiency are universally relevant. We should focus on the 'why' behind the best practices rather than a literal 'what'.  Limitations include the lack of direct financial sector data, meaning findings need careful contextualization for Nubank's specific user base and product suite, such as card activation or insurance policy management."
-    },
-    {
-      "date": "2026-09-14",
-      "title": "How Fyxer built an AI executive assistant people trust",
-      "summary": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
-      "content": "The article highlights how Fyxer successfully developed an AI executive assistant by prioritizing user trust.  Their approach involved leveraging OpenAI's powerful language models, specifically through fine-tuning them to emulate individual user communication styles and incorporating memory capabilities to retain context. Crucially, Fyxer integrated real user feedback directly into the AI's development loop, enabling continuous improvement and ensuring the assistant's output genuinely reflected each user's unique voice. This is significant for UX researchers as it demonstrates a viable path to building AI tools that feel personalized and reliable, moving beyond generic automation to create genuinely helpful digital experiences.",
-      "category": "Sentiment & feedback analysis",
-      "source": {
-        "name": "OpenAI Blog",
-        "url": "https://openai.com/index/fyxer"
-      },
-      "analysis": "At Nubank, Fyxer's approach to building a trusted AI assistant directly informs how we can enhance our user research processes. For instance, when researching user pain points with complex flows like loan applications or insurance claims, we could utilize a fine-tuned AI to analyze anonymized user feedback from support chats or in-app surveys. This assistant could then draft concise summaries of recurring themes and emotional sentiment, highlighting areas where users express frustration or confusion, similar to how Fyxer drafts emails in a user's voice. This would free up researchers' time for deeper qualitative analysis and strategic insights, rather than manual data aggregation. \n\nWhen applying this, researchers should focus on using the AI for initial synthesis and pattern identification rather than final decision-making. For example, after a round of user interviews for the PIX onboarding experience, an AI could process transcripts to identify common initial blockers. However, the interpretation of nuance, the identification of underlying user needs, and the translation of these findings into actionable design recommendations for areas like card activation or account opening must remain a human-led endeavor.  Guardrails are essential: ensuring all user data processed is strictly anonymized, adhering to Nubank's data privacy policies, and maintaining transparency with the research team about the AI's capabilities and limitations are paramount to building trust within our own workflows."
     }
   ]
 }
