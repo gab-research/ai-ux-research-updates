@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-10-14T20:07:13.093Z",
+  "lastUpdated": "2026-10-15T04:16:57.988Z",
   "updates": [
     {
       "date": "2026-10-14",
@@ -590,30 +590,6 @@
         "url": "https://openai.com/index/unlocking-new-ways-of-working"
       },
       "analysis": "At Nubank, this research directly informs our understanding of how our customers might increasingly use AI tools to manage their finances, impacting how they interact with our app. For instance, instead of just making a PIX transfer, a user might ask an AI assistant to analyze their spending patterns before a transfer, or seek AI-driven advice on loan options based on their current financial health. This means our UX research should actively explore emergent AI-assisted financial behaviors, perhaps through qualitative studies observing users interacting with hypothetical AI financial advisors, or by analyzing anonymized data if AI tools become integrated into our platform.\n\nResearchers should begin by thinking about potential AI touchpoints within existing Nubank flows like onboarding or card activation. We could hypothesize how users might leverage AI to understand complex insurance policies or to troubleshoot issues with their accounts. It's vital to consider guardrails: AI assistance should always be presented as supportive, not a replacement for user control and understanding. We must ensure AI recommendations are transparent, explainable, and aligned with Nubank's commitment to clear communication and customer empowerment, avoiding any situation where AI's complexity might inadvertently create new barriers or erode trust.  Our focus remains on empowering users, and AI integration must amplify this, not diminish it."
-    },
-    {
-      "date": "2026-09-15",
-      "title": "The hidden culture layer in AI",
-      "summary": "Why AI gravitates toward certain cultural defaults — and what that means for the future of UX. Continue reading on UX Collective »",
-      "content": "The article \"The Hidden Culture of AI\" argues that artificial intelligence is not a neutral technology, but rather a reflection of the biases and cultural assumptions of its creators and the data it's trained on. This is crucial for UX researchers as it means AI-powered tools and features can inadvertently perpetuate existing societal inequalities and exclude specific user groups. For Nubank, understanding this cultural embeddedness is vital to ensure our AI applications, whether for fraud detection in PIX transactions or personalizing loan offerings, are inclusive and serve the diverse needs of our Brazilian customer base.",
-      "category": "AI research tools",
-      "source": {
-        "name": "UX Collective (Medium)",
-        "url": "https://uxdesign.cc/ai-culture-ux-design-36c7d410cd1f?source=rss----138adf9c44c---4"
-      },
-      "analysis": "This article directly impacts how we approach user research at Nubank, especially as we integrate AI into our product development. When conducting research for new features, such as those involving AI-driven personalization in our credit card activation flow or the AI-assisted onboarding process, researchers should actively probe for cultural nuances in user expectations and potential biases. This means going beyond standard usability questions to explore how different cultural backgrounds might interpret AI-generated recommendations, warnings, or assistance, and whether these are perceived as helpful or intrusive.\n\nPractically, this means supplementing our existing research methodologies. For instance, when gathering feedback on our AI-powered insurance product recommendations, we should consider stratified sampling to ensure representation across diverse socio-economic and regional groups within Brazil. Researchers should also actively document and flag any instances where AI interactions might alienate or confuse users due to cultural differences, feeding this back into AI model training and design iterations. The core guardrail is to always prioritize user understanding and ethical considerations, ensuring our AI serves all Nubank customers equitably and doesn't introduce new barriers, especially in sensitive areas like loan applications or dispute resolution for PIX payments."
-    },
-    {
-      "date": "2026-09-15",
-      "title": "The death of the deliverable",
-      "summary": "AI didn’t kill the wireframe; it exposed that the wireframe was never really the point Continue reading on UX Collective »",
-      "content": "This article argues that the rise of AI in design tools doesn't signal the obsolescence of traditional deliverables like wireframes. Instead, it highlights a fundamental misunderstanding of their purpose. Wireframes were always a means to an end – facilitating communication and idea validation, not the final product themselves. For UX researchers, this means a continued emphasis on understanding user needs and behaviors, leveraging AI to accelerate the creation of tangible outputs while focusing our human expertise on deeper insights and strategic recommendations. The practical implication is a shift from meticulously crafting static artifacts to using AI-generated prototypes and mockups as springboards for richer, more impactful user testing and collaboration.",
-      "category": "AI research tools",
-      "source": {
-        "name": "UX Collective (Medium)",
-        "url": "https://uxdesign.cc/the-death-of-the-deliverable-cbaea0123895?source=rss----138adf9c44c---4"
-      },
-      "analysis": "At Nubank, this article's premise can significantly influence how we integrate AI into our research workflow, particularly around feature development for products like PIX or loan applications. Instead of solely focusing on generating perfect wireframes or detailed user flow diagrams manually, researchers can leverage AI tools to quickly produce multiple iterative design concepts. These AI-generated outputs can then serve as the basis for early-stage user validation, saving valuable researcher time for more critical tasks like in-depth qualitative interviews or complex survey design. For instance, AI could rapidly generate variations of a new feature for our card activation flow, allowing us to test core usability principles with users much earlier in the cycle.\n\nResearchers should embrace AI as an accelerator for ideation and prototyping, but critically evaluate its outputs. The \"deliverable\" now becomes less about the polished visual and more about the validated hypothesis. When using AI for generating concepts for insurance policy explanation or the onboarding process, researchers must meticulously scrutinize the AI's suggestions for logical fallacies, potential biases, or misalignment with Nubank's core principles and Brazilian user context. Our role remains to champion the user, ensuring AI-assisted designs truly solve problems and create delightful experiences, rather than just generating aesthetically pleasing but functionally flawed interfaces. Guardrails should include human oversight at every stage, focusing AI on repetitive tasks while reserving complex problem-solving and strategic interpretation for experienced researchers."
     },
     {
       "date": "2026-09-15",
