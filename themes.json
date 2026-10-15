@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 113,
-      "description": "Articles focusing on AI agents performing research tasks, autonomous agents in research workflows, and agentic AI for data analysis and synthesis."
+      "count": 76,
+      "description": "Focuses on AI agents designed to perform research tasks autonomously or semi-autonomously, often involving interaction with data or systems."
     },
     {
       "name": "AI coding assistants",
-      "count": 99,
-      "description": "Content related to AI tools that assist developers in writing, debugging, and analyzing code."
+      "count": 45,
+      "description": "Covers AI tools and research focused on assisting developers with writing, debugging, and understanding code."
     },
     {
       "name": "AI research tools",
-      "count": 78,
-      "description": "Articles discussing AI-powered platforms, software, and tools used for conducting various types of research."
+      "count": 43,
+      "description": "Encompasses a broad range of AI-powered tools designed to aid in the research process, from data analysis to literature review."
     },
     {
-      "name": "AI tool evaluation",
-      "count": 65,
-      "description": "Content focused on testing, comparing, and reviewing the performance and capabilities of different AI tools and models."
-    },
-    {
-      "name": "AI summarization",
-      "count": 30,
-      "description": "Articles that discuss the use of AI to condense large amounts of text or data into concise summaries."
-    },
-    {
-      "name": "Synthetic users",
-      "count": 27,
-      "description": "Discussions around the creation and use of simulated or AI-generated users for testing and research purposes."
+      "name": "AI chatbot research",
+      "count": 35,
+      "description": "Articles discussing the capabilities, limitations, and impact of AI chatbots, particularly in user interaction and support."
     },
     {
       "name": "AI sentiment & feedback analysis",
-      "count": 21,
-      "description": "Content related to using AI to analyze user feedback, opinions, and emotions from various sources."
+      "count": 25,
+      "description": "Examines how AI is used to analyze user sentiment, feedback, and opinions from various sources."
+    },
+    {
+      "name": "AI survey tools",
+      "count": 25,
+      "description": "Focuses on AI applications for designing, distributing, and analyzing surveys for user research and market insights."
     },
     {
       "name": "AI for product management",
-      "count": 19,
-      "description": "Articles covering AI applications and tools specifically for product managers in their daily workflows."
-    },
-    {
-      "name": "AI-powered data analysis",
-      "count": 19,
-      "description": "Focus on AI techniques and tools used to analyze and derive insights from data."
-    },
-    {
-      "name": "AI design research",
       "count": 17,
-      "description": "Articles exploring how AI is applied in the context of UX and product design research processes."
+      "description": "Explores how AI tools and techniques can assist product managers in their daily workflows and decision-making."
+    },
+    {
+      "name": "AI recruitment research",
+      "count": 17,
+      "description": "Covers research into how AI impacts job markets, hiring processes, and the future of work."
+    },
+    {
+      "name": "AI research platforms",
+      "count": 17,
+      "description": "Highlights platforms that integrate multiple AI capabilities to support scientific discovery and research endeavors."
+    },
+    {
+      "name": "AI research tools comparison",
+      "count": 15,
+      "description": "Articles that directly compare the performance, features, and effectiveness of different AI research tools."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
