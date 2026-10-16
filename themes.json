@@ -3,54 +3,54 @@
   "updated": "2026-10-16",
   "themes": [
     {
-      "name": "Agentic AI research tools",
-      "count": 54,
-      "description": "Articles focusing on AI agents designed to perform research tasks, analyze data, or interact with research environments autonomously."
+      "name": "Agentic AI in research",
+      "count": 67,
+      "description": "Articles discussing AI agents capable of independent action, planning, and execution for research tasks."
     },
     {
       "name": "AI coding assistants",
-      "count": 37,
-      "description": "Tools and discussions around AI that help developers write, debug, and review code."
+      "count": 49,
+      "description": "Focuses on AI tools that assist developers with writing, debugging, and understanding code."
     },
     {
       "name": "AI research tools",
-      "count": 32,
-      "description": "Tools and platforms that leverage AI to aid in various aspects of research, from data analysis to literature review."
-    },
-    {
-      "name": "AI sentiment & feedback analysis",
-      "count": 16,
-      "description": "Applications of AI to analyze user sentiment, feedback, and opinions from various sources."
-    },
-    {
-      "name": "AI for product management",
-      "count": 14,
-      "description": "How AI is being used to support product managers in tasks like roadmap planning, user insights, and workflow optimization."
-    },
-    {
-      "name": "AI research tools comparison",
-      "count": 12,
-      "description": "Articles directly comparing the performance, features, and pricing of different AI tools for research purposes."
+      "count": 46,
+      "description": "Covers AI applications designed to aid in the discovery, analysis, and synthesis of research information."
     },
     {
       "name": "AI testing automation",
-      "count": 12,
-      "description": "The use of AI to automate various stages of software testing, quality assurance, and lab modernization."
+      "count": 30,
+      "description": "Articles detailing the use of AI for automating various stages of testing and quality assurance processes."
     },
     {
-      "name": "AI research platform",
-      "count": 12,
-      "description": "Comprehensive platforms that integrate AI capabilities for scientific discovery, data analysis, and experimental research."
+      "name": "AI chatbot research",
+      "count": 29,
+      "description": "Explores the research, development, and impact of AI-powered chatbots, including their use in customer service and information retrieval."
     },
     {
-      "name": "AI for design & research",
-      "count": 10,
-      "description": "AI applications specifically aiding in the design process and informing research strategies."
+      "name": "AI research tools comparison",
+      "count": 26,
+      "description": "Articles that compare the performance, features, and effectiveness of different AI tools for research purposes."
     },
     {
-      "name": "AI customer insights",
-      "count": 10,
-      "description": "Using AI to analyze customer data and conversations to derive actionable insights for businesses."
+      "name": "AI design research",
+      "count": 21,
+      "description": "Focuses on AI applications and research within the field of user experience and product design."
+    },
+    {
+      "name": "AI summarization insights",
+      "count": 16,
+      "description": "Covers AI's ability to condense large amounts of text and extract key insights for research and analysis."
+    },
+    {
+      "name": "AI survey tools",
+      "count": 15,
+      "description": "Articles about AI-powered tools and techniques for designing, distributing, and analyzing surveys."
+    },
+    {
+      "name": "AI workforce impact",
+      "count": 15,
+      "description": "Discusses the effects of AI on employment, job roles, skills, and the overall labor market."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
