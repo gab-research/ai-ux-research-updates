@@ -1,56 +1,56 @@
 {
   "month": "2026-10",
-  "updated": "2026-10-15",
+  "updated": "2026-10-16",
   "themes": [
     {
-      "name": "Agentic AI in research",
-      "count": 76,
-      "description": "Focuses on AI agents designed to perform research tasks autonomously or semi-autonomously, often involving interaction with data or systems."
+      "name": "Agentic AI research tools",
+      "count": 54,
+      "description": "Articles focusing on AI agents designed to perform research tasks, analyze data, or interact with research environments autonomously."
     },
     {
       "name": "AI coding assistants",
-      "count": 45,
-      "description": "Covers AI tools and research focused on assisting developers with writing, debugging, and understanding code."
+      "count": 37,
+      "description": "Tools and discussions around AI that help developers write, debug, and review code."
     },
     {
       "name": "AI research tools",
-      "count": 43,
-      "description": "Encompasses a broad range of AI-powered tools designed to aid in the research process, from data analysis to literature review."
-    },
-    {
-      "name": "AI chatbot research",
-      "count": 35,
-      "description": "Articles discussing the capabilities, limitations, and impact of AI chatbots, particularly in user interaction and support."
+      "count": 32,
+      "description": "Tools and platforms that leverage AI to aid in various aspects of research, from data analysis to literature review."
     },
     {
       "name": "AI sentiment & feedback analysis",
-      "count": 25,
-      "description": "Examines how AI is used to analyze user sentiment, feedback, and opinions from various sources."
-    },
-    {
-      "name": "AI survey tools",
-      "count": 25,
-      "description": "Focuses on AI applications for designing, distributing, and analyzing surveys for user research and market insights."
+      "count": 16,
+      "description": "Applications of AI to analyze user sentiment, feedback, and opinions from various sources."
     },
     {
       "name": "AI for product management",
-      "count": 17,
-      "description": "Explores how AI tools and techniques can assist product managers in their daily workflows and decision-making."
-    },
-    {
-      "name": "AI recruitment research",
-      "count": 17,
-      "description": "Covers research into how AI impacts job markets, hiring processes, and the future of work."
-    },
-    {
-      "name": "AI research platforms",
-      "count": 17,
-      "description": "Highlights platforms that integrate multiple AI capabilities to support scientific discovery and research endeavors."
+      "count": 14,
+      "description": "How AI is being used to support product managers in tasks like roadmap planning, user insights, and workflow optimization."
     },
     {
       "name": "AI research tools comparison",
-      "count": 15,
-      "description": "Articles that directly compare the performance, features, and effectiveness of different AI research tools."
+      "count": 12,
+      "description": "Articles directly comparing the performance, features, and pricing of different AI tools for research purposes."
+    },
+    {
+      "name": "AI testing automation",
+      "count": 12,
+      "description": "The use of AI to automate various stages of software testing, quality assurance, and lab modernization."
+    },
+    {
+      "name": "AI research platform",
+      "count": 12,
+      "description": "Comprehensive platforms that integrate AI capabilities for scientific discovery, data analysis, and experimental research."
+    },
+    {
+      "name": "AI for design & research",
+      "count": 10,
+      "description": "AI applications specifically aiding in the design process and informing research strategies."
+    },
+    {
+      "name": "AI customer insights",
+      "count": 10,
+      "description": "Using AI to analyze customer data and conversations to derive actionable insights for businesses."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
