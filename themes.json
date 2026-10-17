@@ -1,56 +1,56 @@
 {
   "month": "2026-10",
-  "updated": "2026-10-16",
+  "updated": "2026-10-17",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 77,
-      "description": "Articles discussing AI agents designed to perform research tasks autonomously, including their development, capabilities, and limitations."
+      "count": 88,
+      "description": "Covers AI agents designed to autonomously conduct research, analyze data, or perform complex research tasks with minimal human intervention."
     },
     {
       "name": "AI coding assistants",
-      "count": 42,
-      "description": "Content focused on AI tools that help developers write, debug, and understand code, covering their effectiveness and security implications."
+      "count": 79,
+      "description": "Focuses on AI tools that assist developers in writing, debugging, and understanding code, often integrated directly into IDEs."
     },
     {
       "name": "AI research tools",
-      "count": 32,
-      "description": "Discussions around specific AI-powered tools and platforms designed to assist in various stages of the research process."
-    },
-    {
-      "name": "AI content generation",
-      "count": 27,
-      "description": "Articles exploring the use of AI to create various forms of content, from text and code to images and music, and its impact on creative work."
-    },
-    {
-      "name": "AI summarization",
-      "count": 24,
-      "description": "Focuses on AI applications that condense large amounts of text or data into concise summaries for easier understanding and analysis."
-    },
-    {
-      "name": "AI research tools comparison",
-      "count": 22,
-      "description": "Articles that compare the performance, features, and pricing of different AI tools used for research purposes."
-    },
-    {
-      "name": "AI workforce impact",
-      "count": 20,
-      "description": "Explores how AI is changing job roles, hiring practices, and overall workforce dynamics, including skill demands and potential displacements."
-    },
-    {
-      "name": "AI sentiment & feedback analysis",
-      "count": 18,
-      "description": "Content related to using AI to analyze user sentiment and feedback from various sources to understand opinions and emotions."
-    },
-    {
-      "name": "AI chatbot research",
-      "count": 18,
-      "description": "Articles examining the use, effectiveness, and potential harms of AI chatbots in various applications, including research and user interaction."
+      "count": 54,
+      "description": "Encompasses AI-powered platforms and tools that facilitate various aspects of the research process, from data collection to analysis and discovery."
     },
     {
       "name": "AI for design & research",
-      "count": 13,
-      "description": "Discusses AI tools and techniques specifically applied to aid in the design process and enhance user research methodologies."
+      "count": 38,
+      "description": "Details how AI is being integrated into design workflows and research methodologies to enhance creativity, efficiency, and insight generation."
+    },
+    {
+      "name": "AI tools comparison",
+      "count": 33,
+      "description": "Features articles that compare the performance, features, and effectiveness of different AI tools for specific applications like research or coding."
+    },
+    {
+      "name": "AI research platform",
+      "count": 30,
+      "description": "Highlights integrated AI platforms designed to support a broad spectrum of research activities, often offering multiple functionalities in one place."
+    },
+    {
+      "name": "AI summarization",
+      "count": 28,
+      "description": "Covers AI applications that condense large amounts of text into concise summaries, aiding in information digestion and quick understanding."
+    },
+    {
+      "name": "AI chatbot research",
+      "count": 27,
+      "description": "Focuses on the study and development of AI chatbots, including their capabilities, limitations, user interactions, and potential harms."
+    },
+    {
+      "name": "AI survey tools",
+      "count": 25,
+      "description": "Explores AI applications that assist in creating, distributing, and analyzing surveys to gather user feedback and market insights."
+    },
+    {
+      "name": "AI workforce impact",
+      "count": 24,
+      "description": "Examines how AI is affecting job markets, skill demands, employment rates, and the overall nature of work across various industries."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
