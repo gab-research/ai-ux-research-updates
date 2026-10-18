@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 121,
-      "description": "Focuses on AI agents capable of performing research tasks autonomously or semi-autonomously, often involving complex workflows and decision-making."
+      "count": 138,
+      "description": "Focuses on AI agents performing research tasks autonomously or semi-autonomously, including complex problem-solving and exploration."
     },
     {
       "name": "AI coding assistants",
-      "count": 79,
-      "description": "Covers AI tools designed to help developers write, debug, refactor, and understand code."
+      "count": 69,
+      "description": "Covers AI tools that assist developers in writing, debugging, and optimizing code."
     },
     {
       "name": "AI research tools",
-      "count": 64,
-      "description": "Highlights AI-powered platforms and software specifically designed to aid in academic, scientific, or market research."
+      "count": 56,
+      "description": "Highlights AI platforms and tools designed to accelerate and enhance various stages of scientific and market research."
     },
     {
-      "name": "AI testing automation",
-      "count": 50,
-      "description": "Discusses AI applications in automating software testing, quality assurance, and performance analysis."
+      "name": "AI summarization",
+      "count": 34,
+      "description": "Articles detailing AI's ability to condense large amounts of text into concise summaries, useful for research and information processing."
     },
     {
-      "name": "AI summarization insights",
-      "count": 31,
-      "description": "Focuses on AI capabilities to condense large amounts of text, conversations, or data into concise summaries and extract key insights."
+      "name": "Synthetic users",
+      "count": 20,
+      "description": "Explores the use of AI-generated users or data for testing and research purposes, as an alternative to human participants."
+    },
+    {
+      "name": "AI recruitment research",
+      "count": 20,
+      "description": "Examines how AI is impacting job markets, skill demands, and the process of hiring and workforce development."
+    },
+    {
+      "name": "AI chatbot research",
+      "count": 20,
+      "description": "Focuses on the research, development, and implications of AI-powered chatbots for user interaction and support."
     },
     {
       "name": "AI design & research",
-      "count": 27,
-      "description": "Covers AI applications specifically for assisting in the user experience (UX) design process and user research activities."
+      "count": 18,
+      "description": "Covers the application of AI in the creative process of designing user interfaces, products, and experiences."
     },
     {
-      "name": "AI workforce impact",
-      "count": 26,
-      "description": "Examines how AI is affecting employment, job roles, skill requirements, and the overall labor market."
+      "name": "AI testing automation",
+      "count": 18,
+      "description": "Discusses the use of AI to automate quality assurance and testing processes in software development and product deployment."
     },
     {
-      "name": "AI tool evaluation",
-      "count": 26,
-      "description": "Articles that review, compare, and assess the effectiveness and suitability of various AI tools and platforms."
-    },
-    {
-      "name": "AI product research",
-      "count": 24,
-      "description": "Discusses the application of AI in understanding product performance, market fit, and informing product development strategies."
-    },
-    {
-      "name": "AI customer insights",
-      "count": 21,
-      "description": "Covers AI's role in analyzing customer data, behavior, and feedback to generate actionable insights."
+      "name": "AI survey tools",
+      "count": 17,
+      "description": "Details AI applications for creating, distributing, and analyzing surveys to gather user feedback and insights."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
