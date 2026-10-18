@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-10-17T18:21:40.368Z",
+  "lastUpdated": "2026-10-18T04:11:15.145Z",
   "updates": [
     {
       "date": "2026-10-16",
@@ -614,18 +614,6 @@
         "url": "https://uxdesign.cc/ai-nutrition-facts-cbfa8f9874e8?source=rss----138adf9c44c---4"
       },
       "analysis": "At Nubank, the \"AI nutrition facts\" concept can be integrated into our early-stage design and discovery phases when considering AI-powered features. For instance, when exploring AI for fraud detection in PIX transactions or for personalized loan offers, researchers should proactively question the data sources, their representativeness, and potential biases. This involves collaborating with data science and engineering teams to understand the \"ingredients\" of the AI model, much like we'd scrutinize user data for privacy in our app.\n\nResearchers can apply this by developing internal \"AI fact sheets\" for new AI features. These would detail the training data demographics, known biases, and confidence levels of AI predictions. This framework is particularly relevant for high-impact user flows like credit card activation or insurance claim processing, where fairness and accuracy are paramount. Guardrails include a strict emphasis on user consent for data usage, ongoing bias monitoring, and clear communication to users about the AI's role and limitations. We must avoid presenting AI outputs as infallible, ensuring transparency and empowering users to understand how decisions are made, especially when they impact financial well-being."
-    },
-    {
-      "date": "2026-09-18",
-      "title": "UX Roundup: Adapting AI to Users | What Characteristics of Profitable AI Use? | Integrated AI Design Advice | Progress Visibility | Agent Delegation | AI Must Show Its Work | Free | What Happens Next",
-      "summary": "Several approaches help AI learn how to serve individual users better | A survey reveals differences between companies profiting from AI and the rest | Real-time feedback during editing | Show how far a slow process has advanced toward completion | Delegation to AI agents devi...",
-      "content": "Jakob Nielsen's UX Roundup highlights the critical need for AI to be adaptable and transparent to truly benefit users. The article emphasizes that successful AI integration hinges on understanding what makes AI profitable and designing it to meet individual user needs effectively. For UX researchers, this means shifting focus from simply deploying AI to strategically integrating it into user flows, ensuring progress is visible, and allowing for agent delegation with clear accountability.  These principles are crucial for building user trust and ensuring AI enhances, rather than hinders, the user experience, particularly in sensitive financial contexts.",
-      "category": "Survey optimization",
-      "source": {
-        "name": "Jakob Nielsen (Substack)",
-        "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260918"
-      },
-      "analysis": "At Nubank, Nielsen's insights on AI integration are highly relevant to improving key user journeys. For instance, during the onboarding process, AI could be used to personalize the experience by adapting educational content based on a user's initial interactions and comprehension. Similarly, when a user applies for a loan or activates a new credit card, AI could provide real-time feedback on the application's progress, showing them exactly how far along the process they are. This visibility, a core tenet of Nielsen's advice, directly addresses potential user anxiety and improves overall satisfaction.\n\nResearchers should actively explore how to implement these AI characteristics across various Nubank products. For PIX transactions, AI could predict common recipient patterns to streamline future transfers or offer context-aware fraud alerts. In insurance, AI could assist in claim processing by delegating initial data gathering to intelligent agents, with clear prompts for users to review and confirm information before human intervention. Crucially, Nubank researchers must prioritize 'showing their work' – ensuring that AI's decision-making processes, especially in sensitive areas like credit scoring or loan approvals, are explainable to users to build trust and comply with regulations. Limitations to consider include data privacy, the ethical implications of AI bias, and the need for robust fallback mechanisms when AI capabilities are insufficient or introduce errors."
     }
   ]
 }

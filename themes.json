@@ -1,56 +1,56 @@
 {
   "month": "2026-10",
-  "updated": "2026-10-17",
+  "updated": "2026-10-18",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 87,
-      "description": "Articles discussing AI agents that can independently perform research tasks, engage with systems, or act on behalf of users in research contexts."
-    },
-    {
-      "name": "AI coding assistants",
-      "count": 66,
-      "description": "Content focused on AI tools that assist developers in writing, debugging, testing, and understanding code."
+      "count": 126,
+      "description": "Articles discussing AI agents that can autonomously perform research tasks, interact with systems, and make decisions."
     },
     {
       "name": "AI research tools",
-      "count": 54,
-      "description": "Discussions and reviews of AI-powered platforms and applications designed to aid in various research activities, from data analysis to literature review."
+      "count": 81,
+      "description": "Content focused on specific AI tools and platforms designed to assist researchers in various aspects of their work."
     },
     {
-      "name": "Synthetic users",
-      "count": 30,
-      "description": "Articles exploring the use of AI-generated or simulated users for testing, research, or training purposes, comparing them with human participants."
-    },
-    {
-      "name": "AI testing automation",
-      "count": 27,
-      "description": "Content about using AI to automate software testing processes, improve quality assurance, and accelerate testing cycles."
-    },
-    {
-      "name": "AI chatbot research",
-      "count": 27,
-      "description": "Research and analysis concerning the capabilities, limitations, user interactions, and ethical implications of AI chatbots."
-    },
-    {
-      "name": "AI for design & research",
-      "count": 26,
-      "description": "Explores AI applications directly assisting in the design process and the research activities that inform design decisions."
+      "name": "AI coding assistants",
+      "count": 59,
+      "description": "Focuses on AI tools and research related to assisting developers with writing, debugging, and understanding code."
     },
     {
       "name": "AI workforce impact",
-      "count": 26,
-      "description": "Studies and reports on how AI is affecting job markets, employment, skills demand, and the future of work."
+      "count": 57,
+      "description": "Articles examining how AI is affecting jobs, hiring, skills, and the overall labor market."
     },
     {
-      "name": "AI research tools comparison",
-      "count": 22,
-      "description": "Articles that directly compare the performance, features, and effectiveness of different AI-powered research tools and platforms."
+      "name": "Synthetic users",
+      "count": 20,
+      "description": "Discussions around the creation and use of artificial user profiles for testing and research purposes."
+    },
+    {
+      "name": "AI summarization",
+      "count": 15,
+      "description": "Content related to AI's ability to condense large amounts of text into concise summaries for easier comprehension."
+    },
+    {
+      "name": "AI for design & research",
+      "count": 13,
+      "description": "Articles exploring how AI can be integrated into the design process, from ideation to execution."
+    },
+    {
+      "name": "AI survey tools",
+      "count": 15,
+      "description": "Focuses on AI-powered tools and platforms for creating, distributing, and analyzing surveys."
     },
     {
       "name": "AI customer insights",
-      "count": 17,
-      "description": "Focuses on how AI is leveraged to gather, analyze, and derive actionable insights from customer data and interactions."
+      "count": 18,
+      "description": "Content centered on using AI to analyze customer data and derive actionable insights for businesses."
+    },
+    {
+      "name": "AI testing automation",
+      "count": 23,
+      "description": "Articles detailing the use of AI to automate various stages of software and product testing."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
