@@ -3,54 +3,54 @@
   "updated": "2026-10-19",
   "themes": [
     {
-      "name": "AI research tools",
-      "count": 82,
-      "description": "New AI tool launches, reviews, and platforms built for research workflows."
-    },
-    {
-      "name": "Survey optimization",
-      "count": 76,
-      "description": "AI tools for designing better surveys, reducing bias, and analyzing responses."
+      "name": "Agentic AI in research",
+      "count": 143,
+      "description": "Focuses on AI agents that can independently perform research tasks, plan actions, and execute them to achieve research goals."
     },
     {
       "name": "AI coding assistants",
-      "count": 48,
-      "description": "Copilot, Claude Code, Cursor, and other AI tools for code generation and development."
+      "count": 99,
+      "description": "Covers AI tools designed to help developers write, review, debug, and understand code."
     },
     {
-      "name": "Conversational AI in research",
-      "count": 36,
-      "description": "Chatbots, virtual assistants, and voice AI in research contexts."
+      "name": "AI research tools",
+      "count": 94,
+      "description": "Encompasses AI-powered platforms and tools used to conduct, analyze, and accelerate various forms of research."
     },
     {
-      "name": "Agentic AI in research",
+      "name": "AI survey tools",
+      "count": 39,
+      "description": "Explores AI applications in creating, distributing, and analyzing surveys to gather user or market insights."
+    },
+    {
+      "name": "AI customer insights",
       "count": 33,
-      "description": "Autonomous AI agents running research tasks, multi-agent frameworks, and orchestration."
+      "description": "Details how AI is used to gather, analyze, and derive actionable insights from customer data and interactions."
     },
     {
-      "name": "AI-powered data analysis",
-      "count": 30,
-      "description": "Automated data analysis, clustering, segmentation, and pattern detection."
+      "name": "Synthetic users",
+      "count": 25,
+      "description": "Focuses on the creation and use of artificial user personas or data for testing and research purposes."
     },
     {
-      "name": "AI workforce impact",
-      "count": 24,
-      "description": "AI replacing roles, future of work, skills gap, reskilling, and organizational change."
-    },
-    {
-      "name": "AI tool evaluation",
+      "name": "AI content generation",
       "count": 15,
-      "description": "Comparing, benchmarking, and selecting AI tools and LLMs for specific use cases."
+      "description": "Covers AI's role in creating various forms of content, including text, images, and code, for design and research contexts."
     },
     {
-      "name": "AI summarization",
-      "count": 14,
-      "description": "Automated transcript summaries, theme extraction, and affinity mapping."
+      "name": "AI design research",
+      "count": 15,
+      "description": "Explores the application of AI in the design process, from ideation to prototyping and evaluating designs."
     },
     {
-      "name": "AI ethics in research",
-      "count": 14,
-      "description": "Bias, fairness, responsible AI, privacy, and trust in research."
+      "name": "AI qualitative research",
+      "count": 15,
+      "description": "Covers the use of AI tools and techniques to assist in qualitative research methods, such as interviews and focus groups."
+    },
+    {
+      "name": "AI chatbot research",
+      "count": 28,
+      "description": "Focuses on the study and development of conversational AI agents, their capabilities, limitations, and user interactions."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
