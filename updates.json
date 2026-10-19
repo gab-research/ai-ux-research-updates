@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-10-18T18:33:41.676Z",
+  "lastUpdated": "2026-10-19T04:19:58.104Z",
   "updates": [
+    {
+      "date": "2026-10-18",
+      "title": "How to build a brand foundation with AI without losing your craft",
+      "summary": "Here is how to use Claude and a handful of guardrails to build a design system that developers respect and clients can actually ship. Continue reading on UX Collective »",
+      "content": "This UX Collective article explores how AI tools like Claude can be leveraged to accelerate the development of robust design systems, a critical component for scalable and consistent user experiences.  The core idea is to utilize AI for generating foundational elements, documentation, and even code snippets, thereby freeing up designers and researchers to focus on higher-level strategic thinking and nuanced user understanding. For UX researchers, this is significant as it allows for faster iteration on design principles, content guidelines, and accessibility standards, ultimately leading to more polished and shippable products for Nubank's customers. The practical implication is a streamlined process for creating design systems that are not only technically sound but also aligned with user needs and business objectives.",
+      "category": "AI coding assistants",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/how-to-build-a-brand-foundation-with-ai-without-losing-your-craft-d616b05cb838?source=rss----138adf9c44c---4"
+      },
+      "analysis": "At Nubank, this article's approach to AI-assisted design system building can significantly enhance our research workflow, particularly in the early stages of product development or feature updates. For instance, when establishing new components for our PIX transfer flow or refining the language for our loan application process, AI can help generate initial drafts of design tokens, component documentation, or even accessibility guidelines based on existing best practices and Nubank's brand voice. Researchers can then critically review, iterate on, and validate these AI-generated foundations with user testing, ensuring they meet the specific needs of our diverse customer base before being handed off to development teams for implementation across our app."
+    },
     {
       "date": "2026-10-16",
       "title": "Synthetic Users vs. Human Respondents: Same Conclusion, Less Variation",
