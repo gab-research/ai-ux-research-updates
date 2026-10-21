@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 118,
-      "description": "Focuses on AI agents that can perform research tasks autonomously or semi-autonomously, often involving complex workflows and decision-making."
-    },
-    {
-      "name": "AI research tools",
-      "count": 93,
-      "description": "Covers a broad range of AI-powered platforms, software, and functionalities designed to assist in various research processes."
+      "count": 136,
+      "description": "Focuses on AI agents that can autonomously perform research tasks, interact with systems, and make decisions within a research context."
     },
     {
       "name": "AI coding assistants",
-      "count": 74,
-      "description": "Articles discussing AI tools that help developers write, debug, and review code."
+      "count": 68,
+      "description": "Covers AI tools and research that assist in writing, debugging, and understanding code, often acting as intelligent co-pilots for developers."
     },
     {
-      "name": "AI summarization",
-      "count": 59,
-      "description": "Highlights AI's capability to condense large amounts of text or data into concise summaries for quicker understanding."
+      "name": "AI research tools",
+      "count": 51,
+      "description": "Details various AI-powered platforms, software, and frameworks designed to support and accelerate scientific and product research."
     },
     {
-      "name": "AI testing automation",
-      "count": 48,
-      "description": "Explores the use of AI in automating testing processes for software, systems, and products."
-    },
-    {
-      "name": "AI workforce impact",
-      "count": 42,
-      "description": "Examines how AI is affecting jobs, employment, skills requirements, and the overall labor market."
-    },
-    {
-      "name": "AI for product management",
-      "count": 39,
-      "description": "Focuses on AI applications that assist product managers in their roles, from ideation to launch and iteration."
+      "name": "AI for design & research",
+      "count": 35,
+      "description": "Explores AI applications directly assisting in the design process, from ideation and prototyping to interface design and creative asset generation."
     },
     {
       "name": "AI content generation",
-      "count": 35,
-      "description": "Articles about AI tools that create text, images, audio, or video content."
+      "count": 29,
+      "description": "Encompasses AI's role in creating various forms of content, including text, images, audio, and video, for marketing, design, and other applications."
     },
     {
-      "name": "AI sentiment feedback",
-      "count": 33,
-      "description": "Covers AI's role in analyzing and understanding user emotions, opinions, and feedback from various sources."
+      "name": "AI summarization",
+      "count": 26,
+      "description": "Focuses on AI's ability to condense large amounts of text, audio, or video into concise summaries, particularly for research and meeting insights."
     },
     {
-      "name": "AI survey tools",
-      "count": 33,
-      "description": "Discusses the use of AI in creating, distributing, and analyzing surveys to gather user feedback."
+      "name": "AI tool evaluation",
+      "count": 25,
+      "description": "Covers the testing, comparison, and assessment of various AI tools and platforms based on performance, usability, and effectiveness."
+    },
+    {
+      "name": "AI workforce impact",
+      "count": 25,
+      "description": "Examines how AI is affecting employment, job roles, skills requirements, and the overall structure of the workforce."
+    },
+    {
+      "name": "Synthetic users",
+      "count": 21,
+      "description": "Discusses the creation and use of simulated users for testing and research purposes, their effectiveness, and limitations compared to human users."
+    },
+    {
+      "name": "AI research platform",
+      "count": 21,
+      "description": "Highlights platforms and ecosystems built to facilitate and manage AI research, development, and deployment."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
