@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-10-22T04:22:00.333Z",
+  "lastUpdated": "2026-10-22T13:41:20.979Z",
   "updates": [
+    {
+      "date": "2026-10-22",
+      "title": "Mass Merchant UX Benchmark: 5,600+ Performance Scores and 4,600+ Best Practice Examples",
+      "summary": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) At Baymard, we’ve just released a new UX benchmark with 10 “Mass Merchant” UX case studies. Th...",
+      "content": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) At Baymard, we’ve just released a new UX benchmark with 10 “Mass Merchant” UX case studies. This follows from our large-scale user testing of Mass Merchant UX and adds to our existing ecommerce UX benchmark. In this article, we give you a snapshot of the overall UX performance. 10 Mass Merchant UX Case Studies and the Overall Performance Get Premium access to review your own site or have it audited by Baymard researchers. These are the 10 in-depth Mass Merchant UX case studies. The 10 sites have been manually assessed across 500+ research-based UX parameters relevant to Mass Merchant ecommerce, resulting in 5,600+ weighted UX performance scores and 4,600+ best practice examples from these desktop and mobile sites. Each of the 5,600+ UX performance scores from the 10 Mass Merchant and Department Store case studies is summarized in the interactive scatterplot below — showing you how they perform collectively and individually: {{ scatterplot-graph: size=big + habitat=public + base-sites=collection:mass...",
+      "category": "AI in user testing",
+      "source": {
+        "name": "Baymard Institute",
+        "url": "https://feeds.baymard.com/link/9825/17502590/mass-merchant-ux-benchmark-2026"
+      },
+      "analysis": ""
+    },
     {
       "date": "2026-10-21",
       "title": "Using thousands of AI agents to uncover new leads in biological data",
@@ -590,18 +602,6 @@
         "url": "https://openai.com/index/introducing-mentalhealthbench"
       },
       "analysis": "At Nubank, MentalHealthBench can be integrated into our AI development lifecycle, particularly for features where empathetic and supportive communication is critical.  During the ideation and prototyping phases for new AI-driven customer support tools or even personalized financial wellness advice, researchers can use this benchmark to rigorously test AI models.  For instance, if we were exploring AI assistance for customers experiencing financial stress related to loans or managing PIX transactions, we would use MentalHealthBench to ensure the AI's responses are not only informative but also compassionate and avoid escalating distress.\n\nResearchers should apply MentalHealthBench by developing specific test cases mirroring realistic user scenarios encountered within Nubank's diverse product suite, from card activation to insurance claims. This involves creating conversational prompts that simulate user anxiety, confusion, or frustration, and then evaluating the AI's output against the benchmark's criteria for helpfulness and safety. It's crucial to remember that MentalHealthBench is a tool for evaluating AI's current capabilities in mental health conversations; it doesn't replace human empathy or professional mental health support. Therefore, any AI deployed should clearly indicate its limitations and always provide clear pathways for users to connect with human support when needed, especially in highly sensitive situations."
-    },
-    {
-      "date": "2026-09-22",
-      "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
-      "summary": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
-      "content": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
-      "category": "AI tool evaluation",
-      "source": {
-        "name": "OpenAI Blog",
-        "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra"
-      },
-      "analysis": "At Nubank, GPT-6 Astra can be strategically integrated into our existing research workflow to accelerate qualitative data synthesis, particularly for large datasets. For instance, when researching user pain points in the PIX transaction flow, researchers could leverage Astra to rapidly summarize hundreds of customer feedback comments, identifying recurring themes and emerging issues far quicker than manual analysis. Similarly, during the loan application process research, Astra could help synthesize feedback on application clarity and documentation requirements, providing actionable insights for product improvements.\n\nResearchers should apply GPT-6 Astra as a powerful assistive tool, not a replacement for critical thinking. It's ideal for tasks like summarizing open-ended survey responses, extracting key themes from interview transcripts, or generating initial hypotheses from large volumes of user-generated content. For example, after a large-scale card activation onboarding study, Astra could quickly distill common points of confusion or delight from user feedback. However, it's crucial to remember that AI-generated summaries require human validation. Researchers must critically review Astra's output, cross-reference findings with other data sources, and ensure the synthesized insights accurately reflect the nuances of user experience, especially in sensitive areas like insurance claims or complex loan narratives."
     }
   ]
 }

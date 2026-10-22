@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 55,
-      "description": "Focuses on AI agents that can autonomously perform research tasks, explore data, and interact with systems or users."
+      "count": 139,
+      "description": "Focuses on AI agents capable of performing research tasks autonomously or with minimal human intervention."
     },
     {
       "name": "AI research tools",
-      "count": 54,
-      "description": "Covers a broad range of AI-powered tools and platforms designed to assist researchers in various stages of their work, from data analysis to discovery."
+      "count": 116,
+      "description": "Covers a broad spectrum of AI tools designed to assist in various research activities, from data analysis to literature review."
     },
     {
       "name": "AI coding assistants",
-      "count": 31,
-      "description": "Explores AI tools that aid developers in writing, reviewing, and debugging code, including their efficiency, security, and impact on the software development lifecycle."
+      "count": 97,
+      "description": "Articles discussing AI models and tools that assist developers in writing, debugging, and understanding code."
     },
     {
       "name": "Synthetic users",
-      "count": 26,
-      "description": "Discusses the use of AI-generated or simulated users for testing and research purposes, including their creation, detection, and comparison with human respondents."
+      "count": 68,
+      "description": "Explores the use of AI-generated personas or simulated users for testing and research purposes."
     },
     {
       "name": "AI summarization",
-      "count": 18,
-      "description": "Focuses on AI's ability to condense large amounts of text, such as articles, meeting transcripts, or research papers, into concise summaries."
+      "count": 57,
+      "description": "Articles on AI's ability to condense large amounts of text, such as research papers, meeting transcripts, or user feedback, into concise summaries."
     },
     {
       "name": "AI for product management",
-      "count": 16,
-      "description": "Highlights how AI tools and techniques are being integrated into product management workflows for strategy, analysis, and feature development."
+      "count": 38,
+      "description": "Discusses how AI is being applied to enhance product management workflows, from ideation to market analysis."
     },
     {
-      "name": "AI tool evaluation",
-      "count": 15,
-      "description": "Covers the comparative analysis and testing of various AI tools, including benchmarks, performance reviews, and user experience assessments."
+      "name": "AI survey tools",
+      "count": 37,
+      "description": "Covers AI applications in creating, distributing, and analyzing surveys to gather user feedback and insights."
+    },
+    {
+      "name": "AI research tools comparison",
+      "count": 34,
+      "description": "Focuses on articles directly comparing the performance, features, or effectiveness of different AI research tools."
     },
     {
       "name": "AI chatbot research",
-      "count": 15,
-      "description": "Examines research into the behavior, capabilities, limitations, and societal impact of AI chatbots, including user interactions and potential harms."
-    },
-    {
-      "name": "AI qualitative research",
-      "count": 14,
-      "description": "Details the application of AI in gathering and analyzing qualitative data, such as interview synthesis, thematic analysis, and understanding user perceptions."
+      "count": 34,
+      "description": "Examines the research, development, and user interaction with AI-powered chatbots for various applications."
     },
     {
       "name": "AI workforce impact",
-      "count": 14,
-      "description": "Investigates the effects of AI on job creation, displacement, skill requirements, and the overall transformation of the workforce."
+      "count": 32,
+      "description": "Investigates the effects of AI on jobs, skills, and the overall labor market, including recruitment and job creation/displacement."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
