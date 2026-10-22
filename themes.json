@@ -1,56 +1,56 @@
 {
   "month": "2026-10",
-  "updated": "2026-10-21",
+  "updated": "2026-10-22",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 82,
-      "description": "Focuses on AI agents that can independently perform research tasks, make decisions, and interact with systems or data sources without constant human intervention."
+      "count": 55,
+      "description": "Focuses on AI agents that can autonomously perform research tasks, explore data, and interact with systems or users."
     },
     {
       "name": "AI research tools",
-      "count": 71,
-      "description": "Covers a broad range of AI-powered tools designed to assist researchers in various stages of the research process, from data collection to analysis and discovery."
+      "count": 54,
+      "description": "Covers a broad range of AI-powered tools and platforms designed to assist researchers in various stages of their work, from data analysis to discovery."
     },
     {
       "name": "AI coding assistants",
-      "count": 58,
-      "description": "Articles discussing AI tools that help developers write, debug, and analyze code, acting as intelligent assistants in the software development lifecycle."
+      "count": 31,
+      "description": "Explores AI tools that aid developers in writing, reviewing, and debugging code, including their efficiency, security, and impact on the software development lifecycle."
     },
     {
       "name": "Synthetic users",
-      "count": 33,
-      "description": "Explores the use of AI-generated or simulated users for testing, research, and feedback, offering an alternative to real human participants."
+      "count": 26,
+      "description": "Discusses the use of AI-generated or simulated users for testing and research purposes, including their creation, detection, and comparison with human respondents."
     },
     {
       "name": "AI summarization",
-      "count": 28,
-      "description": "Articles focused on AI capabilities that condense large amounts of text, audio, or video into concise summaries, aiding in information processing and insight extraction."
-    },
-    {
-      "name": "AI content generation",
-      "count": 25,
-      "description": "Covers the creation of various forms of content, such as text, images, music, or code, using generative AI models."
-    },
-    {
-      "name": "AI workforce impact",
-      "count": 25,
-      "description": "Examines how AI is affecting jobs, employment, skills, and the overall workforce, including job displacement, creation, and transformation."
-    },
-    {
-      "name": "AI survey tools",
-      "count": 22,
-      "description": "Focuses on AI applications that enhance the creation, distribution, analysis, and optimization of surveys for user feedback and market research."
-    },
-    {
-      "name": "AI usability testing",
       "count": 18,
-      "description": "Discusses AI's role in automating or augmenting usability testing processes, including testing AI interfaces themselves."
+      "description": "Focuses on AI's ability to condense large amounts of text, such as articles, meeting transcripts, or research papers, into concise summaries."
+    },
+    {
+      "name": "AI for product management",
+      "count": 16,
+      "description": "Highlights how AI tools and techniques are being integrated into product management workflows for strategy, analysis, and feature development."
+    },
+    {
+      "name": "AI tool evaluation",
+      "count": 15,
+      "description": "Covers the comparative analysis and testing of various AI tools, including benchmarks, performance reviews, and user experience assessments."
+    },
+    {
+      "name": "AI chatbot research",
+      "count": 15,
+      "description": "Examines research into the behavior, capabilities, limitations, and societal impact of AI chatbots, including user interactions and potential harms."
     },
     {
       "name": "AI qualitative research",
-      "count": 18,
-      "description": "Articles on how AI is being used to support or conduct qualitative research, including analysis of textual data and understanding user perceptions."
+      "count": 14,
+      "description": "Details the application of AI in gathering and analyzing qualitative data, such as interview synthesis, thematic analysis, and understanding user perceptions."
+    },
+    {
+      "name": "AI workforce impact",
+      "count": 14,
+      "description": "Investigates the effects of AI on job creation, displacement, skill requirements, and the overall transformation of the workforce."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
