@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-10-23T04:26:39.669Z",
+  "lastUpdated": "2026-10-23T13:17:34.809Z",
   "updates": [
+    {
+      "date": "2026-10-23",
+      "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+      "summary": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
+      "content": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
+      "category": "AI research tools",
+      "source": {
+        "name": "OpenAI Blog",
+        "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership"
+      },
+      "analysis": ""
+    },
     {
       "date": "2026-10-22",
       "title": "Flint-interactive: A language for creating interactive data visualizations",
@@ -17,18 +29,6 @@
     },
     {
       "date": "2026-10-22",
-      "title": "Mass Merchant UX Benchmark: 5,600+ Performance Scores and 4,600+ Best Practice Examples",
-      "summary": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) At Baymard, we’ve just released a new UX benchmark with 10 “Mass Merchant” UX case studies. Th...",
-      "content": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) At Baymard, we’ve just released a new UX benchmark with 10 “Mass Merchant” UX case studies. This follows from our large-scale user testing of Mass Merchant UX and adds to our existing ecommerce UX benchmark. In this article, we give you a snapshot of the overall UX performance. 10 Mass Merchant UX Case Studies and the Overall Performance Get Premium access to review your own site or have it audited by Baymard researchers. These are the 10 in-depth Mass Merchant UX case studies. The 10 sites have been manually assessed across 500+ research-based UX parameters relevant to Mass Merchant ecommerce, resulting in 5,600+ weighted UX performance scores and 4,600+ best practice examples from these desktop and mobile sites. Each of the 5,600+ UX performance scores from the 10 Mass Merchant and Department Store case studies is summarized in the interactive scatterplot below — showing you how they perform collectively and individually: {{ scatterplot-graph: size=big + habitat=public + base-sites=collection:mass...",
-      "category": "AI in user testing",
-      "source": {
-        "name": "Baymard Institute",
-        "url": "https://feeds.baymard.com/link/9825/17502590/mass-merchant-ux-benchmark-2026"
-      },
-      "analysis": "This Baymard report directly informs our quantitative UX research at Nubank. Researchers can use the 5,600+ performance scores as a benchmark to assess the usability and effectiveness of key Nubank flows, such as PIX transactions, loan applications, or card activation.  By comparing our metrics against these established mass merchant standards, we can identify areas where Nubank's digital experience might be underperforming or where best practices from e-commerce can be innovatively applied to banking.\n\nResearchers should integrate this benchmark into their project planning and reporting. For example, when evaluating the onboarding experience, we can draw parallels to how mass merchants guide new users through registration and initial product discovery.  The 4,600+ best practice examples offer a wealth of inspiration for design iterations.  However, a key guardrail is recognizing that while e-commerce principles are valuable, banking has unique regulatory, security, and trust considerations. We must adapt, not blindly copy, these best practices to fit the specific context of financial services, ensuring compliance and user confidence are paramount in every design decision, especially in areas like insurance or sensitive account management."
-    },
-    {
-      "date": "2026-10-22",
       "title": "Designing an AI serving harness built to last",
       "summary": "The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That’s an important shift. For the past several years, much of the AI conversation has centered on model capability: bigger models, better reasoning,...",
       "content": "This article argues that the future of enterprise AI lies not in the underlying models themselves, but in the robust infrastructure and surrounding systems built to support and deploy them effectively. The focus is shifting from \"bigger is better\" AI models to creating \"serving harnesses\" – integrated platforms that manage model deployment, monitoring, and optimization. For UX researchers, this means understanding that the user experience of AI-powered features will be heavily influenced by the reliability and scalability of these harnesses. Practically, this implies that research efforts should also consider the operational aspects of AI, not just the perceived intelligence of the model, influencing how we test and evaluate AI-driven customer journeys like PIX transactions or loan application processes.",
@@ -38,6 +38,18 @@
         "url": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/"
       },
       "analysis": "At Nubank, this insight profoundly impacts our AI integration into existing products. Instead of solely focusing on how a loan prediction model's accuracy affects a customer's application outcome, we need to consider how the \"serving harness\" ensures that prediction is delivered reliably during the onboarding flow, or how it handles spikes in demand for instant PIX confirmations. Researchers should prioritize testing AI-powered features not just for their functional correctness, but for their resilience, latency, and explainability within the operational framework. This means designing research studies that simulate high-traffic scenarios for card activation or rapid-response needs for insurance claims, evaluating the user experience under stress.\n\nKey guardrails involve ensuring that the \"serving harness\" itself doesn't introduce new friction or confusion for users. For instance, if an AI recommendation for a new credit card is powered by a sophisticated model but the harness has high latency, the user might abandon the flow before seeing the suggestion. Researchers must actively probe for usability issues stemming from the deployment infrastructure, not just the model's output. We should also advocate for transparency in how these harnesses operate, especially in sensitive areas like credit scoring or fraud detection, to maintain user trust and comply with regulations, ensuring that customers understand the rationale behind AI-driven decisions, even if the underlying \"serving harness\" is complex."
+    },
+    {
+      "date": "2026-10-22",
+      "title": "Mass Merchant UX Benchmark: 5,600+ Performance Scores and 4,600+ Best Practice Examples",
+      "summary": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) At Baymard, we’ve just released a new UX benchmark with 10 “Mass Merchant” UX case studies. Th...",
+      "content": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) At Baymard, we’ve just released a new UX benchmark with 10 “Mass Merchant” UX case studies. This follows from our large-scale user testing of Mass Merchant UX and adds to our existing ecommerce UX benchmark. In this article, we give you a snapshot of the overall UX performance. 10 Mass Merchant UX Case Studies and the Overall Performance Get Premium access to review your own site or have it audited by Baymard researchers. These are the 10 in-depth Mass Merchant UX case studies. The 10 sites have been manually assessed across 500+ research-based UX parameters relevant to Mass Merchant ecommerce, resulting in 5,600+ weighted UX performance scores and 4,600+ best practice examples from these desktop and mobile sites. Each of the 5,600+ UX performance scores from the 10 Mass Merchant and Department Store case studies is summarized in the interactive scatterplot below — showing you how they perform collectively and individually: {{ scatterplot-graph: size=big + habitat=public + base-sites=collection:mass...",
+      "category": "AI in user testing",
+      "source": {
+        "name": "Baymard Institute",
+        "url": "https://feeds.baymard.com/link/9825/17502590/mass-merchant-ux-benchmark-2026"
+      },
+      "analysis": "This Baymard report directly informs our quantitative UX research at Nubank. Researchers can use the 5,600+ performance scores as a benchmark to assess the usability and effectiveness of key Nubank flows, such as PIX transactions, loan applications, or card activation.  By comparing our metrics against these established mass merchant standards, we can identify areas where Nubank's digital experience might be underperforming or where best practices from e-commerce can be innovatively applied to banking.\n\nResearchers should integrate this benchmark into their project planning and reporting. For example, when evaluating the onboarding experience, we can draw parallels to how mass merchants guide new users through registration and initial product discovery.  The 4,600+ best practice examples offer a wealth of inspiration for design iterations.  However, a key guardrail is recognizing that while e-commerce principles are valuable, banking has unique regulatory, security, and trust considerations. We must adapt, not blindly copy, these best practices to fit the specific context of financial services, ensuring compliance and user confidence are paramount in every design decision, especially in areas like insurance or sensitive account management."
     },
     {
       "date": "2026-10-21",
@@ -602,18 +614,6 @@
         "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260925"
       },
       "analysis": "At Nubank, these AI advancements can be integrated into our existing research workflows, particularly in improving accessibility and generating early design insights. For instance, when researching new features for PIX or the card activation flow, we can explore how AI agents might offer a more intuitive and less cognitively burdensome experience for visually impaired users compared to current screen reader implementations. Similarly, the concept of AI-simulated users could be invaluable for rapid prototyping and early validation of new loan or insurance product interfaces, allowing designers to \"fail early\" and iterate on designs before investing in extensive user testing.\n\nResearchers can begin by exploring AI tools that offer style decomposition for UI elements, enabling quicker exploration of design variations for onboarding screens or the \"my cards\" section. Furthermore, investigating AI-powered \"show options\" functionalities could inform how we present choices to users, such as during loan application pre-qualification or setting up recurring payments, minimizing recall effort. A key guardrail will be to always validate AI-generated insights and synthetic user feedback with real user data; these tools should augment, not replace, direct user interaction. We must also ensure any AI-driven accessibility solutions are rigorously tested with actual visually impaired users to confirm their efficacy and identify any limitations inherent in AI's current capabilities."
-    },
-    {
-      "date": "2026-09-23",
-      "title": "Introducing MentalHealthBench",
-      "summary": "MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.",
-      "content": "MentalHealthBench, as introduced by OpenAI, offers a novel approach to assessing the quality and safety of AI-generated responses within simulated mental health dialogues. This benchmark is crucial for UX researchers as it provides a standardized, expert-validated framework for evaluating AI's suitability in sensitive domains, moving beyond generic performance metrics. Its practical implications lie in enabling more rigorous testing of AI assistants and chatbots designed to offer support or information related to mental well-being, ensuring they are not only helpful but also avoid causing harm, which is increasingly relevant as financial institutions like Nubank explore AI for customer support and well-being initiatives.",
-      "category": "Conversational AI in research",
-      "source": {
-        "name": "OpenAI Blog",
-        "url": "https://openai.com/index/introducing-mentalhealthbench"
-      },
-      "analysis": "At Nubank, MentalHealthBench can be integrated into our AI development lifecycle for features that might touch upon customer stress or sensitive financial situations. For instance, when developing or refining AI chatbots for customer service related to issues like loan rejections, difficulties with PIX transfers, or even during the anxiety-inducing card activation process, we can leverage MentalHealthBench. Researchers should use this benchmark to systematically test how our AI handles conversations that might hint at user distress or require empathetic, safe responses, evaluating its helpfulness and potential for unintended negative consequences.\n\nSpecifically, during user testing phases for new AI features, researchers can use scenarios designed to mimic mental health-related queries or stressful financial situations. This helps ensure our AI's conversational agents, whether assisting with onboarding or providing proactive support for insurance queries, exhibit responsible AI behavior. It’s crucial to remember that MentalHealthBench is a tool for evaluating AI's *response quality in simulated mental health contexts*, not a diagnostic tool for users. Researchers must implement guardrails to ensure this evaluation remains within ethical boundaries, avoiding any user-facing diagnostic capabilities and clearly distinguishing AI assistance from professional mental health advice, especially in flows where customers might be experiencing significant financial stress."
     }
   ]
 }
