@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-10-23T19:53:55.009Z",
+  "lastUpdated": "2026-10-24T04:16:48.244Z",
   "updates": [
     {
       "date": "2026-10-23",
@@ -14,6 +14,18 @@
         "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership"
       },
       "analysis": "This partnership between OpenAI and NASK directly informs our approach to AI safety and security within Nubank's UX research. It reinforces the importance of rigorously evaluating AI tools for bias, privacy, and potential misuse, especially as we integrate them into user-facing features like our AI-powered chatbot for customer support or the risk assessment algorithms for loan applications. Researchers should proactively seek out and pilot AI tools that demonstrate a commitment to these principles, ensuring that any AI-driven insights or functionalities we develop for products like PIX transfers or card activation processes are not only efficient but also ethically sound and secure.\n\nIn our research workflow, this collaboration encourages us to prioritize \"responsible AI\" frameworks when exploring AI applications for user journey mapping, sentiment analysis in feedback, or even generating synthetic data for testing. We should actively look for AI models and platforms that are transparent about their safety mechanisms and have undergone independent security audits. For example, when researching improvements to our onboarding flow, we might leverage AI to identify friction points, but we must ensure the AI's analysis is free from demographic bias and that user data remains protected. The key guardrail here is continuous human oversight and validation; AI should augment, not replace, our critical thinking and ethical judgment, especially when dealing with sensitive financial decisions for our customers."
+    },
+    {
+      "date": "2026-10-23",
+      "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
+      "summary": "AI saves UX practitioners time on nearly every task, yet most feel lukewarm about it: mandates, unreliable output, and inflated expectations eat the gains.",
+      "content": "The Nielsen Norman Group article highlights a common paradox with AI in UX research: while it demonstrably accelerates tasks across the board, practitioners' sentiment remains muted. This is largely due to challenges like top-down mandates for AI adoption without clear strategic alignment, the current unreliability of AI outputs requiring significant human oversight and correction, and the often-unrealistic expectations set by leadership. For UX researchers at Nubank, understanding this dichotomy is crucial for effective AI integration, ensuring that the technology genuinely enhances, rather than complicates, our workflows and delivers valuable, trustworthy insights.",
+      "category": "AI research tools",
+      "source": {
+        "name": "Nielsen Norman Group",
+        "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication"
+      },
+      "analysis": "At Nubank, this article's findings resonate with our ongoing exploration of AI tools. Researchers can leverage AI to speed up preliminary stages of our work, such as initial user interview transcription and thematic analysis, potentially even generating first-pass summaries of user feedback on features like PIX or loan applications. This frees up valuable time for deeper qualitative interpretation and strategic synthesis, areas where human empathy and nuanced understanding are paramount. For instance, AI could help quickly identify common pain points in card activation flows or onboarding, allowing researchers to focus on understanding the 'why' behind these issues.\n\nHowever, it's essential to apply these AI tools with caution, acknowledging the \"mixed feelings\" and \"unreliable output\" mentioned. Researchers should treat AI-generated insights as a starting point, not a final destination. Rigorous human review and validation are non-negotiable, especially when informing critical product decisions for services like insurance or credit. Mandates for AI use should be paired with clear guidelines and training, emphasizing its role as a co-pilot for research efficiency, not a replacement for human judgment and critical thinking. We must actively manage inflated expectations by demonstrating AI's current limitations while exploring its evolving capabilities strategically across our product suite."
     },
     {
       "date": "2026-10-22",
