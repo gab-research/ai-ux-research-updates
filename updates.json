@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-10-25T04:19:54.425Z",
+  "lastUpdated": "2026-10-25T13:07:42.317Z",
   "updates": [
+    {
+      "date": "2026-10-25",
+      "title": "The context advantage of human UX",
+      "summary": "Context is today’s human advantage, but it is also the raw material AI is rapidly learning to absorb. Continue reading on UX Collective »",
+      "content": "This article highlights that while human intuition and deep understanding of nuanced context remain a significant advantage for UX researchers today, AI is rapidly evolving to process and learn from this very contextual data. The core idea is that the richness of human experience, our ability to infer unspoken needs and cultural subtleties, is the current differentiator.  For UX researchers, this underscores the importance of doubling down on qualitative methods and human-centric insights, as these are the very things AI will increasingly mimic. Practically, it means researchers must focus on generating unique, deeply contextual understanding that AI may struggle to replicate without explicit human guidance and interpretation.",
+      "category": "AI research tools",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/the-context-advantage-of-human-ux-design-thinking-39883603c337?source=rss----138adf9c44c---4"
+      },
+      "analysis": "At Nubank, this article's core message emphasizes the continued value of our human researchers in understanding the intricate realities of Brazilian financial life.  While AI tools can assist with data synthesis for flows like PIX transactions or card activation, our researchers must retain ownership of interpreting the *why* behind user behaviors, especially in sensitive areas like loan applications or insurance claims where cultural nuances and emotional states are paramount.  This means prioritizing in-depth qualitative interviews and ethnographic studies that capture rich contextual details, feeding these insights back into our product development cycles to ensure we're truly solving problems for our users, not just optimizing for metrics.\n\nOur researchers should leverage AI for tasks like initial sentiment analysis on user feedback or summarizing recurring themes across large datasets, freeing up their time for more impactful, context-rich work.  However, the guardrail is clear: AI-generated insights should be treated as hypotheses, not definitive truths.  Crucially, we must avoid over-reliance on AI for understanding complex user journeys, such as those in our onboarding process or when users are seeking help with account issues.  Human judgment is indispensable for navigating the unique financial anxieties and aspirations of our diverse customer base, ensuring our digital products remain empathetic and truly empowering."
+    },
     {
       "date": "2026-10-23",
       "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
