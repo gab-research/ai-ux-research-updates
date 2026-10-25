@@ -1,56 +1,56 @@
 {
   "month": "2026-10",
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 130,
-      "description": "Focuses on AI agents that can autonomously perform research tasks, make decisions, and interact with systems to achieve research objectives."
+      "count": 77,
+      "description": "Focuses on AI agents that can perform research tasks autonomously or semi-autonomously, from planning to execution and analysis."
     },
     {
       "name": "AI coding assistants",
-      "count": 87,
-      "description": "Covers AI tools and research related to generating, reviewing, and debugging code, acting as assistants for software developers."
+      "count": 38,
+      "description": "Covers AI tools that assist developers in writing, debugging, and reviewing code."
     },
     {
       "name": "AI research tools",
-      "count": 79,
-      "description": "Encompasses articles discussing various AI-powered tools used for conducting research across different domains, including platforms and functionalities."
-    },
-    {
-      "name": "AI chatbot research",
-      "count": 59,
-      "description": "Explores the development, capabilities, limitations, and user interactions with AI chatbots for information retrieval, assistance, and more."
-    },
-    {
-      "name": "AI tool evaluation",
-      "count": 49,
-      "description": "Articles that compare, test, and evaluate the performance, accuracy, and usefulness of different AI tools and models."
-    },
-    {
-      "name": "AI workforce impact",
-      "count": 48,
-      "description": "Examines how AI is affecting jobs, employment, skills requirements, and the overall structure of the workforce."
-    },
-    {
-      "name": "AI summarization",
-      "count": 24,
-      "description": "Focuses on AI capabilities for condensing large amounts of text or data into concise summaries for easier understanding."
+      "count": 31,
+      "description": "Highlights various AI-powered platforms and tools designed to aid researchers in their scientific and academic endeavors."
     },
     {
       "name": "Synthetic users",
-      "count": 17,
-      "description": "Covers the use of AI-generated personas or simulated users for testing and research purposes, often compared to human participants."
+      "count": 19,
+      "description": "Explores the use of AI-generated personas or simulated users for testing and research purposes."
     },
     {
-      "name": "AI design research",
+      "name": "AI research tools comparison",
+      "count": 19,
+      "description": "Articles that directly compare the performance, features, or effectiveness of different AI research tools."
+    },
+    {
+      "name": "AI summarization",
+      "count": 15,
+      "description": "Covers AI capabilities for condensing large amounts of text into concise summaries."
+    },
+    {
+      "name": "AI chatbot research",
       "count": 14,
-      "description": "Focuses on AI applications in the design process, from concept generation and UI design to aesthetic evaluation and workflow optimization."
+      "description": "Focuses on studies and discussions about the capabilities, limitations, and impacts of AI chatbots."
     },
     {
-      "name": "AI content generation",
-      "count": 12,
-      "description": "Articles about AI's ability to create various forms of content, including text, images, and potentially other media, for design and research outputs."
+      "name": "AI workforce impact",
+      "count": 13,
+      "description": "Examines how AI influences job roles, recruitment, and the overall labor market."
+    },
+    {
+      "name": "AI for design & research",
+      "count": 9,
+      "description": "Explores AI applications specifically aimed at assisting with the creative and investigative aspects of design and research processes."
+    },
+    {
+      "name": "AI research platform",
+      "count": 9,
+      "description": "Discusses comprehensive AI platforms built to support various stages of the research lifecycle."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
