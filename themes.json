@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 58,
-      "description": "Articles discussing AI agents that autonomously perform research tasks, explore data, or engage in simulated scenarios."
+      "count": 126,
+      "description": "Focuses on AI agents that can autonomously perform research tasks, make decisions, and act upon them."
     },
     {
       "name": "AI coding assistants",
-      "count": 49,
-      "description": "Focuses on AI tools and research related to assisting developers in writing, debugging, and testing code."
+      "count": 59,
+      "description": "Covers AI tools that help developers write, debug, and review code."
     },
     {
       "name": "AI research tools",
-      "count": 45,
-      "description": "Covers a broad range of AI-powered platforms, frameworks, and applications used for conducting research."
+      "count": 52,
+      "description": "Encompasses a broad category of AI applications and platforms designed to support and enhance research processes."
     },
     {
-      "name": "AI testing automation",
-      "count": 29,
-      "description": "Articles about using AI to automate various stages of testing, from code to user experience."
+      "name": "Synthetic users",
+      "count": 33,
+      "description": "Explores the use of AI-generated personas or simulated user data for research and testing purposes."
     },
     {
       "name": "AI summarization",
-      "count": 25,
-      "description": "Focuses on AI's capability to condense large amounts of text into concise summaries, insights, or key points."
+      "count": 31,
+      "description": "Focuses on AI's ability to condense large amounts of text into concise summaries, providing key insights."
     },
     {
       "name": "AI workforce impact",
-      "count": 21,
-      "description": "Discusses how AI is affecting jobs, hiring, skill requirements, and the overall labor market."
+      "count": 30,
+      "description": "Investigates how AI is changing job roles, recruitment, skills, and the overall labor market."
     },
     {
-      "name": "AI customer insights",
-      "count": 19,
-      "description": "Covers AI applications for understanding customer behavior, preferences, and feedback to drive business decisions."
+      "name": "AI design research",
+      "count": 26,
+      "description": "Covers AI applications and techniques used to inform and enhance the design process for products and interfaces."
     },
     {
-      "name": "AI recruitment research",
+      "name": "AI research tools comparison",
       "count": 19,
-      "description": "Articles related to AI's role in the recruitment process, including candidate sourcing, screening, and assessment."
+      "description": "Articles that directly compare the capabilities and performance of different AI tools for research."
     },
     {
       "name": "AI qualitative research",
       "count": 17,
-      "description": "Focuses on AI tools and methodologies applied to qualitative data analysis and research insights."
+      "description": "Examines how AI is being used to assist in or conduct qualitative research methods, such as interviews and analysis."
     },
     {
-      "name": "AI research tools comparison",
-      "count": 14,
-      "description": "Articles comparing the effectiveness, features, and performance of different AI research tools."
+      "name": "AI chatbot research",
+      "count": 17,
+      "description": "Focuses on the research and findings related to the use, behavior, and impact of AI chatbots."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
