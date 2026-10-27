@@ -1,8 +1,32 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-10-27T04:42:25.041Z",
+  "lastUpdated": "2026-10-27T14:18:53.406Z",
   "updates": [
+    {
+      "date": "2026-10-27",
+      "title": "The time AI saves designers usually disappears. Here’s how to keep it.",
+      "summary": "What a survey of 521 UX professionals found about AI in UX Continue reading on UX Collective »",
+      "content": "This UX Collective article highlights a crucial paradox: while AI tools promise to save UX professionals time, that reclaimed time often gets absorbed by other tasks or the complexity of managing AI itself. The core issue is that efficiency gains from AI aren't automatically translating into more strategic UX work. For UX researchers at Nubank, this means we need to be intentional about how we leverage AI. The practical implication is that simply adopting AI tools won't magically free up our schedules; we must actively define and protect time for deeper analysis, generative sessions, and more robust user empathy to truly benefit from AI's potential.",
+      "category": "Survey optimization",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/the-time-ai-saves-designers-usually-disappears-heres-how-to-keep-it-61eb38e1ed69?source=rss----138adf9c44c---4"
+      },
+      "analysis": "At Nubank, this article's findings should guide how we integrate AI into our research lifecycle, especially concerning products like PIX, loans, and card activation. Instead of letting AI-generated summaries of user feedback or automated persona drafts consume our time, we should proactively carve out dedicated \"AI-free\" blocks for critical thinking and synthesis. For instance, after using AI to quickly analyze interview transcripts for common pain points in our loan application flow, researchers should schedule follow-up sessions to deeply probe the nuances of those issues, rather than just accepting the AI's initial findings.\n\nThis requires establishing clear guardrails. Our researchers should be empowered to push back against the temptation to \"fill\" every freed-up moment with more AI-driven tasks. The goal is not to increase output quantity through AI, but to enhance the *quality* of our insights and strategic recommendations for features like onboarding or insurance product development. We must ensure that the time saved is reinvested in generative ideation, exploring novel solutions for user challenges, or conducting more contextual inquiry, rather than merely becoming a cycle of AI prompt engineering and output review."
+    },
+    {
+      "date": "2026-10-27",
+      "title": "AI Engagement Quantitative UX: 2 High-Level Takeaways from 20+ Charts",
+      "summary": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) Key Stats & Takeaways 20+ new insights on the influence of AI on shopper habits and preference...",
+      "content": "This Baymard Institute article delves into the quantitative impact of Artificial Intelligence on user engagement within e-commerce. It highlights how AI-driven features, such as personalized recommendations and optimized search functionalities, are significantly influencing shopper behavior and preferences. For UX researchers, understanding these data-backed trends is crucial for designing more effective and engaging digital experiences that align with evolving customer expectations. The practical implications involve leveraging AI insights to inform design decisions, prioritize feature development, and ultimately improve conversion rates and customer satisfaction.",
+      "category": "AI summarization",
+      "source": {
+        "name": "Baymard Institute",
+        "url": "https://feeds.baymard.com/link/9825/17507452/ai-engagement-quantitative-ux-insights-2026"
+      },
+      "analysis": "At Nubank, this article's insights can significantly enhance our quantitative UX research. Researchers should integrate AI engagement metrics into existing studies, particularly for flows like credit card activation, PIX transactions, or loan applications. By analyzing how AI features (e.g., personalized product offers, fraud detection nudges) influence user progression and completion rates, we can identify friction points and opportunities for optimization. This data can also inform A/B testing strategies for new AI-powered features, ensuring they demonstrably improve user outcomes and drive business goals.\n\nWhen applying these findings, it's essential to maintain a user-centric approach and avoid solely relying on AI-driven metrics. While AI can reveal engagement patterns, our qualitative research remains vital for understanding the 'why' behind user behavior and ensuring ethical AI implementation. Researchers should act as a bridge, translating quantitative AI engagement data into actionable design recommendations while safeguarding against potential biases or negative user experiences, especially in sensitive areas like insurance or onboarding for new customers."
+    },
     {
       "date": "2026-10-25",
       "title": "The context advantage of human UX",
