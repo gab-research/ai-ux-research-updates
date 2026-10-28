@@ -3,54 +3,54 @@
   "updated": "2026-10-28",
   "themes": [
     {
-      "name": "Agentic AI in research",
-      "count": 110,
-      "description": "Focuses on AI agents that can perform research tasks autonomously, such as data gathering, analysis, and even problem-solving."
-    },
-    {
-      "name": "AI coding assistants",
-      "count": 66,
-      "description": "Articles discussing AI tools that help developers write, review, debug, and optimize code."
-    },
-    {
-      "name": "Synthetic users",
-      "count": 26,
-      "description": "Covers the use of AI-generated personas or user simulations to test designs and gather insights without real human participants."
-    },
-    {
-      "name": "AI research tools",
-      "count": 24,
-      "description": "Highlights specific AI-powered platforms and software designed to assist researchers in various aspects of their work."
-    },
-    {
-      "name": "AI for design & research",
-      "count": 17,
-      "description": "Explores how AI is directly integrated into the design and research process to enhance creativity, efficiency, and output."
-    },
-    {
-      "name": "AI chatbot research",
-      "count": 39,
-      "description": "Articles detailing studies and investigations into the behavior, capabilities, and societal impact of AI chatbots."
-    },
-    {
-      "name": "AI customer insights",
-      "count": 27,
-      "description": "Focuses on AI applications that analyze customer data to derive insights, personalize experiences, and drive business decisions."
-    },
-    {
-      "name": "AI research platform",
-      "count": 15,
-      "description": "Discusses platforms and environments designed to facilitate and scale AI research activities."
-    },
-    {
-      "name": "AI workforce impact",
-      "count": 28,
-      "description": "Examines how AI is changing job roles, creating new positions, and affecting the overall labor market."
+      "name": "Agentic AI research",
+      "count": 87,
+      "description": "Covers research and applications focused on AI agents capable of performing tasks and making decisions autonomously in research contexts."
     },
     {
       "name": "AI summarization",
+      "count": 21,
+      "description": "Focuses on AI's ability to condense large amounts of text or data into concise summaries for research and analysis."
+    },
+    {
+      "name": "AI research tools",
+      "count": 21,
+      "description": "Discusses various AI-powered tools and platforms used for conducting research, including data collection, analysis, and insight generation."
+    },
+    {
+      "name": "Synthetic users",
+      "count": 20,
+      "description": "Explores the use of AI-generated personas or simulated users for testing and research purposes."
+    },
+    {
+      "name": "AI workforce impact",
+      "count": 17,
+      "description": "Examines how AI is affecting jobs, recruitment, and the overall structure of the workforce, including AI's role in hiring and skill development."
+    },
+    {
+      "name": "AI coding assistants",
+      "count": 16,
+      "description": "Highlights AI tools designed to help developers write, debug, and review code more efficiently."
+    },
+    {
+      "name": "AI tool evaluation",
+      "count": 13,
+      "description": "Covers the comparison, benchmarking, and assessment of different AI tools and platforms for various applications."
+    },
+    {
+      "name": "AI for design & research",
+      "count": 13,
+      "description": "Focuses on AI applications specifically within the fields of design and user research, including AI's role in creative processes and insight gathering."
+    },
+    {
+      "name": "AI customer insights",
+      "count": 12,
+      "description": "Details how AI is used to analyze customer data and provide actionable insights for businesses."
+    },
+    {
+      "name": "AI chatbot research",
       "count": 11,
-      "description": "Covers AI tools and techniques that condense large amounts of text or data into concise summaries."
+      "description": "Investigates the behavior, impact, and effectiveness of AI chatbots in various contexts, including their potential harms and benefits."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
