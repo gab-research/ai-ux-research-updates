@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-10-27T20:33:44.575Z",
+  "lastUpdated": "2026-10-28T05:16:34.756Z",
   "updates": [
     {
       "date": "2026-10-27",
@@ -26,6 +26,18 @@
         "url": "https://feeds.baymard.com/link/9825/17507452/ai-engagement-quantitative-ux-insights-2026"
       },
       "analysis": "At Nubank, this article's insights can significantly enhance our quantitative UX research. Researchers should integrate AI engagement metrics into existing studies, particularly for flows like credit card activation, PIX transactions, or loan applications. By analyzing how AI features (e.g., personalized product offers, fraud detection nudges) influence user progression and completion rates, we can identify friction points and opportunities for optimization. This data can also inform A/B testing strategies for new AI-powered features, ensuring they demonstrably improve user outcomes and drive business goals.\n\nWhen applying these findings, it's essential to maintain a user-centric approach and avoid solely relying on AI-driven metrics. While AI can reveal engagement patterns, our qualitative research remains vital for understanding the 'why' behind user behavior and ensuring ethical AI implementation. Researchers should act as a bridge, translating quantitative AI engagement data into actionable design recommendations while safeguarding against potential biases or negative user experiences, especially in sensitive areas like insurance or onboarding for new customers."
+    },
+    {
+      "date": "2026-10-27",
+      "title": "Retell uses OpenAI models to help power 100M monthly calls",
+      "summary": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+      "content": "This OpenAI blog post highlights Retell's success in leveraging advanced AI models, specifically GPT-6 Astra and Codex, to power over 100 million monthly calls. Retell's voice agent benchmark, enhanced by these models, demonstrates significant improvements in conversational AI capabilities. For UX researchers, this signifies a leap forward in the potential for intelligent voice interfaces to handle complex customer interactions, potentially transforming how users engage with financial services. The practical implication is the ability to create more natural, efficient, and personalized voice-based experiences for users, reducing friction in common tasks.",
+      "category": "AI tool evaluation",
+      "source": {
+        "name": "OpenAI Blog",
+        "url": "https://openai.com/index/retell-ai"
+      },
+      "analysis": "At Nubank, Retell's success with OpenAI models presents an opportunity to enhance our existing voice-based customer service channels. Researchers can explore integrating similar AI capabilities into our current support flows, such as guiding users through PIX transactions, loan applications, or even troubleshooting card activation issues. This could lead to more intuitive and less frustrating self-service options, freeing up human agents for more complex problems.\n\nWe should pilot these AI advancements in controlled environments, perhaps by augmenting our FAQ chatbot with more sophisticated conversational abilities or testing voice-guided onboarding for new users. Initial applications could focus on answering common queries related to account management or explaining insurance policies. It's crucial to establish strict guardrails around data privacy and security, ensuring compliance with all regulations, and to continuously monitor user satisfaction and AI performance to mitigate potential biases or inaccuracies. Rigorous A/B testing against current human-led or simpler automated processes will be essential to validate the benefits before full-scale deployment."
     },
     {
       "date": "2026-10-25",
@@ -605,39 +617,15 @@
     },
     {
       "date": "2026-09-28",
-      "title": "UX Roundup: Bogus Deskilling Research | Jargon Alienates | AI Exposure Improves AI Attitudes | Interruptions | Prioritizing &gt; Everything | Paper Prototyping | Satisficing | Resizable Panes",
-      "summary": "Most deskilling research studies the wrong condition | Speak the user’s language | Using AI increases people’s preference for AI | Interruptions cause stress | Experienced UXers give the most important findings the most attention | Keep paper prototyping for team building | Sa...",
-      "content": "Jakob Nielsen's UX Roundup highlights several critical insights for user experience professionals.  A key takeaway is that \"deskilling\" research often misidentifies the true culprit behind user difficulties, suggesting a need for more nuanced investigations into how technology impacts user capabilities.  The article also emphasizes the importance of clear, jargon-free communication in user research, advocating for language that resonates with users themselves.  Furthermore, it presents a compelling finding that exposure to AI, even in simple ways, can foster more positive attitudes towards its adoption, a crucial point for financial institutions integrating AI features into their services. Finally, the piece stresses the detrimental impact of interruptions on user focus and productivity, and advocates for prioritizing critical findings over exhaustive detail.",
-      "category": "AI research tools",
-      "source": {
-        "name": "Jakob Nielsen (Substack)",
-        "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260928"
-      },
-      "analysis": "This article offers valuable perspectives for Nubank researchers, particularly regarding the AI and communication points. For AI, instead of solely focusing on user struggles with AI features in products like our digital assistant or fraud detection, we should consider how positive, introductory AI experiences can shape user perception. Researchers could design studies that expose participants to controlled AI interactions (e.g., a simulated AI chat during onboarding or a brief demo of a predictive feature for PIX) to gauge shifts in their overall AI attitudes before full product integration.  Regarding jargon, our researchers must consistently strive to use language that mirrors how our customers talk about their financial lives, especially when researching complex areas like loan applications or insurance claims. This means actively avoiding internal banking terminology and instead using relatable terms identified through qualitative research or customer support logs, ensuring our research questions and subsequent insights are universally understood."
-    },
-    {
-      "date": "2026-09-28",
       "title": "One year in: How Microsoft Research Asia – Singapore is advancing research, partnership and talent for real-world impact",
       "summary": "Since launching a year ago, the Microsoft Research Asia — Singapore lab has established a strong foundation, deepened collaboration across government, academia, and industry, and explored how frontier AI research can create real-world value. The post One year in: How Microsoft...",
-      "content": "Microsoft Research Asia's Singapore lab, in its first year, has demonstrated significant progress in translating cutting-edge AI into tangible applications. The lab's focus on bridging frontier AI research with practical, real-world impact is particularly relevant for UX researchers. By fostering collaborations with diverse stakeholders, they are actively exploring how advanced AI can address complex societal and industry challenges, which directly informs how we can leverage AI to improve user experiences and develop innovative financial products for Nubank customers.",
+      "content": "Since launching a year ago, the Microsoft Research Asia — Singapore lab has established a strong foundation, deepened collaboration across government, academia, and industry, and explored how frontier AI research can create real-world value. The post One year in: How Microsoft Research Asia – Singapore is advancing research, partnership and talent for real-world impact appeared first on Microsoft Research.",
       "category": "AI research tools",
       "source": {
         "name": "Microsoft Research",
         "url": "https://www.microsoft.com/en-us/research/blog/one-year-in-how-microsoft-research-asia-singapore-is-advancing-research-partnership-and-talent-for-real-world-impact/"
       },
       "analysis": "This initiative by Microsoft Research highlights the growing importance of integrating advanced AI into research methodologies and product development. At Nubank, this aligns with our continuous efforts to enhance user journeys across all touchpoints, from a seamless onboarding process to the intuitive use of features like PIX and loan applications. Researchers can explore how AI can automate data analysis from user interviews and usability tests, identify emergent trends in customer feedback related to card activation or insurance policies, and even assist in generating personalized user journey maps.\n\nTo apply this at Nubank, researchers should identify specific AI tools and techniques that can augment their existing workflows. This might involve exploring AI-powered sentiment analysis for customer support logs, predictive modeling for user churn, or natural language processing for summarizing large volumes of qualitative data. It's crucial to approach this with a critical eye, ensuring that AI augmentation complements, rather than replaces, human empathy and nuanced understanding in user research. We must also establish clear ethical guidelines and data privacy protocols to ensure responsible AI implementation, especially when dealing with sensitive financial data related to customer accounts and transactions."
-    },
-    {
-      "date": "2026-09-28",
-      "title": "When can we say AI made a scientific discovery?",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Last Wednesday, Anthropic announced that earlier this year it had launched a molecular biology lab, where Claude agents read and conjecture...",
-      "content": "This MIT Technology Review article grapples with the evolving definition of 'scientific discovery' in the age of AI. It highlights how AI models, like Anthropic's Claude, are now actively engaging in research processes, generating hypotheses, and even conducting simulated experiments, blurring the lines between tool and discoverer. For UX researchers, this is crucial as it signals a future where AI could not only analyze user data but also proactively identify unmet user needs or suggest innovative solutions that human researchers might overlook. This paradigm shift could lead to more efficient and impactful product development cycles, allowing us to move from simply understanding user behavior to predicting and even shaping future user experiences.",
-      "category": "AI research tools",
-      "source": {
-        "name": "MIT Technology Review",
-        "url": "https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/"
-      },
-      "analysis": "At Nubank, this concept of AI-driven discovery can be integrated into our 'Ideation & Opportunity Identification' phase within the research workflow. Instead of solely relying on traditional qualitative synthesis to uncover pain points in flows like PIX transfers or loan applications, we can leverage AI agents trained on vast datasets of customer feedback, support tickets, and market trends. These agents could proactively flag subtle patterns indicating a potential user frustration or an unmet need in areas like our insurance onboarding process, prompting deeper investigation.\n\nResearchers should approach this by viewing AI not as a replacement for their expertise, but as a powerful augmentation. They can guide AI agents to explore specific hypotheses or areas of concern identified in early user testing for new features, such as card activation. For example, an AI could analyze anonymized session recordings from our app to identify novel friction points during account opening that our current analysis might have missed, suggesting areas for A/B testing or further qualitative research. Crucially, guardrails are essential: AI-generated insights must always be critically evaluated by human researchers, validated through user interviews and testing, and understood within the context of Nubank's ethical guidelines and data privacy policies. The AI's 'discovery' should be a starting point for rigorous human-led investigation, not an endpoint."
     }
   ]
 }
