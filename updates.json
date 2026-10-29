@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-10-29T15:07:48.711Z",
+  "lastUpdated": "2026-10-29T20:59:30.064Z",
   "updates": [
     {
       "date": "2026-10-29",
@@ -14,6 +14,18 @@
         "url": "https://www.technologyreview.com/2026/10/29/1147830/the-download-monitoring-ai-agents-climate-feedback-loops/"
       },
       "analysis": "At Nubank, this article's call for real-time AI agent tracking directly impacts our user-facing AI systems, such as those powering our virtual assistant for customer support queries, the fraud detection mechanisms for PIX transactions, or the personalized recommendations for financial products. UX researchers should integrate AI behavior auditing into their qualitative studies. This involves observing how AI agents respond to edge cases during usability testing of new features, analyzing logs for patterns of unexpected AI behavior in beta programs, and even conducting 'AI explainability' sessions with internal development teams to understand the rationale behind specific AI decisions.\n\nApplying this, imagine observing a user attempting to activate a new credit card. If the AI-driven onboarding flow consistently misinterprets a certain document upload or offers unhelpful next steps, this is a direct AI agent behavior that needs real-time tracking and researcher intervention. Similarly, for loan applications, if an AI agent's risk assessment consistently flags valid applications due to unforeseen biases, this requires immediate attention. Our guardrails should focus on anonymizing user data during these audits and ensuring that the focus remains on AI behavior, not just user error. The limitation is that direct observation of complex backend AI decision trees might require collaboration with data science and engineering teams, but UX researchers can act as crucial liaisons, identifying the 'what' and 'why' of problematic AI interactions from a user's perspective."
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Microsoft Research Focus – Edition #97",
+      "summary": "Host Sowbhagya Suresh shares some of the latest news and cutting-edge research from across Microsoft—from understanding the challenges facing coding agents to uncovering how people use AI at work and improving extended-range weather forecasting. The post Microsoft Research Foc...",
+      "content": "This edition of Microsoft Research Focus highlights advancements in AI that are directly relevant to understanding human-computer interaction and work.  The research explored delves into the practicalities of AI agents, acknowledging the hurdles they face in real-world application, and investigates how individuals are integrating AI into their professional lives, revealing emergent usage patterns and potential productivity gains.  Furthermore, improvements in complex forecasting models underscore AI's growing capacity to manage and interpret vast datasets, a skill transferable to analyzing user behavior. For UX researchers, these insights offer a lens into the evolving landscape of human-AI collaboration and provide potential methodologies for studying AI's impact on user experiences and work processes.",
+      "category": "AI coding assistants",
+      "source": {
+        "name": "Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-97/"
+      },
+      "analysis": "At Nubank, this research can inform our understanding of how customers interact with our AI-powered features, such as the chatbot for customer support or the AI assistants within the app that might guide users through complex processes like loan applications or PIX transactions. Researchers can leverage this by designing studies that specifically observe and analyze how users adapt to and utilize these AI components, looking for friction points or unexpected benefits. This aligns with our goal of providing a seamless and intuitive digital banking experience across all our products, from card activation to onboarding.\n\nWhen applying these findings, we should focus on qualitative and quantitative methods that capture both the 'how' and 'why' of AI usage. For instance, observing users navigating our app with AI assistance and then conducting follow-up interviews can reveal insights into trust, efficacy, and perceived value.  It's crucial to establish guardrails: while AI offers efficiency, we must ensure it doesn't compromise user autonomy or create opaque decision-making processes, especially in sensitive areas like insurance claims or credit assessments.  Our research must always prioritize the user's control and understanding, even as AI integration deepens."
     },
     {
       "date": "2026-10-28",
