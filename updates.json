@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-10-30T15:00:18.502Z",
+  "lastUpdated": "2026-10-30T20:38:12.238Z",
   "updates": [
     {
       "date": "2026-10-30",
@@ -650,18 +650,6 @@
         "url": "https://feeds.baymard.com/link/9825/17482990/b2b-electronic-components-machinery-ux-benchmark-2026"
       },
       "analysis": "This Baymard report can significantly enhance our B2B-facing research at Nubank, particularly for features targeting small business owners or corporate clients. Researchers can leverage this benchmark to evaluate the UX of our business accounts, PIX for businesses, or any upcoming B2B lending platforms.  When designing or auditing these areas, we should cross-reference our current flows against Baymard's best practices for product information, comparison tools, and checkout efficiency to identify specific opportunities for improvement in areas like loan application clarity or business card activation processes.\n\nWhile the B2B electronics context is specialized, the underlying principles of clarity, efficiency, and trust in complex transactions are highly transferable. Researchers should focus on adapting the methodologies and identified best practices to our specific financial products and user segments. For instance, the emphasis on detailed specifications can inform how we present information about loan terms or investment options. We must, however, be mindful of the inherent differences between digital banking and physical product sales, ensuring our application of these insights remains relevant to the financial services landscape and doesn't oversimplify the complexities of our offerings. This can be a valuable tool for user testing and heuristic evaluations to validate design decisions before full-scale development."
-    },
-    {
-      "date": "2026-09-30",
-      "title": "Forecasting space weather risks on power grids",
-      "summary": "Extreme space-weather events can damage power systems on Earth and degrade GPS accuracy and satellite operations. A new machine learning system can predict where damage is likely to occur 30-60 minutes before a storm arrives. The post Forecasting space weather risks on power g...",
-      "content": "Extreme space-weather events can damage power systems on Earth and degrade GPS accuracy and satellite operations. A new machine learning system can predict where damage is likely to occur 30-60 minutes before a storm arrives. The post Forecasting space weather risks on power grids appeared first on Microsoft Research.",
-      "category": "AI-powered data analysis",
-      "source": {
-        "name": "Microsoft Research",
-        "url": "https://www.microsoft.com/en-us/research/blog/forecasting-space-weather-risks-on-power-grids/"
-      },
-      "analysis": "At Nubank, this research on AI-powered forecasting could be integrated into our operational risk assessment, particularly concerning the stability of services critical to our user flows. Imagine a major solar storm impacting network connectivity during a high-volume PIX transfer period or disrupting a critical step in the loan application or card activation process. Our UX researchers can leverage this by developing proactive communication strategies and contingency plans for such rare but potentially impactful events. This foresight allows us to design user experiences that are resilient and transparent, even when external infrastructure faces challenges. For instance, we could pre-emptively inform users about potential delays in service during predicted space weather events or design offline capabilities for essential functions.\n\nResearchers should consider how these predictions can inform our crisis communication protocols and disaster recovery planning. While direct user interaction might not be the primary application, understanding the potential for service degradation due to external factors is vital. We should identify which Nubank products and flows are most sensitive to network instability and power outages (e.g., real-time transaction processing, onboarding verification, insurance claims processing). This foresight enables us to build in graceful degradation and clear messaging, ensuring users understand any temporary limitations and are reassured about data security and future service restoration. The primary guardrail is to recognize that these are *predictions* of external risks, not direct impacts on our internal systems, and to focus on communication and resilience rather than attempting to control the space weather itself."
     }
   ]
 }
