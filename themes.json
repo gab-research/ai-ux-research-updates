@@ -3,54 +3,54 @@
   "updated": "2026-10-30",
   "themes": [
     {
-      "name": "Agentic AI research",
-      "count": 56,
-      "description": "Articles discussing AI agents performing research tasks autonomously or semi-autonomously, including their capabilities, limitations, and deployment."
+      "name": "Agentic AI in research",
+      "count": 77,
+      "description": "Covers AI agents performing research tasks autonomously or semi-autonomously, including autonomous agents, agentic commerce, and agentic research platforms."
     },
     {
       "name": "AI coding assistants",
-      "count": 36,
-      "description": "Focuses on AI tools that assist developers in writing, reviewing, and debugging code."
-    },
-    {
-      "name": "AI chatbot research",
-      "count": 31,
-      "description": "Covers research and findings related to the behavior, reliability, biases, and user interactions with AI chatbots."
+      "count": 43,
+      "description": "Focuses on AI tools that assist developers with writing, debugging, reviewing, and understanding code, including specific models like Claude Code and Copilot."
     },
     {
       "name": "AI research tools",
-      "count": 23,
-      "description": "Highlights AI-powered tools and platforms used by researchers for various stages of the research process."
-    },
-    {
-      "name": "AI summarization",
-      "count": 17,
-      "description": "Articles detailing the use of AI to condense and extract key information from text or other data sources."
-    },
-    {
-      "name": "AI design research",
-      "count": 14,
-      "description": "Explores how AI is integrated into the design process, from ideation to UI/UX development and research."
+      "count": 37,
+      "description": "Encompasses a broad range of AI-powered tools and platforms designed to aid researchers in various aspects of their work, from data analysis to literature review."
     },
     {
       "name": "Synthetic users",
-      "count": 12,
-      "description": "Discusses the creation and use of artificial user personas or data for testing and research purposes."
+      "count": 21,
+      "description": "Explores the use of AI-generated personas or data to simulate human users for testing, research, and analysis, including synthetic data and AI customers."
     },
     {
-      "name": "AI product research",
-      "count": 10,
-      "description": "Focuses on how AI is applied to understand market needs, develop new products, and analyze product performance."
+      "name": "AI testing automation",
+      "count": 20,
+      "description": "Covers AI applications for automating various testing processes in software development, quality assurance, and system evaluation."
     },
     {
-      "name": "AI recruitment research",
-      "count": 10,
-      "description": "Examines the impact of AI on job creation, displacement, and the hiring process."
+      "name": "AI summarization",
+      "count": 15,
+      "description": "Deals with AI's capability to condense large amounts of text or data into concise summaries, often for insights or quick understanding."
     },
     {
-      "name": "AI research tools comparison",
-      "count": 9,
-      "description": "Articles that compare the performance, features, and effectiveness of different AI tools for research tasks."
+      "name": "AI sentiment & feedback analysis",
+      "count": 15,
+      "description": "Focuses on using AI to analyze and interpret user feedback, reviews, and sentiment to understand customer opinions and emotions."
+    },
+    {
+      "name": "AI for design & research",
+      "count": 15,
+      "description": "Addresses how AI tools and techniques are being integrated into the design and user research workflow, including AI design tools and generative design."
+    },
+    {
+      "name": "AI workforce impact",
+      "count": 14,
+      "description": "Examines how AI is affecting jobs, employment, and the nature of work, including concerns about job displacement and the creation of new roles."
+    },
+    {
+      "name": "AI recruitment",
+      "count": 13,
+      "description": "Covers the use of AI in hiring processes, including candidate screening, matching, and the impact of AI on job markets."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
