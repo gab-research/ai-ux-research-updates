@@ -1,56 +1,56 @@
 {
   "month": "2026-10",
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 155,
-      "description": "Focuses on AI agents that can autonomously perform research tasks, interact with systems, and make decisions."
+      "count": 57,
+      "description": "Covers AI agents performing research tasks autonomously or semi-autonomously, including agents for data analysis, task execution, and decision-making."
     },
     {
       "name": "AI coding assistants",
-      "count": 58,
-      "description": "Articles about AI tools that help developers write, debug, and review code."
-    },
-    {
-      "name": "Synthetic users",
-      "count": 41,
-      "description": "Covers the use of AI-generated personas or data to simulate user behavior for research and testing."
+      "count": 53,
+      "description": "Focuses on AI tools that assist developers in writing, debugging, and reviewing code, including AI agents that can write code."
     },
     {
       "name": "AI research tools",
-      "count": 38,
-      "description": "Broad category for AI-powered tools that assist in various stages of research, from data collection to analysis."
+      "count": 43,
+      "description": "Encompasses a broad category of AI-powered platforms and software designed to assist researchers in various aspects of their work, from data collection to analysis."
     },
     {
-      "name": "AI for design & research",
-      "count": 35,
-      "description": "Articles discussing AI applications specifically for UX design processes and user research activities."
+      "name": "Synthetic users",
+      "count": 16,
+      "description": "Explores the use of AI-generated personas or simulated users for testing, research, and understanding user behavior without human involvement."
     },
     {
       "name": "AI summarization",
-      "count": 31,
-      "description": "Focuses on AI's ability to condense large amounts of text, such as research findings, interviews, or articles, into concise summaries."
+      "count": 13,
+      "description": "Deals with AI's capability to condense large amounts of text or data into concise summaries, useful for research reports and meeting insights."
+    },
+    {
+      "name": "AI-powered data analysis",
+      "count": 11,
+      "description": "Covers AI applications used to analyze datasets, identify patterns, and derive insights, particularly in quantitative UX research."
+    },
+    {
+      "name": "AI content generation",
+      "count": 10,
+      "description": "Focuses on AI's ability to create various forms of content, including text, images, and video, often used in design and marketing."
+    },
+    {
+      "name": "AI conversational agents",
+      "count": 10,
+      "description": "Includes research and discussions around chatbots and other conversational AI interfaces used for user interaction and information retrieval."
+    },
+    {
+      "name": "AI research tools comparison",
+      "count": 9,
+      "description": "Articles that compare the performance, features, and effectiveness of different AI tools used for research purposes."
     },
     {
       "name": "AI workforce impact",
-      "count": 27,
-      "description": "Examines how AI is affecting job roles, employment, and the skills needed in the workforce."
-    },
-    {
-      "name": "AI recruitment research",
-      "count": 24,
-      "description": "Covers research and findings related to AI's influence on job recruitment, hiring processes, and candidate sourcing."
-    },
-    {
-      "name": "AI chatbot research",
-      "count": 21,
-      "description": "Articles focusing on the research, capabilities, and impact of AI-powered chatbots."
-    },
-    {
-      "name": "AI testing automation",
-      "count": 20,
-      "description": "Discusses AI's role in automating testing processes, including software testing, performance testing, and usability testing."
+      "count": 9,
+      "description": "Examines how AI is affecting jobs, skills, and the overall workforce, including recruitment and the changing nature of work."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
