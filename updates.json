@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-11-01T05:41:48.415Z",
+  "lastUpdated": "2026-11-01T14:55:53.257Z",
   "updates": [
+    {
+      "date": "2026-11-01",
+      "title": "When colors pass but palettes fail",
+      "summary": "The accessibility challenge of generative AI diverging color palettes. Continue reading on UX Collective »",
+      "content": "The article \"When colors pass but palettes fail\" highlights a critical emerging challenge in AI-assisted design: generative AI's tendency to create individual color \"passes\" that are accessible on their own, but fail when combined into a cohesive \"palette.\" This is a significant concern for UX researchers as it can lead to designs that appear functionally sound in isolation but create significant accessibility barriers when integrated into a larger user interface.  For Nubank, this means AI-generated design elements for products like PIX transactions or loan application forms could inadvertently create contrast issues, making essential information illegible for users with visual impairments.",
+      "category": "Automated usability checks",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/when-colors-pass-but-palettes-fail-55b7210f8e4d?source=rss----138adf9c44c---4"
+      },
+      "analysis": "This concept directly impacts Nubank's commitment to inclusive design. When using AI tools for UI element generation or even initial design exploration for features like card activation or onboarding flows, researchers must actively audit the generated color palettes for overall accessibility, not just individual color contrast ratios.  Instead of accepting AI-generated palettes at face value, researchers should integrate a \"palette audit\" step post-generation, using tools to verify WCAG compliance across the entire proposed color scheme before it's handed off to designers or engineers. This ensures that while AI can accelerate ideation, Nubank's core values of accessibility are maintained throughout the product development lifecycle for all services, including insurance applications."
+    },
     {
       "date": "2026-10-30",
       "title": "UX Roundup: AI Persuasion | Fake Users vs. Real Users | Summaries as Dark Design | Agentic Video Production | Feedback | High AI Subscription Churn | Sparring with Voice AI | Silence | Split View",
