@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-10-31T19:51:45.746Z",
+  "lastUpdated": "2026-11-01T05:41:48.415Z",
   "updates": [
     {
       "date": "2026-10-30",
@@ -602,18 +602,6 @@
         "url": "https://uxdesign.cc/ai-skill-atrophy-cognitive-offloading-1afbf92eb496?source=rss----138adf9c44c---4"
       },
       "analysis": "At Nubank, this article's insights should be integrated into our ongoing professional development and research best practices. Rather than viewing AI as a wholesale replacement for researcher cognitive processes, we should frame it as an augmentation tool. For instance, when analyzing large datasets from card activation flows or onboarding processes, AI can quickly identify patterns, but researchers must then critically evaluate these findings, probe deeper into the 'why,' and ensure the nuances of user sentiment aren't lost. This requires a conscious effort to avoid simply accepting AI-generated summaries and instead using them as a starting point for human-driven insight generation.\n\nTo prevent skill atrophy, researchers should actively dedicate time to manual analysis and synthesis, even when AI tools are available. This means deliberately stepping back from AI-assisted summaries to conduct their own qualitative coding, persona refinement, or journey map ideation. Guardrails should include establishing a \"human-in-the-loop\" mandate for all AI-generated outputs, encouraging peer review of AI-assisted research findings, and fostering an environment where questioning AI's conclusions is the norm, especially when dealing with sensitive areas like insurance claims or complex loan decisions. The goal is to leverage AI's speed and scale without sacrificing the depth and critical thinking that define excellent UX research."
-    },
-    {
-      "date": "2026-10-02",
-      "title": "UX Roundup: Vigilance Fatigue | Adaptive Authoring | UI Clutter | Scenarios vs. Surveys for User Preferences | Measure Outcomes | Satisfaction vs. Expectations | Spotlight Features | Allow Paste",
-      "summary": "Asking users to watch AI carefully is doomed to failure | Adaptive authoring of content that changes depending on the reader | A cluttered experience kills user focus | To predict patients’ treatment preferences, discussing medical dilemmas beat both survey responses and the p...",
-      "content": "This UX roundup by Jakob Nielsen highlights critical considerations for modern product design and research.  A key takeaway is the challenge of \"vigilance fatigue,\" suggesting that relying on users to constantly monitor AI outputs is unsustainable, pointing towards designing systems that inherently minimize the need for such oversight.  The article also champions the power of \"scenarios vs. surveys\" for understanding user preferences, particularly in complex decision-making contexts like healthcare, indicating that qualitative, story-based approaches can yield deeper insights than quantitative methods alone. For UX researchers, these points underscore the importance of designing for human limitations and employing diverse research methodologies to capture nuanced user needs.",
-      "category": "Survey optimization",
-      "source": {
-        "name": "Jakob Nielsen (Substack)",
-        "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20261002"
-      },
-      "analysis": "At Nubank, these insights are highly relevant to our ongoing efforts to refine user experiences across our product suite.  For \"vigilance fatigue,\" when designing features involving AI recommendations or automated processes like loan eligibility checks, we must prioritize robust error detection and clear feedback mechanisms rather than expecting users to actively scrutinize every AI decision. This means building in fail-safes and providing transparent explanations for AI-driven outcomes, for instance, when a PIX transaction requires extra verification or when a credit limit is adjusted.  Researchers should actively advocate for designing AI systems that are inherently trustworthy and require minimal user intervention.\n\nRegarding \"scenarios vs. surveys,\" this principle can significantly enhance our understanding of user preferences for complex financial products. Instead of solely relying on Likert scale questions in surveys for insurance product features or new credit card benefits, we should incorporate qualitative methods like in-depth interviews and scenario-based exercises. For example, when exploring user needs for a new investment product, presenting users with hypothetical financial situations and asking them to articulate their choices and reasoning will likely reveal more nuanced preferences than a standardized questionnaire. This approach is crucial for understanding how users navigate trade-offs, similar to how they might evaluate different loan repayment options or prioritize features during card activation onboarding. Researchers should champion the use of qualitative methods to supplement quantitative data when exploring user decision-making in critical flows."
     }
   ]
 }
