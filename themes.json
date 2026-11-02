@@ -1,56 +1,56 @@
 {
   "month": "2026-11",
-  "updated": "2026-11-01",
+  "updated": "2026-11-02",
   "themes": [
     {
-      "name": "Agentic AI development",
-      "count": 27,
-      "description": "Articles discussing the creation, capabilities, limitations, and practical application of autonomous AI agents in various development and research contexts."
+      "name": "Agentic AI in research",
+      "count": 15,
+      "description": "Articles discussing AI agents that can autonomously perform research tasks, make decisions, or interact with systems."
     },
     {
       "name": "AI coding assistants",
-      "count": 11,
-      "description": "Content focusing on AI tools that assist developers in writing, understanding, and debugging code, including their effectiveness and trustworthiness."
+      "count": 14,
+      "description": "Focuses on AI tools that help developers write, review, and manage code."
     },
     {
-      "name": "AI research platform",
-      "count": 2,
-      "description": "Articles highlighting AI tools and platforms designed to streamline or enhance the research process in specific domains, such as legal research."
+      "name": "AI research tools",
+      "count": 10,
+      "description": "Covers various AI-powered tools designed to assist in the research process, from data gathering to analysis."
+    },
+    {
+      "name": "AI summarization",
+      "count": 8,
+      "description": "Articles related to AI's ability to condense large amounts of text or data into concise summaries."
     },
     {
       "name": "AI tool evaluation",
+      "count": 7,
+      "description": "Reviews and comparisons of different AI tools, focusing on their performance, features, and effectiveness."
+    },
+    {
+      "name": "AI guardrails and security",
       "count": 6,
-      "description": "This theme covers articles where authors test, compare, and assess the performance and utility of various AI tools and models."
+      "description": "Discusses the implementation of safety measures, ethical considerations, and security protocols for AI systems."
     },
     {
       "name": "AI for design & research",
-      "count": 4,
-      "description": "Articles exploring the application of AI in the design process and in user research activities, including ideation and analysis."
+      "count": 5,
+      "description": "Articles on how AI is used to aid in the design process and conduct user research."
     },
     {
       "name": "AI-powered data analysis",
-      "count": 3,
-      "description": "Content related to using AI for analyzing large datasets to extract insights, identify patterns, and inform decision-making."
+      "count": 4,
+      "description": "Examines how AI is applied to analyze datasets, uncover insights, and drive decision-making."
+    },
+    {
+      "name": "Conversational AI in research",
+      "count": 4,
+      "description": "Focuses on AI chatbots and language models used for interactive research, interviews, or customer interactions."
     },
     {
       "name": "AI ethics in research",
       "count": 3,
-      "description": "Articles addressing the ethical considerations, biases, and trustworthiness of AI systems when applied to research and decision-making."
-    },
-    {
-      "name": "AI chatbot research",
-      "count": 1,
-      "description": "Focuses on the research and development of AI chatbots, particularly their conversational capabilities and how to influence their output."
-    },
-    {
-      "name": "AI for product management",
-      "count": 2,
-      "description": "Articles discussing how AI can be utilized to support product managers in their decision-making, strategy, and execution."
-    },
-    {
-      "name": "AI content generation",
-      "count": 1,
-      "description": "This theme covers AI tools and techniques used for creating new content, such as text, code, or media."
+      "description": "Addresses the ethical implications and challenges of using AI in research and product development."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
