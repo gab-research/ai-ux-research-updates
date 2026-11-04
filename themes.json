@@ -1,56 +1,56 @@
 {
   "month": "2026-11",
-  "updated": "2026-11-03",
+  "updated": "2026-11-04",
   "themes": [
     {
-      "name": "Agentic AI research",
-      "count": 18,
-      "description": "Focuses on AI agents performing tasks and research autonomously, their capabilities, limitations, and applications in various domains."
+      "name": "AI coding assistants",
+      "count": 20,
+      "description": "Articles focusing on AI tools that help developers write, debug, and review code."
     },
     {
-      "name": "AI coding assistants",
-      "count": 13,
-      "description": "Covers tools and research related to AI that helps developers write, review, and debug code."
+      "name": "Agentic AI in research",
+      "count": 11,
+      "description": "Content discussing AI agents that can perform research tasks autonomously or with minimal human intervention."
     },
     {
       "name": "AI for product research",
-      "count": 7,
-      "description": "Explores how AI is being applied to various aspects of product development, from ingredient research to go-to-market growth."
+      "count": 8,
+      "description": "Articles detailing how AI is used to gather insights and inform product development decisions."
     },
     {
       "name": "AI chatbot research",
       "count": 7,
-      "description": "Investigates the use of AI chatbots in research, including their impact on user behavior and potential for misinformation."
+      "description": "Discussions on the use of AI chatbots in research, their capabilities, and potential impacts."
+    },
+    {
+      "name": "AI testing automation",
+      "count": 7,
+      "description": "Focuses on AI applications for automating the testing of software and systems."
+    },
+    {
+      "name": "AI research tools",
+      "count": 7,
+      "description": "Articles highlighting various AI-powered tools designed to assist in research processes."
+    },
+    {
+      "name": "AI for design & research",
+      "count": 6,
+      "description": "Covers the intersection of AI in the design process and user research methodologies."
     },
     {
       "name": "Synthetic users",
-      "count": 7,
-      "description": "Addresses the creation and use of synthetic data or personas for AI research and testing, along with concerns about authenticity."
+      "count": 6,
+      "description": "Articles discussing the creation and use of artificial user profiles or data for research and testing."
     },
     {
       "name": "AI research platform",
       "count": 6,
-      "description": "Discusses platforms and tools that leverage AI to enhance research capabilities across different industries."
+      "description": "Content about platforms that leverage AI to facilitate and enhance research operations."
     },
     {
-      "name": "AI research tools",
-      "count": 5,
-      "description": "Covers a variety of AI-powered tools designed to assist in research processes and data analysis."
-    },
-    {
-      "name": "AI sentiment feedback",
-      "count": 2,
-      "description": "Focuses on how AI is used to analyze and understand user sentiment from feedback and social media."
-    },
-    {
-      "name": "AI summarization",
-      "count": 2,
-      "description": "Explores the application of AI for summarizing large amounts of text and data into concise insights."
-    },
-    {
-      "name": "AI for design & research",
-      "count": 2,
-      "description": "Examines the intersection of AI with design processes and user research methodologies."
+      "name": "AI survey tools",
+      "count": 6,
+      "description": "Discussions on AI applications for creating, distributing, and analyzing surveys."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
