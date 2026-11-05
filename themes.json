@@ -3,54 +3,54 @@
   "updated": "2026-11-05",
   "themes": [
     {
-      "name": "AI coding assistants",
-      "count": 18,
-      "description": "This theme covers articles discussing AI tools that assist developers in writing, reviewing, and debugging code."
+      "name": "Agentic AI in research",
+      "count": 23,
+      "description": "Focuses on AI agents that can autonomously perform research tasks, interact with systems, and make decisions within research workflows."
     },
     {
-      "name": "Agentic AI in research",
-      "count": 12,
-      "description": "Articles focusing on AI agents that autonomously perform research tasks or support research workflows."
+      "name": "AI coding assistants",
+      "count": 21,
+      "description": "Covers AI tools that assist developers in writing, debugging, and understanding code, often integrated into IDEs or development workflows."
+    },
+    {
+      "name": "AI research tools",
+      "count": 17,
+      "description": "Highlights a broad category of AI-powered platforms and software designed to facilitate various aspects of research, from data analysis to insight generation."
     },
     {
       "name": "AI chatbot research",
       "count": 6,
-      "description": "This theme covers research related to the use, impact, and behavior of AI chatbots, particularly in user interactions and information gathering."
+      "description": "Examines the use, impact, and research findings related to AI-powered conversational agents and their role in information gathering and interaction."
     },
     {
-      "name": "AI research tools",
+      "name": "AI for product management",
       "count": 6,
-      "description": "Articles highlighting specific AI-powered tools designed to aid in various aspects of research, from data analysis to insight generation."
-    },
-    {
-      "name": "AI survey tools",
-      "count": 6,
-      "description": "This theme focuses on AI applications designed to enhance or automate the process of creating, distributing, and analyzing surveys."
-    },
-    {
-      "name": "Synthetic users",
-      "count": 5,
-      "description": "Content related to the creation and use of artificial or simulated users for testing and research purposes."
-    },
-    {
-      "name": "AI for product research",
-      "count": 5,
-      "description": "Articles discussing the application of AI in understanding product performance, market trends, and user needs for product development."
-    },
-    {
-      "name": "AI customer insights",
-      "count": 5,
-      "description": "This theme covers AI applications used to gather, analyze, and derive actionable insights from customer data and behavior."
-    },
-    {
-      "name": "AI research platform",
-      "count": 7,
-      "description": "Articles about comprehensive AI platforms built to support or automate research processes and discovery."
+      "description": "Articles focusing on how AI is being integrated into product development, strategy, and management processes."
     },
     {
       "name": "AI design research",
-      "count": 3,
-      "description": "Content discussing how AI is applied to research processes specifically within the design discipline, aiding designers in understanding users and creating better interfaces."
+      "count": 5,
+      "description": "Explores the application of AI in understanding user needs, generating design ideas, and evaluating design effectiveness."
+    },
+    {
+      "name": "AI survey tools",
+      "count": 9,
+      "description": "Covers AI applications that enhance survey creation, distribution, analysis, and the insights derived from survey data."
+    },
+    {
+      "name": "Synthetic users",
+      "count": 4,
+      "description": "Discusses the creation and use of artificial user profiles or data for testing, simulation, or research purposes."
+    },
+    {
+      "name": "AI summarization",
+      "count": 2,
+      "description": "Focuses on AI capabilities that condense large amounts of text or data into concise summaries for quicker comprehension."
+    },
+    {
+      "name": "AI testing automation",
+      "count": 4,
+      "description": "Articles that discuss AI's role in automating various stages of software and system testing, including self-healing and efficiency."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
