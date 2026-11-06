@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-11-06T06:12:00.601Z",
+  "lastUpdated": "2026-11-06T15:50:39.193Z",
   "updates": [
     {
       "date": "2026-11-05",
@@ -578,18 +578,6 @@
         "url": "https://uxdesign.cc/ai-generated-ui-is-fast-design-not-ux-855ca8abcd28?source=rss----138adf9c44c---4"
       },
       "analysis": "At Nubank, AI-generated UI could be leveraged in our early ideation and prototyping phases. For instance, when exploring new features for our PIX experience or potential improvements to the onboarding flow for new customers, AI tools could quickly produce multiple visual directions for card designs or layout options. UX researchers can then use these AI-generated concepts as a springboard for qualitative research, presenting them to users during interviews or usability tests to gather feedback on clarity, intuitiveness, and overall appeal. This approach allows us to rapidly explore a wider design space before investing significant time in detailed design and development.\n\nIt's vital that Nubank researchers remember that AI-generated UI is a tool for efficiency, not a replacement for user empathy and critical thinking. Researchers must rigorously validate these designs against actual user needs and business goals, especially in sensitive areas like loan applications or insurance product interfaces where clarity and trust are paramount.  AI outputs should be treated as hypotheses to be tested, not finished products. We must ensure that the AI-generated designs are thoroughly evaluated for accessibility, inclusivity, and alignment with Nubank's established design system and brand voice, particularly when considering core functionalities like card activation or managing customer accounts."
-    },
-    {
-      "date": "2026-10-07",
-      "title": "E-cigarette & Vaping UX Benchmark: 3,600+ Performance Scores and 2,500+ Best Practice Examples",
-      "summary": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) At Baymard, we’ve just released a new UX benchmark with 7 “E-cigarette & Vaping” UX case studi...",
-      "content": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) At Baymard, we’ve just released a new UX benchmark with 7 “E-cigarette & Vaping” UX case studies. This follows from our large-scale UX user testing and adds to our existing ecommerce UX benchmark. In this article, we give you a snapshot of the overall UX performance. 7 E-cigarette & Vaping UX Case Studies and the Overall Performance Get Premium access to review your own site or have it audited by Baymard researchers. These are the 7 in-depth E-cigarette & Vaping UX case studies. The 7 sites have been manually assessed across 500+ research-based UX parameters relevant to E-cigarette & Vaping ecommerce, resulting in 3,600+ weighted UX performance scores and 2,500+ best practice examples from these desktop and mobile sites. Each of the 3,600+ UX performance scores from the 7 E-cigarette & Vaping case studies is summarized in the interactive scatterplot below — showing you how they perform collectively and individually: {{ scatterplot-graph: size=big + habitat=public + base-sites=collection:e-cigarette-...",
-      "category": "AI in user testing",
-      "source": {
-        "name": "Baymard Institute",
-        "url": "https://feeds.baymard.com/link/9825/17491220/e-cigarette-and-vaping-ux-benchmark-2026"
-      },
-      "analysis": "At Nubank, this Baymard benchmark can inform our understanding of user expectations for digital product experiences, especially in categories with complex information or regulatory considerations, drawing parallels to areas like onboarding for PIX transfers or the user journey for loan applications. Researchers can leverage this report to identify patterns in how users navigate and interact with detailed product information, assess the clarity of instructions and feature explanations, and benchmark our own digital interfaces against established best practices, even if the product category differs. This can be particularly useful when refining our digital insurance offerings or enhancing the clarity of our credit card activation process.\n\nWhen applying this, it's crucial to remember the domain specificity. While the principles of clear information hierarchy, intuitive navigation, and effective error handling are universal, the specific content and user goals in e-cigarettes differ significantly from banking. Researchers should focus on extracting the underlying UX principles and methodologies rather than directly applying e-cigarette examples. Guardrails include avoiding direct feature transplantation and instead using the benchmark as a source of inspiration for innovative solutions to our own unique Nubank challenges, ensuring our research remains grounded in the specific needs of our Brazilian users and the context of our financial products."
     },
     {
       "date": "2026-10-07",
