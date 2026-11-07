@@ -1,56 +1,56 @@
 {
   "month": "2026-11",
-  "updated": "2026-11-06",
+  "updated": "2026-11-07",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 19,
-      "description": "Articles discussing AI agents being used for research tasks, including data collection, analysis, and decision-making."
+      "count": 17,
+      "description": "Focuses on AI agents performing research tasks autonomously or with minimal human intervention."
     },
     {
       "name": "AI coding assistants",
-      "count": 13,
-      "description": "Content focused on AI tools that assist developers with writing, debugging, and reviewing code."
+      "count": 17,
+      "description": "Explores AI tools that assist developers in writing, debugging, and understanding code."
     },
     {
       "name": "AI research tools",
-      "count": 13,
-      "description": "Articles about various AI-powered tools and platforms designed to aid researchers in their work."
-    },
-    {
-      "name": "AI survey tools",
-      "count": 12,
-      "description": "Discussions on AI applications for creating, distributing, and analyzing surveys."
+      "count": 15,
+      "description": "Covers a broad range of AI applications used to facilitate or enhance various research processes."
     },
     {
       "name": "AI usability testing",
-      "count": 4,
-      "description": "Articles covering the use of AI in evaluating the usability and user experience of products and systems."
-    },
-    {
-      "name": "AI for product management",
-      "count": 4,
-      "description": "Content related to how AI is being applied to product development, roadmapping, and decision-making."
-    },
-    {
-      "name": "AI design research",
-      "count": 4,
-      "description": "Articles focusing on AI's role in informing and executing design processes, from ideation to implementation."
+      "count": 3,
+      "description": "Discusses AI's role in evaluating and improving the user-friendliness of products and interfaces."
     },
     {
       "name": "AI qualitative research",
       "count": 4,
-      "description": "Discussions on AI's application in gathering and analyzing qualitative data and insights."
+      "description": "Highlights AI's application in understanding user opinions, experiences, and motivations."
     },
     {
-      "name": "AI chatbot research",
-      "count": 3,
-      "description": "Content exploring the use and impact of AI chatbots in various research contexts, including user interactions and information gathering."
+      "name": "AI design research",
+      "count": 4,
+      "description": "Focuses on AI's impact on the process of researching and informing design decisions."
     },
     {
-      "name": "AI research platform",
-      "count": 13,
-      "description": "Articles about platforms that leverage AI to provide comprehensive research capabilities and insights."
+      "name": "Synthetic users",
+      "count": 7,
+      "description": "Addresses the use of AI-generated personas or data to simulate real user behavior and feedback."
+    },
+    {
+      "name": "AI summarization",
+      "count": 4,
+      "description": "Covers AI's capability to condense large volumes of text or data into concise summaries."
+    },
+    {
+      "name": "AI survey tools",
+      "count": 8,
+      "description": "Explores AI applications for creating, distributing, analyzing, and optimizing surveys."
+    },
+    {
+      "name": "AI for product management",
+      "count": 6,
+      "description": "Details how AI is being used to inform and improve product development and strategy."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
