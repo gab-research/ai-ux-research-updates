@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-11-07T20:06:25.779Z",
+  "lastUpdated": "2026-11-08T05:43:01.820Z",
   "updates": [
     {
       "date": "2026-11-06",
@@ -554,18 +554,6 @@
         "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20261012"
       },
       "analysis": "At Nubank, this roundup directly informs our approach to continuous UX improvement across all product lines. For instance, the discussion on CAPTCHA failures is relevant to our account security and login flows; we should investigate if users encounter similar difficulties when verifying transactions or activating new cards and consider alternative, less intrusive security measures. The contemplation of 'undo' for the AI age prompts us to review how users manage mistakes in critical financial operations like sending PIX transfers or applying for loans, ensuring clarity and recoverability even as AI features become more integrated. Researchers can proactively explore user perceptions of AI-driven features, like personalized financial advice or automated customer service interactions, to ensure they are helpful rather than intrusive, especially during sensitive processes like onboarding or insurance claims.\n\nWhen applying these insights, researchers should prioritize user control and transparency. For AI-powered features, such as those that might suggest loan eligibility or help manage credit card spending, we need to clearly communicate how AI is being used and provide users with the ability to override AI suggestions or revert to manual control. This is particularly important in a sensitive domain like banking where trust is paramount. We must also avoid designs that feel overly \"robotic\" or that diminish the user's sense of agency, such as the educational AI that students disliked. Researchers should conduct usability tests focusing on these aspects, ensuring that AI enhancements augment, rather than detract from, the intuitive and empowering experience Nubank users expect, particularly in core flows like card management or managing investments."
-    },
-    {
-      "date": "2026-10-09",
-      "title": "UX Roundup: Erik the Red | AI Thematic Analysis | Nano Banana 2.1 | Scrolling | Fast Asymptote in AI Skills | Average Users | Wishlists | Usability Testing Without Findings | Naming Consistency",
-      "summary": "How Erik the Red discovered Greenland | AI now codes user comments as well as UX researchers do | Google’s Nano Banana 2.1 is only a marginal upgrade | Scrolling imposes a memory load if related items are far apart | Users quickly settle on a narrow set of AI prompts | The ave...",
-      "content": "Jakob Nielsen's latest UX Roundup highlights the growing impact of AI on UX research, particularly in thematic analysis of user comments. The article posits that AI can now perform this task with a proficiency comparable to human researchers, suggesting a significant shift in how qualitative data is processed. This is crucial for UX researchers as it could automate tedious coding, freeing up valuable time for deeper interpretation and strategic insights. Practically, this means UX teams can potentially scale their qualitative research efforts dramatically, enabling them to analyze larger datasets and identify trends more rapidly across diverse user feedback channels.",
-      "category": "AI summarization",
-      "source": {
-        "name": "Jakob Nielsen (Substack)",
-        "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20261009"
-      },
-      "analysis": "At Nubank, the AI's ability to code user comments as described in this article directly impacts our qualitative analysis workflow. Instead of manual thematic coding of feedback from customer support tickets, app reviews, or NPS open-ended responses related to PIX transactions or loan applications, researchers can leverage AI tools. This should be integrated into our post-research analysis phase, where raw qualitative data is fed into an AI model trained on UX research best practices. Researchers would then focus on refining the AI's output, validating themes, and uncovering nuanced user needs and pain points, rather than the initial classification.\n\nThis AI-assisted thematic analysis is particularly relevant for high-volume areas like onboarding flows for new customers or the card activation process, where understanding common friction points is critical. However, guardrails are essential. Researchers must maintain oversight, as AI might miss subtle context, emotional cues, or emergent themes unique to the Brazilian market or specific Nubank product nuances.  It's vital to remember AI is a tool to augment, not replace, human analytical judgment.  The AI's output should be treated as a strong starting point for deeper investigation, ensuring we don't lose the 'human touch' in understanding our users' experiences with products like Nubank Seguros or our credit card features."
     }
   ]
 }
