@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-11-08T20:20:39.731Z",
+  "lastUpdated": "2026-11-09T05:53:22.710Z",
   "updates": [
     {
       "date": "2026-11-06",
@@ -14,6 +14,18 @@
         "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science"
       },
       "analysis": "This development is highly relevant to Nubank's UX research workflow, particularly in analyzing large datasets generated from user testing of new features or existing products like loans or insurance. Researchers can explore using AI agents evaluated against benchmarks like BioBasicsBench to process interview transcripts, survey responses, or behavioral analytics data more efficiently. Imagine an AI agent that can quickly identify common pain points in the PIX transfer flow or detect emerging user needs related to card activation based on analyzing thousands of customer feedback entries. This allows researchers to spend more time on synthesis, strategy, and actionable recommendations rather than raw data wrangling.\n\nWhen applying this at Nubank, researchers should approach AI agents as powerful analytical assistants rather than replacements for human judgment.  It's crucial to maintain critical oversight, ensuring the AI's interpretations are validated against qualitative research and domain expertise.  Guardrails should be in place to prevent over-reliance on AI-generated insights, especially concerning sensitive user data or critical product decisions impacting areas like credit underwriting or fraud detection.  The AI's 'understanding' of data, while improving, may still lack the empathy and contextual nuance a human researcher brings to understanding complex user journeys in areas like loan applications or new account onboarding."
+    },
+    {
+      "date": "2026-11-06",
+      "title": "UX Roundup: Slow AI | Emphasis | Goals vs. Execution | Too Many Apps | AI Homework | Cookie Banners | Productivity | Elaboration Likelihood Model",
+      "summary": "Decision maps beat transcripts for overseeing long-running AI agents | Emphasis is a zero-sum game | Humans set goals for AI agents, but the agents heavily influence execution methods | Not everything should be a standalone app | Feedback on students’ AI use curbs answer-grabb...",
+      "content": "Jakob Nielsen's latest UX roundup highlights critical considerations for AI's evolving role in user experience, particularly its impact on research. He argues that visual \"decision maps\" are more effective than raw transcripts for tracking the progress and logic of long-running AI agents, a crucial distinction for understanding complex AI interactions. The piece also emphasizes that \"emphasis\" in design is a finite resource, and AI agents, while set by human goals, significantly shape the execution details, necessitating careful oversight. Furthermore, Nielsen cautions against the proliferation of single-purpose apps, advocating for more integrated solutions, and notes that providing structured feedback on student AI usage can mitigate over-reliance. These points are vital for UX researchers as AI becomes more integrated into our tools and the products we study, demanding new methods for analysis and strategic design thinking.",
+      "category": "Sentiment & feedback analysis",
+      "source": {
+        "name": "Jakob Nielsen (Substack)",
+        "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20261106"
+      },
+      "analysis": "At Nubank, this roundup offers actionable insights for our UX research workflow, especially as we explore AI-powered features and tools. For analyzing complex AI interactions, like those in a PIX payment flow that might involve an AI chatbot guiding a user through an error state, we should prioritize developing \"decision maps\" over solely relying on chat logs. This visual representation will help researchers quickly grasp the AI's reasoning and identify where it deviates or struggles. This is especially relevant for long-term AI agents assisting with loan applications or complex insurance claims, where understanding the iterative decision-making process is paramount.\n\nWhen evaluating existing or prospective AI features, such as an AI assistant for card activation or during onboarding, researchers should actively assess how human goals are translated into AI execution. This means asking not just *what* the AI is supposed to achieve (e.g., a smooth onboarding experience), but *how* it's doing it and whether that method aligns with user expectations and our brand. We need to guard against AI \"over-emphasis\" on certain aspects of a flow, potentially at the expense of others. Researchers should also be mindful of the \"too many apps\" sentiment, advocating for AI integrations that enhance existing Nubank app experiences rather than fragmenting them. For example, integrating AI-driven personalization within the existing app for credit limit suggestions or tailored investment advice would be more effective than a standalone AI product."
     },
     {
       "date": "2026-11-05",
