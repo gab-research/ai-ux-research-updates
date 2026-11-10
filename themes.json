@@ -1,56 +1,56 @@
 {
   "month": "2026-11",
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 26,
-      "description": "Covers AI agents performing research tasks, interacting with systems, and managing research processes autonomously or semi-autonomously."
+      "count": 24,
+      "description": "Articles discussing AI agents capable of performing research tasks autonomously or semi-autonomously."
     },
     {
       "name": "AI coding assistants",
+      "count": 23,
+      "description": "Content focused on AI tools that assist developers in writing, debugging, and reviewing code."
+    },
+    {
+      "name": "AI research tools",
       "count": 18,
-      "description": "Focuses on AI tools that help developers write, review, debug, and manage code, including identifying vulnerabilities."
+      "description": "Articles about specific AI applications or platforms designed to aid in various research processes."
     },
     {
       "name": "AI design research",
-      "count": 14,
-      "description": "Explores how AI is used in the UI/UX design process, from generating designs to aiding designers in their workflows."
-    },
-    {
-      "name": "AI survey tools",
-      "count": 13,
-      "description": "Articles discussing AI applications for creating, analyzing, and managing surveys, as well as the insights derived from them."
-    },
-    {
-      "name": "AI chatbot research",
-      "count": 10,
-      "description": "Investigates the development, capabilities, and potential issues of AI chatbots, particularly in areas like information dissemination and user interaction."
-    },
-    {
-      "name": "AI research tools broad",
-      "count": 10,
-      "description": "Encompasses a wide range of AI applications and news relevant to research, including new models, company updates, and industry news."
+      "count": 16,
+      "description": "Discussions on how AI is being used to inform and assist in the design process, including UI/UX."
     },
     {
       "name": "Synthetic users",
-      "count": 9,
-      "description": "Examines the creation and use of artificial entities or data that mimic human users for research and testing purposes."
+      "count": 11,
+      "description": "Content related to the creation and use of artificial user personas or data for research and testing."
     },
     {
-      "name": "AI research platform",
+      "name": "LLM research",
       "count": 8,
-      "description": "Covers platforms and tools that integrate AI to streamline and accelerate various aspects of research and development."
+      "description": "Articles specifically detailing research, advancements, or applications of Large Language Models."
+    },
+    {
+      "name": "AI sentiment feedback",
+      "count": 7,
+      "description": "Focuses on AI's role in analyzing and interpreting user sentiment from reviews, conversations, and other feedback sources."
+    },
+    {
+      "name": "AI survey tools",
+      "count": 7,
+      "description": "Articles covering AI applications for creating, distributing, analyzing, or optimizing surveys."
+    },
+    {
+      "name": "AI product research",
+      "count": 7,
+      "description": "Content related to AI's application in understanding product performance, market trends, and user needs."
     },
     {
       "name": "AI summarization",
       "count": 6,
-      "description": "Focuses on AI's ability to condense large amounts of text, such as articles, research papers, or transcripts, into concise summaries."
-    },
-    {
-      "name": "AI product research",
-      "count": 6,
-      "description": "Discusses AI applications in understanding product development, market analysis, and the impact of AI on product roadmaps."
+      "description": "Discussions on AI tools and techniques for condensing large amounts of text or data into concise summaries."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
