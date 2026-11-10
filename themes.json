@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 24,
-      "description": "Articles discussing AI agents capable of performing research tasks autonomously or semi-autonomously."
+      "count": 27,
+      "description": "Covers AI agents actively participating in or conducting research activities, including autonomous exploration and task execution."
     },
     {
       "name": "AI coding assistants",
-      "count": 23,
-      "description": "Content focused on AI tools that assist developers in writing, debugging, and reviewing code."
+      "count": 19,
+      "description": "Focuses on AI tools that assist developers in writing, reviewing, and debugging code, accelerating the development lifecycle."
     },
     {
       "name": "AI research tools",
-      "count": 18,
-      "description": "Articles about specific AI applications or platforms designed to aid in various research processes."
+      "count": 17,
+      "description": "Encompasses a broad range of AI-powered tools and platforms designed to aid researchers in various aspects of their work, from data analysis to literature review."
     },
     {
-      "name": "AI design research",
-      "count": 16,
-      "description": "Discussions on how AI is being used to inform and assist in the design process, including UI/UX."
+      "name": "AI summarization",
+      "count": 11,
+      "description": "Articles detailing AI's capability to condense large amounts of text or data into concise summaries, aiding in information digestion."
     },
     {
       "name": "Synthetic users",
-      "count": 11,
-      "description": "Content related to the creation and use of artificial user personas or data for research and testing."
+      "count": 9,
+      "description": "Discusses the creation and use of artificial user profiles or data for testing, research, or simulations."
     },
     {
-      "name": "LLM research",
-      "count": 8,
-      "description": "Articles specifically detailing research, advancements, or applications of Large Language Models."
+      "name": "AI for design & research",
+      "count": 9,
+      "description": "Highlights AI applications specifically tailored to enhance the user experience (UX) design and user research processes."
     },
     {
       "name": "AI sentiment feedback",
       "count": 7,
-      "description": "Focuses on AI's role in analyzing and interpreting user sentiment from reviews, conversations, and other feedback sources."
+      "description": "Covers the use of AI to analyze and interpret user feedback, reviews, and sentiment to gauge product perception."
     },
     {
-      "name": "AI survey tools",
+      "name": "AI testing automation",
       "count": 7,
-      "description": "Articles covering AI applications for creating, distributing, analyzing, or optimizing surveys."
+      "description": "Focuses on AI's role in automating various stages of software testing, improving efficiency and accuracy."
     },
     {
-      "name": "AI product research",
+      "name": "AI research platform",
       "count": 7,
-      "description": "Content related to AI's application in understanding product performance, market trends, and user needs."
+      "description": "Articles about integrated platforms that leverage AI to provide comprehensive research capabilities or services."
     },
     {
-      "name": "AI summarization",
+      "name": "AI workforce impact",
       "count": 6,
-      "description": "Discussions on AI tools and techniques for condensing large amounts of text or data into concise summaries."
+      "description": "Examines how AI is changing the nature of work, job roles, and employment dynamics across industries."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
