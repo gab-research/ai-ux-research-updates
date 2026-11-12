@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-11-11T16:01:27.591Z",
+  "lastUpdated": "2026-11-12T06:54:21.549Z",
   "updates": [
+    {
+      "date": "2026-11-11",
+      "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+      "summary": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
+      "content": "Vijay Seshadri, JioStar's chief architect, shares valuable insights into implementing AI-driven discovery for a massive user base of 500 million.  The core message revolves around the practical challenges and solutions for integrating AI into product development at scale, focusing on robust evaluation methods and essential safety measures. For UX researchers, this is crucial as it highlights the potential of AI to personalize user experiences and surface relevant information more effectively, impacting how we design and iterate on features like personalized loan offers or proactive fraud detection.",
+      "category": "AI research tools",
+      "source": {
+        "name": "OpenAI Blog",
+        "url": "https://openai.com/index/jiostar-vijay-seshadri"
+      },
+      "analysis": "At Nubank, this article's principles can be integrated into our iterative research and development cycle, particularly for large-scale feature personalization. For example, during the onboarding flow, AI discovery could help identify user pain points by analyzing interaction patterns and surfacing common drop-off points that might be missed by traditional qualitative methods. Similarly, when exploring new financial products or refining existing ones like PIX transactions or insurance offerings, AI can help identify emergent user needs or unmet desires at a scale that complements our existing user interview and usability testing. This allows us to move beyond hypotheses and uncover opportunities directly from user behavior data.\n\nWhen applying AI discovery at Nubank, researchers should focus on defining clear evaluation metrics that align with our UX goals, such as increased engagement, reduced task completion time, or improved customer satisfaction for specific flows. It's critical to establish 'guardrails' to ensure AI recommendations or insights are ethical, unbiased, and align with Nubank's brand promise. For instance, when suggesting credit card activation tips or personalized loan product details, the AI should be trained to avoid discriminatory patterns and prioritize user financial well-being. Researchers must act as the human oversight, interpreting AI-generated insights and validating them with qualitative research to ensure they translate into genuinely positive user experiences, rather than just optimizing for a single metric."
+    },
     {
       "date": "2026-11-10",
       "title": "Closing the AI guidance gap in education",
