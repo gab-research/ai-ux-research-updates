@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-11-12T06:54:21.549Z",
+  "lastUpdated": "2026-11-12T16:44:08.970Z",
   "updates": [
+    {
+      "date": "2026-11-12",
+      "title": "Supporting research on AI and children’s safety",
+      "summary": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
+      "content": "OpenAI's significant $2 million investment in AI and children's safety research signals a growing industry commitment to understanding the complex interplay between AI technologies and young users. This initiative aims to develop shared frameworks and tools for rigorously assessing both the potential dangers and beneficial applications of AI for children. For UX researchers, this is crucial as it highlights the increasing need to prioritize safety, ethical considerations, and user well-being, especially when designing products and services that might be accessed or influenced by younger demographics. The practical implication is a push towards more robust testing methodologies and a deeper understanding of how AI features might impact children's development, privacy, and overall online experience.",
+      "category": "AI research tools",
+      "source": {
+        "name": "OpenAI Blog",
+        "url": "https://openai.com/index/children-first-declaration"
+      },
+      "analysis": "This OpenAI initiative directly aligns with Nubank's commitment to user safety and ethical product development, particularly as we expand our offerings and user base. Researchers should actively monitor and integrate findings from this field into our work, especially when exploring AI-powered features for customer support, personalization, or even fraud detection that could inadvertently affect younger users or those with limited digital literacy. For example, when designing new onboarding flows or refining PIX transaction experiences, we should consider how AI recommendations or security measures might be perceived or misused by minors, incorporating age-appropriateness and safety checks into our usability studies and heuristic evaluations.\n\nTo apply this at Nubank, researchers should proactively seek out and contribute to discussions around AI ethics and child safety within the UX community. This could involve participating in industry forums, reviewing relevant academic literature, and even initiating internal workshops to educate teams on best practices. When conducting research on features that could be accessed by or impact a broad audience, including potential younger users (even indirectly, such as through parental accounts or family-oriented financial education tools), researchers should incorporate specific probes and scenarios to evaluate potential risks to minors. This might include questions about data privacy, exposure to inappropriate content, or understanding of financial concepts facilitated by AI, ensuring that our innovations in areas like credit card activation or loan applications uphold the highest standards of safety and responsibility."
+    },
     {
       "date": "2026-11-11",
       "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
