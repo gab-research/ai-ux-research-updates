@@ -1,56 +1,56 @@
 {
   "month": "2026-11",
-  "updated": "2026-11-13",
+  "updated": "2026-11-14",
   "themes": [
     {
       "name": "Agentic AI in research",
       "count": 33,
-      "description": "Covers the use of autonomous AI agents to perform research tasks, from data collection to analysis, often with a focus on their capabilities and limitations."
+      "description": "Covers research conducted or assisted by autonomous AI agents, focusing on their capabilities, limitations, and application in discovery and analysis."
     },
     {
       "name": "AI coding assistants",
-      "count": 23,
-      "description": "Focuses on AI tools that help developers write, review, and debug code, including their security implications and efficiency."
+      "count": 18,
+      "description": "Focuses on AI tools that help developers write, review, and debug code, including their security implications and performance benchmarks."
     },
     {
       "name": "AI research tools",
-      "count": 19,
-      "description": "Explores various AI-powered platforms and tools designed to aid researchers in their work, from discovery to analysis."
+      "count": 17,
+      "description": "Articles discussing various AI-powered tools and platforms specifically designed to aid researchers in data collection, analysis, and discovery."
     },
     {
       "name": "Synthetic users",
-      "count": 13,
-      "description": "Discusses the creation and use of AI-generated users for research, testing, and analysis, along with associated ethical and practical concerns."
+      "count": 12,
+      "description": "Explores the creation and use of AI-generated users or data for research, testing, and simulation purposes, including their limitations and trustworthiness."
     },
     {
-      "name": "AI summarization",
-      "count": 10,
-      "description": "Highlights AI tools and techniques for summarizing large amounts of text, such as research papers, earnings calls, and articles."
+      "name": "AI for design & research",
+      "count": 11,
+      "description": "Articles detailing how AI is integrated into the design process for UX, UI, and product design, as well as its application in broader research methodologies."
     },
     {
       "name": "AI customer insights",
-      "count": 15,
-      "description": "Covers the application of AI in gathering, analyzing, and leveraging customer data to drive business decisions and improve experiences."
+      "count": 16,
+      "description": "Covers the use of AI to extract actionable insights from customer data, feedback, and interactions to inform product development and strategy."
     },
     {
-      "name": "AI sentiment feedback",
-      "count": 9,
-      "description": "Focuses on AI's role in analyzing user sentiment from various sources like social media, reviews, and customer feedback."
-    },
-    {
-      "name": "AI for design research",
-      "count": 9,
-      "description": "Examines how AI is being integrated into the design process to assist with research, ideation, and the creation of user interfaces and experiences."
-    },
-    {
-      "name": "AI survey tools",
+      "name": "AI summarization",
       "count": 11,
-      "description": "Features AI applications and platforms specifically designed to enhance survey creation, distribution, and analysis, including bias detection."
+      "description": "Focuses on AI tools and techniques for condensing large amounts of text, such as research papers, earnings calls, or transcripts, into concise summaries."
     },
     {
-      "name": "AI chatbot research",
-      "count": 7,
-      "description": "Investigates the use of AI chatbots in research contexts, including their accuracy, potential for misinformation, and role in user interaction."
+      "name": "AI testing automation",
+      "count": 9,
+      "description": "Articles detailing how AI is used to automate various testing processes in software development, from functional testing to security checks."
+    },
+    {
+      "name": "AI usability testing",
+      "count": 3,
+      "description": "Explores the application of AI in evaluating the usability and user experience of products and interfaces."
+    },
+    {
+      "name": "AI qualitative research",
+      "count": 11,
+      "description": "Discusses the use of AI in qualitative research methods, including analysis of interviews, thematic extraction, and understanding nuanced human perspectives."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
