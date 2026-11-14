@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-11-14T14:55:57.382Z",
+  "lastUpdated": "2026-11-14T20:33:19.603Z",
   "updates": [
     {
       "date": "2026-11-13",
@@ -578,18 +578,6 @@
         "url": "https://jakobnielsenphd.substack.com/p/ux-roundup-20261016"
       },
       "analysis": "At Nubank, this article directly informs how we integrate AI into our research processes. For instance, when using AI to generate user personas or draft survey questions for initiatives like new PIX features or insurance product development, we must prioritize rigorous human review.  Researchers should dedicate time to critically assess AI outputs for accuracy, bias, and alignment with Nubank's brand voice and user needs, rather than blindly accepting them. This ensures we don't introduce errors or create confusing experiences during critical user journeys like onboarding or card activation.\n\nTo practically apply this, we need to establish clear guidelines for AI usage and validation within research projects. This means building in explicit checkpoints for reviewing AI-generated content, whether it's synthetic user journeys for loan application flows or preliminary design concepts for our credit card activation process.  Researchers should be empowered to push back on AI suggestions that don't feel user-centric or that introduce complexity.  A key limitation to remember is that AI, while a powerful tool for efficiency, cannot replace deep user empathy or strategic understanding.  Our role remains to champion the user, ensuring AI serves their needs, not the other way around, and that valuable user work, like completing a complex form, is never lost due to over-reliance on AI or poorly implemented features."
-    },
-    {
-      "date": "2026-10-15",
-      "title": "Bringing GPT-Rosalind to academic research labs",
-      "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
-      "content": "OpenAI's Rosalind Academic Plan extends access to their GPT-powered tools, specifically tailored for life sciences research, to academic institutions. This initiative democratizes cutting-edge AI for scientific discovery, enabling researchers to analyze complex datasets and generate hypotheses more efficiently. For UX researchers, this signifies the growing availability and sophistication of AI models capable of understanding and generating domain-specific content, which can be leveraged to accelerate qualitative data analysis, synthesize research findings, and even generate initial hypotheses for user behavior studies.  The practical implication is that UX teams can start exploring how these advanced language models, even those initially focused on science, can be adapted to process and extract insights from large volumes of qualitative user feedback.",
-      "category": "General AI in research",
-      "source": {
-        "name": "OpenAI Blog",
-        "url": "https://openai.com/index/introducing-the-rosalind-academic-plan"
-      },
-      "analysis": "At Nubank, the Rosalind Academic Plan, while focused on life sciences, highlights the potential of advanced GPT models for qualitative data analysis. Researchers can leverage similar AI capabilities to process interview transcripts, survey open-ended responses, and support ticket logs, identifying recurring themes and pain points in user journeys for products like PIX, loans, or insurance.  This can significantly reduce the manual effort involved in synthesis, freeing up researchers to focus on deeper analysis and strategic recommendations for improving onboarding or card activation flows.\n\nResearchers should approach this with a \"test and adapt\" mindset. While direct application of a life sciences model is unlikely, the underlying technology demonstrates AI's power to contextualize and summarize complex information.  Nubank UX researchers could explore how to fine-tune or prompt general-purpose large language models (LLMs) using anonymized, representative user feedback data. Key guardrails include ensuring strict adherence to data privacy and anonymization protocols, as well as recognizing the AI's limitations in truly understanding human emotion and nuance; human oversight and validation remain paramount for all insights generated."
     }
   ]
 }
