@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 33,
-      "description": "Covers research conducted or assisted by autonomous AI agents, focusing on their capabilities, limitations, and application in discovery and analysis."
+      "count": 34,
+      "description": "Covers AI agents autonomously conducting research, performing complex tasks, and interacting with participants or systems."
     },
     {
       "name": "AI coding assistants",
-      "count": 18,
-      "description": "Focuses on AI tools that help developers write, review, and debug code, including their security implications and performance benchmarks."
-    },
-    {
-      "name": "AI research tools",
-      "count": 17,
-      "description": "Articles discussing various AI-powered tools and platforms specifically designed to aid researchers in data collection, analysis, and discovery."
+      "count": 21,
+      "description": "Focuses on AI tools that help developers write, review, and debug code, often with a research or security angle."
     },
     {
       "name": "Synthetic users",
-      "count": 12,
-      "description": "Explores the creation and use of AI-generated users or data for research, testing, and simulation purposes, including their limitations and trustworthiness."
+      "count": 14,
+      "description": "Explores the creation and use of artificial participants or data for research and testing purposes."
     },
     {
-      "name": "AI for design & research",
+      "name": "AI research tools",
+      "count": 13,
+      "description": "Encompasses a broad range of AI-powered platforms and tools designed to facilitate various aspects of research."
+    },
+    {
+      "name": "AI design research",
+      "count": 13,
+      "description": "Highlights AI applications specifically in the field of user interface and user experience design research."
+    },
+    {
+      "name": "AI for product management",
       "count": 11,
-      "description": "Articles detailing how AI is integrated into the design process for UX, UI, and product design, as well as its application in broader research methodologies."
-    },
-    {
-      "name": "AI customer insights",
-      "count": 16,
-      "description": "Covers the use of AI to extract actionable insights from customer data, feedback, and interactions to inform product development and strategy."
-    },
-    {
-      "name": "AI summarization",
-      "count": 11,
-      "description": "Focuses on AI tools and techniques for condensing large amounts of text, such as research papers, earnings calls, or transcripts, into concise summaries."
+      "description": "Details how AI is being integrated into product development workflows and decision-making processes."
     },
     {
       "name": "AI testing automation",
-      "count": 9,
-      "description": "Articles detailing how AI is used to automate various testing processes in software development, from functional testing to security checks."
+      "count": 11,
+      "description": "Covers AI's role in automating testing processes for software, agents, and customer experiences."
+    },
+    {
+      "name": "AI customer insights",
+      "count": 11,
+      "description": "Focuses on AI's ability to analyze customer data and feedback to derive actionable insights."
+    },
+    {
+      "name": "AI summarization",
+      "count": 8,
+      "description": "Covers AI tools that condense large amounts of text, such as research papers, earnings calls, and articles."
     },
     {
       "name": "AI usability testing",
       "count": 3,
-      "description": "Explores the application of AI in evaluating the usability and user experience of products and interfaces."
-    },
-    {
-      "name": "AI qualitative research",
-      "count": 11,
-      "description": "Discusses the use of AI in qualitative research methods, including analysis of interviews, thematic extraction, and understanding nuanced human perspectives."
+      "description": "Examines AI applications in evaluating the usability and user experience of products and systems."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."

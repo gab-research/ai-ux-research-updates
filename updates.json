@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-11-14T05:58:47.547Z",
+  "lastUpdated": "2026-11-14T14:55:57.382Z",
   "updates": [
     {
       "date": "2026-11-13",
@@ -581,27 +581,15 @@
     },
     {
       "date": "2026-10-15",
-      "title": "Building an AI Voice Agent for 360 Degree Feedback: How Your360 AI Uses State Machines, Evals, and Layered Synthesis",
-      "summary": "Listen to this episode on: Spotify | Apple Podcasts What does it take to build an AI voice agent that people will talk to for 44 minutes about their own blind spots? Your360 AI found out, one call at a time. In this episode of Just Now Possible, Teresa Torres talks",
-      "content": "This article delves into the intricate process of developing an AI voice agent for 360-degree feedback, highlighting the innovative use of state machines, evaluations (evals), and layered synthesis by Your360 AI. The core challenge addressed is designing an AI that can engage users in extended, introspective conversations about their blind spots, fostering genuine self-awareness. For UX researchers, this is significant as it explores novel methods for qualitative data collection and user self-reflection, potentially enhancing how we gather insights on user perception and behavior in sensitive areas like personal development or performance. The practical implication lies in the potential for AI-driven tools to facilitate deeper, more longitudinal user understanding beyond traditional surveys or interviews.",
-      "category": "AI summarization",
-      "source": {
-        "name": "Teresa Torres (Product Talk)",
-        "url": "https://www.producttalk.org/building-an-ai-voice-agent-for-360-degree-feedback-how-your360-ai-uses-state-machines-evals-and-layered-synthesis/"
-      },
-      "analysis": "At Nubank, this approach to AI voice agents for 360-degree feedback could be integrated into post-loan application reviews or after complex financial advisory sessions. Researchers could leverage such an agent to gather nuanced insights into customer understanding of loan terms, potential risks, or the effectiveness of our financial guidance, moving beyond standard satisfaction metrics. This could provide a more qualitative understanding of customer perception and any unmet needs that might arise after interacting with products like PIX transfers, credit card activation, or even our onboarding process, helping us identify areas for improvement in clarity and support.\n\nResearchers should pilot this technology for specific user segments or product journeys where deep understanding of user rationale and potential blind spots is crucial, such as in evaluating the effectiveness of insurance policy explanations or the user experience of applying for a new credit limit. It's important to establish clear ethical guidelines and data privacy protocols, ensuring user consent and transparency about the AI's capabilities and limitations. We must also consider potential biases in the AI's conversational patterns and evaluation metrics, and implement rigorous testing to ensure fair and accurate feedback generation, especially when dealing with sensitive financial topics."
-    },
-    {
-      "date": "2026-10-15",
       "title": "Bringing GPT-Rosalind to academic research labs",
       "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
-      "content": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+      "content": "OpenAI's Rosalind Academic Plan extends access to their GPT-powered tools, specifically tailored for life sciences research, to academic institutions. This initiative democratizes cutting-edge AI for scientific discovery, enabling researchers to analyze complex datasets and generate hypotheses more efficiently. For UX researchers, this signifies the growing availability and sophistication of AI models capable of understanding and generating domain-specific content, which can be leveraged to accelerate qualitative data analysis, synthesize research findings, and even generate initial hypotheses for user behavior studies.  The practical implication is that UX teams can start exploring how these advanced language models, even those initially focused on science, can be adapted to process and extract insights from large volumes of qualitative user feedback.",
       "category": "General AI in research",
       "source": {
         "name": "OpenAI Blog",
         "url": "https://openai.com/index/introducing-the-rosalind-academic-plan"
       },
-      "analysis": "At Nubank, the Rosalind Academic Plan's concept of domain-specific AI aligns with our ongoing exploration of AI for enhancing user understanding. Our UX researchers can leverage this by identifying similar specialized AI models, or by conceptually applying the idea to our own financial product contexts. For instance, imagine a 'GPT-Nubank' trained on anonymized data from our PIX transactions, loan applications, or card activation flows. This could assist in identifying subtle friction points in onboarding for first-time users or even predicting potential user churn based on complex interaction patterns across different Nubank products like insurance or credit.\n\nResearchers should approach such tools with a focus on augmentation, not replacement. GPT-Rosalind's potential lies in its ability to surface novel hypotheses or accelerate the analysis of massive datasets, tasks that are currently time-consuming for human researchers. In Nubank's context, this could mean using a specialized AI to analyze thousands of open-ended survey responses about user sentiment towards a new feature or to identify patterns in user journeys that lead to successful loan origination. Crucially, any application must adhere to strict data privacy and security protocols, ensuring all analyses are conducted on anonymized and aggregated data, with human oversight and validation for all generated insights."
+      "analysis": "At Nubank, the Rosalind Academic Plan, while focused on life sciences, highlights the potential of advanced GPT models for qualitative data analysis. Researchers can leverage similar AI capabilities to process interview transcripts, survey open-ended responses, and support ticket logs, identifying recurring themes and pain points in user journeys for products like PIX, loans, or insurance.  This can significantly reduce the manual effort involved in synthesis, freeing up researchers to focus on deeper analysis and strategic recommendations for improving onboarding or card activation flows.\n\nResearchers should approach this with a \"test and adapt\" mindset. While direct application of a life sciences model is unlikely, the underlying technology demonstrates AI's power to contextualize and summarize complex information.  Nubank UX researchers could explore how to fine-tune or prompt general-purpose large language models (LLMs) using anonymized, representative user feedback data. Key guardrails include ensuring strict adherence to data privacy and anonymization protocols, as well as recognizing the AI's limitations in truly understanding human emotion and nuance; human oversight and validation remain paramount for all insights generated."
     }
   ]
 }
