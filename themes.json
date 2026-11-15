@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 34,
-      "description": "Articles discussing AI agents designed to perform research tasks autonomously, execute complex workflows, and aid in discovery."
+      "count": 31,
+      "description": "Articles discussing AI agents actively participating in or performing research tasks, including autonomous agents and agent frameworks."
     },
     {
       "name": "AI coding assistants",
-      "count": 23,
-      "description": "Content focusing on AI tools that help developers write, review, and debug code, including discussions on security and efficiency."
+      "count": 15,
+      "description": "Content focused on AI tools that assist in writing, reviewing, or analyzing code, including their security implications."
     },
     {
       "name": "AI research tools",
-      "count": 22,
-      "description": "Articles detailing AI-powered platforms and tools used for various research activities, from scientific discovery to market analysis."
-    },
-    {
-      "name": "AI design research",
-      "count": 16,
-      "description": "Focuses on AI applications within the UX and UI design process, including AI-assisted design systems, prototyping, and concept generation."
-    },
-    {
-      "name": "AI summarization insights",
       "count": 11,
-      "description": "Covers AI tools and techniques for condensing large amounts of text, such as earnings call transcripts and research papers, into concise summaries."
+      "description": "Articles covering AI platforms and tools specifically designed to aid in various research activities, from data analysis to discovery."
     },
     {
-      "name": "AI usability testing",
+      "name": "AI summarization",
       "count": 9,
-      "description": "Articles exploring how AI is used to conduct, analyze, or improve usability testing processes and evaluations."
+      "description": "Focuses on AI's capability to condense large amounts of text, such as earnings calls or research papers, into concise summaries."
     },
     {
-      "name": "AI chatbot research",
-      "count": 7,
-      "description": "Content about the use of AI chatbots in research, including their capabilities, limitations, and impact on areas like customer interaction and information retrieval."
+      "name": "AI testing automation",
+      "count": 11,
+      "description": "Articles related to using AI to automate testing processes in software development and quality assurance."
     },
     {
       "name": "AI customer insights",
       "count": 14,
-      "description": "Articles on leveraging AI to gather, analyze, and act upon customer data and feedback for business and product development."
+      "description": "Explores how AI is used to gather, analyze, and derive actionable insights from customer data and interactions."
+    },
+    {
+      "name": "AI design research",
+      "count": 14,
+      "description": "Articles about AI applications in the field of UX and UI design research, including design systems and tools."
     },
     {
       "name": "Synthetic users",
-      "count": 9,
-      "description": "Explores the creation and use of AI-generated simulated users for testing, research, and analysis, including their applications and limitations."
+      "count": 10,
+      "description": "Content addressing the creation and use of AI-generated or simulated users for research and testing purposes."
     },
     {
-      "name": "AI testing automation",
+      "name": "AI for product management",
+      "count": 8,
+      "description": "Articles discussing how AI is integrated into product management workflows, strategy, and decision-making."
+    },
+    {
+      "name": "AI survey tools",
       "count": 12,
-      "description": "Discusses AI's role in automating software testing processes, including self-healing test automation and verifying AI agent performance."
+      "description": "Focuses on AI applications within survey design, data collection, and analysis to improve accuracy and efficiency."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
