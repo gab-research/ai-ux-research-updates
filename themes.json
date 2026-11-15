@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 24,
-      "description": "Articles focusing on AI agents autonomously performing research tasks, from exploration to data analysis."
+      "count": 34,
+      "description": "Articles discussing AI agents designed to perform research tasks autonomously, execute complex workflows, and aid in discovery."
     },
     {
       "name": "AI coding assistants",
-      "count": 16,
-      "description": "Content detailing the use of AI to write, review, or assist with code development."
-    },
-    {
-      "name": "AI summarization",
-      "count": 12,
-      "description": "Articles discussing AI's ability to condense large amounts of text or data into concise summaries."
-    },
-    {
-      "name": "Synthetic users",
-      "count": 11,
-      "description": "Content related to AI-generated personas or participants for testing and research purposes."
+      "count": 23,
+      "description": "Content focusing on AI tools that help developers write, review, and debug code, including discussions on security and efficiency."
     },
     {
       "name": "AI research tools",
-      "count": 11,
-      "description": "Articles reviewing or discussing various tools that leverage AI for research purposes across different domains."
+      "count": 22,
+      "description": "Articles detailing AI-powered platforms and tools used for various research activities, from scientific discovery to market analysis."
     },
     {
-      "name": "AI for design & research",
-      "count": 10,
-      "description": "Covers the application of AI directly within design and user research workflows and methodologies."
+      "name": "AI design research",
+      "count": 16,
+      "description": "Focuses on AI applications within the UX and UI design process, including AI-assisted design systems, prototyping, and concept generation."
+    },
+    {
+      "name": "AI summarization insights",
+      "count": 11,
+      "description": "Covers AI tools and techniques for condensing large amounts of text, such as earnings call transcripts and research papers, into concise summaries."
+    },
+    {
+      "name": "AI usability testing",
+      "count": 9,
+      "description": "Articles exploring how AI is used to conduct, analyze, or improve usability testing processes and evaluations."
     },
     {
       "name": "AI chatbot research",
-      "count": 9,
-      "description": "Focuses on research studies and insights derived from the use and behavior of AI chatbots."
+      "count": 7,
+      "description": "Content about the use of AI chatbots in research, including their capabilities, limitations, and impact on areas like customer interaction and information retrieval."
     },
     {
       "name": "AI customer insights",
+      "count": 14,
+      "description": "Articles on leveraging AI to gather, analyze, and act upon customer data and feedback for business and product development."
+    },
+    {
+      "name": "Synthetic users",
       "count": 9,
-      "description": "Articles about using AI to analyze customer data and generate actionable insights for product and business development."
+      "description": "Explores the creation and use of AI-generated simulated users for testing, research, and analysis, including their applications and limitations."
     },
     {
       "name": "AI testing automation",
-      "count": 9,
-      "description": "Content related to AI's role in automating testing processes for software and products."
-    },
-    {
-      "name": "AI survey tools",
-      "count": 8,
-      "description": "Articles discussing AI-powered tools and techniques for creating, distributing, and analyzing surveys."
+      "count": 12,
+      "description": "Discusses AI's role in automating software testing processes, including self-healing test automation and verifying AI agent performance."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
