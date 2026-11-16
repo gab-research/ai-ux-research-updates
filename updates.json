@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-11-15T20:57:34.577Z",
+  "lastUpdated": "2026-11-16T06:00:03.114Z",
   "updates": [
+    {
+      "date": "2026-11-15",
+      "title": "Our new blog for science",
+      "summary": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+      "content": "OpenAI's new science blog signifies a pivotal moment for the integration of Artificial Intelligence into scientific exploration. It highlights how AI is not just a theoretical concept but a practical tool enabling researchers to accelerate discovery and refine methodologies. For UX researchers, this is profoundly significant, as it offers a glimpse into how AI can be leveraged to gain deeper, more nuanced insights into user behavior and product performance. The practical implications include the potential for AI-powered analysis of vast datasets, improved predictive modeling for user needs, and even the generation of synthetic user data for more robust testing, all of which can enhance the user experience of Nubank's products like PIX or loan applications.",
+      "category": "AI research tools",
+      "source": {
+        "name": "OpenAI Blog",
+        "url": "https://openai.com/index/our-new-blog-for-science"
+      },
+      "analysis": "This new OpenAI blog directly informs our approach to leveraging AI within Nubank's UX research. It suggests exploring AI-driven tools for analyzing qualitative feedback from customer support interactions regarding PIX transactions or loan application processes, and for identifying emerging user needs during onboarding. Researchers should proactively investigate AI platforms that can assist in synthesizing large volumes of user interview transcripts, survey responses, and in-app behavior data to uncover patterns previously hidden in manual analysis. This could significantly speed up the discovery phase for features related to insurance claims or new card activation flows.\n\nWhile exciting, it's crucial to establish clear guardrails. We must prioritize ethical considerations, ensuring AI tools used for data analysis are transparent and unbiased, especially when informing decisions about credit products or financial planning features. Our focus should be on AI as an augmentation, not a replacement, for human empathy and critical thinking. Researchers must remain vigilant about data privacy and security, particularly when dealing with sensitive financial information related to any Nubank product. The blog encourages experimentation with advanced AI techniques, but this should be done within controlled environments and with a clear understanding of the AI's limitations and potential for misinterpretation, especially when applied to nuanced user journeys like adapting to new app functionalities."
+    },
     {
       "date": "2026-11-13",
       "title": "Research-In-The-Loop: How UXR Adapts to Development at AI Speed",

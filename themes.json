@@ -1,56 +1,56 @@
 {
   "month": "2026-11",
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 31,
-      "description": "Articles discussing AI agents actively participating in or performing research tasks, including autonomous agents and agent frameworks."
+      "count": 45,
+      "description": "Articles discussing the use of AI agents that can autonomously perform research tasks, including planning and execution."
     },
     {
       "name": "AI coding assistants",
-      "count": 15,
-      "description": "Content focused on AI tools that assist in writing, reviewing, or analyzing code, including their security implications."
+      "count": 20,
+      "description": "Content focused on AI tools that assist developers in writing, reviewing, and debugging code."
     },
     {
       "name": "AI research tools",
-      "count": 11,
-      "description": "Articles covering AI platforms and tools specifically designed to aid in various research activities, from data analysis to discovery."
+      "count": 18,
+      "description": "Articles detailing specific AI-powered platforms and software designed to aid researchers in their work."
     },
     {
       "name": "AI summarization",
-      "count": 9,
-      "description": "Focuses on AI's capability to condense large amounts of text, such as earnings calls or research papers, into concise summaries."
+      "count": 10,
+      "description": "Focuses on AI applications that condense large amounts of text, such as earnings calls or research papers, into concise summaries."
     },
     {
-      "name": "AI testing automation",
-      "count": 11,
-      "description": "Articles related to using AI to automate testing processes in software development and quality assurance."
+      "name": "AI for design & research",
+      "count": 10,
+      "description": "Articles exploring how AI is directly applied to enhance the design process and user research methodologies."
     },
     {
       "name": "AI customer insights",
-      "count": 14,
-      "description": "Explores how AI is used to gather, analyze, and derive actionable insights from customer data and interactions."
+      "count": 10,
+      "description": "Covers AI's role in analyzing customer data and feedback to derive actionable insights for businesses."
     },
     {
-      "name": "AI design research",
-      "count": 14,
-      "description": "Articles about AI applications in the field of UX and UI design research, including design systems and tools."
+      "name": "AI testing automation",
+      "count": 10,
+      "description": "Articles related to AI's application in automating software testing processes and improving quality assurance."
     },
     {
       "name": "Synthetic users",
       "count": 10,
-      "description": "Content addressing the creation and use of AI-generated or simulated users for research and testing purposes."
+      "description": "Discusses the creation and use of AI-generated personas or user profiles for research and testing purposes."
+    },
+    {
+      "name": "AI recruitment research",
+      "count": 9,
+      "description": "Articles examining the impact and application of AI in the field of human resources and talent acquisition."
     },
     {
       "name": "AI for product management",
-      "count": 8,
-      "description": "Articles discussing how AI is integrated into product management workflows, strategy, and decision-making."
-    },
-    {
-      "name": "AI survey tools",
-      "count": 12,
-      "description": "Focuses on AI applications within survey design, data collection, and analysis to improve accuracy and efficiency."
+      "count": 9,
+      "description": "Content focusing on how AI tools and techniques can support product managers in their strategic and operational tasks."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
