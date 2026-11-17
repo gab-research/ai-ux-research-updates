@@ -1,8 +1,44 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-11-17T07:38:18.622Z",
+  "lastUpdated": "2026-11-17T17:32:01.512Z",
   "updates": [
+    {
+      "date": "2026-11-17",
+      "title": "Health & Beauty UX Benchmark: 6,000+ Performance Scores and 4,500+ Best Practice Examples",
+      "summary": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) At Baymard, we’ve just released a new UX benchmark with 10 “Health & Beauty” UX case studies....",
+      "content": "The Baymard Institute's latest UX benchmark dives deep into the Health & Beauty e-commerce sector, analyzing over 6,000 performance scores and 4,500 best practice examples across 10 case studies. This comprehensive report identifies critical UX patterns that drive user satisfaction and conversion in this competitive market, highlighting how subtle design choices can significantly impact customer journeys. For UX researchers, understanding these established benchmarks is crucial for identifying areas of improvement in our own digital financial products, enabling us to proactively design user experiences that are not only functional but also delightful and effective.",
+      "category": "AI in user testing",
+      "source": {
+        "name": "Baymard Institute",
+        "url": "https://feeds.baymard.com/link/9825/17526172/health-and-beauty-ux-benchmark-2026"
+      },
+      "analysis": "This Baymard report offers valuable insights that can directly inform our UX research at Nubank, especially for optimizing flows that involve visual product browsing and complex decision-making. Researchers can leverage the identified best practices to inform qualitative studies and usability tests for new features, perhaps in areas like insurance product exploration or the visual presentation of loan options. The benchmark's focus on performance scores can also serve as a baseline for A/B testing hypotheses related to layout, imagery, and information hierarchy on our app's product discovery pages, aiming to enhance user engagement and comprehension.\n\nWhile the Health & Beauty sector has unique product characteristics, the underlying UX principles for clear navigation, persuasive product presentation, and streamlined checkout processes are transferable to our financial services. Researchers should critically assess which aspects of the benchmark are most relevant to our context, such as user trust in product descriptions or the clarity of feature explanations. It's important to remember that direct comparisons might be limited; therefore, the application of these findings should be adapted to Nubank's specific user needs and the distinct nature of financial products and services, ensuring that recommendations align with our core values of simplicity and transparency, as seen in flows like PIX transfers or card activation."
+    },
+    {
+      "date": "2026-11-17",
+      "title": "AI Sped Up The Build: How Can Accessibility Testing Keep Up?",
+      "summary": "AI has sped up how teams design and build, but quality assurance (QA) testing hasn’t kept pace, and the web may be getting less accessible. Drawing on new research, Andrew Chung explains what separates the teams whose accessibility efforts are keeping up, and how to embed huma...",
+      "content": "This article highlights a critical gap: while AI tools accelerate the design and development phases of digital products, accessibility testing is struggling to keep pace, potentially leading to a decline in web accessibility. For UX researchers at Nubank, understanding this divergence is crucial because it directly impacts the usability and inclusivity of our products for all Brazilian customers, regardless of ability. Failing to address this disparity risks alienating segments of our user base and hindering our mission to simplify financial life. This means we need to proactively integrate more robust and AI-informed accessibility checks into our research and development cycles to ensure that the speed of innovation doesn't come at the expense of accessibility.",
+      "category": "Automated usability checks",
+      "source": {
+        "name": "Smashing Magazine",
+        "url": "https://smashingmagazine.com/2026/11/ai-sped-up-build-how-can-accessibility-testing-keep-up/"
+      },
+      "analysis": "At Nubank, this article's findings necessitate a review of our current UX research workflow, particularly around the integration of AI in product development. We need to embed accessibility considerations earlier and more thoroughly. When exploring new AI-powered features for PIX transfers or streamlining the loan application process, researchers should actively advocate for incorporating automated accessibility checks alongside AI-driven design iterations. This means training researchers on how to leverage AI tools for initial accessibility audits, but also emphasizing that human oversight remains paramount, especially for complex flows like card activation or onboarding.\n\nOur approach should involve a tiered strategy: utilize AI-powered tools to flag common accessibility issues during prototyping and early testing, but critically, follow up with manual expert reviews and user testing with individuals with disabilities. This is especially important for ensuring that features like insurance policy management or the card replacement process are accessible to everyone. Guardrails are essential; we must avoid over-reliance on AI, recognizing its limitations in understanding nuanced user needs and the diverse accessibility challenges faced by our broad customer base in Brazil."
+    },
+    {
+      "date": "2026-11-17",
+      "title": "Can AI help build a healthier future?",
+      "summary": "What can AI enable in medicine, and how do we get there? Microsoft Research lead Doug Burger, Microsoft Principal Research Manager Ava Amini, Microsoft Chief Scientific Officer Eric Horvitz, and physician-scientist Eric Topol of Scripps Research explore these questions and mor...",
+      "content": "This Microsoft Research piece delves into the transformative potential of AI in medicine, envisioning a future where AI significantly enhances healthcare outcomes. The core idea revolves around AI's capacity to analyze complex biological data, accelerate drug discovery, and personalize treatment plans. For UX researchers, this signifies a paradigm shift in how we approach health-related products and services; understanding user needs in a data-rich, AI-augmented healthcare ecosystem is paramount. Practical implications include designing intuitive interfaces for AI-powered diagnostic tools, ensuring transparent communication of AI-generated health insights to users, and co-creating solutions that empower individuals to actively manage their well-being through technology.",
+      "category": "Survey optimization",
+      "source": {
+        "name": "Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/podcast/can-ai-help-build-a-healthier-future/"
+      },
+      "analysis": "At Nubank, this research can inform the development of health and wellness features within our existing financial ecosystem. For instance, we could explore how AI, informed by user financial behavior (e.g., spending on health-related services, loan repayment patterns for medical expenses), could proactively suggest personalized financial planning tools for unexpected healthcare costs, or even integrate with future health insurance offerings.  Researchers should consider how to design experiences that make AI-driven financial advice related to health feel trustworthy and empowering, not intrusive or alarming. This could be applied to flows like loan applications, where AI might identify potential financial strain due to health issues, or during onboarding for new products, where personalized financial wellness nudges could be introduced.\n\nWhen applying this, we need to establish clear guardrails around data privacy and security, especially when dealing with sensitive health-related insights derived from financial data. Transparency will be key; users must understand how their data is being used to generate these recommendations.  We should also focus on augmenting, not replacing, human financial advice, ensuring that complex situations still involve human intervention.  For products like PIX, understanding how users are spending on health can inform personalized budgeting tools, and for credit card usage, AI could flag unusual spending patterns that might indicate unforeseen health-related financial burdens, prompting proactive support."
+    },
     {
       "date": "2026-11-16",
       "title": "TokenEconomizer: Learning from Experience to Make AI Coding Agents More Efficient",
