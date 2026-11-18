@@ -1,56 +1,56 @@
 {
   "month": "2026-11",
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 47,
-      "description": "Articles discussing AI agents capable of performing research tasks autonomously or semi-autonomously, including their development, safety, and application in workflows."
+      "count": 79,
+      "description": "Articles discussing AI agents performing research tasks autonomously or semi-autonomously, including data collection, analysis, and interaction with research participants."
     },
     {
       "name": "AI coding assistants",
-      "count": 22,
-      "description": "Content focused on AI tools that assist in the coding process, including their use, security implications, and potential for introducing bugs."
+      "count": 42,
+      "description": "Content focused on AI tools that assist developers in writing, reviewing, and debugging code, including security implications and efficiency."
     },
     {
       "name": "AI research tools",
-      "count": 17,
-      "description": "Articles reviewing, comparing, or announcing new AI-powered tools designed to aid researchers in various aspects of their work."
+      "count": 33,
+      "description": "Tools and platforms that leverage AI to support various stages of the research process, from data gathering to analysis and reporting."
+    },
+    {
+      "name": "AI summarization",
+      "count": 13,
+      "description": "AI applications that condense large amounts of text, such as earnings calls, meeting notes, and research papers, into concise summaries."
     },
     {
       "name": "Synthetic users",
-      "count": 16,
-      "description": "Discussions around the creation and use of AI-generated user representations for testing, simulation, and research purposes."
-    },
-    {
-      "name": "AI for product management",
-      "count": 12,
-      "description": "Articles exploring how AI can assist product teams in decision-making, ideation, and understanding product development."
+      "count": 13,
+      "description": "The creation and use of artificial user representations for testing, research, and simulation purposes."
     },
     {
       "name": "AI usability testing",
       "count": 10,
-      "description": "Content related to the use of AI in automating or enhancing the process of testing user interfaces and experiences."
-    },
-    {
-      "name": "AI for design & research",
-      "count": 9,
-      "description": "Articles covering the application of AI in the broader fields of design and research, encompassing tools and methodologies."
-    },
-    {
-      "name": "AI customer insights",
-      "count": 9,
-      "description": "Content focusing on how AI is used to extract, analyze, and leverage insights from customer data and interactions."
-    },
-    {
-      "name": "AI testing automation",
-      "count": 9,
-      "description": "Articles detailing the use of AI to automate various stages of testing, from software development to user experience."
+      "description": "The application of AI in testing the usability of products and systems, including automated checks and evaluations."
     },
     {
       "name": "AI qualitative research",
-      "count": 8,
-      "description": "Discussions on how AI is being applied to enhance or automate qualitative research methods, such as interviews and analysis."
+      "count": 9,
+      "description": "AI's role in qualitative research methods, such as interview analysis, thematic identification, and understanding nuanced human responses."
+    },
+    {
+      "name": "AI sentiment feedback",
+      "count": 7,
+      "description": "Utilizing AI to analyze and understand customer sentiment and feedback from various sources like social media and reviews."
+    },
+    {
+      "name": "AI survey tools",
+      "count": 7,
+      "description": "AI-powered tools designed to assist in the creation, distribution, analysis, and optimization of surveys."
+    },
+    {
+      "name": "AI design research",
+      "count": 6,
+      "description": "The intersection of AI and the design process, including AI's impact on design workflows, tools, and creative decision-making."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
