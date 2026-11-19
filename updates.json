@@ -1,8 +1,32 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-11-18T17:07:49.961Z",
+  "lastUpdated": "2026-11-19T07:01:43.733Z",
   "updates": [
+    {
+      "date": "2026-11-18",
+      "title": "Service as a Software: The New SaaS Is Ahead of Schedule",
+      "summary": "AI vendors now sell finished work and charge per outcome. Outcome pricing shifts the risk of paying for failed work to the seller, while the consequences of failure and uncounted “phantom resolutions” remain the buyer’s problem. Designing and auditing the meter is now a core U...",
+      "content": "Jakob Nielsen's \"Service as a Software\" article posits a significant shift in how AI services are being packaged and sold. Instead of selling tools or hours, AI vendors are increasingly offering \"finished work\" with outcome-based pricing. This model promises to transfer risk to the seller, but Nielsen warns that the buyer still bears the burden of understanding and validating the \"meter\" or metrics used to define success. For UX researchers, this means a critical need to develop expertise in evaluating the effectiveness and fairness of AI-driven solutions, moving beyond just usability to the tangible impact on user goals, especially as AI becomes embedded in core financial services.",
+      "category": "Automated usability checks",
+      "source": {
+        "name": "Jakob Nielsen (Substack)",
+        "url": "https://jakobnielsenphd.substack.com/p/service-as-software"
+      },
+      "analysis": "This new SaaS model directly impacts how we at Nubank can leverage AI-powered tools for research. Instead of solely focusing on the usability of a research platform, we need to critically assess the 'outcomes' these AI vendors promise. For instance, if an AI tool claims to accelerate customer journey analysis for PIX transactions or predict churn risk for personal loans, we must understand how it defines and measures \"success\" and whether that aligns with Nubank's goals and our users' well-being. This requires us to move beyond surface-level feature evaluations and delve into the data and methodologies behind the AI's results.\n\nOur researchers should actively question vendors about their outcome metrics, demanding transparency and the ability to audit the \"meter.\" This is crucial when evaluating AI that could influence areas like onboarding flows or insurance product recommendations. We need to be able to independently verify that the AI is not creating \"phantom resolutions\" – apparent successes that don't translate to genuine user value or compliance. This shift necessitates developing stronger analytical skills in evaluating algorithmic performance and its ethical implications, ensuring that AI-driven insights truly serve our mission of simplifying finance for Brazilians, rather than just optimizing vendor profit."
+    },
+    {
+      "date": "2026-11-18",
+      "title": "Research acceleration: The jagged frontier",
+      "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+      "content": "This OpenAI article explores the burgeoning field of AI coding agents and their impact on accelerating AI research itself. The key idea is that while these agents show remarkable progress in automating complex coding tasks, their performance is still highly variable, creating a 'jagged frontier' of development. For UX researchers, this signifies a potential paradigm shift in how we approach research operations and even the design of AI-powered research tools.  Practically, it suggests that AI agents could soon automate tasks like code generation for experiments, data analysis scripting, or even generating user interface prototypes, freeing up researchers for more strategic and interpretive work.",
+      "category": "Survey optimization",
+      "source": {
+        "name": "OpenAI Blog",
+        "url": "https://openai.com/index/research-acceleration-jagged-frontier"
+      },
+      "analysis": "At Nubank, the concept of research acceleration through AI coding agents directly applies to streamlining our data analysis pipelines and prototyping efforts.  For instance, when analyzing user behavior for PIX transaction patterns or understanding friction points in loan application flows, AI agents could assist in generating complex SQL queries or Python scripts for data extraction and visualization.  Similarly, for rapid prototyping of new features in our app, such as improved card activation flows or insurance policy comparison interfaces, these agents could accelerate the creation of interactive mockups based on initial design specifications.  Researchers should experiment with these tools for repetitive coding tasks, focusing on tasks like A/B test result aggregation or script generation for user segmentation, allowing them to dedicate more time to synthesizing insights and strategic recommendations rather than manual coding.\n\nHowever, critical guardrails are necessary.  The 'uneven performance' mentioned in the article highlights the importance of human oversight. Researchers must rigorously validate any code or insights generated by AI agents.  For sensitive areas like customer onboarding or financial product recommendations (e.g., personalized loan offers), the accuracy and ethical implications of AI-generated solutions must be thoroughly scrutinized to avoid bias or errors that could negatively impact the Nubank user experience.  Reliance should be placed on agents for augmentation, not full automation, especially for high-stakes decision-making or complex analytical tasks requiring nuanced understanding of user intent and financial context."
+    },
     {
       "date": "2026-11-17",
       "title": "AI Sped Up The Build: How Can Accessibility Testing Keep Up?",
@@ -593,8 +617,8 @@
     },
     {
       "date": "2026-10-26",
-      "title": "UX Roundup: Flow | AI &amp; Creative Jobs | AI Price | Too Many Options | Joint Cognitive Systems | Proactive AI | Satisfaction | Carousels | Activity Feeds | Pagination | Robotaxi Safety | Integration",
-      "summary": "The flow state &amp; UX | AI has reshaped creative jobs, and 70% of creatives now use it | The cost of AI drops 13× per year | Every extra option adds thinking time | Design the human–AI team as one unit | Proactive AI must time interruptions carefully | Satisfaction depends o...",
+      "title": "UX Roundup: Flow | AI & Creative Jobs | AI Price | Too Many Options | Joint Cognitive Systems | Proactive AI | Satisfaction | Carousels | Activity Feeds | Pagination | Robotaxi Safety | Integration",
+      "summary": "The flow state & UX | AI has reshaped creative jobs, and 70% of creatives now use it | The cost of AI drops 13× per year | Every extra option adds thinking time | Design the human–AI team as one unit | Proactive AI must time interruptions carefully | Satisfaction depends on ex...",
       "content": "This Jakob Nielsen roundup highlights the burgeoning intersection of AI and UX, emphasizing the transformative impact of AI on creative roles and its decreasing cost, making it more accessible for UX research applications. The article underscores that while AI offers efficiencies, UX researchers must still prioritize user experience by managing option overload and designing seamless human-AI collaborations.  Crucially, it stresses the need for careful implementation of proactive AI to avoid intrusive interruptions, ensuring it genuinely enhances user satisfaction rather than detracting from it.",
       "category": "AI workforce impact",
       "source": {
@@ -614,6 +638,18 @@
         "url": "https://rss2json.com/to/hfRuc--7pj5EMw_vHiktoCek"
       },
       "analysis": "This roundup offers critical insights for Nubank's UX research practice, particularly in how we approach AI-assisted design and user interaction. For instance, when researching improvements to the PIX transfer flow or the loan application process, we can now more effectively explore how AI can augment user decision-making without overwhelming them, keeping Nielsen's \"too many options\" principle in mind. Similarly, during onboarding or card activation flows, we should consider how AI can proactively assist users, but with a keen eye on the timing of these nudges, avoiding intrusive interruptions that could detract from a seamless experience.  We must also start framing our research questions to understand how users perceive and interact with AI as a collaborative partner within our applications, rather than just a tool.\n\nPractically, researchers should proactively seek out and analyze emerging AI capabilities that can be integrated into Nubank's product ecosystem, such as AI-powered fraud detection within the security settings, personalized financial advice in the \"My Finances\" section, or even AI-driven suggestions for insurance products.  This means incorporating AI literacy into our research training and ensuring our methodologies are adaptable to testing AI-enhanced features.  Crucially, we need to establish clear guardrails.  Our research must prioritize ethical AI deployment, focusing on transparency, fairness, and ensuring that AI augmentation genuinely improves user outcomes without creating new barriers or biases.  For example, when exploring AI for loan pre-approval, we must rigorously test for algorithmic bias to ensure equitable access to credit for all Nubank customers."
+    },
+    {
+      "date": "2026-10-26",
+      "title": "Test Your AI-Generated Prototypes with UXtweak",
+      "summary": "Hey UXtweakers! 🐝 AI prototyping tools (often called vibe coding tools) can take you from an idea to a working prototype in minutes. But building faster doesn’t automatically mean building ... The post Test Your AI-Generated Prototypes with UXtweak appeared first on Articles...",
+      "content": "Hey UXtweakers! 🐝 AI prototyping tools (often called vibe coding tools) can take you from an idea to a working prototype in minutes. But building faster doesn’t automatically mean building ... The post Test Your AI-Generated Prototypes with UXtweak appeared first on Articles on everything UX: Research, Testing & Design.",
+      "category": "AI summarization",
+      "source": {
+        "name": "UX Tweak Blog",
+        "url": "https://blog.uxtweak.com/ai-prototype-testing/"
+      },
+      "analysis": ""
     },
     {
       "date": "2026-10-25",
@@ -734,18 +770,6 @@
         "url": "https://uxdesign.cc/can-you-take-ai-at-its-word-06126b976245?source=rss----138adf9c44c---4"
       },
       "analysis": "At Nubank, this article's message is crucial for our AI-assisted research efforts, particularly when leveraging AI for tasks like thematic analysis of user feedback from PIX transactions or loan application reviews. Instead of solely relying on AI's summarized insights, researchers should treat these outputs as a starting point. This means actively digging deeper, cross-referencing AI-generated themes with raw user data, and conducting qualitative synthesis to validate the AI's interpretations.  For instance, if an AI flags a recurring issue in card activation feedback, a researcher must investigate specific user comments to understand the nuance and context the AI might have missed.\n\nWhen incorporating AI into our workflows, such as in analyzing qualitative data from onboarding surveys or insurance claims, researchers should adopt a 'critical collaboration' mindset.  This involves using AI for initial hypothesis generation or pattern identification, but always performing manual validation and human-led sense-making.  Guardrails are essential: never present AI-generated insights as definitive without independent verification.  Recognize AI's limitations in capturing complex emotional states or nuanced cultural contexts present in user feedback from diverse Brazilian regions.  For example, an AI might detect sentiment, but a human researcher is better equipped to understand the subtle cultural undertones of a complaint about a specific feature or the anxieties associated with taking out a loan.\n\nThis means our research process should include explicit steps for AI output verification.  For instance, during the analysis of user interviews, if an AI suggests a particular pain point in the credit card application flow, the researcher must review the corresponding interview transcripts to confirm the AI's understanding and identify any potential misinterpretations.  The ultimate decision-making and strategic recommendations should always be human-driven, informed by, but not dictated by, AI's contributions."
-    },
-    {
-      "date": "2026-10-20",
-      "title": "Let AI have the average user: Why User Research should focus on bad days",
-      "summary": "Nn/g found that synthetic research captures common responses. The bad days are still up to you. Continue reading on UX Collective »",
-      "content": "This article argues that while AI-driven synthetic user research is excellent at replicating \"average\" user behavior and common responses, it fundamentally struggles to capture the nuances of users experiencing \"bad days.\"  For UX researchers, this distinction is critical because these edge cases, characterized by frustration, confusion, or stress, often reveal critical usability flaws that can lead to significant customer dissatisfaction and churn.  Therefore, researchers must actively incorporate qualitative methods to understand these outlier experiences, ensuring product designs are robust enough to handle stressful scenarios, such as a failed PIX transaction or a complex loan application.",
-      "category": "AI research tools",
-      "source": {
-        "name": "UX Collective (Medium)",
-        "url": "https://uxdesign.cc/let-ai-have-the-average-user-why-user-research-should-focus-on-bad-days-e7bba55f855f?source=rss----138adf9c44c---4"
-      },
-      "analysis": "At Nubank, this article's insight directly informs our approach to research beyond initial synthetic modeling. While AI can efficiently simulate common onboarding flows or standard PIX usage, we must intentionally plan for \"bad day\" research for critical touchpoints. This means designing qualitative studies (interviews, usability tests with deliberately challenging scenarios) that specifically target moments of potential friction, like navigating unexpected errors during card activation or understanding the implications of a declined insurance claim. Researchers should actively seek out and recruit participants who have previously reported negative experiences or simulate stressful contexts during testing to uncover these critical usability issues.\n\nTo operationalize this, we can integrate \"stress testing\" into our existing research frameworks. For instance, when researching a new feature for personal loans, we wouldn't just test a smooth application process. We'd intentionally introduce scenarios like a sudden income change during the application, a confusing regulatory disclosure, or a lost internet connection. This ensures our designs for sensitive flows, like loan applications or managing overdrafts, are not just functional but resilient and empathetic, even when users are experiencing a \"bad day.\" Guardrails include clearly defining what constitutes a \"bad day\" scenario relevant to the specific product or flow, and ensuring ethical recruitment practices when seeking out participants who have experienced such difficulties."
     }
   ]
 }
