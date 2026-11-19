@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-11-19T07:01:43.733Z",
+  "lastUpdated": "2026-11-19T17:15:12.695Z",
   "updates": [
     {
       "date": "2026-11-18",
@@ -617,8 +617,8 @@
     },
     {
       "date": "2026-10-26",
-      "title": "UX Roundup: Flow | AI & Creative Jobs | AI Price | Too Many Options | Joint Cognitive Systems | Proactive AI | Satisfaction | Carousels | Activity Feeds | Pagination | Robotaxi Safety | Integration",
-      "summary": "The flow state & UX | AI has reshaped creative jobs, and 70% of creatives now use it | The cost of AI drops 13× per year | Every extra option adds thinking time | Design the human–AI team as one unit | Proactive AI must time interruptions carefully | Satisfaction depends on ex...",
+      "title": "UX Roundup: Flow | AI &amp; Creative Jobs | AI Price | Too Many Options | Joint Cognitive Systems | Proactive AI | Satisfaction | Carousels | Activity Feeds | Pagination | Robotaxi Safety | Integration",
+      "summary": "The flow state &amp; UX | AI has reshaped creative jobs, and 70% of creatives now use it | The cost of AI drops 13× per year | Every extra option adds thinking time | Design the human–AI team as one unit | Proactive AI must time interruptions carefully | Satisfaction depends o...",
       "content": "This Jakob Nielsen roundup highlights the burgeoning intersection of AI and UX, emphasizing the transformative impact of AI on creative roles and its decreasing cost, making it more accessible for UX research applications. The article underscores that while AI offers efficiencies, UX researchers must still prioritize user experience by managing option overload and designing seamless human-AI collaborations.  Crucially, it stresses the need for careful implementation of proactive AI to avoid intrusive interruptions, ensuring it genuinely enhances user satisfaction rather than detracting from it.",
       "category": "AI workforce impact",
       "source": {
@@ -643,13 +643,13 @@
       "date": "2026-10-26",
       "title": "Test Your AI-Generated Prototypes with UXtweak",
       "summary": "Hey UXtweakers! 🐝 AI prototyping tools (often called vibe coding tools) can take you from an idea to a working prototype in minutes. But building faster doesn’t automatically mean building ... The post Test Your AI-Generated Prototypes with UXtweak appeared first on Articles...",
-      "content": "Hey UXtweakers! 🐝 AI prototyping tools (often called vibe coding tools) can take you from an idea to a working prototype in minutes. But building faster doesn’t automatically mean building ... The post Test Your AI-Generated Prototypes with UXtweak appeared first on Articles on everything UX: Research, Testing & Design.",
+      "content": "The article \"Test Your AI-Generated Prototypes with UXtweak\" highlights the burgeoning role of AI in accelerating the prototyping phase of UX research. It explains that AI tools, also known as \"vibe coding tools,\" can rapidly transform initial concepts into functional prototypes, significantly reducing development time. This advancement is crucial for UX researchers as it allows for quicker iteration and more extensive testing of design hypotheses. The practical implication is that research teams can now explore a wider range of design solutions and gather user feedback on more refined prototypes earlier in the product development cycle, leading to more robust and user-centered outcomes.",
       "category": "AI summarization",
       "source": {
         "name": "UX Tweak Blog",
         "url": "https://blog.uxtweak.com/ai-prototype-testing/"
       },
-      "analysis": ""
+      "analysis": "At Nubank, AI-generated prototypes can be integrated into our early-stage ideation and concept validation workflows. Researchers can leverage tools like UXtweak to quickly build interactive prototypes for new features, such as a simplified PIX transfer flow or an enhanced loan application interface. This allows us to gather rapid qualitative feedback from users on the core usability and desirability of these concepts before committing significant development resources. For instance, we could test variations of our digital card activation process or the initial onboarding screens for new insurance products.\n\nResearchers should utilize this approach for exploratory testing and to quickly assess the viability of different design directions. It's particularly useful when exploring novel features or redesigning complex user journeys. However, it's crucial to remember that AI-generated prototypes are not a substitute for full-fidelity development. Researchers must establish clear guardrails, ensuring that testing focuses on the underlying user experience and core interactions, rather than superficial aesthetics or detailed functional accuracy. The generated prototypes should be treated as talking points for user interviews and usability tests, with the understanding that they represent an approximation of the final product."
     },
     {
       "date": "2026-10-25",
