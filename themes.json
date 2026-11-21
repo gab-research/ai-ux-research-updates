@@ -1,56 +1,56 @@
 {
   "month": "2026-11",
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 67,
-      "description": "Articles discussing AI agents capable of performing research tasks autonomously or semi-autonomously."
+      "count": 71,
+      "description": "Focuses on AI agents that can autonomously perform research tasks, conduct interviews, or analyze data with minimal human intervention."
     },
     {
       "name": "AI coding assistants",
-      "count": 24,
-      "description": "Focuses on AI tools that assist developers in writing, reviewing, and debugging code."
-    },
-    {
-      "name": "AI research tools",
-      "count": 19,
-      "description": "Broad category covering various AI-powered tools used for research purposes, from broad platforms to specialized tools."
-    },
-    {
-      "name": "AI summarization",
-      "count": 16,
-      "description": "Articles related to AI's ability to condense large amounts of text, like research papers, meeting notes, or earnings calls, into concise summaries."
+      "count": 50,
+      "description": "Articles discussing AI tools that help developers write, review, debug, and refactor code, including their capabilities and risks."
     },
     {
       "name": "AI for design & research",
-      "count": 14,
-      "description": "Covers AI applications directly aiding designers and researchers in their creative and investigative processes."
+      "count": 44,
+      "description": "Covers AI applications that aid in the design process, from generating initial concepts to refining user interfaces and user experiences."
+    },
+    {
+      "name": "AI summarization",
+      "count": 21,
+      "description": "Articles related to AI's ability to condense large amounts of text, such as meeting transcripts, research papers, or earnings calls, into concise summaries."
+    },
+    {
+      "name": "AI research tools",
+      "count": 20,
+      "description": "Encompasses a broad range of AI-powered tools and platforms designed to assist researchers in various stages of their work, from data collection to analysis."
+    },
+    {
+      "name": "AI survey tools",
+      "count": 16,
+      "description": "Focuses on AI applications used to create, distribute, analyze, and optimize surveys, including generating insights from survey data."
+    },
+    {
+      "name": "AI sentiment & feedback analysis",
+      "count": 15,
+      "description": "Covers AI's role in analyzing customer feedback, social media posts, and other text-based data to gauge sentiment and identify key themes."
+    },
+    {
+      "name": "AI for product management",
+      "count": 13,
+      "description": "Articles about how AI is being used to inform product strategy, roadmapping, feature prioritization, and user story generation."
     },
     {
       "name": "Synthetic users",
       "count": 13,
-      "description": "Articles about the creation and use of artificial user profiles or data for testing and research purposes."
-    },
-    {
-      "name": "AI sentiment & feedback analysis",
-      "count": 11,
-      "description": "Explores AI's role in understanding user emotions, opinions, and feedback from various sources."
-    },
-    {
-      "name": "AI survey tools",
-      "count": 11,
-      "description": "Discusses AI-powered tools and methodologies for designing, distributing, and analyzing surveys."
+      "description": "Explores the use of AI to generate synthetic data or simulate user interactions for testing, research, or training purposes."
     },
     {
       "name": "AI usability testing",
-      "count": 10,
-      "description": "Focuses on AI's application in evaluating the ease of use and user-friendliness of products and services."
-    },
-    {
-      "name": "AI workforce impact",
-      "count": 9,
-      "description": "Examines how AI is changing job roles, skill requirements, and the overall dynamics of the workforce."
+      "count": 11,
+      "description": "Focuses on AI tools and methodologies used to automate or enhance the process of testing user interfaces and product usability."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
