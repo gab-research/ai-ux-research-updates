@@ -1,56 +1,56 @@
 {
   "month": "2026-11",
-  "updated": "2026-11-21",
+  "updated": "2026-11-22",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 25,
-      "description": "Articles discussing AI agents capable of performing complex research tasks autonomously or with minimal human guidance."
+      "count": 78,
+      "description": "Articles focusing on AI agents performing research tasks autonomously or with minimal human oversight."
     },
     {
       "name": "AI coding assistants",
-      "count": 24,
-      "description": "Content focused on AI tools that help developers write, review, and debug code."
-    },
-    {
-      "name": "AI research tools",
-      "count": 21,
-      "description": "Articles covering AI-powered software and platforms designed to assist in various research activities."
-    },
-    {
-      "name": "AI summarization",
-      "count": 15,
-      "description": "Focuses on AI applications that condense large amounts of text or data into concise summaries."
-    },
-    {
-      "name": "Synthetic users",
-      "count": 12,
-      "description": "Discussions around AI-generated simulated users for testing, research, or data creation."
-    },
-    {
-      "name": "AI for design research",
-      "count": 14,
-      "description": "Articles exploring how AI is used to inform and enhance the design research process."
-    },
-    {
-      "name": "AI summarization insights",
-      "count": 13,
-      "description": "Content specifically on AI's ability to not only summarize but also extract meaningful insights from information."
-    },
-    {
-      "name": "AI recruitment research",
-      "count": 12,
-      "description": "Articles detailing the use of AI in the recruitment process, from candidate sourcing to job market analysis."
-    },
-    {
-      "name": "AI customer insights",
-      "count": 11,
-      "description": "Covers AI applications used to gather, analyze, and understand customer behavior and preferences."
+      "count": 40,
+      "description": "Articles about AI tools that assist developers in writing, reviewing, or debugging code."
     },
     {
       "name": "AI sentiment feedback",
-      "count": 9,
-      "description": "Focuses on AI's role in analyzing and interpreting sentiment from user feedback, reviews, and social media."
+      "count": 15,
+      "description": "Articles discussing the use of AI to analyze and understand user sentiment from feedback and reviews."
+    },
+    {
+      "name": "AI usability testing",
+      "count": 14,
+      "description": "Articles that explore how AI can be used to automate or enhance the process of testing product usability."
+    },
+    {
+      "name": "AI qualitative research",
+      "count": 14,
+      "description": "Articles detailing AI applications in analyzing qualitative data like interviews, focus groups, and open-ended responses."
+    },
+    {
+      "name": "AI research platform",
+      "count": 11,
+      "description": "Articles about platforms or tools that integrate AI to facilitate various research activities."
+    },
+    {
+      "name": "AI recruitment research",
+      "count": 23,
+      "description": "Articles on AI's impact on job markets, hiring processes, and workforce trends, including researcher perspectives."
+    },
+    {
+      "name": "AI summarization insights",
+      "count": 12,
+      "description": "Articles focused on AI's ability to condense large amounts of information into concise summaries and derive insights."
+    },
+    {
+      "name": "AI customer insights",
+      "count": 13,
+      "description": "Articles about leveraging AI to extract valuable insights from customer data and interactions."
+    },
+    {
+      "name": "AI design research",
+      "count": 11,
+      "description": "Articles on how AI is being used in the process of designing products, interfaces, and user experiences."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
