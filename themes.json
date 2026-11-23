@@ -3,54 +3,54 @@
   "updated": "2026-11-23",
   "themes": [
     {
-      "name": "Agentic AI in research",
-      "count": 44,
-      "description": "Covers AI agents that can autonomously conduct research tasks, including planning, execution, and analysis."
-    },
-    {
-      "name": "AI coding assistants",
-      "count": 30,
-      "description": "Focuses on AI tools that help developers write, review, and debug code, often acting as a pair programmer."
+      "name": "AI summarization",
+      "count": 10,
+      "description": "Articles discussing AI's ability to condense large amounts of text, such as meeting transcripts, research papers, or earnings calls, into concise summaries."
     },
     {
       "name": "Synthetic users",
-      "count": 17,
-      "description": "Discusses the creation and use of artificial user profiles or personas for testing and research purposes."
+      "count": 10,
+      "description": "Content focusing on the creation or use of artificial users for research, testing, or simulation purposes."
     },
     {
-      "name": "AI summarization",
-      "count": 11,
-      "description": "Explores AI capabilities in condensing large amounts of text, such as meeting transcripts or research papers, into concise summaries."
+      "name": "AI research tools",
+      "count": 9,
+      "description": "Broadly covers articles about various AI-powered tools and platforms used for research across different domains."
+    },
+    {
+      "name": "AI coding assistants",
+      "count": 9,
+      "description": "Articles about AI tools that assist developers in writing, debugging, and understanding code."
     },
     {
       "name": "AI usability testing",
-      "count": 11,
-      "description": "Examines how AI is used to automate or enhance the process of evaluating the usability of products and interfaces."
+      "count": 8,
+      "description": "Focuses on the application of AI in evaluating and improving the usability of products and interfaces."
+    },
+    {
+      "name": "AI design research",
+      "count": 8,
+      "description": "Covers the use of AI in various aspects of design research, from ideation to analysis and implementation."
+    },
+    {
+      "name": "Agentic AI in research",
+      "count": 7,
+      "description": "Articles detailing AI agents that can perform research tasks autonomously or semi-autonomously."
     },
     {
       "name": "AI sentiment feedback",
       "count": 7,
-      "description": "Covers the analysis of user feedback, comments, and reviews to gauge sentiment and identify key themes."
+      "description": "Content related to AI's capability to analyze and understand user sentiment from feedback, reviews, and comments."
     },
     {
-      "name": "AI for design & research",
+      "name": "AI customer insights",
       "count": 7,
-      "description": "Encompasses AI applications that directly aid in the design process and various research methodologies."
+      "description": "Focuses on how AI is used to derive actionable insights from customer data and interactions."
     },
     {
-      "name": "AI survey tools",
-      "count": 13,
-      "description": "Focuses on AI applications designed to create, distribute, and analyze surveys, often with intelligent question generation or data interpretation."
-    },
-    {
-      "name": "AI research tools",
-      "count": 11,
-      "description": "Highlights a broad category of AI-powered platforms and tools specifically built to support various research activities."
-    },
-    {
-      "name": "AI recruitment research",
-      "count": 10,
-      "description": "Investigates the impact of AI on job markets, recruitment processes, and the skills needed for future employment."
+      "name": "AI research tools comparison",
+      "count": 18,
+      "description": "Articles that directly compare different AI tools or evaluate their performance against established methods."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."

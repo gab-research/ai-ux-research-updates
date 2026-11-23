@@ -1,19 +1,19 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-11-23T07:10:57.477Z",
+  "lastUpdated": "2026-11-23T20:02:17.601Z",
   "updates": [
     {
       "date": "2026-11-22",
       "title": "Seven things AI killed while you were measuring productivity",
       "summary": "Why 80% of executives see no AI impact — and why they’re looking in the wrong place. Continue reading on UX Collective »",
-      "content": "Why 80% of executives see no AI impact — and why they’re looking in the wrong place. Continue reading on UX Collective »",
+      "content": "This article argues that many executives are failing to perceive AI's impact because they're focused on traditional productivity metrics rather than transformative potential.  It suggests AI is not just about doing existing tasks faster, but fundamentally changing how problems are solved and value is created. For UX researchers, this is crucial; we need to look beyond efficiency gains in our own processes and consider how AI enables entirely new user experiences and business models.  Understanding this shift is vital for us to proactively identify opportunities and design for the AI-augmented future, rather than reactively measuring incremental improvements.",
       "category": "AI for product management",
       "source": {
         "name": "UX Collective (Medium)",
         "url": "https://uxdesign.cc/seven-things-ai-killed-while-you-were-measuring-productivity-b4499232ac3d?source=rss----138adf9c44c---4"
       },
-      "analysis": ""
+      "analysis": "At Nubank, this article prompts us to integrate AI's transformative potential into our research, especially when exploring new product development or enhancements for existing flows like PIX transactions, loan applications, or card activation. Instead of solely measuring how much faster a researcher can transcribe interviews, we should be investigating how AI tools can help us uncover deeper user needs or predict potential issues during our onboarding process.  This means moving beyond simple efficiency metrics and focusing on how AI can unlock new levels of user understanding and innovative solutions that could redefine our offerings.\n\nResearchers should actively explore AI applications that assist in thematic analysis of user feedback across various channels, sentiment analysis of customer service interactions related to insurance claims, or even generative AI for creating early-stage design concepts. However, it's crucial to establish guardrails.  We must ensure AI-generated insights are rigorously validated through traditional qualitative methods and user testing, not treated as infallible truths.  Transparency about AI's role in our research process and its limitations is paramount, especially when communicating findings to product teams and stakeholders to manage expectations about AI's current capabilities."
     },
     {
       "date": "2026-11-21",
