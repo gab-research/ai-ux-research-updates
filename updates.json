@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-11-22T16:08:58.822Z",
+  "lastUpdated": "2026-11-23T07:10:57.477Z",
   "updates": [
+    {
+      "date": "2026-11-22",
+      "title": "Seven things AI killed while you were measuring productivity",
+      "summary": "Why 80% of executives see no AI impact — and why they’re looking in the wrong place. Continue reading on UX Collective »",
+      "content": "Why 80% of executives see no AI impact — and why they’re looking in the wrong place. Continue reading on UX Collective »",
+      "category": "AI for product management",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/seven-things-ai-killed-while-you-were-measuring-productivity-b4499232ac3d?source=rss----138adf9c44c---4"
+      },
+      "analysis": ""
+    },
     {
       "date": "2026-11-21",
       "title": "The judge used to be the user",
@@ -710,18 +722,6 @@
         "url": "https://uxdesign.cc/the-context-advantage-of-human-ux-design-thinking-39883603c337?source=rss----138adf9c44c---4"
       },
       "analysis": "At Nubank, this article's core message emphasizes the continued value of our human researchers in understanding the intricate realities of Brazilian financial life.  While AI tools can assist with data synthesis for flows like PIX transactions or card activation, our researchers must retain ownership of interpreting the *why* behind user behaviors, especially in sensitive areas like loan applications or insurance claims where cultural nuances and emotional states are paramount.  This means prioritizing in-depth qualitative interviews and ethnographic studies that capture rich contextual details, feeding these insights back into our product development cycles to ensure we're truly solving problems for our users, not just optimizing for metrics.\n\nOur researchers should leverage AI for tasks like initial sentiment analysis on user feedback or summarizing recurring themes across large datasets, freeing up their time for more impactful, context-rich work.  However, the guardrail is clear: AI-generated insights should be treated as hypotheses, not definitive truths.  Crucially, we must avoid over-reliance on AI for understanding complex user journeys, such as those in our onboarding process or when users are seeking help with account issues.  Human judgment is indispensable for navigating the unique financial anxieties and aspirations of our diverse customer base, ensuring our digital products remain empathetic and truly empowering."
-    },
-    {
-      "date": "2026-10-23",
-      "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
-      "summary": "AI saves UX practitioners time on nearly every task, yet most feel lukewarm about it: mandates, unreliable output, and inflated expectations eat the gains.",
-      "content": "The Nielsen Norman Group article \"AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings\" highlights a paradox: while AI tools demonstrably accelerate UX research tasks, the practitioners themselves exhibit a subdued reception.  This disconnect stems from several challenges including mandated AI adoption without proper training, the often unpredictable nature of AI-generated outputs requiring significant validation, and unrealistic expectations about AI's capabilities. For UX researchers at Nubank, understanding this nuance is crucial as we integrate AI to enhance efficiency, ensuring that the gains in speed don't compromise the quality or ethical integrity of our research findings, ultimately impacting user trust and product development.",
-      "category": "AI research tools",
-      "source": {
-        "name": "Nielsen Norman Group",
-        "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication"
-      },
-      "analysis": "At Nubank, this article is particularly relevant for integrating AI into our research workflows for products like PIX, loans, and card activation. Researchers can leverage AI to quickly synthesize large volumes of user feedback from channels such as app reviews or customer support transcripts, identifying common pain points or emerging trends related to onboarding or insurance claims much faster. This allows us to dedicate more time to deeper qualitative analysis and strategic recommendations, rather than getting bogged down in manual data processing.\n\nWhen applying AI, researchers should approach it as a powerful assistant, not a replacement for critical thinking. For instance, AI can generate initial affinity maps from interview notes or suggest survey questions based on a research brief for credit card applications. However, it's imperative to meticulously review and validate all AI-generated outputs, fact-checking insights against raw data and our established understanding of the Nubank user.  We must establish clear guardrails, ensuring transparency about AI's role in research and maintaining human oversight to prevent biases and inaccuracies from creeping into our studies, especially when analyzing sensitive flows like loan applications."
     }
   ]
 }
