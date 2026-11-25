@@ -1,56 +1,56 @@
 {
   "month": "2026-11",
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "themes": [
     {
-      "name": "Agentic AI in research",
-      "count": 136,
-      "description": "Articles discussing AI agents that autonomously perform research tasks, from data collection to analysis and decision-making."
+      "name": "Agentic AI research",
+      "count": 114,
+      "description": "Covers research and development related to AI agents performing tasks autonomously, including their applications, risks, and frameworks."
     },
     {
       "name": "AI coding assistants",
-      "count": 80,
-      "description": "Content focused on AI tools that assist developers in writing, reviewing, and debugging code."
-    },
-    {
-      "name": "Synthetic users",
-      "count": 59,
-      "description": "Research and discussion around AI-generated users or personas used for testing and simulation."
-    },
-    {
-      "name": "AI summarization",
-      "count": 34,
-      "description": "Articles about AI tools and techniques for condensing large amounts of text into concise summaries, like meeting notes or research papers."
+      "count": 78,
+      "description": "Focuses on AI tools that help developers write, review, debug, and manage code, including their impact and potential risks."
     },
     {
       "name": "AI research tools",
-      "count": 33,
-      "description": "Tools and platforms designed to aid researchers in various aspects of their work, from data collection to analysis."
+      "count": 67,
+      "description": "Explores AI-powered platforms and tools designed to assist researchers in various aspects of their work, from data analysis to discovery."
     },
     {
       "name": "AI chatbot research",
-      "count": 32,
-      "description": "Studies and discussions specifically on the use, impact, and research conducted using AI chatbots."
+      "count": 50,
+      "description": "Articles discussing the use, impact, and research related to AI-powered chatbots, including their applications in various domains and user interactions."
     },
     {
-      "name": "AI for design & research",
-      "count": 24,
-      "description": "Explores how AI is being applied to enhance or automate tasks within the design and user research lifecycle."
+      "name": "AI design research",
+      "count": 49,
+      "description": "Investigates how AI is being applied to the design process, including UI/UX design, generative design, and design system development."
+    },
+    {
+      "name": "AI testing automation",
+      "count": 45,
+      "description": "Covers the use of AI to automate testing processes in software development and other fields, focusing on efficiency and reliability."
+    },
+    {
+      "name": "AI summarization",
+      "count": 30,
+      "description": "Articles about AI tools that condense large amounts of text, such as meeting transcripts, earnings calls, and research papers, into concise summaries."
     },
     {
       "name": "AI usability testing",
-      "count": 19,
-      "description": "Focuses on AI's role in automating or augmenting the process of testing product usability."
+      "count": 21,
+      "description": "Focuses on the evaluation of AI systems and AI-powered products for their usability, including user experiences and trust."
     },
     {
-      "name": "AI sentiment feedback",
-      "count": 23,
-      "description": "Content related to AI's ability to analyze and extract sentiment from user feedback, reviews, and social media."
+      "name": "Synthetic users",
+      "count": 19,
+      "description": "Discusses the creation and use of artificial or simulated users for research, testing, and training purposes in AI and other contexts."
     },
     {
       "name": "AI qualitative research",
-      "count": 17,
-      "description": "Articles discussing the application of AI in qualitative research methods, such as analyzing interviews or open-ended responses."
+      "count": 19,
+      "description": "Examines how AI is being used to assist with or conduct qualitative research, including interviews and thematic analysis."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
