@@ -1,8 +1,44 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-11-25T00:32:48.046Z",
+  "lastUpdated": "2026-11-25T18:35:30.883Z",
   "updates": [
+    {
+      "date": "2026-11-25",
+      "title": "Food Delivery & Takeout Quantitative UX: 3 High-Level Takeaways from 40+ Charts",
+      "summary": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) Key Stats & Takeaways 40+ new insights on Food Delivery & Takeout shopper habits and preferenc...",
+      "content": "This Baymard Institute article delves into quantitative UX findings from the food delivery and takeout industry, presenting over 40 key insights derived from extensive data analysis.  The core idea revolves around understanding user behavior and preferences within this specific e-commerce vertical, highlighting actionable data points that can significantly impact conversion rates and user satisfaction. For UX researchers, this underscores the importance of leveraging quantitative data to validate qualitative hypotheses and identify statistically significant pain points or opportunities within digital product flows, particularly in competitive markets where small improvements can yield substantial gains.",
+      "category": "General AI in research",
+      "source": {
+        "name": "Baymard Institute",
+        "url": "https://feeds.baymard.com/link/9825/17540170/food-delivery-and-takeout-quantitative-ux-insights-2026"
+      },
+      "analysis": "This article provides a valuable framework for how Nubank researchers can leverage quantitative UX data, moving beyond our strong qualitative insights. For instance, when refining the onboarding flow or optimizing the PIX payment experience, we can look for similar large-scale, data-driven patterns in user behavior. This means actively seeking out quantitative benchmarks for key task completion rates, error frequencies, and time-on-task within our core products, akin to Baymard's approach in food delivery.  Researchers should integrate this quantitative perspective into their existing workflow by establishing clear metrics for success in user testing and post-launch analysis, not just relying on observation and interviews.\n\nTo apply this effectively, Nubank researchers should focus on identifying areas where quantitative data can validate or challenge qualitative findings. For example, after a round of interviews about card activation, we could then look at activation time and success rates across different user segments to identify potential bottlenecks at scale. Similarly, understanding quantitative drivers of success in loan application completion could inform future iteration on our credit product interfaces.  It's crucial to remember that while quantitative data reveals 'what' users do, qualitative research remains essential for understanding 'why.' Therefore, this approach should augment, not replace, our existing qualitative methods, ensuring a holistic understanding of user needs and behaviors across all Nubank services, from insurance claims to daily banking interactions."
+    },
+    {
+      "date": "2026-11-25",
+      "title": "IA e teste de usabilidade: acelerar sem amplificar os erros",
+      "summary": "IA e teste de usabilidade: acelerar sem amplificar os erros",
+      "content": "This article from UX Collective Brasil explores the burgeoning role of AI in usability testing, emphasizing its potential to significantly accelerate the research process. The core idea is that AI can automate repetitive tasks, analyze large datasets, and identify usability issues more efficiently than traditional methods. For UX researchers at Nubank, this is crucial for keeping pace with product development cycles and delivering high-quality user experiences across a vast range of services like PIX, loans, and onboarding. The practical implication is that by leveraging AI, researchers can dedicate more time to strategic thinking, in-depth qualitative insights, and iterative design improvements, ultimately leading to better products without compromising the quality of findings.",
+      "category": "General AI in research",
+      "source": {
+        "name": "UX Collective Brasil",
+        "url": "https://brasil.uxdesign.cc/ia-e-teste-de-usabilidade-acelerar-sem-amplificar-os-erros-bdd9408076b0?source=rss----6f71781500a4---4"
+      },
+      "analysis": "At Nubank, integrating AI into usability testing can dramatically streamline our research workflow, particularly for high-volume areas like the onboarding flow for new customers or identifying friction points in PIX transactions. Researchers can use AI tools to automatically transcribe user interviews, analyze sentiment in open-ended survey responses, and even flag potential usability issues in early-stage prototypes before significant development investment. This frees up valuable researcher time to conduct more in-depth generative research or focus on complex flows like loan applications and insurance policy management.\n\nWhen applying AI, it's vital to maintain a critical and human-centric approach. AI should be viewed as an assistant, not a replacement for human judgment. Researchers must rigorously validate AI-generated insights, especially for nuanced user behaviors or cultural contexts specific to Brazil. For example, while AI might detect a common pattern in card activation issues, a human researcher's empathy and understanding of local financial habits are essential to uncovering the root cause and proposing the most effective solutions. We should establish clear guidelines for data privacy and security when using external AI tools and prioritize in-house or heavily vetted solutions for sensitive user data."
+    },
+    {
+      "date": "2026-11-25",
+      "title": "What UX Tasks Will AI Be Able to Do, and When?",
+      "summary": "AI masters UX tasks in order of how cheaply their results can be verified. Hard-to-verify work improves just as fast as easy work; it simply starts later. By 2030, AI will beat humans at every UX task with a checkable result, leaving people two jobs: deciding what’s worth doin...",
+      "content": "Jakob Nielsen's insightful article posits that AI's advancement in UX research will be driven by the ease of verifying its outputs. Tasks with readily quantifiable or objectively checkable results will be the first to be mastered by AI, with more subjective and complex areas following suit as verification methods evolve. This shift has profound implications for UX researchers, suggesting a future where AI handles routine data analysis and even initial design explorations, freeing up human expertise for higher-level strategic thinking and problem-solving. The practical takeaway is that UX professionals need to anticipate this evolution and focus on developing skills that complement, rather than compete with, AI's capabilities, particularly in areas requiring nuanced human judgment and creativity.",
+      "category": "AI workforce impact",
+      "source": {
+        "name": "Jakob Nielsen (Substack)",
+        "url": "https://jakobnielsenphd.substack.com/p/ai-ux-progress-rate"
+      },
+      "analysis": "At Nubank, this foresight means integrating AI tools into our existing research workflows, starting with tasks that yield easily verifiable results. For instance, AI could rapidly analyze large datasets of user feedback from our PIX transactions or loan applications, identifying common pain points or sentiment trends that currently require significant manual effort. Similarly, for card activation or onboarding flows, AI could generate initial hypotheses about usability issues based on logged user interactions, which our researchers can then validate with qualitative methods. This allows us to accelerate hypothesis generation and dedicate more time to deeper, contextual understanding.\n\nResearchers should actively explore and pilot AI-powered tools for tasks like summarizing open-ended survey responses, generating initial persona drafts, or even performing basic A/B test analysis on our insurance product pages. The key is to treat AI as a powerful assistant, not a replacement. We must maintain critical oversight, ensuring AI-generated insights align with our user-centric principles and ethical guidelines. Limitations include AI's current struggle with truly novel ideation, deep empathy, and understanding the complex socio-cultural nuances that are crucial to serving our diverse Brazilian customer base, especially in highly personal flows like credit card issuance or investment onboarding. Our role remains to define the research questions, interpret findings within the broader business context, and champion the human element in all our design decisions."
+    },
     {
       "date": "2026-11-24",
       "title": "Designing for the AI agent customer",
@@ -17,7 +53,7 @@
     },
     {
       "date": "2026-11-24",
-      "title": "Beyond the Pixel: Reclaiming Design as a Reflective Practice",
+      "title": "Beyond the craft: Reclaiming Design as a Reflective Practice",
       "summary": "Why reflective thinking in and on design action, not faster execution, is our real edge in the age of AI. Continue reading on UX Collective »",
       "content": "This article argues that in an era increasingly dominated by AI-driven efficiency, the true differentiator for UX researchers lies in cultivating a deep, reflective practice.  Instead of solely focusing on accelerating design output, the piece emphasizes the importance of \"thinking in and on design action\" – critically examining the 'why' behind design decisions, understanding user motivations at a deeper level, and questioning assumptions. For UX researchers at Nubank, this means prioritizing introspection and critical analysis over mere speed, ensuring that our AI-assisted tools serve to augment thoughtful, human-centered design rather than replace it. The practical implication is to embed dedicated time for reflection within research sprints, fostering a culture where questioning and critical evaluation are as valued as rapid iteration.",
       "category": "AI workforce impact",
