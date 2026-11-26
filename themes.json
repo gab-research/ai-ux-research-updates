@@ -1,56 +1,56 @@
 {
   "month": "2026-11",
-  "updated": "2026-11-25",
+  "updated": "2026-11-26",
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 35,
-      "description": "Articles discussing AI agents that can autonomously conduct research tasks, interact with systems, and generate insights."
-    },
-    {
-      "name": "AI coding assistants",
-      "count": 33,
-      "description": "Focuses on AI tools that assist developers with writing, reviewing, debugging, and managing code."
-    },
-    {
-      "name": "AI summarization",
-      "count": 26,
-      "description": "Content about AI capabilities for condensing large amounts of text, such as transcripts, reports, and articles, into concise summaries."
+      "count": 49,
+      "description": "Focuses on AI agents performing research tasks autonomously or with minimal human intervention, including tasks like data analysis, literature reviews, and scientific discovery."
     },
     {
       "name": "AI research tools",
-      "count": 25,
-      "description": "Articles detailing various AI platforms and software designed to aid researchers in data analysis, literature review, and discovery."
+      "count": 43,
+      "description": "Covers a broad range of AI-powered tools specifically designed to aid in various research processes, from data collection and analysis to literature discovery and synthesis."
     },
     {
-      "name": "AI chatbot research",
-      "count": 25,
-      "description": "Studies and discussions on the use, impact, and user experiences with AI chatbots, particularly in areas like information seeking and health."
-    },
-    {
-      "name": "AI sentiment feedback",
+      "name": "AI summarization",
       "count": 24,
-      "description": "Covers AI applications for analyzing customer feedback, reviews, and social media to gauge sentiment and identify key themes."
+      "description": "Articles discussing AI's ability to condense large amounts of text, such as meeting transcripts, research papers, or earnings calls, into concise summaries."
+    },
+    {
+      "name": "AI coding assistants",
+      "count": 24,
+      "description": "Focuses on AI tools that assist developers in writing, debugging, reviewing, and optimizing code."
+    },
+    {
+      "name": "Synthetic users",
+      "count": 20,
+      "description": "Explores the creation and use of simulated users or personas for testing and research purposes, often leveraging AI to generate realistic behaviors or data."
+    },
+    {
+      "name": "AI usability testing",
+      "count": 19,
+      "description": "Covers the application of AI in automating or augmenting the process of evaluating the usability of products and interfaces."
     },
     {
       "name": "AI design research",
       "count": 18,
-      "description": "Explores how AI is integrated into the design process, including UI prototyping, generating design concepts, and analyzing design effectiveness."
+      "description": "Examines how AI is being used to inform and enhance the design process, from user research to ideation and prototyping."
     },
     {
-      "name": "AI product research",
+      "name": "AI customer insights",
       "count": 17,
-      "description": "Articles focusing on AI's role in product development, testing, automation, and market analysis."
+      "description": "Articles focused on AI's role in extracting and analyzing customer data to generate actionable insights for product and business strategies."
     },
     {
-      "name": "AI research tools comparison",
-      "count": 16,
-      "description": "Content that directly compares different AI research tools, models, or platforms based on features, accuracy, or performance."
+      "name": "AI for product management",
+      "count": 13,
+      "description": "Discusses how AI tools and techniques are applied to various aspects of product management, including strategy, development, and user feedback analysis."
     },
     {
-      "name": "Synthetic users",
-      "count": 15,
-      "description": "Discusses the creation and use of AI-generated synthetic data or simulated users for research and testing purposes."
+      "name": "AI qualitative research",
+      "count": 13,
+      "description": "Covers the use of AI in analyzing and understanding qualitative data, such as interview transcripts or open-ended survey responses."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
