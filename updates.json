@@ -1,7 +1,7 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-11-26T07:56:04.523Z",
+  "lastUpdated": "2026-11-26T18:19:46.892Z",
   "updates": [
     {
       "date": "2026-11-25",
@@ -722,30 +722,6 @@
         "url": "https://openai.com/ads/customers/evernote"
       },
       "analysis": "At Nubank, this approach can be integrated into our user acquisition and early-stage user research workflows. When launching new features or seeking feedback on existing ones, particularly in areas like PIX transactions or loan applications, we can explore AI-driven advertising platforms to identify users who have demonstrated interest or activity related to financial technology or emerging digital solutions. This allows for more informed recruitment of participants for usability studies or early access programs, ensuring we gather feedback from a highly relevant segment.\n\nResearchers should consider using AI-powered ad platforms not just for recruitment, but also to understand user pain points and unmet needs by analyzing conversations and content within AI-centric communities. This can inform the discovery phase of research, helping us identify opportunities for product innovation, such as improving the onboarding experience for new accounts or refining the process for card activation. However, it's crucial to establish guardrails around data privacy and ethical AI use, ensuring that our targeting is transparent and respects user consent, and to cross-reference findings from AI-driven discovery with traditional research methods to avoid bias and ensure comprehensive understanding."
-    },
-    {
-      "date": "2026-10-27",
-      "title": "AI Engagement Quantitative UX: 2 High-Level Takeaways from 20+ Charts",
-      "summary": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) Key Stats & Takeaways 20+ new insights on the influence of AI on shopper habits and preference...",
-      "content": "(Note: Unfortunately, e-mail and RSS don’t support advanced layouts and features. If the graphics in this article look strange, you may want to read the article in your web browser.) Key Stats & Takeaways 20+ new insights on the influence of AI on shopper habits and preferences 2,273 US online shoppers surveyed in this quantitative UX study While shoppers are rapidly adopting AI for product discovery, critical hesitation remains around accuracy, imagery, and purchasing authority, making transparent design and easy fact-checking essential for retailers We’ve released new Quantitative Insights into the perceptions and usage of AI tools in ecommerce, adding to our growing body of data on the habits and preferences of online shoppers. These insights are survey-based data visualizations that complement and deepen our large-scale UX research findings of shoppers’ AI engagement. The 20+ insights address the use of AI in the online shopping experience, spanning a breadth of topics: product research entry points, AI feature usage and interest, trust and privacy concerns, perceived accuracy of AI content, confidence in AI-generated images, AI purchasing authority limits, preferences for A...",
-      "category": "AI summarization",
-      "source": {
-        "name": "Baymard Institute",
-        "url": "https://feeds.baymard.com/link/9825/17507452/ai-engagement-quantitative-ux-insights-2026"
-      },
-      "analysis": "At Nubank, this article's insights can significantly enhance our quantitative UX research. Researchers should integrate AI engagement metrics into existing studies, particularly for flows like credit card activation, PIX transactions, or loan applications. By analyzing how AI features (e.g., personalized product offers, fraud detection nudges) influence user progression and completion rates, we can identify friction points and opportunities for optimization. This data can also inform A/B testing strategies for new AI-powered features, ensuring they demonstrably improve user outcomes and drive business goals.\n\nWhen applying these findings, it's essential to maintain a user-centric approach and avoid solely relying on AI-driven metrics. While AI can reveal engagement patterns, our qualitative research remains vital for understanding the 'why' behind user behavior and ensuring ethical AI implementation. Researchers should act as a bridge, translating quantitative AI engagement data into actionable design recommendations while safeguarding against potential biases or negative user experiences, especially in sensitive areas like insurance or onboarding for new customers."
-    },
-    {
-      "date": "2026-10-27",
-      "title": "Retell uses OpenAI models to help power 100M monthly calls",
-      "summary": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
-      "content": "This OpenAI Blog article highlights Retell's successful integration of OpenAI's advanced language models, specifically GPT-6 Astra and Codex, to significantly enhance their voice agent capabilities.  By leveraging these AI tools, Retell has achieved impressive scalability, processing 100 million calls monthly and demonstrating a remarkable revenue efficiency.  For UX researchers, this signifies the growing potential of AI to not only automate but also elevate user interactions within voice interfaces, moving beyond basic conversational agents to more sophisticated and effective communication tools that can drive business value.",
-      "category": "AI tool evaluation",
-      "source": {
-        "name": "OpenAI Blog",
-        "url": "https://openai.com/index/retell-ai"
-      },
-      "analysis": "At Nubank, Retell's success with OpenAI models presents an exciting opportunity to enhance our customer support and product interaction journeys, particularly within our voice channels.  Researchers can explore integrating similar AI capabilities to power more intuitive and efficient customer service interactions for services like PIX transfers, loan inquiries, or even complex card activation processes.  Imagine an AI assistant that can intelligently guide a customer through a loan application or proactively offer support during onboarding, reducing friction and improving satisfaction.\n\nTo apply this, we should pilot AI-powered voice agents for specific use cases, starting with high-volume, lower-complexity interactions. This could involve using AI to summarize customer issues, pre-emptively answer FAQs related to insurance claims, or assist with initial troubleshooting for app features before escalating to a human agent. Crucially, we must establish clear guardrails: ensuring data privacy and security are paramount, maintaining transparency with customers about AI interaction, and rigorously testing for bias and accuracy to ensure these tools genuinely improve, not detract from, the Nubank experience.  This integration should augment, not replace, our human touch, especially for sensitive processes like account security or complex financial advice."
     }
   ]
 }

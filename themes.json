@@ -4,53 +4,53 @@
   "themes": [
     {
       "name": "Agentic AI in research",
-      "count": 49,
-      "description": "Focuses on AI agents performing research tasks autonomously or with minimal human intervention, including tasks like data analysis, literature reviews, and scientific discovery."
-    },
-    {
-      "name": "AI research tools",
-      "count": 43,
-      "description": "Covers a broad range of AI-powered tools specifically designed to aid in various research processes, from data collection and analysis to literature discovery and synthesis."
-    },
-    {
-      "name": "AI summarization",
-      "count": 24,
-      "description": "Articles discussing AI's ability to condense large amounts of text, such as meeting transcripts, research papers, or earnings calls, into concise summaries."
+      "count": 79,
+      "description": "Articles focusing on AI agents that can perform research tasks autonomously or semi-autonomously."
     },
     {
       "name": "AI coding assistants",
-      "count": 24,
-      "description": "Focuses on AI tools that assist developers in writing, debugging, reviewing, and optimizing code."
+      "count": 63,
+      "description": "Discussions and research around AI tools that assist developers in writing, reviewing, and debugging code."
+    },
+    {
+      "name": "AI summarization",
+      "count": 34,
+      "description": "Content related to AI tools that summarize text, audio, or video, such as meeting notes or research papers."
+    },
+    {
+      "name": "AI chatbot research",
+      "count": 32,
+      "description": "Studies and analyses on the use, impact, and behavior of AI chatbots in various contexts, including research and user interaction."
+    },
+    {
+      "name": "AI usability testing",
+      "count": 23,
+      "description": "Articles discussing the application of AI in testing the usability of products, systems, or AI interfaces themselves."
+    },
+    {
+      "name": "AI research tools",
+      "count": 21,
+      "description": "An overview of AI tools specifically designed to aid researchers in their work, from data collection to analysis."
     },
     {
       "name": "Synthetic users",
       "count": 20,
-      "description": "Explores the creation and use of simulated users or personas for testing and research purposes, often leveraging AI to generate realistic behaviors or data."
-    },
-    {
-      "name": "AI usability testing",
-      "count": 19,
-      "description": "Covers the application of AI in automating or augmenting the process of evaluating the usability of products and interfaces."
+      "description": "Content related to the creation and use of simulated users or data for AI training, testing, and research."
     },
     {
       "name": "AI design research",
       "count": 18,
-      "description": "Examines how AI is being used to inform and enhance the design process, from user research to ideation and prototyping."
+      "description": "Articles focusing on how AI is being used to inform and execute design processes, including UI/UX design."
     },
     {
-      "name": "AI customer insights",
-      "count": 17,
-      "description": "Articles focused on AI's role in extracting and analyzing customer data to generate actionable insights for product and business strategies."
-    },
-    {
-      "name": "AI for product management",
+      "name": "AI workforce impact",
       "count": 13,
-      "description": "Discusses how AI tools and techniques are applied to various aspects of product management, including strategy, development, and user feedback analysis."
+      "description": "Research and discussions on how AI is affecting jobs, hiring, and the overall workforce landscape."
     },
     {
-      "name": "AI qualitative research",
+      "name": "AI research platform",
       "count": 13,
-      "description": "Covers the use of AI in analyzing and understanding qualitative data, such as interview transcripts or open-ended survey responses."
+      "description": "Discussions about platforms that integrate AI capabilities to facilitate research activities."
     }
   ],
   "note": "Themes identified by analyzing articles from curated sources, Google News, HackerNews, and DEV.to this month."
