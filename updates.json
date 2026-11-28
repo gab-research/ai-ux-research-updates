@@ -1,8 +1,20 @@
 {
   "title": "AI for UX Research",
   "subtitle": "Daily updates on AI applications improving UX research efficiency",
-  "lastUpdated": "2026-11-28T07:26:39.138Z",
+  "lastUpdated": "2026-11-28T16:46:21.506Z",
   "updates": [
+    {
+      "date": "2026-11-28",
+      "title": "How I cut the code Claude writes by up to 16× and 97% per coded section",
+      "summary": "My story of building human-led process in design. Continue reading on UX Collective »",
+      "content": "This article details a designer's journey in leveraging AI, specifically Claude, to significantly reduce the amount of code required for design prototyping and development workflows. The core idea is that AI can generate a substantial portion of boilerplate code, allowing human designers to focus on higher-level creative problem-solving and refinement. For UX researchers, this is a game-changer as it can accelerate the creation of interactive prototypes for user testing, enabling faster iteration cycles and more comprehensive validation of design concepts before substantial engineering investment.  The practical implication is the potential to democratize advanced prototyping, making it accessible to more researchers and thus improving the speed and quality of user insights.",
+      "category": "AI coding assistants",
+      "source": {
+        "name": "UX Collective (Medium)",
+        "url": "https://uxdesign.cc/how-i-cut-claude-tokens-by-up-to-95-in-product-design-and-improved-design-quality-d9dc7cec148f?source=rss----138adf9c44c---4"
+      },
+      "analysis": "At Nubank, this approach can be integrated into our early-stage user research for features like PIX transaction flows or the card activation process. Researchers could use Claude to quickly generate functional prototypes for testing complex interactions, such as a new loan application interface or an insurance policy setup. Instead of relying solely on static mockups or extensive hand-coding, researchers could present interactive prototypes that better simulate the user experience, gathering more nuanced feedback on usability and clarity.\n\nTo apply this, researchers should identify specific areas in existing or new product flows where interactive fidelity is crucial for testing. For instance, when exploring improvements to the onboarding experience or a new feature within the credit card management section, researchers can outline the desired interactions and prompt Claude to generate the underlying code. This dramatically speeds up the prototyping phase, allowing for more user testing cycles before handing off to engineering. It's crucial, however, to establish clear guidelines for reviewing and refining Claude's output. Researchers must treat AI-generated code as a starting point, thoroughly testing its functionality, security implications, and adherence to Nubank's design system and accessibility standards before deeming it ready for user validation. This ensures that the speed gained doesn't compromise the quality or security of our user-facing products."
+    },
     {
       "date": "2026-11-25",
       "title": "IA e teste de usabilidade: acelerar sem amplificar os erros",
